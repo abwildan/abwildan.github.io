@@ -1,0 +1,58 @@
+baseURL: "https://github.com/abwildan/abwildan.github.io/"
+languageCode: 'en-US'
+title: "Wildan's Workspace"
+theme: 'papermod'
+enableInlineShortCodes: false
+
+params:
+  author: "Wildan"
+  profileMode:
+    enabled: true
+    title: "Hello World!"
+    subtitle: "Linux Ricer, Cyber Security Enthusiast, Data Analyst, AI Admirer"
+      #imageUrl: "https://www.nautiljon.com/images/perso/00/45/fujii_tsukasa_14054.webp"
+    imageUrl: "tsukasa.png"
+    imageWidth: 120
+    imageHeight: 120
+    buttons:
+      - name: Whoami
+        url: "post/first"
+    
+  socialIcons:
+    - name: twitter
+      url: "https://twitter.com/kutukojing"
+    - name: tiktok
+      url: "https://tiktok.com/@kutugadget"
+    - name: instagram
+      url: "https://instagram.com/abdwildan.u"
+  
+  cover:
+    linkFullImages: true
+  
+  ShowReadingTime: true
+  ShowShare Buttons: true
+  ShowToc: true
+  ShowBreadCrumbs: true
+  ShowPostNavLinks: false
+  ShowCodeCopyButtons: true
+
+menu:
+  main:
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20
+    - identifier: archives
+      name: Archives
+      url: /archives/
+      weight: 30
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # is necessary

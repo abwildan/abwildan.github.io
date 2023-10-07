@@ -16,7 +16,7 @@ params:
     imageHeight: 120
     buttons:
       - name: Whoami
-        url: "post/first"
+        url: "post/whoami"
     
   socialIcons:
     - name: twitter
@@ -33,7 +33,7 @@ params:
   ShowShare Buttons: true
   ShowToc: true
   ShowBreadCrumbs: true
-  ShowPostNavLinks: false
+  ShowPostNavLinks: true
   ShowCodeCopyButtons: true
 
 menu:

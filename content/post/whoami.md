@@ -3,9 +3,9 @@ title: "😃 About Me"
 date: 2023-10-07T13:17:32+07:00
 draft: false
 cover:
-  image: 
+  image: telyu.jpg
   alt: ''
-  caption: ''
+  caption: 'Telkom University Landmark Tower'
 tags: ["introduction"]
 categories: ["whoami"]
 ---

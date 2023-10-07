@@ -30,7 +30,7 @@ params:
     linkFullImages: true
   
   ShowReadingTime: true
-  ShowShare Buttons: true
+  ShowShareButtons: true
   ShowToc: true
   ShowBreadCrumbs: true
   ShowPostNavLinks: true

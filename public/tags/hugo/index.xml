@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on Wildan&#39;s Workspace</title>
-    <link>https://github.com/abwildan/abwildan.github.io/post/</link>
-    <description>Recent content in Posts on Wildan&#39;s Workspace</description>
+    <title>hugo on Wildan&#39;s Workspace</title>
+    <link>https://github.com/abwildan/abwildan.github.io/tags/hugo/</link>
+    <description>Recent content in hugo on Wildan&#39;s Workspace</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sat, 07 Oct 2023 15:26:34 +0700</lastBuildDate><atom:link href="https://github.com/abwildan/abwildan.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 07 Oct 2023 15:26:34 +0700</lastBuildDate><atom:link href="https://github.com/abwildan/abwildan.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo-ing (from Zero to Hero)</title>
       <link>https://github.com/abwildan/abwildan.github.io/post/hugo-ing/</link>
@@ -18,18 +18,6 @@ Secara teknis, Hugo adalah static site generator. 1
 Secara umum, website dibagi 2: dynamic &amp;amp; static site dan itu disesuaikan dengan kebutuhan atau tujuan dibuatnya website tersebut. Tapi, umumnya, static site memang banyak digunakan sebagai:
 Personal blog posts Documentasi pages Portofolio pages, dan lain sebagainya. Instalasi Hugo Hugo dapat diinstal di sistem operasi apapun, Windows, Mac, atau Linux dapat menginstall Hugo.</description>
     </item>
-    
-    <item>
-      <title>😃 About Me</title>
-      <link>https://github.com/abwildan/abwildan.github.io/post/whoami/</link>
-      <pubDate>Sat, 07 Oct 2023 13:17:32 +0700</pubDate>
-      
-      <guid>https://github.com/abwildan/abwildan.github.io/post/whoami/</guid>
-      <description>Hello there!
-My name is Wildan and I am a master of communication student at Telkom University. My research interests are in human resources, health communication, and social network analysis.
-In my free time, I usually play sports (badminton and running) and do my hobbies (journaling and linux-ing). The linux distro that I use as my daily driver is Kali Linux. This is my desktop look like:</description>
-    </item>
-    
     
   </channel>
 </rss>

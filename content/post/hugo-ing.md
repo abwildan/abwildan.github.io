@@ -3,7 +3,7 @@ title: "Hugo-ing (from Zero to Hero)"
 date: 2023-10-07T15:26:34+07:00
 draft: false
 cover:
-  image: hugo-page.png
+  image: "hugo-page.png"
   alt: ''
   caption: "Hugo Website"
 tags: ["hugo"]

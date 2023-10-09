@@ -182,7 +182,14 @@ menu:
       weight: 30
 ```
 
+Kalau sudah selesai, jangan lupa commit ke repo lokal dan push ke Github:
 
+```bash
+git status
+git add .
+git commit -m "change configuration"
+git push
+```
 
 [^1]: https://gohugo.io/getting-started/configuration/
 [^2]: https://github.com/adityatelange/hugo-PaperMod/wiki/Features#profile-mode

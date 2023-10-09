@@ -117,7 +117,7 @@ hugo new post/postingan-pertama.md
 Hugo akan membuat file baru bernama **postingan-pertama.md** di direktori content/post. Buka file tersebut.
 ![ss4](/Hugo-ing/ss4.png)
 
-Yang perlu diperhatikan adalah *value* dari draft adalah *true*. Secara default, Hugo tidak mem-*publish* konten yang masih berbentuk draft ketika kita mem-*build* website-nya nanti.Jadi, jika kita ingin konten tersebut terpublikasikan, kita hanya perlu mengganti *value draft* tadi ke *false*.
+Yang perlu diperhatikan adalah *value* dari draft adalah ``true``. Secara default, Hugo tidak mem-*publish* konten yang masih berbentuk draft ketika kita mem-*build* website-nya nanti.Jadi, jika kita ingin konten tersebut terpublikasikan, kita hanya perlu mengganti *value draft* tadi ke ``false``.
 
 Berikutnya, silakan tambahkan isi postingan tersebut dengan [*syntax* markdown](https://www.markdownguide.org/cheat-sheet/). Misalnya, saya akan tambahkan 
 

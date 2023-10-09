@@ -152,7 +152,7 @@ params:
     ShowCodeCopyButtons: true # Adds a copy button in code block to copy the code it contains
 ```
 
-### Menambahkan fitur *Author* di postingan
+### Tips 9: Menambahkan fitur *Author* di postingan
 Untuk menampilkan fitur *Author* di postingan, tambahkan baris kode berikut:
 ![ss12](/Hugo-Advanced/ss12.png)
 
@@ -161,7 +161,7 @@ params:
   author: "Wildan" # Add author
 ```
 
-### Menambahkan fitur menu-menu (*categories, tags, archives*)
+### Tips 10: Menambahkan fitur menu-menu (*categories, tags, archives*)
 Untuk menampilkan fitur menu di postingan, tambahkan baris kode berikut:
 ![ss13](/Hugo-Advanced/ss13.png)
 

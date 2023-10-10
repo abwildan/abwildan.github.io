@@ -66,12 +66,12 @@ Secara umum, website dibagi 2: dynamic &amp; static site dan itu disesuaikan den
 Personal blog posts Documentasi pages Portofolio pages, dan lain sebagainya. Instalasi Hugo Hugo dapat diinstal di sistem operasi apapun, Windows, Mac, atau Linux dapat menginstall Hugo." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://github.com/abwildan/abwildan.github.io/post/hugo-ing/" />
-<meta property="og:image" content="https://github.com/abwildan/abwildan.github.io/hugo-page.png" /><meta property="article:section" content="post" />
+<meta property="og:image" content="https://github.com/Hugo-ing/hugo-page.png" /><meta property="article:section" content="post" />
 <meta property="article:published_time" content="2023-10-07T15:26:34+07:00" />
 <meta property="article:modified_time" content="2023-10-07T15:26:34+07:00" />
 
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:image" content="https://github.com/abwildan/abwildan.github.io/hugo-page.png" />
+<meta name="twitter:image" content="https://github.com/Hugo-ing/hugo-page.png" />
 <meta name="twitter:title" content="Hugo-ing (from Zero to Hero)"/>
 <meta name="twitter:description" content="Membuat Website via Hugo Pengenalan singkat tentang Hugo Hugo adalah framework yang memungkinkan setiap orang untuk membuat dan mengelola website mereka.
 Secara teknis, Hugo adalah static site generator. 1
@@ -112,7 +112,7 @@ Personal blog posts Documentasi pages Portofolio pages, dan lain sebagainya. Ins
   "articleBody": "Membuat Website via Hugo Pengenalan singkat tentang Hugo Hugo adalah framework yang memungkinkan setiap orang untuk membuat dan mengelola website mereka.\nSecara teknis, Hugo adalah static site generator. 1\nSecara umum, website dibagi 2: dynamic \u0026 static site dan itu disesuaikan dengan kebutuhan atau tujuan dibuatnya website tersebut. Tapi, umumnya, static site memang banyak digunakan sebagai:\nPersonal blog posts Documentasi pages Portofolio pages, dan lain sebagainya. Instalasi Hugo Hugo dapat diinstal di sistem operasi apapun, Windows, Mac, atau Linux dapat menginstall Hugo. Tapi, kali ini, karena saya menggunakan Linux sebagai sistem operasi dasar, maka saya hanya akan membatasi instalasi Hugo di Linux saja.\nLinux Untuk instalasi Hugo di Linux, kita hanya perlu mengetikkan beberapa perintah di terminal sebagai berikut:\nDebian/Ubuntu-based\nsudo apt install hugo Fedora-based\nsudo dnf install hugo Arch-based\nsudo pacman -S install hugo Untuk distro Linux lainnya yang non-Debian/Arch/Fedora-based, tinggal menyesuaikan dengan package manager yang ada di distro tersebut. Yang jelas, yang harus dipastikan adalah bahwa program Hugo yang akan diinstal tersebut tersedia di official repository masing-masing distro.\nSetelah proses instalasi selesai, kita dapat memastikan program Hugo sudah terinstall di sistem kita dengan melihat berapa versi Hugo tersebut, melalui perintah berikut:\nhugo version Kebetulan di laptop saya, versi yang terinstall adalah Hugo v0.113.0. Bikin Hugo-site (lima menit) Tutorial ini akan terbagi menjadi 4 bagian, yaitu Membuat website,menambahkan konten, mengkonfigurasi website, mempublikasikan website2.\nSebagai prasyarat keberhasilan, versi Hugo yang terinstall harus yang extended edition, v0.112.0 atau yang terbaru.\nKita akan banyak menggunakan perintah atau command via terminal untuk mengoperasikan Hugo. Pengetahuan tentang basic git juga diperlukan.\n1. Membuat website Secara sederhana, hanya 6 perintah yang diperlukan untuk menciptakan website Hugo sebagai berikut:\nhugo new site quickstart cd quickstart git init git submodule add https://github.com/adityatelange/hugo-PaperMod.git themes/papermod echo \"theme = 'papermod'\" \u003e\u003e hugo.toml hugo server Berikut adalah penjelasan baris perbaris dari kumpulan perintah tersebut:\nhugo new site quickstart digunakan untuk membuat struktur direktori (directory structure) website kita yang tersimpan dalam folder/direktory quickstart. cd quickstart masuk ke direktori quickstart yang baru saja dibuat.\ngit init menginisialisasi direktori quickstart sebagai direktori git.\ngit submodule add https://github.com/adityatelange/hugo-PaperMod.git themes/papermod mengkloning tema papermod ke direktori themes, dan menambahkannya sebagai git submodule di project kita.\necho \"theme = 'papermod'\" \u003e\u003e hugo.toml menambahkan tema papermod di file konfigurasi website, hugo.toml.\nhugo server memulai Hugo development server. Default server-nya ada di localhost port 1313. Tekan Ctrl+c untuk menyetop development server-nya.\nTampilan website Hugo yang baru saja kita buat dengan tema papermod: 2. Menambahkan konten Untuk menambahkan page baru untuk website Hugo, kita dapat mengetikkan perintah berikut:\nhugo new post/postingan-pertama.md Hugo akan membuat file baru bernama postingan-pertama.md di direktori content/post. Buka file tersebut. Yang perlu diperhatikan adalah value dari draft adalah true. Secara default, Hugo tidak mem-publish konten yang masih berbentuk draft ketika kita mem-build website-nya nanti.Jadi, jika kita ingin konten tersebut terpublikasikan, kita hanya perlu mengganti value draft tadi ke false.\nBerikutnya, silakan tambahkan isi postingan tersebut dengan syntax markdown. Misalnya, saya akan tambahkan\n## Pengenalan Halo! Ini adalah teks **tebal**, dan ini adalah teks *miring*. Tutorial belajar Hugo bisa langsung ke website [Hugo](https://gohugo.io) ya! Simpan filenya, kemudian kita dapat memulai server development Hugo-nya dengan perintah berikut (terutama untuk menampilkan file yang masih berupa draft):\nhugo server --buildDraft hugo server -D 3. Mengkonfigurasi website Untuk mengkonfigurasi website, kita dapat membuka file konfigurasi (hugo.toml) di direktory ‘root’ proyek Hugo kita. baseURL = 'http://example.org/' languageCode = 'en-us' title = 'My New Hugo Site' theme = 'papermod' Kita dapat mengubah value baseURL ke alamat URL dimana kita akan meng-hosting website Hugo kita. Misalnya, saya akan mengganti value baseURL-nya ke ‘https://abwildan.github.io/' karena nanti saya akan mem-publikasikan website hugo ini di Github. Tapi, untuk sementara, karena kita belum akan mempublikasikan website kita ke manapun, jadi, kita akan meng-comment variabel baseURL ini.\nBegitu juga dengan variabel title, kita dapat mengganti value-nya dengan apapun karena itu yang akan menjadi judul website kita dan tampil di pojok kiri atas website. Misalnya, saya akan ganti judul website-nya dengan ‘Website Wildan’.\nUntuk melihat perubahan yang sudah dibuat, silakan di-save, dan jalankan perintah seperti sebelumnya:\nhugo server -D Maka, semua perubahan tadi akan tampak sebagai berikut:\n#baseURL = 'https://abwildan.github.io' languageCode = 'en-us' title = 'Website Wildan' theme = 'papermod' 4. Mempublikasikan website Ketika kita memublikasikan website, Hugo akan membuat seluruh situs statis di direktori public di root proyek, termasuk file HTML, dan aset seperti gambar, berkas CSS, dan berkas JavaScript.\nKetika memublikasikan website, biasanya kita tidak ingin menyertakan konten draft. Jadi, yang akan di-publish adalah konten yang tidak berstatus draft. Perintahnya sederhana.\nhugo https://gohugo.io/about/what-is-hugo/ ↩︎\nhttps://gohugo.io/getting-started/quick-start/ ↩︎\n",
   "wordCount" : "745",
   "inLanguage": "en",
-  "image":"https://github.com/abwildan/abwildan.github.io/hugo-page.png","datePublished": "2023-10-07T15:26:34+07:00",
+  "image":"https://github.com/Hugo-ing/hugo-page.png","datePublished": "2023-10-07T15:26:34+07:00",
   "dateModified": "2023-10-07T15:26:34+07:00",
   "author":{
     "@type": "Person",
@@ -204,8 +204,8 @@ Personal blog posts Documentasi pages Portofolio pages, dan lain sebagainya. Ins
 
 </div>
   </header> 
-<figure class="entry-cover"><a href="https://github.com/abwildan/abwildan.github.io/hugo-page.png" target="_blank"
-            rel="noopener noreferrer"><img loading="lazy" src="https://github.com/abwildan/abwildan.github.io/hugo-page.png" alt="Hugo Website"></a>
+<figure class="entry-cover"><a href="https://github.com/Hugo-ing/hugo-page.png" target="_blank"
+            rel="noopener noreferrer"><img loading="lazy" src="https://github.com/Hugo-ing/hugo-page.png" alt="Hugo Website"></a>
         <p>Hugo Website</p>
 </figure><div class="toc">
     <details >
@@ -312,7 +312,7 @@ Personal blog posts Documentasi pages Portofolio pages, dan lain sebagainya. Ins
 </span></span></code></pre></div><p>Hugo akan membuat file baru bernama <strong>postingan-pertama.md</strong> di direktori content/post. Buka file tersebut.
 <img loading="lazy" src="/Hugo-ing/ss4.png" alt="ss4"  />
 </p>
-<p>Yang perlu diperhatikan adalah <em>value</em> dari draft adalah <em>true</em>. Secara default, Hugo tidak mem-<em>publish</em> konten yang masih berbentuk draft ketika kita mem-<em>build</em> website-nya nanti.Jadi, jika kita ingin konten tersebut terpublikasikan, kita hanya perlu mengganti <em>value draft</em> tadi ke <em>false</em>.</p>
+<p>Yang perlu diperhatikan adalah <em>value</em> dari draft adalah <code>true</code>. Secara default, Hugo tidak mem-<em>publish</em> konten yang masih berbentuk draft ketika kita mem-<em>build</em> website-nya nanti.Jadi, jika kita ingin konten tersebut terpublikasikan, kita hanya perlu mengganti <em>value draft</em> tadi ke <code>false</code>.</p>
 <p>Berikutnya, silakan tambahkan isi postingan tersebut dengan <a href="https://www.markdownguide.org/cheat-sheet/"><em>syntax</em> markdown</a>. Misalnya, saya akan tambahkan</p>
 <pre tabindex="0"><code>## Pengenalan
 
@@ -373,6 +373,11 @@ theme = &#39;papermod&#39;
       <li><a href="https://github.com/abwildan/abwildan.github.io/tags/hugo/">hugo</a></li>
     </ul>
 <nav class="paginav">
+  <a class="prev" href="https://github.com/abwildan/abwildan.github.io/post/hugo-to_github/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>Hugo To Github</span>
+  </a>
   <a class="next" href="https://github.com/abwildan/abwildan.github.io/post/whoami/">
     <span class="title">Next »</span>
     <br>

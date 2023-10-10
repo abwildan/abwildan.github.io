@@ -6,11 +6,20 @@
     <description>Recent content in Categories on Wildan&#39;s Workspace</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sat, 07 Oct 2023 15:26:34 +0700</lastBuildDate><atom:link href="https://github.com/abwildan/abwildan.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 10 Oct 2023 09:13:32 +0700</lastBuildDate><atom:link href="https://github.com/abwildan/abwildan.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ffmpeg</title>
+      <link>https://github.com/abwildan/abwildan.github.io/categories/ffmpeg/</link>
+      <pubDate>Tue, 10 Oct 2023 09:13:32 +0700</pubDate>
+      
+      <guid>https://github.com/abwildan/abwildan.github.io/categories/ffmpeg/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>hugo</title>
       <link>https://github.com/abwildan/abwildan.github.io/categories/hugo/</link>
-      <pubDate>Sat, 07 Oct 2023 15:26:34 +0700</pubDate>
+      <pubDate>Mon, 09 Oct 2023 15:22:46 +0700</pubDate>
       
       <guid>https://github.com/abwildan/abwildan.github.io/categories/hugo/</guid>
       <description></description>

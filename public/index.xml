@@ -6,7 +6,17 @@
     <description>Recent content on Wildan&#39;s Workspace</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Tue, 10 Oct 2023 09:13:32 +0700</lastBuildDate><atom:link href="https://github.com/abwildan/abwildan.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 11 Oct 2023 00:40:23 +0700</lastBuildDate><atom:link href="https://github.com/abwildan/abwildan.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>FFmpeg - Convert MP4 to GIF</title>
+      <link>https://github.com/abwildan/abwildan.github.io/post/ffmpeg-mp42gif/</link>
+      <pubDate>Wed, 11 Oct 2023 00:40:23 +0700</pubDate>
+      
+      <guid>https://github.com/abwildan/abwildan.github.io/post/ffmpeg-mp42gif/</guid>
+      <description>Terkadang, GIF punya kelebihan dibandingkan dengan file video, terutama dalam hal ukuran file. Dengan kualitas gambar yang hampir sama dengan video, file GIF bisa berukuran lebih kecil dari file video. Contohnya, saya punya sebuah file video rekaman layar 720p berdurasi 25 detik, dan satu file GIF yang merupakan hasil konversi video sebelumnya: Berikut adalah langkah-langkah membuat meng-convert video (MP4) ke GIF.
+Membuat palette Palette yang dibuat nanti akan dijadikan sebagai dasar warna dalam GIF.</description>
+    </item>
+    
     <item>
       <title>Screen Recorder with FFmpeg</title>
       <link>https://github.com/abwildan/abwildan.github.io/post/ffmpeg-sr/</link>

@@ -1,4 +1,4 @@
-baseURL: "https://github.com/abwildan/abwildan.github.io/"
+#baseURL: "https://github.com/abwildan/abwildan.github.io/"
 languageCode: 'en-US'
 title: "Wildan's Workspace"
 theme: 'papermod'
@@ -20,11 +20,11 @@ params:
     
   socialIcons:
     - name: twitter
-      url: "https://twitter.com/kutukojing"
+      url: "https://twitter.com/"
     - name: tiktok
-      url: "https://tiktok.com/@kutugadget"
+      url: "https://tiktok.com/"
     - name: instagram
-      url: "https://instagram.com/abdwildan.u"
+      url: "https://instagram.com/"
   
   cover:
     linkFullImages: true

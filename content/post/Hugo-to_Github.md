@@ -156,7 +156,7 @@ Kalau Github sudah selesai mem-*build* dan men-*deploy* website kita, warna indi
 ![ss6](/Hugo-to-Github/ss6.png)
 
 ### Langkah 10:
-Kita dapat melihat *live* website Hugo kita sudah ter-*hosting* di Github di link "https://hugowildan.github.io". Artinya, siapapun sekarang bisa mengunjungi website kita!
+Kita dapat melihat *live* website Hugo kita sudah ter-*hosting* di Github di link "https://abwildan.github.io/hugowildan.github.io/". Artinya, siapapun sekarang bisa mengunjungi website kita!
 ![sr1](/Hugo-to-Github/sr1.gif)
 
 Selanjutnya, kapanpun kita mem-*push* perubahan dari repositori lokal, Github akan nge-*rebuild* website kita dan men-*deploy* perubahan-perubahannya.

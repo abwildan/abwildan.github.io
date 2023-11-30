@@ -27,6 +27,7 @@ Secara singkat, berikut adalah langkah-langkah yang perlu diikuti:
 ***Jadi, ini rahasia kita aja ya, wkwk***
 
 Detail penjelasannya adalah sebagai berikut:
+
 ### 1. Meginstall Tor Browser
 TOR Browser perlu diinstal karena kita akan mengakses alamat tor z-library (berakhiran .union). 
 Untuk menginstall Tor Browser, kita bisa mengunjungi website-nya di [sini](https://www.torproject.org/download/).
@@ -80,6 +81,11 @@ Berikut akan saya demo-kan cara mendapatkan e-book dari z-library via bot telegr
 Misalnya, saya ingin mencari buku ensiklopedia teori komunikasi, maka saya hanya perlu mengetikkan keyword berikut:
 `encyclopedia of communication theory`
 ![sr1](/zlib-tele/sr1.gif)
+
+
+> **[UPDATE]**
+Z-library saat ini sudah punya domain mirror. Jadi, kita tidak perlu mengaksesnya dari TOR Browser, tapi bisa via browser biasa (firefox, chrome, safari, dkk) di alamat berikut: [https://www.z-library.se](https://z-library.se)
+Artinya, kita bisa langsung membuat bot telegram tanpa harus menginstal TOR Browser.
 
 Oke, sekian dulu tutorial kali ini.
 

@@ -12,24 +12,24 @@ categories: ["onionshare", "tor"]
 
 Halo!
 Beberapa pekan lalu, saya sempat memberikan tutorial untuk mendapatkan e-book gratis dengan bot Telegram yang
-berasal dari situs z-library. Saat tulisan tersebut dibuat, situs utama z-lib di-banned oleh FBI karena dianggap
+berasal dari situs z-library. Saat tulisan tersebut dibuat, situs utama z-lib di-*banned* oleh FBI karena dianggap
 menyebarkan buku-buku berbayar tanpa hak izin dari penulisnya. Maka, agar dapat mengakses situs z-lib, kita 
 memerlukan TOR Browser.
 
 
-Nah, pernahkah kalian penasaran, bagaimana cara meng-hosting file yang hanya dapat diakses dengan TOR Browser
+Nah, pernahkah kalian penasaran, bagaimana cara meng-*hosting* file yang hanya dapat diakses dengan TOR Browser
 dan jaringan TOR saja? 
 
-Kali ini, kita akan belajar bagaimana cara meng-hosting atau membagikan file yang hanya dapat diakses oleh
+Kali ini, kita akan belajar bagaimana cara meng-*hosting* atau membagikan file yang hanya dapat diakses oleh
 TOR Browser. Kenapa hanya dapat diakses di TOR Browser saja? Tentu saja karena *url*-nya berakhiran ".onion", jadi kita tidak dapat membukanya di browser default seperti chrome, firefox, safari, dan yang semisal itu.
 
 ## Perkenalan Onionshare
 Sebenarnya, apa sih onionshare itu?
 
-Onionshare adalah alat *open-source* yang dapat membantu kita untuk membagikan file, meng-hosting website, dan
+Onionshare adalah *tools* *open-source* yang dapat membantu kita untuk membagikan file, meng-*hosting* website, dan
 (bahkan) melakukan *chatting* secara aman dan anonim melalui jaringan TOR.[^1]
 
-Nah, jadi, dengan *tools* atau aplikasi Onionshare ini, kita dapat *sharing & receiving* file, meng-hosting 
+Nah, jadi, dengan *tools* atau aplikasi Onionshare ini, kita dapat *sharing & receiving* file, meng-*hosting* 
 website, dan bahkan bisa *chatting* secara anonim juga!
 ![ss1](/onionshare/onionshare-features.png)
 
@@ -40,8 +40,8 @@ ikuti langkah-langkah yang sudah disediakan secara resmi oleh Onionshare di [sin
 ![ss2](/onionshare/download-install.png)
 
 ### Langkah 1: Menginstall flatpak (Debian-based Linux)
-Flatpak adalah *package manager* untuk menginstall aplikasi dari flathub. Flathub adalah wadah untuk mendapatkan
-aplikasi-aplikasi untuk linux. Jadi, aplikasi-aplikasi yang tidak tersedia di repositori distro linux, kita 
+Flatpak adalah *package manager* untuk menginstall aplikasi dari flathub. Flathub sendiri merupakan wadah untuk mendapatkan
+aplikasi-aplikasi untuk desktop linux. Jadi, aplikasi-aplikasi yang tidak tersedia di repositori resmi distro linux, kita 
 dapat menginstallnya dari flathub/flatpak. 
 
 Kita akan menginstall flatpak via CLI (*command line interface*)
@@ -80,7 +80,7 @@ Fitur pertama yang akan kita coba adalah fitur *sharing files*. Mula-mula, klik 
 untuk memulai. Kemudian, di sini, saya akan mencoba membagikan dua buah file (file gambar dan video) dan satu folder.
 ![ss7](/onionshare/share-setup.png)
 
-Di bagian bawah, ada beberapa 3 checkbox yang dapat kita set untuk mengatur beberapa hal, salah satunya (yang
+Di bagian bawah, ada 3 checkbox yang dapat kita set untuk mengatur beberapa hal, salah satunya (yang
 paling bawah) adalah untuk mengatur mode *sharing* yang kita gunakan (*private/public*). Kalau *public*, 
 berarti nanti penerima *link*-nya tidak memerlukan kunci (*private key*) untuk mengakses ketiga item yang saya
 bagikan tersebut. Sebaliknya, kalau mode *sharing*-nya *private*, berarti penerima *link*-nya memerlukan *private key*

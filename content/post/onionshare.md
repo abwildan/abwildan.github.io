@@ -3,9 +3,9 @@ title: "Private File Sharing with Onionshare"
 date: 2023-11-30T07:35:02-05:00
 draft: false
 cover:
-   image: ""
-   alt: ""
-   caption: ""
+   image: "/onionshare/onionshare-features.png"
+   alt: "Anionshare"
+   caption: "Onionshare Features"
 tags: ["anonymous", "TOR", "tutorial"]
 categories: ["onionshare", "tor"]
 ---
@@ -31,7 +31,6 @@ Onionshare adalah *tools* *open-source* yang dapat membantu kita untuk membagika
 
 Nah, jadi, dengan *tools* atau aplikasi Onionshare ini, kita dapat *sharing & receiving* file, meng-*hosting* 
 website, dan bahkan bisa *chatting* secara anonim juga!
-![ss1](/onionshare/onionshare-features.png)
 
 ## Instalasi
 Nah, sekarang kita akan melakukan instalasi. Saya akan menunjukkan proses install di Linux saja. Jika kalian

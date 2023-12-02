@@ -63,7 +63,7 @@ Melalui peta persebaran tersebut, kita dapat mengetahui 3 hal,
 2. distro Linux yang menjadi **akar** dari varian-varian Linux lainnya, dan
 3. tahun rilisnya distro tersebut ke publik (internet)
 
-Berdasarkan peta tersebut, setidaknya ada 6 akar distro Linux yang memiliki varian-varian distro yang cukup populer. Kelima "distro akar" tersebut 
+Berdasarkan peta tersebut, setidaknya ada 6 akar distro Linux yang memiliki varian-varian distro yang cukup populer. Kelima "distro akar" tersebut yaitu
 **Slackware**, **Debian**, **Redhat**, **Jurix**, **Enoch**, dan **Arch Linux**.
 
 *Developer* dari setiap distro Linux tidak bisa juga beragam. Sebab, ada distro yang dikembangkan oleh satu perusahaan atau organisasi, ada pula yang
@@ -71,7 +71,7 @@ dikembangkan oleh komunitas, dan bahkan ada juga yang dikembangkan atau dibuat o
 dikembangkan oleh perusahaan bernama [Cannonical](https://ubuntu.com/community/governance/canonical), **Arch Linux** adalah distro Linux yang 
 dikembangkan oleh komunitas, dan **Archcraft** adalah distro berbasis Arch Linux yang dibuat oleh seorang *developer* bernama [Aditya Shaka](https://github.com/adi1090x).
 Yang jelas, masing-masing akar distro Linux menggunakan "kernel" (program inti dari sebuah sistem operasi) Linux yang sama, yaitu seperti yang dibuat 
-oleh penemu Linux, Linus Torvalds.
+oleh penemu Linux, Linus Torvalds, untuk mengembangkan distro Linux-nya masing-masing.
 
 ### 4. Cara Memilih Distro Linux
 Sebagaimana saya jelaskan sebelumnya, ada banyak sekali distro Linux yang dapat kita gunakan. Nah, sebelum menentukan distro Linux apa yang akan
@@ -81,49 +81,59 @@ buatkan kategori distro linux berdasarkan tujuannya sebagai berikut:
 **`1. Distro Linux untuk Daily Driver`**
 
 Distro Linux ini cocok digunakan untuk kegiatan sehari-hari seperti mengetik, menonton, *browsing*, dan sebagainya.
-- Ubuntu
-- MX Linux
-- Linux Mint
-- Pop!_OS
-- Debian
-- Manjaro
+- Ubuntu : https://ubuntu.com/download/desktop
+- MX Linux : https://mxlinux.org/
+- Linux Mint : https://linuxmint.com/
+- Pop!_OS : https://pop.system76.com/
+- Debian : https://www.debian.org/index.id.html
+- Manjaro : https://manjaro.org/
 
 **`2. Distro Linux untuk Multimedia`**
 
 Distro Linux ini cocok digunakan untuk kegiatan multimedia seperti *design* dan *editing*.
-- Ubuntu Studio
-- AV Linux
-- Fedora Design Suite
-- LangitKetujuh OS
-- Apodio
-- io GNU/Linux
+- Ubuntu Studio : https://ubuntustudio.org/
+- AV Linux : http://www.bandshed.net/avlinux/
+- Fedora Design Suite : https://labs.fedoraproject.org/design-suite/
+- LangitKetujuh OS : https://langitketujuh.id/
+- Apodio : http://apodio.org/doku.php
+- io GNU/Linux : http://io.gnu.linux.free.fr/
 
 **`3. Distro Linux untuk Hacking`**
 
 Distro Linux ini cocok digunakan untuk menguji keamanan jaringan komputer dan forensik.
-- Kali Linux
-- Parrot OS
-- BackBox
-- Black Arch
-- Exodia OS
+- Kali Linux : https://www.kali.org/
+- Parrot OS : https://www.parrotsec.org/
+- BackBox : https://www.backbox.org/
+- Black Arch : https://blackarch.org/
+- Exodia OS : https://exodia-os.github.io/exodia-website/
 
 **`4. Distro Linux untuk Server`**
 
 Distro Linux ini cocok digunakan sebagai server.
-- Ubuntu Server
-- CentOS
-- OpenSUSE
-- Fedora Server
-- Red Hat Enterprise Linux (RHEL)
-- Rocky Linux
+- Ubuntu Server : https://ubuntu.com/server
+- CentOS : https://www.centos.org/
+- OpenSUSE : https://www.opensuse.org/
+- Fedora Server : https://fedoraproject.org/en/server/download
+- Rocky Linux : https://rockylinux.org/
+- Red Hat Enterprise Linux (RHEL) : https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux
 
-Setelah memahami tujuan dari dibuatnya masing-masing distro Linux, sekarang kita yang harus menentukan kebutuhan kalian menginstall Linux. 
+
+Setelah memahami tujuan dari dibuatnya masing-masing distro Linux, langkah berikutnya adalah mengidentifikasi kebutuhan untuk menginstall Linux. 
 Misal, kita ingin menginstall Linux untuk keperluan sehari-hari saja (*daily driver*), maka kalian bisa mencari distro Linux yang sesuai dengan 
 kebutuhan kalian tersebut.
 
+> **Note**
+
+> Menurut saya pribadi, spesialisasi Linux ditujukan untuk memudahkan penggunanya agar dapat langsung menggunakan *software*/aplikasi yang 
+terkait dengan kebutuhannya sehingga tidak perlu meng-*compile* sendiri *tools* yang akan digunakan. Artinya, sebenarnya, selagi *tools/software*/aplikasi yang 
+diperlukan tersedia di repositori, apapun distro Linux yang digunakan bukanlah masalah besar. Tapi, untuk kemudahan dan tujuan belajar, silakan 
+gunakan distro Linux berdasarkan spesialisasi yang sudah saya kategorisasikan sebelumnya...
+
+
 Demikian dulu perkenalan dengan Linux di artikel ini. Mungkin, di artikel-artikel berikutnya, kita akan belajar Linux lebih jauh lagi.
-Sekian,
-Sampai jumpa di artikel saya yang lain! :)
+
+Sekian,	
+sampai jumpa di artikel saya yang lain! :)
 
 [^1]: https://klc2.kemenkeu.go.id/kms/knowledge/sejarah-dan-perkembangan-linux-ef5980e6/detail/
 [^2]: https://upload.wikimedia.org/wikipedia/commons/1/1b/Linux_Distribution_Timeline.svg

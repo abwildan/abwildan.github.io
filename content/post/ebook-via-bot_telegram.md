@@ -28,6 +28,14 @@ Secara singkat, berikut adalah langkah-langkah yang perlu diikuti:
 
 Detail penjelasannya adalah sebagai berikut:
 
+**[UPDATE!!]**
+Per hari ini, 26 Desember 2023, situs cloning resmi Z-Library sudah *launching* di alamat [url ini](https://z-library.se/).
+![ss11](/zlib-tele/ss11.png)
+
+Jadi, kalian bisa melewati langkah 1 (Menginstall TOR Browser) & langkah 2 (Mengakses alamat url Z-Library via Tor Browser)
+karena kalian dapat mengakses alamat *clone* Z-Library tersebut di browser normal.
+
+
 ### 1. Meginstall Tor Browser
 TOR Browser perlu diinstal karena kita akan mengakses alamat tor z-library (berakhiran .union). 
 Untuk menginstall Tor Browser, kita bisa mengunjungi website-nya di [sini](https://www.torproject.org/download/).

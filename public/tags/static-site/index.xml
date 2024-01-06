@@ -1,32 +1,29 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>static-site on Wildan&#39;s Workspace</title>
-    <link>https://github.com/abwildan/abwildan.github.io/tags/static-site/</link>
+    <link>/tags/static-site/</link>
     <description>Recent content in static-site on Wildan&#39;s Workspace</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 09 Oct 2023 15:22:46 +0700</lastBuildDate><atom:link href="https://github.com/abwildan/abwildan.github.io/tags/static-site/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 09 Oct 2023 15:22:46 +0700</lastBuildDate>
+    <atom:link href="/tags/static-site/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo Advanced</title>
-      <link>https://github.com/abwildan/abwildan.github.io/post/hugo-advanced/</link>
+      <link>/post/hugo-advanced/</link>
       <pubDate>Mon, 09 Oct 2023 15:22:46 +0700</pubDate>
-      
-      <guid>https://github.com/abwildan/abwildan.github.io/post/hugo-advanced/</guid>
+      <guid>/post/hugo-advanced/</guid>
       <description>Mengkonfigurasi Hugo (Advanced) Setelah berhasil membuat website Hugo dan men-deploy-nya ke Github, kali ini saya akan memberi beberapa tips yang sedikit banyak dapat memberi kemudahan dan nilai estetika pada website Hugo tersebut.
 Tips 1: Mengganti format file konfigurasi By default, format file konfigurasi Hugo tersimpan dalam format TOML (.toml). Tapi, Hugo sendiri menyediakan 2 opsi format lain yang dapat kita gunakan, yaitu YAML/YML (.yaml) dan JSON (.json)1.
 Untuk alasan humanisme (kemudahan dan kenyamanan dipandang dan dibaca), maka kita akan mengganti format file konfigurasi Hugo dari TOML ke YAML/YML.</description>
     </item>
-    
     <item>
       <title>Hugo To Github</title>
-      <link>https://github.com/abwildan/abwildan.github.io/post/hugo-to_github/</link>
+      <link>/post/hugo-to_github/</link>
       <pubDate>Mon, 09 Oct 2023 09:03:40 +0700</pubDate>
-      
-      <guid>https://github.com/abwildan/abwildan.github.io/post/hugo-to_github/</guid>
+      <guid>/post/hugo-to_github/</guid>
       <description>Meng-Hosting di Github Di tulisan ini, saya akan menunjukkan cara hosting static-site Hugo yang sudah dibuat sebelumnya ke Github. Jadi, sebelum lanjut membaca tutorial ini, ada 3 persyaratan yang harus sudah dipenuhi:
 Punya akun Github (kalau belum punya silakan buat dulu). Komputer/laptop-nya sudah terinstall git (kalau belum silakan install). Sudah membuat website Hugo sebelumnya (kalau belum, silakan buat dulu, tutorialnya bisa mengikuti tulisan saya sebelumnya). Saya akan menunjukkan 10 langkah dalam mem-publish atau meng-hosting static-site Hugo kita ke Github1.</description>
     </item>
-    
   </channel>
 </rss>

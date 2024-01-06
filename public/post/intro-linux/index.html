@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Intro to Linux | Wildan&#39;s Workspace</title>
+<meta name="keywords" content="linux">
+<meta name="description" content="Holla!
+Kali ini, saya akan berbagi mengenai satu topik yang menarik. Topik yang akan saya share yaitu tentang Linux. Menurut saya, Linux merupakan topik yang seharusnya saya bahas di artikel ini karena menjadi salah satu &ldquo;peralatan perang&rdquo; penting yang saya gunakan selama saya membangun artikel ini.
+Nanti, pembahasannya akan saya bagi ke dalam empat part. Pada bagian pertama, saya akan menjelaskan tentang Linux itu sendiri. Bagian kedua akan menjelaskan mengenai sejarah Linux.">
+<meta name="author" content="Wildan">
+<link rel="canonical" href="/post/intro-linux/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.2d50b1531bd1b3146d65c5543bd298f7f982786aadee4c223cb3a1cb51906106.css" integrity="sha256-LVCxUxvRsxRtZcVUO9KY9/mCeGqt7kwiPLOhy1GQYQY=" rel="preload stylesheet" as="style">
+<link rel="icon" href="favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="mask-icon" href="safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:title" content="Intro to Linux" />
+<meta property="og:description" content="Holla!
+Kali ini, saya akan berbagi mengenai satu topik yang menarik. Topik yang akan saya share yaitu tentang Linux. Menurut saya, Linux merupakan topik yang seharusnya saya bahas di artikel ini karena menjadi salah satu &ldquo;peralatan perang&rdquo; penting yang saya gunakan selama saya membangun artikel ini.
+Nanti, pembahasannya akan saya bagi ke dalam empat part. Pada bagian pertama, saya akan menjelaskan tentang Linux itu sendiri. Bagian kedua akan menjelaskan mengenai sejarah Linux." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/post/intro-linux/" />
+<meta property="og:image" content="/introlinux/tux.png" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2023-12-02T02:24:37-05:00" />
+<meta property="article:modified_time" content="2023-12-02T02:24:37-05:00" />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="/introlinux/tux.png" />
+<meta name="twitter:title" content="Intro to Linux"/>
+<meta name="twitter:description" content="Holla!
+Kali ini, saya akan berbagi mengenai satu topik yang menarik. Topik yang akan saya share yaitu tentang Linux. Menurut saya, Linux merupakan topik yang seharusnya saya bahas di artikel ini karena menjadi salah satu &ldquo;peralatan perang&rdquo; penting yang saya gunakan selama saya membangun artikel ini.
+Nanti, pembahasannya akan saya bagi ke dalam empat part. Pada bagian pertama, saya akan menjelaskan tentang Linux itu sendiri. Bagian kedua akan menjelaskan mengenai sejarah Linux."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Posts",
+      "item": "/post/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  3 ,
+      "name": "Intro to Linux",
+      "item": "/post/intro-linux/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Intro to Linux",
+  "name": "Intro to Linux",
+  "description": "Holla!\nKali ini, saya akan berbagi mengenai satu topik yang menarik. Topik yang akan saya share yaitu tentang Linux. Menurut saya, Linux merupakan topik yang seharusnya saya bahas di artikel ini karena menjadi salah satu \u0026ldquo;peralatan perang\u0026rdquo; penting yang saya gunakan selama saya membangun artikel ini.\nNanti, pembahasannya akan saya bagi ke dalam empat part. Pada bagian pertama, saya akan menjelaskan tentang Linux itu sendiri. Bagian kedua akan menjelaskan mengenai sejarah Linux.",
+  "keywords": [
+    "linux"
+  ],
+  "articleBody": "Holla!\nKali ini, saya akan berbagi mengenai satu topik yang menarik. Topik yang akan saya share yaitu tentang Linux. Menurut saya, Linux merupakan topik yang seharusnya saya bahas di artikel ini karena menjadi salah satu “peralatan perang” penting yang saya gunakan selama saya membangun artikel ini.\nNanti, pembahasannya akan saya bagi ke dalam empat part. Pada bagian pertama, saya akan menjelaskan tentang Linux itu sendiri. Bagian kedua akan menjelaskan mengenai sejarah Linux. Bagian ketiga tentang distribusi linux. Di bagian keempat, saya akan menjelaskan bagaimana cara memilih distro Linux. Untuk instalasi Linux tidak akan saya bahas di sini karena artikel ini akan menjadi terlalu panjang sehingga pembahasan mengenai tutorial instalasi Linux akan saya buatkan di artikel yang baru.\nOke, mari kita masuk ke pembahasan pertama…\n1. Linux in a Nutshell Secara sederhana, Linux adalah sistem operasi berbasis open-source. Sebagaimana sistem operasi dekstop komputer lain yang terkenal seperti Windows dan MacOS, Linux juga merupakan software yang dapat digunakan di komputer atau laptop kita. Dan karena Linux berbasis open-source, artinya, program ini dapat diperoleh, dikembangkan, dan diinstall di komputer kita secara gratis tanpa harus membayar lisensi terlebih dahulu seperti Windows/MacOS.\n2. Sejarah (singkat) Linux Linux dikembangkan pertama kali oleh Linus Torvalds pada tahun 1991 saat masih menjadi mahasiswa di Universitas Helsinki, Finlandia. Fun fact-nya, Linux ternyata merupakan produk dari “proyek iseng” Linus yang terinspirasi dari sistem operasi Minix1. Minix adalah sistem operasi mirip UNIX yang dibuat oleh seorang Profesor dari Vrije Universiteit Amsterdam, Andrew Stuart Tanenbaum, pada tahun 1987 dengan tujuan pendidikan. UNIX sendiri merupakan sistem operasi yang dibangun pada tahun 1969 oleh dua orang developer bahasa C (Ken Thompson \u0026 Dennis Ritchie) dan para peneliti di AT\u0026T Bell Laboratorium Amerika.\nLogo Linux adalah seekor penguin bernama TUX. TUX sendiri merupakan gabungan dari kata (T)orvalds (U)ni(X). Kenapa penguin? Awal mulanya terjadi ketika Linus sedang berlibur dan bertemu dengan seekor penguin kecil dan pendek yang secara tidak sengaja menggigit jarinya. Hal tersebut membuatnya demam selama berhari-hari. Kejadian ini kemudian menginspirasi dirinya untuk memakai penguin sebagai logo Linux.\nDalam membangun Linux, Linus menggunakan tools dari Free Foundation Software yang berlisensi GNU. Kemudian untuk menjadikan Linux sebagai sebuah sistem operasi yang utuh, dia memasukkan program-program yang juga berlisensi GNU. Oleh karena itu, Linux sering juga disebut bersandingan dengan GNU, yaitu GNU/Linux.\n3. Distribusi Linux Sejak awal mula ditemukannya Linux pada tahun 1991 hingga saat ini, sudah banyak variasi atau distribusi (distro) Linux yang terdapat di internet dan tentu saja kita dapat mengunduhnya secara cuma-cuma. Beberapa distro Linux yang terkenal misalnya ada Ubuntu, Debian, Fedora, Mint, Arch, dan masih banyak lagi.\nMasing-masing varian Linux biasanya memiliki distro induk sebagai basis pengembangan Linux tersebut. Misalnya, Ubuntu adalah salah satu distro Linux yang dibangun berbasis Debian (Debian-based). Linux Mint juga merupakan salah satu distro Linux yang dikembangkan berbasis Debian. Dengan kata lain, Debian merupakan distro induk yang memiliki banyak varian Linux di bawahnya. Tapi, yang menarik, Ubuntu sebagai “anak” turunan Debian, juga memiliki varian-varian Linux di bawahnya seperti Lubuntu, Kubuntu, Xubuntu, dan lain-lain. Artinya, seperti Debian, Ubuntu juga merupakan distro induk yang memiliki turunan distro di bawahnya.\nBerikut adalah peta distribusi Linux yang tersedia di Wikipedia2 Untuk memperbesar tulisannya, kalian dapat klik kanan di gambar tersebut, lalu pilih Open Image in New Tab. Melalui peta persebaran tersebut, kita dapat mengetahui 3 hal,\ndistro Linux yang ada saat ini distro Linux yang menjadi akar dari varian-varian Linux lainnya, dan tahun rilisnya distro tersebut ke publik (internet) Berdasarkan peta tersebut, setidaknya ada 6 akar distro Linux yang memiliki varian-varian distro yang cukup populer. Kelima “distro akar” tersebut yaitu Slackware, Debian, Redhat, Jurix, Enoch, dan Arch Linux.\nDeveloper dari setiap distro Linux tidak bisa juga beragam. Sebab, ada distro yang dikembangkan oleh satu perusahaan atau organisasi, ada pula yang dikembangkan oleh komunitas, dan bahkan ada juga yang dikembangkan atau dibuat oleh perseorangan/individu. Ubuntu misalnya, adalah distro Linux yang dikembangkan oleh perusahaan bernama Cannonical, Arch Linux adalah distro Linux yang dikembangkan oleh komunitas, dan Archcraft adalah distro berbasis Arch Linux yang dibuat oleh seorang developer bernama Aditya Shaka. Yang jelas, masing-masing akar distro Linux menggunakan “kernel” (program inti dari sebuah sistem operasi) Linux yang sama, yaitu seperti yang dibuat oleh penemu Linux, Linus Torvalds, untuk mengembangkan distro Linux-nya masing-masing.\n4. Cara Memilih Distro Linux Sebagaimana saya jelaskan sebelumnya, ada banyak sekali distro Linux yang dapat kita gunakan. Nah, sebelum menentukan distro Linux apa yang akan kalian gunakan, kita perlu tahu juga bahwa setiap distro Linux yang dikembangkan memiliki tujuan spesifiknya masing-masing. Sebagai contoh, saya akan buatkan kategori distro linux berdasarkan tujuannya sebagai berikut:\n1. Distro Linux untuk Daily Driver\nDistro Linux ini cocok digunakan untuk kegiatan sehari-hari seperti mengetik, menonton, browsing, dan sebagainya.\nUbuntu : https://ubuntu.com/download/desktop MX Linux : https://mxlinux.org/ Linux Mint : https://linuxmint.com/ Pop!_OS : https://pop.system76.com/ Debian : https://www.debian.org/index.id.html Manjaro : https://manjaro.org/ 2. Distro Linux untuk Multimedia\nDistro Linux ini cocok digunakan untuk kegiatan multimedia seperti design dan editing.\nUbuntu Studio : https://ubuntustudio.org/ AV Linux : http://www.bandshed.net/avlinux/ Fedora Design Suite : https://labs.fedoraproject.org/design-suite/ LangitKetujuh OS : https://langitketujuh.id/ Apodio : http://apodio.org/doku.php io GNU/Linux : http://io.gnu.linux.free.fr/ 3. Distro Linux untuk Hacking\nDistro Linux ini cocok digunakan untuk menguji keamanan jaringan komputer dan forensik.\nKali Linux : https://www.kali.org/ Parrot OS : https://www.parrotsec.org/ BackBox : https://www.backbox.org/ Black Arch : https://blackarch.org/ Exodia OS : https://exodia-os.github.io/exodia-website/ 4. Distro Linux untuk Server\nDistro Linux ini cocok digunakan sebagai server.\nUbuntu Server : https://ubuntu.com/server CentOS : https://www.centos.org/ OpenSUSE : https://www.opensuse.org/ Fedora Server : https://fedoraproject.org/en/server/download Rocky Linux : https://rockylinux.org/ Red Hat Enterprise Linux (RHEL) : https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux Setelah memahami tujuan dari dibuatnya masing-masing distro Linux, langkah berikutnya adalah mengidentifikasi kebutuhan untuk menginstall Linux. Misal, kita ingin menginstall Linux untuk keperluan sehari-hari saja (daily driver), maka kalian bisa mencari distro Linux yang sesuai dengan kebutuhan kalian tersebut.\nNote\nMenurut saya pribadi, spesialisasi Linux ditujukan untuk memudahkan penggunanya agar dapat langsung menggunakan software/aplikasi yang terkait dengan kebutuhannya sehingga tidak perlu meng-compile sendiri tools yang akan digunakan. Artinya, sebenarnya, selagi tools/software/aplikasi yang diperlukan tersedia di repositori, apapun distro Linux yang digunakan bukanlah masalah besar. Tapi, untuk kemudahan dan tujuan belajar, silakan gunakan distro Linux berdasarkan spesialisasi yang sudah saya kategorisasikan sebelumnya…\nDemikian dulu perkenalan dengan Linux di artikel ini. Mungkin, di artikel-artikel berikutnya, kita akan belajar Linux lebih jauh lagi.\nSekian, sampai jumpa di artikel saya yang lain! :)\nhttps://klc2.kemenkeu.go.id/kms/knowledge/sejarah-dan-perkembangan-linux-ef5980e6/detail/ ↩︎\nhttps://upload.wikimedia.org/wikipedia/commons/1/1b/Linux_Distribution_Timeline.svg ↩︎\n",
+  "wordCount" : "1035",
+  "inLanguage": "en",
+  "image":"/introlinux/tux.png","datePublished": "2023-12-02T02:24:37-05:00",
+  "dateModified": "2023-12-02T02:24:37-05:00",
+  "author":{
+    "@type": "Person",
+    "name": "Wildan"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "/post/intro-linux/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Wildan's Workspace",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="" accesskey="h" title="Wildan&#39;s Workspace (Alt + H)">Wildan&#39;s Workspace</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="/categories/" title="Categories">
+                    <span>Categories</span>
+                </a>
+            </li>
+            <li>
+                <a href="/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="/archives/" title="Archives">
+                    <span>Archives</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="">Home</a>&nbsp;»&nbsp;<a href="/post/">Posts</a></div>
+    <h1 class="post-title entry-hint-parent">
+      Intro to Linux
+    </h1>
+    <div class="post-meta"><span title='2023-12-02 02:24:37 -0500 EST'>December 2, 2023</span>&nbsp;·&nbsp;5 min&nbsp;·&nbsp;Wildan
+
+</div>
+  </header> 
+<figure class="entry-cover"><a href="/introlinux/tux.png" target="_blank"
+            rel="noopener noreferrer"><img loading="eager" src="/introlinux/tux.png" alt="Linux Logo (TUX)"></a>
+        
+</figure><div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#1-linux-in-a-nutshell" aria-label="1. Linux in a Nutshell">1. Linux in a Nutshell</a></li>
+                <li>
+                    <a href="#2-sejarah-singkat-linux" aria-label="2. Sejarah (singkat) Linux">2. Sejarah (singkat) Linux</a></li>
+                <li>
+                    <a href="#3-distribusi-linux" aria-label="3. Distribusi Linux">3. Distribusi Linux</a></li>
+                <li>
+                    <a href="#4-cara-memilih-distro-linux" aria-label="4. Cara Memilih Distro Linux">4. Cara Memilih Distro Linux</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><p>Holla!</p>
+<p>Kali ini, saya akan berbagi mengenai satu topik yang menarik. Topik yang akan saya <em>share</em> yaitu tentang Linux. Menurut saya, Linux merupakan topik
+yang seharusnya saya bahas di artikel ini karena menjadi salah satu &ldquo;<strong>peralatan perang</strong>&rdquo; penting yang saya gunakan selama saya membangun artikel ini.</p>
+<p>Nanti, pembahasannya akan saya bagi ke dalam empat <em>part</em>. Pada bagian pertama, saya akan menjelaskan tentang Linux itu sendiri. Bagian kedua akan
+menjelaskan mengenai sejarah Linux. Bagian ketiga tentang distribusi linux. Di bagian keempat, saya akan menjelaskan bagaimana cara memilih
+distro Linux. Untuk instalasi Linux tidak akan saya bahas di sini karena artikel ini akan menjadi terlalu panjang sehingga pembahasan mengenai tutorial
+instalasi Linux akan saya buatkan di artikel yang baru.</p>
+<p>Oke, mari kita masuk ke pembahasan pertama&hellip;</p>
+<h3 id="1-linux-in-a-nutshell">1. Linux in a Nutshell<a hidden class="anchor" aria-hidden="true" href="#1-linux-in-a-nutshell">#</a></h3>
+<p>Secara sederhana, Linux adalah sistem operasi berbasis <em>open-source</em>. Sebagaimana sistem operasi dekstop komputer lain yang terkenal seperti Windows dan MacOS, Linux juga
+merupakan <em>software</em> yang dapat digunakan di komputer atau laptop kita. Dan karena Linux berbasis <em>open-source</em>, artinya, program ini dapat
+diperoleh, dikembangkan, dan diinstall  di komputer kita secara gratis tanpa harus membayar lisensi terlebih dahulu seperti Windows/MacOS.</p>
+<h3 id="2-sejarah-singkat-linux">2. Sejarah (singkat) Linux<a hidden class="anchor" aria-hidden="true" href="#2-sejarah-singkat-linux">#</a></h3>
+<p><img loading="lazy" src="/introlinux/linus-torvalds-enlarge.jpg" alt="f1"  />
+
+Linux dikembangkan pertama kali oleh <strong>Linus Torvalds</strong> pada tahun 1991 saat masih menjadi mahasiswa di Universitas Helsinki, Finlandia.
+<em>Fun fact</em>-nya, Linux ternyata merupakan produk dari &ldquo;proyek iseng&rdquo; Linus yang terinspirasi dari sistem operasi Minix<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. Minix adalah
+sistem operasi mirip UNIX yang dibuat oleh seorang Profesor dari Vrije Universiteit Amsterdam, Andrew Stuart Tanenbaum, pada tahun 1987 dengan tujuan
+pendidikan. UNIX sendiri merupakan sistem operasi yang dibangun pada tahun 1969 oleh dua orang <em>developer</em> bahasa C (Ken Thompson &amp; Dennis Ritchie) dan
+para peneliti di AT&amp;T Bell Laboratorium Amerika.</p>
+<p>Logo Linux adalah seekor penguin bernama TUX. TUX sendiri merupakan gabungan dari kata <strong>(T)orvalds (U)ni(X)</strong>. Kenapa penguin? Awal mulanya terjadi
+ketika Linus sedang berlibur dan bertemu dengan seekor penguin kecil dan pendek yang secara tidak sengaja menggigit jarinya.
+Hal tersebut membuatnya demam selama berhari-hari. Kejadian ini kemudian menginspirasi dirinya untuk memakai penguin sebagai logo Linux.</p>
+<p>Dalam membangun Linux, Linus menggunakan <em>tools</em> dari <a href="https://www.fsf.org/">Free Foundation Software</a> yang berlisensi GNU. Kemudian untuk menjadikan
+Linux sebagai sebuah sistem operasi yang utuh, dia memasukkan program-program yang juga berlisensi <a href="https://www.gnu.org/licenses/">GNU</a>. Oleh karena itu,
+Linux sering juga disebut bersandingan dengan GNU, yaitu GNU/Linux.</p>
+<h3 id="3-distribusi-linux">3. Distribusi Linux<a hidden class="anchor" aria-hidden="true" href="#3-distribusi-linux">#</a></h3>
+<p>Sejak awal mula ditemukannya Linux pada tahun 1991 hingga saat ini, sudah banyak variasi atau distribusi (distro) Linux yang terdapat di internet dan
+tentu saja kita dapat mengunduhnya secara cuma-cuma. Beberapa distro Linux yang terkenal misalnya ada <a href="https://ubuntu.com/">Ubuntu</a>, <a href="https://www.debian.org/index.en.html">Debian</a>,
+<a href="https://fedoraproject.org/">Fedora</a>, <a href="https://linuxmint.com/">Mint</a>, <a href="https://archlinux.org/">Arch</a>, dan masih banyak lagi.</p>
+<p>Masing-masing varian Linux biasanya memiliki distro induk sebagai basis pengembangan Linux tersebut. Misalnya, Ubuntu adalah salah satu distro Linux yang
+dibangun berbasis Debian (Debian-based). Linux Mint juga merupakan salah satu distro Linux yang dikembangkan berbasis Debian. Dengan kata lain, Debian
+merupakan distro induk yang memiliki banyak varian Linux di bawahnya. Tapi, yang menarik, Ubuntu sebagai &ldquo;anak&rdquo; turunan Debian, juga memiliki varian-varian
+Linux di bawahnya seperti Lubuntu, Kubuntu, Xubuntu, dan lain-lain. Artinya, seperti Debian, Ubuntu juga merupakan distro induk yang memiliki turunan
+distro di bawahnya.</p>
+<p>Berikut adalah peta distribusi Linux yang tersedia di Wikipedia<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> Untuk memperbesar tulisannya, kalian dapat klik kanan di gambar tersebut, lalu pilih
+<em><strong>Open Image in New Tab</strong></em>.
+<img loading="lazy" src="/introlinux/Linux_Distribution_Timeline.svg" alt="f2"  />
+</p>
+<p>Melalui peta persebaran tersebut, kita dapat mengetahui 3 hal,</p>
+<ol>
+<li>distro Linux yang ada saat ini</li>
+<li>distro Linux yang menjadi <strong>akar</strong> dari varian-varian Linux lainnya, dan</li>
+<li>tahun rilisnya distro tersebut ke publik (internet)</li>
+</ol>
+<p>Berdasarkan peta tersebut, setidaknya ada 6 akar distro Linux yang memiliki varian-varian distro yang cukup populer. Kelima &ldquo;distro akar&rdquo; tersebut yaitu
+<strong>Slackware</strong>, <strong>Debian</strong>, <strong>Redhat</strong>, <strong>Jurix</strong>, <strong>Enoch</strong>, dan <strong>Arch Linux</strong>.</p>
+<p><em>Developer</em> dari setiap distro Linux tidak bisa juga beragam. Sebab, ada distro yang dikembangkan oleh satu perusahaan atau organisasi, ada pula yang
+dikembangkan oleh komunitas, dan bahkan ada juga yang dikembangkan atau dibuat oleh perseorangan/individu. <strong>Ubuntu</strong> misalnya, adalah distro Linux yang
+dikembangkan oleh perusahaan bernama <a href="https://ubuntu.com/community/governance/canonical">Cannonical</a>, <strong>Arch Linux</strong> adalah distro Linux yang
+dikembangkan oleh komunitas, dan <strong>Archcraft</strong> adalah distro berbasis Arch Linux yang dibuat oleh seorang <em>developer</em> bernama <a href="https://github.com/adi1090x">Aditya Shaka</a>.
+Yang jelas, masing-masing akar distro Linux menggunakan &ldquo;kernel&rdquo; (program inti dari sebuah sistem operasi) Linux yang sama, yaitu seperti yang dibuat
+oleh penemu Linux, Linus Torvalds, untuk mengembangkan distro Linux-nya masing-masing.</p>
+<h3 id="4-cara-memilih-distro-linux">4. Cara Memilih Distro Linux<a hidden class="anchor" aria-hidden="true" href="#4-cara-memilih-distro-linux">#</a></h3>
+<p>Sebagaimana saya jelaskan sebelumnya, ada banyak sekali distro Linux yang dapat kita gunakan. Nah, sebelum menentukan distro Linux apa yang akan
+kalian gunakan, kita perlu tahu juga bahwa setiap distro Linux yang dikembangkan memiliki tujuan spesifiknya masing-masing. Sebagai contoh, saya akan
+buatkan kategori distro linux berdasarkan tujuannya sebagai berikut:</p>
+<p><strong><code>1. Distro Linux untuk Daily Driver</code></strong></p>
+<p>Distro Linux ini cocok digunakan untuk kegiatan sehari-hari seperti mengetik, menonton, <em>browsing</em>, dan sebagainya.</p>
+<ul>
+<li>Ubuntu : <a href="https://ubuntu.com/download/desktop">https://ubuntu.com/download/desktop</a></li>
+<li>MX Linux : <a href="https://mxlinux.org/">https://mxlinux.org/</a></li>
+<li>Linux Mint : <a href="https://linuxmint.com/">https://linuxmint.com/</a></li>
+<li>Pop!_OS : <a href="https://pop.system76.com/">https://pop.system76.com/</a></li>
+<li>Debian : <a href="https://www.debian.org/index.id.html">https://www.debian.org/index.id.html</a></li>
+<li>Manjaro : <a href="https://manjaro.org/">https://manjaro.org/</a></li>
+</ul>
+<p><strong><code>2. Distro Linux untuk Multimedia</code></strong></p>
+<p>Distro Linux ini cocok digunakan untuk kegiatan multimedia seperti <em>design</em> dan <em>editing</em>.</p>
+<ul>
+<li>Ubuntu Studio : <a href="https://ubuntustudio.org/">https://ubuntustudio.org/</a></li>
+<li>AV Linux : <a href="http://www.bandshed.net/avlinux/">http://www.bandshed.net/avlinux/</a></li>
+<li>Fedora Design Suite : <a href="https://labs.fedoraproject.org/design-suite/">https://labs.fedoraproject.org/design-suite/</a></li>
+<li>LangitKetujuh OS : <a href="https://langitketujuh.id/">https://langitketujuh.id/</a></li>
+<li>Apodio : <a href="http://apodio.org/doku.php">http://apodio.org/doku.php</a></li>
+<li>io GNU/Linux : <a href="http://io.gnu.linux.free.fr/">http://io.gnu.linux.free.fr/</a></li>
+</ul>
+<p><strong><code>3. Distro Linux untuk Hacking</code></strong></p>
+<p>Distro Linux ini cocok digunakan untuk menguji keamanan jaringan komputer dan forensik.</p>
+<ul>
+<li>Kali Linux : <a href="https://www.kali.org/">https://www.kali.org/</a></li>
+<li>Parrot OS : <a href="https://www.parrotsec.org/">https://www.parrotsec.org/</a></li>
+<li>BackBox : <a href="https://www.backbox.org/">https://www.backbox.org/</a></li>
+<li>Black Arch : <a href="https://blackarch.org/">https://blackarch.org/</a></li>
+<li>Exodia OS : <a href="https://exodia-os.github.io/exodia-website/">https://exodia-os.github.io/exodia-website/</a></li>
+</ul>
+<p><strong><code>4. Distro Linux untuk Server</code></strong></p>
+<p>Distro Linux ini cocok digunakan sebagai server.</p>
+<ul>
+<li>Ubuntu Server : <a href="https://ubuntu.com/server">https://ubuntu.com/server</a></li>
+<li>CentOS : <a href="https://www.centos.org/">https://www.centos.org/</a></li>
+<li>OpenSUSE : <a href="https://www.opensuse.org/">https://www.opensuse.org/</a></li>
+<li>Fedora Server : <a href="https://fedoraproject.org/en/server/download">https://fedoraproject.org/en/server/download</a></li>
+<li>Rocky Linux : <a href="https://rockylinux.org/">https://rockylinux.org/</a></li>
+<li>Red Hat Enterprise Linux (RHEL) : <a href="https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux">https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux</a></li>
+</ul>
+<p>Setelah memahami tujuan dari dibuatnya masing-masing distro Linux, langkah berikutnya adalah mengidentifikasi kebutuhan untuk menginstall Linux.
+Misal, kita ingin menginstall Linux untuk keperluan sehari-hari saja (<em>daily driver</em>), maka kalian bisa mencari distro Linux yang sesuai dengan
+kebutuhan kalian tersebut.</p>
+<blockquote>
+<p><strong>Note</strong></p>
+</blockquote>
+<blockquote>
+<p>Menurut saya pribadi, spesialisasi Linux ditujukan untuk memudahkan penggunanya agar dapat langsung menggunakan <em>software</em>/aplikasi yang
+terkait dengan kebutuhannya sehingga tidak perlu meng-<em>compile</em> sendiri <em>tools</em> yang akan digunakan. Artinya, sebenarnya, selagi <em>tools/software</em>/aplikasi yang
+diperlukan tersedia di repositori, apapun distro Linux yang digunakan bukanlah masalah besar. Tapi, untuk kemudahan dan tujuan belajar, silakan
+gunakan distro Linux berdasarkan spesialisasi yang sudah saya kategorisasikan sebelumnya&hellip;</p>
+</blockquote>
+<p>Demikian dulu perkenalan dengan Linux di artikel ini. Mungkin, di artikel-artikel berikutnya, kita akan belajar Linux lebih jauh lagi.</p>
+<p>Sekian,
+sampai jumpa di artikel saya yang lain! :)</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p><a href="https://klc2.kemenkeu.go.id/kms/knowledge/sejarah-dan-perkembangan-linux-ef5980e6/detail/">https://klc2.kemenkeu.go.id/kms/knowledge/sejarah-dan-perkembangan-linux-ef5980e6/detail/</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p><a href="https://upload.wikimedia.org/wikipedia/commons/1/1b/Linux_Distribution_Timeline.svg">https://upload.wikimedia.org/wikipedia/commons/1/1b/Linux_Distribution_Timeline.svg</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="/tags/linux/">linux</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="next" href="/post/onionshare/">
+    <span class="title">Next »</span>
+    <br>
+    <span>Private File Sharing with Onionshare</span>
+  </a>
+</nav>
+
+
+<ul class="share-buttons">
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Intro to Linux on x"
+            href="https://x.com/intent/tweet/?text=Intro%20to%20Linux&amp;url=%2fpost%2fintro-linux%2f&amp;hashtags=linux">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M512 62.554 L 512 449.446 C 512 483.97 483.97 512 449.446 512 L 62.554 512 C 28.03 512 0 483.97 0 449.446 L 0 62.554 C 0 28.03 28.029 0 62.554 0 L 449.446 0 C 483.971 0 512 28.03 512 62.554 Z M 269.951 190.75 L 182.567 75.216 L 56 75.216 L 207.216 272.95 L 63.9 436.783 L 125.266 436.783 L 235.9 310.383 L 332.567 436.783 L 456 436.783 L 298.367 228.367 L 432.367 75.216 L 371.033 75.216 Z M 127.633 110 L 164.101 110 L 383.481 400.065 L 349.5 400.065 Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Intro to Linux on linkedin"
+            href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fpost%2fintro-linux%2f&amp;title=Intro%20to%20Linux&amp;summary=Intro%20to%20Linux&amp;source=%2fpost%2fintro-linux%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-288.985,423.278l0,-225.717l-75.04,0l0,225.717l75.04,0Zm270.539,0l0,-129.439c0,-69.333 -37.018,-101.586 -86.381,-101.586c-39.804,0 -57.634,21.891 -67.617,37.266l0,-31.958l-75.021,0c0.995,21.181 0,225.717 0,225.717l75.02,0l0,-126.056c0,-6.748 0.486,-13.492 2.474,-18.315c5.414,-13.475 17.767,-27.434 38.494,-27.434c27.135,0 38.007,20.707 38.007,51.037l0,120.768l75.024,0Zm-307.552,-334.556c-25.674,0 -42.448,16.879 -42.448,39.002c0,21.658 16.264,39.002 41.455,39.002l0.484,0c26.165,0 42.452,-17.344 42.452,-39.002c-0.485,-22.092 -16.241,-38.954 -41.943,-39.002Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Intro to Linux on reddit"
+            href="https://reddit.com/submit?url=%2fpost%2fintro-linux%2f&title=Intro%20to%20Linux">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-3.446,265.638c0,-22.964 -18.616,-41.58 -41.58,-41.58c-11.211,0 -21.361,4.457 -28.841,11.666c-28.424,-20.508 -67.586,-33.757 -111.204,-35.278l18.941,-89.121l61.884,13.157c0.756,15.734 13.642,28.29 29.56,28.29c16.407,0 29.706,-13.299 29.706,-29.701c0,-16.403 -13.299,-29.702 -29.706,-29.702c-11.666,0 -21.657,6.792 -26.515,16.578l-69.105,-14.69c-1.922,-0.418 -3.939,-0.042 -5.585,1.036c-1.658,1.073 -2.811,2.761 -3.224,4.686l-21.152,99.438c-44.258,1.228 -84.046,14.494 -112.837,35.232c-7.468,-7.164 -17.589,-11.591 -28.757,-11.591c-22.965,0 -41.585,18.616 -41.585,41.58c0,16.896 10.095,31.41 24.568,37.918c-0.639,4.135 -0.99,8.328 -0.99,12.576c0,63.977 74.469,115.836 166.33,115.836c91.861,0 166.334,-51.859 166.334,-115.836c0,-4.218 -0.347,-8.387 -0.977,-12.493c14.564,-6.47 24.735,-21.034 24.735,-38.001Zm-119.474,108.193c-20.27,20.241 -59.115,21.816 -70.534,21.816c-11.428,0 -50.277,-1.575 -70.522,-21.82c-3.007,-3.008 -3.007,-7.882 0,-10.889c3.003,-2.999 7.882,-3.003 10.885,0c12.777,12.781 40.11,17.317 59.637,17.317c19.522,0 46.86,-4.536 59.657,-17.321c3.016,-2.999 7.886,-2.995 10.885,0.008c3.008,3.011 3.003,7.882 -0.008,10.889Zm-5.23,-48.781c-16.373,0 -29.701,-13.324 -29.701,-29.698c0,-16.381 13.328,-29.714 29.701,-29.714c16.378,0 29.706,13.333 29.706,29.714c0,16.374 -13.328,29.698 -29.706,29.698Zm-160.386,-29.702c0,-16.381 13.328,-29.71 29.714,-29.71c16.369,0 29.689,13.329 29.689,29.71c0,16.373 -13.32,29.693 -29.689,29.693c-16.386,0 -29.714,-13.32 -29.714,-29.693Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Intro to Linux on facebook"
+            href="https://facebook.com/sharer/sharer.php?u=%2fpost%2fintro-linux%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-106.468,0l0,-192.915l66.6,0l12.672,-82.621l-79.272,0l0,-53.617c0,-22.603 11.073,-44.636 46.58,-44.636l36.042,0l0,-70.34c0,0 -32.71,-5.582 -63.982,-5.582c-65.288,0 -107.96,39.569 -107.96,111.204l0,62.971l-72.573,0l0,82.621l72.573,0l0,192.915l-191.104,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Intro to Linux on whatsapp"
+            href="https://api.whatsapp.com/send?text=Intro%20to%20Linux%20-%20%2fpost%2fintro-linux%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-58.673,127.703c-33.842,-33.881 -78.847,-52.548 -126.798,-52.568c-98.799,0 -179.21,80.405 -179.249,179.234c-0.013,31.593 8.241,62.428 23.927,89.612l-25.429,92.884l95.021,-24.925c26.181,14.28 55.659,21.807 85.658,21.816l0.074,0c98.789,0 179.206,-80.413 179.247,-179.243c0.018,-47.895 -18.61,-92.93 -52.451,-126.81Zm-126.797,275.782l-0.06,0c-26.734,-0.01 -52.954,-7.193 -75.828,-20.767l-5.441,-3.229l-56.386,14.792l15.05,-54.977l-3.542,-5.637c-14.913,-23.72 -22.791,-51.136 -22.779,-79.287c0.033,-82.142 66.867,-148.971 149.046,-148.971c39.793,0.014 77.199,15.531 105.329,43.692c28.128,28.16 43.609,65.592 43.594,105.4c-0.034,82.149 -66.866,148.983 -148.983,148.984Zm81.721,-111.581c-4.479,-2.242 -26.499,-13.075 -30.604,-14.571c-4.105,-1.495 -7.091,-2.241 -10.077,2.241c-2.986,4.483 -11.569,14.572 -14.182,17.562c-2.612,2.988 -5.225,3.364 -9.703,1.12c-4.479,-2.241 -18.91,-6.97 -36.017,-22.23c-13.314,-11.876 -22.304,-26.542 -24.916,-31.026c-2.612,-4.484 -0.279,-6.908 1.963,-9.14c2.016,-2.007 4.48,-5.232 6.719,-7.847c2.24,-2.615 2.986,-4.484 4.479,-7.472c1.493,-2.99 0.747,-5.604 -0.374,-7.846c-1.119,-2.241 -10.077,-24.288 -13.809,-33.256c-3.635,-8.733 -7.327,-7.55 -10.077,-7.688c-2.609,-0.13 -5.598,-0.158 -8.583,-0.158c-2.986,0 -7.839,1.121 -11.944,5.604c-4.105,4.484 -15.675,15.32 -15.675,37.364c0,22.046 16.048,43.342 18.287,46.332c2.24,2.99 31.582,48.227 76.511,67.627c10.685,4.615 19.028,7.371 25.533,9.434c10.728,3.41 20.492,2.929 28.209,1.775c8.605,-1.285 26.499,-10.833 30.231,-21.295c3.732,-10.464 3.732,-19.431 2.612,-21.298c-1.119,-1.869 -4.105,-2.99 -8.583,-5.232Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Intro to Linux on telegram"
+            href="https://telegram.me/share/url?text=Intro%20to%20Linux&amp;url=%2fpost%2fintro-linux%2f">
+            <svg version="1.1" xml:space="preserve" viewBox="2 2 28 28" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M26.49,29.86H5.5a3.37,3.37,0,0,1-2.47-1,3.35,3.35,0,0,1-1-2.47V5.48A3.36,3.36,0,0,1,3,3,3.37,3.37,0,0,1,5.5,2h21A3.38,3.38,0,0,1,29,3a3.36,3.36,0,0,1,1,2.46V26.37a3.35,3.35,0,0,1-1,2.47A3.38,3.38,0,0,1,26.49,29.86Zm-5.38-6.71a.79.79,0,0,0,.85-.66L24.73,9.24a.55.55,0,0,0-.18-.46.62.62,0,0,0-.41-.17q-.08,0-16.53,6.11a.59.59,0,0,0-.41.59.57.57,0,0,0,.43.52l4,1.24,1.61,4.83a.62.62,0,0,0,.63.43.56.56,0,0,0,.4-.17L16.54,20l4.09,3A.9.9,0,0,0,21.11,23.15ZM13.8,20.71l-1.21-4q8.72-5.55,8.78-5.55c.15,0,.23,0,.23.16a.18.18,0,0,1,0,.06s-2.51,2.3-7.52,6.8Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Intro to Linux on ycombinator"
+            href="https://news.ycombinator.com/submitlink?t=Intro%20to%20Linux&u=%2fpost%2fintro-linux%2f">
+            <svg version="1.1" xml:space="preserve" width="30px" height="30px" viewBox="0 0 512 512" fill="currentColor"
+                xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
+                <path
+                    d="M449.446 0C483.971 0 512 28.03 512 62.554L512 449.446C512 483.97 483.97 512 449.446 512L62.554 512C28.03 512 0 483.97 0 449.446L0 62.554C0 28.03 28.029 0 62.554 0L449.446 0ZM183.8767 87.9921H121.8427L230.6673 292.4508V424.0079H281.3328V292.4508L390.1575 87.9921H328.1233L256 238.2489z" />
+            </svg>
+        </a>
+    </li>
+</ul>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2024 <a href="">Wildan&#39;s Workspace</a></span>
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

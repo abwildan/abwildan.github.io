@@ -1,119 +1,117 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Wildan&#39;s Workspace</title>
-    <link>https://github.com/abwildan/abwildan.github.io/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on Wildan&#39;s Workspace</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Wed, 11 Oct 2023 16:32:22 +0700</lastBuildDate><atom:link href="https://github.com/abwildan/abwildan.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 02 Dec 2023 02:24:37 -0500</lastBuildDate>
+    <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>e-book</title>
-      <link>https://github.com/abwildan/abwildan.github.io/tags/e-book/</link>
-      <pubDate>Wed, 11 Oct 2023 16:32:22 +0700</pubDate>
-      
-      <guid>https://github.com/abwildan/abwildan.github.io/tags/e-book/</guid>
+      <title>linux</title>
+      <link>/tags/linux/</link>
+      <pubDate>Sat, 02 Dec 2023 02:24:37 -0500</pubDate>
+      <guid>/tags/linux/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>telegram</title>
-      <link>https://github.com/abwildan/abwildan.github.io/tags/telegram/</link>
-      <pubDate>Wed, 11 Oct 2023 16:32:22 +0700</pubDate>
-      
-      <guid>https://github.com/abwildan/abwildan.github.io/tags/telegram/</guid>
+      <title>anonymous</title>
+      <link>/tags/anonymous/</link>
+      <pubDate>Thu, 30 Nov 2023 07:35:02 -0500</pubDate>
+      <guid>/tags/anonymous/</guid>
       <description></description>
     </item>
-    
+    <item>
+      <title>TOR</title>
+      <link>/tags/tor/</link>
+      <pubDate>Thu, 30 Nov 2023 07:35:02 -0500</pubDate>
+      <guid>/tags/tor/</guid>
+      <description></description>
+    </item>
     <item>
       <title>tutorial</title>
-      <link>https://github.com/abwildan/abwildan.github.io/tags/tutorial/</link>
-      <pubDate>Wed, 11 Oct 2023 16:32:22 +0700</pubDate>
-      
-      <guid>https://github.com/abwildan/abwildan.github.io/tags/tutorial/</guid>
+      <link>/tags/tutorial/</link>
+      <pubDate>Thu, 30 Nov 2023 07:35:02 -0500</pubDate>
+      <guid>/tags/tutorial/</guid>
       <description></description>
     </item>
-    
+    <item>
+      <title>e-book</title>
+      <link>/tags/e-book/</link>
+      <pubDate>Wed, 11 Oct 2023 16:32:22 +0700</pubDate>
+      <guid>/tags/e-book/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>telegram</title>
+      <link>/tags/telegram/</link>
+      <pubDate>Wed, 11 Oct 2023 16:32:22 +0700</pubDate>
+      <guid>/tags/telegram/</guid>
+      <description></description>
+    </item>
     <item>
       <title>z-library</title>
-      <link>https://github.com/abwildan/abwildan.github.io/tags/z-library/</link>
+      <link>/tags/z-library/</link>
       <pubDate>Wed, 11 Oct 2023 16:32:22 +0700</pubDate>
-      
-      <guid>https://github.com/abwildan/abwildan.github.io/tags/z-library/</guid>
+      <guid>/tags/z-library/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>ffmpeg</title>
-      <link>https://github.com/abwildan/abwildan.github.io/tags/ffmpeg/</link>
+      <link>/tags/ffmpeg/</link>
       <pubDate>Wed, 11 Oct 2023 00:40:23 +0700</pubDate>
-      
-      <guid>https://github.com/abwildan/abwildan.github.io/tags/ffmpeg/</guid>
+      <guid>/tags/ffmpeg/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>MP4 to GIF</title>
-      <link>https://github.com/abwildan/abwildan.github.io/tags/mp4-to-gif/</link>
+      <link>/tags/mp4-to-gif/</link>
       <pubDate>Wed, 11 Oct 2023 00:40:23 +0700</pubDate>
-      
-      <guid>https://github.com/abwildan/abwildan.github.io/tags/mp4-to-gif/</guid>
+      <guid>/tags/mp4-to-gif/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Video Converter</title>
-      <link>https://github.com/abwildan/abwildan.github.io/tags/video-converter/</link>
+      <link>/tags/video-converter/</link>
       <pubDate>Wed, 11 Oct 2023 00:40:23 +0700</pubDate>
-      
-      <guid>https://github.com/abwildan/abwildan.github.io/tags/video-converter/</guid>
+      <guid>/tags/video-converter/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>screen recorder</title>
-      <link>https://github.com/abwildan/abwildan.github.io/tags/screen-recorder/</link>
+      <link>/tags/screen-recorder/</link>
       <pubDate>Tue, 10 Oct 2023 09:13:32 +0700</pubDate>
-      
-      <guid>https://github.com/abwildan/abwildan.github.io/tags/screen-recorder/</guid>
+      <guid>/tags/screen-recorder/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>hugo</title>
-      <link>https://github.com/abwildan/abwildan.github.io/tags/hugo/</link>
+      <link>/tags/hugo/</link>
       <pubDate>Mon, 09 Oct 2023 15:22:46 +0700</pubDate>
-      
-      <guid>https://github.com/abwildan/abwildan.github.io/tags/hugo/</guid>
+      <guid>/tags/hugo/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>static-site</title>
-      <link>https://github.com/abwildan/abwildan.github.io/tags/static-site/</link>
+      <link>/tags/static-site/</link>
       <pubDate>Mon, 09 Oct 2023 15:22:46 +0700</pubDate>
-      
-      <guid>https://github.com/abwildan/abwildan.github.io/tags/static-site/</guid>
+      <guid>/tags/static-site/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>website</title>
-      <link>https://github.com/abwildan/abwildan.github.io/tags/website/</link>
+      <link>/tags/website/</link>
       <pubDate>Mon, 09 Oct 2023 15:22:46 +0700</pubDate>
-      
-      <guid>https://github.com/abwildan/abwildan.github.io/tags/website/</guid>
+      <guid>/tags/website/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>introduction</title>
-      <link>https://github.com/abwildan/abwildan.github.io/tags/introduction/</link>
+      <link>/tags/introduction/</link>
       <pubDate>Sat, 07 Oct 2023 13:17:32 +0700</pubDate>
-      
-      <guid>https://github.com/abwildan/abwildan.github.io/tags/introduction/</guid>
+      <guid>/tags/introduction/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

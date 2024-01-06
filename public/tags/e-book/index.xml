@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>e-book on Wildan&#39;s Workspace</title>
-    <link>https://github.com/abwildan/abwildan.github.io/tags/e-book/</link>
+    <link>/tags/e-book/</link>
     <description>Recent content in e-book on Wildan&#39;s Workspace</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Wed, 11 Oct 2023 16:32:22 +0700</lastBuildDate><atom:link href="https://github.com/abwildan/abwildan.github.io/tags/e-book/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 11 Oct 2023 16:32:22 +0700</lastBuildDate>
+    <atom:link href="/tags/e-book/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mengunduh (free) e-book via Bot Telegram</title>
-      <link>https://github.com/abwildan/abwildan.github.io/post/ebook-via-bot_telegram/</link>
+      <link>/post/ebook-via-bot_telegram/</link>
       <pubDate>Wed, 11 Oct 2023 16:32:22 +0700</pubDate>
-      
-      <guid>https://github.com/abwildan/abwildan.github.io/post/ebook-via-bot_telegram/</guid>
+      <guid>/post/ebook-via-bot_telegram/</guid>
       <description>Keberadaan buku digital / buku elektronik (e-book) saat ini sudah menjadi keniscayaan di era yang juga sudah digital. Kelebihan buku elektronik dibanding buku fisik selain murah dan mudah (atau gak mudah ya? hehe) diperoleh adalah juga tidak banyak memakan tempat (rak buku, dsb). Oleh karena itu, kita (apalagi akademisi, baik di sekolah ataupun perguruan tinggi) sangat memerlukan buku sebagai referensi dalam kegiatan belajar-mengajar.
 Nah, kali ini saya akan memberikan tutorial mendapatkan buku digital dengan mudah karena hanya membutuhkan telegram sebagai modal utamanya.</description>
     </item>
-    
   </channel>
 </rss>

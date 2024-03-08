@@ -6,8 +6,16 @@
     <description>Recent content in Screen Recorder on Wildan&#39;s Workspace</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Tue, 10 Oct 2023 09:13:32 +0700</lastBuildDate>
+    <lastBuildDate>Fri, 08 Mar 2024 14:55:26 +0700</lastBuildDate>
     <atom:link href="//localhost:1313/tags/screen-recorder/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>recordmydesktop</title>
+      <link>//localhost:1313/post/recordmydesktop/</link>
+      <pubDate>Fri, 08 Mar 2024 14:55:26 +0700</pubDate>
+      <guid>//localhost:1313/post/recordmydesktop/</guid>
+      <description>Tepat pada tanggal 10 Oktober 2023 lalu, saya membuat tutorial merekam layar (screen recorder) desktop menggunakan program ffmpeg. Hanya saja, hingga saat ini, ada dua kelemahan ffmpeg yang belum dapat saya temukan solusinya ketika berbicara tentang dekstop screen recorder.
+Nah, beberapa pekan lalu, saya menemukan program sederhana yang dapat men-cover kelemahan ffmpeg ini, yaitu recordmydesktop. Sebetulnya, saya menemukan program ini di Kali Linux, ketika saya juga sedang ingin melakukan rekaman layar, dan ketika saya ketikkan &amp;lsquo;record&amp;rsquo; di menu, tampillah program ini.</description>
+    </item>
     <item>
       <title>Screen Recorder with FFmpeg</title>
       <link>//localhost:1313/post/ffmpeg-sr/</link>

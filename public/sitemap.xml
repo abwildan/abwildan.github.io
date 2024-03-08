@@ -2,17 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>//localhost:1313/categories/</loc>
+    <lastmod>2024-03-08T14:55:26+07:00</lastmod>
+  </url><url>
     <loc>//localhost:1313/post/</loc>
     <lastmod>2024-03-08T14:55:26+07:00</lastmod>
   </url><url>
     <loc>//localhost:1313/post/recordmydesktop/</loc>
     <lastmod>2024-03-08T14:55:26+07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/</loc>
+    <loc>//localhost:1313/tags/recordmydesktop/</loc>
     <lastmod>2024-03-08T14:55:26+07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/</loc>
-    <lastmod>2024-01-06T02:26:47-05:00</lastmod>
+    <loc>//localhost:1313/categories/recordmydesktop/</loc>
+    <lastmod>2024-03-08T14:55:26+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/screen-recorder/</loc>
+    <lastmod>2024-03-08T14:55:26+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/</loc>
+    <lastmod>2024-03-08T14:55:26+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/tutorial/</loc>
+    <lastmod>2024-03-08T14:55:26+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/</loc>
+    <lastmod>2024-03-08T14:55:26+07:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/data-analysis/</loc>
     <lastmod>2024-01-06T02:26:47-05:00</lastmod>
@@ -24,9 +39,6 @@
     <lastmod>2024-01-06T02:26:47-05:00</lastmod>
   </url><url>
     <loc>//localhost:1313/post/gephi/</loc>
-    <lastmod>2024-01-06T02:26:47-05:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/</loc>
     <lastmod>2024-01-06T02:26:47-05:00</lastmod>
   </url><url>
     <loc>//localhost:1313/post/intro-linux/</loc>
@@ -51,9 +63,6 @@
     <lastmod>2023-11-30T07:35:02-05:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/tor/</loc>
-    <lastmod>2023-11-30T07:35:02-05:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/tutorial/</loc>
     <lastmod>2023-11-30T07:35:02-05:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/e-book/</loc>
@@ -85,9 +94,6 @@
   </url><url>
     <loc>//localhost:1313/tags/video-converter/</loc>
     <lastmod>2023-10-11T00:40:23+07:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/screen-recorder/</loc>
-    <lastmod>2023-10-10T09:13:32+07:00</lastmod>
   </url><url>
     <loc>//localhost:1313/post/ffmpeg-sr/</loc>
     <lastmod>2023-10-10T09:13:32+07:00</lastmod>

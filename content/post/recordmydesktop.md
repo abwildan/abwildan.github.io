@@ -12,6 +12,9 @@ categories: ["recordmydesktop"]
 
 Tepat pada tanggal 10 Oktober 2023 lalu, saya membuat tutorial merekam layar (*screen recorder*) desktop menggunakan program ffmpeg.
 Hanya saja, hingga saat ini, ada dua kelemahan ffmpeg yang belum dapat saya temukan solusinya ketika berbicara tentang dekstop screen recorder.
+- FFmpeg belum bisa merekam satu window spesifik
+- FFmpeg belum bisa merekam area layar tertentu
+
 
 Nah, beberapa pekan lalu, saya menemukan program sederhana yang dapat men-*cover* kelemahan ffmpeg ini, yaitu **recordmydesktop**. Sebetulnya, saya menemukan program ini di Kali Linux, ketika saya
 juga sedang ingin melakukan rekaman layar, dan ketika saya ketikkan 'record' di menu, tampillah program ini. Ketika saya coba, ternyata program kecil ini dapat membantu dan memudahkan saya membuat

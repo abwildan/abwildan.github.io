@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Video Converter on Wildan&#39;s Workspace</title>
-    <link>/tags/video-converter/</link>
+    <link>//localhost:1313/tags/video-converter/</link>
     <description>Recent content in Video Converter on Wildan&#39;s Workspace</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Wed, 11 Oct 2023 00:40:23 +0700</lastBuildDate>
-    <atom:link href="/tags/video-converter/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/video-converter/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>FFmpeg - Convert MP4 to GIF</title>
-      <link>/post/ffmpeg-mp42gif/</link>
+      <link>//localhost:1313/post/ffmpeg-mp42gif/</link>
       <pubDate>Wed, 11 Oct 2023 00:40:23 +0700</pubDate>
-      <guid>/post/ffmpeg-mp42gif/</guid>
+      <guid>//localhost:1313/post/ffmpeg-mp42gif/</guid>
       <description>Terkadang, GIF punya kelebihan dibandingkan dengan file video, terutama dalam hal ukuran file. Dengan kualitas gambar yang hampir sama dengan video, file GIF bisa berukuran lebih kecil dari file video. Contohnya, saya punya sebuah file video rekaman layar 720p berdurasi 25 detik, dan satu file GIF yang merupakan hasil konversi video sebelumnya: Berikut adalah langkah-langkah membuat meng-convert video (MP4) ke GIF.
 Membuat palette Palette yang dibuat nanti akan dijadikan sebagai dasar warna dalam GIF.</description>
     </item>

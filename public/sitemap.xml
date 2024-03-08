@@ -2,111 +2,126 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/categories/</loc>
+    <loc>//localhost:1313/post/</loc>
+    <lastmod>2024-03-08T14:55:26+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/post/recordmydesktop/</loc>
+    <lastmod>2024-03-08T14:55:26+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/</loc>
+    <lastmod>2024-03-08T14:55:26+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/categories/</loc>
+    <lastmod>2024-01-06T02:26:47-05:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/data-analysis/</loc>
+    <lastmod>2024-01-06T02:26:47-05:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/gephi/</loc>
+    <lastmod>2024-01-06T02:26:47-05:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/categories/gephi/</loc>
+    <lastmod>2024-01-06T02:26:47-05:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/post/gephi/</loc>
+    <lastmod>2024-01-06T02:26:47-05:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/</loc>
+    <lastmod>2024-01-06T02:26:47-05:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/post/intro-linux/</loc>
     <lastmod>2023-12-02T02:24:37-05:00</lastmod>
   </url><url>
-    <loc>/post/intro-linux/</loc>
+    <loc>//localhost:1313/tags/linux/</loc>
     <lastmod>2023-12-02T02:24:37-05:00</lastmod>
   </url><url>
-    <loc>/tags/linux/</loc>
+    <loc>//localhost:1313/categories/linux/</loc>
     <lastmod>2023-12-02T02:24:37-05:00</lastmod>
   </url><url>
-    <loc>/categories/linux/</loc>
-    <lastmod>2023-12-02T02:24:37-05:00</lastmod>
-  </url><url>
-    <loc>/post/</loc>
-    <lastmod>2023-12-02T02:24:37-05:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2023-12-02T02:24:37-05:00</lastmod>
-  </url><url>
-    <loc>/</loc>
-    <lastmod>2023-12-02T02:24:37-05:00</lastmod>
-  </url><url>
-    <loc>/tags/anonymous/</loc>
+    <loc>//localhost:1313/tags/anonymous/</loc>
     <lastmod>2023-11-30T07:35:02-05:00</lastmod>
   </url><url>
-    <loc>/categories/onionshare/</loc>
+    <loc>//localhost:1313/categories/onionshare/</loc>
     <lastmod>2023-11-30T07:35:02-05:00</lastmod>
   </url><url>
-    <loc>/post/onionshare/</loc>
+    <loc>//localhost:1313/post/onionshare/</loc>
     <lastmod>2023-11-30T07:35:02-05:00</lastmod>
   </url><url>
-    <loc>/categories/tor/</loc>
+    <loc>//localhost:1313/categories/tor/</loc>
     <lastmod>2023-11-30T07:35:02-05:00</lastmod>
   </url><url>
-    <loc>/tags/tor/</loc>
+    <loc>//localhost:1313/tags/tor/</loc>
     <lastmod>2023-11-30T07:35:02-05:00</lastmod>
   </url><url>
-    <loc>/tags/tutorial/</loc>
+    <loc>//localhost:1313/tags/tutorial/</loc>
     <lastmod>2023-11-30T07:35:02-05:00</lastmod>
   </url><url>
-    <loc>/tags/e-book/</loc>
+    <loc>//localhost:1313/tags/e-book/</loc>
     <lastmod>2023-10-11T16:32:22+07:00</lastmod>
   </url><url>
-    <loc>/post/ebook-via-bot_telegram/</loc>
+    <loc>//localhost:1313/post/ebook-via-bot_telegram/</loc>
     <lastmod>2023-10-11T16:32:22+07:00</lastmod>
   </url><url>
-    <loc>/tags/telegram/</loc>
+    <loc>//localhost:1313/tags/telegram/</loc>
     <lastmod>2023-10-11T16:32:22+07:00</lastmod>
   </url><url>
-    <loc>/categories/telegram/</loc>
+    <loc>//localhost:1313/categories/telegram/</loc>
     <lastmod>2023-10-11T16:32:22+07:00</lastmod>
   </url><url>
-    <loc>/tags/z-library/</loc>
+    <loc>//localhost:1313/tags/z-library/</loc>
     <lastmod>2023-10-11T16:32:22+07:00</lastmod>
   </url><url>
-    <loc>/tags/ffmpeg/</loc>
+    <loc>//localhost:1313/tags/ffmpeg/</loc>
     <lastmod>2023-10-11T00:40:23+07:00</lastmod>
   </url><url>
-    <loc>/categories/ffmpeg/</loc>
+    <loc>//localhost:1313/categories/ffmpeg/</loc>
     <lastmod>2023-10-11T00:40:23+07:00</lastmod>
   </url><url>
-    <loc>/post/ffmpeg-mp42gif/</loc>
+    <loc>//localhost:1313/post/ffmpeg-mp42gif/</loc>
     <lastmod>2023-10-11T00:40:23+07:00</lastmod>
   </url><url>
-    <loc>/tags/mp4-to-gif/</loc>
+    <loc>//localhost:1313/tags/mp4-to-gif/</loc>
     <lastmod>2023-10-11T00:40:23+07:00</lastmod>
   </url><url>
-    <loc>/tags/video-converter/</loc>
+    <loc>//localhost:1313/tags/video-converter/</loc>
     <lastmod>2023-10-11T00:40:23+07:00</lastmod>
   </url><url>
-    <loc>/tags/screen-recorder/</loc>
+    <loc>//localhost:1313/tags/screen-recorder/</loc>
     <lastmod>2023-10-10T09:13:32+07:00</lastmod>
   </url><url>
-    <loc>/post/ffmpeg-sr/</loc>
+    <loc>//localhost:1313/post/ffmpeg-sr/</loc>
     <lastmod>2023-10-10T09:13:32+07:00</lastmod>
   </url><url>
-    <loc>/tags/hugo/</loc>
+    <loc>//localhost:1313/tags/hugo/</loc>
     <lastmod>2023-10-09T15:22:46+07:00</lastmod>
   </url><url>
-    <loc>/categories/hugo/</loc>
+    <loc>//localhost:1313/categories/hugo/</loc>
     <lastmod>2023-10-09T15:22:46+07:00</lastmod>
   </url><url>
-    <loc>/post/hugo-advanced/</loc>
+    <loc>//localhost:1313/post/hugo-advanced/</loc>
     <lastmod>2023-10-09T15:22:46+07:00</lastmod>
   </url><url>
-    <loc>/tags/static-site/</loc>
+    <loc>//localhost:1313/tags/static-site/</loc>
     <lastmod>2023-10-09T15:22:46+07:00</lastmod>
   </url><url>
-    <loc>/tags/website/</loc>
+    <loc>//localhost:1313/tags/website/</loc>
     <lastmod>2023-10-09T15:22:46+07:00</lastmod>
   </url><url>
-    <loc>/post/hugo-to_github/</loc>
+    <loc>//localhost:1313/post/hugo-to_github/</loc>
     <lastmod>2023-10-09T09:03:40+07:00</lastmod>
   </url><url>
-    <loc>/post/hugo-ing/</loc>
+    <loc>//localhost:1313/post/hugo-ing/</loc>
     <lastmod>2023-10-07T15:26:34+07:00</lastmod>
   </url><url>
-    <loc>/post/whoami/</loc>
+    <loc>//localhost:1313/post/whoami/</loc>
     <lastmod>2023-10-07T13:17:32+07:00</lastmod>
   </url><url>
-    <loc>/tags/introduction/</loc>
+    <loc>//localhost:1313/tags/introduction/</loc>
     <lastmod>2023-10-07T13:17:32+07:00</lastmod>
   </url><url>
-    <loc>/categories/whoami/</loc>
+    <loc>//localhost:1313/categories/whoami/</loc>
     <lastmod>2023-10-07T13:17:32+07:00</lastmod>
   </url><url>
-    <loc>/archives/</loc>
+    <loc>//localhost:1313/archives/</loc>
   </url>
 </urlset>

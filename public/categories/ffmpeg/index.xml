@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>ffmpeg on Wildan&#39;s Workspace</title>
-    <link>/categories/ffmpeg/</link>
-    <description>Recent content in ffmpeg on Wildan&#39;s Workspace</description>
+    <title>Ffmpeg on Wildan&#39;s Workspace</title>
+    <link>//localhost:1313/categories/ffmpeg/</link>
+    <description>Recent content in Ffmpeg on Wildan&#39;s Workspace</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Wed, 11 Oct 2023 00:40:23 +0700</lastBuildDate>
-    <atom:link href="/categories/ffmpeg/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/categories/ffmpeg/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>FFmpeg - Convert MP4 to GIF</title>
-      <link>/post/ffmpeg-mp42gif/</link>
+      <link>//localhost:1313/post/ffmpeg-mp42gif/</link>
       <pubDate>Wed, 11 Oct 2023 00:40:23 +0700</pubDate>
-      <guid>/post/ffmpeg-mp42gif/</guid>
+      <guid>//localhost:1313/post/ffmpeg-mp42gif/</guid>
       <description>Terkadang, GIF punya kelebihan dibandingkan dengan file video, terutama dalam hal ukuran file. Dengan kualitas gambar yang hampir sama dengan video, file GIF bisa berukuran lebih kecil dari file video. Contohnya, saya punya sebuah file video rekaman layar 720p berdurasi 25 detik, dan satu file GIF yang merupakan hasil konversi video sebelumnya: Berikut adalah langkah-langkah membuat meng-convert video (MP4) ke GIF.
 Membuat palette Palette yang dibuat nanti akan dijadikan sebagai dasar warna dalam GIF.</description>
     </item>
     <item>
       <title>Screen Recorder with FFmpeg</title>
-      <link>/post/ffmpeg-sr/</link>
+      <link>//localhost:1313/post/ffmpeg-sr/</link>
       <pubDate>Tue, 10 Oct 2023 09:13:32 +0700</pubDate>
-      <guid>/post/ffmpeg-sr/</guid>
+      <guid>//localhost:1313/post/ffmpeg-sr/</guid>
       <description>Kali ini, saya akan memberi tahu cara merekam layar desktop laptop atau komputer kita dengan FFmpeg. Apa itu FFmpeg? Penjelasan detail-nya tentu saja bisa didapatkan langsung dari website resminya di sini1. Tapi, sederhananya, FFmpeg adalah *utility/tool/*aplikasi/software video dan audio converter. FFmpeg juga merupakan program yang berbaris command line sebagai interface-nya. Jadi, meskipun hanya digunakan lewat CLI, tapi ffmpeg punya banyak sekali power, salah satunya adalah merekam layar desktop kita.
 Misalnya, dibandingkan beberapa aplikasi perekam layar lainnya (seperti OBS-Studio walaupun sama-sama open source), FFmpeg lebih praktis dan lebih kecil ukurannya.</description>
     </item>

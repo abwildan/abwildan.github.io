@@ -26,7 +26,7 @@ ffmpeg -i file_video.mp4 -vf palettegen palette_output.png
 Untuk membuat GIF, kita akan tidak hanya menyertakan file video-nya saja, tapi juga file palette yang sebelumnya sudah dibuat. Berikut adalah perintah yang perlu diinputkan:
 
 ```bash
-ffmpeg -i file_video.mp4 -i palette_output.png -fileter_complex "fps=20,scale=1080:-1[x];[x][1:v]paletteuse" gif_output.gif
+ffmpeg -i file_video.mp4 -i palette_output.png -filter_complex "fps=20,scale=1080:-1[x];[x][1:v]paletteuse" gif_output.gif
 ```
 FPS dan scale-nya bisa kita sesuaikan dengan kualitas GIF yang kita inginkan. Saya set fps di 20 karena file video yang saya buat memang di 20 fps (jadi saya buat juga 20 supaya sama) dan scale-nya di 1080 untuk menjaga kualitas GIF-nya (karena memang ada tulisan kecil yang harus terbaca). Semakin bagus kualitas yang dipertahankan untuk membuat GIF, semakin lama juga proses konversi-nya, tentu, menyesuaikan dengan kualitas hardware komputer/laptop yang digunakan :)
 

@@ -1,77 +1,93 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Wildan&#39;s Workspace</title>
-    <link>/</link>
+    <link>//localhost:1313/</link>
     <description>Recent content on Wildan&#39;s Workspace</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sat, 02 Dec 2023 02:24:37 -0500</lastBuildDate>
-    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 08 Mar 2024 14:55:26 +0700</lastBuildDate>
+    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Recordmydesktop</title>
+      <link>//localhost:1313/post/recordmydesktop/</link>
+      <pubDate>Fri, 08 Mar 2024 14:55:26 +0700</pubDate>
+      <guid>//localhost:1313/post/recordmydesktop/</guid>
+      <description>halo</description>
+    </item>
+    <item>
+      <title>Gephi - Actor(s) Centrality</title>
+      <link>//localhost:1313/post/gephi/</link>
+      <pubDate>Sat, 06 Jan 2024 02:26:47 -0500</pubDate>
+      <guid>//localhost:1313/post/gephi/</guid>
+      <description>Halo! Kali ini kita akan belajar tentang penggunaan salah satu software yang biasa digunakan untuk melakukan analisis data pada ilmu-ilmu sosial, khususnya pada diskusi atau kajian mengenai Social Network Analysis (SNA). Secara sederhana, SNA adalah sebuah metode untuk mengidentifikasi aktor (node) dan relasinya (edge) dalam suatu jaringan.
+Pada topik Gephi kali ini, saya akan menjelaskan analisis terhadap 4 jenis sentralitas aktor1, yaitu:
+Degree Centrality Betweeness Centrality Closeness Centrality Eigenvector Centrality Berikut adalah perbedaan singkat mengenai keempat jenis centrality tersebut.</description>
+    </item>
     <item>
       <title>Intro to Linux</title>
-      <link>/post/intro-linux/</link>
+      <link>//localhost:1313/post/intro-linux/</link>
       <pubDate>Sat, 02 Dec 2023 02:24:37 -0500</pubDate>
-      <guid>/post/intro-linux/</guid>
+      <guid>//localhost:1313/post/intro-linux/</guid>
       <description>Holla!
 Kali ini, saya akan berbagi mengenai satu topik yang menarik. Topik yang akan saya share yaitu tentang Linux. Menurut saya, Linux merupakan topik yang seharusnya saya bahas di artikel ini karena menjadi salah satu &amp;ldquo;peralatan perang&amp;rdquo; penting yang saya gunakan selama saya membangun artikel ini.
 Nanti, pembahasannya akan saya bagi ke dalam empat part. Pada bagian pertama, saya akan menjelaskan tentang Linux itu sendiri. Bagian kedua akan menjelaskan mengenai sejarah Linux.</description>
     </item>
     <item>
       <title>Private File Sharing with Onionshare</title>
-      <link>/post/onionshare/</link>
+      <link>//localhost:1313/post/onionshare/</link>
       <pubDate>Thu, 30 Nov 2023 07:35:02 -0500</pubDate>
-      <guid>/post/onionshare/</guid>
+      <guid>//localhost:1313/post/onionshare/</guid>
       <description>Halo! Beberapa pekan lalu, saya sempat memberikan tutorial untuk mendapatkan e-book gratis dengan bot Telegram yang berasal dari situs z-library. Saat tulisan tersebut dibuat, situs utama z-lib di-banned oleh FBI karena dianggap menyebarkan buku-buku berbayar tanpa hak izin dari penulisnya. Maka, agar dapat mengakses situs z-lib, kita memerlukan TOR Browser.
 Nah, pernahkah kalian penasaran, bagaimana cara meng-hosting file yang hanya dapat diakses dengan TOR Browser dan jaringan TOR saja?
 Kali ini, kita akan belajar bagaimana cara meng-hosting atau membagikan file yang hanya dapat diakses oleh TOR Browser.</description>
     </item>
     <item>
       <title>Mengunduh (free) e-book via Bot Telegram</title>
-      <link>/post/ebook-via-bot_telegram/</link>
+      <link>//localhost:1313/post/ebook-via-bot_telegram/</link>
       <pubDate>Wed, 11 Oct 2023 16:32:22 +0700</pubDate>
-      <guid>/post/ebook-via-bot_telegram/</guid>
+      <guid>//localhost:1313/post/ebook-via-bot_telegram/</guid>
       <description>Keberadaan buku digital / buku elektronik (e-book) saat ini sudah menjadi keniscayaan di era yang juga sudah digital. Kelebihan buku elektronik dibanding buku fisik selain murah dan mudah (atau gak mudah ya? hehe) diperoleh adalah juga tidak banyak memakan tempat (rak buku, dsb). Oleh karena itu, kita (apalagi akademisi, baik di sekolah ataupun perguruan tinggi) sangat memerlukan buku sebagai referensi dalam kegiatan belajar-mengajar.
 Nah, kali ini saya akan memberikan tutorial mendapatkan buku digital dengan mudah karena hanya membutuhkan telegram sebagai modal utamanya.</description>
     </item>
     <item>
       <title>FFmpeg - Convert MP4 to GIF</title>
-      <link>/post/ffmpeg-mp42gif/</link>
+      <link>//localhost:1313/post/ffmpeg-mp42gif/</link>
       <pubDate>Wed, 11 Oct 2023 00:40:23 +0700</pubDate>
-      <guid>/post/ffmpeg-mp42gif/</guid>
+      <guid>//localhost:1313/post/ffmpeg-mp42gif/</guid>
       <description>Terkadang, GIF punya kelebihan dibandingkan dengan file video, terutama dalam hal ukuran file. Dengan kualitas gambar yang hampir sama dengan video, file GIF bisa berukuran lebih kecil dari file video. Contohnya, saya punya sebuah file video rekaman layar 720p berdurasi 25 detik, dan satu file GIF yang merupakan hasil konversi video sebelumnya: Berikut adalah langkah-langkah membuat meng-convert video (MP4) ke GIF.
 Membuat palette Palette yang dibuat nanti akan dijadikan sebagai dasar warna dalam GIF.</description>
     </item>
     <item>
       <title>Screen Recorder with FFmpeg</title>
-      <link>/post/ffmpeg-sr/</link>
+      <link>//localhost:1313/post/ffmpeg-sr/</link>
       <pubDate>Tue, 10 Oct 2023 09:13:32 +0700</pubDate>
-      <guid>/post/ffmpeg-sr/</guid>
+      <guid>//localhost:1313/post/ffmpeg-sr/</guid>
       <description>Kali ini, saya akan memberi tahu cara merekam layar desktop laptop atau komputer kita dengan FFmpeg. Apa itu FFmpeg? Penjelasan detail-nya tentu saja bisa didapatkan langsung dari website resminya di sini1. Tapi, sederhananya, FFmpeg adalah *utility/tool/*aplikasi/software video dan audio converter. FFmpeg juga merupakan program yang berbaris command line sebagai interface-nya. Jadi, meskipun hanya digunakan lewat CLI, tapi ffmpeg punya banyak sekali power, salah satunya adalah merekam layar desktop kita.
 Misalnya, dibandingkan beberapa aplikasi perekam layar lainnya (seperti OBS-Studio walaupun sama-sama open source), FFmpeg lebih praktis dan lebih kecil ukurannya.</description>
     </item>
     <item>
       <title>Hugo Advanced</title>
-      <link>/post/hugo-advanced/</link>
+      <link>//localhost:1313/post/hugo-advanced/</link>
       <pubDate>Mon, 09 Oct 2023 15:22:46 +0700</pubDate>
-      <guid>/post/hugo-advanced/</guid>
+      <guid>//localhost:1313/post/hugo-advanced/</guid>
       <description>Mengkonfigurasi Hugo (Advanced) Setelah berhasil membuat website Hugo dan men-deploy-nya ke Github, kali ini saya akan memberi beberapa tips yang sedikit banyak dapat memberi kemudahan dan nilai estetika pada website Hugo tersebut.
 Tips 1: Mengganti format file konfigurasi By default, format file konfigurasi Hugo tersimpan dalam format TOML (.toml). Tapi, Hugo sendiri menyediakan 2 opsi format lain yang dapat kita gunakan, yaitu YAML/YML (.yaml) dan JSON (.json)1.
 Untuk alasan humanisme (kemudahan dan kenyamanan dipandang dan dibaca), maka kita akan mengganti format file konfigurasi Hugo dari TOML ke YAML/YML.</description>
     </item>
     <item>
       <title>Hugo To Github</title>
-      <link>/post/hugo-to_github/</link>
+      <link>//localhost:1313/post/hugo-to_github/</link>
       <pubDate>Mon, 09 Oct 2023 09:03:40 +0700</pubDate>
-      <guid>/post/hugo-to_github/</guid>
+      <guid>//localhost:1313/post/hugo-to_github/</guid>
       <description>Meng-Hosting di Github Di tulisan ini, saya akan menunjukkan cara hosting static-site Hugo yang sudah dibuat sebelumnya ke Github. Jadi, sebelum lanjut membaca tutorial ini, ada 3 persyaratan yang harus sudah dipenuhi:
 Punya akun Github (kalau belum punya silakan buat dulu). Komputer/laptop-nya sudah terinstall git (kalau belum silakan install). Sudah membuat website Hugo sebelumnya (kalau belum, silakan buat dulu, tutorialnya bisa mengikuti tulisan saya sebelumnya). Saya akan menunjukkan 10 langkah dalam mem-publish atau meng-hosting static-site Hugo kita ke Github1.</description>
     </item>
     <item>
       <title>Hugo-ing (from Zero to Hero)</title>
-      <link>/post/hugo-ing/</link>
+      <link>//localhost:1313/post/hugo-ing/</link>
       <pubDate>Sat, 07 Oct 2023 15:26:34 +0700</pubDate>
-      <guid>/post/hugo-ing/</guid>
+      <guid>//localhost:1313/post/hugo-ing/</guid>
       <description>Membuat Website via Hugo Pengenalan singkat tentang Hugo Hugo adalah framework yang memungkinkan setiap orang untuk membuat dan mengelola website mereka.
 Secara teknis, Hugo adalah static site generator. 1
 Secara umum, website dibagi 2: dynamic &amp;amp; static site dan itu disesuaikan dengan kebutuhan atau tujuan dibuatnya website tersebut. Tapi, umumnya, static site memang banyak digunakan sebagai:
@@ -79,9 +95,9 @@ Personal blog posts Documentasi pages Portofolio pages, dan lain sebagainya. Ins
     </item>
     <item>
       <title>😃 About Me</title>
-      <link>/post/whoami/</link>
+      <link>//localhost:1313/post/whoami/</link>
       <pubDate>Sat, 07 Oct 2023 13:17:32 +0700</pubDate>
-      <guid>/post/whoami/</guid>
+      <guid>//localhost:1313/post/whoami/</guid>
       <description>Hello there!
 My name is Wildan and I am a master of communication student at Telkom University. My research interests are in human resources, health communication, and social network analysis.
 In my free time, I usually play sports (badminton and running) and do my hobbies (journaling and linux-ing). The linux distro that I use as my daily driver is Kali Linux. This is my desktop look like:</description>

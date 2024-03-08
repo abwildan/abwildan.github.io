@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Recordmydesktop on Wildan&#39;s Workspace</title>
+    <link>//localhost:1313/tags/recordmydesktop/</link>
+    <description>Recent content in Recordmydesktop on Wildan&#39;s Workspace</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Fri, 08 Mar 2024 14:55:26 +0700</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/recordmydesktop/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>recordmydesktop</title>
+      <link>//localhost:1313/post/recordmydesktop/</link>
+      <pubDate>Fri, 08 Mar 2024 14:55:26 +0700</pubDate>
+      <guid>//localhost:1313/post/recordmydesktop/</guid>
+      <description>Tepat pada tanggal 10 Oktober 2023 lalu, saya membuat tutorial merekam layar (screen recorder) desktop menggunakan program ffmpeg.</description>
+    </item>
+  </channel>
+</rss>

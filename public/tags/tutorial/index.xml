@@ -9,12 +9,12 @@
     <lastBuildDate>Fri, 08 Mar 2024 14:55:26 +0700</lastBuildDate>
     <atom:link href="//localhost:1313/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>recordmydesktop</title>
+      <title>Recordmydesktop</title>
       <link>//localhost:1313/post/recordmydesktop/</link>
       <pubDate>Fri, 08 Mar 2024 14:55:26 +0700</pubDate>
       <guid>//localhost:1313/post/recordmydesktop/</guid>
       <description>Tepat pada tanggal 10 Oktober 2023 lalu, saya membuat tutorial merekam layar (screen recorder) desktop menggunakan program ffmpeg. Hanya saja, hingga saat ini, ada dua kelemahan ffmpeg yang belum dapat saya temukan solusinya ketika berbicara tentang dekstop screen recorder.
-Nah, beberapa pekan lalu, saya menemukan program sederhana yang dapat men-cover kelemahan ffmpeg ini, yaitu recordmydesktop. Sebetulnya, saya menemukan program ini di Kali Linux, ketika saya juga sedang ingin melakukan rekaman layar, dan ketika saya ketikkan &amp;lsquo;record&amp;rsquo; di menu, tampillah program ini.</description>
+FFmpeg belum bisa merekam satu window spesifik FFmpeg belum bisa merekam area layar tertentu Nah, beberapa pekan lalu, saya menemukan program sederhana yang dapat men-cover kelemahan ffmpeg ini, yaitu recordmydesktop. Sebetulnya, saya menemukan program ini di Kali Linux, ketika saya juga sedang ingin melakukan rekaman layar, dan ketika saya ketikkan &amp;lsquo;record&amp;rsquo; di menu, tampillah program ini.</description>
     </item>
     <item>
       <title>Private File Sharing with Onionshare</title>
@@ -38,7 +38,7 @@ Nah, kali ini saya akan memberikan tutorial mendapatkan buku digital dengan muda
       <link>//localhost:1313/post/ffmpeg-mp42gif/</link>
       <pubDate>Wed, 11 Oct 2023 00:40:23 +0700</pubDate>
       <guid>//localhost:1313/post/ffmpeg-mp42gif/</guid>
-      <description>Terkadang, GIF punya kelebihan dibandingkan dengan file video, terutama dalam hal ukuran file. Dengan kualitas gambar yang hampir sama dengan video, file GIF bisa berukuran lebih kecil dari file video. Contohnya, saya punya sebuah file video rekaman layar 720p berdurasi 25 detik, dan satu file GIF yang merupakan hasil konversi video sebelumnya: Berikut adalah langkah-langkah membuat meng-convert video (MP4) ke GIF.
+      <description>Terkadang, GIF punya kelebihan dibandingkan dengan file video, terutama dalam hal ukuran file. Dengan kualitas gambar yang hampir sama dengan video, file GIF bisa berukuran lebih kecil dari file video. Contohnya, saya punya sebuah file video rekaman layar 720p berdurasi 25 detik, dan satu file GIF yang merupakan hasil konversi video sebelumnya: Berikut adalah langkah-langkah membuat meng-convert video (MP4) ke GIF1.
 Membuat palette Palette yang dibuat nanti akan dijadikan sebagai dasar warna dalam GIF.</description>
     </item>
     <item>

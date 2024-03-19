@@ -8,13 +8,13 @@
     <loc>//localhost:1313/post/</loc>
     <lastmod>2024-03-08T14:55:26+07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/post/recordmydesktop/</loc>
-    <lastmod>2024-03-08T14:55:26+07:00</lastmod>
-  </url><url>
     <loc>//localhost:1313/tags/recordmydesktop/</loc>
     <lastmod>2024-03-08T14:55:26+07:00</lastmod>
   </url><url>
     <loc>//localhost:1313/categories/recordmydesktop/</loc>
+    <lastmod>2024-03-08T14:55:26+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/post/recordmydesktop/</loc>
     <lastmod>2024-03-08T14:55:26+07:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/screen-recorder/</loc>
@@ -40,15 +40,6 @@
   </url><url>
     <loc>//localhost:1313/post/gephi/</loc>
     <lastmod>2024-01-06T02:26:47-05:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/post/intro-linux/</loc>
-    <lastmod>2023-12-02T02:24:37-05:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/linux/</loc>
-    <lastmod>2023-12-02T02:24:37-05:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/categories/linux/</loc>
-    <lastmod>2023-12-02T02:24:37-05:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/anonymous/</loc>
     <lastmod>2023-11-30T07:35:02-05:00</lastmod>
@@ -119,7 +110,7 @@
     <loc>//localhost:1313/post/hugo-ing/</loc>
     <lastmod>2023-10-07T15:26:34+07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/post/whoami/</loc>
+    <loc>//localhost:1313/whoami/</loc>
     <lastmod>2023-10-07T13:17:32+07:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/introduction/</loc>
@@ -129,5 +120,7 @@
     <lastmod>2023-10-07T13:17:32+07:00</lastmod>
   </url><url>
     <loc>//localhost:1313/archives/</loc>
+  </url><url>
+    <loc>//localhost:1313/search/</loc>
   </url>
 </urlset>

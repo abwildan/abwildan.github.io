@@ -1,9 +1,9 @@
 ---
-title: "Hugo Advanced"
+title: "Hugo (Papermod) Advanced"
 date: 2023-10-09T15:22:46+07:00
 draft: false
 cover:
-  image: ""
+  image: "/Hugo-Advanced/cover.png"
   alt: ''
   caption: ""
 tags: ["hugo", "website", "static-site"]
@@ -182,6 +182,89 @@ menu:
       weight: 30
 ```
 
+### Tips 11: Menambahkan menu Search
+![ss14](/Hugo-Advanced/ss14.png)
+Untuk menampilkan fitur menu *Search* seperti gambar di atas setidaknya ada 3 hal yang perlu diperhatikan[^3]:
+
+1. Menambahkan konfig **JSON** di file konfigurasi (kebetulan di saya nama filenya `hugo.yaml`)
+```yaml
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON 
+```
+
+2. Membuat file baru di bawah folder atau direktori `/content/`, bernama `search.md`.
+```bash
+.
+├── config.yml
+├── content/
+│   ├── search.md   <--- Bikin file search.md di sini
+│   └── posts/
+├── static/
+└── themes/
+    └── papermod/
+```
+Isi file `search.md`-nya adalah seperti ini:
+```yaml
+---
+title: "Search"
+layout: "search"
+summary: "search"
+placeholder: "ini text yang ada di dalam box search-nya"
+---
+```
+
+3. Memastikan sudah menambahkan *identifier* & *url* di file konfigurasi `hugo.yaml` atau `config.yaml`.
+```yaml
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: /
+    - identifier: search
+      name: Search
+      url: /search/  <--- Tambahkan ini
+```
+
+### Tips 12: Menambahkan kutipan postingan dari media sosial 
+
+Di sini, saya akan membagikan cara menambahkan kutipan postingan dari Twitter (X), Instagram, dan Youtube[^4].
+
+#### Twitter (X)
+Misalnya, untuk menampilkan link twitter berikut:
+
+`https://twitter.com/CrazyCatsDogs/status/1769982684799873341`	
+
+Kita dapat membuat ***shortcode*** berikut:
+![ss15](/Hugo-Advanced/ss15.png)
+
+Hasilnya, seperti ini:
+{{<twitter user="CracyCatsDogs" id="1769982684799873341" >}}
+
+#### Instagram
+Untuk menampilkan postingan Instagram dari link berikut:
+
+`https://instagram.com/p/C3YR1iHoeuh`
+
+Kita dapat membuat ***shortcode*** berikut:
+![ss16](/Hugo-Advanced/ss16.png)
+
+Hasilnya, seperti ini:
+{{< instagram C3YR1iHoeuh >}}
+
+#### Youtube
+Untuk menampilkan sebuah video Youtube dari link berikut:
+
+`https://www.youtube.com/watch?v=YOs4ntiUq1o`
+
+Kita dapat membuat ***shortcode*** berikut:
+![ss17](/Hugo-Advanced/ss17.png)
+
+Hasilnya, seperti ini:
+{{< youtube YOs4ntiUq1o >}}
+
 Kalau sudah selesai, jangan lupa commit ke repo lokal dan push ke Github:
 
 ```bash
@@ -193,3 +276,5 @@ git push
 
 [^1]: https://gohugo.io/getting-started/configuration/
 [^2]: https://github.com/adityatelange/hugo-PaperMod/wiki/Features#profile-mode
+[^3]: https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-features/#search-page
+[^4]: https://gohugo.io/content-management/shortcodes/

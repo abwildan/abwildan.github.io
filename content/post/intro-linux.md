@@ -1,9 +1,9 @@
 ---
 title: "Intro to Linux"
 date: 2023-12-02T02:24:37-05:00
-draft: false
+draft: true
 cover: 
-   image: "/introlinux/tux.png"
+   image: "/introlinux/ss1.png"
    alt: "Linux Logo (TUX)"
    captions: "Linux Logo - TUX"
 tags: ["linux"]

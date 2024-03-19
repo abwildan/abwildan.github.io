@@ -9,7 +9,7 @@
     <lastBuildDate>Fri, 08 Mar 2024 14:55:26 +0700</lastBuildDate>
     <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>recordmydesktop</title>
+      <title>Recordmydesktop</title>
       <link>//localhost:1313/post/recordmydesktop/</link>
       <pubDate>Fri, 08 Mar 2024 14:55:26 +0700</pubDate>
       <guid>//localhost:1313/post/recordmydesktop/</guid>
@@ -24,15 +24,6 @@ FFmpeg belum bisa merekam satu window spesifik FFmpeg belum bisa merekam area la
       <description>Halo! Kali ini kita akan belajar tentang penggunaan salah satu software yang biasa digunakan untuk melakukan analisis data pada ilmu-ilmu sosial, khususnya pada diskusi atau kajian mengenai Social Network Analysis (SNA). Secara sederhana, SNA adalah sebuah metode untuk mengidentifikasi aktor (node) dan relasinya (edge) dalam suatu jaringan.
 Pada topik Gephi kali ini, saya akan menjelaskan analisis terhadap 4 jenis sentralitas aktor1, yaitu:
 Degree Centrality Betweeness Centrality Closeness Centrality Eigenvector Centrality Berikut adalah perbedaan singkat mengenai keempat jenis centrality tersebut.</description>
-    </item>
-    <item>
-      <title>Intro to Linux</title>
-      <link>//localhost:1313/post/intro-linux/</link>
-      <pubDate>Sat, 02 Dec 2023 02:24:37 -0500</pubDate>
-      <guid>//localhost:1313/post/intro-linux/</guid>
-      <description>Holla!
-Kali ini, saya akan berbagi mengenai satu topik yang menarik. Topik yang akan saya share yaitu tentang Linux. Menurut saya, Linux merupakan topik yang seharusnya saya bahas di artikel ini karena menjadi salah satu &amp;ldquo;peralatan perang&amp;rdquo; penting yang saya gunakan selama saya membangun artikel ini.
-Nanti, pembahasannya akan saya bagi ke dalam empat part. Pada bagian pertama, saya akan menjelaskan tentang Linux itu sendiri. Bagian kedua akan menjelaskan mengenai sejarah Linux.</description>
     </item>
     <item>
       <title>Private File Sharing with Onionshare</title>
@@ -56,7 +47,7 @@ Nah, kali ini saya akan memberikan tutorial mendapatkan buku digital dengan muda
       <link>//localhost:1313/post/ffmpeg-mp42gif/</link>
       <pubDate>Wed, 11 Oct 2023 00:40:23 +0700</pubDate>
       <guid>//localhost:1313/post/ffmpeg-mp42gif/</guid>
-      <description>Terkadang, GIF punya kelebihan dibandingkan dengan file video, terutama dalam hal ukuran file. Dengan kualitas gambar yang hampir sama dengan video, file GIF bisa berukuran lebih kecil dari file video. Contohnya, saya punya sebuah file video rekaman layar 720p berdurasi 25 detik, dan satu file GIF yang merupakan hasil konversi video sebelumnya: Berikut adalah langkah-langkah membuat meng-convert video (MP4) ke GIF.
+      <description>Terkadang, GIF punya kelebihan dibandingkan dengan file video, terutama dalam hal ukuran file. Dengan kualitas gambar yang hampir sama dengan video, file GIF bisa berukuran lebih kecil dari file video. Contohnya, saya punya sebuah file video rekaman layar 720p berdurasi 25 detik, dan satu file GIF yang merupakan hasil konversi video sebelumnya: Berikut adalah langkah-langkah membuat meng-convert video (MP4) ke GIF1.
 Membuat palette Palette yang dibuat nanti akan dijadikan sebagai dasar warna dalam GIF.</description>
     </item>
     <item>
@@ -68,7 +59,7 @@ Membuat palette Palette yang dibuat nanti akan dijadikan sebagai dasar warna dal
 Misalnya, dibandingkan beberapa aplikasi perekam layar lainnya (seperti OBS-Studio walaupun sama-sama open source), FFmpeg lebih praktis dan lebih kecil ukurannya.</description>
     </item>
     <item>
-      <title>Hugo Advanced</title>
+      <title>Hugo (Papermod) Advanced</title>
       <link>//localhost:1313/post/hugo-advanced/</link>
       <pubDate>Mon, 09 Oct 2023 15:22:46 +0700</pubDate>
       <guid>//localhost:1313/post/hugo-advanced/</guid>
@@ -96,9 +87,9 @@ Personal blog posts Documentasi pages Portofolio pages, dan lain sebagainya. Ins
     </item>
     <item>
       <title>😃 About Me</title>
-      <link>//localhost:1313/post/whoami/</link>
+      <link>//localhost:1313/whoami/</link>
       <pubDate>Sat, 07 Oct 2023 13:17:32 +0700</pubDate>
-      <guid>//localhost:1313/post/whoami/</guid>
+      <guid>//localhost:1313/whoami/</guid>
       <description>Hello there!
 My name is Wildan and I am a master of communication student at Telkom University. My research interests are in human resources, health communication, and social network analysis.
 In my free time, I usually play sports (badminton and running) and do my hobbies (journaling and linux-ing). The linux distro that I use as my daily driver is Kali Linux. This is my desktop look like:</description>

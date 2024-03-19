@@ -1,9 +1,9 @@
 ---
-title: "recordmydesktop"
+title: "Recordmydesktop"
 date: 2024-03-08T14:55:26+07:00
 draft: false
 cover:
-  image: ""
+  image: "/recordmydesktop/ss6.png"
   alt: ''
   caption: "FFmpeg"
 tags: ["screen recorder", "tutorial", "recordmydesktop"]

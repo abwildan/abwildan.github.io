@@ -3,7 +3,7 @@ title: "Gephi - Actor(s) Centrality"
 date: 2024-01-06T02:26:47-05:00
 draft: false
 cover:
-  image: ""
+  image: "/gephi/ss51.png"
   alt: ''
   caption: ""
 tags: ["gephi", "data analysis"]

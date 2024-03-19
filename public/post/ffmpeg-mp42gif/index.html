@@ -7,7 +7,7 @@
 <meta name="robots" content="noindex, nofollow">
 <title>FFmpeg - Convert MP4 to GIF | Wildan&#39;s Workspace</title>
 <meta name="keywords" content="MP4 to GIF, tutorial, ffmpeg, Video Converter">
-<meta name="description" content="Terkadang, GIF punya kelebihan dibandingkan dengan file video, terutama dalam hal ukuran file. Dengan kualitas gambar yang hampir sama dengan video, file GIF bisa berukuran lebih kecil dari file video. Contohnya, saya punya sebuah file video rekaman layar 720p berdurasi 25 detik, dan satu file GIF yang merupakan hasil konversi video sebelumnya: Berikut adalah langkah-langkah membuat meng-convert video (MP4) ke GIF.
+<meta name="description" content="Terkadang, GIF punya kelebihan dibandingkan dengan file video, terutama dalam hal ukuran file. Dengan kualitas gambar yang hampir sama dengan video, file GIF bisa berukuran lebih kecil dari file video. Contohnya, saya punya sebuah file video rekaman layar 720p berdurasi 25 detik, dan satu file GIF yang merupakan hasil konversi video sebelumnya: Berikut adalah langkah-langkah membuat meng-convert video (MP4) ke GIF1.
 Membuat palette Palette yang dibuat nanti akan dijadikan sebagai dasar warna dalam GIF.">
 <meta name="author" content="Wildan">
 <link rel="canonical" href="//localhost:1313/post/ffmpeg-mp42gif/">
@@ -100,18 +100,18 @@ Membuat palette Palette yang dibuat nanti akan dijadikan sebagai dasar warna dal
         </div>
         <ul id="menu">
             <li>
-                <a href="//localhost:1313/categories/" title="Categories">
-                    <span>Categories</span>
+                <a href="//localhost:1313/" title="Home">
+                    <span>Home</span>
                 </a>
             </li>
             <li>
-                <a href="//localhost:1313/tags/" title="Tags">
-                    <span>Tags</span>
+                <a href="//localhost:1313/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
                 </a>
             </li>
             <li>
-                <a href="//localhost:1313/archives/" title="Archives">
-                    <span>Archives</span>
+                <a href="//localhost:1313/post/" title="Tutorial">
+                    <span>Tutorial</span>
                 </a>
             </li>
         </ul>
@@ -128,7 +128,11 @@ Membuat palette Palette yang dibuat nanti akan dijadikan sebagai dasar warna dal
     <div class="post-meta"><span title='2023-10-11 00:40:23 +0700 WIB'>October 11, 2023</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Wildan
 
 </div>
-  </header> <div class="toc">
+  </header> 
+<figure class="entry-cover"><a href="//localhost:1313/mp42gif/ss2.jpg" target="_blank"
+            rel="noopener noreferrer"><img loading="eager" src="//localhost:1313/mp42gif/ss2.jpg" alt=""></a>
+        
+</figure><div class="toc">
     <details >
         <summary accesskey="c" title="(Alt + C)">
             <span class="details">Table of Contents</span>
@@ -148,7 +152,7 @@ Membuat palette Palette yang dibuat nanti akan dijadikan sebagai dasar warna dal
   <div class="post-content"><p>Terkadang, GIF punya kelebihan dibandingkan dengan file video, terutama dalam hal ukuran file. Dengan kualitas gambar yang hampir sama dengan video, file GIF bisa berukuran lebih kecil dari file video. Contohnya, saya punya sebuah file video rekaman layar 720p berdurasi 25 detik, dan satu file GIF yang merupakan hasil konversi video sebelumnya:
 <img loading="lazy" src="/mp42gif/ss1.png" alt="ss1"  />
 </p>
-<p>Berikut adalah langkah-langkah membuat meng-<em>convert</em> video (MP4) ke GIF.</p>
+<p>Berikut adalah langkah-langkah membuat meng-<em>convert</em> video (MP4) ke GIF<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.</p>
 <h3 id="membuat-palette">Membuat palette<a hidden class="anchor" aria-hidden="true" href="#membuat-palette">#</a></h3>
 <p>Palette yang dibuat nanti akan dijadikan sebagai dasar warna dalam GIF. Oleh karena itu, kita akan buat file palette ini dalam bentuk gambar (PNG). Untuk membuat palette, berikut perintah yang perlu diketikkan:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ffmpeg -i file_video.mp4 -vf palettegen palette_output.png
@@ -156,6 +160,14 @@ Membuat palette Palette yang dibuat nanti akan dijadikan sebagai dasar warna dal
 <p>Untuk membuat GIF, kita akan tidak hanya menyertakan file video-nya saja, tapi juga file palette yang sebelumnya sudah dibuat. Berikut adalah perintah yang perlu diinputkan:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ffmpeg -i file_video.mp4 -i palette_output.png -filter_complex <span style="color:#e6db74">&#34;fps=20,scale=1080:-1[x];[x][1:v]paletteuse&#34;</span> gif_output.gif
 </span></span></code></pre></div><p>FPS dan scale-nya bisa kita sesuaikan dengan kualitas GIF yang kita inginkan. Saya set fps di 20 karena file video yang saya buat memang di 20 fps (jadi saya buat juga 20 supaya sama) dan scale-nya di 1080 untuk menjaga kualitas GIF-nya (karena memang ada tulisan kecil yang harus terbaca). Semakin bagus kualitas yang dipertahankan untuk membuat GIF, semakin lama juga proses konversi-nya, tentu, menyesuaikan dengan kualitas hardware komputer/laptop yang digunakan :)</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p><a href="https://www.bannerbear.com/blog/how-to-make-a-gif-from-a-video-using-ffmpeg/">https://www.bannerbear.com/blog/how-to-make-a-gif-from-a-video-using-ffmpeg/</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
 
 
   </div>

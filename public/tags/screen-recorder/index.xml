@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Screen Recorder on Wildan&#39;s Workspace</title>
-    <link>//localhost:1313/tags/screen-recorder/</link>
+    <link>/tags/screen-recorder/</link>
     <description>Recent content in Screen Recorder on Wildan&#39;s Workspace</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Fri, 08 Mar 2024 14:55:26 +0700</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/screen-recorder/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/screen-recorder/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Recordmydesktop</title>
-      <link>//localhost:1313/post/recordmydesktop/</link>
+      <link>/post/recordmydesktop/</link>
       <pubDate>Fri, 08 Mar 2024 14:55:26 +0700</pubDate>
-      <guid>//localhost:1313/post/recordmydesktop/</guid>
+      <guid>/post/recordmydesktop/</guid>
       <description>Tepat pada tanggal 10 Oktober 2023 lalu, saya membuat tutorial merekam layar (screen recorder) desktop menggunakan program ffmpeg. Hanya saja, hingga saat ini, ada dua kelemahan ffmpeg yang belum dapat saya temukan solusinya ketika berbicara tentang dekstop screen recorder.
 FFmpeg belum bisa merekam satu window spesifik FFmpeg belum bisa merekam area layar tertentu Nah, beberapa pekan lalu, saya menemukan program sederhana yang dapat men-cover kelemahan ffmpeg ini, yaitu recordmydesktop. Sebetulnya, saya menemukan program ini di Kali Linux, ketika saya juga sedang ingin melakukan rekaman layar, dan ketika saya ketikkan &amp;lsquo;record&amp;rsquo; di menu, tampillah program ini.</description>
     </item>
     <item>
       <title>Screen Recorder with FFmpeg</title>
-      <link>//localhost:1313/post/ffmpeg-sr/</link>
+      <link>/post/ffmpeg-sr/</link>
       <pubDate>Tue, 10 Oct 2023 09:13:32 +0700</pubDate>
-      <guid>//localhost:1313/post/ffmpeg-sr/</guid>
+      <guid>/post/ffmpeg-sr/</guid>
       <description>Kali ini, saya akan memberi tahu cara merekam layar desktop laptop atau komputer kita dengan FFmpeg. Apa itu FFmpeg? Penjelasan detail-nya tentu saja bisa didapatkan langsung dari website resminya di sini1. Tapi, sederhananya, FFmpeg adalah *utility/tool/*aplikasi/software video dan audio converter. FFmpeg juga merupakan program yang berbaris command line sebagai interface-nya. Jadi, meskipun hanya digunakan lewat CLI, tapi ffmpeg punya banyak sekali power, salah satunya adalah merekam layar desktop kita.
 Misalnya, dibandingkan beberapa aplikasi perekam layar lainnya (seperti OBS-Studio walaupun sama-sama open source), FFmpeg lebih praktis dan lebih kecil ukurannya.</description>
     </item>

@@ -3,10 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>//localhost:1313/categories/</loc>
-    <lastmod>2024-03-08T14:55:26+07:00</lastmod>
+    <lastmod>2024-03-19T21:43:27+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/cyber-security/</loc>
+    <lastmod>2024-03-19T21:43:27+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/forensic/</loc>
+    <lastmod>2024-03-19T21:43:27+07:00</lastmod>
   </url><url>
     <loc>//localhost:1313/post/</loc>
-    <lastmod>2024-03-08T14:55:26+07:00</lastmod>
+    <lastmod>2024-03-19T21:43:27+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/</loc>
+    <lastmod>2024-03-19T21:43:27+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/tutorial/</loc>
+    <lastmod>2024-03-19T21:43:27+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/categories/virustotal/</loc>
+    <lastmod>2024-03-19T21:43:27+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/post/virustotal/</loc>
+    <lastmod>2024-03-19T21:43:27+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/</loc>
+    <lastmod>2024-03-19T21:43:27+07:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/recordmydesktop/</loc>
     <lastmod>2024-03-08T14:55:26+07:00</lastmod>
@@ -18,15 +39,6 @@
     <lastmod>2024-03-08T14:55:26+07:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/screen-recorder/</loc>
-    <lastmod>2024-03-08T14:55:26+07:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/</loc>
-    <lastmod>2024-03-08T14:55:26+07:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/tutorial/</loc>
-    <lastmod>2024-03-08T14:55:26+07:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/</loc>
     <lastmod>2024-03-08T14:55:26+07:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/data-analysis/</loc>

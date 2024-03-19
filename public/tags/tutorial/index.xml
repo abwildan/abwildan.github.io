@@ -6,8 +6,15 @@
     <description>Recent content in Tutorial on Wildan&#39;s Workspace</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Fri, 08 Mar 2024 14:55:26 +0700</lastBuildDate>
+    <lastBuildDate>Tue, 19 Mar 2024 21:43:27 +0700</lastBuildDate>
     <atom:link href="//localhost:1313/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Virustotal</title>
+      <link>//localhost:1313/post/virustotal/</link>
+      <pubDate>Tue, 19 Mar 2024 21:43:27 +0700</pubDate>
+      <guid>//localhost:1313/post/virustotal/</guid>
+      <description>Overview Virustotal adalah</description>
+    </item>
     <item>
       <title>Recordmydesktop</title>
       <link>//localhost:1313/post/recordmydesktop/</link>

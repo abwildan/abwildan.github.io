@@ -4,6 +4,8 @@ title: "Wildan's Workspace"
 theme: 'papermod'
 enableInlineShortCodes: false
 
+ignoreErrors = ["error-missing-instagram-accesstoken"]
+
 params:
   author: "Wildan"
   profileMode:

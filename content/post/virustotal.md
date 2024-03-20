@@ -14,7 +14,7 @@ categories: ["virustotal"]
 
 [Virustotal](https://www.virustotal.com/gui/home/url) adalah salah satu website terbaik untuk melakukan identifikasi terhadap suatu file/software/aplikasi dan url, apakah mengandung virus atau malware (*malicious software*) atau tidak. Dengan kata lain, melalui bantuan website ini, kita dapat mengecek suatu file/software/aplikasi maupun suatu link/url apakah berbahaya atau tidak sebelum kita menginstallnya di device kita masing-masing.
 
-Virustotal menjadi salah satu website penyedia jasa *scanning* virus terbaik karena website tersebut melakukan *scanning* dengan menggunakan **lebih dari 50 vendor antivirus**, termasuk diantaranya adalah Avira, BitDefender, dan Kaspersky.
+Virustotal[^1] menjadi salah satu website penyedia jasa *scanning* virus terbaik karena website tersebut melakukan *scanning* dengan menggunakan **lebih dari 50 vendor antivirus**, termasuk diantaranya adalah Avira, BitDefender, dan Kaspersky.
 
 Pada halaman utama website-nya, Virustotal memiliki 3 opsi *scanning*, yaitu opsi **File**, opsi **URL**, dan opsi **Search**. 
 
@@ -116,3 +116,5 @@ Salam damai,
 Sampai jumpa lagi!
 
 :v
+
+[^1]: https://www.virustotal.com/gui/home/url

@@ -115,6 +115,6 @@ Kotor,...
 Salam damai,
 Sampai jumpa lagi!
 
-:v
+😄
 
 [^1]: https://www.virustotal.com/gui/home/url

@@ -9,11 +9,13 @@
     <lastBuildDate>Thu, 21 Mar 2024 18:54:33 +0700</lastBuildDate>
     <atom:link href="//localhost:1313/tags/metasploit/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Eternalblue</title>
+      <title>Eternalblue (MS17-010)</title>
       <link>//localhost:1313/post/eternalblue/</link>
       <pubDate>Thu, 21 Mar 2024 18:54:33 +0700</pubDate>
       <guid>//localhost:1313/post/eternalblue/</guid>
-      <description>Sejarah Apa itu eternalblue?</description>
+      <description>Sejarah (Singkat) Apa itu Eternalblue?
+Eternalblue atau oleh Microsoft disebut dengan MS17-010 adalah sebuah exploit yang dapat digunakan untuk menyebarkan malware pada sebuah mesin Windows. Eternalblue adalah eksploit yang pada awalnya ditemukan oleh NSA (National Security Agency) Amerika Serikat untuk memanfaatkan kerentanan pada SMB v1 (Server Message Block versi 1) di Windows, terutama pada Windows 7 dan Windows XP.1
+Exploit ini tidak dilaporkan oleh NSA ke pihak Microsoft karena menguntungkan pihak NSA untuk melakukan mata-mata terhadap lawan-lawan politiknya.</description>
     </item>
   </channel>
 </rss>

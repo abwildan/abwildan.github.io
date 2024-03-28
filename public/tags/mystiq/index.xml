@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Mystiq on Wildan&#39;s Workspace</title>
+    <link>//localhost:1313/tags/mystiq/</link>
+    <description>Recent content in Mystiq on Wildan&#39;s Workspace</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 26 Mar 2024 17:56:16 +0700</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/mystiq/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mystiq</title>
+      <link>//localhost:1313/post/mystiq/</link>
+      <pubDate>Tue, 26 Mar 2024 17:56:16 +0700</pubDate>
+      <guid>//localhost:1313/post/mystiq/</guid>
+      <description>Hola!
+Kali ini saya akan berbagi satu tools yang secara fungsi mungkin 11-12 dengan FFmpeg, tapi dia punya tampilan yang lebih user-friendly, nama tools-nya adalah Mystiq. Secara sederhana, Mystiq adalah media converter yang juga merupakan GUI (Graphical User Interface) dari FFmpeg1.
+Kurang lebih, berikut adalah tampilan atau interface dari Mystiq. Versi mystiq yang saya install adalah versi 20.03.18 karena dirilis pada tahun, bulan, dan tanggal 2020-03-18. Kehadiran aplikasi ini juga memudahkan kita untuk melakukan konversi file.</description>
+    </item>
+  </channel>
+</rss>

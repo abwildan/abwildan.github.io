@@ -34,7 +34,7 @@ params:
   ShowReadingTime: true
   ShowShareButtons: true
   ShowToc: true
-  TocOpen: false
+  TocOpen: true
   ShowBreadCrumbs: true
   ShowPostNavLinks: true
   ShowCodeCopyButtons: true

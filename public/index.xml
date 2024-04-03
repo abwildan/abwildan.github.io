@@ -6,8 +6,15 @@
     <description>Recent content on Wildan&#39;s Workspace</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Tue, 26 Mar 2024 17:56:16 +0700</lastBuildDate>
+    <lastBuildDate>Tue, 02 Apr 2024 17:30:12 +0700</lastBuildDate>
     <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ngrok</title>
+      <link>//localhost:1313/post/ngrok/</link>
+      <pubDate>Tue, 02 Apr 2024 17:30:12 +0700</pubDate>
+      <guid>//localhost:1313/post/ngrok/</guid>
+      <description>Ngrok? Ngrok bagi sebagian orang mungkin sudah faniliar karena sering digunakan untuk berbagai kebutuhan. Tapi, bagi yang belum tahu, ngrok secara sederhana dapat didefinisikan sebagai aplikasi yang memungkinkan kita untuk mem-publish server lokal kita di localhost ke publik dengan aman. Artinya, service seperti misalnya web di localhost (http) atau bahkan SSH dan RDP dapat diakses di luar jaringan secara aman melalui bantuan dari Ngrok ini. Untuk detail teknisnya sebentar lagi kita akan lihat demonya.</description>
+    </item>
     <item>
       <title>Mystiq</title>
       <link>//localhost:1313/post/mystiq/</link>

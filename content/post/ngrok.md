@@ -3,7 +3,7 @@ title: "Ngrok"
 date: 2024-04-02T17:30:12+07:00
 draft: false		
 cover: 
-  image: ""
+  image: "/ngrok/cover.png"
   alt: "Ngrok"
   caption: "ngrok"
 tags: ["cyber security", "ngrok", "tutorial"]

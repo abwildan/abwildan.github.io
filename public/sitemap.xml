@@ -3,7 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>//localhost:1313/categories/</loc>
-    <lastmod>2024-04-02T17:30:12+07:00</lastmod>
+    <lastmod>2024-04-15T07:45:05+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/cyber-debian/</loc>
+    <lastmod>2024-04-15T07:45:05+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/categories/debian/</loc>
+    <lastmod>2024-04-15T07:45:05+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/post/debian-installation/</loc>
+    <lastmod>2024-04-15T07:45:05+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/linux/</loc>
+    <lastmod>2024-04-15T07:45:05+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/post/</loc>
+    <lastmod>2024-04-15T07:45:05+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/</loc>
+    <lastmod>2024-04-15T07:45:05+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/tutorial/</loc>
+    <lastmod>2024-04-15T07:45:05+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/</loc>
+    <lastmod>2024-04-15T07:45:05+07:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/cyber-security/</loc>
     <lastmod>2024-04-02T17:30:12+07:00</lastmod>
@@ -15,18 +39,6 @@
     <lastmod>2024-04-02T17:30:12+07:00</lastmod>
   </url><url>
     <loc>//localhost:1313/post/ngrok/</loc>
-    <lastmod>2024-04-02T17:30:12+07:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/post/</loc>
-    <lastmod>2024-04-02T17:30:12+07:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/</loc>
-    <lastmod>2024-04-02T17:30:12+07:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/tutorial/</loc>
-    <lastmod>2024-04-02T17:30:12+07:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/</loc>
     <lastmod>2024-04-02T17:30:12+07:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/ffmpeg/</loc>

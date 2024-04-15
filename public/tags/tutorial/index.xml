@@ -6,8 +6,18 @@
     <description>Recent content in Tutorial on Wildan&#39;s Workspace</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Tue, 02 Apr 2024 17:30:12 +0700</lastBuildDate>
+    <lastBuildDate>Mon, 15 Apr 2024 07:45:05 +0700</lastBuildDate>
     <atom:link href="//localhost:1313/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Debian Installation</title>
+      <link>//localhost:1313/post/debian-installation/</link>
+      <pubDate>Mon, 15 Apr 2024 07:45:05 +0700</pubDate>
+      <guid>//localhost:1313/post/debian-installation/</guid>
+      <description>Pra Instalasi Hola!
+Kali ini saya akan memberikan tutorial instalasi salah satu distro linux legendaris, Debian. Saya akan menginstall Debian sebagai VM (virtual machine) di Virtualbox. Namun, sebelum saya melakukan instalasi, ada beberapa catatan berikut yang perlu diperhatikan:
+Mengunduh &amp;amp; Menginstall Virtualbox (di sini) Mengunduh file ISO debian (di sini) Instalasi Sekarang, kita masuk ke tahap instalasi&amp;hellip;
+Membuat VM di Virtualbox 1. Klik &amp;ldquo;New&amp;rdquo; di interface Virtualbox 2. Isi bagian Name, bebas, bisa diisi dengan nama distronya.</description>
+    </item>
     <item>
       <title>Ngrok</title>
       <link>//localhost:1313/post/ngrok/</link>

@@ -340,6 +340,9 @@ Berikut adalah Desktop XFCE Debian kalian sekarang setelah dipoles ~~skin care~~
 
 Saya juga menonton video Youtube ini[^2] sebagai referensi untuk membuat *rice* ini!
 
+{{< youtube g-1B2QRtoxM >}}
+
+
 Sampai jumpa lagi! :)
 
 [^1]: https://init.web.id/membahas-linux-ricing/

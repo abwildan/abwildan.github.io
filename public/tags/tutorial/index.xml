@@ -4,12 +4,12 @@
     <title>Tutorial on Wildan&#39;s Workspace</title>
     <link>//localhost:1313/tags/tutorial/</link>
     <description>Recent content in Tutorial on Wildan&#39;s Workspace</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.123.8</generator>
     <language>en-US</language>
     <lastBuildDate>Mon, 15 Apr 2024 07:45:05 +0700</lastBuildDate>
     <atom:link href="//localhost:1313/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Debian Installation</title>
+      <title>Debian Linux Installation in Virtualbox</title>
       <link>//localhost:1313/post/debian-installation/</link>
       <pubDate>Mon, 15 Apr 2024 07:45:05 +0700</pubDate>
       <guid>//localhost:1313/post/debian-installation/</guid>

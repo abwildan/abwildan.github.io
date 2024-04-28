@@ -4,12 +4,22 @@
     <title>Debian on Wildan&#39;s Workspace</title>
     <link>//localhost:1313/tags/debian/</link>
     <description>Recent content in Debian on Wildan&#39;s Workspace</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.123.8</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 15 Apr 2024 07:45:05 +0700</lastBuildDate>
+    <lastBuildDate>Sun, 28 Apr 2024 14:21:13 +0700</lastBuildDate>
     <atom:link href="//localhost:1313/tags/debian/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Debian Installation</title>
+      <title>Linux Ricing?</title>
+      <link>//localhost:1313/post/rice/</link>
+      <pubDate>Sun, 28 Apr 2024 14:21:13 +0700</pubDate>
+      <guid>//localhost:1313/post/rice/</guid>
+      <description>Hola!
+Teman-teman familiar dengan istilah rice atau Linux ricing?
+Tidak seperti makna dari terjemah harfiahnya yang berarti nasi atau menasikan Linux, istilah rice atau Linux Ricing punya makna yang boleh dibilang eksklusif dan kontekstual. Gimana tu maksudnya? Mari saya jelaskan&amp;hellip;
+Secara sederhana, istilah rice yang digunakan dalam dunia Linux dicomot dari istilah yang biasa digunakan di dunia otomotif (mobil), dimana RICE adalah singkatan dari Race Inspired Cosmetic Enhancement. Istilah RICE dalam dunia mobil tersebut digunakan untuk menjelaskan modifikasi pada mobil.</description>
+    </item>
+    <item>
+      <title>Debian Linux Installation in Virtualbox</title>
       <link>//localhost:1313/post/debian-installation/</link>
       <pubDate>Mon, 15 Apr 2024 07:45:05 +0700</pubDate>
       <guid>//localhost:1313/post/debian-installation/</guid>

@@ -6,8 +6,15 @@
     <description>Recent content in Categories on Wildan&#39;s Workspace</description>
     <generator>Hugo -- 0.123.8</generator>
     <language>en-US</language>
-    <lastBuildDate>Sun, 28 Apr 2024 14:21:13 +0700</lastBuildDate>
+    <lastBuildDate>Thu, 02 May 2024 09:52:29 +0700</lastBuildDate>
     <atom:link href="//localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Archlinux</title>
+      <link>//localhost:1313/categories/archlinux/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/categories/archlinux/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Ricing</title>
       <link>//localhost:1313/categories/ricing/</link>

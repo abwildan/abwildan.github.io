@@ -6,7 +6,7 @@ cover:
   image: "/debinstall/ss38.png"
   alt: "Debian"
   caption: "Debian"
-tags: ["debian", "linux", "tutorial"]
+tags: ["debian", "linux", "instal"]
 categories: ["debian"]
 ---
 

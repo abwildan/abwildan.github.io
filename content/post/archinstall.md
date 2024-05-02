@@ -1,9 +1,9 @@
 ---
-title: "Instalasi Archlinux via archinstall"
+title: "Instalasi Archlinux KDE via archinstall"
 date: 2024-05-02T09:52:29+07:00
 draft: false		
 cover: 
-  image: ""
+  image: "/archinstall/cover.png"
   alt: "Arch"
   caption: "Arch"
 tags: ["arch", "linux", "install"]

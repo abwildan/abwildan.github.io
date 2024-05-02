@@ -9,7 +9,7 @@
     <lastBuildDate>Thu, 02 May 2024 09:52:29 +0700</lastBuildDate>
     <atom:link href="//localhost:1313/categories/archlinux/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Instalasi Archlinux via archinstall</title>
+      <title>Instalasi Archlinux KDE via archinstall</title>
       <link>//localhost:1313/post/archinstall/</link>
       <pubDate>Thu, 02 May 2024 09:52:29 +0700</pubDate>
       <guid>//localhost:1313/post/archinstall/</guid>

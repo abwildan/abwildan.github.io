@@ -10,7 +10,7 @@ params:
   author: "Wildan"
   profileMode:
     enabled: true
-    title: "Hello World!"
+    title: "Abdullah Wildan Ulhaq"
     subtitle: "Linux Ricer, Cyber Security Enthusiast, Data Analyst, AI Admirer"
       #imageUrl: "https://www.nautiljon.com/images/perso/00/45/fujii_tsukasa_14054.webp"
     imageUrl: "/Home/tsukasa.png"

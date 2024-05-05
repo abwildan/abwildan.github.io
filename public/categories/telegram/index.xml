@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Telegram on Wildan&#39;s Workspace</title>
-    <link>//localhost:1313/categories/telegram/</link>
+    <link>/categories/telegram/</link>
     <description>Recent content in Telegram on Wildan&#39;s Workspace</description>
     <generator>Hugo -- 0.123.8</generator>
     <language>en-US</language>
     <lastBuildDate>Wed, 11 Oct 2023 16:32:22 +0700</lastBuildDate>
-    <atom:link href="//localhost:1313/categories/telegram/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/categories/telegram/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mengunduh (free) e-book via Bot Telegram</title>
-      <link>//localhost:1313/post/ebook-via-bot_telegram/</link>
+      <link>/post/ebook-via-bot_telegram/</link>
       <pubDate>Wed, 11 Oct 2023 16:32:22 +0700</pubDate>
-      <guid>//localhost:1313/post/ebook-via-bot_telegram/</guid>
+      <guid>/post/ebook-via-bot_telegram/</guid>
       <description>Keberadaan buku digital / buku elektronik (e-book) saat ini sudah menjadi keniscayaan di era yang juga sudah digital. Kelebihan buku elektronik dibanding buku fisik selain murah dan mudah (atau gak mudah ya? hehe) diperoleh adalah juga tidak banyak memakan tempat (rak buku, dsb). Oleh karena itu, kita (apalagi akademisi, baik di sekolah ataupun perguruan tinggi) sangat memerlukan buku sebagai referensi dalam kegiatan belajar-mengajar.
 Nah, kali ini saya akan memberikan tutorial mendapatkan buku digital dengan mudah karena hanya membutuhkan telegram sebagai modal utamanya.</description>
     </item>

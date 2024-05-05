@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Hugo on Wildan&#39;s Workspace</title>
-    <link>//localhost:1313/tags/hugo/</link>
+    <link>/tags/hugo/</link>
     <description>Recent content in Hugo on Wildan&#39;s Workspace</description>
     <generator>Hugo -- 0.123.8</generator>
     <language>en-US</language>
     <lastBuildDate>Mon, 09 Oct 2023 15:22:46 +0700</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo (Papermod) Advanced</title>
-      <link>//localhost:1313/post/hugo-advanced/</link>
+      <link>/post/hugo-advanced/</link>
       <pubDate>Mon, 09 Oct 2023 15:22:46 +0700</pubDate>
-      <guid>//localhost:1313/post/hugo-advanced/</guid>
+      <guid>/post/hugo-advanced/</guid>
       <description>Mengkonfigurasi Hugo (Advanced) Setelah berhasil membuat website Hugo dan men-deploy-nya ke Github, kali ini saya akan memberi beberapa tips yang sedikit banyak dapat memberi kemudahan dan nilai estetika pada website Hugo tersebut.
 Tips 1: Mengganti format file konfigurasi By default, format file konfigurasi Hugo tersimpan dalam format TOML (.toml). Tapi, Hugo sendiri menyediakan 2 opsi format lain yang dapat kita gunakan, yaitu YAML/YML (.yaml) dan JSON (.json)1.
 Untuk alasan humanisme (kemudahan dan kenyamanan dipandang dan dibaca), maka kita akan mengganti format file konfigurasi Hugo dari TOML ke YAML/YML.</description>
     </item>
     <item>
       <title>Hugo-ing (from Zero to Hero)</title>
-      <link>//localhost:1313/post/hugo-ing/</link>
+      <link>/post/hugo-ing/</link>
       <pubDate>Sat, 07 Oct 2023 15:26:34 +0700</pubDate>
-      <guid>//localhost:1313/post/hugo-ing/</guid>
+      <guid>/post/hugo-ing/</guid>
       <description>Membuat Website via Hugo Pengenalan singkat tentang Hugo Hugo adalah framework yang memungkinkan setiap orang untuk membuat dan mengelola website mereka.
 Secara teknis, Hugo adalah static site generator. 1
 Secara umum, website dibagi 2: dynamic &amp;amp; static site dan itu disesuaikan dengan kebutuhan atau tujuan dibuatnya website tersebut. Tapi, umumnya, static site memang banyak digunakan sebagai:

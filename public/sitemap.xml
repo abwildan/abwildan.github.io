@@ -2,209 +2,209 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:1313/categories/</loc>
+    <loc>/categories/</loc>
     <lastmod>2024-05-04T10:38:46+07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/linux/</loc>
+    <loc>/tags/linux/</loc>
     <lastmod>2024-05-04T10:38:46+07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/post/</loc>
+    <loc>/post/</loc>
     <lastmod>2024-05-04T10:38:46+07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/rofi/</loc>
+    <loc>/tags/rofi/</loc>
     <lastmod>2024-05-04T10:38:46+07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/rofi/</loc>
+    <loc>/categories/rofi/</loc>
     <lastmod>2024-05-04T10:38:46+07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/post/rofi/</loc>
+    <loc>/post/rofi/</loc>
     <lastmod>2024-05-04T10:38:46+07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/</loc>
+    <loc>/tags/</loc>
     <lastmod>2024-05-04T10:38:46+07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/</loc>
+    <loc>/</loc>
     <lastmod>2024-05-04T10:38:46+07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/arch/</loc>
+    <loc>/tags/arch/</loc>
     <lastmod>2024-05-02T09:52:29+07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/archlinux/</loc>
+    <loc>/categories/archlinux/</loc>
     <lastmod>2024-05-02T09:52:29+07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/post/archinstall/</loc>
+    <loc>/post/archinstall/</loc>
     <lastmod>2024-05-02T09:52:29+07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/install/</loc>
+    <loc>/tags/install/</loc>
     <lastmod>2024-05-02T09:52:29+07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/debian/</loc>
+    <loc>/tags/debian/</loc>
     <lastmod>2024-04-28T14:21:13+07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/post/rice/</loc>
+    <loc>/post/rice/</loc>
     <lastmod>2024-04-28T14:21:13+07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/ricing/</loc>
+    <loc>/tags/ricing/</loc>
     <lastmod>2024-04-28T14:21:13+07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/ricing/</loc>
+    <loc>/categories/ricing/</loc>
     <lastmod>2024-04-28T14:21:13+07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/debian/</loc>
+    <loc>/categories/debian/</loc>
     <lastmod>2024-04-15T07:45:05+07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/post/debian-installation/</loc>
+    <loc>/post/debian-installation/</loc>
     <lastmod>2024-04-15T07:45:05+07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/instal/</loc>
+    <loc>/tags/instal/</loc>
     <lastmod>2024-04-15T07:45:05+07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/cyber-security/</loc>
+    <loc>/tags/cyber-security/</loc>
     <lastmod>2024-04-02T17:30:12+07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/ngrok/</loc>
+    <loc>/tags/ngrok/</loc>
     <lastmod>2024-04-02T17:30:12+07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/ngrok/</loc>
+    <loc>/categories/ngrok/</loc>
     <lastmod>2024-04-02T17:30:12+07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/post/ngrok/</loc>
+    <loc>/post/ngrok/</loc>
     <lastmod>2024-04-02T17:30:12+07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/tutorial/</loc>
+    <loc>/tags/tutorial/</loc>
     <lastmod>2024-04-02T17:30:12+07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/ffmpeg/</loc>
+    <loc>/tags/ffmpeg/</loc>
     <lastmod>2024-03-26T17:56:16+07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/mystiq/</loc>
+    <loc>/tags/mystiq/</loc>
     <lastmod>2024-03-26T17:56:16+07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/mystiq/</loc>
+    <loc>/categories/mystiq/</loc>
     <lastmod>2024-03-26T17:56:16+07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/post/mystiq/</loc>
+    <loc>/post/mystiq/</loc>
     <lastmod>2024-03-26T17:56:16+07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/post/eternalblue/</loc>
+    <loc>/post/eternalblue/</loc>
     <lastmod>2024-03-21T18:54:33+07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/hacking/</loc>
+    <loc>/categories/hacking/</loc>
     <lastmod>2024-03-21T18:54:33+07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/metasploit/</loc>
+    <loc>/tags/metasploit/</loc>
     <lastmod>2024-03-21T18:54:33+07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/forensic/</loc>
+    <loc>/tags/forensic/</loc>
     <lastmod>2024-03-19T21:43:27+07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/virustotal/</loc>
+    <loc>/categories/virustotal/</loc>
     <lastmod>2024-03-19T21:43:27+07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/post/virustotal/</loc>
+    <loc>/post/virustotal/</loc>
     <lastmod>2024-03-19T21:43:27+07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/recordmydesktop/</loc>
+    <loc>/tags/recordmydesktop/</loc>
     <lastmod>2024-03-08T14:55:26+07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/recordmydesktop/</loc>
+    <loc>/categories/recordmydesktop/</loc>
     <lastmod>2024-03-08T14:55:26+07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/post/recordmydesktop/</loc>
+    <loc>/post/recordmydesktop/</loc>
     <lastmod>2024-03-08T14:55:26+07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/screen-recorder/</loc>
+    <loc>/tags/screen-recorder/</loc>
     <lastmod>2024-03-08T14:55:26+07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/data-analysis/</loc>
+    <loc>/tags/data-analysis/</loc>
     <lastmod>2024-01-06T02:26:47-05:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/gephi/</loc>
+    <loc>/tags/gephi/</loc>
     <lastmod>2024-01-06T02:26:47-05:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/gephi/</loc>
+    <loc>/categories/gephi/</loc>
     <lastmod>2024-01-06T02:26:47-05:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/post/gephi/</loc>
+    <loc>/post/gephi/</loc>
     <lastmod>2024-01-06T02:26:47-05:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/anonymous/</loc>
+    <loc>/tags/anonymous/</loc>
     <lastmod>2023-11-30T07:35:02-05:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/onionshare/</loc>
+    <loc>/categories/onionshare/</loc>
     <lastmod>2023-11-30T07:35:02-05:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/post/onionshare/</loc>
+    <loc>/post/onionshare/</loc>
     <lastmod>2023-11-30T07:35:02-05:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/tor/</loc>
+    <loc>/categories/tor/</loc>
     <lastmod>2023-11-30T07:35:02-05:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/tor/</loc>
+    <loc>/tags/tor/</loc>
     <lastmod>2023-11-30T07:35:02-05:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/e-book/</loc>
+    <loc>/tags/e-book/</loc>
     <lastmod>2023-10-11T16:32:22+07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/post/ebook-via-bot_telegram/</loc>
+    <loc>/post/ebook-via-bot_telegram/</loc>
     <lastmod>2023-10-11T16:32:22+07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/telegram/</loc>
+    <loc>/tags/telegram/</loc>
     <lastmod>2023-10-11T16:32:22+07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/telegram/</loc>
+    <loc>/categories/telegram/</loc>
     <lastmod>2023-10-11T16:32:22+07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/z-library/</loc>
+    <loc>/tags/z-library/</loc>
     <lastmod>2023-10-11T16:32:22+07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/ffmpeg/</loc>
+    <loc>/categories/ffmpeg/</loc>
     <lastmod>2023-10-11T00:40:23+07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/post/ffmpeg-mp42gif/</loc>
+    <loc>/post/ffmpeg-mp42gif/</loc>
     <lastmod>2023-10-11T00:40:23+07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/mp4-to-gif/</loc>
+    <loc>/tags/mp4-to-gif/</loc>
     <lastmod>2023-10-11T00:40:23+07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/video-converter/</loc>
+    <loc>/tags/video-converter/</loc>
     <lastmod>2023-10-11T00:40:23+07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/post/ffmpeg-sr/</loc>
+    <loc>/post/ffmpeg-sr/</loc>
     <lastmod>2023-10-10T09:13:32+07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/hugo/</loc>
+    <loc>/tags/hugo/</loc>
     <lastmod>2023-10-09T15:22:46+07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/hugo/</loc>
+    <loc>/categories/hugo/</loc>
     <lastmod>2023-10-09T15:22:46+07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/post/hugo-advanced/</loc>
+    <loc>/post/hugo-advanced/</loc>
     <lastmod>2023-10-09T15:22:46+07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/static-site/</loc>
+    <loc>/tags/static-site/</loc>
     <lastmod>2023-10-09T15:22:46+07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/website/</loc>
+    <loc>/tags/website/</loc>
     <lastmod>2023-10-09T15:22:46+07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/post/hugo-to_github/</loc>
+    <loc>/post/hugo-to_github/</loc>
     <lastmod>2023-10-09T09:03:40+07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/post/hugo-ing/</loc>
+    <loc>/post/hugo-ing/</loc>
     <lastmod>2023-10-07T15:26:34+07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/whoami/</loc>
+    <loc>/whoami/</loc>
     <lastmod>2023-10-07T13:17:32+07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/introduction/</loc>
+    <loc>/tags/introduction/</loc>
     <lastmod>2023-10-07T13:17:32+07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/whoami/</loc>
+    <loc>/categories/whoami/</loc>
     <lastmod>2023-10-07T13:17:32+07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/archives/</loc>
+    <loc>/archives/</loc>
   </url><url>
-    <loc>//localhost:1313/search/</loc>
+    <loc>/search/</loc>
   </url>
 </urlset>

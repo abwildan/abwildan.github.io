@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Rofi - Beautiful &amp; Modern App Launcher | Wildan&#39;s Workspace</title>
+<meta name="keywords" content="rofi, linux">
+<meta name="description" content="What is Rofi?
+Kenalan dengan Rofi Teman kalian mungkin ada yang namanya Rofi. Tapi, tentu saja artikel ini tidak sedang menggosipkan Rofi sebagai manusia, tapi Rofi sebagai sebuah program, xixi.
+Merujuk pada definisi official-nya, secara singkat, Rofi yang dimaksud dalam artikel ini adalah
+window switcher, run dialog and dmenu replacement rofi can act as an application launcher, window switcher, ssh launcher and dmenu replacement.
+Atau definisi dengan versi yang lebih komplit:">
+<meta name="author" content="Wildan">
+<link rel="canonical" href="//localhost:1313/post/rofi/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.b609c58d5c11bb90b1a54e04005d74ad1ddf22165eb79f5533967e57df9c3b50.css" integrity="sha256-tgnFjVwRu5CxpU4EAF10rR3fIhZet59VM5Z&#43;V9&#43;cO1A=" rel="preload stylesheet" as="style">
+<link rel="icon" href="//localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="//localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="//localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="//localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="//localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="//localhost:1313/post/rofi/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="//localhost:1313/" accesskey="h" title="Wildan&#39;s Workspace (Alt + H)">Wildan&#39;s Workspace</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="//localhost:1313/" title="Home">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="//localhost:1313/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="//localhost:1313/post/" title="Tutorial">
+                    <span>Tutorial</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="//localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="//localhost:1313/post/">Posts</a></div>
+    <h1 class="post-title entry-hint-parent">
+      Rofi - Beautiful &amp; Modern App Launcher
+    </h1>
+    <div class="post-meta"><span title='2024-05-04 10:38:46 +0700 WIB'>May 4, 2024</span>&nbsp;·&nbsp;8 min&nbsp;·&nbsp;Wildan
+
+</div>
+  </header> 
+<figure class="entry-cover"><a href="//localhost:1313/rofi/cover.png" target="_blank"
+            rel="noopener noreferrer"><img loading="eager" src="//localhost:1313/rofi/cover.png" alt="Rofi"></a>
+        <p>Rofi</p>
+</figure><div class="toc">
+    <details  open>
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#kenalan-dengan-rofi" aria-label="Kenalan dengan Rofi">Kenalan dengan Rofi</a></li>
+                <li>
+                    <a href="#instalasi-rofi--review-singkat" aria-label="Instalasi Rofi &#43; Review Singkat">Instalasi Rofi + Review Singkat</a></li>
+                <li>
+                    <a href="#mempercantik-rofi" aria-label="Mempercantik Rofi">Mempercantik Rofi</a><ul>
+                        
+                <li>
+                    <a href="#memasang-tema-rofi" aria-label="Memasang Tema Rofi">Memasang Tema Rofi</a></li>
+                <li>
+                    <a href="#konfigurasi-tema-baru" aria-label="Konfigurasi Tema Baru">Konfigurasi Tema Baru</a>
+                </li>
+            </ul>
+            </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><p><em>What is <strong>Rofi</strong>?</em></p>
+<h1 id="kenalan-dengan-rofi">Kenalan dengan Rofi<a hidden class="anchor" aria-hidden="true" href="#kenalan-dengan-rofi">#</a></h1>
+<p>Teman kalian mungkin ada yang namanya Rofi. Tapi, tentu saja artikel ini tidak sedang menggosipkan Rofi sebagai manusia, tapi Rofi sebagai sebuah program, xixi.</p>
+<p>Merujuk pada definisi <em>official</em>-nya, secara singkat, Rofi yang dimaksud dalam artikel ini adalah</p>
+<blockquote>
+<p><em>window switcher, run dialog and dmenu replacement
+rofi can act as an application launcher, window switcher, ssh launcher and
+dmenu replacement.</em></p>
+</blockquote>
+<p><img loading="lazy" src="/rofi/ss1.png" alt="ss1"  />
+</p>
+<p>Atau definisi dengan versi yang lebih komplit:</p>
+<blockquote>
+<p>rofi  is <em>an X11 pop-up window switcher, run dialog, dmenu replacement, and more. It focuses on being fast to use and have minimal distraction. It supports keyboard and  mouse  navigation, type to filter, tokenized search and more.</em></p>
+</blockquote>
+<p><img loading="lazy" src="/rofi/ss2.png" alt="ss2"  />
+</p>
+<p>Nah, berdasarkan deskripsi di atas, bisa disimpulkan bahwa Rofi adalah sebuah program di ada di linux (dan sebetulnya bisa juga digunakan di Windows) yang dapat berfungsi sebagai:</p>
+<ol>
+<li>Application Launcher</li>
+<li>Window Switcher. SSH launcher, dan</li>
+<li><em>dmenu replacement</em></li>
+</ol>
+<p>Masih bingung?</p>
+<p>Supaya lebih jelas, mari kita lihat langsung apa itu Rofi dengan langsung mempraktikkannya.</p>
+<h1 id="instalasi-rofi--review-singkat">Instalasi Rofi + Review Singkat<a hidden class="anchor" aria-hidden="true" href="#instalasi-rofi--review-singkat">#</a></h1>
+<p>Untuk menginstall rofi di distro linux:</p>
+<table>
+<thead>
+<tr>
+<th><strong>Distro</strong></th>
+<th><strong>Install</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Debian<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></td>
+<td><code>sudo apt install rofi</code></td>
+</tr>
+<tr>
+<td>Arch<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></td>
+<td><code>sudo pacman -S rofi</code></td>
+</tr>
+<tr>
+<td>Opensuse<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></td>
+<td><code>sudo zypper in rofi</code></td>
+</tr>
+<tr>
+<td>Fedora<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup></td>
+<td><code>sudo dnf install rofi</code></td>
+</tr>
+</tbody>
+</table>
+<p>Atau kalian bisa meng-<em>compile source code</em>-nya langsung dari official repo Rofi di github<sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup>.</p>
+<p>Dalam artikel ini, saya akan menggunakan Rofi di <a href="https://abwildan.github.io/post/rice/">Debian (dengan tema Chicago95 / Windows95)</a> yang sudah saya install sebelumnya.</p>
+<p><img loading="lazy" src="/rofi/ss3.png" alt="ss3"  />
+</p>
+<p>Setelah proses instalasi selesai, kita sudah dapat langsung menggunakan Rofi dengan mengetikkan perintah simpel berikut di terminal:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>rofi
+</span></span></code></pre></div><p>Maka, akan muncul tampilan berikut:
+<img loading="lazy" src="/rofi/ss4.png" alt="ss4"  />
+</p>
+<p>Tampilan tersebut menunjukkan cara menggunakan atau menampilkan window Rofi, yaitu dengan mengetikkan perintah</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>rofi -show <span style="color:#f92672">{</span>mode<span style="color:#f92672">}</span>
+</span></span></code></pre></div><p>dimana mode-nya dapat dipilih:</p>
+<ul>
+<li><strong>window</strong>: untuk beralih window yang terbuka di setiap <em>workspace</em></li>
+<li><strong>run</strong>: untuk menjalankan semua program yang terinstall di OS linux (baik CLI maupun GUI)</li>
+<li><strong>ssh</strong>: untuk melakukan <em>remote access</em></li>
+<li><strong>windowcd</strong>: untuk beralih window yang terbuka di <em>workspace</em> aktif</li>
+<li><strong>drun</strong>: untuk menjalankan program GUI yang terinstall di OS linux</li>
+<li><strong>combi</strong>: kombinasi dari <em><strong>[window] + [run] + [drun]</strong></em></li>
+<li><strong>keys</strong>: untuk menampilkan <em>shortcut</em></li>
+<li><strong>filebrowser</strong>: sebagai <em>filebrowser</em> :)</li>
+</ul>
+<p>Berikut contoh penggunaan setiap mode-nya:
+<img loading="lazy" src="/rofi/gif1.gif" alt="gif1"  />
+</p>
+<p>Selain itu, kita juga dapat mengganti tema Rofi. File tema-nya dapat kita temukan di <code>/usr/share/rofi/themes</code>.
+<img loading="lazy" src="/rofi/ss5.png" alt="ss5"  />
+</p>
+<p>Perintah berikut dapat digunakan untuk mengganti tema Rofi:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>rofi -show <span style="color:#f92672">{</span>mode<span style="color:#f92672">}</span> -theme <span style="color:#f92672">{</span>themes<span style="color:#f92672">}</span>
+</span></span></code></pre></div><p><img loading="lazy" src="/rofi/gif2.gif" alt="gif2"  />
+</p>
+<p>File konfigurasinya dapat di-<em>dump</em> dengan perintah</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>rofi -dump-config &gt; config.rasi
+</span></span></code></pre></div><p><img loading="lazy" src="/rofi/ss6.png" alt="ss6"  />
+</p>
+<p>Selebihnya, kalian dapat mengulik sendiri. Kalau bingung, tinggal buka help atau manualnya saja.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>rofi --help
+</span></span><span style="display:flex;"><span>man rofi
+</span></span></code></pre></div><h1 id="mempercantik-rofi">Mempercantik Rofi<a hidden class="anchor" aria-hidden="true" href="#mempercantik-rofi">#</a></h1>
+<p>Setelah mengetahui <em>basic-basic</em> penggunaan Rofi, kali ini kita akan mempercantiknya. Saya akan menggunakan tema Rofi yang sudah disediakan oleh <a href="https://github.com/adi1090x">adi1090x</a> yang bisa kalian temukan reponya di <a href="https://github.com/adi1090x/rofi">link Github ini</a>.</p>
+<p>Repo Github tersebut menyediakan koleksi tema Rofi yang menurut saya keren-keren. Beberapa diantaranya misalnya:
+<img loading="lazy" src="/rofi/showcase1.png" alt="sc1"  />
+
+<img loading="lazy" src="/rofi/showcase2.png" alt="sc2"  />
+
+<img loading="lazy" src="/rofi/showcase3.png" alt="sc3"  />
+
+<img loading="lazy" src="/rofi/showcase4.png" alt="sc4"  />
+
+<img loading="lazy" src="/rofi/showcase5.png" alt="sc5"  />
+</p>
+<h2 id="memasang-tema-rofi">Memasang Tema Rofi<a hidden class="anchor" aria-hidden="true" href="#memasang-tema-rofi">#</a></h2>
+<ol>
+<li>Clone Github repo</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git clone https://github.com/adi1090x/rofi.git
+</span></span><span style="display:flex;"><span>cd rofi
+</span></span><span style="display:flex;"><span>./setup.sh
+</span></span></code></pre></div><p><img loading="lazy" src="/rofi/ss7.png" alt="ss7"  />
+</p>
+<p>Sekarang, kita punya file konfigurasi Rofi yang baru di <code>/home/$USER/.config/rofi/config.rasi</code>:
+<img loading="lazy" src="/rofi/ss8.png" alt="ss8"  />
+</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>/**
+</span></span><span style="display:flex;"><span> *
+</span></span><span style="display:flex;"><span> * Author : Aditya Shakya <span style="color:#f92672">(</span>adi1090x<span style="color:#f92672">)</span>
+</span></span><span style="display:flex;"><span> * Github : @adi1090x
+</span></span><span style="display:flex;"><span> * 
+</span></span><span style="display:flex;"><span> * Configuration For Rofi Version: 1.7.3
+</span></span><span style="display:flex;"><span> **/
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>configuration <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>	/*---------- General setting ----------*/
+</span></span><span style="display:flex;"><span>	modi: <span style="color:#e6db74">&#34;drun,run,filebrowser,window&#34;</span>;
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">case</span>-sensitive: false;
+</span></span><span style="display:flex;"><span>	cycle: true;
+</span></span><span style="display:flex;"><span>	filter: <span style="color:#e6db74">&#34;&#34;</span>;
+</span></span><span style="display:flex;"><span>	scroll-method: 0;
+</span></span><span style="display:flex;"><span>	normalize-match: true;
+</span></span><span style="display:flex;"><span>	show-icons: true;
+</span></span><span style="display:flex;"><span>	icon-theme: <span style="color:#e6db74">&#34;Papirus&#34;</span>;
+</span></span><span style="display:flex;"><span>/*	cache-dir: ;*/
+</span></span><span style="display:flex;"><span>	steal-focus: false;
+</span></span><span style="display:flex;"><span>/*	dpi: -1;*/
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>	/*---------- Matching setting ----------*/
+</span></span><span style="display:flex;"><span>	matching: <span style="color:#e6db74">&#34;normal&#34;</span>;
+</span></span><span style="display:flex;"><span>	tokenize: true;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>	/*---------- SSH settings ----------*/
+</span></span><span style="display:flex;"><span>	ssh-client: <span style="color:#e6db74">&#34;ssh&#34;</span>;
+</span></span><span style="display:flex;"><span>	ssh-command: <span style="color:#e6db74">&#34;{terminal} -e {ssh-client} {host} [-p {port}]&#34;</span>;
+</span></span><span style="display:flex;"><span>	parse-hosts: true;
+</span></span><span style="display:flex;"><span>	parse-known-hosts: true;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>	/*---------- Drun settings ----------*/
+</span></span><span style="display:flex;"><span>	drun-categories: <span style="color:#e6db74">&#34;&#34;</span>;
+</span></span><span style="display:flex;"><span>	drun-match-fields: <span style="color:#e6db74">&#34;name,generic,exec,categories,keywords&#34;</span>;
+</span></span><span style="display:flex;"><span>	drun-display-format: <span style="color:#e6db74">&#34;{name} [&lt;span weight=&#39;light&#39; size=&#39;small&#39;&gt;&lt;i&gt;({generic})&lt;/i&gt;&lt;/span&gt;]&#34;</span>;
+</span></span><span style="display:flex;"><span>	drun-show-actions: false;
+</span></span><span style="display:flex;"><span>	drun-url-launcher: <span style="color:#e6db74">&#34;xdg-open&#34;</span>;
+</span></span><span style="display:flex;"><span>	drun-use-desktop-cache: false;
+</span></span><span style="display:flex;"><span>	drun-reload-desktop-cache: false;
+</span></span><span style="display:flex;"><span>	drun <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>		/** Parse user desktop files. */
+</span></span><span style="display:flex;"><span>		parse-user:   true;
+</span></span><span style="display:flex;"><span>		/** Parse system desktop files. */
+</span></span><span style="display:flex;"><span>		parse-system: true;
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>	/*---------- Run settings ----------*/
+</span></span><span style="display:flex;"><span>	run-command: <span style="color:#e6db74">&#34;{cmd}&#34;</span>;
+</span></span><span style="display:flex;"><span>	run-list-command: <span style="color:#e6db74">&#34;&#34;</span>;
+</span></span><span style="display:flex;"><span>	run-shell-command: <span style="color:#e6db74">&#34;{terminal} -e {cmd}&#34;</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>	/*---------- Fallback Icon ----------*/
+</span></span><span style="display:flex;"><span>	run,drun <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>		fallback-icon: <span style="color:#e6db74">&#34;application-x-addon&#34;</span>;
+</span></span><span style="display:flex;"><span>	<span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>	/*---------- Window switcher settings ----------*/
+</span></span><span style="display:flex;"><span>	window-match-fields: <span style="color:#e6db74">&#34;title,class,role,name,desktop&#34;</span>;
+</span></span><span style="display:flex;"><span>	window-command: <span style="color:#e6db74">&#34;wmctrl -i -R {window}&#34;</span>;
+</span></span><span style="display:flex;"><span>	window-format: <span style="color:#e6db74">&#34;{w} - {c} - {t:0}&#34;</span>;
+</span></span><span style="display:flex;"><span>	window-thumbnail: false;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>	/*---------- Combi settings ----------*/
+</span></span><span style="display:flex;"><span>/*	combi-modi: <span style="color:#e6db74">&#34;window,run&#34;</span>;*/
+</span></span><span style="display:flex;"><span>/*	combi-hide-mode-prefix: false;*/
+</span></span><span style="display:flex;"><span>/*	combi-display-format: <span style="color:#e6db74">&#34;{mode} {text}&#34;</span>;*/
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>	/*---------- History and Sorting ----------*/
+</span></span><span style="display:flex;"><span>	disable-history: false;
+</span></span><span style="display:flex;"><span>	sorting-method: <span style="color:#e6db74">&#34;normal&#34;</span>;
+</span></span><span style="display:flex;"><span>	max-history-size: 25;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>	/*---------- Display setting ----------*/
+</span></span><span style="display:flex;"><span>	display-window: <span style="color:#e6db74">&#34;Windows&#34;</span>;
+</span></span><span style="display:flex;"><span>	display-windowcd: <span style="color:#e6db74">&#34;Window CD&#34;</span>;
+</span></span><span style="display:flex;"><span>	display-run: <span style="color:#e6db74">&#34;Run&#34;</span>;
+</span></span><span style="display:flex;"><span>	display-ssh: <span style="color:#e6db74">&#34;SSH&#34;</span>;
+</span></span><span style="display:flex;"><span>	display-drun: <span style="color:#e6db74">&#34;Apps&#34;</span>;
+</span></span><span style="display:flex;"><span>	display-combi: <span style="color:#e6db74">&#34;Combi&#34;</span>;
+</span></span><span style="display:flex;"><span>	display-keys: <span style="color:#e6db74">&#34;Keys&#34;</span>;
+</span></span><span style="display:flex;"><span>	display-filebrowser: <span style="color:#e6db74">&#34;Files&#34;</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>	/*---------- Misc setting ----------*/
+</span></span><span style="display:flex;"><span>	terminal: <span style="color:#e6db74">&#34;rofi-sensible-terminal&#34;</span>;
+</span></span><span style="display:flex;"><span>	font: <span style="color:#e6db74">&#34;Mono 12&#34;</span>;
+</span></span><span style="display:flex;"><span>	sort: false;
+</span></span><span style="display:flex;"><span>	threads: 0;
+</span></span><span style="display:flex;"><span>	click-to-exit: true;
+</span></span><span style="display:flex;"><span>/*	ignored-prefixes: <span style="color:#e6db74">&#34;&#34;</span>;*/
+</span></span><span style="display:flex;"><span>/*	pid: <span style="color:#e6db74">&#34;/run/user/1000/rofi.pid&#34;</span>;*/
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>	/*---------- File browser settings ----------*/
+</span></span><span style="display:flex;"><span>    filebrowser <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>/*	  directory: <span style="color:#e6db74">&#34;/home&#34;</span>;*/
+</span></span><span style="display:flex;"><span>      directories-first: true;
+</span></span><span style="display:flex;"><span>      sorting-method:    <span style="color:#e6db74">&#34;name&#34;</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>	/*---------- Other settings ----------*/
+</span></span><span style="display:flex;"><span>    timeout <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>      action: <span style="color:#e6db74">&#34;kb-cancel&#34;</span>;
+</span></span><span style="display:flex;"><span>      delay:  0;
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>	/*---------- Keybindings ----------*/
+</span></span><span style="display:flex;"><span>/*
+</span></span><span style="display:flex;"><span>	kb-primary-paste: <span style="color:#e6db74">&#34;Control+V,Shift+Insert&#34;</span>;
+</span></span><span style="display:flex;"><span>	kb-secondary-paste: <span style="color:#e6db74">&#34;Control+v,Insert&#34;</span>;
+</span></span><span style="display:flex;"><span>	kb-clear-line: <span style="color:#e6db74">&#34;Control+w&#34;</span>;
+</span></span><span style="display:flex;"><span>	kb-move-front: <span style="color:#e6db74">&#34;Control+a&#34;</span>;
+</span></span><span style="display:flex;"><span>	kb-move-end: <span style="color:#e6db74">&#34;Control+e&#34;</span>;
+</span></span><span style="display:flex;"><span>	kb-move-word-back: <span style="color:#e6db74">&#34;Alt+b,Control+Left&#34;</span>;
+</span></span><span style="display:flex;"><span>	kb-move-word-forward: <span style="color:#e6db74">&#34;Alt+f,Control+Right&#34;</span>;
+</span></span><span style="display:flex;"><span>	kb-move-char-back: <span style="color:#e6db74">&#34;Left,Control+b&#34;</span>;
+</span></span><span style="display:flex;"><span>	kb-move-char-forward: <span style="color:#e6db74">&#34;Right,Control+f&#34;</span>;
+</span></span><span style="display:flex;"><span>	kb-remove-word-back: <span style="color:#e6db74">&#34;Control+Alt+h,Control+BackSpace&#34;</span>;
+</span></span><span style="display:flex;"><span>	kb-remove-word-forward: <span style="color:#e6db74">&#34;Control+Alt+d&#34;</span>;
+</span></span><span style="display:flex;"><span>	kb-remove-char-forward: <span style="color:#e6db74">&#34;Delete,Control+d&#34;</span>;
+</span></span><span style="display:flex;"><span>	kb-remove-char-back: <span style="color:#e6db74">&#34;BackSpace,Shift+BackSpace,Control+h&#34;</span>;
+</span></span><span style="display:flex;"><span>	kb-remove-to-eol: <span style="color:#e6db74">&#34;Control+k&#34;</span>;
+</span></span><span style="display:flex;"><span>	kb-remove-to-sol: <span style="color:#e6db74">&#34;Control+u&#34;</span>;
+</span></span><span style="display:flex;"><span>	kb-accept-entry: <span style="color:#e6db74">&#34;Control+j,Control+m,Return,KP_Enter&#34;</span>;
+</span></span><span style="display:flex;"><span>	kb-accept-custom: <span style="color:#e6db74">&#34;Control+Return&#34;</span>;
+</span></span><span style="display:flex;"><span>	kb-accept-custom-alt: <span style="color:#e6db74">&#34;Control+Shift+Return&#34;</span>;
+</span></span><span style="display:flex;"><span>	kb-accept-alt: <span style="color:#e6db74">&#34;Shift+Return&#34;</span>;
+</span></span><span style="display:flex;"><span>	kb-delete-entry: <span style="color:#e6db74">&#34;Shift+Delete&#34;</span>;
+</span></span><span style="display:flex;"><span>	kb-mode-next: <span style="color:#e6db74">&#34;Shift+Right,Control+Tab&#34;</span>;
+</span></span><span style="display:flex;"><span>	kb-mode-previous: <span style="color:#e6db74">&#34;Shift+Left,Control+ISO_Left_Tab&#34;</span>;
+</span></span><span style="display:flex;"><span>	kb-mode-complete: <span style="color:#e6db74">&#34;Control+l&#34;</span>;
+</span></span><span style="display:flex;"><span>	kb-row-left: <span style="color:#e6db74">&#34;Control+Page_Up&#34;</span>;
+</span></span><span style="display:flex;"><span>	kb-row-right: <span style="color:#e6db74">&#34;Control+Page_Down&#34;</span>;
+</span></span><span style="display:flex;"><span>	kb-row-down: <span style="color:#e6db74">&#34;Down,Control+n&#34;</span>;
+</span></span><span style="display:flex;"><span>	kb-page-prev: <span style="color:#e6db74">&#34;Page_Up&#34;</span>;
+</span></span><span style="display:flex;"><span>	kb-page-next: <span style="color:#e6db74">&#34;Page_Down&#34;</span>;
+</span></span><span style="display:flex;"><span>	kb-row-first: <span style="color:#e6db74">&#34;Home,KP_Home&#34;</span>;
+</span></span><span style="display:flex;"><span>	kb-row-last: <span style="color:#e6db74">&#34;End,KP_End&#34;</span>;
+</span></span><span style="display:flex;"><span>	kb-row-select: <span style="color:#e6db74">&#34;Control+space&#34;</span>;
+</span></span><span style="display:flex;"><span>	kb-screenshot: <span style="color:#e6db74">&#34;Alt+S&#34;</span>;
+</span></span><span style="display:flex;"><span>	kb-ellipsize: <span style="color:#e6db74">&#34;Alt+period&#34;</span>;
+</span></span><span style="display:flex;"><span>	kb-toggle-case-sensitivity: <span style="color:#e6db74">&#34;grave,dead_grave&#34;</span>;
+</span></span><span style="display:flex;"><span>	kb-toggle-sort: <span style="color:#e6db74">&#34;Alt+grave&#34;</span>;
+</span></span><span style="display:flex;"><span>	kb-cancel: <span style="color:#e6db74">&#34;Escape,Control+g,Control+bracketleft&#34;</span>;
+</span></span><span style="display:flex;"><span>	kb-custom-1: <span style="color:#e6db74">&#34;Alt+1&#34;</span>;
+</span></span><span style="display:flex;"><span>	kb-custom-2: <span style="color:#e6db74">&#34;Alt+2&#34;</span>;
+</span></span><span style="display:flex;"><span>	kb-custom-3: <span style="color:#e6db74">&#34;Alt+3&#34;</span>;
+</span></span><span style="display:flex;"><span>	kb-custom-4: <span style="color:#e6db74">&#34;Alt+4&#34;</span>;
+</span></span><span style="display:flex;"><span>	kb-custom-5: <span style="color:#e6db74">&#34;Alt+5&#34;</span>;
+</span></span><span style="display:flex;"><span>	kb-custom-6: <span style="color:#e6db74">&#34;Alt+6&#34;</span>;
+</span></span><span style="display:flex;"><span>	kb-custom-7: <span style="color:#e6db74">&#34;Alt+7&#34;</span>;
+</span></span><span style="display:flex;"><span>	kb-custom-8: <span style="color:#e6db74">&#34;Alt+8&#34;</span>;
+</span></span><span style="display:flex;"><span>	kb-custom-9: <span style="color:#e6db74">&#34;Alt+9&#34;</span>;
+</span></span><span style="display:flex;"><span>	kb-custom-10: <span style="color:#e6db74">&#34;Alt+0&#34;</span>;
+</span></span><span style="display:flex;"><span>	kb-custom-11: <span style="color:#e6db74">&#34;Alt+exclam&#34;</span>;
+</span></span><span style="display:flex;"><span>	kb-custom-12: <span style="color:#e6db74">&#34;Alt+at&#34;</span>;
+</span></span><span style="display:flex;"><span>	kb-custom-13: <span style="color:#e6db74">&#34;Alt+numbersign&#34;</span>;
+</span></span><span style="display:flex;"><span>	kb-custom-14: <span style="color:#e6db74">&#34;Alt+dollar&#34;</span>;
+</span></span><span style="display:flex;"><span>	kb-custom-15: <span style="color:#e6db74">&#34;Alt+percent&#34;</span>;
+</span></span><span style="display:flex;"><span>	kb-custom-16: <span style="color:#e6db74">&#34;Alt+dead_circumflex&#34;</span>;
+</span></span><span style="display:flex;"><span>	kb-custom-17: <span style="color:#e6db74">&#34;Alt+ampersand&#34;</span>;
+</span></span><span style="display:flex;"><span>	kb-custom-18: <span style="color:#e6db74">&#34;Alt+asterisk&#34;</span>;
+</span></span><span style="display:flex;"><span>	kb-custom-19: <span style="color:#e6db74">&#34;Alt+parenleft&#34;</span>;
+</span></span><span style="display:flex;"><span>	kb-select-1: <span style="color:#e6db74">&#34;Super+1&#34;</span>;
+</span></span><span style="display:flex;"><span>	kb-select-2: <span style="color:#e6db74">&#34;Super+2&#34;</span>;
+</span></span><span style="display:flex;"><span>	kb-select-3: <span style="color:#e6db74">&#34;Super+3&#34;</span>;
+</span></span><span style="display:flex;"><span>	kb-select-4: <span style="color:#e6db74">&#34;Super+4&#34;</span>;
+</span></span><span style="display:flex;"><span>	kb-select-5: <span style="color:#e6db74">&#34;Super+5&#34;</span>;
+</span></span><span style="display:flex;"><span>	kb-select-6: <span style="color:#e6db74">&#34;Super+6&#34;</span>;
+</span></span><span style="display:flex;"><span>	kb-select-7: <span style="color:#e6db74">&#34;Super+7&#34;</span>;
+</span></span><span style="display:flex;"><span>	kb-select-8: <span style="color:#e6db74">&#34;Super+8&#34;</span>;
+</span></span><span style="display:flex;"><span>	kb-select-9: <span style="color:#e6db74">&#34;Super+9&#34;</span>;
+</span></span><span style="display:flex;"><span>	kb-select-10: <span style="color:#e6db74">&#34;Super+0&#34;</span>;
+</span></span><span style="display:flex;"><span>	ml-row-left: <span style="color:#e6db74">&#34;ScrollLeft&#34;</span>;
+</span></span><span style="display:flex;"><span>	ml-row-right: <span style="color:#e6db74">&#34;ScrollRight&#34;</span>;
+</span></span><span style="display:flex;"><span>	ml-row-up: <span style="color:#e6db74">&#34;ScrollUp&#34;</span>;
+</span></span><span style="display:flex;"><span>	ml-row-down: <span style="color:#e6db74">&#34;ScrollDown&#34;</span>;
+</span></span><span style="display:flex;"><span>	me-select-entry: <span style="color:#e6db74">&#34;MousePrimary&#34;</span>;
+</span></span><span style="display:flex;"><span>	me-accept-entry: <span style="color:#e6db74">&#34;MouseDPrimary&#34;</span>;
+</span></span><span style="display:flex;"><span>	me-accept-custom: <span style="color:#e6db74">&#34;Control+MouseDPrimary&#34;</span>;
+</span></span><span style="display:flex;"><span>*/
+</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span></code></pre></div><p>Sebelum mulai mengkonfigurasi temanya, kita perlu memperbaiki <em><strong>sesuatu</strong></em> di file konfigurasinya terlebih dahulu karena menyebabkan Rofi tidak bisa berjalan dengan
+semestina (<em><strong>re</strong>:error</em>).
+<img loading="lazy" src="/rofi/ss9.png" alt="ss9"  />
+</p>
+<p>Menurut keterangan <em>error</em> di atas, kita perlu mengecek file konfigurasi di line 54&hellip;
+<img loading="lazy" src="/rofi/ss10.png" alt="ss10"  />
+</p>
+<p>Ada dua perintah di bawah bagian <strong>Fallback Icon</strong>, yaitu <code>run,drun</code>, mungkin itu yang membuat Rofi jadi bingung. So, kita hapus <code>run</code>.</p>
+<h2 id="konfigurasi-tema-baru">Konfigurasi Tema Baru<a hidden class="anchor" aria-hidden="true" href="#konfigurasi-tema-baru">#</a></h2>
+<p>Sekarang, kita akan mulai mencoba tema baru. Tema-tema yang tadi sudah di-clone bisa dicoba di direktori <code>launchers</code>. Nanti kita bisa menemukan ada 7 <em>type</em> tema dimana di setiap <em>type</em>-nya ada file <strong><code>launcher.sh</code></strong> yang kita eksekusi untuk menampilkan tema-nya. Setiap <em>type</em> juga punya file konfigurasi tema yang beragam. Jadi, kita bisa mengganti opsi tema-nya berdasarkan file konfigurasi yang tersedia di setiap direktori <em>type</em>.</p>
+<p>Tapi, kita hanya perlu fokus di file <strong><code>launcher.sh</code></strong>-nya saja. Kira-kira nanti bagan direktori di <code>/home/$USER/.config/rofi/launchers/</code> akan seperti ini:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>.
+</span></span><span style="display:flex;"><span>├── type-1
+</span></span><span style="display:flex;"><span>│    ├── launcher.sh      &lt;--- Fokus ke sini
+</span></span><span style="display:flex;"><span>│    ├── style-1.rasi
+</span></span><span style="display:flex;"><span>│    ├── style-2.rasi
+</span></span><span style="display:flex;"><span>│    └── style-3.rasi   
+</span></span><span style="display:flex;"><span>├── type-2
+</span></span><span style="display:flex;"><span>│    ├── launcher.sh      &lt;--- Fokus ke sini
+</span></span><span style="display:flex;"><span>│    ├── style-1.rasi
+</span></span><span style="display:flex;"><span>│    ├── style-2.rasi
+</span></span><span style="display:flex;"><span>│    └── style-3.rasi
+</span></span><span style="display:flex;"><span>├── type-3
+</span></span><span style="display:flex;"><span>│    ├── launcher.sh      &lt;--- Fokus ke sini
+</span></span><span style="display:flex;"><span>│    ├── style-1.rasi
+</span></span><span style="display:flex;"><span>│    ├── style-2.rasi
+</span></span><span style="display:flex;"><span>│    └── style-3.rasi
+</span></span><span style="display:flex;"><span>├── type-4
+</span></span><span style="display:flex;"><span>│    ├── launcher.sh      &lt;--- Fokus ke sini
+</span></span><span style="display:flex;"><span>│    ├── style-1.rasi
+</span></span><span style="display:flex;"><span>│    ├── style-2.rasi
+</span></span><span style="display:flex;"><span>│    └── style-3.rasi
+</span></span><span style="display:flex;"><span>├── type-5
+</span></span><span style="display:flex;"><span>│    ├── launcher.sh      &lt;--- Fokus ke sini
+</span></span><span style="display:flex;"><span>│    ├── style-1.rasi
+</span></span><span style="display:flex;"><span>│    ├── style-2.rasi
+</span></span><span style="display:flex;"><span>│    └── style-3.rasi
+</span></span><span style="display:flex;"><span>├── type-6
+</span></span><span style="display:flex;"><span>│    ├── launcher.sh      &lt;--- Fokus ke sini
+</span></span><span style="display:flex;"><span>│    ├── style-1.rasi
+</span></span><span style="display:flex;"><span>│    ├── style-2.rasi
+</span></span><span style="display:flex;"><span>│    └── style-3.rasi
+</span></span><span style="display:flex;"><span>└── type-7
+</span></span><span style="display:flex;"><span>     ├── launcher.sh      &lt;--- Fokus ke sini
+</span></span><span style="display:flex;"><span>     ├── style-1.rasi
+</span></span><span style="display:flex;"><span>     ├── style-2.rasi
+</span></span><span style="display:flex;"><span>     └── style-3.rasi
+</span></span></code></pre></div><blockquote>
+<p><strong>Keterangan:</strong></p>
+<ul>
+<li>File <strong>launcher.sh</strong> adalah <em>script</em> untuk menampilkan tema</li>
+<li>File <strong>style-1/2/3.rasi</strong> adalah file konfigurasi tema</li>
+</ul>
+</blockquote>
+<p>Isi dari setiap file <strong>launcher.sh</strong>-nya kurang lebih seperti ini (saya ambil dari direktori <strong>type-1</strong>):</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e">#!/usr/bin/env bash
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">## Author : Aditya Shakya (adi1090x)</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">## Github : @adi1090x</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">## Rofi   : Launcher (Modi Drun, Run, File Browser, Window)</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">## Available Styles</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">## style-1     style-2     style-3     style-4     style-5</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">## style-6     style-7     style-8     style-9     style-10</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">## style-11    style-12    style-13    style-14    style-15</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>dir<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;</span>$HOME<span style="color:#e6db74">/.config/rofi/launchers/type-1&#34;</span>
+</span></span><span style="display:flex;"><span>theme<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;style-1&#39;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">## Run</span>
+</span></span><span style="display:flex;"><span>rofi <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>    -show drun <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>    -theme <span style="color:#e6db74">${</span>dir<span style="color:#e6db74">}</span>/<span style="color:#e6db74">${</span>theme<span style="color:#e6db74">}</span>.rasi
+</span></span></code></pre></div><p>Jadi, untuk mengganti <em>style</em> tema-nya, kita hanya perlu mengganti baris</p>
+<p><code>theme='style-1'</code></p>
+<p>ke <em>style</em> yang tersedia <strong>Available Styles</strong>. Tidak semua <em>type</em> menyediakan jumlah <em>style</em> yang sama. Kalian bisa melihatnya langsung di setiap direktori <em>type</em>.</p>
+<p>Sebagai contoh, saya akan menggunakan config <strong>style-6</strong> di <strong>type-1</strong>:
+<img loading="lazy" src="/rofi/ss11.png" alt="ss11"  />
+</p>
+<p>Jalankan <em>script</em> <strong>launcher.sh</strong>-nya&hellip;</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>./launcher.sh
+</span></span></code></pre></div><p><img loading="lazy" src="/rofi/gif3.gif" alt="gif3"  />
+</p>
+<p>Berhasil!!</p>
+<p>Tapi, kalau dilihat-lihat, icon-icon aplikasi yang muncul belum sesuai dengan tema distro-nya, <em>which is</em> Windows95 a.k.a <strong>Chicago95</strong>. Jadi, kita perlu menyesuaikan icon-nya juga. Gampang, kita tinggal ganti di file config rofi-nya saja.
+<img loading="lazy" src="/rofi/ss12.png" alt="ss12"  />
+</p>
+<p>Sekarang, icon-nya sudah berubah ke Chicago95 :)
+<img loading="lazy" src="/rofi/gif4.gif" alt="gif4"  />
+</p>
+<p>Tapi, warna tema-nya masih biru, belum sesuai juga dengan tema distro-nya, Chicago95. Nah, berhubung warna tema yang ada di cover artikel ini sama dengan warna tema Chicago95, yaitu abu-abu, kita akan gunakan tema tersebut. Tema itu ada di <strong>type-7</strong> dengan file config <strong>style-6</strong>.</p>
+<p>So, kita akan mengeksekusi <em>script</em> <strong>launcher.sh</strong> di direktori <strong>type-7</strong>. Jangan lupa untuk mengganti tema ke style-6 di <strong>launcher.sh</strong>.
+<img loading="lazy" src="/rofi/ss13.png" alt="ss13"  />
+</p>
+<p>Eksekusi&hellip;</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>./launcher.sh
+</span></span></code></pre></div><p><img loading="lazy" src="/rofi/gif5.gif" alt="gif5"  />
+</p>
+<p>Yooo!!</p>
+<p>Dan kita bisa mengedit size window-nya, size icon-nya, gambar background-nya, dan lain-lain di file konfigurasi tema-nya (dalam konteks tema ini di <code>/home/$USER/.config/rofi/launcher/type-7/style-6.rasi</code>).</p>
+<p>Sekarang, supaya Rofi kita bisa muncul ketika kita menekan tombol Windows atau <strong>[<code>Super Key</code>]</strong>, kita bisa menambahkannya ke <em><strong>Application Shortcuts</strong></em> di pengaturan Keyboard.
+<img loading="lazy" src="/rofi/ss14.png" alt="ss14"  />
+</p>
+<p>Berikutnya, pada menu <em><strong>Application Shortcuts</strong></em>, klik <em><strong>Add</strong></em>.
+<img loading="lazy" src="/rofi/ss15.png" alt="ss15"  />
+</p>
+<p>Kemudian, nanti akan muncul window <em><strong>Shortcut Command</strong></em>, klik <strong><em>icon</em> folder</strong> kuning di sebelah kanan, dan pilih file <strong>launcher.sh</strong> di direktori <strong>type-7</strong> tadi.
+<img loading="lazy" src="/rofi/ss16.png" alt="ss16"  />
+</p>
+<p>Dan akan muncul window untuk men-set <em>shortcut</em> yang diinginkan. Silakan tekan tombol Windows atau <strong>[<code>Super Key</code>]</strong>.
+<img loading="lazy" src="/rofi/gif6.gif" alt="gif6"  />
+</p>
+<p>Setelah itu, kita bisa melihat di menu <em><strong>Application Shortcuts</strong></em>, aplikasi Rofi kita baru saja diberi <em>shortcut</em> baru. Yeeay!!
+<img loading="lazy" src="/rofi/ss17.png" alt="ss17"  />
+</p>
+<p>Dengan begitu, setiap kali kita menekan tombol <strong>[<code>Super Key</code>]</strong>, Rofi dengan tema baru akan tampak!
+<img loading="lazy" src="/rofi/gif7.gif" alt="gif7"  />
+</p>
+<p>Mantavvv!!</p>
+<p>Sekian dulu sharing tentang Rofi di artikel ini&hellip;</p>
+<p>Sampai jumpa lagi di artikel saya yang lain.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p><a href="https://packages.debian.org/search?searchon=contents&amp;keywords=rofi&amp;mode=path&amp;suite=stable&amp;arch=any">https://packages.debian.org/search?searchon=contents&amp;keywords=rofi&amp;mode=path&amp;suite=stable&amp;arch=any</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p><a href="https://archlinux.org/packages/?sort=&amp;q=rofi&amp;maintainer=&amp;flagged=">https://archlinux.org/packages/?sort=&amp;q=rofi&amp;maintainer=&amp;flagged=</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p><a href="https://software.opensuse.org/package/rofi">https://software.opensuse.org/package/rofi</a>&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4">
+<p><a href="https://packages.fedoraproject.org/pkgs/rofi/rofi/">https://packages.fedoraproject.org/pkgs/rofi/rofi/</a>&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:5">
+<p><a href="https://github.com/davatorium/rofi">https://github.com/davatorium/rofi</a>&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="//localhost:1313/tags/rofi/">Rofi</a></li>
+      <li><a href="//localhost:1313/tags/linux/">Linux</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="next" href="//localhost:1313/post/archinstall/">
+    <span class="title">Next »</span>
+    <br>
+    <span>Instalasi Archlinux KDE via archinstall</span>
+  </a>
+</nav>
+
+
+<ul class="share-buttons">
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Rofi - Beautiful &amp; Modern App Launcher on x"
+            href="https://x.com/intent/tweet/?text=Rofi%20-%20Beautiful%20%26%20Modern%20App%20Launcher&amp;url=%2f%2flocalhost%3a1313%2fpost%2frofi%2f&amp;hashtags=rofi%2clinux">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M512 62.554 L 512 449.446 C 512 483.97 483.97 512 449.446 512 L 62.554 512 C 28.03 512 0 483.97 0 449.446 L 0 62.554 C 0 28.03 28.029 0 62.554 0 L 449.446 0 C 483.971 0 512 28.03 512 62.554 Z M 269.951 190.75 L 182.567 75.216 L 56 75.216 L 207.216 272.95 L 63.9 436.783 L 125.266 436.783 L 235.9 310.383 L 332.567 436.783 L 456 436.783 L 298.367 228.367 L 432.367 75.216 L 371.033 75.216 Z M 127.633 110 L 164.101 110 L 383.481 400.065 L 349.5 400.065 Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Rofi - Beautiful &amp; Modern App Launcher on linkedin"
+            href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2f%2flocalhost%3a1313%2fpost%2frofi%2f&amp;title=Rofi%20-%20Beautiful%20%26%20Modern%20App%20Launcher&amp;summary=Rofi%20-%20Beautiful%20%26%20Modern%20App%20Launcher&amp;source=%2f%2flocalhost%3a1313%2fpost%2frofi%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-288.985,423.278l0,-225.717l-75.04,0l0,225.717l75.04,0Zm270.539,0l0,-129.439c0,-69.333 -37.018,-101.586 -86.381,-101.586c-39.804,0 -57.634,21.891 -67.617,37.266l0,-31.958l-75.021,0c0.995,21.181 0,225.717 0,225.717l75.02,0l0,-126.056c0,-6.748 0.486,-13.492 2.474,-18.315c5.414,-13.475 17.767,-27.434 38.494,-27.434c27.135,0 38.007,20.707 38.007,51.037l0,120.768l75.024,0Zm-307.552,-334.556c-25.674,0 -42.448,16.879 -42.448,39.002c0,21.658 16.264,39.002 41.455,39.002l0.484,0c26.165,0 42.452,-17.344 42.452,-39.002c-0.485,-22.092 -16.241,-38.954 -41.943,-39.002Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Rofi - Beautiful &amp; Modern App Launcher on reddit"
+            href="https://reddit.com/submit?url=%2f%2flocalhost%3a1313%2fpost%2frofi%2f&title=Rofi%20-%20Beautiful%20%26%20Modern%20App%20Launcher">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-3.446,265.638c0,-22.964 -18.616,-41.58 -41.58,-41.58c-11.211,0 -21.361,4.457 -28.841,11.666c-28.424,-20.508 -67.586,-33.757 -111.204,-35.278l18.941,-89.121l61.884,13.157c0.756,15.734 13.642,28.29 29.56,28.29c16.407,0 29.706,-13.299 29.706,-29.701c0,-16.403 -13.299,-29.702 -29.706,-29.702c-11.666,0 -21.657,6.792 -26.515,16.578l-69.105,-14.69c-1.922,-0.418 -3.939,-0.042 -5.585,1.036c-1.658,1.073 -2.811,2.761 -3.224,4.686l-21.152,99.438c-44.258,1.228 -84.046,14.494 -112.837,35.232c-7.468,-7.164 -17.589,-11.591 -28.757,-11.591c-22.965,0 -41.585,18.616 -41.585,41.58c0,16.896 10.095,31.41 24.568,37.918c-0.639,4.135 -0.99,8.328 -0.99,12.576c0,63.977 74.469,115.836 166.33,115.836c91.861,0 166.334,-51.859 166.334,-115.836c0,-4.218 -0.347,-8.387 -0.977,-12.493c14.564,-6.47 24.735,-21.034 24.735,-38.001Zm-119.474,108.193c-20.27,20.241 -59.115,21.816 -70.534,21.816c-11.428,0 -50.277,-1.575 -70.522,-21.82c-3.007,-3.008 -3.007,-7.882 0,-10.889c3.003,-2.999 7.882,-3.003 10.885,0c12.777,12.781 40.11,17.317 59.637,17.317c19.522,0 46.86,-4.536 59.657,-17.321c3.016,-2.999 7.886,-2.995 10.885,0.008c3.008,3.011 3.003,7.882 -0.008,10.889Zm-5.23,-48.781c-16.373,0 -29.701,-13.324 -29.701,-29.698c0,-16.381 13.328,-29.714 29.701,-29.714c16.378,0 29.706,13.333 29.706,29.714c0,16.374 -13.328,29.698 -29.706,29.698Zm-160.386,-29.702c0,-16.381 13.328,-29.71 29.714,-29.71c16.369,0 29.689,13.329 29.689,29.71c0,16.373 -13.32,29.693 -29.689,29.693c-16.386,0 -29.714,-13.32 -29.714,-29.693Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Rofi - Beautiful &amp; Modern App Launcher on facebook"
+            href="https://facebook.com/sharer/sharer.php?u=%2f%2flocalhost%3a1313%2fpost%2frofi%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-106.468,0l0,-192.915l66.6,0l12.672,-82.621l-79.272,0l0,-53.617c0,-22.603 11.073,-44.636 46.58,-44.636l36.042,0l0,-70.34c0,0 -32.71,-5.582 -63.982,-5.582c-65.288,0 -107.96,39.569 -107.96,111.204l0,62.971l-72.573,0l0,82.621l72.573,0l0,192.915l-191.104,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Rofi - Beautiful &amp; Modern App Launcher on whatsapp"
+            href="https://api.whatsapp.com/send?text=Rofi%20-%20Beautiful%20%26%20Modern%20App%20Launcher%20-%20%2f%2flocalhost%3a1313%2fpost%2frofi%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-58.673,127.703c-33.842,-33.881 -78.847,-52.548 -126.798,-52.568c-98.799,0 -179.21,80.405 -179.249,179.234c-0.013,31.593 8.241,62.428 23.927,89.612l-25.429,92.884l95.021,-24.925c26.181,14.28 55.659,21.807 85.658,21.816l0.074,0c98.789,0 179.206,-80.413 179.247,-179.243c0.018,-47.895 -18.61,-92.93 -52.451,-126.81Zm-126.797,275.782l-0.06,0c-26.734,-0.01 -52.954,-7.193 -75.828,-20.767l-5.441,-3.229l-56.386,14.792l15.05,-54.977l-3.542,-5.637c-14.913,-23.72 -22.791,-51.136 -22.779,-79.287c0.033,-82.142 66.867,-148.971 149.046,-148.971c39.793,0.014 77.199,15.531 105.329,43.692c28.128,28.16 43.609,65.592 43.594,105.4c-0.034,82.149 -66.866,148.983 -148.983,148.984Zm81.721,-111.581c-4.479,-2.242 -26.499,-13.075 -30.604,-14.571c-4.105,-1.495 -7.091,-2.241 -10.077,2.241c-2.986,4.483 -11.569,14.572 -14.182,17.562c-2.612,2.988 -5.225,3.364 -9.703,1.12c-4.479,-2.241 -18.91,-6.97 -36.017,-22.23c-13.314,-11.876 -22.304,-26.542 -24.916,-31.026c-2.612,-4.484 -0.279,-6.908 1.963,-9.14c2.016,-2.007 4.48,-5.232 6.719,-7.847c2.24,-2.615 2.986,-4.484 4.479,-7.472c1.493,-2.99 0.747,-5.604 -0.374,-7.846c-1.119,-2.241 -10.077,-24.288 -13.809,-33.256c-3.635,-8.733 -7.327,-7.55 -10.077,-7.688c-2.609,-0.13 -5.598,-0.158 -8.583,-0.158c-2.986,0 -7.839,1.121 -11.944,5.604c-4.105,4.484 -15.675,15.32 -15.675,37.364c0,22.046 16.048,43.342 18.287,46.332c2.24,2.99 31.582,48.227 76.511,67.627c10.685,4.615 19.028,7.371 25.533,9.434c10.728,3.41 20.492,2.929 28.209,1.775c8.605,-1.285 26.499,-10.833 30.231,-21.295c3.732,-10.464 3.732,-19.431 2.612,-21.298c-1.119,-1.869 -4.105,-2.99 -8.583,-5.232Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Rofi - Beautiful &amp; Modern App Launcher on telegram"
+            href="https://telegram.me/share/url?text=Rofi%20-%20Beautiful%20%26%20Modern%20App%20Launcher&amp;url=%2f%2flocalhost%3a1313%2fpost%2frofi%2f">
+            <svg version="1.1" xml:space="preserve" viewBox="2 2 28 28" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M26.49,29.86H5.5a3.37,3.37,0,0,1-2.47-1,3.35,3.35,0,0,1-1-2.47V5.48A3.36,3.36,0,0,1,3,3,3.37,3.37,0,0,1,5.5,2h21A3.38,3.38,0,0,1,29,3a3.36,3.36,0,0,1,1,2.46V26.37a3.35,3.35,0,0,1-1,2.47A3.38,3.38,0,0,1,26.49,29.86Zm-5.38-6.71a.79.79,0,0,0,.85-.66L24.73,9.24a.55.55,0,0,0-.18-.46.62.62,0,0,0-.41-.17q-.08,0-16.53,6.11a.59.59,0,0,0-.41.59.57.57,0,0,0,.43.52l4,1.24,1.61,4.83a.62.62,0,0,0,.63.43.56.56,0,0,0,.4-.17L16.54,20l4.09,3A.9.9,0,0,0,21.11,23.15ZM13.8,20.71l-1.21-4q8.72-5.55,8.78-5.55c.15,0,.23,0,.23.16a.18.18,0,0,1,0,.06s-2.51,2.3-7.52,6.8Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Rofi - Beautiful &amp; Modern App Launcher on ycombinator"
+            href="https://news.ycombinator.com/submitlink?t=Rofi%20-%20Beautiful%20%26%20Modern%20App%20Launcher&u=%2f%2flocalhost%3a1313%2fpost%2frofi%2f">
+            <svg version="1.1" xml:space="preserve" width="30px" height="30px" viewBox="0 0 512 512" fill="currentColor"
+                xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
+                <path
+                    d="M449.446 0C483.971 0 512 28.03 512 62.554L512 449.446C512 483.97 483.97 512 449.446 512L62.554 512C28.03 512 0 483.97 0 449.446L0 62.554C0 28.03 28.029 0 62.554 0L449.446 0ZM183.8767 87.9921H121.8427L230.6673 292.4508V424.0079H281.3328V292.4508L390.1575 87.9921H328.1233L256 238.2489z" />
+            </svg>
+        </a>
+    </li>
+</ul>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2024 <a href="//localhost:1313/">Wildan&#39;s Workspace</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

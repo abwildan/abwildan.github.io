@@ -2,31 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>//localhost:1313/categories/</loc>
+    <lastmod>2024-05-04T10:38:46+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/linux/</loc>
+    <lastmod>2024-05-04T10:38:46+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/post/</loc>
+    <lastmod>2024-05-04T10:38:46+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/rofi/</loc>
+    <lastmod>2024-05-04T10:38:46+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/categories/rofi/</loc>
+    <lastmod>2024-05-04T10:38:46+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/post/rofi/</loc>
+    <lastmod>2024-05-04T10:38:46+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/</loc>
+    <lastmod>2024-05-04T10:38:46+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/</loc>
+    <lastmod>2024-05-04T10:38:46+07:00</lastmod>
+  </url><url>
     <loc>//localhost:1313/tags/arch/</loc>
     <lastmod>2024-05-02T09:52:29+07:00</lastmod>
   </url><url>
     <loc>//localhost:1313/categories/archlinux/</loc>
     <lastmod>2024-05-02T09:52:29+07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/</loc>
-    <lastmod>2024-05-02T09:52:29+07:00</lastmod>
-  </url><url>
     <loc>//localhost:1313/post/archinstall/</loc>
     <lastmod>2024-05-02T09:52:29+07:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/install/</loc>
-    <lastmod>2024-05-02T09:52:29+07:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/linux/</loc>
-    <lastmod>2024-05-02T09:52:29+07:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/post/</loc>
-    <lastmod>2024-05-02T09:52:29+07:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/</loc>
-    <lastmod>2024-05-02T09:52:29+07:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/</loc>
     <lastmod>2024-05-02T09:52:29+07:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/debian/</loc>

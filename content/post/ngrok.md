@@ -1,5 +1,5 @@
 ---
-title: "Ngrok"
+title: "Ngrok - Alternatif Publikasi localhost"
 date: 2024-04-02T17:30:12+07:00
 draft: false		
 cover: 

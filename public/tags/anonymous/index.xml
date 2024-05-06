@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Anonymous on Wildan&#39;s Workspace</title>
-    <link>/tags/anonymous/</link>
+    <link>//localhost:1313/tags/anonymous/</link>
     <description>Recent content in Anonymous on Wildan&#39;s Workspace</description>
     <generator>Hugo -- 0.123.8</generator>
     <language>en-US</language>
     <lastBuildDate>Thu, 30 Nov 2023 07:35:02 -0500</lastBuildDate>
-    <atom:link href="/tags/anonymous/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/anonymous/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Private File Sharing with Onionshare</title>
-      <link>/post/onionshare/</link>
+      <link>//localhost:1313/post/onionshare/</link>
       <pubDate>Thu, 30 Nov 2023 07:35:02 -0500</pubDate>
-      <guid>/post/onionshare/</guid>
+      <guid>//localhost:1313/post/onionshare/</guid>
       <description>Halo! Beberapa pekan lalu, saya sempat memberikan tutorial untuk mendapatkan e-book gratis dengan bot Telegram yang berasal dari situs z-library. Saat tulisan tersebut dibuat, situs utama z-lib di-banned oleh FBI karena dianggap menyebarkan buku-buku berbayar tanpa hak izin dari penulisnya. Maka, agar dapat mengakses situs z-lib, kita memerlukan TOR Browser.
 Nah, pernahkah kalian penasaran, bagaimana cara meng-hosting file yang hanya dapat diakses dengan TOR Browser dan jaringan TOR saja?
 Kali ini, kita akan belajar bagaimana cara meng-hosting atau membagikan file yang hanya dapat diakses oleh TOR Browser.</description>

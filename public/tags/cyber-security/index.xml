@@ -2,33 +2,33 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Cyber Security on Wildan&#39;s Workspace</title>
-    <link>/tags/cyber-security/</link>
+    <link>//localhost:1313/tags/cyber-security/</link>
     <description>Recent content in Cyber Security on Wildan&#39;s Workspace</description>
     <generator>Hugo -- 0.123.8</generator>
     <language>en-US</language>
     <lastBuildDate>Tue, 02 Apr 2024 17:30:12 +0700</lastBuildDate>
-    <atom:link href="/tags/cyber-security/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/cyber-security/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ngrok - Alternatif Publikasi localhost</title>
-      <link>/post/ngrok/</link>
+      <link>//localhost:1313/post/ngrok/</link>
       <pubDate>Tue, 02 Apr 2024 17:30:12 +0700</pubDate>
-      <guid>/post/ngrok/</guid>
+      <guid>//localhost:1313/post/ngrok/</guid>
       <description>Ngrok? Ngrok bagi sebagian orang mungkin sudah faniliar karena sering digunakan untuk berbagai kebutuhan. Tapi, bagi yang belum tahu, ngrok secara sederhana dapat didefinisikan sebagai aplikasi yang memungkinkan kita untuk mem-publish server lokal kita di localhost ke publik dengan aman. Artinya, service seperti misalnya web di localhost (http) atau bahkan SSH dan RDP dapat diakses di luar jaringan secara aman melalui bantuan dari Ngrok ini. Untuk detail teknisnya sebentar lagi kita akan lihat demonya.</description>
     </item>
     <item>
       <title>Eternalblue (MS17-010)</title>
-      <link>/post/eternalblue/</link>
+      <link>//localhost:1313/post/eternalblue/</link>
       <pubDate>Thu, 21 Mar 2024 18:54:33 +0700</pubDate>
-      <guid>/post/eternalblue/</guid>
+      <guid>//localhost:1313/post/eternalblue/</guid>
       <description>Sejarah (Singkat) Apa itu Eternalblue?
 Eternalblue atau oleh Microsoft disebut dengan MS17-010 adalah sebuah exploit yang dapat digunakan untuk menyebarkan malware pada sebuah mesin Windows. Eternalblue adalah eksploit yang pada awalnya ditemukan oleh NSA (National Security Agency) Amerika Serikat untuk memanfaatkan kerentanan pada SMB v1 (Server Message Block versi 1) di Windows, terutama pada Windows 7 dan Windows XP.1
 Exploit ini tidak dilaporkan oleh NSA ke pihak Microsoft karena menguntungkan pihak NSA untuk melakukan mata-mata terhadap lawan-lawan politiknya.</description>
     </item>
     <item>
       <title>Virustotal</title>
-      <link>/post/virustotal/</link>
+      <link>//localhost:1313/post/virustotal/</link>
       <pubDate>Tue, 19 Mar 2024 21:43:27 +0700</pubDate>
-      <guid>/post/virustotal/</guid>
+      <guid>//localhost:1313/post/virustotal/</guid>
       <description>Overview Virustotal adalah salah satu website terbaik untuk melakukan identifikasi terhadap suatu file/software/aplikasi dan url, apakah mengandung virus atau malware (malicious software) atau tidak. Dengan kata lain, melalui bantuan website ini, kita dapat mengecek suatu file/software/aplikasi maupun suatu link/url apakah berbahaya atau tidak sebelum kita menginstallnya di device kita masing-masing.
 Virustotal1 menjadi salah satu website penyedia jasa scanning virus terbaik karena website tersebut melakukan scanning dengan menggunakan lebih dari 50 vendor antivirus, termasuk diantaranya adalah Avira, BitDefender, dan Kaspersky.</description>
     </item>

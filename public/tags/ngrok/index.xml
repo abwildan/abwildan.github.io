@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Ngrok on Wildan&#39;s Workspace</title>
-    <link>/tags/ngrok/</link>
+    <link>//localhost:1313/tags/ngrok/</link>
     <description>Recent content in Ngrok on Wildan&#39;s Workspace</description>
     <generator>Hugo -- 0.123.8</generator>
     <language>en-US</language>
     <lastBuildDate>Tue, 02 Apr 2024 17:30:12 +0700</lastBuildDate>
-    <atom:link href="/tags/ngrok/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/ngrok/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ngrok - Alternatif Publikasi localhost</title>
-      <link>/post/ngrok/</link>
+      <link>//localhost:1313/post/ngrok/</link>
       <pubDate>Tue, 02 Apr 2024 17:30:12 +0700</pubDate>
-      <guid>/post/ngrok/</guid>
+      <guid>//localhost:1313/post/ngrok/</guid>
       <description>Ngrok? Ngrok bagi sebagian orang mungkin sudah faniliar karena sering digunakan untuk berbagai kebutuhan. Tapi, bagi yang belum tahu, ngrok secara sederhana dapat didefinisikan sebagai aplikasi yang memungkinkan kita untuk mem-publish server lokal kita di localhost ke publik dengan aman. Artinya, service seperti misalnya web di localhost (http) atau bahkan SSH dan RDP dapat diakses di luar jaringan secara aman melalui bantuan dari Ngrok ini. Untuk detail teknisnya sebentar lagi kita akan lihat demonya.</description>
     </item>
   </channel>

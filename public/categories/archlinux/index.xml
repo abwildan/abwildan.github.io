@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Archlinux on Wildan&#39;s Workspace</title>
-    <link>/categories/archlinux/</link>
+    <link>//localhost:1313/categories/archlinux/</link>
     <description>Recent content in Archlinux on Wildan&#39;s Workspace</description>
     <generator>Hugo -- 0.123.8</generator>
     <language>en-US</language>
     <lastBuildDate>Thu, 02 May 2024 09:52:29 +0700</lastBuildDate>
-    <atom:link href="/categories/archlinux/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/categories/archlinux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Instalasi Archlinux KDE via archinstall</title>
-      <link>/post/archinstall/</link>
+      <link>//localhost:1313/post/archinstall/</link>
       <pubDate>Thu, 02 May 2024 09:52:29 +0700</pubDate>
-      <guid>/post/archinstall/</guid>
+      <guid>//localhost:1313/post/archinstall/</guid>
       <description>Siapa yang tidak pernah dengar Archlinux?
 Archlinux adalah sebuah distro linux (legendaris) yang terkenal dengan komunitasnya yang besar dari seluruh dunia dan dokumentasi distronya yang lengkap. Hal lain yang menjadikan Archlinux sebagai distro yang digemari banyak orang adalah karena filosofinya, yaitu Keep It Simple1. Ya, sesuai filosofinya, Archlinux memang di-design untuk memberikan kemudahan, baik untuk penggunanya maupun untuk hardware atau mesin host-nya2.
 Meskipun demikian, dulu Archlinux memiliki reputasi sebagai distro untuk &amp;ldquo;linux senior&amp;rdquo; atau &amp;ldquo;sepuh linux&amp;rdquo; alias tidak ramah pengguna linux pemula.</description>

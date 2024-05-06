@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Data Analysis on Wildan&#39;s Workspace</title>
-    <link>/tags/data-analysis/</link>
+    <link>//localhost:1313/tags/data-analysis/</link>
     <description>Recent content in Data Analysis on Wildan&#39;s Workspace</description>
     <generator>Hugo -- 0.123.8</generator>
     <language>en-US</language>
     <lastBuildDate>Sat, 06 Jan 2024 02:26:47 -0500</lastBuildDate>
-    <atom:link href="/tags/data-analysis/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/data-analysis/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Gephi - Actor(s) Centrality</title>
-      <link>/post/gephi/</link>
+      <link>//localhost:1313/post/gephi/</link>
       <pubDate>Sat, 06 Jan 2024 02:26:47 -0500</pubDate>
-      <guid>/post/gephi/</guid>
+      <guid>//localhost:1313/post/gephi/</guid>
       <description>Halo! Kali ini kita akan belajar tentang penggunaan salah satu software yang biasa digunakan untuk melakukan analisis data pada ilmu-ilmu sosial, khususnya pada diskusi atau kajian mengenai Social Network Analysis (SNA). Secara sederhana, SNA adalah sebuah metode untuk mengidentifikasi aktor (node) dan relasinya (edge) dalam suatu jaringan.
 Pada topik Gephi kali ini, saya akan menjelaskan analisis terhadap 4 jenis sentralitas aktor1, yaitu:
 Degree Centrality Betweeness Centrality Closeness Centrality Eigenvector Centrality Berikut adalah perbedaan singkat mengenai keempat jenis centrality tersebut.</description>

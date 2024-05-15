@@ -6,8 +6,17 @@
     <description>Recent content in Posts on Wildan&#39;s Workspace</description>
     <generator>Hugo -- 0.123.8</generator>
     <language>en-US</language>
-    <lastBuildDate>Sat, 04 May 2024 10:38:46 +0700</lastBuildDate>
+    <lastBuildDate>Mon, 13 May 2024 10:52:32 +0700</lastBuildDate>
     <atom:link href="//localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Steganography - Hiding secret(s) Inside A File</title>
+      <link>//localhost:1313/post/steganography/</link>
+      <pubDate>Mon, 13 May 2024 10:52:32 +0700</pubDate>
+      <guid>//localhost:1313/post/steganography/</guid>
+      <description>Steganography is the practice of representing information within another message or physical object.1
+Pengertian &amp;amp; Sejarah Steganography Pengertian steganography [selanjutnya saya singkat dengan stego] memang sesederhana &amp;ldquo;ilmu dan seni menyembunyikan pesan atau informasi rahasia di dalam pesan lain&amp;rdquo;.
+Tapi sebetulnya, jauh sebelum komputer ditemukan, proses stego ini sudah dilakukan sejak zaman Yunani Kuno. Sebuah kisah dari penguasa Yunani saat itu, Herodotus pada tahun 440 BC (re: Before Christ / Sebelum Masehi) yang terdapat dalam buku Histories of Herodotus, menceritakan tentang bagaimana kepala budak digunakan sebagai media steganography.</description>
+    </item>
     <item>
       <title>Rofi - Beautiful &amp; Modern App Launcher</title>
       <link>//localhost:1313/post/rofi/</link>

@@ -25,7 +25,7 @@ Kali ini saya akan berbagi satu tools yang secara fungsi mungkin 11-12 dengan FF
 Kurang lebih, berikut adalah tampilan atau interface dari Mystiq. Versi mystiq yang saya install adalah versi 20.03.18 karena dirilis pada tahun, bulan, dan tanggal 2020-03-18. Kehadiran aplikasi ini juga memudahkan kita untuk melakukan konversi file.</description>
     </item>
     <item>
-      <title>Eternalblue (MS17-010)</title>
+      <title>Eternalblue (MS17-010) - Eksploit untuk SMBv1</title>
       <link>//localhost:1313/post/eternalblue/</link>
       <pubDate>Thu, 21 Mar 2024 18:54:33 +0700</pubDate>
       <guid>//localhost:1313/post/eternalblue/</guid>
@@ -34,7 +34,7 @@ Eternalblue atau oleh Microsoft disebut dengan MS17-010 adalah sebuah exploit ya
 Exploit ini tidak dilaporkan oleh NSA ke pihak Microsoft karena menguntungkan pihak NSA untuk melakukan mata-mata terhadap lawan-lawan politiknya.</description>
     </item>
     <item>
-      <title>Virustotal</title>
+      <title>Virustotal - Platform untuk Scanning Virus</title>
       <link>//localhost:1313/post/virustotal/</link>
       <pubDate>Tue, 19 Mar 2024 21:43:27 +0700</pubDate>
       <guid>//localhost:1313/post/virustotal/</guid>
@@ -42,7 +42,7 @@ Exploit ini tidak dilaporkan oleh NSA ke pihak Microsoft karena menguntungkan pi
 Virustotal1 menjadi salah satu website penyedia jasa scanning virus terbaik karena website tersebut melakukan scanning dengan menggunakan lebih dari 50 vendor antivirus, termasuk diantaranya adalah Avira, BitDefender, dan Kaspersky.</description>
     </item>
     <item>
-      <title>Recordmydesktop</title>
+      <title>Recordmydesktop - Screen Recorder based on CLI</title>
       <link>//localhost:1313/post/recordmydesktop/</link>
       <pubDate>Fri, 08 Mar 2024 14:55:26 +0700</pubDate>
       <guid>//localhost:1313/post/recordmydesktop/</guid>

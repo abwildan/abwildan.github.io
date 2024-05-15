@@ -3,7 +3,7 @@ title: "Steganography - Hiding secret(s) Inside A File"
 date: 2024-05-13T10:52:32+07:00
 draft: false		
 cover: 
-  image: ""
+  image: "/stego/cover.png"
   alt: "Steganography"
   caption: ""
 tags: ["steganography", "hacking", "cyber security"]

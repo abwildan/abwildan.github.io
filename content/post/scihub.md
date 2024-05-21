@@ -5,7 +5,7 @@ draft: false
 cover: 
   image: "/scihub/cover.png"
   alt: "Scihub"
-  caption: ""
+  caption: "sci-hub.se"
 tags: ["journal", "scihub"]
 categories: ["scihub"]
 ---
@@ -67,6 +67,9 @@ Punya kendala lain? Atau mungkin ingin supaya artikel yang kalian incar segera b
 Sekian, selamat bereksperimen, dan...
 
 Sampai jumpa di artikel saya yang lain!!
+
+> Btw, saya mencoba suasana baru, kali ini saya membuat tulisan ini di Arch Linux KDE Plasma 6:
+![mydesktop](/scihub/mydesktop.png)
 
 [^1]: https://id.wikipedia.org/wiki/Sci-Hub
 [^2]: https://sci-hub.se/about

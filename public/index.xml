@@ -4,10 +4,18 @@
     <title>Wildan&#39;s Workspace</title>
     <link>//localhost:1313/</link>
     <description>Recent content on Wildan&#39;s Workspace</description>
-    <generator>Hugo -- 0.123.8</generator>
+    <generator>Hugo -- 0.124.0</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 13 May 2024 10:52:32 +0700</lastBuildDate>
+    <lastBuildDate>Tue, 21 May 2024 09:10:19 +0700</lastBuildDate>
     <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Scihub - Bypassing Restricted Article Journal</title>
+      <link>//localhost:1313/post/scihub/</link>
+      <pubDate>Tue, 21 May 2024 09:10:19 +0700</pubDate>
+      <guid>//localhost:1313/post/scihub/</guid>
+      <description>Kalian adalah seorang peneliti yang membutuhkan jurnal yang berstandar internasional tapi terkendala karena tidak bisa mengaksesnya? Solusinya adalah Scihub!
+About Sci-hub Sci-hub adalah situs web &amp;ldquo;perpustakaan bayangan&amp;rdquo; yang didirkan oleh seorang perempuan asal Kazakhstan yang lahir pada tahun 1988 bernama Alexandra Elbakyan. Disebut &amp;ldquo;perpustakaan bayangan&amp;rdquo; karena sci-hub memberikan akses ke jutaan artikel penelitian berbayar secara gratis hanya dengan meng-input-kan tautan DOI (Digital Object Identifier) sebuah artikel ke situs sci-hub.1 Situs ini didirikan pada tahun 2011 oleh perempuan lulusan jurusan Teknologi Informasi dari Kazakh National Technical University juga karena alasan mahalnya biaya makalah atau artikel penelitian yang tersedia di internet.</description>
+    </item>
     <item>
       <title>Steganography - Hiding secret(s) Inside A File</title>
       <link>//localhost:1313/post/steganography/</link>

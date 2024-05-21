@@ -5,7 +5,7 @@ draft: false
 cover: 
   image: "/stego/cover.png"
   alt: "Steganography"
-  caption: ""
+  caption: "Sonic Visualiser"
 tags: ["steganography", "hacking", "cyber security"]
 categories: ["steganography"]
 ---

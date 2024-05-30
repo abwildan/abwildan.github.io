@@ -1,6 +1,6 @@
 ---
 title: "Openbox - Simple and Easy Window Manager for Beginners"
-date: 2024-05-22T01:49:56Z
+date: 2024-05-30T01:49:56Z
 draft: false		
 cover: 
   image: "/openbox/cover.jpg"

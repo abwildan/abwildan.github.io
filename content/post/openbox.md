@@ -243,7 +243,8 @@ tar xf papirus-icon-theme-20240501.tar
 > Kalau belum punya `gunzip` dan `tar`, tinggal install:
 >
 > ```shell
-> sudo pacman -S gzip tar```
+> sudo pacman -S gzip tar
+> ```
 
 ![ss13](/openbox/ss13.png)
 
@@ -255,7 +256,7 @@ Pindahkan ke direktori `~/.icons`:
 cd ~
 mkdir .icons # buat direktori .icons jika belum ada
 cd .icons
-cp ~/Downloads/Papirus* ~/Downloads/ePapirus* .
+cp -r ~/Downloads/Papirus* ~/Downloads/ePapirus* .
 ```
 ![ss15](/openbox/ss15.png)
 

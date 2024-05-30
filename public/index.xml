@@ -4,12 +4,20 @@
     <title>Wildan&#39;s Workspace</title>
     <link>//localhost:1313/</link>
     <description>Recent content on Wildan&#39;s Workspace</description>
-    <generator>Hugo -- 0.124.0</generator>
+    <generator>Hugo -- 0.126.1</generator>
     <language>en-US</language>
-    <lastBuildDate>Tue, 21 May 2024 09:10:19 +0700</lastBuildDate>
+    <lastBuildDate>Wed, 22 May 2024 01:49:56 +0000</lastBuildDate>
     <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Scihub - Bypassing Restricted Article Journal</title>
+      <title>Openbox - Simple and Easy Window Manager for Beginners</title>
+      <link>//localhost:1313/post/openbox/</link>
+      <pubDate>Wed, 22 May 2024 01:49:56 +0000</pubDate>
+      <guid>//localhost:1313/post/openbox/</guid>
+      <description>Dari 1-10 (dengan skala 1: paling tidak cantik dan 10: paling cantik), seberapa cantik tampilan tangkapan layar pada cover artikel ini? Screenshot tersebut saya &amp;ldquo;curi&amp;rdquo; dari sebuah akun github bernama addy-dclxvi pada reponya, openbox-theme-collection.
+Kalau kalian mengunjungi repo tersebut, kalian akan menemukan keindahan-keindahan sebuah window manager bernama openbox di sana. Keindahan yang saya maksud di sini bukan keindahan biasa, tapi keindahan yang muncul dari kesederhanaan namun mampu memberikan kesan elegan dan nostalgic (oke, setidaknya ini menurut saya pribadi, hehe).</description>
+    </item>
+    <item>
+      <title>Scihub - Bypassing Article Journal Paywall</title>
       <link>//localhost:1313/post/scihub/</link>
       <pubDate>Tue, 21 May 2024 09:10:19 +0700</pubDate>
       <guid>//localhost:1313/post/scihub/</guid>
@@ -66,14 +74,14 @@ Mengunduh &amp;amp; Menginstall Virtualbox (di sini) Mengunduh file ISO debian (
 Membuat VM di Virtualbox 1. Klik &amp;ldquo;New&amp;rdquo; di interface Virtualbox 2. Isi bagian Name, bebas, bisa diisi dengan nama distronya.</description>
     </item>
     <item>
-      <title>Ngrok - Alternatif Publikasi localhost</title>
+      <title>Ngrok - Make Your localhost Accessible Publicly</title>
       <link>//localhost:1313/post/ngrok/</link>
       <pubDate>Tue, 02 Apr 2024 17:30:12 +0700</pubDate>
       <guid>//localhost:1313/post/ngrok/</guid>
       <description>Ngrok? Ngrok bagi sebagian orang mungkin sudah faniliar karena sering digunakan untuk berbagai kebutuhan. Tapi, bagi yang belum tahu, ngrok secara sederhana dapat didefinisikan sebagai aplikasi yang memungkinkan kita untuk mem-publish server lokal kita di localhost ke publik dengan aman. Artinya, service seperti misalnya web di localhost (http) atau bahkan SSH dan RDP dapat diakses di luar jaringan secara aman melalui bantuan dari Ngrok ini. Untuk detail teknisnya sebentar lagi kita akan lihat demonya.</description>
     </item>
     <item>
-      <title>Mystiq</title>
+      <title>Mystiq - FFmpeg&#39;s GUI</title>
       <link>//localhost:1313/post/mystiq/</link>
       <pubDate>Tue, 26 Mar 2024 17:56:16 +0700</pubDate>
       <guid>//localhost:1313/post/mystiq/</guid>
@@ -82,7 +90,7 @@ Kali ini saya akan berbagi satu tools yang secara fungsi mungkin 11-12 dengan FF
 Kurang lebih, berikut adalah tampilan atau interface dari Mystiq. Versi mystiq yang saya install adalah versi 20.03.18 karena dirilis pada tahun, bulan, dan tanggal 2020-03-18. Kehadiran aplikasi ini juga memudahkan kita untuk melakukan konversi file.</description>
     </item>
     <item>
-      <title>Eternalblue (MS17-010) - Eksploit untuk SMBv1</title>
+      <title>Eternalblue (MS17-010) - SMBv1&#39;s Exploit</title>
       <link>//localhost:1313/post/eternalblue/</link>
       <pubDate>Thu, 21 Mar 2024 18:54:33 +0700</pubDate>
       <guid>//localhost:1313/post/eternalblue/</guid>

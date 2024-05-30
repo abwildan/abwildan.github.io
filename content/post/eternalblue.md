@@ -1,5 +1,5 @@
 ---
-title: "Eternalblue (MS17-010) - Eksploit untuk SMBv1"
+title: "Eternalblue (MS17-010) - SMBv1's Exploit"
 date: 2024-03-21T18:54:33+07:00
 draft: false
 cover:

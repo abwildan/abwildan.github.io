@@ -1,5 +1,5 @@
 ---
-title: "Ngrok - Alternatif Publikasi localhost"
+title: "Ngrok - Make Your localhost Accessible Publicly"
 date: 2024-04-02T17:30:12+07:00
 draft: false		
 cover: 

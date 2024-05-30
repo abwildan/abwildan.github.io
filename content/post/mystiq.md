@@ -1,5 +1,5 @@
 ---
-title: "Mystiq"
+title: "Mystiq - FFmpeg's GUI"
 date: 2024-03-26T17:56:16+07:00
 draft: false
 cover: 

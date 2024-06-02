@@ -4,10 +4,20 @@
     <title>Wildan&#39;s Workspace</title>
     <link>//localhost:1313/</link>
     <description>Recent content on Wildan&#39;s Workspace</description>
-    <generator>Hugo -- 0.126.1</generator>
+    <generator>Hugo -- 0.126.2</generator>
     <language>en-US</language>
-    <lastBuildDate>Thu, 30 May 2024 01:49:56 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 02 Jun 2024 19:14:29 +0700</lastBuildDate>
     <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gorgeous Status Bar with Polybar</title>
+      <link>//localhost:1313/post/polybar/</link>
+      <pubDate>Sun, 02 Jun 2024 19:14:29 +0700</pubDate>
+      <guid>//localhost:1313/post/polybar/</guid>
+      <description>Polybar adalah tool yang cepat mudah digunakan untuk membuat status bar1, seperti: Secara umum, artikel ini akan membahas 3 proses: Memasang Polybar, Menjalankan Polybar, dan Mengkustom Polybar.
+Memasang Polybar Project polybar dapat ditemukan di internet, di repo github official-nya: Polybar Github
+Di linux, polybar dapat dipasang dengan mengetikkan perintah berikut:
+No Distro Install 1 Debian/Ubuntu sudo apt install polybar 2 Arch sudo pacman -S polybar 3 OpenSuse sudo zypper in polybar 4 Fedora sudo dnf install polybar Untuk memastikan polybar sudah terpasang, ketikkan perintah berikut di terminal:</description>
+    </item>
     <item>
       <title>Openbox - Simple and Easy Window Manager for Beginners</title>
       <link>//localhost:1313/post/openbox/</link>

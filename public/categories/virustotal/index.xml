@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Virustotal on Wildan&#39;s Workspace</title>
-    <link>/categories/virustotal/</link>
+    <link>http://localhost:1313/categories/virustotal/</link>
     <description>Recent content in Virustotal on Wildan&#39;s Workspace</description>
     <generator>Hugo -- 0.126.3</generator>
     <language>en-US</language>
     <lastBuildDate>Tue, 19 Mar 2024 21:43:27 +0700</lastBuildDate>
-    <atom:link href="/categories/virustotal/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/virustotal/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Virustotal - Platform untuk Scanning Virus</title>
-      <link>/post/virustotal/</link>
+      <link>http://localhost:1313/post/virustotal/</link>
       <pubDate>Tue, 19 Mar 2024 21:43:27 +0700</pubDate>
-      <guid>/post/virustotal/</guid>
+      <guid>http://localhost:1313/post/virustotal/</guid>
       <description>Overview Virustotal adalah salah satu website terbaik untuk melakukan identifikasi terhadap suatu file/software/aplikasi dan url, apakah mengandung virus atau malware (malicious software) atau tidak. Dengan kata lain, melalui bantuan website ini, kita dapat mengecek suatu file/software/aplikasi maupun suatu link/url apakah berbahaya atau tidak sebelum kita menginstallnya di device kita masing-masing.
 Virustotal1 menjadi salah satu website penyedia jasa scanning virus terbaik karena website tersebut melakukan scanning dengan menggunakan lebih dari 50 vendor antivirus, termasuk diantaranya adalah Avira, BitDefender, dan Kaspersky.</description>
     </item>

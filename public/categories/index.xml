@@ -2,157 +2,157 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on Wildan&#39;s Workspace</title>
-    <link>/categories/</link>
+    <link>http://localhost:1313/categories/</link>
     <description>Recent content in Categories on Wildan&#39;s Workspace</description>
     <generator>Hugo -- 0.126.3</generator>
     <language>en-US</language>
     <lastBuildDate>Tue, 04 Jun 2024 22:05:26 +0700</lastBuildDate>
-    <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Remote Desktop</title>
-      <link>/categories/remote-desktop/</link>
+      <link>http://localhost:1313/categories/remote-desktop/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/categories/remote-desktop/</guid>
+      <guid>http://localhost:1313/categories/remote-desktop/</guid>
       <description></description>
     </item>
     <item>
       <title>Polybar</title>
-      <link>/categories/polybar/</link>
+      <link>http://localhost:1313/categories/polybar/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/categories/polybar/</guid>
+      <guid>http://localhost:1313/categories/polybar/</guid>
       <description></description>
     </item>
     <item>
       <title>Openbox</title>
-      <link>/categories/openbox/</link>
+      <link>http://localhost:1313/categories/openbox/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/categories/openbox/</guid>
+      <guid>http://localhost:1313/categories/openbox/</guid>
       <description></description>
     </item>
     <item>
       <title>Scihub</title>
-      <link>/categories/scihub/</link>
+      <link>http://localhost:1313/categories/scihub/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/categories/scihub/</guid>
+      <guid>http://localhost:1313/categories/scihub/</guid>
       <description></description>
     </item>
     <item>
       <title>Steganography</title>
-      <link>/categories/steganography/</link>
+      <link>http://localhost:1313/categories/steganography/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/categories/steganography/</guid>
+      <guid>http://localhost:1313/categories/steganography/</guid>
       <description></description>
     </item>
     <item>
       <title>Rofi</title>
-      <link>/categories/rofi/</link>
+      <link>http://localhost:1313/categories/rofi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/categories/rofi/</guid>
+      <guid>http://localhost:1313/categories/rofi/</guid>
       <description></description>
     </item>
     <item>
       <title>Archlinux</title>
-      <link>/categories/archlinux/</link>
+      <link>http://localhost:1313/categories/archlinux/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/categories/archlinux/</guid>
+      <guid>http://localhost:1313/categories/archlinux/</guid>
       <description></description>
     </item>
     <item>
       <title>Ricing</title>
-      <link>/categories/ricing/</link>
+      <link>http://localhost:1313/categories/ricing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/categories/ricing/</guid>
+      <guid>http://localhost:1313/categories/ricing/</guid>
       <description></description>
     </item>
     <item>
       <title>Debian</title>
-      <link>/categories/debian/</link>
+      <link>http://localhost:1313/categories/debian/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/categories/debian/</guid>
+      <guid>http://localhost:1313/categories/debian/</guid>
       <description></description>
     </item>
     <item>
       <title>Ngrok</title>
-      <link>/categories/ngrok/</link>
+      <link>http://localhost:1313/categories/ngrok/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/categories/ngrok/</guid>
+      <guid>http://localhost:1313/categories/ngrok/</guid>
       <description></description>
     </item>
     <item>
       <title>Mystiq</title>
-      <link>/categories/mystiq/</link>
+      <link>http://localhost:1313/categories/mystiq/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/categories/mystiq/</guid>
+      <guid>http://localhost:1313/categories/mystiq/</guid>
       <description></description>
     </item>
     <item>
       <title>Hacking</title>
-      <link>/categories/hacking/</link>
+      <link>http://localhost:1313/categories/hacking/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/categories/hacking/</guid>
+      <guid>http://localhost:1313/categories/hacking/</guid>
       <description></description>
     </item>
     <item>
       <title>Virustotal</title>
-      <link>/categories/virustotal/</link>
+      <link>http://localhost:1313/categories/virustotal/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/categories/virustotal/</guid>
+      <guid>http://localhost:1313/categories/virustotal/</guid>
       <description></description>
     </item>
     <item>
       <title>Recordmydesktop</title>
-      <link>/categories/recordmydesktop/</link>
+      <link>http://localhost:1313/categories/recordmydesktop/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/categories/recordmydesktop/</guid>
+      <guid>http://localhost:1313/categories/recordmydesktop/</guid>
       <description></description>
     </item>
     <item>
       <title>Gephi</title>
-      <link>/categories/gephi/</link>
+      <link>http://localhost:1313/categories/gephi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/categories/gephi/</guid>
+      <guid>http://localhost:1313/categories/gephi/</guid>
       <description></description>
     </item>
     <item>
       <title>Onionshare</title>
-      <link>/categories/onionshare/</link>
+      <link>http://localhost:1313/categories/onionshare/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/categories/onionshare/</guid>
+      <guid>http://localhost:1313/categories/onionshare/</guid>
       <description></description>
     </item>
     <item>
       <title>Tor</title>
-      <link>/categories/tor/</link>
+      <link>http://localhost:1313/categories/tor/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/categories/tor/</guid>
+      <guid>http://localhost:1313/categories/tor/</guid>
       <description></description>
     </item>
     <item>
       <title>Telegram</title>
-      <link>/categories/telegram/</link>
+      <link>http://localhost:1313/categories/telegram/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/categories/telegram/</guid>
+      <guid>http://localhost:1313/categories/telegram/</guid>
       <description></description>
     </item>
     <item>
       <title>Ffmpeg</title>
-      <link>/categories/ffmpeg/</link>
+      <link>http://localhost:1313/categories/ffmpeg/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/categories/ffmpeg/</guid>
+      <guid>http://localhost:1313/categories/ffmpeg/</guid>
       <description></description>
     </item>
     <item>
       <title>Hugo</title>
-      <link>/categories/hugo/</link>
+      <link>http://localhost:1313/categories/hugo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/categories/hugo/</guid>
+      <guid>http://localhost:1313/categories/hugo/</guid>
       <description></description>
     </item>
     <item>
       <title>Whoami</title>
-      <link>/categories/whoami/</link>
+      <link>http://localhost:1313/categories/whoami/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/categories/whoami/</guid>
+      <guid>http://localhost:1313/categories/whoami/</guid>
       <description></description>
     </item>
   </channel>

@@ -1,4 +1,4 @@
-#baseURL: "https://github.com/abwildan/abwildan.github.io/"
+baseURL: "https://abwildan.github.io/"
 languageCode: 'en-US'
 title: "Wildan's Workspace"
 theme: 'papermod'

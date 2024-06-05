@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Linux on Wildan&#39;s Workspace</title>
-    <link>/tags/linux/</link>
+    <link>http://localhost:1313/tags/linux/</link>
     <description>Recent content in Linux on Wildan&#39;s Workspace</description>
     <generator>Hugo -- 0.126.3</generator>
     <language>en-US</language>
     <lastBuildDate>Tue, 04 Jun 2024 22:05:26 +0700</lastBuildDate>
-    <atom:link href="/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My Remote Desktop Client(s)</title>
-      <link>/post/rdpclient/</link>
+      <link>http://localhost:1313/post/rdpclient/</link>
       <pubDate>Tue, 04 Jun 2024 22:05:26 +0700</pubDate>
-      <guid>/post/rdpclient/</guid>
+      <guid>http://localhost:1313/post/rdpclient/</guid>
       <description>Holaa!!
 Saya akan berbagi beberapa RDP client yang biasa saya gunakan untuk melakukan remote desktop. BTW, RDP atau Remote Desktop Protocol adalah salah satu protokol komunikasi dalam jaringan komputer yang dikembangkan awalnya oleh Microsoft untuk melakukan remote akses berbasis GUI (Graphical User Interface)1. Kemudian, protokol ini juga dibawa ke environment linux sehingga RDP tidak hanya dapat digunakan di Windows (as a microsoft product obviously) saja, tetapi juga di linux.
 Note:</description>
     </item>
     <item>
       <title>Gorgeous Status Bar with Polybar</title>
-      <link>/post/polybar/</link>
+      <link>http://localhost:1313/post/polybar/</link>
       <pubDate>Sun, 02 Jun 2024 19:14:29 +0700</pubDate>
-      <guid>/post/polybar/</guid>
+      <guid>http://localhost:1313/post/polybar/</guid>
       <description>Polybar adalah tool yang cepat mudah digunakan untuk membuat status bar1, seperti: Secara umum, artikel ini akan membahas 3 proses: Memasang Polybar, Menjalankan Polybar, dan Mengkustom Polybar.
 Memasang Polybar Project polybar dapat ditemukan di internet, di repo github official-nya: Polybar Github
 Di linux, polybar dapat dipasang dengan mengetikkan perintah berikut:
@@ -29,17 +29,17 @@ No Distro Install 1 Debian/Ubuntu sudo apt install polybar 2 Arch sudo pacman -S
     </item>
     <item>
       <title>Openbox - Simple and Easy Window Manager for Beginners</title>
-      <link>/post/openbox/</link>
+      <link>http://localhost:1313/post/openbox/</link>
       <pubDate>Thu, 30 May 2024 01:49:56 +0000</pubDate>
-      <guid>/post/openbox/</guid>
+      <guid>http://localhost:1313/post/openbox/</guid>
       <description>Dari 1-10 (dengan skala 1: paling tidak cantik dan 10: paling cantik), seberapa cantik tampilan tangkapan layar pada cover artikel ini? Screenshot tersebut saya &amp;ldquo;curi&amp;rdquo; dari sebuah akun github bernama addy-dclxvi pada reponya, openbox-theme-collection.
 Kalau kalian mengunjungi repo tersebut, kalian akan menemukan keindahan-keindahan sebuah window manager bernama openbox di sana. Keindahan yang saya maksud di sini bukan keindahan biasa, tapi keindahan yang muncul dari kesederhanaan namun mampu memberikan kesan elegan dan nostalgic (oke, setidaknya ini menurut saya pribadi, hehe).</description>
     </item>
     <item>
       <title>Rofi - Beautiful &amp; Modern App Launcher</title>
-      <link>/post/rofi/</link>
+      <link>http://localhost:1313/post/rofi/</link>
       <pubDate>Sat, 04 May 2024 10:38:46 +0700</pubDate>
-      <guid>/post/rofi/</guid>
+      <guid>http://localhost:1313/post/rofi/</guid>
       <description>What is Rofi?
 Kenalan dengan Rofi Teman kalian mungkin ada yang namanya Rofi. Tapi, tentu saja artikel ini tidak sedang menggosipkan Rofi sebagai manusia, tapi Rofi sebagai sebuah program, xixi.
 Merujuk pada definisi official-nya, secara singkat, Rofi yang dimaksud dalam artikel ini adalah
@@ -48,18 +48,18 @@ Atau definisi dengan versi yang lebih komplit:</description>
     </item>
     <item>
       <title>Instalasi Archlinux KDE via archinstall</title>
-      <link>/post/archinstall/</link>
+      <link>http://localhost:1313/post/archinstall/</link>
       <pubDate>Thu, 02 May 2024 09:52:29 +0700</pubDate>
-      <guid>/post/archinstall/</guid>
+      <guid>http://localhost:1313/post/archinstall/</guid>
       <description>Siapa yang tidak pernah dengar Archlinux?
 Archlinux adalah sebuah distro linux (legendaris) yang terkenal dengan komunitasnya yang besar dari seluruh dunia dan dokumentasi distronya yang lengkap. Hal lain yang menjadikan Archlinux sebagai distro yang digemari banyak orang adalah karena filosofinya, yaitu Keep It Simple1. Ya, sesuai filosofinya, Archlinux memang di-design untuk memberikan kemudahan, baik untuk penggunanya maupun untuk hardware atau mesin host-nya2.
 Meskipun demikian, dulu Archlinux memiliki reputasi sebagai distro untuk &amp;ldquo;linux senior&amp;rdquo; atau &amp;ldquo;sepuh linux&amp;rdquo; alias tidak ramah pengguna linux pemula.</description>
     </item>
     <item>
       <title>Linux Ricing?</title>
-      <link>/post/rice/</link>
+      <link>http://localhost:1313/post/rice/</link>
       <pubDate>Sun, 28 Apr 2024 14:21:13 +0700</pubDate>
-      <guid>/post/rice/</guid>
+      <guid>http://localhost:1313/post/rice/</guid>
       <description>Hola!
 Teman-teman familiar dengan istilah rice atau Linux ricing?
 Tidak seperti makna dari terjemah harfiahnya yang berarti nasi atau menasikan Linux, istilah rice atau Linux Ricing punya makna yang boleh dibilang eksklusif dan kontekstual. Gimana tu maksudnya? Mari saya jelaskan&amp;hellip;
@@ -67,9 +67,9 @@ Secara sederhana, istilah rice yang digunakan dalam dunia Linux dicomot dari ist
     </item>
     <item>
       <title>Debian Linux Installation in Virtualbox</title>
-      <link>/post/debian-installation/</link>
+      <link>http://localhost:1313/post/debian-installation/</link>
       <pubDate>Mon, 15 Apr 2024 07:45:05 +0700</pubDate>
-      <guid>/post/debian-installation/</guid>
+      <guid>http://localhost:1313/post/debian-installation/</guid>
       <description>Pra Instalasi Hola!
 Kali ini saya akan memberikan tutorial instalasi salah satu distro linux legendaris, Debian. Saya akan menginstall Debian sebagai VM (virtual machine) di Virtualbox. Namun, sebelum saya melakukan instalasi, ada beberapa catatan berikut yang perlu diperhatikan:
 Mengunduh &amp;amp; Menginstall Virtualbox (di sini) Mengunduh file ISO debian (di sini) Instalasi Sekarang, kita masuk ke tahap instalasi&amp;hellip;

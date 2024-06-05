@@ -266,7 +266,7 @@ Hasilnya, seperti ini:
 {{< youtube YOs4ntiUq1o >}}
 
 ### Tips 13: Menambahkan caption pada gambar
-Untuk menambahkan caption pada gambar, kita bisa melampirkan caption yang kita inginkan setelah path gambar seperti pada baris kode berikut:
+Untuk menambahkan caption pada gambar, kita bisa melampirkan caption yang kita inginkan setelah path gambar seperti pada baris kode berikut[^5]:
 ```markdown
 ![Alt-Image](/path/to/image.png "Caption Here!")
 ```
@@ -275,6 +275,27 @@ Caption-nya memang tidak muncul di bawah atau di atas gambar pada postingan kita
 ![ss18](/Hugo-Advanced/ss18.jpg "These kitten are so cute!")
 
 Apakah muncul caption ***"These kitten are so cute!"***-nya? 🫶🏻🥹❤️‍🩹 🤗
+
+### Tips 14: Mengatur Urutan Menu
+Jika susunan menu dibiarkan default di file konfigurasi hugo (`hugo.yaml`), maka urutan menu yang tampil di website akan menyesuaikan dengan urutan alphabet/abjad yang ada pada kolom `name:`. Tapi, kalau kita ingin agar urutan tersebut disesuaikan dengan selera kita, maka kita bisa menambahkan baris `weight:{angka}` sehingga urutan menu yang tampil di website akan menyesuaikan urutan angka pada kolom **weight** tersebut[^6]:
+
+Misalnya, berikut adalah pengaturan menu pada file `hugo.yaml` milik saya yang sudah disesuaikan urutannya dengan nomor:
+```yaml
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 1 # <-- untuk mengatur urutan tampil pertama di menu
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 3 # <-- untuk mengatur urutan tampil ketiga di menu
+    - identifier: tutorial
+      name: Tutorial
+      url: /post/
+      weight: 2 # <-- untuk mengatur urutan tampil kedua di menu
+```
 
 Kalau sudah selesai, jangan lupa commit ke repo lokal dan push ke Github:
 
@@ -292,3 +313,5 @@ git push
 [^2]: https://github.com/adityatelange/hugo-PaperMod/wiki/Features#profile-mode
 [^3]: https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-features/#search-page
 [^4]: https://gohugo.io/content-management/shortcodes/
+[^5]: https://sebastiandedeyne.com/captioned-images-with-markdown-render-hooks-in-hugo/
+[^6]: https://chatgpt.com/c/ba64752f-c7a0-438c-9a1b-d11efa9aaa05

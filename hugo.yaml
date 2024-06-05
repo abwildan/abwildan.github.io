@@ -44,12 +44,15 @@ menu:
     - identifier: home
       name: Home
       url: /
+      weight: 1 # <-- untuk mengatur urutan tampil di menu
     - identifier: search
       name: Search
       url: /search/
+      weight: 3 # <-- untuk mengatur urutan tampil di menu
     - identifier: tutorial
       name: Tutorial
       url: /post/
+      weight: 2 # <-- untuk mengatur urutan tampil di menu
 
 outputs:
   home:

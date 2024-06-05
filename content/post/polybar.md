@@ -21,12 +21,12 @@ Secara umum, artikel ini akan membahas 3 proses: **Memasang Polybar**, **Menjala
 
 Di linux, polybar dapat dipasang dengan mengetikkan perintah berikut:
 
-| No  |           Distro                                                                  |             Install             |
-| --- |           -----                                                                   |              -----              |
-|  1  |   [**Debian/Ubuntu**](https://packages.debian.org/bookworm/polybar)               |  sudo apt install polybar       |
-|  2  |   [**Arch**](https://archlinux.org/packages/extra/x86_64/polybar/)                |  sudo pacman -S polybar         |
-|  3  |   [**OpenSuse**](https://software.opensuse.org/package/polybar)                   |  sudo zypper in polybar         |
-|  4  |   [**Fedora**](https://packages.fedoraproject.org/pkgs/polybar/polybar/)          |  sudo dnf install polybar       |
+| No  |           Distro                                                                  |             Install               |
+| --- |           -----                                                                   |              -----                |
+|  1  |   [**Debian/Ubuntu**](https://packages.debian.org/bookworm/polybar)               |  `sudo apt install polybar`       |
+|  2  |   [**Arch**](https://archlinux.org/packages/extra/x86_64/polybar/)                |  `sudo pacman -S polybar`         |
+|  3  |   [**OpenSuse**](https://software.opensuse.org/package/polybar)                   |  `sudo zypper in polybar`         |
+|  4  |   [**Fedora**](https://packages.fedoraproject.org/pkgs/polybar/polybar/)          |  `sudo dnf install polybar`       |
 
 Untuk memastikan polybar sudah terpasang, ketikkan perintah berikut di terminal:
 ```shell

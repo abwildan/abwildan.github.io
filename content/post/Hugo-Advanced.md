@@ -265,9 +265,23 @@ Kita dapat membuat ***shortcode*** berikut:
 Hasilnya, seperti ini:
 {{< youtube YOs4ntiUq1o >}}
 
+### Tips 13: Menambahkan caption pada gambar
+Untuk menambahkan caption pada gambar, kita bisa melampirkan caption yang kita inginkan setelah path gambar seperti pada baris kode berikut:
+```markdown
+![Alt-Image](/path/to/image.png "Caption Here!")
+```
+Caption-nya memang tidak muncul di bawah atau di atas gambar pada postingan kita, tapi muncul ketika di-["hover"](https://www.merriam-webster.com/dictionary/hover) alias ketika kita mengarahkan mouse atau pointer mouse kita ke gambar. Untuk membuktikannya, kalian bisa meng-hover gambar berikut:
+
+![ss18](/Hugo-Advanced/ss18.jpg "These kitten are so cute!")
+
+Apakah muncul caption ***"These kitten are so cute!"***-nya? 🫶🏻🥹❤️‍🩹 🤗
+
 Kalau sudah selesai, jangan lupa commit ke repo lokal dan push ke Github:
 
-```bash
+```shell
+ssh-agent bash
+ssh-add ./ssh/ssh-config-file
+
 git status
 git add .
 git commit -m "change configuration"

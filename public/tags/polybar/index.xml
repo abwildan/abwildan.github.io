@@ -4,16 +4,19 @@
     <title>Polybar on Wildan&#39;s Workspace</title>
     <link>//localhost:1313/tags/polybar/</link>
     <description>Recent content in Polybar on Wildan&#39;s Workspace</description>
-    <generator>Hugo -- 0.126.2</generator>
+    <generator>Hugo -- 0.126.3</generator>
     <language>en-US</language>
     <lastBuildDate>Sun, 02 Jun 2024 19:14:29 +0700</lastBuildDate>
     <atom:link href="//localhost:1313/tags/polybar/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Polybar</title>
+      <title>Gorgeous Status Bar with Polybar</title>
       <link>//localhost:1313/post/polybar/</link>
       <pubDate>Sun, 02 Jun 2024 19:14:29 +0700</pubDate>
       <guid>//localhost:1313/post/polybar/</guid>
-      <description>Polybar adalah tool yang cepat mudah digunakan untuk membuat status bar, seperti ini: ref: https://www.reddit.com/r/Polybar/comments/c2gkmp/how_to_align_polybar_to_center/ https://bandithijo.dev/blog/polybar-mudah-dikonfig-dan-praktis https://github.com/polybar/polybar</description>
+      <description>Polybar adalah tool yang cepat mudah digunakan untuk membuat status bar1, seperti: Secara umum, artikel ini akan membahas 3 proses: Memasang Polybar, Menjalankan Polybar, dan Mengkustom Polybar.
+Memasang Polybar Project polybar dapat ditemukan di internet, di repo github official-nya: Polybar Github
+Di linux, polybar dapat dipasang dengan mengetikkan perintah berikut:
+No Distro Install 1 Debian/Ubuntu sudo apt install polybar 2 Arch sudo pacman -S polybar 3 OpenSuse sudo zypper in polybar 4 Fedora sudo dnf install polybar Untuk memastikan polybar sudah terpasang, ketikkan perintah berikut di terminal:</description>
     </item>
   </channel>
 </rss>

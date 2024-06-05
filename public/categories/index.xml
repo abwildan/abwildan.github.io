@@ -6,8 +6,15 @@
     <description>Recent content in Categories on Wildan&#39;s Workspace</description>
     <generator>Hugo -- 0.126.3</generator>
     <language>en-US</language>
-    <lastBuildDate>Tue, 04 Jun 2024 22:05:26 +0700</lastBuildDate>
+    <lastBuildDate>Wed, 05 Jun 2024 22:39:00 +0700</lastBuildDate>
     <atom:link href="//localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Poet</title>
+      <link>//localhost:1313/categories/poet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/categories/poet/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Remote Desktop</title>
       <link>//localhost:1313/categories/remote-desktop/</link>

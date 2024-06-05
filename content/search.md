@@ -2,7 +2,7 @@
 title: "Search"
 layout: "search"
 summary: "search"
-placeholder: "mau nyari apa?"
+placeholder: "Type something..."
 ---
 
 params:

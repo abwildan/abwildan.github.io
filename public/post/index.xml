@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on Wildan&#39;s Workspace</title>
-    <link>//localhost:1313/post/</link>
+    <link>/post/</link>
     <description>Recent content in Posts on Wildan&#39;s Workspace</description>
     <generator>Hugo -- 0.126.3</generator>
     <language>en-US</language>
     <lastBuildDate>Tue, 04 Jun 2024 22:05:26 +0700</lastBuildDate>
-    <atom:link href="//localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My Remote Desktop Client(s)</title>
-      <link>//localhost:1313/post/rdpclient/</link>
+      <link>/post/rdpclient/</link>
       <pubDate>Tue, 04 Jun 2024 22:05:26 +0700</pubDate>
-      <guid>//localhost:1313/post/rdpclient/</guid>
+      <guid>/post/rdpclient/</guid>
       <description>Holaa!!
 Saya akan berbagi beberapa RDP client yang biasa saya gunakan untuk melakukan remote desktop. BTW, RDP atau Remote Desktop Protocol adalah salah satu protokol komunikasi dalam jaringan komputer yang dikembangkan awalnya oleh Microsoft untuk melakukan remote akses berbasis GUI (Graphical User Interface)1. Kemudian, protokol ini juga dibawa ke environment linux sehingga RDP tidak hanya dapat digunakan di Windows (as a microsoft product obviously) saja, tetapi juga di linux.
 Note:</description>
     </item>
     <item>
       <title>Gorgeous Status Bar with Polybar</title>
-      <link>//localhost:1313/post/polybar/</link>
+      <link>/post/polybar/</link>
       <pubDate>Sun, 02 Jun 2024 19:14:29 +0700</pubDate>
-      <guid>//localhost:1313/post/polybar/</guid>
+      <guid>/post/polybar/</guid>
       <description>Polybar adalah tool yang cepat mudah digunakan untuk membuat status bar1, seperti: Secara umum, artikel ini akan membahas 3 proses: Memasang Polybar, Menjalankan Polybar, dan Mengkustom Polybar.
 Memasang Polybar Project polybar dapat ditemukan di internet, di repo github official-nya: Polybar Github
 Di linux, polybar dapat dipasang dengan mengetikkan perintah berikut:
@@ -29,34 +29,34 @@ No Distro Install 1 Debian/Ubuntu sudo apt install polybar 2 Arch sudo pacman -S
     </item>
     <item>
       <title>Openbox - Simple and Easy Window Manager for Beginners</title>
-      <link>//localhost:1313/post/openbox/</link>
+      <link>/post/openbox/</link>
       <pubDate>Thu, 30 May 2024 01:49:56 +0000</pubDate>
-      <guid>//localhost:1313/post/openbox/</guid>
+      <guid>/post/openbox/</guid>
       <description>Dari 1-10 (dengan skala 1: paling tidak cantik dan 10: paling cantik), seberapa cantik tampilan tangkapan layar pada cover artikel ini? Screenshot tersebut saya &amp;ldquo;curi&amp;rdquo; dari sebuah akun github bernama addy-dclxvi pada reponya, openbox-theme-collection.
 Kalau kalian mengunjungi repo tersebut, kalian akan menemukan keindahan-keindahan sebuah window manager bernama openbox di sana. Keindahan yang saya maksud di sini bukan keindahan biasa, tapi keindahan yang muncul dari kesederhanaan namun mampu memberikan kesan elegan dan nostalgic (oke, setidaknya ini menurut saya pribadi, hehe).</description>
     </item>
     <item>
       <title>Scihub - Bypassing Article Journal Paywall</title>
-      <link>//localhost:1313/post/scihub/</link>
+      <link>/post/scihub/</link>
       <pubDate>Tue, 21 May 2024 09:10:19 +0700</pubDate>
-      <guid>//localhost:1313/post/scihub/</guid>
+      <guid>/post/scihub/</guid>
       <description>Kalian adalah seorang peneliti yang membutuhkan jurnal yang berstandar internasional tapi terkendala karena tidak bisa mengaksesnya? Solusinya adalah Scihub!
 About Sci-hub Sci-hub adalah situs web &amp;ldquo;perpustakaan bayangan&amp;rdquo; yang didirkan oleh seorang perempuan asal Kazakhstan yang lahir pada tahun 1988 bernama Alexandra Elbakyan. Disebut &amp;ldquo;perpustakaan bayangan&amp;rdquo; karena sci-hub memberikan akses ke jutaan artikel penelitian berbayar secara gratis hanya dengan meng-input-kan tautan DOI (Digital Object Identifier) sebuah artikel ke situs sci-hub.1 Situs ini didirikan pada tahun 2011 oleh perempuan lulusan jurusan Teknologi Informasi dari Kazakh National Technical University juga karena alasan mahalnya biaya makalah atau artikel penelitian yang tersedia di internet.</description>
     </item>
     <item>
       <title>Steganography - Hiding secret(s) Inside A File</title>
-      <link>//localhost:1313/post/steganography/</link>
+      <link>/post/steganography/</link>
       <pubDate>Mon, 13 May 2024 10:52:32 +0700</pubDate>
-      <guid>//localhost:1313/post/steganography/</guid>
+      <guid>/post/steganography/</guid>
       <description>Steganography is the practice of representing information within another message or physical object.1
 Pengertian &amp;amp; Sejarah Steganography Pengertian steganography [selanjutnya saya singkat dengan stego] memang sesederhana &amp;ldquo;ilmu dan seni menyembunyikan pesan atau informasi rahasia di dalam pesan lain&amp;rdquo;.
 Tapi sebetulnya, jauh sebelum komputer ditemukan, proses stego ini sudah dilakukan sejak zaman Yunani Kuno. Sebuah kisah dari penguasa Yunani saat itu, Herodotus pada tahun 440 BC (re: Before Christ / Sebelum Masehi) yang terdapat dalam buku Histories of Herodotus, menceritakan tentang bagaimana kepala budak digunakan sebagai media steganography.</description>
     </item>
     <item>
       <title>Rofi - Beautiful &amp; Modern App Launcher</title>
-      <link>//localhost:1313/post/rofi/</link>
+      <link>/post/rofi/</link>
       <pubDate>Sat, 04 May 2024 10:38:46 +0700</pubDate>
-      <guid>//localhost:1313/post/rofi/</guid>
+      <guid>/post/rofi/</guid>
       <description>What is Rofi?
 Kenalan dengan Rofi Teman kalian mungkin ada yang namanya Rofi. Tapi, tentu saja artikel ini tidak sedang menggosipkan Rofi sebagai manusia, tapi Rofi sebagai sebuah program, xixi.
 Merujuk pada definisi official-nya, secara singkat, Rofi yang dimaksud dalam artikel ini adalah
@@ -65,18 +65,18 @@ Atau definisi dengan versi yang lebih komplit:</description>
     </item>
     <item>
       <title>Instalasi Archlinux KDE via archinstall</title>
-      <link>//localhost:1313/post/archinstall/</link>
+      <link>/post/archinstall/</link>
       <pubDate>Thu, 02 May 2024 09:52:29 +0700</pubDate>
-      <guid>//localhost:1313/post/archinstall/</guid>
+      <guid>/post/archinstall/</guid>
       <description>Siapa yang tidak pernah dengar Archlinux?
 Archlinux adalah sebuah distro linux (legendaris) yang terkenal dengan komunitasnya yang besar dari seluruh dunia dan dokumentasi distronya yang lengkap. Hal lain yang menjadikan Archlinux sebagai distro yang digemari banyak orang adalah karena filosofinya, yaitu Keep It Simple1. Ya, sesuai filosofinya, Archlinux memang di-design untuk memberikan kemudahan, baik untuk penggunanya maupun untuk hardware atau mesin host-nya2.
 Meskipun demikian, dulu Archlinux memiliki reputasi sebagai distro untuk &amp;ldquo;linux senior&amp;rdquo; atau &amp;ldquo;sepuh linux&amp;rdquo; alias tidak ramah pengguna linux pemula.</description>
     </item>
     <item>
       <title>Linux Ricing?</title>
-      <link>//localhost:1313/post/rice/</link>
+      <link>/post/rice/</link>
       <pubDate>Sun, 28 Apr 2024 14:21:13 +0700</pubDate>
-      <guid>//localhost:1313/post/rice/</guid>
+      <guid>/post/rice/</guid>
       <description>Hola!
 Teman-teman familiar dengan istilah rice atau Linux ricing?
 Tidak seperti makna dari terjemah harfiahnya yang berarti nasi atau menasikan Linux, istilah rice atau Linux Ricing punya makna yang boleh dibilang eksklusif dan kontekstual. Gimana tu maksudnya? Mari saya jelaskan&amp;hellip;
@@ -84,9 +84,9 @@ Secara sederhana, istilah rice yang digunakan dalam dunia Linux dicomot dari ist
     </item>
     <item>
       <title>Debian Linux Installation in Virtualbox</title>
-      <link>//localhost:1313/post/debian-installation/</link>
+      <link>/post/debian-installation/</link>
       <pubDate>Mon, 15 Apr 2024 07:45:05 +0700</pubDate>
-      <guid>//localhost:1313/post/debian-installation/</guid>
+      <guid>/post/debian-installation/</guid>
       <description>Pra Instalasi Hola!
 Kali ini saya akan memberikan tutorial instalasi salah satu distro linux legendaris, Debian. Saya akan menginstall Debian sebagai VM (virtual machine) di Virtualbox. Namun, sebelum saya melakukan instalasi, ada beberapa catatan berikut yang perlu diperhatikan:
 Mengunduh &amp;amp; Menginstall Virtualbox (di sini) Mengunduh file ISO debian (di sini) Instalasi Sekarang, kita masuk ke tahap instalasi&amp;hellip;
@@ -94,109 +94,109 @@ Membuat VM di Virtualbox 1. Klik &amp;ldquo;New&amp;rdquo; di interface Virtualb
     </item>
     <item>
       <title>Ngrok - Make Your localhost Accessible Publicly</title>
-      <link>//localhost:1313/post/ngrok/</link>
+      <link>/post/ngrok/</link>
       <pubDate>Tue, 02 Apr 2024 17:30:12 +0700</pubDate>
-      <guid>//localhost:1313/post/ngrok/</guid>
+      <guid>/post/ngrok/</guid>
       <description>Ngrok? Ngrok bagi sebagian orang mungkin sudah faniliar karena sering digunakan untuk berbagai kebutuhan. Tapi, bagi yang belum tahu, ngrok secara sederhana dapat didefinisikan sebagai aplikasi yang memungkinkan kita untuk mem-publish server lokal kita di localhost ke publik dengan aman. Artinya, service seperti misalnya web di localhost (http) atau bahkan SSH dan RDP dapat diakses di luar jaringan secara aman melalui bantuan dari Ngrok ini. Untuk detail teknisnya sebentar lagi kita akan lihat demonya.</description>
     </item>
     <item>
       <title>Mystiq - FFmpeg&#39;s GUI</title>
-      <link>//localhost:1313/post/mystiq/</link>
+      <link>/post/mystiq/</link>
       <pubDate>Tue, 26 Mar 2024 17:56:16 +0700</pubDate>
-      <guid>//localhost:1313/post/mystiq/</guid>
+      <guid>/post/mystiq/</guid>
       <description>Hola!
 Kali ini saya akan berbagi satu tools yang secara fungsi mungkin 11-12 dengan FFmpeg, tapi dia punya tampilan yang lebih user-friendly, nama tools-nya adalah Mystiq. Secara sederhana, Mystiq adalah media converter yang juga merupakan GUI (Graphical User Interface) dari FFmpeg1.
 Kurang lebih, berikut adalah tampilan atau interface dari Mystiq. Versi mystiq yang saya install adalah versi 20.03.18 karena dirilis pada tahun, bulan, dan tanggal 2020-03-18. Kehadiran aplikasi ini juga memudahkan kita untuk melakukan konversi file.</description>
     </item>
     <item>
       <title>Eternalblue (MS17-010) - SMBv1&#39;s Exploit</title>
-      <link>//localhost:1313/post/eternalblue/</link>
+      <link>/post/eternalblue/</link>
       <pubDate>Thu, 21 Mar 2024 18:54:33 +0700</pubDate>
-      <guid>//localhost:1313/post/eternalblue/</guid>
+      <guid>/post/eternalblue/</guid>
       <description>Sejarah (Singkat) Apa itu Eternalblue?
 Eternalblue atau oleh Microsoft disebut dengan MS17-010 adalah sebuah exploit yang dapat digunakan untuk menyebarkan malware pada sebuah mesin Windows. Eternalblue adalah eksploit yang pada awalnya ditemukan oleh NSA (National Security Agency) Amerika Serikat untuk memanfaatkan kerentanan pada SMB v1 (Server Message Block versi 1) di Windows, terutama pada Windows 7 dan Windows XP.1
 Exploit ini tidak dilaporkan oleh NSA ke pihak Microsoft karena menguntungkan pihak NSA untuk melakukan mata-mata terhadap lawan-lawan politiknya.</description>
     </item>
     <item>
       <title>Virustotal - Platform untuk Scanning Virus</title>
-      <link>//localhost:1313/post/virustotal/</link>
+      <link>/post/virustotal/</link>
       <pubDate>Tue, 19 Mar 2024 21:43:27 +0700</pubDate>
-      <guid>//localhost:1313/post/virustotal/</guid>
+      <guid>/post/virustotal/</guid>
       <description>Overview Virustotal adalah salah satu website terbaik untuk melakukan identifikasi terhadap suatu file/software/aplikasi dan url, apakah mengandung virus atau malware (malicious software) atau tidak. Dengan kata lain, melalui bantuan website ini, kita dapat mengecek suatu file/software/aplikasi maupun suatu link/url apakah berbahaya atau tidak sebelum kita menginstallnya di device kita masing-masing.
 Virustotal1 menjadi salah satu website penyedia jasa scanning virus terbaik karena website tersebut melakukan scanning dengan menggunakan lebih dari 50 vendor antivirus, termasuk diantaranya adalah Avira, BitDefender, dan Kaspersky.</description>
     </item>
     <item>
       <title>Recordmydesktop - Screen Recorder based on CLI</title>
-      <link>//localhost:1313/post/recordmydesktop/</link>
+      <link>/post/recordmydesktop/</link>
       <pubDate>Fri, 08 Mar 2024 14:55:26 +0700</pubDate>
-      <guid>//localhost:1313/post/recordmydesktop/</guid>
+      <guid>/post/recordmydesktop/</guid>
       <description>Tepat pada tanggal 10 Oktober 2023 lalu, saya membuat tutorial merekam layar (screen recorder) desktop menggunakan program ffmpeg. Hanya saja, hingga saat ini, ada dua kelemahan ffmpeg yang belum dapat saya temukan solusinya ketika berbicara tentang dekstop screen recorder.
 FFmpeg belum bisa merekam satu window spesifik FFmpeg belum bisa merekam area layar tertentu Nah, beberapa pekan lalu, saya menemukan program sederhana yang dapat men-cover kelemahan ffmpeg ini, yaitu recordmydesktop. Sebetulnya, saya menemukan program ini di Kali Linux, ketika saya juga sedang ingin melakukan rekaman layar, dan ketika saya ketikkan &amp;lsquo;record&amp;rsquo; di menu, tampillah program ini.</description>
     </item>
     <item>
       <title>Gephi - Actor(s) Centrality</title>
-      <link>//localhost:1313/post/gephi/</link>
+      <link>/post/gephi/</link>
       <pubDate>Sat, 06 Jan 2024 02:26:47 -0500</pubDate>
-      <guid>//localhost:1313/post/gephi/</guid>
+      <guid>/post/gephi/</guid>
       <description>Halo! Kali ini kita akan belajar tentang penggunaan salah satu software yang biasa digunakan untuk melakukan analisis data pada ilmu-ilmu sosial, khususnya pada diskusi atau kajian mengenai Social Network Analysis (SNA). Secara sederhana, SNA adalah sebuah metode untuk mengidentifikasi aktor (node) dan relasinya (edge) dalam suatu jaringan.
 Pada topik Gephi kali ini, saya akan menjelaskan analisis terhadap 4 jenis sentralitas aktor1, yaitu:
 Degree Centrality Betweeness Centrality Closeness Centrality Eigenvector Centrality Berikut adalah perbedaan singkat mengenai keempat jenis centrality tersebut.</description>
     </item>
     <item>
       <title>Private File Sharing with Onionshare</title>
-      <link>//localhost:1313/post/onionshare/</link>
+      <link>/post/onionshare/</link>
       <pubDate>Thu, 30 Nov 2023 07:35:02 -0500</pubDate>
-      <guid>//localhost:1313/post/onionshare/</guid>
+      <guid>/post/onionshare/</guid>
       <description>Halo! Beberapa pekan lalu, saya sempat memberikan tutorial untuk mendapatkan e-book gratis dengan bot Telegram yang berasal dari situs z-library. Saat tulisan tersebut dibuat, situs utama z-lib di-banned oleh FBI karena dianggap menyebarkan buku-buku berbayar tanpa hak izin dari penulisnya. Maka, agar dapat mengakses situs z-lib, kita memerlukan TOR Browser.
 Nah, pernahkah kalian penasaran, bagaimana cara meng-hosting file yang hanya dapat diakses dengan TOR Browser dan jaringan TOR saja?
 Kali ini, kita akan belajar bagaimana cara meng-hosting atau membagikan file yang hanya dapat diakses oleh TOR Browser.</description>
     </item>
     <item>
       <title>Mengunduh (free) e-book via Bot Telegram</title>
-      <link>//localhost:1313/post/ebook-via-bot_telegram/</link>
+      <link>/post/ebook-via-bot_telegram/</link>
       <pubDate>Wed, 11 Oct 2023 16:32:22 +0700</pubDate>
-      <guid>//localhost:1313/post/ebook-via-bot_telegram/</guid>
+      <guid>/post/ebook-via-bot_telegram/</guid>
       <description>Keberadaan buku digital / buku elektronik (e-book) saat ini sudah menjadi keniscayaan di era yang juga sudah digital. Kelebihan buku elektronik dibanding buku fisik selain murah dan mudah (atau gak mudah ya? hehe) diperoleh adalah juga tidak banyak memakan tempat (rak buku, dsb). Oleh karena itu, kita (apalagi akademisi, baik di sekolah ataupun perguruan tinggi) sangat memerlukan buku sebagai referensi dalam kegiatan belajar-mengajar.
 Nah, kali ini saya akan memberikan tutorial mendapatkan buku digital dengan mudah karena hanya membutuhkan telegram sebagai modal utamanya.</description>
     </item>
     <item>
       <title>FFmpeg - Convert MP4 to GIF</title>
-      <link>//localhost:1313/post/ffmpeg-mp42gif/</link>
+      <link>/post/ffmpeg-mp42gif/</link>
       <pubDate>Wed, 11 Oct 2023 00:40:23 +0700</pubDate>
-      <guid>//localhost:1313/post/ffmpeg-mp42gif/</guid>
+      <guid>/post/ffmpeg-mp42gif/</guid>
       <description>Terkadang, GIF punya kelebihan dibandingkan dengan file video, terutama dalam hal ukuran file. Dengan kualitas gambar yang hampir sama dengan video, file GIF bisa berukuran lebih kecil dari file video. Contohnya, saya punya sebuah file video rekaman layar 720p berdurasi 25 detik, dan satu file GIF yang merupakan hasil konversi video sebelumnya: Berikut adalah langkah-langkah membuat meng-convert video (MP4) ke GIF1.
 Membuat palette Palette yang dibuat nanti akan dijadikan sebagai dasar warna dalam GIF.</description>
     </item>
     <item>
       <title>Screen Recorder with FFmpeg</title>
-      <link>//localhost:1313/post/ffmpeg-sr/</link>
+      <link>/post/ffmpeg-sr/</link>
       <pubDate>Tue, 10 Oct 2023 09:13:32 +0700</pubDate>
-      <guid>//localhost:1313/post/ffmpeg-sr/</guid>
+      <guid>/post/ffmpeg-sr/</guid>
       <description>Kali ini, saya akan memberi tahu cara merekam layar desktop laptop atau komputer kita dengan FFmpeg. Apa itu FFmpeg? Penjelasan detail-nya tentu saja bisa didapatkan langsung dari website resminya di sini1. Tapi, sederhananya, FFmpeg adalah *utility/tool/*aplikasi/software video dan audio converter. FFmpeg juga merupakan program yang berbaris command line sebagai interface-nya. Jadi, meskipun hanya digunakan lewat CLI, tapi ffmpeg punya banyak sekali power, salah satunya adalah merekam layar desktop kita.
 Misalnya, dibandingkan beberapa aplikasi perekam layar lainnya (seperti OBS-Studio walaupun sama-sama open source), FFmpeg lebih praktis dan lebih kecil ukurannya.</description>
     </item>
     <item>
       <title>Hugo (Papermod) Advanced</title>
-      <link>//localhost:1313/post/hugo-advanced/</link>
+      <link>/post/hugo-advanced/</link>
       <pubDate>Mon, 09 Oct 2023 15:22:46 +0700</pubDate>
-      <guid>//localhost:1313/post/hugo-advanced/</guid>
+      <guid>/post/hugo-advanced/</guid>
       <description>Mengkonfigurasi Hugo (Advanced) Setelah berhasil membuat website Hugo dan men-deploy-nya ke Github, kali ini saya akan memberi beberapa tips yang sedikit banyak dapat memberi kemudahan dan nilai estetika pada website Hugo tersebut.
 Tips 1: Mengganti format file konfigurasi By default, format file konfigurasi Hugo tersimpan dalam format TOML (.toml). Tapi, Hugo sendiri menyediakan 2 opsi format lain yang dapat kita gunakan, yaitu YAML/YML (.yaml) dan JSON (.json)1.
 Untuk alasan humanisme (kemudahan dan kenyamanan dipandang dan dibaca), maka kita akan mengganti format file konfigurasi Hugo dari TOML ke YAML/YML.</description>
     </item>
     <item>
       <title>Hugo To Github</title>
-      <link>//localhost:1313/post/hugo-to_github/</link>
+      <link>/post/hugo-to_github/</link>
       <pubDate>Mon, 09 Oct 2023 09:03:40 +0700</pubDate>
-      <guid>//localhost:1313/post/hugo-to_github/</guid>
+      <guid>/post/hugo-to_github/</guid>
       <description>Meng-Hosting di Github Di tulisan ini, saya akan menunjukkan cara hosting static-site Hugo yang sudah dibuat sebelumnya ke Github. Jadi, sebelum lanjut membaca tutorial ini, ada 3 persyaratan yang harus sudah dipenuhi:
 Punya akun Github (kalau belum punya silakan buat dulu). Komputer/laptop-nya sudah terinstall git (kalau belum silakan install). Sudah membuat website Hugo sebelumnya (kalau belum, silakan buat dulu, tutorialnya bisa mengikuti tulisan saya sebelumnya). Saya akan menunjukkan 10 langkah dalam mem-publish atau meng-hosting static-site Hugo kita ke Github1.</description>
     </item>
     <item>
       <title>Hugo-ing (from Zero to Hero)</title>
-      <link>//localhost:1313/post/hugo-ing/</link>
+      <link>/post/hugo-ing/</link>
       <pubDate>Sat, 07 Oct 2023 15:26:34 +0700</pubDate>
-      <guid>//localhost:1313/post/hugo-ing/</guid>
+      <guid>/post/hugo-ing/</guid>
       <description>Membuat Website via Hugo Pengenalan singkat tentang Hugo Hugo adalah framework yang memungkinkan setiap orang untuk membuat dan mengelola website mereka.
 Secara teknis, Hugo adalah static site generator. 1
 Secara umum, website dibagi 2: dynamic &amp;amp; static site dan itu disesuaikan dengan kebutuhan atau tujuan dibuatnya website tersebut. Tapi, umumnya, static site memang banyak digunakan sebagai:

@@ -131,7 +131,7 @@ Untuk alasan humanisme (kemudahan dan kenyamanan dipandang dan dibaca), maka kit
     <h1 class="post-title entry-hint-parent">
       Hugo (Papermod) Advanced
     </h1>
-    <div class="post-meta"><span title='2023-10-09 15:22:46 +0700 WIB'>October 9, 2023</span>&nbsp;·&nbsp;6 min&nbsp;·&nbsp;Wildan
+    <div class="post-meta"><span title='2023-10-09 15:22:46 +0700 WIB'>October 9, 2023</span>&nbsp;·&nbsp;7 min&nbsp;·&nbsp;Wildan
 
 </div>
   </header> 
@@ -671,7 +671,15 @@ Untuk menampilkan fitur menu <em>Search</em> seperti gambar di atas setidaknya a
 <p>Hasilnya seperti ini:</p>
 <iframe src="/Hugo-Advanced/teachlikefinland.pdf" width="100%" height="600px"></iframe>
 
-<p>Kalau sudah selesai, jangan lupa commit ke repo lokal dan push ke Github:</p>
+<p>Jangan lupa, sebelum di-push ke github, kita perlu menghapus folder <code>.git</code> di direktori papermod sebagai tema website kita, supaya file <strong>pdf.html</strong> kita yang tadi bisa ikut terupload dalam folder tema papermod di github.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>rm -rf themes/papermod/.git<span style="color:#e6db74">`</span>
+</span></span></code></pre></div><p>Atau cara yang lebih aman, kita bisa menghapus seluruh folder tema papermod, kemudian mengunduhnya kembali, jangan lupa menghapus folder <code>.git</code>-nya. baru kemudian membuat baru file <strong>pdf.html</strong> di folder <em><strong><code>shortcode</code></strong></em>.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>rm -rf themes/papermod/
+</span></span><span style="display:flex;"><span>git clone https://github.com/adityatelange/hugo-PaperMod.git themes/papermod
+</span></span><span style="display:flex;"><span>rm -rf themes/papermod/.git
+</span></span><span style="display:flex;"><span>touch /themes/papermod/layouts/shortcodes/pdf.html
+</span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;&lt;iframe src=&#34;</span><span style="color:#f92672">{{</span> .Get <span style="color:#ae81ff">0</span> <span style="color:#f92672">}}</span><span style="color:#e6db74">&#34; width=&#34;</span>100%<span style="color:#e6db74">&#34; height=&#34;</span>700px<span style="color:#e6db74">&#34;&gt;&lt;/iframe&gt;&#34;</span> &gt; pdf.html
+</span></span></code></pre></div><p>Kalau sudah selesai, jangan lupa commit ke repo lokal dan push ke Github:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>ssh-agent bash
 </span></span><span style="display:flex;"><span>ssh-add ./ssh/ssh-config-file
 </span></span><span style="display:flex;"><span>

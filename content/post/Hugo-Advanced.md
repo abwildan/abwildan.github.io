@@ -311,6 +311,19 @@ Hasilnya seperti ini:
 
 {{< pdf "/Hugo-Advanced/teachlikefinland.pdf" >}}
 
+Jangan lupa, sebelum di-push ke github, kita perlu menghapus folder `.git` di direktori papermod sebagai tema website kita, supaya file **pdf.html** kita yang tadi bisa ikut terupload dalam folder tema papermod di github.
+```shell
+rm -rf themes/papermod/.git`
+```
+
+Atau cara yang lebih aman, kita bisa menghapus seluruh folder tema papermod, kemudian mengunduhnya kembali, jangan lupa menghapus folder `.git`-nya. baru kemudian membuat baru file **pdf.html** di folder ***`shortcode`***.
+```shell
+rm -rf themes/papermod/
+git clone https://github.com/adityatelange/hugo-PaperMod.git themes/papermod
+rm -rf themes/papermod/.git
+touch /themes/papermod/layouts/shortcodes/pdf.html
+echo "<iframe src="{{ .Get 0 }}" width="100%" height="700px"></iframe>" > pdf.html
+```
 
 Kalau sudah selesai, jangan lupa commit ke repo lokal dan push ke Github:
 

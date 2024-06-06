@@ -27,6 +27,8 @@ params:
       url: "https://tiktok.com/"
     - name: instagram
       url: "https://instagram.com/"
+    - name: facebook
+      url: "https://facebook.com/"
     - name: telegram
       url: "https://t.me/"
     - name: threads

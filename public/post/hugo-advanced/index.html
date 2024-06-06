@@ -184,7 +184,9 @@ Untuk alasan humanisme (kemudahan dan kenyamanan dipandang dan dibaca), maka kit
                 <li>
                     <a href="#tips-13-menambahkan-caption-pada-gambar" aria-label="Tips 13: Menambahkan caption pada gambar">Tips 13: Menambahkan caption pada gambar</a></li>
                 <li>
-                    <a href="#tips-14-mengatur-urutan-menu" aria-label="Tips 14: Mengatur Urutan Menu">Tips 14: Mengatur Urutan Menu</a>
+                    <a href="#tips-14-mengatur-urutan-menu" aria-label="Tips 14: Mengatur Urutan Menu">Tips 14: Mengatur Urutan Menu</a></li>
+                <li>
+                    <a href="#tips-15-menampilkan-file-pdf" aria-label="Tips 15: Menampilkan File PDF">Tips 15: Menampilkan File PDF</a>
                 </li>
             </ul>
             </ul>
@@ -660,7 +662,15 @@ Untuk menampilkan fitur menu <em>Search</em> seperti gambar di atas setidaknya a
 </span></span><span style="display:flex;"><span>      <span style="color:#f92672">name</span>: <span style="color:#ae81ff">Tutorial</span>
 </span></span><span style="display:flex;"><span>      <span style="color:#f92672">url</span>: <span style="color:#ae81ff">/post/</span>
 </span></span><span style="display:flex;"><span>      <span style="color:#f92672">weight</span>: <span style="color:#ae81ff">2</span> <span style="color:#75715e"># &lt;-- untuk mengatur urutan tampil kedua di menu</span>
-</span></span></code></pre></div><p>Kalau sudah selesai, jangan lupa commit ke repo lokal dan push ke Github:</p>
+</span></span></code></pre></div><h3 id="tips-15-menampilkan-file-pdf">Tips 15: Menampilkan File PDF<a hidden class="anchor" aria-hidden="true" href="#tips-15-menampilkan-file-pdf">#</a></h3>
+<p>Kita bisa menampilkan isi sebuah file PDF pada website Hugo kita dengan melampirkan <em><strong><code>shortcode</code></strong></em>. Pertama, kita harus membuat sebuah file html di <code>themes/{papermod}/layouts/shortcodes</code>, misalnya saya beri nama <strong>pdf.html</strong> yang isinya adalah sebagai berikut<sup id="fnref:7"><a href="#fn:7" class="footnote-ref" role="doc-noteref">7</a></sup>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#f92672">iframe</span> <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ .Get 0 }}&#34;</span> <span style="color:#a6e22e">width</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;100%&#34;</span> <span style="color:#a6e22e">height</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;700px&#34;</span>&gt;&lt;/<span style="color:#f92672">iframe</span>&gt;
+</span></span></code></pre></div><p>Ukuran <em>layout</em> file pdf yang tampil di website bisa disesuaikan pada bagian <strong>width</strong> dan <strong>height</strong> pada <strong>pdf.html</strong> tersebut. Selanjutnya, kita bisa menambahkan <em><strong><code>shortcode</code></strong></em> berikut di halaman markdown kita:
+<img loading="lazy" src="/Hugo-Advanced/ss18.png" alt="ss18"  />
+</p>
+<p>Hasilnya seperti ini:</p>
+<iframe src="/Hugo-Advanced/teachlikefinland.pdf" width="100%" height="800px"></iframe>
+<p>Kalau sudah selesai, jangan lupa commit ke repo lokal dan push ke Github:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>ssh-agent bash
 </span></span><span style="display:flex;"><span>ssh-add ./ssh/ssh-config-file
 </span></span><span style="display:flex;"><span>
@@ -688,6 +698,9 @@ Untuk menampilkan fitur menu <em>Search</em> seperti gambar di atas setidaknya a
 </li>
 <li id="fn:6">
 <p><a href="https://chatgpt.com/c/ba64752f-c7a0-438c-9a1b-d11efa9aaa05">https://chatgpt.com/c/ba64752f-c7a0-438c-9a1b-d11efa9aaa05</a>&#160;<a href="#fnref:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:7">
+<p><a href="https://chatgpt.com/c/35c0c015-e708-42f4-9319-ef7992479132">https://chatgpt.com/c/35c0c015-e708-42f4-9319-ef7992479132</a>&#160;<a href="#fnref:7" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
 </div>

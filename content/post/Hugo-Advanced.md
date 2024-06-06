@@ -297,6 +297,21 @@ menu:
       weight: 2 # <-- untuk mengatur urutan tampil kedua di menu
 ```
 
+### Tips 15: Menampilkan File PDF 
+
+Kita bisa menampilkan isi sebuah file PDF pada website Hugo kita dengan melampirkan ***`shortcode`***. Pertama, kita harus membuat sebuah file html di `themes/{papermod}/layouts/shortcodes`, misalnya saya beri nama **pdf.html** yang isinya adalah sebagai berikut[^7]:
+```html
+<iframe src="{{ .Get 0 }}" width="100%" height="700px"></iframe>
+```
+
+Ukuran *layout* file pdf yang tampil di website bisa disesuaikan pada bagian **width** dan **height** pada **pdf.html** tersebut. Selanjutnya, kita bisa menambahkan ***`shortcode`*** berikut di halaman markdown kita:
+![ss18](/Hugo-Advanced/ss18.png)
+
+Hasilnya seperti ini:
+
+{{< pdf "/Hugo-Advanced/teachlikefinland.pdf" >}}
+
+
 Kalau sudah selesai, jangan lupa commit ke repo lokal dan push ke Github:
 
 ```shell
@@ -315,3 +330,4 @@ git push
 [^4]: https://gohugo.io/content-management/shortcodes/
 [^5]: https://sebastiandedeyne.com/captioned-images-with-markdown-render-hooks-in-hugo/
 [^6]: https://chatgpt.com/c/ba64752f-c7a0-438c-9a1b-d11efa9aaa05
+[^7]: https://chatgpt.com/c/35c0c015-e708-42f4-9319-ef7992479132

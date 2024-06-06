@@ -50,9 +50,6 @@ params:
     - name: slack
       url: "https://slack.com/"
 
-
-
-
   
   cover:
     linkFullImages: true
@@ -64,6 +61,11 @@ params:
   ShowBreadCrumbs: true
   ShowPostNavLinks: true
   ShowCodeCopyButtons: true
+
+#markup:
+#  highlight:
+#    lineNos: true
+
 
 menu:
   main:

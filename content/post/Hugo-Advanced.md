@@ -325,6 +325,17 @@ touch /themes/papermod/layouts/shortcodes/pdf.html
 echo "<iframe src="{{ .Get 0 }}" width="100%" height="700px"></iframe>" > pdf.html
 ```
 
+### Tips 16: Menampilkan Nomor Baris pada Codeblock
+Kita juga bisa menampilkan nomor baris yang terdapat pada codeblock, seperti ini:
+![ss19](/Hugo-Advanced/ss19.png)
+
+dengan cara memasukkan baris kode berikut ke file konfigurasi hugo kita (punya saya namanya **`hugo.yaml`**):
+```yaml
+markup:
+  highlight:
+    lineNos: true
+```
+
 Kalau sudah selesai, jangan lupa commit ke repo lokal dan push ke Github:
 
 ```shell

@@ -2,20 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Linux on Wildan&#39;s Workspace</title>
-    <link>//localhost:1313/categories/linux/</link>
+    <link>http://localhost:1313/categories/linux/</link>
     <description>Recent content in Linux on Wildan&#39;s Workspace</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.127.0</generator>
     <language>en-US</language>
-    <lastBuildDate>Sat, 02 Dec 2023 02:24:37 -0500</lastBuildDate>
-    <atom:link href="//localhost:1313/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 09 Jun 2024 16:59:47 +0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Intro to Linux</title>
-      <link>//localhost:1313/post/intro-linux/</link>
-      <pubDate>Sat, 02 Dec 2023 02:24:37 -0500</pubDate>
-      <guid>//localhost:1313/post/intro-linux/</guid>
-      <description>Holla!
-Kali ini, saya akan berbagi mengenai satu topik yang menarik. Topik yang akan saya share yaitu tentang Linux. Menurut saya, Linux merupakan topik yang seharusnya saya bahas di artikel ini karena menjadi salah satu &amp;ldquo;peralatan perang&amp;rdquo; penting yang saya gunakan selama saya membangun artikel ini.
-Nanti, pembahasannya akan saya bagi ke dalam empat part. Pada bagian pertama, saya akan menjelaskan tentang Linux itu sendiri. Bagian kedua akan menjelaskan mengenai sejarah Linux.</description>
+      <title>Cool Terminal Tools You Should Know</title>
+      <link>http://localhost:1313/post/cooltools/</link>
+      <pubDate>Sun, 09 Jun 2024 16:59:47 +0700</pubDate>
+      <guid>http://localhost:1313/post/cooltools/</guid>
+      <description>Yoo, jumpa lagi!
+Saya mau berbagi sejumlah tools terminal yang sayang jika dilewatkan, apalagi bagi kalian guys, linux nerds. Sebagian besar (atau mungkin semuanya) tools yang akan saya share di artikel ini murni for fun. Jadi, memang fungsinya hanya untuk show off kecantikan terminal. But, anyway, berikut adalah 9 terminal tools keren yang bisa kalian coba:
+1. cava Cava adalah cross-platform audio visualizer.
+Github: https://github.com/karlstav/cava
+Instalasi (Archlinux) via repositori komunitas (AUR - Arch User Repository):</description>
     </item>
   </channel>
 </rss>

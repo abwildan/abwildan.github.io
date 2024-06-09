@@ -348,7 +348,7 @@ git commit -m "change configuration"
 git push
 ```
 
-Baca-baca tentang Markdown dari bukunya Matt Code yang berjudul **"The Markdown Guide"** di sini:
+Baca-baca tentang Markdown dari bukunya Matt Cone yang berjudul **"The Markdown Guide"** di sini:
 {{< pdf "/Hugo-Advanced/themarkdownguide.pdf" >}}
 
 

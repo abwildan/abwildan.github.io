@@ -348,6 +348,10 @@ git commit -m "change configuration"
 git push
 ```
 
+Baca-baca tentang Markdown dari bukunya Matt Code yang berjudul **"The Markdown Guide"** di sini:
+{{< pdf "/Hugo-Advanced/themarkdownguide.pdf" >}}
+
+
 [^1]: https://gohugo.io/getting-started/configuration/
 [^2]: https://github.com/adityatelange/hugo-PaperMod/wiki/Features#profile-mode
 [^3]: https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-features/#search-page

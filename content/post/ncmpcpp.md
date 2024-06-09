@@ -23,7 +23,7 @@ Tapi, tidak bisa dibandingkan bukan berarti lebih buruk. Justru, sifat "Classic"
 
 Instalasinya:
 | No  |           Distro                                                                  |             Install                   |
-| --- |           -----                                                                   |              -----                    |
+|----:|:---------------------------------------------------------------------------------|:-------------------------------------:|
 |  1  |   [**Debian/Ubuntu**](https://packages.debian.org/bookworm/ncmpcpp)               |  `sudo apt install ncmpcpp mpd`       |
 |  2  |   [**Arch**](https://archlinux.org/packages/extra/x86_64/ncmpcpp/)                |  `sudo pacman -S ncmpcpp mpd`         |
 |  3  |   [**OpenSuse**](https://software.opensuse.org/package/ncmpcpp)                   |  `sudo zypper in ncmpcpp mpd`         |

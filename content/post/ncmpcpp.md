@@ -22,12 +22,14 @@ Tapi, tidak bisa dibandingkan bukan berarti lebih buruk. Justru, sifat "Classic"
 ## Install
 
 Instalasinya:
-| No  |           Distro                                                                  |             Install                   |
-|----:|:----------------------------------------------------------------------------------|:-------------------------------------:|
-|  1  |   [**Debian/Ubuntu**](https://packages.debian.org/bookworm/ncmpcpp)               |  `sudo apt install ncmpcpp mpd`       |
-|  2  |   [**Arch**](https://archlinux.org/packages/extra/x86_64/ncmpcpp/)                |  `sudo pacman -S ncmpcpp mpd`         |
-|  3  |   [**OpenSuse**](https://software.opensuse.org/package/ncmpcpp)                   |  `sudo zypper in ncmpcpp mpd`         |
-|  4  |   [**Fedora**](https://packages.fedoraproject.org/pkgs/ncmpcpp/ncmpcpp/)          |  `sudo dnf install ncmpcpp mpd`       |
+| No  |           Distro                                                                  |             Install                       |
+|----:|:----------------------------------------------------------------------------------|:-----------------------------------------:|
+|  1  |   [**Debian/Ubuntu**](https://packages.debian.org/bookworm/ncmpcpp)               |  `sudo apt install ncmpcpp mpd mpc`       |
+|  2  |   [**Arch**](https://archlinux.org/packages/extra/x86_64/ncmpcpp/)                |  `sudo pacman -S ncmpcpp mpd mpc`         |
+|  3  |   [**OpenSuse**](https://software.opensuse.org/package/ncmpcpp)                   |  `sudo zypper in ncmpcpp mpd mpc`         |
+|  4  |   [**Fedora**](https://packages.fedoraproject.org/pkgs/ncmpcpp/ncmpcpp/)          |  `sudo dnf install ncmpcpp mpd mpc`       |
+
+> **Note:** `mpc` adalah command line client untuk MPD, jadi kita perlu meng-install-nya karena nanti juga akan digunakan untuk menampilkan notifikasi.
 
 ## Configuration
 
@@ -132,6 +134,8 @@ playlist_display_mode = "classic"
 playlist_editor_display_mode = classic
 colors_enabled = no
 
+execute_on_song_change = notify-send "Now Playing" "$(mpc --format '%title% \n%artist%' current)" --icon="/home/wildan/.icons/buuf-nestort/apps/spotify.png"
+
 ## For a song format you can use:
 ## %l - length
 ## %f - filename
@@ -151,6 +155,11 @@ colors_enabled = no
 ## %P - priority
 ## $R - begin right alignment
 ```
+
+> **Note:** `notify-send` adalah sebuah program mengirimkan notifikasi ke desktop. Supaya bisa menggunakan `notify-send`, kita perlu menginstallnya terlebih dahulu:
+>```shell
+>sudo pacman -Sy libnotify
+>```
 
 Atau kalian juga bisa menggunakan file konfigurasi default dari ncmpcpp, jadi bisa custom sendiri interface ncmpcpp-nya:
 ```shell 

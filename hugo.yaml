@@ -81,9 +81,6 @@ menu:
       name: Tutorial
       url: /post/
       weight: 2 # <-- untuk mengatur urutan tampil di menu
-    - identifier: opini
-      name: Opinion
-      url: /opinion/
       weight: 3 # <-- untuk mengatur urutan tampil di menu
 
 outputs:

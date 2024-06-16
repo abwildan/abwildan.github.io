@@ -336,6 +336,31 @@ markup:
     lineNos: true
 ```
 
+### Tips 17: Mengatur Layout Tabel
+
+Kita bisa men-*setting* layout tabel sehingga nanti rata kanan-kiri-nya bisa disesuaikan, seperti berikut:
+
+```shell
+|  Nomor   |        Nama        |         Alamat          |
+|:--------:|-------------------:|:------------------------|  <-- Perhatikan posisi titik duanya
+|    1     | Asep Gunawan       | Jl. Mangga 2, Bandung   |
+|    2     | Bambang Susanto    | Jl. Haji 9, Jakarta     |
+|    3     | Cyntia Maharani    | Jl. Kemanamana 1, Bali  |
+```
+
+Berikut adalah alignment setiap kolom dari potongan kode di atas:
+- kolom **Nomor**: rata tengah
+- kolom **Nama**: rata kanan
+- kolom **Alamat**: rata kiri
+
+Hasilnya, sepert ini:
+
+|  Nomor   |        Nama        |         Alamat          |
+|:--------:|-------------------:|:------------------------| 
+|    1     | Asep Gunawan       | Jl. Mangga 2, Bandung   |
+|    2     | Bambang Susanto    | Jl. Haji 9, Jakarta     |
+|    3     | Cyntia Maharani    | Jl. Kemanamana 1, Bali  |
+
 Kalau sudah selesai, jangan lupa commit ke repo lokal dan push ke Github:
 
 ```shell

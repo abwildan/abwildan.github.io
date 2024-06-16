@@ -263,7 +263,7 @@ Kita bisa membuat grafik dari dataset **penguins** tersebut menggunakan `ggplot2
 Misalnya: Hubungan antara panjang paruh dan panjang sirip penguin.
 
 ```R
-ggplot(data = penguins, aes(x = bill_length_mm, y = flipper_length_mm)) +
+ggplot(data = penguins, aes(x = bill_length_mm, y = flipper_length_mm, color=species)) +
   geom_point()
 ```
 
@@ -331,6 +331,42 @@ Hasilnya:
 ![ss9](/rstudio-basic/ss9.png "Line Plot perubahan berat badan penguin dari waktu ke waktu")
 
 
+#### 6. Pie Chart
+
+**Pie Chart** digunakan untuk menunjukkan atau membandingkan proporsi atau persentase dari beberapa kategori dalam suatu dataset[^11].  
+Misalnya: Perbandingan jumlah spesies penguin.
+
+```R
+# Menghitung jumlah observasi per spesies
+penguins_count <- penguins %>%
+  count(species) %>%
+  mutate(percent = n / sum(n) * 100)  # Menambahkan kolom percent
+
+# Buat pie chart menggunakan ggplot2
+pie <- ggplot(data = penguins_count, aes(x = "", y = n, fill = species)) +
+  geom_bar(stat = "identity", width = 1) +
+  coord_polar(theta = "y") +
+  labs(fill = "Spesies", x = NULL, y = NULL, title = "Pie Chart Jumlah Observasi per Spesies") +
+  theme_void() +
+  theme(legend.position = "right")
+
+# Tambahkan label persentase
+pie +
+  geom_text(aes(label = paste0(round(percent), "%")), position = position_stack(vjust = 0.5))
+```
+
+Hasilnya:
+![ss10](/rstudio-basic/ss10.png "Pie Chart persentase spesies penguin")
+
+Sekian dulu untuk pembahasan RStudio Basic-nya. Kalau kalian ingin tahu lebih jauh tentang visualisasi di R dan RStudio, saya sarankan untuk membaca-baca lebih banyak, seperti misalnya pada artikel berikut: https://rpubs.com/alfanugraha/r-graph. Artikel tersebut membahas lebih dalam mengenai visualisasi dan grafik di R, mulai dari grafik dasar dengan fungsi `plot()`, `ggplot2()`, dan `ggplot()`, bahkan penerapan visualisasi spasial seperti peta.
+
+Sampai jumpa lagi di artikel saya yang lain.  
+See ya!
+
+---
+_By the way_, artikel ini saya buat dengan tampilan **Debian Desktop XFCE**:  
+![debian_buuf](/rstudio-basic/debian_buuf.png)
+
 
 [^1]: https://www.r-project.org/about.html
 [^2]: https://libguides.library.kent.edu/statconsulting/r
@@ -342,3 +378,4 @@ Hasilnya:
 [^8]: https://chatgpt.com/
 [^9]: https://www.geeksforgeeks.org/how-to-install-r-studio-on-windows-and-linux/
 [^10]: https://rladiessydney.org/courses/ryouwithme/01-basicbasics-2/
+[^11]: https://rpubs.com/alfanugraha/r-graph

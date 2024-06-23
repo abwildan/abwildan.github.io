@@ -80,7 +80,7 @@ No Distro Install 1 Debian/Ubuntu sudo apt install polybar 2 Arch sudo pacman -S
 Kalau kalian mengunjungi repo tersebut, kalian akan menemukan keindahan-keindahan sebuah window manager bernama openbox di sana. Keindahan yang saya maksud di sini bukan keindahan biasa, tapi keindahan yang muncul dari kesederhanaan namun mampu memberikan kesan elegan dan nostalgic (oke, setidaknya ini menurut saya pribadi, hehe).</description>
     </item>
     <item>
-      <title>Scihub - Bypassing Article Journal Paywall</title>
+      <title>Bypassing Article Journal Paywall using Scihub</title>
       <link>http://localhost:1313/post/scihub/</link>
       <pubDate>Tue, 21 May 2024 09:10:19 +0700</pubDate>
       <guid>http://localhost:1313/post/scihub/</guid>

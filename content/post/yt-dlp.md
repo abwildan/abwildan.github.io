@@ -25,9 +25,13 @@ D. Mengunduh langsung di aplikasi Youtube.
 
 Perkenalkan, **`yt-dlp`** adalah sebuah program berbasis *open source* yang kurang lebih fungsinya adalah untuk menjawab pertanyaan-pertanyaan serupa seperti yang ada di atas sebelumnya. Seperti yang tertera pada judul, **`yt-dlp`** adalah program berbasis *command line* yang kaya akan fitur-fiturnya untuk mengunduh audio dan juga video. Perlu diketahui juga bahwa **`yt-dlp`** merupakan *project* fork dari program *project* / program aslinya (yang juga *open source* dan berbasis cli), yaitu **`youtube-dl`**.      
 
-Berikut adalah tautan project **`ytd-dlp`** di github:  
-https://github.com/yt-dlp/yt-dlp
+> **Note:**  
+> Berikut adalah tautan project **`ytd-dlp`** di github:  
+> https://github.com/yt-dlp/yt-dlp
 
+Meskipun namanya **`yt-dlp`** (yang mana kita bisa duga, bagian "yt"-nya adalah akronim dari Youtube), tapi *tool* ini dapat digunakan juga untuk mengunduh audio/video dari platform lain, seperti BiliBili, IQIYI, Crunchyroll, Facebok, Instagram, Pinterest, Tiktok, Twitter, dan masih banyak lagi.
+
+Selangkapnya, baca [di sini](https://github.com/yt-dlp/yt-dlp/blob/master/supportedsites.md)[^1].
 
 # How to Install It?
 
@@ -68,6 +72,8 @@ Jika kalian ingin mencari tahu lebih jauh tentang kegunaan tools ini, sila kunju
 
 ## Mengunduh video Youtube
 
+### Default
+
 Kita bisa gunakan perintah
 ```shell
 yt-dlp <link video youtube>
@@ -76,12 +82,16 @@ untuk mengunduh video dengan format default, yaitu `.webm`.
 
 ![ss1](/yt-dlp/ss1.png)
 
+### Spesific Format
+
 Kalau ingin spesifik dengan format tertentu, kita bisa tambahkan flag `-f` atau `--format` disertai dengan format yang diinginkan, misalnya `mp4`:
 ```shell
 yt-dlp -f mp4 <link video youtube>
 ```
 
 ![ss2](/yt-dlp/ss2.png)
+
+### Audio Only
 
 Untuk mengekstrak audio-nya saja dari video, kita bisa gunakan flag `-x` untuk mengekstrak audio-nya dan menambahkan flag `audio-format` disertai format audio yang diinginkan, misalnya `mp3`:
 ```shell
@@ -93,3 +103,6 @@ yt-dlp -x --audio-format mp3 <link video youtube>
 Yaa, sekian dulu, hehe.  
 
 > **Note:** Artikel ini akan saya perbarui.
+
+
+[^1]: https://github.com/yt-dlp/yt-dlp

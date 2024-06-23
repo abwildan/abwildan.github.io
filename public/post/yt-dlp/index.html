@@ -132,7 +132,7 @@ Perkenalkan, yt-dlp adalah sebuah program berbasis open source yang kurang lebih
     <h1 class="post-title entry-hint-parent">
       A Feature Rich Command Line Audio/Video Downloader: YT-DLP
     </h1>
-    <div class="post-meta"><span title='2024-06-23 00:49:55 -0400 EDT'>June 23, 2024</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Wildan
+    <div class="post-meta"><span title='2024-06-23 00:49:55 -0400 EDT'>June 23, 2024</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Wildan
 
 </div>
   </header> 
@@ -162,8 +162,17 @@ Perkenalkan, yt-dlp adalah sebuah program berbasis open source yang kurang lebih
                     <a href="#how-to-use-it" aria-label="How to use it?">How to use it?</a><ul>
                         
                 <li>
-                    <a href="#mengunduh-video-youtube" aria-label="Mengunduh video Youtube">Mengunduh video Youtube</a>
+                    <a href="#mengunduh-video-youtube" aria-label="Mengunduh video Youtube">Mengunduh video Youtube</a><ul>
+                        
+                <li>
+                    <a href="#default" aria-label="Default">Default</a></li>
+                <li>
+                    <a href="#spesific-format" aria-label="Spesific Format">Spesific Format</a></li>
+                <li>
+                    <a href="#audio-only" aria-label="Audio Only">Audio Only</a>
                 </li>
+            </ul>
+            </li>
             </ul>
             </li>
             </ul>
@@ -181,8 +190,13 @@ D. Mengunduh langsung di aplikasi Youtube.</p>
 <em><strong>Bagaimana kalau kalian hanya ingin mengunduh audionya saja?</strong></em><br>
 <em><strong>Bagaimana jika videonya ada di platform selain Youtube?</strong></em></p>
 <p>Perkenalkan, <strong><code>yt-dlp</code></strong> adalah sebuah program berbasis <em>open source</em> yang kurang lebih fungsinya adalah untuk menjawab pertanyaan-pertanyaan serupa seperti yang ada di atas sebelumnya. Seperti yang tertera pada judul, <strong><code>yt-dlp</code></strong> adalah program berbasis <em>command line</em> yang kaya akan fitur-fiturnya untuk mengunduh audio dan juga video. Perlu diketahui juga bahwa <strong><code>yt-dlp</code></strong> merupakan <em>project</em> fork dari program <em>project</em> / program aslinya (yang juga <em>open source</em> dan berbasis cli), yaitu <strong><code>youtube-dl</code></strong>.</p>
-<p>Berikut adalah tautan project <strong><code>ytd-dlp</code></strong> di github:<br>
+<blockquote>
+<p><strong>Note:</strong><br>
+Berikut adalah tautan project <strong><code>ytd-dlp</code></strong> di github:<br>
 <a href="https://github.com/yt-dlp/yt-dlp">https://github.com/yt-dlp/yt-dlp</a></p>
+</blockquote>
+<p>Meskipun namanya <strong><code>yt-dlp</code></strong> (yang mana kita bisa duga, bagian &ldquo;yt&rdquo;-nya adalah akronim dari Youtube), tapi <em>tool</em> ini dapat digunakan juga untuk mengunduh audio/video dari platform lain, seperti BiliBili, IQIYI, Crunchyroll, Facebok, Instagram, Pinterest, Tiktok, Twitter, dan masih banyak lagi.</p>
+<p>Selangkapnya, baca <a href="https://github.com/yt-dlp/yt-dlp/blob/master/supportedsites.md">di sini</a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.</p>
 <h1 id="how-to-install-it">How to Install It?<a hidden class="anchor" aria-hidden="true" href="#how-to-install-it">#</a></h1>
 <p>Instalasinya cukup mudah karena <strong><code>yt-dlp</code></strong> <em>support</em> untuk sistem operasi yang desktop, seperti Windows, Mac, dan Linux tentu saja.</p>
 <h2 id="linux-installation">Linux Installation<a hidden class="anchor" aria-hidden="true" href="#linux-installation">#</a></h2>
@@ -229,15 +243,18 @@ D. Mengunduh langsung di aplikasi Youtube.</p>
 <p>Cara menggunakannya tentu bergantung dengan kebutuhan yang diperlukan. Saya hanya akan membahas beberapa penggunaan sederhana yang sehari-hati biasa saya lakukan saja karena kalau saya membahas semuanya, tentu artikel ini menjadi sangat panjang dan tidak efektif.</p>
 <p>Jika kalian ingin mencari tahu lebih jauh tentang kegunaan tools ini, sila kunjungi repo github resminya yang sudah saya berikan di awal artikel.</p>
 <h2 id="mengunduh-video-youtube">Mengunduh video Youtube<a hidden class="anchor" aria-hidden="true" href="#mengunduh-video-youtube">#</a></h2>
+<h3 id="default">Default<a hidden class="anchor" aria-hidden="true" href="#default">#</a></h3>
 <p>Kita bisa gunakan perintah</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>yt-dlp &lt;link video youtube&gt;
 </span></span></code></pre></div><p>untuk mengunduh video dengan format default, yaitu <code>.webm</code>.</p>
 <p><img loading="lazy" src="/yt-dlp/ss1.png" alt="ss1"  />
 </p>
+<h3 id="spesific-format">Spesific Format<a hidden class="anchor" aria-hidden="true" href="#spesific-format">#</a></h3>
 <p>Kalau ingin spesifik dengan format tertentu, kita bisa tambahkan flag <code>-f</code> atau <code>--format</code> disertai dengan format yang diinginkan, misalnya <code>mp4</code>:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>yt-dlp -f mp4 &lt;link video youtube&gt;
 </span></span></code></pre></div><p><img loading="lazy" src="/yt-dlp/ss2.png" alt="ss2"  />
 </p>
+<h3 id="audio-only">Audio Only<a hidden class="anchor" aria-hidden="true" href="#audio-only">#</a></h3>
 <p>Untuk mengekstrak audio-nya saja dari video, kita bisa gunakan flag <code>-x</code> untuk mengekstrak audio-nya dan menambahkan flag <code>audio-format</code> disertai format audio yang diinginkan, misalnya <code>mp3</code>:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>yt-dlp -x --audio-format mp3 &lt;link video youtube&gt;
 </span></span></code></pre></div><p><img loading="lazy" src="/yt-dlp/ss3.png" alt="ss3"  />
@@ -246,6 +263,14 @@ D. Mengunduh langsung di aplikasi Youtube.</p>
 <blockquote>
 <p><strong>Note:</strong> Artikel ini akan saya perbarui.</p>
 </blockquote>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p><a href="https://github.com/yt-dlp/yt-dlp">https://github.com/yt-dlp/yt-dlp</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
 
 
   </div>

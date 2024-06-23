@@ -1,5 +1,5 @@
 ---
-title: "Scihub - Bypassing Article Journal Paywall"
+title: "Bypassing Article Journal Paywall using Scihub"
 date: 2024-05-21T09:10:19+07:00
 draft: false		
 cover: 

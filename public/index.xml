@@ -6,8 +6,23 @@
     <description>Recent content on Wildan&#39;s Workspace</description>
     <generator>Hugo -- 0.127.0</generator>
     <language>en-US</language>
-    <lastBuildDate>Thu, 13 Jun 2024 11:56:25 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 23 Jun 2024 00:49:55 -0400</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Feature Rich Command Line Audio/Video Downloader: YT-DLP</title>
+      <link>http://localhost:1313/post/yt-dlp/</link>
+      <pubDate>Sun, 23 Jun 2024 00:49:55 -0400</pubDate>
+      <guid>http://localhost:1313/post/yt-dlp/</guid>
+      <description>What Is It? Apa yang akan kalian lakukan kalau mau mengunduh video Youtube?
+A. Mengunjungi website seperti savefrom, savetube, y2meta, ssyoutube, dll.
+B. Mengunduh aplikasi seperti MediaHuman, Open Video Downloader, dll.
+C. Memutar videonya via VLC Player.
+D. Mengunduh langsung di aplikasi Youtube.
+Bisakah kalian menentukan format videonya juga?
+Bagaimana kalau kalian hanya ingin mengunduh audionya saja?
+Bagaimana jika videonya ada di platform selain Youtube?
+Perkenalkan, yt-dlp adalah sebuah program berbasis open source yang kurang lebih fungsinya adalah untuk menjawab pertanyaan-pertanyaan serupa seperti yang ada di atas sebelumnya.</description>
+    </item>
     <item>
       <title>RStudio Basic: From Installation to Data Visualization</title>
       <link>http://localhost:1313/post/rstudio-basic/</link>

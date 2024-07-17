@@ -6,7 +6,7 @@ cover:
   image: "/tty/cover.png"
   alt: "tty"
   caption: "tty"
-tags: ["tty, linux, login, display manager"]
+tags: ["tty", "linux", "login", "display manager"]
 categories: ["tty"]
 ---
 

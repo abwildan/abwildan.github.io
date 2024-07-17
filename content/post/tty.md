@@ -57,7 +57,7 @@ systemctl status lightdm
 ```
 ![ss2](/tty/ss2.png)
 
-Display manager sudah berhasil di-deaktivasi.
+*Display manager* sudah berhasil di-*disabled*.
 
 ### 2. Modify `/etc/issue`
 

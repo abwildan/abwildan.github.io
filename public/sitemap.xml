@@ -3,10 +3,40 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2024-06-13T11:56:25-04:00</lastmod>
+    <lastmod>2024-07-17T15:06:15+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/tty/</loc>
+    <lastmod>2024-07-17T15:06:15+07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/</loc>
-    <lastmod>2024-06-13T11:56:25-04:00</lastmod>
+    <lastmod>2024-07-17T15:06:15+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-07-17T15:06:15+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/tty/</loc>
+    <lastmod>2024-07-17T15:06:15+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/tty-linux-login-display-manager/</loc>
+    <lastmod>2024-07-17T15:06:15+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2024-07-17T15:06:15+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/yt-dlp/</loc>
+    <lastmod>2024-06-23T00:49:55-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/linux/</loc>
+    <lastmod>2024-06-23T00:49:55-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/video/</loc>
+    <lastmod>2024-06-23T00:49:55-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/yt-dlp/</loc>
+    <lastmod>2024-06-23T00:49:55-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/yt-dlp/</loc>
+    <lastmod>2024-06-23T00:49:55-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/programming/</loc>
     <lastmod>2024-06-13T11:56:25-04:00</lastmod>
@@ -23,19 +53,10 @@
     <loc>http://localhost:1313/post/rstudio-basic/</loc>
     <lastmod>2024-06-13T11:56:25-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2024-06-13T11:56:25-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2024-06-13T11:56:25-04:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/cool/</loc>
     <lastmod>2024-06-09T16:59:47+07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/cooltools/</loc>
-    <lastmod>2024-06-09T16:59:47+07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/linux/</loc>
     <lastmod>2024-06-09T16:59:47+07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/linux/</loc>
@@ -110,6 +131,9 @@
     <loc>http://localhost:1313/tags/window-manager/</loc>
     <lastmod>2024-05-30T01:49:56+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/post/scihub/</loc>
+    <lastmod>2024-05-21T09:10:19+07:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/journal/</loc>
     <lastmod>2024-05-21T09:10:19+07:00</lastmod>
   </url><url>
@@ -117,9 +141,6 @@
     <lastmod>2024-05-21T09:10:19+07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/scihub/</loc>
-    <lastmod>2024-05-21T09:10:19+07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/scihub/</loc>
     <lastmod>2024-05-21T09:10:19+07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/cyber-security/</loc>

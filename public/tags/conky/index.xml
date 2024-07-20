@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Conky on Wildan&#39;s Workspace</title>
+    <link>http://localhost:1313/tags/conky/</link>
+    <description>Recent content in Conky on Wildan&#39;s Workspace</description>
+    <generator>Hugo -- 0.128.2</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sat, 20 Jul 2024 11:16:26 +0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/conky/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Enhancing Your Linux Desktop with Conky</title>
+      <link>http://localhost:1313/post/conky/</link>
+      <pubDate>Sat, 20 Jul 2024 11:16:26 +0700</pubDate>
+      <guid>http://localhost:1313/post/conky/</guid>
+      <description>Tentang Conky, meskipun terdengar seperti singkatan &amp;ldquo;Pocong Pinky&amp;rdquo;, sebetulnya adalah program monitor sistem untuk linux desktop1. Kalau merujuk pada repositori resminya di Github, Conky dinyatakan sebagai berikut:
+Conky is a free, light-weight system monitor for X, that displays any kind of information on your desktop2.
+Jadi, dapat disimpulkan bahwa Conky pada dasarnya adalah sebuah program untuk menampilkan monitoring sistem di layar desktop. Apa saja &amp;ldquo;sistem&amp;rdquo; yang bisa ditampilkan oleh Conky? Well, menurut definisi di atas, &amp;ldquo;&amp;hellip;that display any kind of information&amp;hellip;&amp;rdquo;, artinya, informasi apapun dapat ditampilkan via Conky, mulai dari info terkait CPU, RAM, Disk, Date/Time, Weather, dan lain-lain.</description>
+    </item>
+  </channel>
+</rss>

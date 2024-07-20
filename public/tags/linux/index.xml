@@ -6,8 +6,25 @@
     <description>Recent content in Linux on Wildan&#39;s Workspace</description>
     <generator>Hugo -- 0.128.2</generator>
     <language>en-US</language>
-    <lastBuildDate>Sun, 23 Jun 2024 00:49:55 -0400</lastBuildDate>
+    <lastBuildDate>Sat, 20 Jul 2024 11:16:26 +0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Enhancing Your Linux Desktop with Conky</title>
+      <link>http://localhost:1313/post/conky/</link>
+      <pubDate>Sat, 20 Jul 2024 11:16:26 +0700</pubDate>
+      <guid>http://localhost:1313/post/conky/</guid>
+      <description>Tentang Conky, meskipun terdengar seperti singkatan &amp;ldquo;Pocong Pinky&amp;rdquo;, sebetulnya adalah program monitor sistem untuk linux desktop1. Kalau merujuk pada repositori resminya di Github, Conky dinyatakan sebagai berikut:
+Conky is a free, light-weight system monitor for X, that displays any kind of information on your desktop2.
+Jadi, dapat disimpulkan bahwa Conky pada dasarnya adalah sebuah program untuk menampilkan monitoring sistem di layar desktop. Apa saja &amp;ldquo;sistem&amp;rdquo; yang bisa ditampilkan oleh Conky? Well, menurut definisi di atas, &amp;ldquo;&amp;hellip;that display any kind of information&amp;hellip;&amp;rdquo;, artinya, informasi apapun dapat ditampilkan via Conky, mulai dari info terkait CPU, RAM, Disk, Date/Time, Weather, dan lain-lain.</description>
+    </item>
+    <item>
+      <title>Log in to Your System with (Stunning) TTY</title>
+      <link>http://localhost:1313/post/tty/</link>
+      <pubDate>Wed, 17 Jul 2024 15:06:15 +0700</pubDate>
+      <guid>http://localhost:1313/post/tty/</guid>
+      <description>About Login Interface &amp;amp; TTY Ketika kita akan login ke sebuah sistem, kita biasanya disuguhkan interface untuk memasukkan kredensial login kita (username &amp;amp; password), kan? Umumnya, interface yang biasa digunakan untuk login tersebut berbasis GUI (Graphical User Interface). Interface login berbasis GUI itulah yang kemudian dikenal (di komunitas linux, terutama) dengan istilah display manager1.
+Beberapa display manager yang populer digunakan misalnya ada sddm, lightdm, gdm, lxdm, dan masih banyak lagi. Biasanya, ketika kita meng-install sebuah desktop environment2 atau DE, package display manager default-nya juga pasti akan ter-install.</description>
+    </item>
     <item>
       <title>A Feature Rich Command Line Audio/Video Downloader: YT-DLP</title>
       <link>http://localhost:1313/post/yt-dlp/</link>

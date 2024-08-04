@@ -1,7 +1,7 @@
 +++
 title= "Trying Out A Flavor of New Hugo Theme: Kayal"
 date= 2024-08-04T13:54:17Z
-draft= false
+draft= true
 cover= ""
 summary= "Kayal Hugo's  theme for me looks modern yet calm for a blog site. I got curious somehow and trying it out. Fortunately, I really like that theme. So, here is my thoughts about it..."
 tags = ["hugo", "kayal", "theme"]

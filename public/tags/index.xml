@@ -6,27 +6,20 @@
     <description>Recent content in Tags on Wildan&#39;s Workspace</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 04 Aug 2024 13:54:17 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Aug 2024 07:59:33 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Hugo</title>
-      <link>http://localhost:1313/tags/hugo/</link>
-      <pubDate>Sun, 04 Aug 2024 13:54:17 +0000</pubDate>
-      <guid>http://localhost:1313/tags/hugo/</guid>
+      <title>Chess</title>
+      <link>http://localhost:1313/tags/chess/</link>
+      <pubDate>Fri, 02 Aug 2024 07:59:33 +0000</pubDate>
+      <guid>http://localhost:1313/tags/chess/</guid>
       <description></description>
     </item>
     <item>
-      <title>Kayal</title>
-      <link>http://localhost:1313/tags/kayal/</link>
-      <pubDate>Sun, 04 Aug 2024 13:54:17 +0000</pubDate>
-      <guid>http://localhost:1313/tags/kayal/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Theme</title>
-      <link>http://localhost:1313/tags/theme/</link>
-      <pubDate>Sun, 04 Aug 2024 13:54:17 +0000</pubDate>
-      <guid>http://localhost:1313/tags/theme/</guid>
+      <title>Intro</title>
+      <link>http://localhost:1313/tags/intro/</link>
+      <pubDate>Fri, 02 Aug 2024 07:59:33 +0000</pubDate>
+      <guid>http://localhost:1313/tags/intro/</guid>
       <description></description>
     </item>
     <item>
@@ -384,6 +377,13 @@
       <link>http://localhost:1313/tags/video-converter/</link>
       <pubDate>Wed, 11 Oct 2023 00:40:23 +0700</pubDate>
       <guid>http://localhost:1313/tags/video-converter/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hugo</title>
+      <link>http://localhost:1313/tags/hugo/</link>
+      <pubDate>Mon, 09 Oct 2023 15:22:46 +0700</pubDate>
+      <guid>http://localhost:1313/tags/hugo/</guid>
       <description></description>
     </item>
     <item>

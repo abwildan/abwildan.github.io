@@ -6,15 +6,8 @@
     <description>Recent content in Hugo on Wildan&#39;s Workspace</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 04 Aug 2024 13:54:17 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Oct 2023 15:22:46 +0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Trying Out A Flavor of New Hugo Theme: Kayal</title>
-      <link>http://localhost:1313/tech/kayal/</link>
-      <pubDate>Sun, 04 Aug 2024 13:54:17 +0000</pubDate>
-      <guid>http://localhost:1313/tech/kayal/</guid>
-      <description>Kayal Hugo&amp;rsquo;s  theme for me looks modern yet calm for a blog site. I got curious somehow and trying it out. Fortunately, I really like that theme. So, here is my thoughts about it&amp;hellip;</description>
-    </item>
     <item>
       <title>Hugo (Papermod) Advanced</title>
       <link>http://localhost:1313/post/hugo-advanced/</link>

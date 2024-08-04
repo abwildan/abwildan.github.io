@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Rofi on Wildan&#39;s Workspace</title>
-    <link>https://wildanhaq.github.io/tags/rofi/</link>
+    <link>http://localhost:1313/tags/rofi/</link>
     <description>Recent content in Rofi on Wildan&#39;s Workspace</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 04 May 2024 10:38:46 +0700</lastBuildDate>
-    <atom:link href="https://wildanhaq.github.io/tags/rofi/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/rofi/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Rofi - Beautiful &amp; Modern App Launcher</title>
-      <link>https://wildanhaq.github.io/post/rofi/</link>
+      <link>http://localhost:1313/post/rofi/</link>
       <pubDate>Sat, 04 May 2024 10:38:46 +0700</pubDate>
-      <guid>https://wildanhaq.github.io/post/rofi/</guid>
+      <guid>http://localhost:1313/post/rofi/</guid>
       <description>What is Rofi?&#xA;Kenalan dengan Rofi Teman kalian mungkin ada yang namanya Rofi. Tapi, tentu saja artikel ini tidak sedang menggosipkan Rofi sebagai manusia, tapi Rofi sebagai sebuah program, xixi.</description>
     </item>
     <item>
       <title>Rofi - Beautiful &amp; Modern App Launcher</title>
-      <link>https://wildanhaq.github.io/tech/rofi/</link>
+      <link>http://localhost:1313/tech/rofi/</link>
       <pubDate>Sat, 04 May 2024 10:38:46 +0700</pubDate>
-      <guid>https://wildanhaq.github.io/tech/rofi/</guid>
+      <guid>http://localhost:1313/tech/rofi/</guid>
       <description>What is Rofi?&#xA;Kenalan dengan Rofi Teman kalian mungkin ada yang namanya Rofi. Tapi, tentu saja artikel ini tidak sedang menggosipkan Rofi sebagai manusia, tapi Rofi sebagai sebuah program, xixi.</description>
     </item>
   </channel>

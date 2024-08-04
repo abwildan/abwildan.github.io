@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hacking on Wildan&#39;s Workspace</title>
-    <link>https://wildanhaq.github.io/categories/hacking/</link>
+    <link>http://localhost:1313/categories/hacking/</link>
     <description>Recent content in Hacking on Wildan&#39;s Workspace</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 21 Mar 2024 18:54:33 +0700</lastBuildDate>
-    <atom:link href="https://wildanhaq.github.io/categories/hacking/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/hacking/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Eternalblue (MS17-010) - SMBv1&#39;s Exploit</title>
-      <link>https://wildanhaq.github.io/post/eternalblue/</link>
+      <link>http://localhost:1313/post/eternalblue/</link>
       <pubDate>Thu, 21 Mar 2024 18:54:33 +0700</pubDate>
-      <guid>https://wildanhaq.github.io/post/eternalblue/</guid>
+      <guid>http://localhost:1313/post/eternalblue/</guid>
       <description>Sejarah (Singkat) Apa itu Eternalblue?&#xA;Eternalblue atau oleh Microsoft disebut dengan MS17-010 adalah sebuah exploit yang dapat digunakan untuk menyebarkan malware pada sebuah mesin Windows.</description>
     </item>
     <item>
       <title>Eternalblue (MS17-010) - SMBv1&#39;s Exploit</title>
-      <link>https://wildanhaq.github.io/tech/eternalblue/</link>
+      <link>http://localhost:1313/tech/eternalblue/</link>
       <pubDate>Thu, 21 Mar 2024 18:54:33 +0700</pubDate>
-      <guid>https://wildanhaq.github.io/tech/eternalblue/</guid>
+      <guid>http://localhost:1313/tech/eternalblue/</guid>
       <description>Sejarah (Singkat) Apa itu Eternalblue?&#xA;Eternalblue atau oleh Microsoft disebut dengan MS17-010 adalah sebuah exploit yang dapat digunakan untuk menyebarkan malware pada sebuah mesin Windows.</description>
     </item>
   </channel>

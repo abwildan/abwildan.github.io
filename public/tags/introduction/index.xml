@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Introduction on Wildan&#39;s Workspace</title>
-    <link>https://wildanhaq.github.io/tags/introduction/</link>
+    <link>http://localhost:1313/tags/introduction/</link>
     <description>Recent content in Introduction on Wildan&#39;s Workspace</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 07 Oct 2023 13:17:32 +0700</lastBuildDate>
-    <atom:link href="https://wildanhaq.github.io/tags/introduction/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/introduction/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>😃 About Me</title>
-      <link>https://wildanhaq.github.io/whoami/</link>
+      <link>http://localhost:1313/whoami/</link>
       <pubDate>Sat, 07 Oct 2023 13:17:32 +0700</pubDate>
-      <guid>https://wildanhaq.github.io/whoami/</guid>
+      <guid>http://localhost:1313/whoami/</guid>
       <description>Hello there!&#xA;My name is Wildan and I am a master of communication student at Telkom University . My research interests are in human resources, health communication, and social network analysis.</description>
     </item>
   </channel>

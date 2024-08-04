@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Instal on Wildan&#39;s Workspace</title>
-    <link>https://wildanhaq.github.io/tags/instal/</link>
+    <link>http://localhost:1313/tags/instal/</link>
     <description>Recent content in Instal on Wildan&#39;s Workspace</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 15 Apr 2024 07:45:05 +0700</lastBuildDate>
-    <atom:link href="https://wildanhaq.github.io/tags/instal/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/instal/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Debian Linux Installation in Virtualbox</title>
-      <link>https://wildanhaq.github.io/post/debian-installation/</link>
+      <link>http://localhost:1313/post/debian-installation/</link>
       <pubDate>Mon, 15 Apr 2024 07:45:05 +0700</pubDate>
-      <guid>https://wildanhaq.github.io/post/debian-installation/</guid>
+      <guid>http://localhost:1313/post/debian-installation/</guid>
       <description>Pra Instalasi Hola!&#xA;Kali ini saya akan memberikan tutorial instalasi salah satu distro linux legendaris, Debian. Saya akan menginstall Debian sebagai VM (virtual machine) di Virtualbox.</description>
     </item>
     <item>
       <title>Debian Linux Installation in Virtualbox</title>
-      <link>https://wildanhaq.github.io/tech/debian-installation/</link>
+      <link>http://localhost:1313/tech/debian-installation/</link>
       <pubDate>Mon, 15 Apr 2024 07:45:05 +0700</pubDate>
-      <guid>https://wildanhaq.github.io/tech/debian-installation/</guid>
+      <guid>http://localhost:1313/tech/debian-installation/</guid>
       <description>Pra Instalasi Hola!&#xA;Kali ini saya akan memberikan tutorial instalasi salah satu distro linux legendaris, Debian. Saya akan menginstall Debian sebagai VM (virtual machine) di Virtualbox.</description>
     </item>
   </channel>

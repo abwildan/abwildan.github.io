@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ricing on Wildan&#39;s Workspace</title>
-    <link>https://wildanhaq.github.io/categories/ricing/</link>
+    <link>http://localhost:1313/categories/ricing/</link>
     <description>Recent content in Ricing on Wildan&#39;s Workspace</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 28 Apr 2024 14:21:13 +0700</lastBuildDate>
-    <atom:link href="https://wildanhaq.github.io/categories/ricing/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/ricing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Linux Ricing?</title>
-      <link>https://wildanhaq.github.io/post/rice/</link>
+      <link>http://localhost:1313/post/rice/</link>
       <pubDate>Sun, 28 Apr 2024 14:21:13 +0700</pubDate>
-      <guid>https://wildanhaq.github.io/post/rice/</guid>
+      <guid>http://localhost:1313/post/rice/</guid>
       <description>Hola!&#xA;Teman-teman familiar dengan istilah rice atau Linux ricing?&#xA;Tidak seperti makna dari terjemah harfiahnya yang berarti nasi atau menasikan Linux, istilah rice atau Linux Ricing punya makna yang boleh dibilang eksklusif dan kontekstual.</description>
     </item>
     <item>
       <title>Linux Ricing?</title>
-      <link>https://wildanhaq.github.io/tech/rice/</link>
+      <link>http://localhost:1313/tech/rice/</link>
       <pubDate>Sun, 28 Apr 2024 14:21:13 +0700</pubDate>
-      <guid>https://wildanhaq.github.io/tech/rice/</guid>
+      <guid>http://localhost:1313/tech/rice/</guid>
       <description>Hola!&#xA;Teman-teman familiar dengan istilah rice atau Linux ricing?&#xA;Tidak seperti makna dari terjemah harfiahnya yang berarti nasi atau menasikan Linux, istilah rice atau Linux Ricing punya makna yang boleh dibilang eksklusif dan kontekstual.</description>
     </item>
   </channel>

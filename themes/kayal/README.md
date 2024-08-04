@@ -27,6 +27,7 @@ Source for the Demo site is available in [exampleSite](https://github.com/mnjm/k
 - Google Analytics
 - SVG Icons from FontAwesome 6
 - SEO Friendly.
+- Breadcrumbs
 - Extensibility: Includes placeholders for
     - Custom Homepage
     - Other Analytics
@@ -34,7 +35,7 @@ Source for the Demo site is available in [exampleSite](https://github.com/mnjm/k
     - Custom CSS
     - Custom header
 - Site hosted assets / no CDNs
-- And Many more...
+- And many more...
 
 ## Installation
 Kayal supports several installation methods: as a git submodule, a Hugo Module, or through manual installation.
@@ -44,7 +45,7 @@ Detailed instructions on how to install Kayal can be found in [Installation](htt
 1. In your Hugo site directory, run the following command:
 
     ```bash
-    git submodule add -b main https://github.com/mnjm/kayal.git themes/kayal --depth 1
+    git submodule add -b main https://github.com/mnjm/kayal.git themes/kayal
     ```
 
 2. Copy config files from `themes/kayal/config/_default` to `config/_default` at the root of your Hugo project. Make necessary configuration changes in these files. Refer to [Configuration](https://mnjm.github.io/kayal/docs/configuration/) on the demo site for more information.

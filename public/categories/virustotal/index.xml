@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Virustotal on Wildan&#39;s Workspace</title>
-    <link>https://wildanhaq.github.io/categories/virustotal/</link>
+    <link>http://localhost:1313/categories/virustotal/</link>
     <description>Recent content in Virustotal on Wildan&#39;s Workspace</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 19 Mar 2024 21:43:27 +0700</lastBuildDate>
-    <atom:link href="https://wildanhaq.github.io/categories/virustotal/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/virustotal/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Virustotal - Platform untuk Scanning Virus</title>
-      <link>https://wildanhaq.github.io/post/virustotal/</link>
+      <link>http://localhost:1313/post/virustotal/</link>
       <pubDate>Tue, 19 Mar 2024 21:43:27 +0700</pubDate>
-      <guid>https://wildanhaq.github.io/post/virustotal/</guid>
+      <guid>http://localhost:1313/post/virustotal/</guid>
       <description>Overview Virustotal adalah salah satu website terbaik untuk melakukan identifikasi terhadap suatu file/software/aplikasi dan url, apakah mengandung virus atau malware (malicious software) atau tidak.</description>
     </item>
     <item>
       <title>Virustotal - Platform untuk Scanning Virus</title>
-      <link>https://wildanhaq.github.io/tech/virustotal/</link>
+      <link>http://localhost:1313/tech/virustotal/</link>
       <pubDate>Tue, 19 Mar 2024 21:43:27 +0700</pubDate>
-      <guid>https://wildanhaq.github.io/tech/virustotal/</guid>
+      <guid>http://localhost:1313/tech/virustotal/</guid>
       <description>Overview Virustotal adalah salah satu website terbaik untuk melakukan identifikasi terhadap suatu file/software/aplikasi dan url, apakah mengandung virus atau malware (malicious software) atau tidak.</description>
     </item>
   </channel>

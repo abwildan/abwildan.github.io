@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Screen Recorder on Wildan&#39;s Workspace</title>
-    <link>https://wildanhaq.github.io/tags/screen-recorder/</link>
+    <link>http://localhost:1313/tags/screen-recorder/</link>
     <description>Recent content in Screen Recorder on Wildan&#39;s Workspace</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 08 Mar 2024 14:55:26 +0700</lastBuildDate>
-    <atom:link href="https://wildanhaq.github.io/tags/screen-recorder/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/screen-recorder/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Recordmydesktop - Screen Recorder based on CLI</title>
-      <link>https://wildanhaq.github.io/post/recordmydesktop/</link>
+      <link>http://localhost:1313/post/recordmydesktop/</link>
       <pubDate>Fri, 08 Mar 2024 14:55:26 +0700</pubDate>
-      <guid>https://wildanhaq.github.io/post/recordmydesktop/</guid>
+      <guid>http://localhost:1313/post/recordmydesktop/</guid>
       <description>Tepat pada tanggal 10 Oktober 2023 lalu, saya membuat tutorial merekam layar (screen recorder) desktop menggunakan program ffmpeg. Hanya saja, hingga saat ini, ada dua kelemahan ffmpeg yang belum dapat saya temukan solusinya ketika berbicara tentang dekstop screen recorder.</description>
     </item>
     <item>
       <title>Recordmydesktop - Screen Recorder based on CLI</title>
-      <link>https://wildanhaq.github.io/tech/recordmydesktop/</link>
+      <link>http://localhost:1313/tech/recordmydesktop/</link>
       <pubDate>Fri, 08 Mar 2024 14:55:26 +0700</pubDate>
-      <guid>https://wildanhaq.github.io/tech/recordmydesktop/</guid>
+      <guid>http://localhost:1313/tech/recordmydesktop/</guid>
       <description>Tepat pada tanggal 10 Oktober 2023 lalu, saya membuat tutorial merekam layar (screen recorder) desktop menggunakan program ffmpeg. Hanya saja, hingga saat ini, ada dua kelemahan ffmpeg yang belum dapat saya temukan solusinya ketika berbicara tentang dekstop screen recorder.</description>
     </item>
     <item>
       <title>Screen Recorder with FFmpeg</title>
-      <link>https://wildanhaq.github.io/post/ffmpeg-sr/</link>
+      <link>http://localhost:1313/post/ffmpeg-sr/</link>
       <pubDate>Tue, 10 Oct 2023 09:13:32 +0700</pubDate>
-      <guid>https://wildanhaq.github.io/post/ffmpeg-sr/</guid>
+      <guid>http://localhost:1313/post/ffmpeg-sr/</guid>
       <description>Kali ini, saya akan memberi tahu cara merekam layar desktop laptop atau komputer kita dengan FFmpeg. Apa itu FFmpeg? Penjelasan detail-nya tentu saja bisa didapatkan langsung dari website resminya di sini1.</description>
     </item>
     <item>
       <title>Screen Recorder with FFmpeg</title>
-      <link>https://wildanhaq.github.io/tech/ffmpeg-sr/</link>
+      <link>http://localhost:1313/tech/ffmpeg-sr/</link>
       <pubDate>Tue, 10 Oct 2023 09:13:32 +0700</pubDate>
-      <guid>https://wildanhaq.github.io/tech/ffmpeg-sr/</guid>
+      <guid>http://localhost:1313/tech/ffmpeg-sr/</guid>
       <description>Kali ini, saya akan memberi tahu cara merekam layar desktop laptop atau komputer kita dengan FFmpeg. Apa itu FFmpeg? Penjelasan detail-nya tentu saja bisa didapatkan langsung dari website resminya di sini1.</description>
     </item>
   </channel>

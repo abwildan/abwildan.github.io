@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Openbox on Wildan&#39;s Workspace</title>
-    <link>https://wildanhaq.github.io/categories/openbox/</link>
+    <link>http://localhost:1313/categories/openbox/</link>
     <description>Recent content in Openbox on Wildan&#39;s Workspace</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 30 May 2024 01:49:56 +0000</lastBuildDate>
-    <atom:link href="https://wildanhaq.github.io/categories/openbox/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/openbox/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Openbox - Simple and Easy Window Manager for Beginners</title>
-      <link>https://wildanhaq.github.io/post/openbox/</link>
+      <link>http://localhost:1313/post/openbox/</link>
       <pubDate>Thu, 30 May 2024 01:49:56 +0000</pubDate>
-      <guid>https://wildanhaq.github.io/post/openbox/</guid>
+      <guid>http://localhost:1313/post/openbox/</guid>
       <description>Dari 1-10 (dengan skala 1: paling tidak cantik dan 10: paling cantik), seberapa cantik tampilan tangkapan layar pada cover artikel ini?</description>
     </item>
     <item>
       <title>Openbox - Simple and Easy Window Manager for Beginners</title>
-      <link>https://wildanhaq.github.io/tech/openbox/</link>
+      <link>http://localhost:1313/tech/openbox/</link>
       <pubDate>Thu, 30 May 2024 01:49:56 +0000</pubDate>
-      <guid>https://wildanhaq.github.io/tech/openbox/</guid>
+      <guid>http://localhost:1313/tech/openbox/</guid>
       <description>Dari 1-10 (dengan skala 1: paling tidak cantik dan 10: paling cantik), seberapa cantik tampilan tangkapan layar pada cover artikel ini?</description>
     </item>
   </channel>

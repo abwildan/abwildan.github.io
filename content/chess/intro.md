@@ -1,7 +1,7 @@
 +++
 title = 'Introduction to Chess ♟️'
 date = 2024-08-02T07:59:33Z
-draft = false
+draft = true
 summary = "This article shares about (short) history, pieces, notation, and other things regarding Intro to Chess."
 tags = ["chess", "intro"]
 categories = "chess"
@@ -31,7 +31,7 @@ Berikut akan saya coba jabarkan (tentu saja berdasarkan pengalaman dan pendapat 
 2. **Catur tidak sehat untuk fisik**, terutama jika terlalu banyak dan lama bermain sehingga lupa olahraga fisik.
 3. **Catur adalah *games* intimidatif**, sebab, jika mental sudah ciut, maka kita rawan *blunder* dan musuh mudah menang.
 
-Beberapa poin di atas dimaksudkan supaya kita bisa mengambil sikap yang moderat terhadap catur sehingga siap untuk mulai belajar. Satu hal yang perlu diingat ketika akan mulai belajar catur adalah bahwa  **`catur tidak mempersyaratkan IQ yang tinggi untuk bisa menang. Tapi, catur mengharuskan EQ yang stabil untuk bisa menang.`** Artinya, selama seseorang punya minat yang besar terhadap catur, dia pasti bisa mempelajarinya dan memainkannya dan bukan hal yang mustahil juga untuk bisa menguasainya.
+Beberapa poin di atas dimaksudkan supaya kita bisa mengambil sikap yang moderat terhadap catur sehingga siap untuk mulai belajar. Satu hal yang perlu diingat ketika akan mulai belajar catur adalah bahwa  <mark>**catur tidak mempersyaratkan IQ yang tinggi untuk bisa menang. Tapi, catur mengharuskan EQ yang stabil untuk bisa menang.**</mark> Artinya, selama seseorang punya minat yang besar terhadap catur, dia pasti bisa mempelajarinya dan memainkannya dan bukan hal yang mustahil juga untuk bisa menguasainya.
 
 {{< callout >}} **Penting!** Saya bukan orang ber-IQ tinggi dan juga tidak memiliki EQ yang stabil. Saya juga masih belajar dan hanya ingin berbagi tentang catur di sini. 😭 {{< /callout >}}
 
@@ -159,15 +159,15 @@ Perhatikan kedua gambar di bawah ini![^7]
 
 {{< callout >}} **Note!** Petak **a1** akan selalu berada di pojok kiri papan pemain putih! {{< /callout >}}
 
-Berdasarkan singkatan setiap perwira & pion serta alamat pada setiap petak/kotak yang ada di papan tersebut, pergerakan buah catur di atas papan dapat dinotasikan dengan menulis singkatan buah catur yang bergerak dan petak/kotak yang ditempatinya. Jika ternyata di petak yang ditempati tersebut ada buah catur lawan, maka kita bisa menambahkan "x" diantara singkatan buah catur yang bergerak dan alamat petak yang ditempati tersebut. Misalnya, **Kuda (N)** berpindah dari petak **g1** ke **f3**, maka notasinya adalah **Nf3**. Jika ternyata di petak **f3** ada buah catur lawan, maka notasinya akan menjadi **Nxf3**. Adapun notasi **rokade** ditulis dengan **O-O**.
+Berdasarkan singkatan setiap perwira & pion serta alamat pada setiap petak/kotak yang ada di papan tersebut, pergerakan buah catur di atas papan dapat dinotasikan dengan menulis singkatan buah catur yang bergerak dan petak/kotak yang ditempatinya. Jika ternyata di petak yang ditempati tersebut ada buah catur lawan, maka kita bisa menambahkan "x" diantara singkatan buah catur yang bergerak dan alamat petak yang ditempati tersebut. Misalnya, **Kuda (N)** berpindah dari petak **g1** ke **f3**, maka notasinya adalah **Nf3**. Jika ternyata di petak **f3** ada buah catur lawan, maka notasinya akan menjadi **Nxf3**. Adapun notasi **rokade** ditulis dengan **O-O** jika dilakukan ke sayap Raja dan notasi rokade ditulis **O-O-O** jika dilakukan ke sayap Menteri.
 
 Adapun notasi untuk skak adalah dengan menambahkan tanda tambah **(+)** setelah alamat petak yang ditempati buah catur yang melakukan skak ditulis, sedangkan notasi skakmat adalah dengan menambahkan tanda pagar setelah alamat petak buah catur yang melakukan skakmat ditulis. Misalnya **Raja (K)** di **e8** terkena skak oleh **Kuda (N)** di **f6**, maka notasinya adalah **f6+**. Contoh skakmat misalnya, **Menteri (Q)** di **h5** melakukan skakmat ke **Raja (K)** di **e8**, maka notasinya adalah **Qh5#**.
 
 Notasi tersebut ditulis dan disusun berdasarkan langkah-langkah yang dibuat oleh masing-masing pemain. Artinya, pada langkah pertama, akan ada dua notasi, yaitu notasi langkah dari pemain putih dan notasi langkah dari pemain hitam. Dengan demikian, yang dimaksud dengan "langkah pertama" adalah gabungan langkah pertama dari kedua pemain (pemain putih dan pemain hitam). Begitupula seterusnya hingga langkah terakhir. Misalnya, permainan baru dimulai dan pemain putih menjalankan **Kuda (N)** dari **g1** ke **f3**, kemudian pemain hitam membalas dengan menjalankan pion dari petak **b7** ke **b6**, maka notasi yang akan ditulis yaitu **1. Nf3 b6**. Inilah langkah pertama. Jika pemain meneruskan permainan, misalnya pemain putih menjalankan pion **e2** ke **e3** dan pemain hitam mengeluarkan gajah di **c8** ke **b7**, maka notasinya adalah **1. Nf3 b6 2. e3 Bb7**.
 
-Supaya lebih mudah memahami notasi catur, perhatikan 6 langkah catur pada permainan berikut!
+Supaya lebih mudah memahami notasi catur, perhatikan 9 langkah catur pada permainan berikut!
 
-{{< chesscom url="//www.chess.com/emboard?id=12052395" id="12052395" >}}
+{{< chesscom url="//www.chess.com/emboard?id=12053291" id="12053291" >}}
 
 ## Nilai Buah Catur
 
@@ -254,7 +254,7 @@ Untuk memudahkan pemahaman tentang Rokade, berikut saya lampirkan contoh Rokade,
 
 ## Referensi Belajar Catur
 
-Beberapa sumber yang bisa saya rekomendasikan untuk belajar catur tersedia dalam bentuk **`video`**, **`buku digital (e-book)`**, dan **`platform bermain catur`**.
+Beberapa sumber yang bisa saya rekomendasikan untuk belajar catur tersedia dalam bentuk <mark>**video**</mark>, <mark>**buku digital (e-book)**</mark>, dan <mark>**platform bermain catur**</mark>.
 
 ### Video Youtube   
 

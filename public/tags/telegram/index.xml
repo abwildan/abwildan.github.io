@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Telegram on Wildan&#39;s Workspace</title>
-    <link>https://wildanhaq.github.io/tags/telegram/</link>
+    <link>http://localhost:1313/tags/telegram/</link>
     <description>Recent content in Telegram on Wildan&#39;s Workspace</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 11 Oct 2023 16:32:22 +0700</lastBuildDate>
-    <atom:link href="https://wildanhaq.github.io/tags/telegram/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/telegram/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mengunduh (free) e-book via Bot Telegram</title>
-      <link>https://wildanhaq.github.io/post/ebook-via-bot_telegram/</link>
+      <link>http://localhost:1313/post/ebook-via-bot_telegram/</link>
       <pubDate>Wed, 11 Oct 2023 16:32:22 +0700</pubDate>
-      <guid>https://wildanhaq.github.io/post/ebook-via-bot_telegram/</guid>
+      <guid>http://localhost:1313/post/ebook-via-bot_telegram/</guid>
       <description>Keberadaan buku digital / buku elektronik (e-book) saat ini sudah menjadi keniscayaan di era yang juga sudah digital. Kelebihan buku elektronik dibanding buku fisik selain murah dan mudah (atau gak mudah ya?</description>
     </item>
     <item>
       <title>Mengunduh (free) e-book via Bot Telegram</title>
-      <link>https://wildanhaq.github.io/tech/ebook-via-bot_telegram/</link>
+      <link>http://localhost:1313/tech/ebook-via-bot_telegram/</link>
       <pubDate>Wed, 11 Oct 2023 16:32:22 +0700</pubDate>
-      <guid>https://wildanhaq.github.io/tech/ebook-via-bot_telegram/</guid>
+      <guid>http://localhost:1313/tech/ebook-via-bot_telegram/</guid>
       <description>Keberadaan buku digital / buku elektronik (e-book) saat ini sudah menjadi keniscayaan di era yang juga sudah digital. Kelebihan buku elektronik dibanding buku fisik selain murah dan mudah (atau gak mudah ya?</description>
     </item>
   </channel>

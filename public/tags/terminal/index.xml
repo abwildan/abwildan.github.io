@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Terminal on Wildan&#39;s Workspace</title>
-    <link>https://wildanhaq.github.io/tags/terminal/</link>
+    <link>http://localhost:1313/tags/terminal/</link>
     <description>Recent content in Terminal on Wildan&#39;s Workspace</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 09 Jun 2024 16:59:47 +0700</lastBuildDate>
-    <atom:link href="https://wildanhaq.github.io/tags/terminal/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/terminal/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cool Terminal Tools You Should Know</title>
-      <link>https://wildanhaq.github.io/post/cooltools/</link>
+      <link>http://localhost:1313/post/cooltools/</link>
       <pubDate>Sun, 09 Jun 2024 16:59:47 +0700</pubDate>
-      <guid>https://wildanhaq.github.io/post/cooltools/</guid>
+      <guid>http://localhost:1313/post/cooltools/</guid>
       <description>Yoo, jumpa lagi!&#xA;Saya mau berbagi sejumlah tools terminal yang sayang jika dilewatkan, apalagi bagi kalian guys, linux nerds. Sebagian besar (atau mungkin semuanya) tools yang akan saya share di artikel ini murni for fun.</description>
     </item>
     <item>
       <title>Cool Terminal Tools You Should Know</title>
-      <link>https://wildanhaq.github.io/tech/cooltools/</link>
+      <link>http://localhost:1313/tech/cooltools/</link>
       <pubDate>Sun, 09 Jun 2024 16:59:47 +0700</pubDate>
-      <guid>https://wildanhaq.github.io/tech/cooltools/</guid>
+      <guid>http://localhost:1313/tech/cooltools/</guid>
       <description>Yoo, jumpa lagi!&#xA;Saya mau berbagi sejumlah tools terminal yang sayang jika dilewatkan, apalagi bagi kalian guys, linux nerds. Sebagian besar (atau mungkin semuanya) tools yang akan saya share di artikel ini murni for fun.</description>
     </item>
   </channel>

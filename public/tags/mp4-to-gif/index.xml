@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>MP4 to GIF on Wildan&#39;s Workspace</title>
-    <link>https://wildanhaq.github.io/tags/mp4-to-gif/</link>
+    <link>http://localhost:1313/tags/mp4-to-gif/</link>
     <description>Recent content in MP4 to GIF on Wildan&#39;s Workspace</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 11 Oct 2023 00:40:23 +0700</lastBuildDate>
-    <atom:link href="https://wildanhaq.github.io/tags/mp4-to-gif/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/mp4-to-gif/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>FFmpeg - Convert MP4 to GIF</title>
-      <link>https://wildanhaq.github.io/post/ffmpeg-mp42gif/</link>
+      <link>http://localhost:1313/post/ffmpeg-mp42gif/</link>
       <pubDate>Wed, 11 Oct 2023 00:40:23 +0700</pubDate>
-      <guid>https://wildanhaq.github.io/post/ffmpeg-mp42gif/</guid>
+      <guid>http://localhost:1313/post/ffmpeg-mp42gif/</guid>
       <description>Terkadang, GIF punya kelebihan dibandingkan dengan file video, terutama dalam hal ukuran file. Dengan kualitas gambar yang hampir sama dengan video, file GIF bisa berukuran lebih kecil dari file video.</description>
     </item>
     <item>
       <title>FFmpeg - Convert MP4 to GIF</title>
-      <link>https://wildanhaq.github.io/tech/ffmpeg-mp42gif/</link>
+      <link>http://localhost:1313/tech/ffmpeg-mp42gif/</link>
       <pubDate>Wed, 11 Oct 2023 00:40:23 +0700</pubDate>
-      <guid>https://wildanhaq.github.io/tech/ffmpeg-mp42gif/</guid>
+      <guid>http://localhost:1313/tech/ffmpeg-mp42gif/</guid>
       <description>Terkadang, GIF punya kelebihan dibandingkan dengan file video, terutama dalam hal ukuran file. Dengan kualitas gambar yang hampir sama dengan video, file GIF bisa berukuran lebih kecil dari file video.</description>
     </item>
   </channel>

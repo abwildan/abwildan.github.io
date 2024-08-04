@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Steganography on Wildan&#39;s Workspace</title>
-    <link>https://wildanhaq.github.io/categories/steganography/</link>
+    <link>http://localhost:1313/categories/steganography/</link>
     <description>Recent content in Steganography on Wildan&#39;s Workspace</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 13 May 2024 10:52:32 +0700</lastBuildDate>
-    <atom:link href="https://wildanhaq.github.io/categories/steganography/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/steganography/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Steganography - Hiding secret(s) Inside A File</title>
-      <link>https://wildanhaq.github.io/post/steganography/</link>
+      <link>http://localhost:1313/post/steganography/</link>
       <pubDate>Mon, 13 May 2024 10:52:32 +0700</pubDate>
-      <guid>https://wildanhaq.github.io/post/steganography/</guid>
+      <guid>http://localhost:1313/post/steganography/</guid>
       <description>Steganography is the practice of representing information within another message or physical object.1&#xA;Pengertian &amp;amp; Sejarah Steganography Pengertian steganography [selanjutnya saya singkat dengan stego] memang sesederhana &amp;ldquo;ilmu dan seni menyembunyikan pesan atau informasi rahasia di dalam pesan lain&amp;rdquo;.</description>
     </item>
     <item>
       <title>Steganography - Hiding secret(s) Inside A File</title>
-      <link>https://wildanhaq.github.io/tech/steganography/</link>
+      <link>http://localhost:1313/tech/steganography/</link>
       <pubDate>Mon, 13 May 2024 10:52:32 +0700</pubDate>
-      <guid>https://wildanhaq.github.io/tech/steganography/</guid>
+      <guid>http://localhost:1313/tech/steganography/</guid>
       <description>Steganography is the practice of representing information within another message or physical object.1&#xA;Pengertian &amp;amp; Sejarah Steganography Pengertian steganography [selanjutnya saya singkat dengan stego] memang sesederhana &amp;ldquo;ilmu dan seni menyembunyikan pesan atau informasi rahasia di dalam pesan lain&amp;rdquo;.</description>
     </item>
   </channel>

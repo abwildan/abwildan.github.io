@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Install on Wildan&#39;s Workspace</title>
-    <link>https://wildanhaq.github.io/tags/install/</link>
+    <link>http://localhost:1313/tags/install/</link>
     <description>Recent content in Install on Wildan&#39;s Workspace</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 02 May 2024 09:52:29 +0700</lastBuildDate>
-    <atom:link href="https://wildanhaq.github.io/tags/install/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/install/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Instalasi Archlinux KDE via archinstall</title>
-      <link>https://wildanhaq.github.io/post/archinstall/</link>
+      <link>http://localhost:1313/post/archinstall/</link>
       <pubDate>Thu, 02 May 2024 09:52:29 +0700</pubDate>
-      <guid>https://wildanhaq.github.io/post/archinstall/</guid>
+      <guid>http://localhost:1313/post/archinstall/</guid>
       <description>Siapa yang tidak pernah dengar Archlinux?&#xA;Archlinux adalah sebuah distro linux (legendaris) yang terkenal dengan komunitasnya yang besar dari seluruh dunia dan dokumentasi distronya yang lengkap.</description>
     </item>
     <item>
       <title>Instalasi Archlinux KDE via archinstall</title>
-      <link>https://wildanhaq.github.io/tech/archinstall/</link>
+      <link>http://localhost:1313/tech/archinstall/</link>
       <pubDate>Thu, 02 May 2024 09:52:29 +0700</pubDate>
-      <guid>https://wildanhaq.github.io/tech/archinstall/</guid>
+      <guid>http://localhost:1313/tech/archinstall/</guid>
       <description>Siapa yang tidak pernah dengar Archlinux?&#xA;Archlinux adalah sebuah distro linux (legendaris) yang terkenal dengan komunitasnya yang besar dari seluruh dunia dan dokumentasi distronya yang lengkap.</description>
     </item>
   </channel>

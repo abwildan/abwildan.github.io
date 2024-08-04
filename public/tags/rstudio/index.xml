@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Rstudio on Wildan&#39;s Workspace</title>
-    <link>https://wildanhaq.github.io/tags/rstudio/</link>
+    <link>http://localhost:1313/tags/rstudio/</link>
     <description>Recent content in Rstudio on Wildan&#39;s Workspace</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 13 Jun 2024 11:56:25 -0400</lastBuildDate>
-    <atom:link href="https://wildanhaq.github.io/tags/rstudio/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/rstudio/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>RStudio Basic: From Installation to Data Visualization</title>
-      <link>https://wildanhaq.github.io/post/rstudio-basic/</link>
+      <link>http://localhost:1313/post/rstudio-basic/</link>
       <pubDate>Thu, 13 Jun 2024 11:56:25 -0400</pubDate>
-      <guid>https://wildanhaq.github.io/post/rstudio-basic/</guid>
+      <guid>http://localhost:1313/post/rstudio-basic/</guid>
       <description>Hola!&#xA;RStudio menurut saya adalah software keren untuk mengolah data menggunakan bahasa R. Jadi, saya memutuskan untuk membahasnya di artikel ini.</description>
     </item>
     <item>
       <title>RStudio Basic: From Installation to Data Visualization</title>
-      <link>https://wildanhaq.github.io/tech/rstudio-basic/</link>
+      <link>http://localhost:1313/tech/rstudio-basic/</link>
       <pubDate>Thu, 13 Jun 2024 11:56:25 -0400</pubDate>
-      <guid>https://wildanhaq.github.io/tech/rstudio-basic/</guid>
+      <guid>http://localhost:1313/tech/rstudio-basic/</guid>
       <description>Hola!&#xA;RStudio menurut saya adalah software keren untuk mengolah data menggunakan bahasa R. Jadi, saya memutuskan untuk membahasnya di artikel ini.</description>
     </item>
   </channel>

@@ -70,6 +70,8 @@ showToC = true
 openToC = false
 # Whether to include the comments partial after the article footer. (Check advanced configuration for more info)
 showComments = false
+# Whether to display breadcrumbs
+showBreadcrumbs = true
 
 # List template settings
 [list]
@@ -77,6 +79,8 @@ showComments = false
 groupByYear = false
 # Whether to show dates with article listings.
 showDate = true
+# Whether to display breadcrumbs
+showBreadcrumbs = false
 
 # Taxonomy settings
 [taxonomy]

@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ngrok on Wildan&#39;s Workspace</title>
-    <link>https://wildanhaq.github.io/categories/ngrok/</link>
+    <link>http://localhost:1313/categories/ngrok/</link>
     <description>Recent content in Ngrok on Wildan&#39;s Workspace</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 02 Apr 2024 17:30:12 +0700</lastBuildDate>
-    <atom:link href="https://wildanhaq.github.io/categories/ngrok/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/ngrok/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ngrok - Make Your localhost Accessible Publicly</title>
-      <link>https://wildanhaq.github.io/post/ngrok/</link>
+      <link>http://localhost:1313/post/ngrok/</link>
       <pubDate>Tue, 02 Apr 2024 17:30:12 +0700</pubDate>
-      <guid>https://wildanhaq.github.io/post/ngrok/</guid>
+      <guid>http://localhost:1313/post/ngrok/</guid>
       <description>Ngrok? Ngrok bagi sebagian orang mungkin sudah faniliar karena sering digunakan untuk berbagai kebutuhan. Tapi, bagi yang belum tahu, ngrok secara sederhana dapat didefinisikan sebagai aplikasi yang memungkinkan kita untuk mem-publish server lokal kita di localhost ke publik dengan aman.</description>
     </item>
     <item>
       <title>Ngrok - Make Your localhost Accessible Publicly</title>
-      <link>https://wildanhaq.github.io/tech/ngrok/</link>
+      <link>http://localhost:1313/tech/ngrok/</link>
       <pubDate>Tue, 02 Apr 2024 17:30:12 +0700</pubDate>
-      <guid>https://wildanhaq.github.io/tech/ngrok/</guid>
+      <guid>http://localhost:1313/tech/ngrok/</guid>
       <description>Ngrok? Ngrok bagi sebagian orang mungkin sudah faniliar karena sering digunakan untuk berbagai kebutuhan. Tapi, bagi yang belum tahu, ngrok secara sederhana dapat didefinisikan sebagai aplikasi yang memungkinkan kita untuk mem-publish server lokal kita di localhost ke publik dengan aman.</description>
     </item>
   </channel>

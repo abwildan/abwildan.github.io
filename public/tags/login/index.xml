@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Login on Wildan&#39;s Workspace</title>
-    <link>https://wildanhaq.github.io/tags/login/</link>
+    <link>http://localhost:1313/tags/login/</link>
     <description>Recent content in Login on Wildan&#39;s Workspace</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 17 Jul 2024 15:06:15 +0700</lastBuildDate>
-    <atom:link href="https://wildanhaq.github.io/tags/login/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/login/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Log in to Your System with (Stunning) TTY</title>
-      <link>https://wildanhaq.github.io/post/tty/</link>
+      <link>http://localhost:1313/post/tty/</link>
       <pubDate>Wed, 17 Jul 2024 15:06:15 +0700</pubDate>
-      <guid>https://wildanhaq.github.io/post/tty/</guid>
+      <guid>http://localhost:1313/post/tty/</guid>
       <description>About Login Interface &amp;amp; TTY Ketika kita akan login ke sebuah sistem, kita biasanya disuguhkan interface untuk memasukkan kredensial login kita (username &amp;amp; password), kan?</description>
     </item>
     <item>
       <title>Log in to Your System with (Stunning) TTY</title>
-      <link>https://wildanhaq.github.io/tech/tty/</link>
+      <link>http://localhost:1313/tech/tty/</link>
       <pubDate>Wed, 17 Jul 2024 15:06:15 +0700</pubDate>
-      <guid>https://wildanhaq.github.io/tech/tty/</guid>
+      <guid>http://localhost:1313/tech/tty/</guid>
       <description>About Login Interface &amp;amp; TTY Ketika kita akan login ke sebuah sistem, kita biasanya disuguhkan interface untuk memasukkan kredensial login kita (username &amp;amp; password), kan?</description>
     </item>
   </channel>

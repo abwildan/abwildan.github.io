@@ -361,6 +361,43 @@ Hasilnya, sepert ini:
 |    2     | Bambang Susanto    | Jl. Haji 9, Jakarta     |
 |    3     | Cyntia Maharani    | Jl. Kemanamana 1, Bali  |
 
+### Tips 18: Meng-*highlight* Teks Penting
+
+Kita bisa meng-highlight teks penting dengan menggunakan *tag* `<mark> </mark>`. Misalnya, saya akan meng-highlight kata **"elang"** pada kalimat "Saya adalah seekot elang".
+
+```shell
+Saya adalah seekor </mark> elang </elang>.
+```
+
+Hasilnya:
+
+Saya adalah seekor <mark> elang </mark>.
+
+### Tips 19: Menambahkan *shortcode* catur
+
+Bagi mayoritas orang, mungkin shortcode catur tidak terlalu penting. Tapi, karena saya menggunakan ini untuk keperluan blog ini, jadi saya *share* saja. Di markdown, kita bisa melampirkan *real-time* papan catur (setidaknya begitu saya menyebutnya).[^8] Untuk bisa melampirkan papan catur tersebut, minimal kita hanya perlu 2 langkah:
+
+1. Membuat file html baru di direktori `themes/nama-temanya/layouts/shortcodes/`, dalam hal ini file-nya saya beri nama misalnya `chess.html`. Berikut adalah isi file-nya:
+
+```shell
+<div style="text-align: center;">
+  <iframe id="{{ .Get "id" }}" allowtransparency="true" frameborder="0" style="width:100%;border:none;" src="{{ .Get "url" }}"></iframe><script>window.addEventListener("message",e=>{e['data']&&"{{ .Get "id" }}"===e['data']['id']&&document.getElementById(`${e['data']['id']}`)&&(document.getElementById(`${e['data']['id']}`).style.height=`${e['data']['frameHeight']+30}px`)});</script>
+</div>
+```
+
+2. Tambahkan *shortcode* berikut di file markdown kalian:
+
+![ss20](/Hugo-Advanced/ss20.png)
+
+Hasilnya:
+
+{{< chesscom url="//www.chess.com/emboard?id=12052395" id="12052395" >}}
+
+> **Notes!**  
+> ID catur tersebut dapat diperoleh di bagisn ***"embed"*** ketika kita klik tombol share (khusus di Chess.com).  
+> ![ss21](/Hugo-Advanced/ss21.png)
+
+
 Kalau sudah selesai, jangan lupa commit ke repo lokal dan push ke Github:
 
 ```shell
@@ -384,3 +421,4 @@ Baca-baca tentang Markdown dari bukunya Matt Cone yang berjudul **"The Markdown 
 [^5]: https://sebastiandedeyne.com/captioned-images-with-markdown-render-hooks-in-hugo/
 [^6]: https://chatgpt.com/c/ba64752f-c7a0-438c-9a1b-d11efa9aaa05
 [^7]: https://chatgpt.com/c/35c0c015-e708-42f4-9319-ef7992479132
+[^8]: https://www.ragchess.com/how-to-embed-a-your-own-chess-puzzle-into-your-website/

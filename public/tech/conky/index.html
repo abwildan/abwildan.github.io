@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="content-language" content="en-us" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+  
+  
+  <title>Enhancing Your Linux Desktop with Conky &middot; Wildan&#39;s Workspace</title>
+  <meta name="title" content="Enhancing Your Linux Desktop with Conky &middot; Wildan&#39;s Workspace" />
+  
+
+  
+  
+  <meta name="description" content="A Hugo Theme" />
+  
+  <meta name="keywords" content="conky, linux, " />
+  <link rel="canonical" href="https://wildanhaq.github.io/tech/conky/" />
+
+  
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+
+  
+  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.8331ad0e0504ae5748d767d41c43d6b3750d566a28c17279a1556949a2575decaccac0d7bfa825ae92be47ab92916ff310f57fccaaeecf6624ec11c571cc4f00.css" integrity="sha512-gzGtDgUErldI12fUHEPWs3UNVmoowXJ5oVVpSaJXXeysysDXv6glrpK&#43;R6uSkW/zEPV/zKruz2Yk7BHFccxPAA==" />
+
+
+  
+
+
+  
+
+
+
+  
+    
+        
+        <script defer type="text/javascript" src="/js/theme.min.b12ffe233a345d2a545ca355b5aa71c906bbebbee2ea801f46de9e7af2b59da08cc4ffe002b2f302ce00f00eddca05abd8f71c16335f949d96e42eb5971c0235.js" integrity="sha512-sS/&#43;Izo0XSpUXKNVtapxyQa7677i6oAfRt6eevK1naCMxP/gArLzAs4A8A7dygWr2PccFjNflJ2W5C61lxwCNQ=="> </script>
+      
+    
+  
+
+  
+    
+        
+        <script defer type="text/javascript" src="/js/codecopy.min.da9ea5e1678be883b7bcc950cd18c8238d26c3d21ab9977ea83699dd1e7657cb45dd1f4516c0fd2adaf2c6b6174fbd235760a13b0d80b0e6ae1c29869011729e.js" integrity="sha512-2p6l4WeL6IO3vMlQzRjII40mw9IauZd&#43;qDaZ3R52V8tF3R9FFsD9KtryxrYXT70jV2ChOw2AsOauHCmGkBFyng=="> </script>
+      
+    
+  
+
+
+
+  
+  
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+  
+
+  <meta property="og:url" content="https://wildanhaq.github.io/tech/conky/">
+  <meta property="og:site_name" content="Wildan&#39;s Workspace">
+  <meta property="og:title" content="Enhancing Your Linux Desktop with Conky">
+  <meta property="og:description" content="Tentang Conky, meskipun terdengar seperti singkatan “Pocong Pinky”, sebetulnya adalah program monitor sistem untuk linux desktop1. Kalau merujuk pada repositori resminya di Github, Conky dinyatakan sebagai berikut:">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="tech">
+    <meta property="article:published_time" content="2024-07-20T11:16:26+07:00">
+    <meta property="article:modified_time" content="2024-07-20T11:16:26+07:00">
+    <meta property="article:tag" content="Conky">
+    <meta property="article:tag" content="Linux">
+
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Enhancing Your Linux Desktop with Conky">
+  <meta name="twitter:description" content="Tentang Conky, meskipun terdengar seperti singkatan “Pocong Pinky”, sebetulnya adalah program monitor sistem untuk linux desktop1. Kalau merujuk pada repositori resminya di Github, Conky dinyatakan sebagai berikut:">
+
+
+  
+  
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+  
+  
+
+
+
+  
+  
+  
+  
+  
+
+  
+  <link rel="preload" href="https://wildanhaq.github.io/fonts/Ubuntu-Regular.woff2" as="font" type="font/woff2" crossorigin>
+
+  
+
+</head>
+
+  <body>
+    <script>
+      const siteTheme = "auto";
+      let savedTheme = localStorage.getItem('theme') || siteTheme;
+      if (savedTheme == 'auto') {
+        if ( window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ) {
+          savedTheme = 'dark';
+        }
+      }
+      if (savedTheme === "dark") {
+        document.body.classList.add('dark');
+        localStorage.setItem('theme', 'dark');
+      }
+    </script>
+    <div class="content">
+      <header>
+    
+    <div class="header-cntr">
+    <a class="title" href="/">
+    <span>Wildan's Workspace</span>
+    </a>
+  <div class="menu">
+  <nav id="main-menu" class="mm-normal">
+    <ul>
+    <li> <button id="mob-x-icon" class="menu-btn" arial-label="x-icon"> 
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+
+
+ </button> </li>
+    
+      <li><a href="/tech/" aria-label="tech">
+      Tech</li></a>
+    
+      <li><a href="/chess/" aria-label="chess">
+      Chess</li></a>
+    
+      <li><a href="/life/" aria-label="life">
+      Life</li></a>
+    
+      <li><a href="/opinion/" aria-label="opinion">
+      Opinion</li></a>
+    
+    </ul>
+  </nav>
+    <div class="side-menu">
+    
+    <button id="theme-switcher" class="menu-btn" aria-label="Theme switcher">
+      <div id="moon">
+      
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
+
+
+
+      </div>
+      <div id="sun">
+      
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/></svg>
+
+
+
+      </div>
+    </button>
+    
+    </div>
+    <button id="mob-hb-icon" class="menu-btn" aria-label="Hamburger icon">
+      
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z"/></svg>
+
+
+
+    </button>
+  </div>
+  <script>
+  (function() {
+    document.addEventListener('DOMContentLoaded', function() {
+    const openBtn = document.getElementById('mob-hb-icon');
+    const closeBtn = document.getElementById('mob-x-icon');
+    const mainMenu = document.getElementById('main-menu');
+    const body = document.body;
+
+    openBtn.addEventListener('click', function() {
+        mainMenu.classList.replace('mm-normal', 'mm-mobile-open');
+        closeBtn.style.display = 'block';
+        body.style.overflow = 'hidden';
+    });
+    closeBtn.addEventListener('click', function() {
+        mainMenu.classList.replace('mm-mobile-open', 'mm-normal');
+        closeBtn.style.display = 'none';
+        body.style.overflow = '';
+    });
+    })
+  })();
+  </script>
+  
+  <script>
+  (function() {
+    var mainmenu = document.getElementById('main-menu');
+    if (!mainmenu) return;
+
+    var path = window.location.pathname;
+    var links = mainmenu.querySelectorAll('a');
+
+    links.forEach(function(link) {
+      if (link.getAttribute('href') === path) {
+        link.classList.add('active');
+      }
+    });
+  })();
+  </script>
+  
+</div>
+</header>
+
+      <main>
+        
+
+<h1 class="pg-title">Enhancing Your Linux Desktop with Conky</h1>
+
+
+<div class="meta">
+  
+
+
+
+<p>
+
+
+  
+  
+  <span class="meta-icon">
+
+    <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+<svg fill="currentColor" width="800px" height="800px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19,4H17V3a1,1,0,0,0-2,0V4H9V3A1,1,0,0,0,7,3V4H5A3,3,0,0,0,2,7V19a3,3,0,0,0,3,3H19a3,3,0,0,0,3-3V7A3,3,0,0,0,19,4Zm1,15a1,1,0,0,1-1,1H5a1,1,0,0,1-1-1V12H20Zm0-9H4V7A1,1,0,0,1,5,6H7V7A1,1,0,0,0,9,7V6h6V7a1,1,0,0,0,2,0V6h2a1,1,0,0,1,1,1Z"/></svg>
+
+
+</span>
+  Posted on <time datetime="2024-07-20T11:16:26&#43;07:00">Jul 20, 2024</time>
+  
+  
+  
+
+
+  <span class="meta-icon">
+
+    <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+<svg width="800px" height="800px" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+<path d="M23 12C23 18.0751 18.0751 23 12 23C5.92487 23 1 18.0751 1 12C1 5.92487 5.92487 1 12 1C18.0751 1 23 5.92487 23 12ZM3.00683 12C3.00683 16.9668 7.03321 20.9932 12 20.9932C16.9668 20.9932 20.9932 16.9668 20.9932 12C20.9932 7.03321 16.9668 3.00683 12 3.00683C7.03321 3.00683 3.00683 7.03321 3.00683 12Z" fill="currentColor"/>
+<path d="M12 5C11.4477 5 11 5.44771 11 6V12.4667C11 12.4667 11 12.7274 11.1267 12.9235C11.2115 13.0898 11.3437 13.2343 11.5174 13.3346L16.1372 16.0019C16.6155 16.278 17.2271 16.1141 17.5032 15.6358C17.7793 15.1575 17.6155 14.5459 17.1372 14.2698L13 11.8812V6C13 5.44772 12.5523 5 12 5Z" fill="currentColor"/>
+</svg>
+
+
+</span>
+  
+    8 mins
+  
+
+
+</p>
+
+  
+
+
+<p>
+  <span class="meta-icon"> 
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M48 32H197.5C214.5 32 230.7 38.74 242.7 50.75L418.7 226.7C443.7 251.7 443.7 292.3 418.7 317.3L285.3 450.7C260.3 475.7 219.7 475.7 194.7 450.7L18.75 274.7C6.743 262.7 0 246.5 0 229.5V80C0 53.49 21.49 32 48 32L48 32zM112 176C129.7 176 144 161.7 144 144C144 126.3 129.7 112 112 112C94.33 112 80 126.3 80 144C80 161.7 94.33 176 112 176z"/></svg>
+
+
+ </span>
+  
+  <a class="tag" href="/tags/conky/">Conky</a>
+  
+  <a class="tag" href="/tags/linux/">Linux</a>
+  
+</p>
+
+
+
+</div>
+
+
+
+
+  <div class="toc">
+    <details >
+      <summary accesskey="c" title="(Alt+C)">
+        Table of Contents
+      </summary>
+      <div class="toc-innr">
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#tentang">Tentang</a></li>
+    <li><a href="#instalasi">Instalasi</a></li>
+    <li><a href="#konfigurasi-sederhana">Konfigurasi Sederhana</a></li>
+    <li><a href="#theme-ing">Theme-ing</a>
+      <ul>
+        <li><a href="#1-menginstall-font">1. Menginstall Font</a></li>
+        <li><a href="#2-mengubah-background-transparan">2. Mengubah background (transparan)</a></li>
+        <li><a href="#3-menyesuaikan-kota--cuaca">3. Menyesuaikan kota &amp; cuaca</a></li>
+        <li><a href="#4-menginstall--mengaktifkan-mpd">4. Menginstall &amp; mengaktifkan MPD</a></li>
+        <li><a href="#5-mewarnai-opsional">5. Mewarnai (Opsional)</a></li>
+      </ul>
+    </li>
+    <li><a href="#finishing">Finishing</a></li>
+  </ul>
+</nav>
+      </div>
+    </details>
+  </div>
+  
+
+
+
+
+<h2 id="tentang">
+  Tentang
+  
+  <a hidden class="anchor" href="#tentang">
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
+
+
+ </a>
+  
+</h2>
+<p>Conky, meskipun terdengar seperti singkatan &ldquo;Pocong Pinky&rdquo;, sebetulnya adalah program monitor sistem untuk linux desktop<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. Kalau merujuk pada repositori resminya di Github, Conky dinyatakan sebagai berikut:</p>
+<blockquote>
+<p><strong>Conky</strong> <em>is a free, light-weight system monitor for X, that displays any kind of information on your desktop<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>.</em></p>
+</blockquote>
+<p>Jadi, dapat disimpulkan bahwa Conky pada dasarnya adalah sebuah program untuk menampilkan monitoring sistem di layar desktop. Apa saja &ldquo;sistem&rdquo; yang bisa ditampilkan oleh Conky? <em>Well</em>, menurut definisi di atas, &ldquo;<em>&hellip;that display any kind of information&hellip;</em>&rdquo;, artinya, informasi apapun dapat ditampilkan via Conky, mulai dari info terkait CPU, RAM, Disk, Date/Time, Weather, dan lain-lain.</p>
+<p>Gambar pada cover artikel ini juga sebetulnya merupakan output dari program Conky yang menampilkan info tentang:</p>
+<ul>
+<li>Tahun</li>
+<li>Hari</li>
+<li>Tanggal</li>
+<li>Bulan</li>
+<li>Jam</li>
+<li>Kota</li>
+<li>Cuaca (suhu dan kelembaban)</li>
+<li>Musik</li>
+<li>Sistem (CPU, RAM, DISK)</li>
+</ul>
+<p>Daripada penasaran terus, kita langsung ke praktik saja ya&hellip;</p>
+
+<h2 id="instalasi">
+  Instalasi
+  
+  <a hidden class="anchor" href="#instalasi">
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
+
+
+ </a>
+  
+</h2>
+<p>Kita dapat memasang Conky langsung dari repo resmi di Github atau dari repo distro masing-masing. Kalau memasang Conky dari repo distro, silakan disesuaikan dengan <em>package manager</em> masing-masing distro-nya ya. Di sini, saya hanya akan memberikan cara instalasi Conky via repo distro.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:right">No</th>
+<th style="text-align:left">Distro</th>
+<th style="text-align:center">Install</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:right">1</td>
+<td style="text-align:left"><a href="https://packages.debian.org/bookworm/conky-all" target="_blank"><strong>Debian</strong></a>
+</td>
+<td style="text-align:center"><code>sudo apt install conky-all</code></td>
+</tr>
+<tr>
+<td style="text-align:right">2</td>
+<td style="text-align:left"><a href="https://archlinux.org/packages/extra/x86_64/conky/" target="_blank"><strong>Arch</strong></a>
+</td>
+<td style="text-align:center"><code>sudo pacman -S conky-all</code></td>
+</tr>
+<tr>
+<td style="text-align:right">3</td>
+<td style="text-align:left"><a href="https://software.opensuse.org/package/conky" target="_blank"><strong>OpenSuse</strong></a>
+</td>
+<td style="text-align:center"><code>sudo zypper in conky-all</code></td>
+</tr>
+<tr>
+<td style="text-align:right">4</td>
+<td style="text-align:left"><a href="https://packages.fedoraproject.org/pkgs/conky/conky/" target="_blank"><strong>Fedora</strong></a>
+</td>
+<td style="text-align:center"><code>sudo dnf install conky-all</code></td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>Note:</strong><br>
+Sebagai info, saya meng-<em>install</em> Conky di Debian 12 (Bookworm).</p>
+</blockquote>
+<p>Berikutnya, setelah proses instalasi selesai, kita hanya perlu menjalankan perintah berikut untuk menampilkan Conky pada layar desktop linux kita:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>conky
+</span></span></code></pre></div><p>Di bawah ini adalah Conky yang sedang berjalan dengan konfigurasi default:
+<img loading="lazy" src="/conky/ss1.png" alt="ss1"  />
+</p>
+<p>Dan kita hanya perlu menekan <code>Ctrl+c</code> untuk me-non-aktifkan Conky.</p>
+
+<h2 id="konfigurasi-sederhana">
+  Konfigurasi Sederhana
+  
+  <a hidden class="anchor" href="#konfigurasi-sederhana">
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
+
+
+ </a>
+  
+</h2>
+<p>Sebetulnya, konfigurasi default Conky tersebut sudah bisa dibilang cukup untuk menampilkan info-info tentang sistem yang relevan. Misalnya, config tersebut sudah menampilkan penggunaan CPU, Memory (RAM), dan Penyimpanan (Disk) komputer kita. Jadi, kalau kalian hanya memerlukan fungsi saja, maka menurut config default Conky tersebut sudah sangat cukup.</p>
+<p>Tapi, jika kita ternyata hanya membutuhkan beberapa info spesifik saja, misalnya info tentang CPU, RAM, dan Disk, tentu kita bisa melakukan modifikasi konfigurasi agar info yang ditampilkan oleh Conky hanya apa yang kita butuhkan tadi saja. Oleh karena itu, pada dasarnya, modifikasi konfigurasi Conky menyesuaikan dengan kebutuhan atau keinginan dari masing-masing penggunanya.</p>
+<p>Sekarang, kita akan mencoba melakukan modifikasi sederhana pada konfigurasi Conky. Kita bisa mencari file config-nya dengan perintah:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>whereis conky
+</span></span><span style="display:flex;"><span>cd /etc/conky
+</span></span></code></pre></div><p><img loading="lazy" src="/conky/ss2.png" alt="ss2"  />
+</p>
+<p>Yup, file konfigurasi Conky terletak di <code>/etc/conky/conky.conf</code>. Berikut isi filenya:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>-- Conky, a system monitor https://github.com/brndnmtthws/conky
+</span></span><span style="display:flex;"><span>--
+</span></span><span style="display:flex;"><span>-- This configuration file is Lua code. You can write code in here, and it will
+</span></span><span style="display:flex;"><span>-- execute when Conky loads. You can use it to generate your own advanced
+</span></span><span style="display:flex;"><span>-- configurations.
+</span></span><span style="display:flex;"><span>--
+</span></span><span style="display:flex;"><span>-- Try this <span style="color:#f92672">(</span>remove the <span style="color:#e6db74">`</span>--<span style="color:#e6db74">`</span><span style="color:#f92672">)</span>:
+</span></span><span style="display:flex;"><span>--
+</span></span><span style="display:flex;"><span>--   print<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Loading Conky config&#34;</span><span style="color:#f92672">)</span>
+</span></span><span style="display:flex;"><span>--
+</span></span><span style="display:flex;"><span>-- For more on Lua, see:
+</span></span><span style="display:flex;"><span>-- https://www.lua.org/pil/contents.html
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>conky.config <span style="color:#f92672">=</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>    alignment <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;top_left&#39;</span>,
+</span></span><span style="display:flex;"><span>    background <span style="color:#f92672">=</span> false,
+</span></span><span style="display:flex;"><span>    border_width <span style="color:#f92672">=</span> 1,
+</span></span><span style="display:flex;"><span>    cpu_avg_samples <span style="color:#f92672">=</span> 2,
+</span></span><span style="display:flex;"><span>    default_color <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;white&#39;</span>,
+</span></span><span style="display:flex;"><span>    default_outline_color <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;white&#39;</span>,
+</span></span><span style="display:flex;"><span>    default_shade_color <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;white&#39;</span>,
+</span></span><span style="display:flex;"><span>    double_buffer <span style="color:#f92672">=</span> true,
+</span></span><span style="display:flex;"><span>    draw_borders <span style="color:#f92672">=</span> false,
+</span></span><span style="display:flex;"><span>    draw_graph_borders <span style="color:#f92672">=</span> true,
+</span></span><span style="display:flex;"><span>    draw_outline <span style="color:#f92672">=</span> false,
+</span></span><span style="display:flex;"><span>    draw_shades <span style="color:#f92672">=</span> false,
+</span></span><span style="display:flex;"><span>    extra_newline <span style="color:#f92672">=</span> false,
+</span></span><span style="display:flex;"><span>    font <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;DejaVu Sans Mono:size=12&#39;</span>,
+</span></span><span style="display:flex;"><span>    gap_x <span style="color:#f92672">=</span> 60,
+</span></span><span style="display:flex;"><span>    gap_y <span style="color:#f92672">=</span> 60,
+</span></span><span style="display:flex;"><span>    minimum_height <span style="color:#f92672">=</span> 5,
+</span></span><span style="display:flex;"><span>    minimum_width <span style="color:#f92672">=</span> 5,
+</span></span><span style="display:flex;"><span>    net_avg_samples <span style="color:#f92672">=</span> 2,
+</span></span><span style="display:flex;"><span>    no_buffers <span style="color:#f92672">=</span> true,
+</span></span><span style="display:flex;"><span>    out_to_console <span style="color:#f92672">=</span> false,
+</span></span><span style="display:flex;"><span>    out_to_ncurses <span style="color:#f92672">=</span> false,
+</span></span><span style="display:flex;"><span>    out_to_stderr <span style="color:#f92672">=</span> false,
+</span></span><span style="display:flex;"><span>    out_to_x <span style="color:#f92672">=</span> true,
+</span></span><span style="display:flex;"><span>    own_window <span style="color:#f92672">=</span> true,
+</span></span><span style="display:flex;"><span>    own_window_class <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;Conky&#39;</span>,
+</span></span><span style="display:flex;"><span>    own_window_type <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;desktop&#39;</span>,
+</span></span><span style="display:flex;"><span>    show_graph_range <span style="color:#f92672">=</span> false,
+</span></span><span style="display:flex;"><span>    show_graph_scale <span style="color:#f92672">=</span> false,
+</span></span><span style="display:flex;"><span>    stippled_borders <span style="color:#f92672">=</span> 0,
+</span></span><span style="display:flex;"><span>    update_interval <span style="color:#f92672">=</span> 1.0,
+</span></span><span style="display:flex;"><span>    uppercase <span style="color:#f92672">=</span> false,
+</span></span><span style="display:flex;"><span>    use_spacer <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;none&#39;</span>,
+</span></span><span style="display:flex;"><span>    use_xft <span style="color:#f92672">=</span> true,
+</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>conky.text <span style="color:#f92672">=</span> <span style="color:#f92672">[[</span>
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">${</span>color grey<span style="color:#e6db74">}</span>Info:$color <span style="color:#e6db74">${</span>scroll 32 Conky $conky_version - $sysname $nodename $kernel $machine<span style="color:#e6db74">}</span>
+</span></span><span style="display:flex;"><span>$hr
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">${</span>color grey<span style="color:#e6db74">}</span>Uptime:$color $uptime
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">${</span>color grey<span style="color:#e6db74">}</span>Frequency <span style="color:#f92672">(</span>in MHz<span style="color:#f92672">)</span>:$color $freq
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">${</span>color grey<span style="color:#e6db74">}</span>Frequency <span style="color:#f92672">(</span>in GHz<span style="color:#f92672">)</span>:$color $freq_g
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">${</span>color grey<span style="color:#e6db74">}</span>RAM Usage:$color $mem/$memmax - $memperc% <span style="color:#e6db74">${</span>membar 4<span style="color:#e6db74">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">${</span>color grey<span style="color:#e6db74">}</span>Swap Usage:$color $swap/$swapmax - $swapperc% <span style="color:#e6db74">${</span>swapbar 4<span style="color:#e6db74">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">${</span>color grey<span style="color:#e6db74">}</span>CPU Usage:$color $cpu% <span style="color:#e6db74">${</span>cpubar 4<span style="color:#e6db74">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">${</span>color grey<span style="color:#e6db74">}</span>Processes:$color $processes  <span style="color:#e6db74">${</span>color grey<span style="color:#e6db74">}</span>Running:$color $running_processes
+</span></span><span style="display:flex;"><span>$hr
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">${</span>color grey<span style="color:#e6db74">}</span>File systems:
+</span></span><span style="display:flex;"><span> / $color<span style="color:#e6db74">${</span>fs_used /<span style="color:#e6db74">}</span>/<span style="color:#e6db74">${</span>fs_size /<span style="color:#e6db74">}</span> <span style="color:#e6db74">${</span>fs_bar 6 /<span style="color:#e6db74">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">${</span>color grey<span style="color:#e6db74">}</span>Networking:
+</span></span><span style="display:flex;"><span>Up:$color <span style="color:#e6db74">${</span>upspeed<span style="color:#e6db74">}</span> <span style="color:#e6db74">${</span>color grey<span style="color:#e6db74">}</span> - Down:$color <span style="color:#e6db74">${</span>downspeed<span style="color:#e6db74">}</span>
+</span></span><span style="display:flex;"><span>$hr
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">${</span>color grey<span style="color:#e6db74">}</span>Name              PID     CPU%   MEM%
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">${</span>color lightgrey<span style="color:#e6db74">}</span> <span style="color:#e6db74">${</span>top name 1<span style="color:#e6db74">}</span> <span style="color:#e6db74">${</span>top pid 1<span style="color:#e6db74">}</span> <span style="color:#e6db74">${</span>top cpu 1<span style="color:#e6db74">}</span> <span style="color:#e6db74">${</span>top mem 1<span style="color:#e6db74">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">${</span>color lightgrey<span style="color:#e6db74">}</span> <span style="color:#e6db74">${</span>top name 2<span style="color:#e6db74">}</span> <span style="color:#e6db74">${</span>top pid 2<span style="color:#e6db74">}</span> <span style="color:#e6db74">${</span>top cpu 2<span style="color:#e6db74">}</span> <span style="color:#e6db74">${</span>top mem 2<span style="color:#e6db74">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">${</span>color lightgrey<span style="color:#e6db74">}</span> <span style="color:#e6db74">${</span>top name 3<span style="color:#e6db74">}</span> <span style="color:#e6db74">${</span>top pid 3<span style="color:#e6db74">}</span> <span style="color:#e6db74">${</span>top cpu 3<span style="color:#e6db74">}</span> <span style="color:#e6db74">${</span>top mem 3<span style="color:#e6db74">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">${</span>color lightgrey<span style="color:#e6db74">}</span> <span style="color:#e6db74">${</span>top name 4<span style="color:#e6db74">}</span> <span style="color:#e6db74">${</span>top pid 4<span style="color:#e6db74">}</span> <span style="color:#e6db74">${</span>top cpu 4<span style="color:#e6db74">}</span> <span style="color:#e6db74">${</span>top mem 4<span style="color:#e6db74">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">]]</span>
+</span></span></code></pre></div><p>Pada tutorial ini, saya hanya akan menunjukkan beberapa modifikasi sederhana, yaitu</p>
+<ol>
+<li>Membuat background Conky menjadi transparan.</li>
+<li>Menampilkan info username@hostname.</li>
+<li>Menampilkan info RAM, CPU, dan Disk</li>
+<li>Menampilkan Tanggal &amp; Jam</li>
+</ol>
+<p>Namun, sebelum memulainya, ada baiknya kita meng-<em>copy</em> file konfigurasi tersebut ke direktori user agar tidak mengubah isi file defaultnya sehingga jika nanti kita memerlukan file backup, kita bisa mengambilnya lagi dari <code>/etc/conky/conky.conf</code>. So, markicop (mari kita <em>copy</em>, wkwkwk)&hellip;</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>mkdir ~/.config/conky
+</span></span><span style="display:flex;"><span>cp /etc/conky/conky.conf ~/.config/conky
+</span></span></code></pre></div><p>Kemudian, saya akan edit hingga hanya tersisa beberapa baris kode saja. Berikut adalah isi file konfigurasinya:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>conky.config <span style="color:#f92672">=</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>    alignment <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;top_left&#39;</span>, <span style="color:#75715e"># mengatur posisi Conky di layar</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    gap_x <span style="color:#f92672">=</span> 60, 
+</span></span><span style="display:flex;"><span>    gap_y <span style="color:#f92672">=</span> 60,
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    minimum_height <span style="color:#f92672">=</span> 5, <span style="color:#75715e"># mengatur ukuran window Conky</span>
+</span></span><span style="display:flex;"><span>    minimum_width <span style="color:#f92672">=</span> 5,
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    font <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;DejaVu Sans Mono:size=16&#39;</span>, <span style="color:#75715e"># mengatur font</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    own_window <span style="color:#f92672">=</span> true, <span style="color:#75715e"># mengatur transparansi</span>
+</span></span><span style="display:flex;"><span>    own_window_argb_visual <span style="color:#f92672">=</span> true,
+</span></span><span style="display:flex;"><span>    own_window_argb_value <span style="color:#f92672">=</span> 100,
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    own_window_type <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;desktop&#39;</span>, <span style="color:#75715e"># mengatur tipe window</span>
+</span></span><span style="display:flex;"><span>    update_interval <span style="color:#f92672">=</span> 1.0, <span style="color:#75715e"># mengatur update conky perdetik</span>
+</span></span><span style="display:flex;"><span>    use_xft <span style="color:#f92672">=</span> true, 
+</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>conky.text <span style="color:#f92672">=</span> <span style="color:#f92672">[[</span>
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">${</span>alignc<span style="color:#e6db74">}${</span>color white<span style="color:#e6db74">}${</span>exec whoami<span style="color:#e6db74">}</span>@<span style="color:#e6db74">${</span>nodename<span style="color:#e6db74">}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">${</span>color white<span style="color:#e6db74">}</span>RAM Usage:$color $memperc% <span style="color:#e6db74">${</span>membar 9<span style="color:#e6db74">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">${</span>color white<span style="color:#e6db74">}</span>CPU Usage:$color $cpu% <span style="color:#e6db74">${</span>cpubar 9<span style="color:#e6db74">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">${</span>color white<span style="color:#e6db74">}</span>Disk Usage:$color $fs_used_perc% <span style="color:#e6db74">${</span>fs_bar 9<span style="color:#e6db74">}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">${</span>alignc<span style="color:#e6db74">}${</span>color white<span style="color:#e6db74">}${</span>time %A, %d %B %Y<span style="color:#e6db74">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">${</span>alignc<span style="color:#e6db74">}${</span>color white<span style="color:#e6db74">}${</span>time %H:%M<span style="color:#e6db74">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">]]</span>
+</span></span></code></pre></div><p>Hasilnya:
+<img loading="lazy" src="/conky/ss3.png" alt="ss3"  />
+</p>
+<p>Sangat mudah, bukan?</p>
+
+<h2 id="theme-ing">
+  Theme-ing
+  
+  <a hidden class="anchor" href="#theme-ing">
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
+
+
+ </a>
+  
+</h2>
+<p>Sekarang, kita akan sedikit menaburkan beberapa tema pada Conky kita. Beberapa tema yang bagus sebetulnya bisa kita dapatkan di internet, misalnya dari tautan berikut:<br>
+<a href="https://www.gnome-look.org/browse?cat=124&amp;order=latest" target="_blank">https://www.gnome-look.org/browse?cat=124&order=latest</a>
+</p>
+<p>Kemudian, kita bisa memilih tema yang ingin kita gunakan. Kebetulan saya juga mengunduh dan menggunakan salah satu tema dari sana, yaitu tema <a href="https://www.gnome-look.org/p/2092022" target="_blank"><strong>Sargas</strong></a>
+. Kita akan gunakan yang MPD.
+<img loading="lazy" src="/conky/ss4.png" alt="ss4"  />
+</p>
+<p>Unzip, kemudian pindahkan folder Sargas-nya ke <code>~/.config/conky/</code>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>unzip Sargas-MpdC-v1.9.zip
+</span></span><span style="display:flex;"><span>cp -R Sargas ~/.config/conky
+</span></span></code></pre></div><p>Kalau saya coba jalankan&hellip;</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>cd Sargas
+</span></span><span style="display:flex;"><span>conky -c Sargas.conf
+</span></span></code></pre></div><p><img loading="lazy" src="/conky/ss5.png" alt="ss5"  />
+</p>
+<p>Masih perlu sedikit polesan.</p>
+<p>Apa saja yang masih perlu kita lakukan?</p>
+<ol>
+<li>Menginstall font</li>
+<li>Mengubah background (transparan)</li>
+<li>Menyesuaikan kota &amp; cuaca</li>
+<li>Menginstall &amp; mengaktifkan MPD</li>
+<li>Mewarnai (Opsional)</li>
+</ol>
+
+<h3 id="1-menginstall-font">
+  1. Menginstall Font
+  
+  <a hidden class="anchor" href="#1-menginstall-font">
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
+
+
+ </a>
+  
+</h3>
+<p>Setidaknya, kita akan menginstall 2 fonts: <strong>Bebas Neue</strong> &amp; <strong>Carlito</strong>.<br>
+<img loading="lazy" src="/conky/ss6.png" alt="ss6"  />
+</p>
+<p>Kalian bisa mengunduhnya di sini:<br>
+<strong>Bebas Neue Font:</strong> <a href="https://www.dafont.com/bebas-neue.font" target="_blank">https://www.dafont.com/bebas-neue.font</a>
+<br>
+<strong>Carlito Font:</strong> <a href="https://www.1001fonts.com/carlito-font.html" target="_blank">https://www.1001fonts.com/carlito-font.html</a>
+</p>
+<p>Setelah terunduh, pindahkan ke direktori <code>~/.fonts</code>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>unzip bebas_neue.zip
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>mkdir ~/.fonts
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>cp BebasNeue-Regular.ttf carlito.bold.ttf ~/.fonts
+</span></span></code></pre></div>
+<h3 id="2-mengubah-background-transparan">
+  2. Mengubah background (transparan)
+  
+  <a hidden class="anchor" href="#2-mengubah-background-transparan">
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
+
+
+ </a>
+  
+</h3>
+<p>Kembali ke file config-nya di <code>~/.config/conky/Sargas/Sargas.conf</code>, kemudian ubah nilai <code>false</code> dari variabel <em><strong>own_window_argb_visual</strong></em> ke <code>true</code>:
+<img loading="lazy" src="/conky/ss7.png" alt="ss7"  />
+</p>
+
+<h3 id="3-menyesuaikan-kota--cuaca">
+  3. Menyesuaikan kota &amp; cuaca
+  
+  <a hidden class="anchor" href="#3-menyesuaikan-kota--cuaca">
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
+
+
+ </a>
+  
+</h3>
+<p>Untuk menyesuaikan kota dan cuaca, kita beralih ke file config berikutnya, yaitu <code>~/.config/conky/Sargas/scripts/weather-v2.0.sh</code>. Kita bisa mengganti nilai dari variabel <code>city</code> ke kota yang kita inginkan.
+<img loading="lazy" src="/conky/ss8.png" alt="ss8"  />
+</p>
+<p>Kode kota-nya bisa kita peroleh dari website:<br>
+<a href="https://openweathermap.org/find" target="_blank">https://openweathermap.org/find</a>
+</p>
+<p>Misalnya, saya mau mengganti kota ke Bali. Ketika melakukan pencarian &ldquo;Bali&rdquo;, akan muncul beberapa saran. Tentu saja kita akan pilih Bali yang di Indonesia:
+<img loading="lazy" src="/conky/ss9.png" alt="ss9"  />
+</p>
+<p>Nah, kode kotanya akan muncul pada url-nya:
+<img loading="lazy" src="/conky/ss10.png" alt="ss10"  />
+</p>
+<p>Kode kota tersebutlah yang kita inputkan pada variabel <code>city</code> di script <code>~/.config/conky/Sargas/scripts/weather-v2.0.sh</code>.</p>
+
+<h3 id="4-menginstall--mengaktifkan-mpd">
+  4. Menginstall &amp; mengaktifkan MPD
+  
+  <a hidden class="anchor" href="#4-menginstall--mengaktifkan-mpd">
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
+
+
+ </a>
+  
+</h3>
+<p>MPD alias <em>Music Player Daemon</em> adalah server untuk menjalankan musik di localhost. Informasi yang tersimpan di MPD-lah (terutama info tentang Artist &amp; Music-nya) yang akan kita gunakan untuk ditampilkan di Conky.</p>
+<p>Instalasinya cukup mudah:</p>
+<pre tabindex="0"><code>sudo apt install mpd mpc -&gt; Debian-based distro
+sudo pacman -Sy mpd mpc -&gt; Arch-based distro
+sudo zipper in mpd mpc -&gt; Opensuse distro
+sudo dnf install mpd mpc -&gt; Fedora-based distro 
+</code></pre><p>Setelah ter-<em>install</em>, aktivasinya pun cukup mudah:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>mpd
+</span></span></code></pre></div><p>Selesai.</p>
+<p>Nanti, apapun <em>music player</em>-nya, jika terhubung ke MPD (misalnya seperti ncmpcpp), lagu yang sedang diputar akan muncul di Conky. Btw, saya juga menulis artikel khusus yang membahas ncmpcpp lho. Cek <a href="https://abwildan.github.io/post/ncmpcpp/" target="_blank">di sini</a>
+!</p>
+
+<h3 id="5-mewarnai-opsional">
+  5. Mewarnai (Opsional)
+  
+  <a hidden class="anchor" href="#5-mewarnai-opsional">
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
+
+
+ </a>
+  
+</h3>
+<p>Pewarnaan yang saya maksud di sini adalah pewarnaan untuk teks-teks yang tampil di Conky. Jadi, kalau kalian sudah menyukai default warnanya, atau kalian ingin menggantinya sesuai selera, tentu tidak ada larangannya.</p>
+<p>Tapi, kali ini, saya akan mengganti warna default tema-nya ke warna seperti yang ada di cover artikel ini. Jadi, saya akan menggunakan kombinasi warna <strong>Pink</strong>, <strong>Hijau</strong>, dan <strong>Biru Muda</strong>.</p>
+<p>Kita akan kembali meng-<em>edit</em> file konfigurasi <code>Sargas.conf</code>.</p>
+<p>Pertama-tama, saya akan mengganti nilai variavel <code>color1</code> ke warna hijau, kemudian membuat variabel warna baru, yaitu <code>color2</code> untuk warna pink:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>  color1 <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;#00ff21&#39;</span>, 
+</span></span><span style="display:flex;"><span>  color2 <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;#ff5ce6&#39;</span>, 
+</span></span></code></pre></div><p><img loading="lazy" src="/conky/ss11.png" alt="ss11"  />
+</p>
+<p>Kemudian menambahkan parameter warna tersebut ke conky teks:
+<img loading="lazy" src="/conky/ss12.png" alt="ss12"  />
+</p>
+<p>Terakhir, untuk mengganti warna pada indikator CPU, RAM, dan Disk, kita akan beralih ke file config lainnya, yaitu <code>~/.config/conky/Sargas/scripts/lua/rings-v1.2.1.lua</code>, lalu ganti setiap nilai dari variabel <code>fg_colour</code> ke warna biru muda:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>fg_colour<span style="color:#f92672">=</span>0x00ffff
+</span></span></code></pre></div><blockquote>
+<p><strong>Note:</strong><br>
+Pastikan variabel <code>fg_colour</code>-nya ada 4, menyesuaikan dengan jumlah lingkarannya juga :v.</p>
+</blockquote>
+<p>Sekarang, saya akan putar musik dari Quod Libet dan beginilah hasil Congky-nya!!!
+<img loading="lazy" src="/conky/ss13.png" alt="ss13"  />
+</p>
+
+<h2 id="finishing">
+  Finishing
+  
+  <a hidden class="anchor" href="#finishing">
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
+
+
+ </a>
+  
+</h2>
+<p>Sebagai penutup, kalau kita ingin menjalankan Conky dengan tema Sargas tersebut di <em>background</em>, kita bisa mengetikkan perintah berikut di terminal:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>conky -c ~/.config/conky/Sargas/Sargas.conf &amp;
+</span></span></code></pre></div><p>Tapi, jika kita ingin agar Conky bisa langsung berjalan tepat setelah login, kita tentu akan sangat malas jika harus mengetikkan perintah di atas berulang-ulang setiap login di komputer. Oleh karena itu, kita bisa mengaturnya (pada artikel ini saya hanya tunjukkan di XFCE).</p>
+<p>Pertama, pergi ke setting <strong>Session and Startup</strong> -&gt; <strong>Application Autostart</strong> -&gt; <strong>Add</strong>, kemudian masukkan nama, deskripsi (opsional), dan <em>command</em>-nya. Pastikan memasukkan command conky yang langsung mengarah ke file config Sargas, <code>conky -c ~/.config/conky/Sargas/Sargas.conf</code>.
+<img loading="lazy" src="/conky/ss14.png" alt="ss14"  />
+</p>
+<p>Klik <strong>Ok</strong>.</p>
+<p>Pastikan pengaturan Autostart Conky-nya sudah terceklis.
+<img loading="lazy" src="/conky/ss15.png" alt="ss15"  />
+</p>
+<p>SELESAIII!!</p>
+<p>Mudah? Bukan main mudahnya dong~</p>
+<p>Dengan modal Conky + tema yang sudah dibuatkan orang lain, desktop linux kita menjadi tidak hambar! Superrbbbb!!</p>
+<p>Sipp, sekian dulu artikel kali ini.<br>
+Sampai berjumpa di artikel saya yang lain ya!<br>
+Byee~~</p>
+<hr>
+<p>Btw, saya mau pamer desktop yang saya gunakan untuk menulis artikel ini.<br>
+Berikut spek dan tangkapan layarnya:<br>
+<strong>Distro:</strong> Debian 12 (Bookworm)<br>
+<strong>DE:</strong> XFCE<br>
+<strong>Tema:</strong> Needy Girl Overdose<br>
+<strong>Icon:</strong> Tela Circle</p>
+<p><img loading="lazy" src="/conky/my-desktop.jpg" alt="my-desktop"  />
+</p>
+<p>Tipikal desktop emak-emak muda yang demen masak dan nulis wkwkwk.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p><a href="https://en.wikipedia.org/wiki/Conky_%28software%29" target="_blank">https://en.wikipedia.org/wiki/Conky_(software)</a>
+&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p><a href="https://github.com/brndnmtthws/conky" target="_blank">https://github.com/brndnmtthws/conky</a>
+&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<nav class="pagenav">
+  
+  <div></div>
+  
+  
+    <a class="next" href="/tech/tty/">
+      <span class="direction">Next »</span>
+      <br>
+      <span> Log in to Your System with (Stunning) TTY </span>
+    </a>
+  
+</nav>
+
+
+
+
+
+
+
+
+      </main>
+      <footer>
+  <div class="copyright">
+     © 2024  Abdullah Wildan Ulhaq 
+  </div>
+  
+  <div class="attribution">
+    Built with <a href="https://gohugo.io" target="_blank">Hugo</a> & <a href="https://github.com/mnjm/kayal" target="_blank">Kayal</a>
+  </div>
+  
+</footer>
+
+    </div>
+  </body>
+</html>

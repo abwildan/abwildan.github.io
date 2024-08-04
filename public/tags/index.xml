@@ -1,396 +1,410 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Wildan&#39;s Workspace</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://wildanhaq.github.io/tags/</link>
     <description>Recent content in Tags on Wildan&#39;s Workspace</description>
-    <generator>Hugo -- 0.128.2</generator>
-    <language>en-US</language>
-    <lastBuildDate>Sat, 20 Jul 2024 11:16:26 +0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 02 Aug 2024 07:59:33 +0000</lastBuildDate>
+    <atom:link href="https://wildanhaq.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chess</title>
+      <link>https://wildanhaq.github.io/tags/chess/</link>
+      <pubDate>Fri, 02 Aug 2024 07:59:33 +0000</pubDate>
+      <guid>https://wildanhaq.github.io/tags/chess/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Intro</title>
+      <link>https://wildanhaq.github.io/tags/intro/</link>
+      <pubDate>Fri, 02 Aug 2024 07:59:33 +0000</pubDate>
+      <guid>https://wildanhaq.github.io/tags/intro/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Conky</title>
-      <link>http://localhost:1313/tags/conky/</link>
+      <link>https://wildanhaq.github.io/tags/conky/</link>
       <pubDate>Sat, 20 Jul 2024 11:16:26 +0700</pubDate>
-      <guid>http://localhost:1313/tags/conky/</guid>
+      <guid>https://wildanhaq.github.io/tags/conky/</guid>
       <description></description>
     </item>
     <item>
       <title>Linux</title>
-      <link>http://localhost:1313/tags/linux/</link>
+      <link>https://wildanhaq.github.io/tags/linux/</link>
       <pubDate>Sat, 20 Jul 2024 11:16:26 +0700</pubDate>
-      <guid>http://localhost:1313/tags/linux/</guid>
+      <guid>https://wildanhaq.github.io/tags/linux/</guid>
       <description></description>
     </item>
     <item>
       <title>Display Manager</title>
-      <link>http://localhost:1313/tags/display-manager/</link>
+      <link>https://wildanhaq.github.io/tags/display-manager/</link>
       <pubDate>Wed, 17 Jul 2024 15:06:15 +0700</pubDate>
-      <guid>http://localhost:1313/tags/display-manager/</guid>
+      <guid>https://wildanhaq.github.io/tags/display-manager/</guid>
       <description></description>
     </item>
     <item>
       <title>Login</title>
-      <link>http://localhost:1313/tags/login/</link>
+      <link>https://wildanhaq.github.io/tags/login/</link>
       <pubDate>Wed, 17 Jul 2024 15:06:15 +0700</pubDate>
-      <guid>http://localhost:1313/tags/login/</guid>
+      <guid>https://wildanhaq.github.io/tags/login/</guid>
       <description></description>
     </item>
     <item>
       <title>Tty</title>
-      <link>http://localhost:1313/tags/tty/</link>
+      <link>https://wildanhaq.github.io/tags/tty/</link>
       <pubDate>Wed, 17 Jul 2024 15:06:15 +0700</pubDate>
-      <guid>http://localhost:1313/tags/tty/</guid>
+      <guid>https://wildanhaq.github.io/tags/tty/</guid>
       <description></description>
     </item>
     <item>
       <title>Video</title>
-      <link>http://localhost:1313/tags/video/</link>
+      <link>https://wildanhaq.github.io/tags/video/</link>
       <pubDate>Sun, 23 Jun 2024 00:49:55 -0400</pubDate>
-      <guid>http://localhost:1313/tags/video/</guid>
+      <guid>https://wildanhaq.github.io/tags/video/</guid>
       <description></description>
     </item>
     <item>
       <title>Yt-Dlp</title>
-      <link>http://localhost:1313/tags/yt-dlp/</link>
+      <link>https://wildanhaq.github.io/tags/yt-dlp/</link>
       <pubDate>Sun, 23 Jun 2024 00:49:55 -0400</pubDate>
-      <guid>http://localhost:1313/tags/yt-dlp/</guid>
+      <guid>https://wildanhaq.github.io/tags/yt-dlp/</guid>
       <description></description>
     </item>
     <item>
       <title>Programming</title>
-      <link>http://localhost:1313/tags/programming/</link>
+      <link>https://wildanhaq.github.io/tags/programming/</link>
       <pubDate>Thu, 13 Jun 2024 11:56:25 -0400</pubDate>
-      <guid>http://localhost:1313/tags/programming/</guid>
+      <guid>https://wildanhaq.github.io/tags/programming/</guid>
       <description></description>
     </item>
     <item>
       <title>R</title>
-      <link>http://localhost:1313/tags/r/</link>
+      <link>https://wildanhaq.github.io/tags/r/</link>
       <pubDate>Thu, 13 Jun 2024 11:56:25 -0400</pubDate>
-      <guid>http://localhost:1313/tags/r/</guid>
+      <guid>https://wildanhaq.github.io/tags/r/</guid>
       <description></description>
     </item>
     <item>
       <title>Rstudio</title>
-      <link>http://localhost:1313/tags/rstudio/</link>
+      <link>https://wildanhaq.github.io/tags/rstudio/</link>
       <pubDate>Thu, 13 Jun 2024 11:56:25 -0400</pubDate>
-      <guid>http://localhost:1313/tags/rstudio/</guid>
+      <guid>https://wildanhaq.github.io/tags/rstudio/</guid>
       <description></description>
     </item>
     <item>
       <title>Cool</title>
-      <link>http://localhost:1313/tags/cool/</link>
+      <link>https://wildanhaq.github.io/tags/cool/</link>
       <pubDate>Sun, 09 Jun 2024 16:59:47 +0700</pubDate>
-      <guid>http://localhost:1313/tags/cool/</guid>
+      <guid>https://wildanhaq.github.io/tags/cool/</guid>
       <description></description>
     </item>
     <item>
       <title>Terminal</title>
-      <link>http://localhost:1313/tags/terminal/</link>
+      <link>https://wildanhaq.github.io/tags/terminal/</link>
       <pubDate>Sun, 09 Jun 2024 16:59:47 +0700</pubDate>
-      <guid>http://localhost:1313/tags/terminal/</guid>
+      <guid>https://wildanhaq.github.io/tags/terminal/</guid>
       <description></description>
     </item>
     <item>
       <title>Mpd</title>
-      <link>http://localhost:1313/tags/mpd/</link>
+      <link>https://wildanhaq.github.io/tags/mpd/</link>
       <pubDate>Fri, 07 Jun 2024 14:41:49 +0700</pubDate>
-      <guid>http://localhost:1313/tags/mpd/</guid>
+      <guid>https://wildanhaq.github.io/tags/mpd/</guid>
       <description></description>
     </item>
     <item>
       <title>Music Player</title>
-      <link>http://localhost:1313/tags/music-player/</link>
+      <link>https://wildanhaq.github.io/tags/music-player/</link>
       <pubDate>Fri, 07 Jun 2024 14:41:49 +0700</pubDate>
-      <guid>http://localhost:1313/tags/music-player/</guid>
+      <guid>https://wildanhaq.github.io/tags/music-player/</guid>
       <description></description>
     </item>
     <item>
       <title>Ncmpcpp</title>
-      <link>http://localhost:1313/tags/ncmpcpp/</link>
+      <link>https://wildanhaq.github.io/tags/ncmpcpp/</link>
       <pubDate>Fri, 07 Jun 2024 14:41:49 +0700</pubDate>
-      <guid>http://localhost:1313/tags/ncmpcpp/</guid>
+      <guid>https://wildanhaq.github.io/tags/ncmpcpp/</guid>
       <description></description>
     </item>
     <item>
       <title>Blogging</title>
-      <link>http://localhost:1313/tags/blogging/</link>
+      <link>https://wildanhaq.github.io/tags/blogging/</link>
       <pubDate>Thu, 06 Jun 2024 14:13:34 +0700</pubDate>
-      <guid>http://localhost:1313/tags/blogging/</guid>
+      <guid>https://wildanhaq.github.io/tags/blogging/</guid>
       <description></description>
     </item>
     <item>
       <title>Writing</title>
-      <link>http://localhost:1313/tags/writing/</link>
+      <link>https://wildanhaq.github.io/tags/writing/</link>
       <pubDate>Thu, 06 Jun 2024 14:13:34 +0700</pubDate>
-      <guid>http://localhost:1313/tags/writing/</guid>
+      <guid>https://wildanhaq.github.io/tags/writing/</guid>
       <description></description>
     </item>
     <item>
       <title>Remote Desktop</title>
-      <link>http://localhost:1313/tags/remote-desktop/</link>
+      <link>https://wildanhaq.github.io/tags/remote-desktop/</link>
       <pubDate>Tue, 04 Jun 2024 22:05:26 +0700</pubDate>
-      <guid>http://localhost:1313/tags/remote-desktop/</guid>
+      <guid>https://wildanhaq.github.io/tags/remote-desktop/</guid>
       <description></description>
     </item>
     <item>
       <title>Windows</title>
-      <link>http://localhost:1313/tags/windows/</link>
+      <link>https://wildanhaq.github.io/tags/windows/</link>
       <pubDate>Tue, 04 Jun 2024 22:05:26 +0700</pubDate>
-      <guid>http://localhost:1313/tags/windows/</guid>
+      <guid>https://wildanhaq.github.io/tags/windows/</guid>
       <description></description>
     </item>
     <item>
       <title>Polybar</title>
-      <link>http://localhost:1313/tags/polybar/</link>
+      <link>https://wildanhaq.github.io/tags/polybar/</link>
       <pubDate>Sun, 02 Jun 2024 19:14:29 +0700</pubDate>
-      <guid>http://localhost:1313/tags/polybar/</guid>
+      <guid>https://wildanhaq.github.io/tags/polybar/</guid>
       <description></description>
     </item>
     <item>
       <title>Status Bar</title>
-      <link>http://localhost:1313/tags/status-bar/</link>
+      <link>https://wildanhaq.github.io/tags/status-bar/</link>
       <pubDate>Sun, 02 Jun 2024 19:14:29 +0700</pubDate>
-      <guid>http://localhost:1313/tags/status-bar/</guid>
+      <guid>https://wildanhaq.github.io/tags/status-bar/</guid>
       <description></description>
     </item>
     <item>
       <title>Openbox</title>
-      <link>http://localhost:1313/tags/openbox/</link>
+      <link>https://wildanhaq.github.io/tags/openbox/</link>
       <pubDate>Thu, 30 May 2024 01:49:56 +0000</pubDate>
-      <guid>http://localhost:1313/tags/openbox/</guid>
+      <guid>https://wildanhaq.github.io/tags/openbox/</guid>
       <description></description>
     </item>
     <item>
       <title>Window Manager</title>
-      <link>http://localhost:1313/tags/window-manager/</link>
+      <link>https://wildanhaq.github.io/tags/window-manager/</link>
       <pubDate>Thu, 30 May 2024 01:49:56 +0000</pubDate>
-      <guid>http://localhost:1313/tags/window-manager/</guid>
+      <guid>https://wildanhaq.github.io/tags/window-manager/</guid>
       <description></description>
     </item>
     <item>
       <title>Journal</title>
-      <link>http://localhost:1313/tags/journal/</link>
+      <link>https://wildanhaq.github.io/tags/journal/</link>
       <pubDate>Tue, 21 May 2024 09:10:19 +0700</pubDate>
-      <guid>http://localhost:1313/tags/journal/</guid>
+      <guid>https://wildanhaq.github.io/tags/journal/</guid>
       <description></description>
     </item>
     <item>
       <title>Scihub</title>
-      <link>http://localhost:1313/tags/scihub/</link>
+      <link>https://wildanhaq.github.io/tags/scihub/</link>
       <pubDate>Tue, 21 May 2024 09:10:19 +0700</pubDate>
-      <guid>http://localhost:1313/tags/scihub/</guid>
+      <guid>https://wildanhaq.github.io/tags/scihub/</guid>
       <description></description>
     </item>
     <item>
       <title>Cyber Security</title>
-      <link>http://localhost:1313/tags/cyber-security/</link>
+      <link>https://wildanhaq.github.io/tags/cyber-security/</link>
       <pubDate>Mon, 13 May 2024 10:52:32 +0700</pubDate>
-      <guid>http://localhost:1313/tags/cyber-security/</guid>
+      <guid>https://wildanhaq.github.io/tags/cyber-security/</guid>
       <description></description>
     </item>
     <item>
       <title>Hacking</title>
-      <link>http://localhost:1313/tags/hacking/</link>
+      <link>https://wildanhaq.github.io/tags/hacking/</link>
       <pubDate>Mon, 13 May 2024 10:52:32 +0700</pubDate>
-      <guid>http://localhost:1313/tags/hacking/</guid>
+      <guid>https://wildanhaq.github.io/tags/hacking/</guid>
       <description></description>
     </item>
     <item>
       <title>Steganography</title>
-      <link>http://localhost:1313/tags/steganography/</link>
+      <link>https://wildanhaq.github.io/tags/steganography/</link>
       <pubDate>Mon, 13 May 2024 10:52:32 +0700</pubDate>
-      <guid>http://localhost:1313/tags/steganography/</guid>
+      <guid>https://wildanhaq.github.io/tags/steganography/</guid>
       <description></description>
     </item>
     <item>
       <title>Rofi</title>
-      <link>http://localhost:1313/tags/rofi/</link>
+      <link>https://wildanhaq.github.io/tags/rofi/</link>
       <pubDate>Sat, 04 May 2024 10:38:46 +0700</pubDate>
-      <guid>http://localhost:1313/tags/rofi/</guid>
+      <guid>https://wildanhaq.github.io/tags/rofi/</guid>
       <description></description>
     </item>
     <item>
       <title>Arch</title>
-      <link>http://localhost:1313/tags/arch/</link>
+      <link>https://wildanhaq.github.io/tags/arch/</link>
       <pubDate>Thu, 02 May 2024 09:52:29 +0700</pubDate>
-      <guid>http://localhost:1313/tags/arch/</guid>
+      <guid>https://wildanhaq.github.io/tags/arch/</guid>
       <description></description>
     </item>
     <item>
       <title>Install</title>
-      <link>http://localhost:1313/tags/install/</link>
+      <link>https://wildanhaq.github.io/tags/install/</link>
       <pubDate>Thu, 02 May 2024 09:52:29 +0700</pubDate>
-      <guid>http://localhost:1313/tags/install/</guid>
+      <guid>https://wildanhaq.github.io/tags/install/</guid>
       <description></description>
     </item>
     <item>
       <title>Debian</title>
-      <link>http://localhost:1313/tags/debian/</link>
+      <link>https://wildanhaq.github.io/tags/debian/</link>
       <pubDate>Sun, 28 Apr 2024 14:21:13 +0700</pubDate>
-      <guid>http://localhost:1313/tags/debian/</guid>
+      <guid>https://wildanhaq.github.io/tags/debian/</guid>
       <description></description>
     </item>
     <item>
       <title>Ricing</title>
-      <link>http://localhost:1313/tags/ricing/</link>
+      <link>https://wildanhaq.github.io/tags/ricing/</link>
       <pubDate>Sun, 28 Apr 2024 14:21:13 +0700</pubDate>
-      <guid>http://localhost:1313/tags/ricing/</guid>
+      <guid>https://wildanhaq.github.io/tags/ricing/</guid>
       <description></description>
     </item>
     <item>
       <title>Instal</title>
-      <link>http://localhost:1313/tags/instal/</link>
+      <link>https://wildanhaq.github.io/tags/instal/</link>
       <pubDate>Mon, 15 Apr 2024 07:45:05 +0700</pubDate>
-      <guid>http://localhost:1313/tags/instal/</guid>
+      <guid>https://wildanhaq.github.io/tags/instal/</guid>
       <description></description>
     </item>
     <item>
       <title>Ngrok</title>
-      <link>http://localhost:1313/tags/ngrok/</link>
+      <link>https://wildanhaq.github.io/tags/ngrok/</link>
       <pubDate>Tue, 02 Apr 2024 17:30:12 +0700</pubDate>
-      <guid>http://localhost:1313/tags/ngrok/</guid>
+      <guid>https://wildanhaq.github.io/tags/ngrok/</guid>
       <description></description>
     </item>
     <item>
       <title>Tutorial</title>
-      <link>http://localhost:1313/tags/tutorial/</link>
+      <link>https://wildanhaq.github.io/tags/tutorial/</link>
       <pubDate>Tue, 02 Apr 2024 17:30:12 +0700</pubDate>
-      <guid>http://localhost:1313/tags/tutorial/</guid>
+      <guid>https://wildanhaq.github.io/tags/tutorial/</guid>
       <description></description>
     </item>
     <item>
       <title>Ffmpeg</title>
-      <link>http://localhost:1313/tags/ffmpeg/</link>
+      <link>https://wildanhaq.github.io/tags/ffmpeg/</link>
       <pubDate>Tue, 26 Mar 2024 17:56:16 +0700</pubDate>
-      <guid>http://localhost:1313/tags/ffmpeg/</guid>
+      <guid>https://wildanhaq.github.io/tags/ffmpeg/</guid>
       <description></description>
     </item>
     <item>
       <title>Mystiq</title>
-      <link>http://localhost:1313/tags/mystiq/</link>
+      <link>https://wildanhaq.github.io/tags/mystiq/</link>
       <pubDate>Tue, 26 Mar 2024 17:56:16 +0700</pubDate>
-      <guid>http://localhost:1313/tags/mystiq/</guid>
+      <guid>https://wildanhaq.github.io/tags/mystiq/</guid>
       <description></description>
     </item>
     <item>
       <title>Metasploit</title>
-      <link>http://localhost:1313/tags/metasploit/</link>
+      <link>https://wildanhaq.github.io/tags/metasploit/</link>
       <pubDate>Thu, 21 Mar 2024 18:54:33 +0700</pubDate>
-      <guid>http://localhost:1313/tags/metasploit/</guid>
+      <guid>https://wildanhaq.github.io/tags/metasploit/</guid>
       <description></description>
     </item>
     <item>
       <title>Forensic</title>
-      <link>http://localhost:1313/tags/forensic/</link>
+      <link>https://wildanhaq.github.io/tags/forensic/</link>
       <pubDate>Tue, 19 Mar 2024 21:43:27 +0700</pubDate>
-      <guid>http://localhost:1313/tags/forensic/</guid>
+      <guid>https://wildanhaq.github.io/tags/forensic/</guid>
       <description></description>
     </item>
     <item>
       <title>Recordmydesktop</title>
-      <link>http://localhost:1313/tags/recordmydesktop/</link>
+      <link>https://wildanhaq.github.io/tags/recordmydesktop/</link>
       <pubDate>Fri, 08 Mar 2024 14:55:26 +0700</pubDate>
-      <guid>http://localhost:1313/tags/recordmydesktop/</guid>
+      <guid>https://wildanhaq.github.io/tags/recordmydesktop/</guid>
       <description></description>
     </item>
     <item>
       <title>Screen Recorder</title>
-      <link>http://localhost:1313/tags/screen-recorder/</link>
+      <link>https://wildanhaq.github.io/tags/screen-recorder/</link>
       <pubDate>Fri, 08 Mar 2024 14:55:26 +0700</pubDate>
-      <guid>http://localhost:1313/tags/screen-recorder/</guid>
+      <guid>https://wildanhaq.github.io/tags/screen-recorder/</guid>
       <description></description>
     </item>
     <item>
       <title>Data Analysis</title>
-      <link>http://localhost:1313/tags/data-analysis/</link>
+      <link>https://wildanhaq.github.io/tags/data-analysis/</link>
       <pubDate>Sat, 06 Jan 2024 02:26:47 -0500</pubDate>
-      <guid>http://localhost:1313/tags/data-analysis/</guid>
+      <guid>https://wildanhaq.github.io/tags/data-analysis/</guid>
       <description></description>
     </item>
     <item>
       <title>Gephi</title>
-      <link>http://localhost:1313/tags/gephi/</link>
+      <link>https://wildanhaq.github.io/tags/gephi/</link>
       <pubDate>Sat, 06 Jan 2024 02:26:47 -0500</pubDate>
-      <guid>http://localhost:1313/tags/gephi/</guid>
+      <guid>https://wildanhaq.github.io/tags/gephi/</guid>
       <description></description>
     </item>
     <item>
       <title>Anonymous</title>
-      <link>http://localhost:1313/tags/anonymous/</link>
+      <link>https://wildanhaq.github.io/tags/anonymous/</link>
       <pubDate>Thu, 30 Nov 2023 07:35:02 -0500</pubDate>
-      <guid>http://localhost:1313/tags/anonymous/</guid>
+      <guid>https://wildanhaq.github.io/tags/anonymous/</guid>
       <description></description>
     </item>
     <item>
       <title>TOR</title>
-      <link>http://localhost:1313/tags/tor/</link>
+      <link>https://wildanhaq.github.io/tags/tor/</link>
       <pubDate>Thu, 30 Nov 2023 07:35:02 -0500</pubDate>
-      <guid>http://localhost:1313/tags/tor/</guid>
+      <guid>https://wildanhaq.github.io/tags/tor/</guid>
       <description></description>
     </item>
     <item>
       <title>E-Book</title>
-      <link>http://localhost:1313/tags/e-book/</link>
+      <link>https://wildanhaq.github.io/tags/e-book/</link>
       <pubDate>Wed, 11 Oct 2023 16:32:22 +0700</pubDate>
-      <guid>http://localhost:1313/tags/e-book/</guid>
+      <guid>https://wildanhaq.github.io/tags/e-book/</guid>
       <description></description>
     </item>
     <item>
       <title>Telegram</title>
-      <link>http://localhost:1313/tags/telegram/</link>
+      <link>https://wildanhaq.github.io/tags/telegram/</link>
       <pubDate>Wed, 11 Oct 2023 16:32:22 +0700</pubDate>
-      <guid>http://localhost:1313/tags/telegram/</guid>
+      <guid>https://wildanhaq.github.io/tags/telegram/</guid>
       <description></description>
     </item>
     <item>
       <title>Z-Library</title>
-      <link>http://localhost:1313/tags/z-library/</link>
+      <link>https://wildanhaq.github.io/tags/z-library/</link>
       <pubDate>Wed, 11 Oct 2023 16:32:22 +0700</pubDate>
-      <guid>http://localhost:1313/tags/z-library/</guid>
+      <guid>https://wildanhaq.github.io/tags/z-library/</guid>
       <description></description>
     </item>
     <item>
       <title>MP4 to GIF</title>
-      <link>http://localhost:1313/tags/mp4-to-gif/</link>
+      <link>https://wildanhaq.github.io/tags/mp4-to-gif/</link>
       <pubDate>Wed, 11 Oct 2023 00:40:23 +0700</pubDate>
-      <guid>http://localhost:1313/tags/mp4-to-gif/</guid>
+      <guid>https://wildanhaq.github.io/tags/mp4-to-gif/</guid>
       <description></description>
     </item>
     <item>
       <title>Video Converter</title>
-      <link>http://localhost:1313/tags/video-converter/</link>
+      <link>https://wildanhaq.github.io/tags/video-converter/</link>
       <pubDate>Wed, 11 Oct 2023 00:40:23 +0700</pubDate>
-      <guid>http://localhost:1313/tags/video-converter/</guid>
+      <guid>https://wildanhaq.github.io/tags/video-converter/</guid>
       <description></description>
     </item>
     <item>
       <title>Hugo</title>
-      <link>http://localhost:1313/tags/hugo/</link>
+      <link>https://wildanhaq.github.io/tags/hugo/</link>
       <pubDate>Mon, 09 Oct 2023 15:22:46 +0700</pubDate>
-      <guid>http://localhost:1313/tags/hugo/</guid>
+      <guid>https://wildanhaq.github.io/tags/hugo/</guid>
       <description></description>
     </item>
     <item>
       <title>Static-Site</title>
-      <link>http://localhost:1313/tags/static-site/</link>
+      <link>https://wildanhaq.github.io/tags/static-site/</link>
       <pubDate>Mon, 09 Oct 2023 15:22:46 +0700</pubDate>
-      <guid>http://localhost:1313/tags/static-site/</guid>
+      <guid>https://wildanhaq.github.io/tags/static-site/</guid>
       <description></description>
     </item>
     <item>
       <title>Website</title>
-      <link>http://localhost:1313/tags/website/</link>
+      <link>https://wildanhaq.github.io/tags/website/</link>
       <pubDate>Mon, 09 Oct 2023 15:22:46 +0700</pubDate>
-      <guid>http://localhost:1313/tags/website/</guid>
+      <guid>https://wildanhaq.github.io/tags/website/</guid>
       <description></description>
     </item>
     <item>
       <title>Introduction</title>
-      <link>http://localhost:1313/tags/introduction/</link>
+      <link>https://wildanhaq.github.io/tags/introduction/</link>
       <pubDate>Sat, 07 Oct 2023 13:17:32 +0700</pubDate>
-      <guid>http://localhost:1313/tags/introduction/</guid>
+      <guid>https://wildanhaq.github.io/tags/introduction/</guid>
       <description></description>
     </item>
   </channel>

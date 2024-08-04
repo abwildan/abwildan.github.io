@@ -1,45 +1,68 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cyber Security on Wildan&#39;s Workspace</title>
-    <link>http://localhost:1313/tags/cyber-security/</link>
+    <link>https://wildanhaq.github.io/tags/cyber-security/</link>
     <description>Recent content in Cyber Security on Wildan&#39;s Workspace</description>
-    <generator>Hugo -- 0.128.2</generator>
-    <language>en-US</language>
+    <generator>Hugo</generator>
+    <language>en-us</language>
     <lastBuildDate>Mon, 13 May 2024 10:52:32 +0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/cyber-security/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://wildanhaq.github.io/tags/cyber-security/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Steganography - Hiding secret(s) Inside A File</title>
-      <link>http://localhost:1313/post/steganography/</link>
+      <link>https://wildanhaq.github.io/post/steganography/</link>
       <pubDate>Mon, 13 May 2024 10:52:32 +0700</pubDate>
-      <guid>http://localhost:1313/post/steganography/</guid>
-      <description>Steganography is the practice of representing information within another message or physical object.1
-Pengertian &amp;amp; Sejarah Steganography Pengertian steganography [selanjutnya saya singkat dengan stego] memang sesederhana &amp;ldquo;ilmu dan seni menyembunyikan pesan atau informasi rahasia di dalam pesan lain&amp;rdquo;.
-Tapi sebetulnya, jauh sebelum komputer ditemukan, proses stego ini sudah dilakukan sejak zaman Yunani Kuno. Sebuah kisah dari penguasa Yunani saat itu, Herodotus pada tahun 440 BC (re: Before Christ / Sebelum Masehi) yang terdapat dalam buku Histories of Herodotus, menceritakan tentang bagaimana kepala budak digunakan sebagai media steganography.</description>
+      <guid>https://wildanhaq.github.io/post/steganography/</guid>
+      <description>Steganography is the practice of representing information within another message or physical object.1&#xA;Pengertian &amp;amp; Sejarah Steganography Pengertian steganography [selanjutnya saya singkat dengan stego] memang sesederhana &amp;ldquo;ilmu dan seni menyembunyikan pesan atau informasi rahasia di dalam pesan lain&amp;rdquo;.</description>
+    </item>
+    <item>
+      <title>Steganography - Hiding secret(s) Inside A File</title>
+      <link>https://wildanhaq.github.io/tech/steganography/</link>
+      <pubDate>Mon, 13 May 2024 10:52:32 +0700</pubDate>
+      <guid>https://wildanhaq.github.io/tech/steganography/</guid>
+      <description>Steganography is the practice of representing information within another message or physical object.1&#xA;Pengertian &amp;amp; Sejarah Steganography Pengertian steganography [selanjutnya saya singkat dengan stego] memang sesederhana &amp;ldquo;ilmu dan seni menyembunyikan pesan atau informasi rahasia di dalam pesan lain&amp;rdquo;.</description>
     </item>
     <item>
       <title>Ngrok - Make Your localhost Accessible Publicly</title>
-      <link>http://localhost:1313/post/ngrok/</link>
+      <link>https://wildanhaq.github.io/post/ngrok/</link>
       <pubDate>Tue, 02 Apr 2024 17:30:12 +0700</pubDate>
-      <guid>http://localhost:1313/post/ngrok/</guid>
-      <description>Ngrok? Ngrok bagi sebagian orang mungkin sudah faniliar karena sering digunakan untuk berbagai kebutuhan. Tapi, bagi yang belum tahu, ngrok secara sederhana dapat didefinisikan sebagai aplikasi yang memungkinkan kita untuk mem-publish server lokal kita di localhost ke publik dengan aman. Artinya, service seperti misalnya web di localhost (http) atau bahkan SSH dan RDP dapat diakses di luar jaringan secara aman melalui bantuan dari Ngrok ini. Untuk detail teknisnya sebentar lagi kita akan lihat demonya.</description>
+      <guid>https://wildanhaq.github.io/post/ngrok/</guid>
+      <description>Ngrok? Ngrok bagi sebagian orang mungkin sudah faniliar karena sering digunakan untuk berbagai kebutuhan. Tapi, bagi yang belum tahu, ngrok secara sederhana dapat didefinisikan sebagai aplikasi yang memungkinkan kita untuk mem-publish server lokal kita di localhost ke publik dengan aman.</description>
+    </item>
+    <item>
+      <title>Ngrok - Make Your localhost Accessible Publicly</title>
+      <link>https://wildanhaq.github.io/tech/ngrok/</link>
+      <pubDate>Tue, 02 Apr 2024 17:30:12 +0700</pubDate>
+      <guid>https://wildanhaq.github.io/tech/ngrok/</guid>
+      <description>Ngrok? Ngrok bagi sebagian orang mungkin sudah faniliar karena sering digunakan untuk berbagai kebutuhan. Tapi, bagi yang belum tahu, ngrok secara sederhana dapat didefinisikan sebagai aplikasi yang memungkinkan kita untuk mem-publish server lokal kita di localhost ke publik dengan aman.</description>
     </item>
     <item>
       <title>Eternalblue (MS17-010) - SMBv1&#39;s Exploit</title>
-      <link>http://localhost:1313/post/eternalblue/</link>
+      <link>https://wildanhaq.github.io/post/eternalblue/</link>
       <pubDate>Thu, 21 Mar 2024 18:54:33 +0700</pubDate>
-      <guid>http://localhost:1313/post/eternalblue/</guid>
-      <description>Sejarah (Singkat) Apa itu Eternalblue?
-Eternalblue atau oleh Microsoft disebut dengan MS17-010 adalah sebuah exploit yang dapat digunakan untuk menyebarkan malware pada sebuah mesin Windows. Eternalblue adalah eksploit yang pada awalnya ditemukan oleh NSA (National Security Agency) Amerika Serikat untuk memanfaatkan kerentanan pada SMB v1 (Server Message Block versi 1) di Windows, terutama pada Windows 7 dan Windows XP.1
-Exploit ini tidak dilaporkan oleh NSA ke pihak Microsoft karena menguntungkan pihak NSA untuk melakukan mata-mata terhadap lawan-lawan politiknya.</description>
+      <guid>https://wildanhaq.github.io/post/eternalblue/</guid>
+      <description>Sejarah (Singkat) Apa itu Eternalblue?&#xA;Eternalblue atau oleh Microsoft disebut dengan MS17-010 adalah sebuah exploit yang dapat digunakan untuk menyebarkan malware pada sebuah mesin Windows.</description>
+    </item>
+    <item>
+      <title>Eternalblue (MS17-010) - SMBv1&#39;s Exploit</title>
+      <link>https://wildanhaq.github.io/tech/eternalblue/</link>
+      <pubDate>Thu, 21 Mar 2024 18:54:33 +0700</pubDate>
+      <guid>https://wildanhaq.github.io/tech/eternalblue/</guid>
+      <description>Sejarah (Singkat) Apa itu Eternalblue?&#xA;Eternalblue atau oleh Microsoft disebut dengan MS17-010 adalah sebuah exploit yang dapat digunakan untuk menyebarkan malware pada sebuah mesin Windows.</description>
     </item>
     <item>
       <title>Virustotal - Platform untuk Scanning Virus</title>
-      <link>http://localhost:1313/post/virustotal/</link>
+      <link>https://wildanhaq.github.io/post/virustotal/</link>
       <pubDate>Tue, 19 Mar 2024 21:43:27 +0700</pubDate>
-      <guid>http://localhost:1313/post/virustotal/</guid>
-      <description>Overview Virustotal adalah salah satu website terbaik untuk melakukan identifikasi terhadap suatu file/software/aplikasi dan url, apakah mengandung virus atau malware (malicious software) atau tidak. Dengan kata lain, melalui bantuan website ini, kita dapat mengecek suatu file/software/aplikasi maupun suatu link/url apakah berbahaya atau tidak sebelum kita menginstallnya di device kita masing-masing.
-Virustotal1 menjadi salah satu website penyedia jasa scanning virus terbaik karena website tersebut melakukan scanning dengan menggunakan lebih dari 50 vendor antivirus, termasuk diantaranya adalah Avira, BitDefender, dan Kaspersky.</description>
+      <guid>https://wildanhaq.github.io/post/virustotal/</guid>
+      <description>Overview Virustotal adalah salah satu website terbaik untuk melakukan identifikasi terhadap suatu file/software/aplikasi dan url, apakah mengandung virus atau malware (malicious software) atau tidak.</description>
+    </item>
+    <item>
+      <title>Virustotal - Platform untuk Scanning Virus</title>
+      <link>https://wildanhaq.github.io/tech/virustotal/</link>
+      <pubDate>Tue, 19 Mar 2024 21:43:27 +0700</pubDate>
+      <guid>https://wildanhaq.github.io/tech/virustotal/</guid>
+      <description>Overview Virustotal adalah salah satu website terbaik untuk melakukan identifikasi terhadap suatu file/software/aplikasi dan url, apakah mengandung virus atau malware (malicious software) atau tidak.</description>
     </item>
   </channel>
 </rss>

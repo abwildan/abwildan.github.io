@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chesses on Wildan&#39;s Workspace</title>
+    <link>https://wildanhaq.github.io/chess/</link>
+    <description>Recent content in Chesses on Wildan&#39;s Workspace</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 02 Aug 2024 07:59:33 +0000</lastBuildDate>
+    <atom:link href="https://wildanhaq.github.io/chess/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction to Chess ♟️</title>
+      <link>https://wildanhaq.github.io/chess/intro/</link>
+      <pubDate>Fri, 02 Aug 2024 07:59:33 +0000</pubDate>
+      <guid>https://wildanhaq.github.io/chess/intro/</guid>
+      <description>This article shares about (short) history, pieces, notation, and other things regarding Intro to Chess.</description>
+    </item>
+  </channel>
+</rss>

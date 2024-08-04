@@ -1,0 +1,877 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="content-language" content="en-us" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+  
+  
+  <title>RStudio Basic: From Installation to Data Visualization &middot; Wildan&#39;s Workspace</title>
+  <meta name="title" content="RStudio Basic: From Installation to Data Visualization &middot; Wildan&#39;s Workspace" />
+  
+
+  
+  
+  <meta name="description" content="A Hugo Theme" />
+  
+  <meta name="keywords" content="Rstudio, programming, R, " />
+  <link rel="canonical" href="https://wildanhaq.github.io/tech/rstudio-basic/" />
+
+  
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+
+  
+  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.8331ad0e0504ae5748d767d41c43d6b3750d566a28c17279a1556949a2575decaccac0d7bfa825ae92be47ab92916ff310f57fccaaeecf6624ec11c571cc4f00.css" integrity="sha512-gzGtDgUErldI12fUHEPWs3UNVmoowXJ5oVVpSaJXXeysysDXv6glrpK&#43;R6uSkW/zEPV/zKruz2Yk7BHFccxPAA==" />
+
+
+  
+
+
+  
+
+
+
+  
+    
+        
+        <script defer type="text/javascript" src="/js/theme.min.b12ffe233a345d2a545ca355b5aa71c906bbebbee2ea801f46de9e7af2b59da08cc4ffe002b2f302ce00f00eddca05abd8f71c16335f949d96e42eb5971c0235.js" integrity="sha512-sS/&#43;Izo0XSpUXKNVtapxyQa7677i6oAfRt6eevK1naCMxP/gArLzAs4A8A7dygWr2PccFjNflJ2W5C61lxwCNQ=="> </script>
+      
+    
+  
+
+  
+    
+        
+        <script defer type="text/javascript" src="/js/codecopy.min.da9ea5e1678be883b7bcc950cd18c8238d26c3d21ab9977ea83699dd1e7657cb45dd1f4516c0fd2adaf2c6b6174fbd235760a13b0d80b0e6ae1c29869011729e.js" integrity="sha512-2p6l4WeL6IO3vMlQzRjII40mw9IauZd&#43;qDaZ3R52V8tF3R9FFsD9KtryxrYXT70jV2ChOw2AsOauHCmGkBFyng=="> </script>
+      
+    
+  
+
+
+
+  
+  
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+  
+
+  <meta property="og:url" content="https://wildanhaq.github.io/tech/rstudio-basic/">
+  <meta property="og:site_name" content="Wildan&#39;s Workspace">
+  <meta property="og:title" content="RStudio Basic: From Installation to Data Visualization">
+  <meta property="og:description" content="Hola!
+RStudio menurut saya adalah software keren untuk mengolah data menggunakan bahasa R. Jadi, saya memutuskan untuk membahasnya di artikel ini.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="tech">
+    <meta property="article:published_time" content="2024-06-13T11:56:25-04:00">
+    <meta property="article:modified_time" content="2024-06-13T11:56:25-04:00">
+    <meta property="article:tag" content="Rstudio">
+    <meta property="article:tag" content="Programming">
+    <meta property="article:tag" content="R">
+
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="RStudio Basic: From Installation to Data Visualization">
+  <meta name="twitter:description" content="Hola!
+RStudio menurut saya adalah software keren untuk mengolah data menggunakan bahasa R. Jadi, saya memutuskan untuk membahasnya di artikel ini.">
+
+
+  
+  
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+  
+  
+
+
+
+  
+  
+  
+  
+  
+
+  
+  <link rel="preload" href="https://wildanhaq.github.io/fonts/Ubuntu-Regular.woff2" as="font" type="font/woff2" crossorigin>
+
+  
+
+</head>
+
+  <body>
+    <script>
+      const siteTheme = "auto";
+      let savedTheme = localStorage.getItem('theme') || siteTheme;
+      if (savedTheme == 'auto') {
+        if ( window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ) {
+          savedTheme = 'dark';
+        }
+      }
+      if (savedTheme === "dark") {
+        document.body.classList.add('dark');
+        localStorage.setItem('theme', 'dark');
+      }
+    </script>
+    <div class="content">
+      <header>
+    
+    <div class="header-cntr">
+    <a class="title" href="/">
+    <span>Wildan's Workspace</span>
+    </a>
+  <div class="menu">
+  <nav id="main-menu" class="mm-normal">
+    <ul>
+    <li> <button id="mob-x-icon" class="menu-btn" arial-label="x-icon"> 
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+
+
+ </button> </li>
+    
+      <li><a href="/tech/" aria-label="tech">
+      Tech</li></a>
+    
+      <li><a href="/chess/" aria-label="chess">
+      Chess</li></a>
+    
+      <li><a href="/life/" aria-label="life">
+      Life</li></a>
+    
+      <li><a href="/opinion/" aria-label="opinion">
+      Opinion</li></a>
+    
+    </ul>
+  </nav>
+    <div class="side-menu">
+    
+    <button id="theme-switcher" class="menu-btn" aria-label="Theme switcher">
+      <div id="moon">
+      
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
+
+
+
+      </div>
+      <div id="sun">
+      
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/></svg>
+
+
+
+      </div>
+    </button>
+    
+    </div>
+    <button id="mob-hb-icon" class="menu-btn" aria-label="Hamburger icon">
+      
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z"/></svg>
+
+
+
+    </button>
+  </div>
+  <script>
+  (function() {
+    document.addEventListener('DOMContentLoaded', function() {
+    const openBtn = document.getElementById('mob-hb-icon');
+    const closeBtn = document.getElementById('mob-x-icon');
+    const mainMenu = document.getElementById('main-menu');
+    const body = document.body;
+
+    openBtn.addEventListener('click', function() {
+        mainMenu.classList.replace('mm-normal', 'mm-mobile-open');
+        closeBtn.style.display = 'block';
+        body.style.overflow = 'hidden';
+    });
+    closeBtn.addEventListener('click', function() {
+        mainMenu.classList.replace('mm-mobile-open', 'mm-normal');
+        closeBtn.style.display = 'none';
+        body.style.overflow = '';
+    });
+    })
+  })();
+  </script>
+  
+  <script>
+  (function() {
+    var mainmenu = document.getElementById('main-menu');
+    if (!mainmenu) return;
+
+    var path = window.location.pathname;
+    var links = mainmenu.querySelectorAll('a');
+
+    links.forEach(function(link) {
+      if (link.getAttribute('href') === path) {
+        link.classList.add('active');
+      }
+    });
+  })();
+  </script>
+  
+</div>
+</header>
+
+      <main>
+        
+
+<h1 class="pg-title">RStudio Basic: From Installation to Data Visualization</h1>
+
+
+<div class="meta">
+  
+
+
+
+<p>
+
+
+  
+  
+  <span class="meta-icon">
+
+    <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+<svg fill="currentColor" width="800px" height="800px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19,4H17V3a1,1,0,0,0-2,0V4H9V3A1,1,0,0,0,7,3V4H5A3,3,0,0,0,2,7V19a3,3,0,0,0,3,3H19a3,3,0,0,0,3-3V7A3,3,0,0,0,19,4Zm1,15a1,1,0,0,1-1,1H5a1,1,0,0,1-1-1V12H20Zm0-9H4V7A1,1,0,0,1,5,6H7V7A1,1,0,0,0,9,7V6h6V7a1,1,0,0,0,2,0V6h2a1,1,0,0,1,1,1Z"/></svg>
+
+
+</span>
+  Posted on <time datetime="2024-06-13T11:56:25-04:00">Jun 13, 2024</time>
+  
+  
+  
+
+
+  <span class="meta-icon">
+
+    <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+<svg width="800px" height="800px" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+<path d="M23 12C23 18.0751 18.0751 23 12 23C5.92487 23 1 18.0751 1 12C1 5.92487 5.92487 1 12 1C18.0751 1 23 5.92487 23 12ZM3.00683 12C3.00683 16.9668 7.03321 20.9932 12 20.9932C16.9668 20.9932 20.9932 16.9668 20.9932 12C20.9932 7.03321 16.9668 3.00683 12 3.00683C7.03321 3.00683 3.00683 7.03321 3.00683 12Z" fill="currentColor"/>
+<path d="M12 5C11.4477 5 11 5.44771 11 6V12.4667C11 12.4667 11 12.7274 11.1267 12.9235C11.2115 13.0898 11.3437 13.2343 11.5174 13.3346L16.1372 16.0019C16.6155 16.278 17.2271 16.1141 17.5032 15.6358C17.7793 15.1575 17.6155 14.5459 17.1372 14.2698L13 11.8812V6C13 5.44772 12.5523 5 12 5Z" fill="currentColor"/>
+</svg>
+
+
+</span>
+  
+    12 mins
+  
+
+
+</p>
+
+  
+
+
+<p>
+  <span class="meta-icon"> 
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M48 32H197.5C214.5 32 230.7 38.74 242.7 50.75L418.7 226.7C443.7 251.7 443.7 292.3 418.7 317.3L285.3 450.7C260.3 475.7 219.7 475.7 194.7 450.7L18.75 274.7C6.743 262.7 0 246.5 0 229.5V80C0 53.49 21.49 32 48 32L48 32zM112 176C129.7 176 144 161.7 144 144C144 126.3 129.7 112 112 112C94.33 112 80 126.3 80 144C80 161.7 94.33 176 112 176z"/></svg>
+
+
+ </span>
+  
+  <a class="tag" href="/tags/rstudio/">Rstudio</a>
+  
+  <a class="tag" href="/tags/programming/">Programming</a>
+  
+  <a class="tag" href="/tags/r/">R</a>
+  
+</p>
+
+
+
+</div>
+
+
+
+
+  <div class="toc">
+    <details >
+      <summary accesskey="c" title="(Alt+C)">
+        Table of Contents
+      </summary>
+      <div class="toc-innr">
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#1-what-is-r--rstudio">1. What is R &amp; RStudio?</a></li>
+    <li><a href="#2-why-r--rstudio">2. Why R &amp; RStudio?</a></li>
+    <li><a href="#3-r--rstudio-installation">3. R &amp; Rstudio Installation</a></li>
+    <li><a href="#4-rstudio-interface-introduction">4. Rstudio Interface Introduction</a></li>
+    <li><a href="#5-installing-packages-tidyverse--palmerpenguins">5. Installing Packages (tidyverse &amp; palmerpenguins)</a></li>
+    <li><a href="#6-playing-with-data">6. Playing with Data</a>
+      <ul>
+        <li><a href="#viewing-dataset">Viewing Dataset</a></li>
+        <li><a href="#visualizing-data">Visualizing Data</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+      </div>
+    </details>
+  </div>
+  
+
+
+
+<p>Hola!</p>
+<p>RStudio menurut saya adalah <em>software</em> keren untuk mengolah data menggunakan bahasa R. Jadi, saya memutuskan untuk membahasnya di artikel ini. Tapi, sebagaimana judulnya, saya hanya akan memberikan <em>overview</em> tentang RStudio secara singkat.</p>
+<p>Beberapa hal yang akan saya bahas dari Rstudio di artikel ini terbagi ke dalam 6 bagian:</p>
+<ol>
+<li>What is R &amp; RStudio?</li>
+<li>Why R &amp; RStudio<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></li>
+<li>R &amp; RStudio Installation</li>
+<li>RStudio Interface Introduction</li>
+<li>Installing Packages (tidyverse &amp; palmerpenguins)</li>
+<li>Playing with Data</li>
+</ol>
+
+<h2 id="1-what-is-r--rstudio">
+  1. What is R &amp; RStudio?
+  
+  <a hidden class="anchor" href="#1-what-is-r--rstudio">
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
+
+
+ </a>
+  
+</h2>
+<p>Pertanyaan pertama yang paling penting karena bersifat ontologis: <strong>&ldquo;Apa itu R?&rdquo;</strong><br>
+Secara sederhana, R adalah sebuah bahasa pemrograman yang digunakan untuk mengolah dan memvisualisasikan data<sup id="fnref1:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. R juga bisa didefinisikan secara rinci sebagai software dan juga bahasa pemrograman yang digunakan untuk melakukan analisis data statistik<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>. R diciptakan oleh Robert Gentleman dan kawan-kawannya di Universitas Auckland, Selandia baru<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>. R juga merupakan <em>project</em> GNU yang berbasis <em>open source</em> alias gratis.</p>
+<p>RStudio atau RStudio Desktop adalah <em>software</em> yang berfungsi sebagai <em>interface</em> atau antarmuka grafis untuk bahasa R. Kita bisa menyebut RStudio sebagai IDE atau  <em>Integrated Development Environment</em> untuk bahasa R, sehingga memudahkan kita untuk membuat program berbasis R. RStudio dibuat oleh Posit (dulu namanya RStudio juga, sekarang sudah berganti nama menjadi Posit), sebuah perusahaan pengembang <em>software data science open source</em> yang sudah berdiri sejak tahun 2009<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup>.</p>
+
+<h2 id="2-why-r--rstudio">
+  2. Why R &amp; RStudio?
+  
+  <a hidden class="anchor" href="#2-why-r--rstudio">
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
+
+
+ </a>
+  
+</h2>
+<p>Sekarang, kita masuk ke pertanyaan yang bersifat aksiologis, yang juga penting, yaitu <strong>&ldquo;Mengapa harus bahasa R dan RStudio?&rdquo;</strong><br>
+Beberapa alasan yang bisa menjustifikasi keunggulan bahasa R<sup id="fnref1:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>:</p>
+<ol>
+<li>R adalah bahasa pemrograman yang gratis dan <em>open source</em>. <em>Open source</em> artinya kita bisa memodifikasi bahasa R itu sendiri sesuai kebutuhan dan juga boleh dan sah untuk didistribusikan kembali karena <em>source code</em>-nya memang &ldquo;<em>open</em>&rdquo;.</li>
+<li>R tersedia dan dapat di-<em>instal</em> di berbagai sistem operasi populer saat ini, seperti Linux, Windows, dan MacOS.</li>
+<li>R juga memungkinkan kita untuk membuat graph atau grafik yang berkualitas untuk dipublikasikan.</li>
+<li>R juga menyediakan metode dan algoritma statistik yang dibuat oleh penggunanya sendiri (nama repositorinya - semacam playstore atau apple store - yaitu CRAN, singkatan dari <em>Comprehensive R Archive Network</em>).</li>
+</ol>
+<p>RStudio juga menjadi IDE favorit bagi para R data programmer karena<sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup>:</p>
+<ol>
+<li>RStudio sebagai IDE (<em>Integrated Development Environment</em>) menyediakan fitur-fitur <em>user-friendly</em> yang memang khusus diperuntukkan untuk pemrograman R, misalnya fitur seperti <em>syntax higlighting</em>, <em>code completion</em>, dan lain sebagainya.</li>
+<li>RStuio juga mendukung para pemrogram bahasa R untuk membuat <em>project management</em> yang baik sehingga memudahkan mereka untuk mengatur banyak data, <em>script</em> pemrograman, dan yang lainnya.</li>
+<li>RStudio juga <em>support</em> untuk membuat visualisasi data dengan berbagai grafik, khususnya menggunakan <em>library</em> populer seperti <code>ggplot2</code>. Pada bagian &ldquo;RStudio Interface Introduction&rdquo; di artikel ini, saya akan menunjukkan bagaimana RStudio meng-<em>handle</em> visualisasi data.</li>
+<li>Melalui RStudio, kita juga bisa melakukan <em>package management</em> dengan mudah karena sudah terintegrasi dengan <em>package manager</em> dan CRAN sebagai <em>repository</em>. Artinya, kita dapat meng-<em>install</em>, meng-<em>update</em>, dan meng-<em>uninstall</em> <em>packages</em> serta <em>libraries</em> yang tersedia.</li>
+<li>RStudio juga <em>support</em> Markdown Syntax sehingga memudahkan kita (sebagai R progammer) untuk membuat <em>report</em>, presentasi, ataupun dokumentasi hasil olah data (baik kode yang kita gunakan, visualisasinya, berikut juga dengan narasinya) dengan rapih.</li>
+</ol>
+<p>Berikut adalah <em>cheatsheet</em> Markdown Syntax untuk R &amp; RStudio:</p>
+<p><iframe src="/rstudio-basic/rmarkdowncheatsheet.pdf" width="100%" height="600px"></iframe>
+
+sumber: <a href="https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf" target="_blank">https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf</a>
+</p>
+
+<h2 id="3-r--rstudio-installation">
+  3. R &amp; Rstudio Installation
+  
+  <a hidden class="anchor" href="#3-r--rstudio-installation">
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
+
+
+ </a>
+  
+</h2>
+<p>Sekarang, kita akan mulai menjawab pertanyaan epistemologis-nya, dimulai dari cara meng-<em>install</em>-nya.<br>
+Disclaimer dulu, di artikel ini, saya hanya akan membahas cara meng-<em>install</em> R dan RStudio di <em>environment</em> linux saja, khususnya linux berbasis debian/ubuntu.</p>
+<ol>
+<li>Langkah pertama, kita perlu memasang R.</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>sudo apt update <span style="color:#f92672">&amp;&amp;</span> sudo apt upgrade <span style="color:#75715e"># untuk meng-update dan meng-upgrade paket-paket</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>sudo apt install -y r-base r-base-dev
+</span></span></code></pre></div><ol start="2">
+<li>Kemudian, kita bisa mengunduh package file-nya yang berekstensi <code>.deb</code> di <a href="https://posit.co/download/rstudio-desktop/" target="_blank">RStudio Download di sini</a>
+.</li>
+</ol>
+<p><img loading="lazy" src="/rstudio-basic/ss1.png" alt="ss1"  />
+
+Karena saya menggunakan Debian 12 (bookworm), maka saya memilih yang Ubuntu 22/Debian 12. Silakan disesuaikan dengan distribusi linux kalian.</p>
+<blockquote>
+<p><strong>Note:</strong> Sependek pengetahuan saya, RStudio di Archlinux hanya dapat di-<em>install</em> via repositori komunitasnya alias AUR (<em>Arch User Repository</em>).</p>
+</blockquote>
+<ol start="3">
+<li>Kita tinggal menginstallnya via terminal dengan perintah:</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>sudo apt update <span style="color:#75715e"># untuk memperbaharui paket-paket di repository</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>sudo dpkg -i ./rstudio-2024.04.2-764-amd64.deb
+</span></span></code></pre></div><p>atau</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>sudo apt update <span style="color:#75715e"># untuk memperbaharui paket-paket di repositor</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>sudo apt -y install ./rstudio-2024.04.2-764-amd64.deb
+</span></span></code></pre></div><p>Tunggu beberapa saat hingga proses instalasinya selesai berjalan.</p>
+<p>Jika sudah selesai, kita juga perlu memasang beberapa paket R yang dibutuhkan:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>sudo apt install -y r-cran-curl r-cran-xml2 r-cran-httr r-cran-gargle r-cran-systemfonts r-cran-rvest
+</span></span></code></pre></div><p>Proses instalasi-nya akan memakan sekitar 1 GB penyimpanan, jadi harap bersabar menunggu&hellip;</p>
+
+<h2 id="4-rstudio-interface-introduction">
+  4. Rstudio Interface Introduction
+  
+  <a hidden class="anchor" href="#4-rstudio-interface-introduction">
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
+
+
+ </a>
+  
+</h2>
+<p>Setelah terpasang, kita bisa membuka RStudio yang kira-kira tampilan awalnya seperti ini:
+<img loading="lazy" src="/rstudio-basic/ss2.png" alt="ss2"  />
+</p>
+<p>Di bagian pertama, ada 3 sub-window, yaitu<sup id="fnref:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup>:</p>
+<ul>
+<li><strong>Console:</strong> Ini adalah tempat utama di mana kita dapat mengetik dan mengeksekusi perintah R secara langsung. Hasil dari perintah yang dieksekusi akan ditampilkan di sini.</li>
+<li><strong>Terminal:</strong> Terminal memberikan akses langsung ke sistem operasi yang mendukung perintah shell. Ini memungkinkan kita untuk menjalankan perintah shell (seperti bash) dan perintah sistem lainnya dari dalam RStudio.</li>
+<li><strong>Background Jobs:</strong> Tab ini menunjukkan daftar pekerjaan yang sedang berjalan di <em>background</em>. Ini termasuk proses R yang sedang berjalan atau pekerjaan lain yang Anda mulai dari sesi RStudio kita.</li>
+</ul>
+<p>Di bagian kedua, ada 4 sub-window, yaitu:</p>
+<ul>
+<li><strong>Environment:</strong> Ini menampilkan daftar objek (seperti vektor, data frame, dll.) yang sudah kita buat dalam sesi R. Kita juga dapat melihat nilai-nilai objek dan propertinya di sini.</li>
+<li><strong>History:</strong> Tab ini berisi riwayat perintah yang telah kita jalankan di Console. Ini membantu kita untuk mengakses kembali perintah-perintah sebelumnya dan menjalankannya kembali jika diperlukan (tapi lupa - atau malas mengetikkan ulang).</li>
+<li><strong>Connections:</strong> Menampilkan daftar koneksi yang terbuka ke server atau database eksternal. Kita dapat mengelola koneksi, menjalankan query, dan lainnya dari sini.</li>
+<li><strong>Tutorial:</strong> Ini adalah area di mana RStudio dapat menampilkan tutorial atau dokumen bantuan yang terkait dengan alat, paket, atau konsep R tertentu. Ini bisa sangat bermanfaat untuk pembelajaran dan referensi.</li>
+</ul>
+<p>Di bagian ketiga, ada 6 sub-window, yaitu:</p>
+<ul>
+<li><strong>Files:</strong> Menampilkan struktur direktori dan file dari sistem file komputer. Kita dapat menjelajahi file, membuka skrip R, atau mengimpor dataset langsung dari sini.</li>
+<li><strong>Plots:</strong> Ini adalah tempat di mana plot grafik yang dihasilkan dari perintah R akan ditampilkan secara langsung. Kita dapat melihat, menyimpan, dan menyesuaikan plot dari sini.</li>
+<li><strong>Packages:</strong> Menyediakan daftar paket-paket R yang telah diinstal. Kita dapat melihat paket yang sedang dimuat, menginstal paket baru, mengelola versi paket, dan lainnya.</li>
+<li><strong>Help:</strong> Ini adalah tempat untuk mencari bantuan dan dokumentasi terkait fungsi-fungsi R dan paket-paketnya. Kita dapat mencari bantuan untuk fungsi tertentu, membaca dokumentasi paket, dan lainnya.</li>
+<li><strong>Viewer:</strong> Menampilkan konten yang dihasilkan oleh aplikasi R yang menjalankan aplikasi web internal. Misalnya, kalau kita menjalankan aplikasi Shiny, tampilan aplikasi akan ditampilkan di sini.</li>
+<li><strong>Presentation:</strong> Menyediakan alat untuk membuat presentasi di RMarkdown atau memvisualisasikan presentasi yang sudah ada. Kita dapat membuat, menyunting, dan menjalankan presentasi langsung dari RStudio.</li>
+</ul>
+<p>Ketika kita ingin menampilkan dataframe, maka dataframe tersebut juga akan muncul di bagian kiri seperti berikut:
+<img loading="lazy" src="/rstudio-basic/gif1.gif" alt="gif1"  title="View-ing penguins dataframe in RStudio"  />
+</p>
+
+<h2 id="5-installing-packages-tidyverse--palmerpenguins">
+  5. Installing Packages (tidyverse &amp; palmerpenguins)
+  
+  <a hidden class="anchor" href="#5-installing-packages-tidyverse--palmerpenguins">
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
+
+
+ </a>
+  
+</h2>
+<blockquote>
+<p><strong>Notes:</strong> <em>Packages</em> adalah sekumpulan kode yang ditulis, diuji, dan kemudian dirilis dengan tujuan untuk menyelesaikan permasalahan tertentu<sup id="fnref:7"><a href="#fn:7" class="footnote-ref" role="doc-noteref">7</a></sup>. Sebetulnya, kita bisa mengambil <em>packages</em> dari sumber manapun, tapi sebagai pemula, ada baiknya memulai untuk mengambil atau meng-<em>install</em> <em>package</em> dari <a href="https://cran.r-project.org/" target="_blank">CRAN</a>
+.</p>
+</blockquote>
+<p>Untuk kebutuhan demonstrasi, kita memerlukan dua library utama, yaitu tidyverse dan palmerpenguins.<br>
+Kita bisa melihat informasi atau deskripsi dari sebuah paket atau library dengan mengetikkan perintah berikut di console<code>packageDescription(&quot;nama_library&quot;)</code>. Misalnya, saya ingin melihat informasi tentang paket/library <strong><code>tidyverse</code></strong>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-R" data-lang="R"><span style="display:flex;"><span><span style="color:#a6e22e">packageDescription</span>(<span style="color:#e6db74">&#34;tidyverse&#34;</span>)
+</span></span></code></pre></div><p>Outputnya:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-R" data-lang="R"><span style="display:flex;"><span>Package<span style="color:#f92672">:</span> tidyverse
+</span></span><span style="display:flex;"><span>Title<span style="color:#f92672">:</span> Easily Install and Load the <span style="color:#e6db74">&#39;Tidyverse&#39;</span>
+</span></span><span style="display:flex;"><span>Version<span style="color:#f92672">:</span> <span style="color:#ae81ff">2.0.0</span>
+</span></span><span style="display:flex;"><span>Authors<span style="color:#f92672">@</span>R<span style="color:#f92672">:</span> <span style="color:#a6e22e">c</span>( <span style="color:#a6e22e">person</span>(<span style="color:#e6db74">&#34;Hadley&#34;</span>, <span style="color:#e6db74">&#34;Wickham&#34;</span>, , <span style="color:#e6db74">&#34;hadley@rstudio.com&#34;</span>, role <span style="color:#f92672">=</span> <span style="color:#a6e22e">c</span>(<span style="color:#e6db74">&#34;aut&#34;</span>, <span style="color:#e6db74">&#34;cre&#34;</span>)),
+</span></span><span style="display:flex;"><span>            <span style="color:#a6e22e">person</span>(<span style="color:#e6db74">&#34;RStudio&#34;</span>, role <span style="color:#f92672">=</span> <span style="color:#a6e22e">c</span>(<span style="color:#e6db74">&#34;cph&#34;</span>, <span style="color:#e6db74">&#34;fnd&#34;</span>)) )
+</span></span><span style="display:flex;"><span>Description<span style="color:#f92672">:</span> The <span style="color:#e6db74">&#39;tidyverse&#39;</span> is a set of packages that work <span style="color:#66d9ef">in</span> harmony because they share common data
+</span></span><span style="display:flex;"><span>            representations and <span style="color:#e6db74">&#39;API&#39;</span> design. This package is designed to make it easy to install and load
+</span></span><span style="display:flex;"><span>            multiple <span style="color:#e6db74">&#39;tidyverse&#39;</span> packages <span style="color:#66d9ef">in</span> a single step. Learn more about the <span style="color:#e6db74">&#39;tidyverse&#39;</span> at
+</span></span><span style="display:flex;"><span>            <span style="color:#f92672">&lt;</span>https<span style="color:#f92672">://</span>www.tidyverse.org<span style="color:#f92672">&gt;</span>.
+</span></span><span style="display:flex;"><span>License<span style="color:#f92672">:</span> MIT <span style="color:#f92672">+</span> file LICENSE
+</span></span><span style="display:flex;"><span>URL<span style="color:#f92672">:</span> https<span style="color:#f92672">://</span>tidyverse.tidyverse.org, https<span style="color:#f92672">://</span>github.com<span style="color:#f92672">/</span>tidyverse<span style="color:#f92672">/</span>tidyverse
+</span></span><span style="display:flex;"><span>BugReports<span style="color:#f92672">:</span> https<span style="color:#f92672">://</span>github.com<span style="color:#f92672">/</span>tidyverse<span style="color:#f92672">/</span>tidyverse<span style="color:#f92672">/</span>issues
+</span></span><span style="display:flex;"><span>Depends<span style="color:#f92672">:</span> <span style="color:#a6e22e">R </span>(<span style="color:#f92672">&gt;=</span> <span style="color:#ae81ff">3.3</span>)
+</span></span><span style="display:flex;"><span>Imports<span style="color:#f92672">:</span> <span style="color:#a6e22e">broom </span>(<span style="color:#f92672">&gt;=</span> <span style="color:#ae81ff">1.0.3</span>), <span style="color:#a6e22e">conflicted </span>(<span style="color:#f92672">&gt;=</span> <span style="color:#ae81ff">1.2.0</span>), <span style="color:#a6e22e">cli </span>(<span style="color:#f92672">&gt;=</span> <span style="color:#ae81ff">3.6.0</span>), <span style="color:#a6e22e">dbplyr </span>(<span style="color:#f92672">&gt;=</span> <span style="color:#ae81ff">2.3.0</span>), <span style="color:#a6e22e">dplyr </span>(<span style="color:#f92672">&gt;=</span> <span style="color:#ae81ff">1.1.0</span>),
+</span></span><span style="display:flex;"><span>            <span style="color:#a6e22e">dtplyr </span>(<span style="color:#f92672">&gt;=</span> <span style="color:#ae81ff">1.2.2</span>), <span style="color:#a6e22e">forcats </span>(<span style="color:#f92672">&gt;=</span> <span style="color:#ae81ff">1.0.0</span>), <span style="color:#a6e22e">ggplot2 </span>(<span style="color:#f92672">&gt;=</span> <span style="color:#ae81ff">3.4.1</span>), <span style="color:#a6e22e">googledrive </span>(<span style="color:#f92672">&gt;=</span> <span style="color:#ae81ff">2.0.0</span>),
+</span></span><span style="display:flex;"><span>            <span style="color:#a6e22e">googlesheets4 </span>(<span style="color:#f92672">&gt;=</span> <span style="color:#ae81ff">1.0.1</span>), <span style="color:#a6e22e">haven </span>(<span style="color:#f92672">&gt;=</span> <span style="color:#ae81ff">2.5.1</span>), <span style="color:#a6e22e">hms </span>(<span style="color:#f92672">&gt;=</span> <span style="color:#ae81ff">1.1.2</span>), <span style="color:#a6e22e">httr </span>(<span style="color:#f92672">&gt;=</span> <span style="color:#ae81ff">1.4.4</span>), <span style="color:#a6e22e">jsonlite </span>(<span style="color:#f92672">&gt;=</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#ae81ff">1.8.4</span>), <span style="color:#a6e22e">lubridate </span>(<span style="color:#f92672">&gt;=</span> <span style="color:#ae81ff">1.9.2</span>), <span style="color:#a6e22e">magrittr </span>(<span style="color:#f92672">&gt;=</span> <span style="color:#ae81ff">2.0.3</span>), <span style="color:#a6e22e">modelr </span>(<span style="color:#f92672">&gt;=</span> <span style="color:#ae81ff">0.1.10</span>), <span style="color:#a6e22e">pillar </span>(<span style="color:#f92672">&gt;=</span> <span style="color:#ae81ff">1.8.1</span>), <span style="color:#a6e22e">purrr
+</span></span></span><span style="display:flex;"><span><span style="color:#a6e22e">            </span>(<span style="color:#f92672">&gt;=</span> <span style="color:#ae81ff">1.0.1</span>), <span style="color:#a6e22e">ragg </span>(<span style="color:#f92672">&gt;=</span> <span style="color:#ae81ff">1.2.5</span>), <span style="color:#a6e22e">readr </span>(<span style="color:#f92672">&gt;=</span> <span style="color:#ae81ff">2.1.4</span>), <span style="color:#a6e22e">readxl </span>(<span style="color:#f92672">&gt;=</span> <span style="color:#ae81ff">1.4.2</span>), <span style="color:#a6e22e">reprex </span>(<span style="color:#f92672">&gt;=</span> <span style="color:#ae81ff">2.0.2</span>), <span style="color:#a6e22e">rlang </span>(<span style="color:#f92672">&gt;=</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#ae81ff">1.0.6</span>), <span style="color:#a6e22e">rstudioapi </span>(<span style="color:#f92672">&gt;=</span> <span style="color:#ae81ff">0.14</span>), <span style="color:#a6e22e">rvest </span>(<span style="color:#f92672">&gt;=</span> <span style="color:#ae81ff">1.0.3</span>), <span style="color:#a6e22e">stringr </span>(<span style="color:#f92672">&gt;=</span> <span style="color:#ae81ff">1.5.0</span>), <span style="color:#a6e22e">tibble </span>(<span style="color:#f92672">&gt;=</span> <span style="color:#ae81ff">3.1.8</span>), <span style="color:#a6e22e">tidyr
+</span></span></span><span style="display:flex;"><span><span style="color:#a6e22e">            </span>(<span style="color:#f92672">&gt;=</span> <span style="color:#ae81ff">1.3.0</span>), <span style="color:#a6e22e">xml2 </span>(<span style="color:#f92672">&gt;=</span> <span style="color:#ae81ff">1.3.3</span>)
+</span></span><span style="display:flex;"><span>Suggests<span style="color:#f92672">:</span> <span style="color:#a6e22e">covr </span>(<span style="color:#f92672">&gt;=</span> <span style="color:#ae81ff">3.6.1</span>), <span style="color:#a6e22e">feather </span>(<span style="color:#f92672">&gt;=</span> <span style="color:#ae81ff">0.3.5</span>), <span style="color:#a6e22e">glue </span>(<span style="color:#f92672">&gt;=</span> <span style="color:#ae81ff">1.6.2</span>), <span style="color:#a6e22e">mockr </span>(<span style="color:#f92672">&gt;=</span> <span style="color:#ae81ff">0.2.0</span>), <span style="color:#a6e22e">knitr </span>(<span style="color:#f92672">&gt;=</span> <span style="color:#ae81ff">1.41</span>),
+</span></span><span style="display:flex;"><span>            <span style="color:#a6e22e">rmarkdown </span>(<span style="color:#f92672">&gt;=</span> <span style="color:#ae81ff">2.20</span>), <span style="color:#a6e22e">testthat </span>(<span style="color:#f92672">&gt;=</span> <span style="color:#ae81ff">3.1.6</span>)
+</span></span><span style="display:flex;"><span>VignetteBuilder<span style="color:#f92672">:</span> knitr
+</span></span><span style="display:flex;"><span>Config<span style="color:#f92672">/</span>Needs<span style="color:#f92672">/</span>website<span style="color:#f92672">:</span> tidyverse<span style="color:#f92672">/</span>tidytemplate
+</span></span><span style="display:flex;"><span>Config<span style="color:#f92672">/</span>testthat<span style="color:#f92672">/</span>edition<span style="color:#f92672">:</span> <span style="color:#ae81ff">3</span>
+</span></span><span style="display:flex;"><span>Encoding<span style="color:#f92672">:</span> UTF<span style="color:#ae81ff">-8</span>
+</span></span><span style="display:flex;"><span>RoxygenNote<span style="color:#f92672">:</span> <span style="color:#ae81ff">7.2.3</span>
+</span></span><span style="display:flex;"><span>NeedsCompilation<span style="color:#f92672">:</span> no
+</span></span><span style="display:flex;"><span>Packaged<span style="color:#f92672">:</span> <span style="color:#ae81ff">2023-02-21</span> <span style="color:#ae81ff">13</span><span style="color:#f92672">:</span><span style="color:#ae81ff">20</span><span style="color:#f92672">:</span><span style="color:#ae81ff">46</span> UTC; hadleywickham
+</span></span><span style="display:flex;"><span>Author<span style="color:#f92672">:</span> Hadley Wickham [aut, cre], RStudio [cph, fnd]
+</span></span><span style="display:flex;"><span>Maintainer<span style="color:#f92672">:</span> Hadley Wickham <span style="color:#f92672">&lt;</span>hadley<span style="color:#f92672">@</span>rstudio.com<span style="color:#f92672">&gt;</span>
+</span></span><span style="display:flex;"><span>Repository<span style="color:#f92672">:</span> CRAN
+</span></span><span style="display:flex;"><span>Date<span style="color:#f92672">/</span>Publication<span style="color:#f92672">:</span> <span style="color:#ae81ff">2023-02-22</span> <span style="color:#ae81ff">09</span><span style="color:#f92672">:</span><span style="color:#ae81ff">20</span><span style="color:#f92672">:</span><span style="color:#ae81ff">06</span> UTC
+</span></span><span style="display:flex;"><span>Built<span style="color:#f92672">:</span> R <span style="color:#ae81ff">4.2.2</span>; ; <span style="color:#ae81ff">2024-06-13</span> <span style="color:#ae81ff">14</span><span style="color:#f92672">:</span><span style="color:#ae81ff">52</span><span style="color:#f92672">:</span><span style="color:#ae81ff">25</span> UTC; unix
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">--</span> File<span style="color:#f92672">:</span> <span style="color:#f92672">/</span>home<span style="color:#f92672">/</span>wildan<span style="color:#f92672">/</span>R<span style="color:#f92672">/</span>x86_64<span style="color:#f92672">-</span>pc<span style="color:#f92672">-</span>linux<span style="color:#f92672">-</span>gnu<span style="color:#f92672">-</span>library<span style="color:#f92672">/</span><span style="color:#ae81ff">4.2</span><span style="color:#f92672">/</span>tidyverse<span style="color:#f92672">/</span>Meta<span style="color:#f92672">/</span>package.rds 
+</span></span></code></pre></div><p>Saya juga ingin tahu tentang package/library <strong><code>palmerpenguins</code></strong>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-R" data-lang="R"><span style="display:flex;"><span><span style="color:#a6e22e">packageDescription</span>(<span style="color:#e6db74">&#34;palmerpenguins&#34;</span>)
+</span></span></code></pre></div><p>Outputnya:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-R" data-lang="R"><span style="display:flex;"><span>Package<span style="color:#f92672">:</span> palmerpenguins
+</span></span><span style="display:flex;"><span>Title<span style="color:#f92672">:</span> Palmer <span style="color:#a6e22e">Archipelago </span>(Antarctica) Penguin Data
+</span></span><span style="display:flex;"><span>Version<span style="color:#f92672">:</span> <span style="color:#ae81ff">0.1.1</span>
+</span></span><span style="display:flex;"><span>Date<span style="color:#f92672">:</span> <span style="color:#ae81ff">2022-08-12</span>
+</span></span><span style="display:flex;"><span>Authors<span style="color:#f92672">@</span>R<span style="color:#f92672">:</span> <span style="color:#a6e22e">c</span>( <span style="color:#a6e22e">person</span>(given <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Allison&#34;</span>, family <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Horst&#34;</span>, role <span style="color:#f92672">=</span> <span style="color:#a6e22e">c</span>(<span style="color:#e6db74">&#34;aut&#34;</span>, <span style="color:#e6db74">&#34;cre&#34;</span>), email <span style="color:#f92672">=</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#e6db74">&#34;ahorst@ucsb.edu&#34;</span>, comment <span style="color:#f92672">=</span> <span style="color:#a6e22e">c</span>(ORCID <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;0000-0002-6047-5564&#34;</span>)), <span style="color:#a6e22e">person</span>(given <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Alison&#34;</span>, family
+</span></span><span style="display:flex;"><span>            <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Hill&#34;</span>, role <span style="color:#f92672">=</span> <span style="color:#a6e22e">c</span>(<span style="color:#e6db74">&#34;aut&#34;</span>), email <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;apresstats@gmail.com&#34;</span>, comment <span style="color:#f92672">=</span> <span style="color:#a6e22e">c</span>(ORCID <span style="color:#f92672">=</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#e6db74">&#34;0000-0002-8082-1890&#34;</span>)), <span style="color:#a6e22e">person</span>(given <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Kristen&#34;</span>, family <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Gorman&#34;</span>, role <span style="color:#f92672">=</span> <span style="color:#a6e22e">c</span>(<span style="color:#e6db74">&#34;aut&#34;</span>), email <span style="color:#f92672">=</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#e6db74">&#34;kbgorman@alaska.edu&#34;</span>, comment <span style="color:#f92672">=</span> <span style="color:#a6e22e">c</span>(ORCID <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;0000-0002-0258-9264&#34;</span>)) )
+</span></span><span style="display:flex;"><span>Description<span style="color:#f92672">:</span> Size measurements, clutch observations, and blood isotope ratios <span style="color:#66d9ef">for</span> adult foraging Adélie,
+</span></span><span style="display:flex;"><span>            Chinstrap, and Gentoo penguins observed on islands <span style="color:#66d9ef">in</span> the Palmer Archipelago near Palmer
+</span></span><span style="display:flex;"><span>            Station, Antarctica. Data were collected and made available by Dr. Kristen Gorman and the
+</span></span><span style="display:flex;"><span>            Palmer Station Long Term Ecological <span style="color:#a6e22e">Research </span>(LTER) Program.
+</span></span><span style="display:flex;"><span>License<span style="color:#f92672">:</span> CC0
+</span></span><span style="display:flex;"><span>Encoding<span style="color:#f92672">:</span> UTF<span style="color:#ae81ff">-8</span>
+</span></span><span style="display:flex;"><span>LazyData<span style="color:#f92672">:</span> true
+</span></span><span style="display:flex;"><span>RoxygenNote<span style="color:#f92672">:</span> <span style="color:#ae81ff">7.2.1.9000</span>
+</span></span><span style="display:flex;"><span>Depends<span style="color:#f92672">:</span> <span style="color:#a6e22e">R </span>(<span style="color:#f92672">&gt;=</span> <span style="color:#ae81ff">2.10</span>)
+</span></span><span style="display:flex;"><span>Suggests<span style="color:#f92672">:</span> knitr, rmarkdown, tibble, ggplot2, dplyr, tidyr, recipes
+</span></span><span style="display:flex;"><span>URL<span style="color:#f92672">:</span> https<span style="color:#f92672">://</span>allisonhorst.github.io<span style="color:#f92672">/</span>palmerpenguins<span style="color:#f92672">/</span>, https<span style="color:#f92672">://</span>github.com<span style="color:#f92672">/</span>allisonhorst<span style="color:#f92672">/</span>palmerpenguins
+</span></span><span style="display:flex;"><span>BugReports<span style="color:#f92672">:</span> https<span style="color:#f92672">://</span>github.com<span style="color:#f92672">/</span>allisonhorst<span style="color:#f92672">/</span>palmerpenguins<span style="color:#f92672">/</span>issues
+</span></span><span style="display:flex;"><span>NeedsCompilation<span style="color:#f92672">:</span> no
+</span></span><span style="display:flex;"><span>Packaged<span style="color:#f92672">:</span> <span style="color:#ae81ff">2022-08-13</span> <span style="color:#ae81ff">17</span><span style="color:#f92672">:</span><span style="color:#ae81ff">49</span><span style="color:#f92672">:</span><span style="color:#ae81ff">08</span> UTC; allison
+</span></span><span style="display:flex;"><span>Author<span style="color:#f92672">:</span> Allison Horst [aut, cre<span style="color:#a6e22e">] </span>(<span style="color:#f92672">&lt;</span>https<span style="color:#f92672">://</span>orcid.org<span style="color:#f92672">/</span><span style="color:#ae81ff">0000-0002-6047-5564</span><span style="color:#f92672">&gt;</span>), Alison Hill [aut<span style="color:#a6e22e">]
+</span></span></span><span style="display:flex;"><span><span style="color:#a6e22e">            </span>(<span style="color:#f92672">&lt;</span>https<span style="color:#f92672">://</span>orcid.org<span style="color:#f92672">/</span><span style="color:#ae81ff">0000-0002-8082-1890</span><span style="color:#f92672">&gt;</span>), Kristen Gorman [aut<span style="color:#a6e22e">]
+</span></span></span><span style="display:flex;"><span><span style="color:#a6e22e">            </span>(<span style="color:#f92672">&lt;</span>https<span style="color:#f92672">://</span>orcid.org<span style="color:#f92672">/</span><span style="color:#ae81ff">0000-0002-0258-9264</span><span style="color:#f92672">&gt;</span>)
+</span></span><span style="display:flex;"><span>Maintainer<span style="color:#f92672">:</span> Allison Horst <span style="color:#f92672">&lt;</span>ahorst<span style="color:#f92672">@</span>ucsb.edu<span style="color:#f92672">&gt;</span>
+</span></span><span style="display:flex;"><span>Repository<span style="color:#f92672">:</span> CRAN
+</span></span><span style="display:flex;"><span>Date<span style="color:#f92672">/</span>Publication<span style="color:#f92672">:</span> <span style="color:#ae81ff">2022-08-15</span> <span style="color:#ae81ff">07</span><span style="color:#f92672">:</span><span style="color:#ae81ff">40</span><span style="color:#f92672">:</span><span style="color:#ae81ff">07</span> UTC
+</span></span><span style="display:flex;"><span>Built<span style="color:#f92672">:</span> R <span style="color:#ae81ff">4.2.2</span>; ; <span style="color:#ae81ff">2024-06-13</span> <span style="color:#ae81ff">15</span><span style="color:#f92672">:</span><span style="color:#ae81ff">10</span><span style="color:#f92672">:</span><span style="color:#ae81ff">25</span> UTC; unix
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">--</span> File<span style="color:#f92672">:</span> <span style="color:#f92672">/</span>home<span style="color:#f92672">/</span>wildan<span style="color:#f92672">/</span>R<span style="color:#f92672">/</span>x86_64<span style="color:#f92672">-</span>pc<span style="color:#f92672">-</span>linux<span style="color:#f92672">-</span>gnu<span style="color:#f92672">-</span>library<span style="color:#f92672">/</span><span style="color:#ae81ff">4.2</span><span style="color:#f92672">/</span>palmerpenguins<span style="color:#f92672">/</span>Meta<span style="color:#f92672">/</span>package.rds
+</span></span></code></pre></div><p>Mengapa saya membutuhkan dua <em>library</em> (<code>tidyverse</code> &amp; <code>palmerpenguins</code>) untuk membahas tutorial basic R dan RStudio kali ini? Sederhananya, karena kedua library tersebut akan saya gunakan untuk praktik visualisasi data.</p>
+<p>Library <code>tidyverse</code> menyediakan 8 <em>packages</em> untuk proses analisis data, terutama <em>package</em> <strong><code>ggplot2</code></strong> yang akan kita gunakan untuk membuat visualisasi data<sup id="fnref:8"><a href="#fn:8" class="footnote-ref" role="doc-noteref">8</a></sup>.</p>
+<p>Sedangkan, salah satu <em>packages</em> dari <em>library</em> <code>palmerpenguins</code>, yaitu <em>package</em> <strong><code>penguins</code></strong> adalah dataset yang akan kita gunakan sebagai sumber olah datanya<sup id="fnref:9"><a href="#fn:9" class="footnote-ref" role="doc-noteref">9</a></sup>.</p>
+<p>Adapun perintah untuk meng-<em>install</em> kedua paket tersebut yaitu sebagai berikut:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-R" data-lang="R"><span style="display:flex;"><span><span style="color:#a6e22e">install.packages</span>(<span style="color:#e6db74">&#34;tidyverse&#34;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">install.packages</span>(<span style="color:#e6db74">&#34;palmerpenguins&#34;</span>)
+</span></span></code></pre></div><p>Atau dalam satu baris, kita dapat memasang kedua <em>packages</em> atau <em>library</em> tersebut seperti berikut<sup id="fnref1:9"><a href="#fn:9" class="footnote-ref" role="doc-noteref">9</a></sup>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-R" data-lang="R"><span style="display:flex;"><span><span style="color:#a6e22e">install.packages</span>(<span style="color:#a6e22e">c</span>(<span style="color:#e6db74">&#34;tidyverse&#34;</span>, <span style="color:#e6db74">&#34;palmerpenguins&#34;</span>))
+</span></span></code></pre></div>
+<h2 id="6-playing-with-data">
+  6. Playing with Data
+  
+  <a hidden class="anchor" href="#6-playing-with-data">
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
+
+
+ </a>
+  
+</h2>
+<p>Setelah ter-<em>install</em>, agar dapat digunakan, kita perlu memanggil kedua <em>packages</em> atau <em>libraries</em> tersebut dengan perintah:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-R" data-lang="R"><span style="display:flex;"><span><span style="color:#a6e22e">library</span>(<span style="color:#e6db74">&#34;tidyverse&#34;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">library</span>(<span style="color:#e6db74">&#34;palmerpenguins&#34;</span>)
+</span></span></code></pre></div>
+<h3 id="viewing-dataset">
+  Viewing Dataset
+  
+  <a hidden class="anchor" href="#viewing-dataset">
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
+
+
+ </a>
+  
+</h3>
+<p>Kemudian, kita bisa melihat dataset <strong>penguins</strong> menggunakan fungsi <code>View()</code>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-R" data-lang="R"><span style="display:flex;"><span><span style="color:#a6e22e">View</span>(penguins)
+</span></span></code></pre></div><blockquote>
+<p><strong>Note:</strong> R adalah bahasa yang <em>case-sensitive</em>. Artinya, akan berbeda hasilnya jika kita menggunakan fungsi <code>view()</code> dan fungsi <code>View()</code>. Jadi, perhatikan penulisannya!</p>
+</blockquote>
+<p><img loading="lazy" src="/rstudio-basic/ss3.png" alt="ss3"  />
+</p>
+<p>Seperti terlihat pada tangkapan layar di atas, dataset <strong>penguins</strong> berhasil ditampilkan. Pada bagian pojok kiri bawah, kita juga dapat melihat informasi mengenai jumlah data yang terdapat dalam dataset tersebut (baris dan kolom).</p>
+<p>Atau kalau kita ingin melihat informasi sebuah dataset tanpa harus menampilkan isinya, kita bisa menggunakan fungsi <code>glimpse()</code> di console:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-R" data-lang="R"><span style="display:flex;"><span><span style="color:#a6e22e">glimpse</span>(penguins)
+</span></span></code></pre></div><p><img loading="lazy" src="/rstudio-basic/ss4.png" alt="ss4"  />
+</p>
+<p>Informasi yang ditampilkan juga merupakan informasi yang sama, yaitu tentang jumlah baris dan kolom, berikut juga nama dari masing-masing kolom yang terdapat pada tabel dataset yang kita ingin ketahui (dalam hal ini adalah dataset <strong>penguins</strong>). Berdasarkan informasi tersebut, kita dapat mengetahui bahwa dataset <strong>penguins</strong> memiliki 344 baris atau bisa kita asumsikan juga bahwa terdapat <em><strong>344 penguin</strong></em> yang tercatat dan 8 kolom berupa informasi mengenai penguin-penguin tersebut yang terdiri dari <em><strong>species</strong></em>, <em><strong>island</strong></em>, <em><strong>bill_length_mm</strong></em>, <em><strong>bill_depth_mm</strong></em>, <em><strong>flipper_length_mm</strong></em>, <em><strong>body_mass_g</strong></em>, <em><strong>sex</strong></em>, dan <em><strong>year</strong></em>.</p>
+
+<h3 id="visualizing-data">
+  Visualizing Data
+  
+  <a hidden class="anchor" href="#visualizing-data">
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
+
+
+ </a>
+  
+</h3>
+<p>Kita bisa membuat grafik dari dataset <strong>penguins</strong> tersebut menggunakan <code>ggplot2</code>. Beberapa jenis grafik yang dapat dibuat berikut dengan fungsinya masing-masing adalah sebagai berikut:</p>
+
+<h4 id="1-scatter-plot">
+  1. Scatter Plot
+  
+  <a hidden class="anchor" href="#1-scatter-plot">
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
+
+
+ </a>
+  
+</h4>
+<p><strong>Scatter Plot</strong> atau <strong>Grafik Pencar</strong> digunakan untuk menampilkan hubungan antara dua variabel numerik.<br>
+Misalnya: Hubungan antara panjang paruh dan panjang sirip penguin.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-R" data-lang="R"><span style="display:flex;"><span><span style="color:#a6e22e">ggplot</span>(data <span style="color:#f92672">=</span> penguins, <span style="color:#a6e22e">aes</span>(x <span style="color:#f92672">=</span> bill_length_mm, y <span style="color:#f92672">=</span> flipper_length_mm, color<span style="color:#f92672">=</span>species)) <span style="color:#f92672">+</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">geom_point</span>()
+</span></span></code></pre></div><p>Hasilnya:
+<img loading="lazy" src="/rstudio-basic/ss5.png" alt="ss5"  title="Scatter Plot hubungan antara panjang paruh dan panjang sirip penguin"  />
+</p>
+
+<h4 id="2-histogram">
+  2. Histogram
+  
+  <a hidden class="anchor" href="#2-histogram">
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
+
+
+ </a>
+  
+</h4>
+<p><strong>Histogram</strong> digunakan untuk menampilkan distribusi frekuensi dari suatu variabel numerik.<br>
+Misalnya: Distribusi panjang paruh penguin.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-R" data-lang="R"><span style="display:flex;"><span><span style="color:#a6e22e">ggplot</span>(data <span style="color:#f92672">=</span> penguins, <span style="color:#a6e22e">aes</span>(x <span style="color:#f92672">=</span> bill_length_mm)) <span style="color:#f92672">+</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">geom_histogram</span>(binwidth <span style="color:#f92672">=</span> <span style="color:#ae81ff">2</span>, fill <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;skyblue&#34;</span>, color <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;black&#34;</span>)
+</span></span></code></pre></div><p>Hasilnya:
+<img loading="lazy" src="/rstudio-basic/ss6.png" alt="ss6"  title="Histogram distribusi frekuensi panjang paruh penguin"  />
+</p>
+
+<h4 id="3-bar-plot">
+  3. Bar Plot
+  
+  <a hidden class="anchor" href="#3-bar-plot">
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
+
+
+ </a>
+  
+</h4>
+<p><strong>Bar Plot</strong> digunakan untuk menampilkan perbandingan antara kategori atau faktor dengan nilai-nilai numerik.<br>
+Misalnya: Jumlah penguin berdasarkan spesiesnya.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-R" data-lang="R"><span style="display:flex;"><span><span style="color:#a6e22e">ggplot</span>(data <span style="color:#f92672">=</span> penguins, <span style="color:#a6e22e">aes</span>(x <span style="color:#f92672">=</span> species, fill <span style="color:#f92672">=</span> species)) <span style="color:#f92672">+</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">geom_bar</span>()
+</span></span></code></pre></div><p>Hasilnya:
+<img loading="lazy" src="/rstudio-basic/ss7.png" alt="ss7"  title="Bar Plot jumlah penguin berdasarkan spesiesnya"  />
+</p>
+
+<h4 id="4-box-plot">
+  4. Box Plot
+  
+  <a hidden class="anchor" href="#4-box-plot">
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
+
+
+ </a>
+  
+</h4>
+<p><strong>Box Plot</strong> digunakan untuk menampilkan distribusi variabel numerik dalam beberapa kelompok kategori.<br>
+Misalnya: Distribusi panjang paruh penguin berdasarkan spesiesnya.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-R" data-lang="R"><span style="display:flex;"><span><span style="color:#a6e22e">ggplot</span>(data <span style="color:#f92672">=</span> penguins, <span style="color:#a6e22e">aes</span>(x <span style="color:#f92672">=</span> species, y <span style="color:#f92672">=</span> bill_length_mm, fill <span style="color:#f92672">=</span> species)) <span style="color:#f92672">+</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">geom_boxplot</span>()
+</span></span></code></pre></div><p>Hasilnya:
+<img loading="lazy" src="/rstudio-basic/ss8.png" alt="ss8"  title="Box Plot distribusi panjang paruh penguin berdasarkan spesiesnya"  />
+</p>
+
+<h4 id="5-line-plot">
+  5. Line Plot
+  
+  <a hidden class="anchor" href="#5-line-plot">
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
+
+
+ </a>
+  
+</h4>
+<p><strong>Line Plot</strong> digunakan untuk menampilkan tren atau perubahan nilai variabel numerik secara berurutan.<br>
+Misalnya: Perubahan berat badan penguin dari waktu ke waktu.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-R" data-lang="R"><span style="display:flex;"><span><span style="color:#75715e"># Hitung rata-rata berat badan per tahun untuk setiap spesies</span>
+</span></span><span style="display:flex;"><span>avg_weight <span style="color:#f92672">&lt;-</span> penguins <span style="color:#f92672">%&gt;%</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">group_by</span>(year, species) <span style="color:#f92672">%&gt;%</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">summarise</span>(avg_weight <span style="color:#f92672">=</span> <span style="color:#a6e22e">mean</span>(body_mass_g))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Buat line plot</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">ggplot</span>(data <span style="color:#f92672">=</span> avg_weight, <span style="color:#a6e22e">aes</span>(x <span style="color:#f92672">=</span> year, y <span style="color:#f92672">=</span> avg_weight, group <span style="color:#f92672">=</span> species, color <span style="color:#f92672">=</span> species)) <span style="color:#f92672">+</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">geom_line</span>() <span style="color:#f92672">+</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">labs</span>(x <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Tahun&#34;</span>, y <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Rata-Rata Berat Badan (g)&#34;</span>, title <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Perubahan Rata-Rata Berat Badan Penguin per Tahun&#34;</span>) <span style="color:#f92672">+</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">theme_minimal</span>()
+</span></span></code></pre></div><p>Hasilnya:
+<img loading="lazy" src="/rstudio-basic/ss9.png" alt="ss9"  title="Line Plot perubahan berat badan penguin dari waktu ke waktu"  />
+</p>
+
+<h4 id="6-pie-chart">
+  6. Pie Chart
+  
+  <a hidden class="anchor" href="#6-pie-chart">
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
+
+
+ </a>
+  
+</h4>
+<p><strong>Pie Chart</strong> digunakan untuk menunjukkan atau membandingkan proporsi atau persentase dari beberapa kategori dalam suatu dataset<sup id="fnref:10"><a href="#fn:10" class="footnote-ref" role="doc-noteref">10</a></sup>.<br>
+Misalnya: Perbandingan jumlah spesies penguin.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-R" data-lang="R"><span style="display:flex;"><span><span style="color:#75715e"># Menghitung jumlah observasi per spesies</span>
+</span></span><span style="display:flex;"><span>penguins_count <span style="color:#f92672">&lt;-</span> penguins <span style="color:#f92672">%&gt;%</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">count</span>(species) <span style="color:#f92672">%&gt;%</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">mutate</span>(percent <span style="color:#f92672">=</span> n <span style="color:#f92672">/</span> <span style="color:#a6e22e">sum</span>(n) <span style="color:#f92672">*</span> <span style="color:#ae81ff">100</span>)  <span style="color:#75715e"># Menambahkan kolom percent</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Buat pie chart menggunakan ggplot2</span>
+</span></span><span style="display:flex;"><span>pie <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">ggplot</span>(data <span style="color:#f92672">=</span> penguins_count, <span style="color:#a6e22e">aes</span>(x <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;&#34;</span>, y <span style="color:#f92672">=</span> n, fill <span style="color:#f92672">=</span> species)) <span style="color:#f92672">+</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">geom_bar</span>(stat <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;identity&#34;</span>, width <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>) <span style="color:#f92672">+</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">coord_polar</span>(theta <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;y&#34;</span>) <span style="color:#f92672">+</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">labs</span>(fill <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Spesies&#34;</span>, x <span style="color:#f92672">=</span> <span style="color:#66d9ef">NULL</span>, y <span style="color:#f92672">=</span> <span style="color:#66d9ef">NULL</span>, title <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Pie Chart Jumlah Observasi per Spesies&#34;</span>) <span style="color:#f92672">+</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">theme_void</span>() <span style="color:#f92672">+</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">theme</span>(legend.position <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;right&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Tambahkan label persentase</span>
+</span></span><span style="display:flex;"><span>pie <span style="color:#f92672">+</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">geom_text</span>(<span style="color:#a6e22e">aes</span>(label <span style="color:#f92672">=</span> <span style="color:#a6e22e">paste0</span>(<span style="color:#a6e22e">round</span>(percent), <span style="color:#e6db74">&#34;%&#34;</span>)), position <span style="color:#f92672">=</span> <span style="color:#a6e22e">position_stack</span>(vjust <span style="color:#f92672">=</span> <span style="color:#ae81ff">0.5</span>))
+</span></span></code></pre></div><p>Hasilnya:
+<img loading="lazy" src="/rstudio-basic/ss10.png" alt="ss10"  title="Pie Chart persentase spesies penguin"  />
+</p>
+<p>Sekian dulu untuk pembahasan RStudio Basic-nya. Kalau kalian ingin tahu lebih jauh tentang visualisasi di R dan RStudio, saya sarankan untuk membaca-baca lebih banyak, seperti misalnya pada artikel berikut: <a href="https://rpubs.com/alfanugraha/r-graph" target="_blank">https://rpubs.com/alfanugraha/r-graph</a>
+. Artikel tersebut membahas lebih dalam mengenai visualisasi dan grafik di R, mulai dari grafik dasar dengan fungsi <code>plot()</code>, <code>ggplot2()</code>, dan <code>ggplot()</code>, bahkan penerapan visualisasi spasial seperti peta.</p>
+<p>Sampai jumpa lagi di artikel saya yang lain.<br>
+See ya!</p>
+<hr>
+<p><em>By the way</em>, artikel ini saya buat dengan tampilan <strong>Debian Desktop XFCE</strong>:<br>
+<img loading="lazy" src="/rstudio-basic/debian_buuf.png" alt="debian_buuf"  />
+</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p><a href="https://www.r-project.org/about.html" target="_blank">https://www.r-project.org/about.html</a>
+&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p><a href="https://libguides.library.kent.edu/statconsulting/r" target="_blank">https://libguides.library.kent.edu/statconsulting/r</a>
+&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p><a href="https://id.wikipedia.org/wiki/R_%28bahasa_pemrograman%29" target="_blank">https://id.wikipedia.org/wiki/R_(bahasa_pemrograman)</a>
+&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4">
+<p><a href="https://posit.co/about/" target="_blank">https://posit.co/about/</a>
+&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:5">
+<p><a href="https://www.geeksforgeeks.org/how-to-install-r-studio-on-windows-and-linux/" target="_blank">https://www.geeksforgeeks.org/how-to-install-r-studio-on-windows-and-linux/</a>
+&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:6">
+<p><a href="https://www.datacamp.com/tutorial/r-studio-tutorial" target="_blank">https://www.datacamp.com/tutorial/r-studio-tutorial</a>
+&#160;<a href="#fnref:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:7">
+<p><a href="https://rladiessydney.org/courses/ryouwithme/01-basicbasics-2/" target="_blank">https://rladiessydney.org/courses/ryouwithme/01-basicbasics-2/</a>
+&#160;<a href="#fnref:7" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:8">
+<p><a href="https://www.tidyverse.org/packages/" target="_blank">https://www.tidyverse.org/packages/</a>
+&#160;<a href="#fnref:8" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:9">
+<p><a href="https://allisonhorst.github.io/palmerpenguins/" target="_blank">https://allisonhorst.github.io/palmerpenguins/</a>
+&#160;<a href="#fnref:9" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:9" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:10">
+<p><a href="https://rpubs.com/alfanugraha/r-graph" target="_blank">https://rpubs.com/alfanugraha/r-graph</a>
+&#160;<a href="#fnref:10" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<nav class="pagenav">
+  
+    <a class="prev" href="/tech/yt-dlp/">
+      <span class="direction">« Prev</span>
+      <br>
+      <span> A Feature Rich Command Line Audio/Video Downloader: YT-DLP </span>
+    </a>
+  
+  
+    <a class="next" href="/tech/cooltools/">
+      <span class="direction">Next »</span>
+      <br>
+      <span> Cool Terminal Tools You Should Know </span>
+    </a>
+  
+</nav>
+
+
+
+
+
+
+
+
+      </main>
+      <footer>
+  <div class="copyright">
+     © 2024  Abdullah Wildan Ulhaq 
+  </div>
+  
+  <div class="attribution">
+    Built with <a href="https://gohugo.io" target="_blank">Hugo</a> & <a href="https://github.com/mnjm/kayal" target="_blank">Kayal</a>
+  </div>
+  
+</footer>
+
+    </div>
+  </body>
+</html>

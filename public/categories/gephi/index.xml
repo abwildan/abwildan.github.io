@@ -1,21 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gephi on Wildan&#39;s Workspace</title>
-    <link>http://localhost:1313/categories/gephi/</link>
+    <link>https://wildanhaq.github.io/categories/gephi/</link>
     <description>Recent content in Gephi on Wildan&#39;s Workspace</description>
-    <generator>Hugo -- 0.128.2</generator>
-    <language>en-US</language>
+    <generator>Hugo</generator>
+    <language>en-us</language>
     <lastBuildDate>Sat, 06 Jan 2024 02:26:47 -0500</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/gephi/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://wildanhaq.github.io/categories/gephi/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Gephi - Actor(s) Centrality</title>
-      <link>http://localhost:1313/post/gephi/</link>
+      <link>https://wildanhaq.github.io/post/gephi/</link>
       <pubDate>Sat, 06 Jan 2024 02:26:47 -0500</pubDate>
-      <guid>http://localhost:1313/post/gephi/</guid>
-      <description>Halo! Kali ini kita akan belajar tentang penggunaan salah satu software yang biasa digunakan untuk melakukan analisis data pada ilmu-ilmu sosial, khususnya pada diskusi atau kajian mengenai Social Network Analysis (SNA). Secara sederhana, SNA adalah sebuah metode untuk mengidentifikasi aktor (node) dan relasinya (edge) dalam suatu jaringan.
-Pada topik Gephi kali ini, saya akan menjelaskan analisis terhadap 4 jenis sentralitas aktor1, yaitu:
-Degree Centrality Betweeness Centrality Closeness Centrality Eigenvector Centrality Berikut adalah perbedaan singkat mengenai keempat jenis centrality tersebut.</description>
+      <guid>https://wildanhaq.github.io/post/gephi/</guid>
+      <description>Halo! Kali ini kita akan belajar tentang penggunaan salah satu software yang biasa digunakan untuk melakukan analisis data pada ilmu-ilmu sosial, khususnya pada diskusi atau kajian mengenai Social Network Analysis (SNA).</description>
+    </item>
+    <item>
+      <title>Gephi - Actor(s) Centrality</title>
+      <link>https://wildanhaq.github.io/tech/gephi/</link>
+      <pubDate>Sat, 06 Jan 2024 02:26:47 -0500</pubDate>
+      <guid>https://wildanhaq.github.io/tech/gephi/</guid>
+      <description>Halo! Kali ini kita akan belajar tentang penggunaan salah satu software yang biasa digunakan untuk melakukan analisis data pada ilmu-ilmu sosial, khususnya pada diskusi atau kajian mengenai Social Network Analysis (SNA).</description>
     </item>
   </channel>
 </rss>

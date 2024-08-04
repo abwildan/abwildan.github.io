@@ -1,27 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Yt-Dlp on Wildan&#39;s Workspace</title>
-    <link>http://localhost:1313/tags/yt-dlp/</link>
+    <link>https://wildanhaq.github.io/tags/yt-dlp/</link>
     <description>Recent content in Yt-Dlp on Wildan&#39;s Workspace</description>
-    <generator>Hugo -- 0.128.2</generator>
-    <language>en-US</language>
+    <generator>Hugo</generator>
+    <language>en-us</language>
     <lastBuildDate>Sun, 23 Jun 2024 00:49:55 -0400</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/yt-dlp/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://wildanhaq.github.io/tags/yt-dlp/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A Feature Rich Command Line Audio/Video Downloader: YT-DLP</title>
-      <link>http://localhost:1313/post/yt-dlp/</link>
+      <link>https://wildanhaq.github.io/post/yt-dlp/</link>
       <pubDate>Sun, 23 Jun 2024 00:49:55 -0400</pubDate>
-      <guid>http://localhost:1313/post/yt-dlp/</guid>
-      <description>What Is It? Apa yang akan kalian lakukan kalau mau mengunduh video Youtube?
-A. Mengunjungi website seperti savefrom, savetube, y2meta, ssyoutube, dll.
-B. Mengunduh aplikasi seperti MediaHuman, Open Video Downloader, dll.
-C. Memutar videonya via VLC Player.
-D. Mengunduh langsung di aplikasi Youtube.
-Bisakah kalian menentukan format videonya juga?
-Bagaimana kalau kalian hanya ingin mengunduh audionya saja?
-Bagaimana jika videonya ada di platform selain Youtube?
-Perkenalkan, yt-dlp adalah sebuah program berbasis open source yang kurang lebih fungsinya adalah untuk menjawab pertanyaan-pertanyaan serupa seperti yang ada di atas sebelumnya.</description>
+      <guid>https://wildanhaq.github.io/post/yt-dlp/</guid>
+      <description>What Is It? Apa yang akan kalian lakukan kalau mau mengunduh video Youtube?&#xA;A. Mengunjungi website seperti savefrom, savetube, y2meta, ssyoutube, dll.</description>
+    </item>
+    <item>
+      <title>A Feature Rich Command Line Audio/Video Downloader: YT-DLP</title>
+      <link>https://wildanhaq.github.io/tech/yt-dlp/</link>
+      <pubDate>Sun, 23 Jun 2024 00:49:55 -0400</pubDate>
+      <guid>https://wildanhaq.github.io/tech/yt-dlp/</guid>
+      <description>What Is It? Apa yang akan kalian lakukan kalau mau mengunduh video Youtube?&#xA;A. Mengunjungi website seperti savefrom, savetube, y2meta, ssyoutube, dll.</description>
     </item>
   </channel>
 </rss>

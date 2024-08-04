@@ -1,284 +1,439 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Wildan&#39;s Workspace</title>
-    <link>http://localhost:1313/</link>
+    <link>https://wildanhaq.github.io/</link>
     <description>Recent content on Wildan&#39;s Workspace</description>
-    <generator>Hugo -- 0.128.2</generator>
-    <language>en-US</language>
-    <lastBuildDate>Sat, 20 Jul 2024 11:16:26 +0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 02 Aug 2024 07:59:33 +0000</lastBuildDate>
+    <atom:link href="https://wildanhaq.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction to Chess ♟️</title>
+      <link>https://wildanhaq.github.io/chess/intro/</link>
+      <pubDate>Fri, 02 Aug 2024 07:59:33 +0000</pubDate>
+      <guid>https://wildanhaq.github.io/chess/intro/</guid>
+      <description>This article shares about (short) history, pieces, notation, and other things regarding Intro to Chess.</description>
+    </item>
     <item>
       <title>Enhancing Your Linux Desktop with Conky</title>
-      <link>http://localhost:1313/post/conky/</link>
+      <link>https://wildanhaq.github.io/post/conky/</link>
       <pubDate>Sat, 20 Jul 2024 11:16:26 +0700</pubDate>
-      <guid>http://localhost:1313/post/conky/</guid>
-      <description>Tentang Conky, meskipun terdengar seperti singkatan &amp;ldquo;Pocong Pinky&amp;rdquo;, sebetulnya adalah program monitor sistem untuk linux desktop1. Kalau merujuk pada repositori resminya di Github, Conky dinyatakan sebagai berikut:
-Conky is a free, light-weight system monitor for X, that displays any kind of information on your desktop2.
-Jadi, dapat disimpulkan bahwa Conky pada dasarnya adalah sebuah program untuk menampilkan monitoring sistem di layar desktop. Apa saja &amp;ldquo;sistem&amp;rdquo; yang bisa ditampilkan oleh Conky? Well, menurut definisi di atas, &amp;ldquo;&amp;hellip;that display any kind of information&amp;hellip;&amp;rdquo;, artinya, informasi apapun dapat ditampilkan via Conky, mulai dari info terkait CPU, RAM, Disk, Date/Time, Weather, dan lain-lain.</description>
+      <guid>https://wildanhaq.github.io/post/conky/</guid>
+      <description>Tentang Conky, meskipun terdengar seperti singkatan &amp;ldquo;Pocong Pinky&amp;rdquo;, sebetulnya adalah program monitor sistem untuk linux desktop1. Kalau merujuk pada repositori resminya di Github, Conky dinyatakan sebagai berikut:</description>
+    </item>
+    <item>
+      <title>Enhancing Your Linux Desktop with Conky</title>
+      <link>https://wildanhaq.github.io/tech/conky/</link>
+      <pubDate>Sat, 20 Jul 2024 11:16:26 +0700</pubDate>
+      <guid>https://wildanhaq.github.io/tech/conky/</guid>
+      <description>Tentang Conky, meskipun terdengar seperti singkatan &amp;ldquo;Pocong Pinky&amp;rdquo;, sebetulnya adalah program monitor sistem untuk linux desktop1. Kalau merujuk pada repositori resminya di Github, Conky dinyatakan sebagai berikut:</description>
     </item>
     <item>
       <title>Log in to Your System with (Stunning) TTY</title>
-      <link>http://localhost:1313/post/tty/</link>
+      <link>https://wildanhaq.github.io/post/tty/</link>
       <pubDate>Wed, 17 Jul 2024 15:06:15 +0700</pubDate>
-      <guid>http://localhost:1313/post/tty/</guid>
-      <description>About Login Interface &amp;amp; TTY Ketika kita akan login ke sebuah sistem, kita biasanya disuguhkan interface untuk memasukkan kredensial login kita (username &amp;amp; password), kan? Umumnya, interface yang biasa digunakan untuk login tersebut berbasis GUI (Graphical User Interface). Interface login berbasis GUI itulah yang kemudian dikenal (di komunitas linux, terutama) dengan istilah display manager1.
-Beberapa display manager yang populer digunakan misalnya ada sddm, lightdm, gdm, lxdm, dan masih banyak lagi. Biasanya, ketika kita meng-install sebuah desktop environment2 atau DE, package display manager default-nya juga pasti akan ter-install.</description>
+      <guid>https://wildanhaq.github.io/post/tty/</guid>
+      <description>About Login Interface &amp;amp; TTY Ketika kita akan login ke sebuah sistem, kita biasanya disuguhkan interface untuk memasukkan kredensial login kita (username &amp;amp; password), kan?</description>
+    </item>
+    <item>
+      <title>Log in to Your System with (Stunning) TTY</title>
+      <link>https://wildanhaq.github.io/tech/tty/</link>
+      <pubDate>Wed, 17 Jul 2024 15:06:15 +0700</pubDate>
+      <guid>https://wildanhaq.github.io/tech/tty/</guid>
+      <description>About Login Interface &amp;amp; TTY Ketika kita akan login ke sebuah sistem, kita biasanya disuguhkan interface untuk memasukkan kredensial login kita (username &amp;amp; password), kan?</description>
     </item>
     <item>
       <title>A Feature Rich Command Line Audio/Video Downloader: YT-DLP</title>
-      <link>http://localhost:1313/post/yt-dlp/</link>
+      <link>https://wildanhaq.github.io/post/yt-dlp/</link>
       <pubDate>Sun, 23 Jun 2024 00:49:55 -0400</pubDate>
-      <guid>http://localhost:1313/post/yt-dlp/</guid>
-      <description>What Is It? Apa yang akan kalian lakukan kalau mau mengunduh video Youtube?
-A. Mengunjungi website seperti savefrom, savetube, y2meta, ssyoutube, dll.
-B. Mengunduh aplikasi seperti MediaHuman, Open Video Downloader, dll.
-C. Memutar videonya via VLC Player.
-D. Mengunduh langsung di aplikasi Youtube.
-Bisakah kalian menentukan format videonya juga?
-Bagaimana kalau kalian hanya ingin mengunduh audionya saja?
-Bagaimana jika videonya ada di platform selain Youtube?
-Perkenalkan, yt-dlp adalah sebuah program berbasis open source yang kurang lebih fungsinya adalah untuk menjawab pertanyaan-pertanyaan serupa seperti yang ada di atas sebelumnya.</description>
+      <guid>https://wildanhaq.github.io/post/yt-dlp/</guid>
+      <description>What Is It? Apa yang akan kalian lakukan kalau mau mengunduh video Youtube?&#xA;A. Mengunjungi website seperti savefrom, savetube, y2meta, ssyoutube, dll.</description>
+    </item>
+    <item>
+      <title>A Feature Rich Command Line Audio/Video Downloader: YT-DLP</title>
+      <link>https://wildanhaq.github.io/tech/yt-dlp/</link>
+      <pubDate>Sun, 23 Jun 2024 00:49:55 -0400</pubDate>
+      <guid>https://wildanhaq.github.io/tech/yt-dlp/</guid>
+      <description>What Is It? Apa yang akan kalian lakukan kalau mau mengunduh video Youtube?&#xA;A. Mengunjungi website seperti savefrom, savetube, y2meta, ssyoutube, dll.</description>
     </item>
     <item>
       <title>RStudio Basic: From Installation to Data Visualization</title>
-      <link>http://localhost:1313/post/rstudio-basic/</link>
+      <link>https://wildanhaq.github.io/post/rstudio-basic/</link>
       <pubDate>Thu, 13 Jun 2024 11:56:25 -0400</pubDate>
-      <guid>http://localhost:1313/post/rstudio-basic/</guid>
-      <description>Hola!
-RStudio menurut saya adalah software keren untuk mengolah data menggunakan bahasa R. Jadi, saya memutuskan untuk membahasnya di artikel ini. Tapi, sebagaimana judulnya, saya hanya akan memberikan overview tentang RStudio secara singkat.
-Beberapa hal yang akan saya bahas dari Rstudio di artikel ini terbagi ke dalam 6 bagian:
-What is R &amp;amp; RStudio? Why R &amp;amp; RStudio1 R &amp;amp; RStudio Installation RStudio Interface Introduction Installing Packages (tidyverse &amp;amp; palmerpenguins) Playing with Data 1.</description>
+      <guid>https://wildanhaq.github.io/post/rstudio-basic/</guid>
+      <description>Hola!&#xA;RStudio menurut saya adalah software keren untuk mengolah data menggunakan bahasa R. Jadi, saya memutuskan untuk membahasnya di artikel ini.</description>
+    </item>
+    <item>
+      <title>RStudio Basic: From Installation to Data Visualization</title>
+      <link>https://wildanhaq.github.io/tech/rstudio-basic/</link>
+      <pubDate>Thu, 13 Jun 2024 11:56:25 -0400</pubDate>
+      <guid>https://wildanhaq.github.io/tech/rstudio-basic/</guid>
+      <description>Hola!&#xA;RStudio menurut saya adalah software keren untuk mengolah data menggunakan bahasa R. Jadi, saya memutuskan untuk membahasnya di artikel ini.</description>
     </item>
     <item>
       <title>Cool Terminal Tools You Should Know</title>
-      <link>http://localhost:1313/post/cooltools/</link>
+      <link>https://wildanhaq.github.io/post/cooltools/</link>
       <pubDate>Sun, 09 Jun 2024 16:59:47 +0700</pubDate>
-      <guid>http://localhost:1313/post/cooltools/</guid>
-      <description>Yoo, jumpa lagi!
-Saya mau berbagi sejumlah tools terminal yang sayang jika dilewatkan, apalagi bagi kalian guys, linux nerds. Sebagian besar (atau mungkin semuanya) tools yang akan saya share di artikel ini murni for fun. Jadi, memang fungsinya hanya untuk show off kecantikan terminal. But, anyway, berikut adalah 9 terminal tools keren yang bisa kalian coba:
-1. cava Cava adalah cross-platform audio visualizer.
-Github: https://github.com/karlstav/cava
-Instalasi (Archlinux) via repositori komunitas (AUR - Arch User Repository):</description>
+      <guid>https://wildanhaq.github.io/post/cooltools/</guid>
+      <description>Yoo, jumpa lagi!&#xA;Saya mau berbagi sejumlah tools terminal yang sayang jika dilewatkan, apalagi bagi kalian guys, linux nerds. Sebagian besar (atau mungkin semuanya) tools yang akan saya share di artikel ini murni for fun.</description>
+    </item>
+    <item>
+      <title>Cool Terminal Tools You Should Know</title>
+      <link>https://wildanhaq.github.io/tech/cooltools/</link>
+      <pubDate>Sun, 09 Jun 2024 16:59:47 +0700</pubDate>
+      <guid>https://wildanhaq.github.io/tech/cooltools/</guid>
+      <description>Yoo, jumpa lagi!&#xA;Saya mau berbagi sejumlah tools terminal yang sayang jika dilewatkan, apalagi bagi kalian guys, linux nerds. Sebagian besar (atau mungkin semuanya) tools yang akan saya share di artikel ini murni for fun.</description>
     </item>
     <item>
       <title>A Classic yet Nostalgic Music Player: NCMPCPP</title>
-      <link>http://localhost:1313/post/ncmpcpp/</link>
+      <link>https://wildanhaq.github.io/post/ncmpcpp/</link>
       <pubDate>Fri, 07 Jun 2024 14:41:49 +0700</pubDate>
-      <guid>http://localhost:1313/post/ncmpcpp/</guid>
-      <description>Intro NCurses Music Player Client Plus Plus adalah nama panjang dari NCMPCPP. Ya, seperti namanya, ncmpcpp adalah music player berbasis mpd. MPD? Iya, Music Player Daemon alias MPD adalah pemutar musik. Dengan kata lain, mpd adalah server music player dan ncmpcpp adalah salah satu music player client-nya.
-Sengaja saya beri judul &amp;ldquo;Classic&amp;rdquo; dan &amp;ldquo;Nostalgic&amp;rdquo; untuk ncmpcpp karena memang, ncmpcpp tidak bisa dibandingkan dengan aplikasi atau software-software pemutar musik yang ada saat ini, seperti Spotify.</description>
+      <guid>https://wildanhaq.github.io/post/ncmpcpp/</guid>
+      <description>Intro NCurses Music Player Client Plus Plus adalah nama panjang dari NCMPCPP. Ya, seperti namanya, ncmpcpp adalah music player berbasis mpd.</description>
+    </item>
+    <item>
+      <title>A Classic yet Nostalgic Music Player: NCMPCPP</title>
+      <link>https://wildanhaq.github.io/tech/ncmpcpp/</link>
+      <pubDate>Fri, 07 Jun 2024 14:41:49 +0700</pubDate>
+      <guid>https://wildanhaq.github.io/tech/ncmpcpp/</guid>
+      <description>Intro NCurses Music Player Client Plus Plus adalah nama panjang dari NCMPCPP. Ya, seperti namanya, ncmpcpp adalah music player berbasis mpd.</description>
     </item>
     <item>
       <title>How to be A Genius in Everything</title>
-      <link>http://localhost:1313/opinion/genius/</link>
+      <link>https://wildanhaq.github.io/opinion/genius/</link>
       <pubDate>Thu, 06 Jun 2024 14:13:34 +0700</pubDate>
-      <guid>http://localhost:1313/opinion/genius/</guid>
-      <description>A wise word once said, &amp;ldquo;Many things can be acquired with money, many by deceit, and many by falsehood. But, there is one thing that can be obtained only by honest labor, for which a king must work as hard as a coalman&amp;hellip;, and that is knowledge.&amp;rdquo;.
-A lot of people judging other as a genius or a stupid one. They did that kind of judging usually when they were arguing each other about something (politics is one of them).</description>
+      <guid>https://wildanhaq.github.io/opinion/genius/</guid>
+      <description>A wise word once said, &amp;ldquo;Many things can be acquired with money, many by deceit, and many by falsehood. But, there is one thing that can be obtained only by honest labor, for which a king must work as hard as a coalman&amp;hellip;, and that is knowledge.</description>
     </item>
     <item>
       <title>My Remote Desktop Client(s)</title>
-      <link>http://localhost:1313/post/rdpclient/</link>
+      <link>https://wildanhaq.github.io/post/rdpclient/</link>
       <pubDate>Tue, 04 Jun 2024 22:05:26 +0700</pubDate>
-      <guid>http://localhost:1313/post/rdpclient/</guid>
-      <description>Holaa!!
-Saya akan berbagi beberapa RDP client yang biasa saya gunakan untuk melakukan remote desktop. BTW, RDP atau Remote Desktop Protocol adalah salah satu protokol komunikasi dalam jaringan komputer yang dikembangkan awalnya oleh Microsoft untuk melakukan remote akses berbasis GUI (Graphical User Interface)1. Kemudian, protokol ini juga dibawa ke environment linux sehingga RDP tidak hanya dapat digunakan di Windows (as a microsoft product obviously) saja, tetapi juga di linux.
-Note:</description>
+      <guid>https://wildanhaq.github.io/post/rdpclient/</guid>
+      <description>Holaa!!&#xA;Saya akan berbagi beberapa RDP client yang biasa saya gunakan untuk melakukan remote desktop. BTW, RDP atau Remote Desktop Protocol adalah salah satu protokol komunikasi dalam jaringan komputer yang dikembangkan awalnya oleh Microsoft untuk melakukan remote akses berbasis GUI (Graphical User Interface)1.</description>
+    </item>
+    <item>
+      <title>My Remote Desktop Client(s)</title>
+      <link>https://wildanhaq.github.io/tech/rdpclient/</link>
+      <pubDate>Tue, 04 Jun 2024 22:05:26 +0700</pubDate>
+      <guid>https://wildanhaq.github.io/tech/rdpclient/</guid>
+      <description>Holaa!!&#xA;Saya akan berbagi beberapa RDP client yang biasa saya gunakan untuk melakukan remote desktop. BTW, RDP atau Remote Desktop Protocol adalah salah satu protokol komunikasi dalam jaringan komputer yang dikembangkan awalnya oleh Microsoft untuk melakukan remote akses berbasis GUI (Graphical User Interface)1.</description>
     </item>
     <item>
       <title>Gorgeous Status Bar with Polybar</title>
-      <link>http://localhost:1313/post/polybar/</link>
+      <link>https://wildanhaq.github.io/post/polybar/</link>
       <pubDate>Sun, 02 Jun 2024 19:14:29 +0700</pubDate>
-      <guid>http://localhost:1313/post/polybar/</guid>
-      <description>Polybar adalah tool yang cepat mudah digunakan untuk membuat status bar1, seperti: Secara umum, artikel ini akan membahas 3 proses: Memasang Polybar, Menjalankan Polybar, dan Mengkustom Polybar.
-Memasang Polybar Project polybar dapat ditemukan di internet, di repo github official-nya: Polybar Github
-Di linux, polybar dapat dipasang dengan mengetikkan perintah berikut:
-No Distro Install 1 Debian/Ubuntu sudo apt install polybar 2 Arch sudo pacman -S polybar 3 OpenSuse sudo zypper in polybar 4 Fedora sudo dnf install polybar Untuk memastikan polybar sudah terpasang, ketikkan perintah berikut di terminal:</description>
+      <guid>https://wildanhaq.github.io/post/polybar/</guid>
+      <description>Polybar adalah tool yang cepat mudah digunakan untuk membuat status bar1, seperti: Secara umum, artikel ini akan membahas 3 proses: Memasang Polybar, Menjalankan Polybar, dan Mengkustom Polybar.</description>
+    </item>
+    <item>
+      <title>Gorgeous Status Bar with Polybar</title>
+      <link>https://wildanhaq.github.io/tech/polybar/</link>
+      <pubDate>Sun, 02 Jun 2024 19:14:29 +0700</pubDate>
+      <guid>https://wildanhaq.github.io/tech/polybar/</guid>
+      <description>Polybar adalah tool yang cepat mudah digunakan untuk membuat status bar1, seperti: Secara umum, artikel ini akan membahas 3 proses: Memasang Polybar, Menjalankan Polybar, dan Mengkustom Polybar.</description>
     </item>
     <item>
       <title>Openbox - Simple and Easy Window Manager for Beginners</title>
-      <link>http://localhost:1313/post/openbox/</link>
+      <link>https://wildanhaq.github.io/post/openbox/</link>
       <pubDate>Thu, 30 May 2024 01:49:56 +0000</pubDate>
-      <guid>http://localhost:1313/post/openbox/</guid>
-      <description>Dari 1-10 (dengan skala 1: paling tidak cantik dan 10: paling cantik), seberapa cantik tampilan tangkapan layar pada cover artikel ini? Screenshot tersebut saya &amp;ldquo;curi&amp;rdquo; dari sebuah akun github bernama addy-dclxvi pada reponya, openbox-theme-collection.
-Kalau kalian mengunjungi repo tersebut, kalian akan menemukan keindahan-keindahan sebuah window manager bernama openbox di sana. Keindahan yang saya maksud di sini bukan keindahan biasa, tapi keindahan yang muncul dari kesederhanaan namun mampu memberikan kesan elegan dan nostalgic (oke, setidaknya ini menurut saya pribadi, hehe).</description>
+      <guid>https://wildanhaq.github.io/post/openbox/</guid>
+      <description>Dari 1-10 (dengan skala 1: paling tidak cantik dan 10: paling cantik), seberapa cantik tampilan tangkapan layar pada cover artikel ini?</description>
+    </item>
+    <item>
+      <title>Openbox - Simple and Easy Window Manager for Beginners</title>
+      <link>https://wildanhaq.github.io/tech/openbox/</link>
+      <pubDate>Thu, 30 May 2024 01:49:56 +0000</pubDate>
+      <guid>https://wildanhaq.github.io/tech/openbox/</guid>
+      <description>Dari 1-10 (dengan skala 1: paling tidak cantik dan 10: paling cantik), seberapa cantik tampilan tangkapan layar pada cover artikel ini?</description>
     </item>
     <item>
       <title>Bypassing Article Journal Paywall using Scihub</title>
-      <link>http://localhost:1313/post/scihub/</link>
+      <link>https://wildanhaq.github.io/post/scihub/</link>
       <pubDate>Tue, 21 May 2024 09:10:19 +0700</pubDate>
-      <guid>http://localhost:1313/post/scihub/</guid>
-      <description>Kalian adalah seorang peneliti yang membutuhkan jurnal yang berstandar internasional tapi terkendala karena tidak bisa mengaksesnya? Solusinya adalah Scihub!
-About Sci-hub Sci-hub adalah situs web &amp;ldquo;perpustakaan bayangan&amp;rdquo; yang didirkan oleh seorang perempuan asal Kazakhstan yang lahir pada tahun 1988 bernama Alexandra Elbakyan. Disebut &amp;ldquo;perpustakaan bayangan&amp;rdquo; karena sci-hub memberikan akses ke jutaan artikel penelitian berbayar secara gratis hanya dengan meng-input-kan tautan DOI (Digital Object Identifier) sebuah artikel ke situs sci-hub.1 Situs ini didirikan pada tahun 2011 oleh perempuan lulusan jurusan Teknologi Informasi dari Kazakh National Technical University juga karena alasan mahalnya biaya makalah atau artikel penelitian yang tersedia di internet.</description>
+      <guid>https://wildanhaq.github.io/post/scihub/</guid>
+      <description>Kalian adalah seorang peneliti yang membutuhkan jurnal yang berstandar internasional tapi terkendala karena tidak bisa mengaksesnya? Solusinya adalah Scihub!&#xA;About Sci-hub Sci-hub adalah situs web &amp;ldquo;perpustakaan bayangan&amp;rdquo; yang didirkan oleh seorang perempuan asal Kazakhstan yang lahir pada tahun 1988 bernama Alexandra Elbakyan .</description>
+    </item>
+    <item>
+      <title>Bypassing Article Journal Paywall using Scihub</title>
+      <link>https://wildanhaq.github.io/tech/scihub/</link>
+      <pubDate>Tue, 21 May 2024 09:10:19 +0700</pubDate>
+      <guid>https://wildanhaq.github.io/tech/scihub/</guid>
+      <description>Kalian adalah seorang peneliti yang membutuhkan jurnal yang berstandar internasional tapi terkendala karena tidak bisa mengaksesnya? Solusinya adalah Scihub!&#xA;About Sci-hub Sci-hub adalah situs web &amp;ldquo;perpustakaan bayangan&amp;rdquo; yang didirkan oleh seorang perempuan asal Kazakhstan yang lahir pada tahun 1988 bernama Alexandra Elbakyan .</description>
     </item>
     <item>
       <title>Steganography - Hiding secret(s) Inside A File</title>
-      <link>http://localhost:1313/post/steganography/</link>
+      <link>https://wildanhaq.github.io/post/steganography/</link>
       <pubDate>Mon, 13 May 2024 10:52:32 +0700</pubDate>
-      <guid>http://localhost:1313/post/steganography/</guid>
-      <description>Steganography is the practice of representing information within another message or physical object.1
-Pengertian &amp;amp; Sejarah Steganography Pengertian steganography [selanjutnya saya singkat dengan stego] memang sesederhana &amp;ldquo;ilmu dan seni menyembunyikan pesan atau informasi rahasia di dalam pesan lain&amp;rdquo;.
-Tapi sebetulnya, jauh sebelum komputer ditemukan, proses stego ini sudah dilakukan sejak zaman Yunani Kuno. Sebuah kisah dari penguasa Yunani saat itu, Herodotus pada tahun 440 BC (re: Before Christ / Sebelum Masehi) yang terdapat dalam buku Histories of Herodotus, menceritakan tentang bagaimana kepala budak digunakan sebagai media steganography.</description>
+      <guid>https://wildanhaq.github.io/post/steganography/</guid>
+      <description>Steganography is the practice of representing information within another message or physical object.1&#xA;Pengertian &amp;amp; Sejarah Steganography Pengertian steganography [selanjutnya saya singkat dengan stego] memang sesederhana &amp;ldquo;ilmu dan seni menyembunyikan pesan atau informasi rahasia di dalam pesan lain&amp;rdquo;.</description>
+    </item>
+    <item>
+      <title>Steganography - Hiding secret(s) Inside A File</title>
+      <link>https://wildanhaq.github.io/tech/steganography/</link>
+      <pubDate>Mon, 13 May 2024 10:52:32 +0700</pubDate>
+      <guid>https://wildanhaq.github.io/tech/steganography/</guid>
+      <description>Steganography is the practice of representing information within another message or physical object.1&#xA;Pengertian &amp;amp; Sejarah Steganography Pengertian steganography [selanjutnya saya singkat dengan stego] memang sesederhana &amp;ldquo;ilmu dan seni menyembunyikan pesan atau informasi rahasia di dalam pesan lain&amp;rdquo;.</description>
     </item>
     <item>
       <title>Rofi - Beautiful &amp; Modern App Launcher</title>
-      <link>http://localhost:1313/post/rofi/</link>
+      <link>https://wildanhaq.github.io/post/rofi/</link>
       <pubDate>Sat, 04 May 2024 10:38:46 +0700</pubDate>
-      <guid>http://localhost:1313/post/rofi/</guid>
-      <description>What is Rofi?
-Kenalan dengan Rofi Teman kalian mungkin ada yang namanya Rofi. Tapi, tentu saja artikel ini tidak sedang menggosipkan Rofi sebagai manusia, tapi Rofi sebagai sebuah program, xixi.
-Merujuk pada definisi official-nya, secara singkat, Rofi yang dimaksud dalam artikel ini adalah
-window switcher, run dialog and dmenu replacement rofi can act as an application launcher, window switcher, ssh launcher and dmenu replacement.
-Atau definisi dengan versi yang lebih komplit:</description>
+      <guid>https://wildanhaq.github.io/post/rofi/</guid>
+      <description>What is Rofi?&#xA;Kenalan dengan Rofi Teman kalian mungkin ada yang namanya Rofi. Tapi, tentu saja artikel ini tidak sedang menggosipkan Rofi sebagai manusia, tapi Rofi sebagai sebuah program, xixi.</description>
+    </item>
+    <item>
+      <title>Rofi - Beautiful &amp; Modern App Launcher</title>
+      <link>https://wildanhaq.github.io/tech/rofi/</link>
+      <pubDate>Sat, 04 May 2024 10:38:46 +0700</pubDate>
+      <guid>https://wildanhaq.github.io/tech/rofi/</guid>
+      <description>What is Rofi?&#xA;Kenalan dengan Rofi Teman kalian mungkin ada yang namanya Rofi. Tapi, tentu saja artikel ini tidak sedang menggosipkan Rofi sebagai manusia, tapi Rofi sebagai sebuah program, xixi.</description>
     </item>
     <item>
       <title>Instalasi Archlinux KDE via archinstall</title>
-      <link>http://localhost:1313/post/archinstall/</link>
+      <link>https://wildanhaq.github.io/post/archinstall/</link>
       <pubDate>Thu, 02 May 2024 09:52:29 +0700</pubDate>
-      <guid>http://localhost:1313/post/archinstall/</guid>
-      <description>Siapa yang tidak pernah dengar Archlinux?
-Archlinux adalah sebuah distro linux (legendaris) yang terkenal dengan komunitasnya yang besar dari seluruh dunia dan dokumentasi distronya yang lengkap. Hal lain yang menjadikan Archlinux sebagai distro yang digemari banyak orang adalah karena filosofinya, yaitu Keep It Simple1. Ya, sesuai filosofinya, Archlinux memang di-design untuk memberikan kemudahan, baik untuk penggunanya maupun untuk hardware atau mesin host-nya2.
-Meskipun demikian, dulu Archlinux memiliki reputasi sebagai distro untuk &amp;ldquo;linux senior&amp;rdquo; atau &amp;ldquo;sepuh linux&amp;rdquo; alias tidak ramah pengguna linux pemula.</description>
+      <guid>https://wildanhaq.github.io/post/archinstall/</guid>
+      <description>Siapa yang tidak pernah dengar Archlinux?&#xA;Archlinux adalah sebuah distro linux (legendaris) yang terkenal dengan komunitasnya yang besar dari seluruh dunia dan dokumentasi distronya yang lengkap.</description>
+    </item>
+    <item>
+      <title>Instalasi Archlinux KDE via archinstall</title>
+      <link>https://wildanhaq.github.io/tech/archinstall/</link>
+      <pubDate>Thu, 02 May 2024 09:52:29 +0700</pubDate>
+      <guid>https://wildanhaq.github.io/tech/archinstall/</guid>
+      <description>Siapa yang tidak pernah dengar Archlinux?&#xA;Archlinux adalah sebuah distro linux (legendaris) yang terkenal dengan komunitasnya yang besar dari seluruh dunia dan dokumentasi distronya yang lengkap.</description>
     </item>
     <item>
       <title>Linux Ricing?</title>
-      <link>http://localhost:1313/post/rice/</link>
+      <link>https://wildanhaq.github.io/post/rice/</link>
       <pubDate>Sun, 28 Apr 2024 14:21:13 +0700</pubDate>
-      <guid>http://localhost:1313/post/rice/</guid>
-      <description>Hola!
-Teman-teman familiar dengan istilah rice atau Linux ricing?
-Tidak seperti makna dari terjemah harfiahnya yang berarti nasi atau menasikan Linux, istilah rice atau Linux Ricing punya makna yang boleh dibilang eksklusif dan kontekstual. Gimana tu maksudnya? Mari saya jelaskan&amp;hellip;
-Secara sederhana, istilah rice yang digunakan dalam dunia Linux dicomot dari istilah yang biasa digunakan di dunia otomotif (mobil), dimana RICE adalah singkatan dari Race Inspired Cosmetic Enhancement. Istilah RICE dalam dunia mobil tersebut digunakan untuk menjelaskan modifikasi pada mobil.</description>
+      <guid>https://wildanhaq.github.io/post/rice/</guid>
+      <description>Hola!&#xA;Teman-teman familiar dengan istilah rice atau Linux ricing?&#xA;Tidak seperti makna dari terjemah harfiahnya yang berarti nasi atau menasikan Linux, istilah rice atau Linux Ricing punya makna yang boleh dibilang eksklusif dan kontekstual.</description>
+    </item>
+    <item>
+      <title>Linux Ricing?</title>
+      <link>https://wildanhaq.github.io/tech/rice/</link>
+      <pubDate>Sun, 28 Apr 2024 14:21:13 +0700</pubDate>
+      <guid>https://wildanhaq.github.io/tech/rice/</guid>
+      <description>Hola!&#xA;Teman-teman familiar dengan istilah rice atau Linux ricing?&#xA;Tidak seperti makna dari terjemah harfiahnya yang berarti nasi atau menasikan Linux, istilah rice atau Linux Ricing punya makna yang boleh dibilang eksklusif dan kontekstual.</description>
     </item>
     <item>
       <title>Debian Linux Installation in Virtualbox</title>
-      <link>http://localhost:1313/post/debian-installation/</link>
+      <link>https://wildanhaq.github.io/post/debian-installation/</link>
       <pubDate>Mon, 15 Apr 2024 07:45:05 +0700</pubDate>
-      <guid>http://localhost:1313/post/debian-installation/</guid>
-      <description>Pra Instalasi Hola!
-Kali ini saya akan memberikan tutorial instalasi salah satu distro linux legendaris, Debian. Saya akan menginstall Debian sebagai VM (virtual machine) di Virtualbox. Namun, sebelum saya melakukan instalasi, ada beberapa catatan berikut yang perlu diperhatikan:
-Mengunduh &amp;amp; Menginstall Virtualbox (di sini) Mengunduh file ISO debian (di sini) Instalasi Sekarang, kita masuk ke tahap instalasi&amp;hellip;
-Membuat VM di Virtualbox 1. Klik &amp;ldquo;New&amp;rdquo; di interface Virtualbox 2. Isi bagian Name, bebas, bisa diisi dengan nama distronya.</description>
+      <guid>https://wildanhaq.github.io/post/debian-installation/</guid>
+      <description>Pra Instalasi Hola!&#xA;Kali ini saya akan memberikan tutorial instalasi salah satu distro linux legendaris, Debian. Saya akan menginstall Debian sebagai VM (virtual machine) di Virtualbox.</description>
+    </item>
+    <item>
+      <title>Debian Linux Installation in Virtualbox</title>
+      <link>https://wildanhaq.github.io/tech/debian-installation/</link>
+      <pubDate>Mon, 15 Apr 2024 07:45:05 +0700</pubDate>
+      <guid>https://wildanhaq.github.io/tech/debian-installation/</guid>
+      <description>Pra Instalasi Hola!&#xA;Kali ini saya akan memberikan tutorial instalasi salah satu distro linux legendaris, Debian. Saya akan menginstall Debian sebagai VM (virtual machine) di Virtualbox.</description>
     </item>
     <item>
       <title>Ngrok - Make Your localhost Accessible Publicly</title>
-      <link>http://localhost:1313/post/ngrok/</link>
+      <link>https://wildanhaq.github.io/post/ngrok/</link>
       <pubDate>Tue, 02 Apr 2024 17:30:12 +0700</pubDate>
-      <guid>http://localhost:1313/post/ngrok/</guid>
-      <description>Ngrok? Ngrok bagi sebagian orang mungkin sudah faniliar karena sering digunakan untuk berbagai kebutuhan. Tapi, bagi yang belum tahu, ngrok secara sederhana dapat didefinisikan sebagai aplikasi yang memungkinkan kita untuk mem-publish server lokal kita di localhost ke publik dengan aman. Artinya, service seperti misalnya web di localhost (http) atau bahkan SSH dan RDP dapat diakses di luar jaringan secara aman melalui bantuan dari Ngrok ini. Untuk detail teknisnya sebentar lagi kita akan lihat demonya.</description>
+      <guid>https://wildanhaq.github.io/post/ngrok/</guid>
+      <description>Ngrok? Ngrok bagi sebagian orang mungkin sudah faniliar karena sering digunakan untuk berbagai kebutuhan. Tapi, bagi yang belum tahu, ngrok secara sederhana dapat didefinisikan sebagai aplikasi yang memungkinkan kita untuk mem-publish server lokal kita di localhost ke publik dengan aman.</description>
+    </item>
+    <item>
+      <title>Ngrok - Make Your localhost Accessible Publicly</title>
+      <link>https://wildanhaq.github.io/tech/ngrok/</link>
+      <pubDate>Tue, 02 Apr 2024 17:30:12 +0700</pubDate>
+      <guid>https://wildanhaq.github.io/tech/ngrok/</guid>
+      <description>Ngrok? Ngrok bagi sebagian orang mungkin sudah faniliar karena sering digunakan untuk berbagai kebutuhan. Tapi, bagi yang belum tahu, ngrok secara sederhana dapat didefinisikan sebagai aplikasi yang memungkinkan kita untuk mem-publish server lokal kita di localhost ke publik dengan aman.</description>
     </item>
     <item>
       <title>Mystiq - FFmpeg&#39;s GUI</title>
-      <link>http://localhost:1313/post/mystiq/</link>
+      <link>https://wildanhaq.github.io/post/mystiq/</link>
       <pubDate>Tue, 26 Mar 2024 17:56:16 +0700</pubDate>
-      <guid>http://localhost:1313/post/mystiq/</guid>
-      <description>Hola!
-Kali ini saya akan berbagi satu tools yang secara fungsi mungkin 11-12 dengan FFmpeg, tapi dia punya tampilan yang lebih user-friendly, nama tools-nya adalah Mystiq. Secara sederhana, Mystiq adalah media converter yang juga merupakan GUI (Graphical User Interface) dari FFmpeg1.
-Kurang lebih, berikut adalah tampilan atau interface dari Mystiq. Versi mystiq yang saya install adalah versi 20.03.18 karena dirilis pada tahun, bulan, dan tanggal 2020-03-18. Kehadiran aplikasi ini juga memudahkan kita untuk melakukan konversi file.</description>
+      <guid>https://wildanhaq.github.io/post/mystiq/</guid>
+      <description>Hola!&#xA;Kali ini saya akan berbagi satu tools yang secara fungsi mungkin 11-12 dengan FFmpeg, tapi dia punya tampilan yang lebih user-friendly, nama tools-nya adalah Mystiq.</description>
+    </item>
+    <item>
+      <title>Mystiq - FFmpeg&#39;s GUI</title>
+      <link>https://wildanhaq.github.io/tech/mystiq/</link>
+      <pubDate>Tue, 26 Mar 2024 17:56:16 +0700</pubDate>
+      <guid>https://wildanhaq.github.io/tech/mystiq/</guid>
+      <description>Hola!&#xA;Kali ini saya akan berbagi satu tools yang secara fungsi mungkin 11-12 dengan FFmpeg, tapi dia punya tampilan yang lebih user-friendly, nama tools-nya adalah Mystiq.</description>
     </item>
     <item>
       <title>Eternalblue (MS17-010) - SMBv1&#39;s Exploit</title>
-      <link>http://localhost:1313/post/eternalblue/</link>
+      <link>https://wildanhaq.github.io/post/eternalblue/</link>
       <pubDate>Thu, 21 Mar 2024 18:54:33 +0700</pubDate>
-      <guid>http://localhost:1313/post/eternalblue/</guid>
-      <description>Sejarah (Singkat) Apa itu Eternalblue?
-Eternalblue atau oleh Microsoft disebut dengan MS17-010 adalah sebuah exploit yang dapat digunakan untuk menyebarkan malware pada sebuah mesin Windows. Eternalblue adalah eksploit yang pada awalnya ditemukan oleh NSA (National Security Agency) Amerika Serikat untuk memanfaatkan kerentanan pada SMB v1 (Server Message Block versi 1) di Windows, terutama pada Windows 7 dan Windows XP.1
-Exploit ini tidak dilaporkan oleh NSA ke pihak Microsoft karena menguntungkan pihak NSA untuk melakukan mata-mata terhadap lawan-lawan politiknya.</description>
+      <guid>https://wildanhaq.github.io/post/eternalblue/</guid>
+      <description>Sejarah (Singkat) Apa itu Eternalblue?&#xA;Eternalblue atau oleh Microsoft disebut dengan MS17-010 adalah sebuah exploit yang dapat digunakan untuk menyebarkan malware pada sebuah mesin Windows.</description>
+    </item>
+    <item>
+      <title>Eternalblue (MS17-010) - SMBv1&#39;s Exploit</title>
+      <link>https://wildanhaq.github.io/tech/eternalblue/</link>
+      <pubDate>Thu, 21 Mar 2024 18:54:33 +0700</pubDate>
+      <guid>https://wildanhaq.github.io/tech/eternalblue/</guid>
+      <description>Sejarah (Singkat) Apa itu Eternalblue?&#xA;Eternalblue atau oleh Microsoft disebut dengan MS17-010 adalah sebuah exploit yang dapat digunakan untuk menyebarkan malware pada sebuah mesin Windows.</description>
     </item>
     <item>
       <title>Virustotal - Platform untuk Scanning Virus</title>
-      <link>http://localhost:1313/post/virustotal/</link>
+      <link>https://wildanhaq.github.io/post/virustotal/</link>
       <pubDate>Tue, 19 Mar 2024 21:43:27 +0700</pubDate>
-      <guid>http://localhost:1313/post/virustotal/</guid>
-      <description>Overview Virustotal adalah salah satu website terbaik untuk melakukan identifikasi terhadap suatu file/software/aplikasi dan url, apakah mengandung virus atau malware (malicious software) atau tidak. Dengan kata lain, melalui bantuan website ini, kita dapat mengecek suatu file/software/aplikasi maupun suatu link/url apakah berbahaya atau tidak sebelum kita menginstallnya di device kita masing-masing.
-Virustotal1 menjadi salah satu website penyedia jasa scanning virus terbaik karena website tersebut melakukan scanning dengan menggunakan lebih dari 50 vendor antivirus, termasuk diantaranya adalah Avira, BitDefender, dan Kaspersky.</description>
+      <guid>https://wildanhaq.github.io/post/virustotal/</guid>
+      <description>Overview Virustotal adalah salah satu website terbaik untuk melakukan identifikasi terhadap suatu file/software/aplikasi dan url, apakah mengandung virus atau malware (malicious software) atau tidak.</description>
+    </item>
+    <item>
+      <title>Virustotal - Platform untuk Scanning Virus</title>
+      <link>https://wildanhaq.github.io/tech/virustotal/</link>
+      <pubDate>Tue, 19 Mar 2024 21:43:27 +0700</pubDate>
+      <guid>https://wildanhaq.github.io/tech/virustotal/</guid>
+      <description>Overview Virustotal adalah salah satu website terbaik untuk melakukan identifikasi terhadap suatu file/software/aplikasi dan url, apakah mengandung virus atau malware (malicious software) atau tidak.</description>
     </item>
     <item>
       <title>Recordmydesktop - Screen Recorder based on CLI</title>
-      <link>http://localhost:1313/post/recordmydesktop/</link>
+      <link>https://wildanhaq.github.io/post/recordmydesktop/</link>
       <pubDate>Fri, 08 Mar 2024 14:55:26 +0700</pubDate>
-      <guid>http://localhost:1313/post/recordmydesktop/</guid>
-      <description>Tepat pada tanggal 10 Oktober 2023 lalu, saya membuat tutorial merekam layar (screen recorder) desktop menggunakan program ffmpeg. Hanya saja, hingga saat ini, ada dua kelemahan ffmpeg yang belum dapat saya temukan solusinya ketika berbicara tentang dekstop screen recorder.
-FFmpeg belum bisa merekam satu window spesifik FFmpeg belum bisa merekam area layar tertentu Nah, beberapa pekan lalu, saya menemukan program sederhana yang dapat men-cover kelemahan ffmpeg ini, yaitu recordmydesktop. Sebetulnya, saya menemukan program ini di Kali Linux, ketika saya juga sedang ingin melakukan rekaman layar, dan ketika saya ketikkan &amp;lsquo;record&amp;rsquo; di menu, tampillah program ini.</description>
+      <guid>https://wildanhaq.github.io/post/recordmydesktop/</guid>
+      <description>Tepat pada tanggal 10 Oktober 2023 lalu, saya membuat tutorial merekam layar (screen recorder) desktop menggunakan program ffmpeg. Hanya saja, hingga saat ini, ada dua kelemahan ffmpeg yang belum dapat saya temukan solusinya ketika berbicara tentang dekstop screen recorder.</description>
+    </item>
+    <item>
+      <title>Recordmydesktop - Screen Recorder based on CLI</title>
+      <link>https://wildanhaq.github.io/tech/recordmydesktop/</link>
+      <pubDate>Fri, 08 Mar 2024 14:55:26 +0700</pubDate>
+      <guid>https://wildanhaq.github.io/tech/recordmydesktop/</guid>
+      <description>Tepat pada tanggal 10 Oktober 2023 lalu, saya membuat tutorial merekam layar (screen recorder) desktop menggunakan program ffmpeg. Hanya saja, hingga saat ini, ada dua kelemahan ffmpeg yang belum dapat saya temukan solusinya ketika berbicara tentang dekstop screen recorder.</description>
     </item>
     <item>
       <title>Gephi - Actor(s) Centrality</title>
-      <link>http://localhost:1313/post/gephi/</link>
+      <link>https://wildanhaq.github.io/post/gephi/</link>
       <pubDate>Sat, 06 Jan 2024 02:26:47 -0500</pubDate>
-      <guid>http://localhost:1313/post/gephi/</guid>
-      <description>Halo! Kali ini kita akan belajar tentang penggunaan salah satu software yang biasa digunakan untuk melakukan analisis data pada ilmu-ilmu sosial, khususnya pada diskusi atau kajian mengenai Social Network Analysis (SNA). Secara sederhana, SNA adalah sebuah metode untuk mengidentifikasi aktor (node) dan relasinya (edge) dalam suatu jaringan.
-Pada topik Gephi kali ini, saya akan menjelaskan analisis terhadap 4 jenis sentralitas aktor1, yaitu:
-Degree Centrality Betweeness Centrality Closeness Centrality Eigenvector Centrality Berikut adalah perbedaan singkat mengenai keempat jenis centrality tersebut.</description>
+      <guid>https://wildanhaq.github.io/post/gephi/</guid>
+      <description>Halo! Kali ini kita akan belajar tentang penggunaan salah satu software yang biasa digunakan untuk melakukan analisis data pada ilmu-ilmu sosial, khususnya pada diskusi atau kajian mengenai Social Network Analysis (SNA).</description>
+    </item>
+    <item>
+      <title>Gephi - Actor(s) Centrality</title>
+      <link>https://wildanhaq.github.io/tech/gephi/</link>
+      <pubDate>Sat, 06 Jan 2024 02:26:47 -0500</pubDate>
+      <guid>https://wildanhaq.github.io/tech/gephi/</guid>
+      <description>Halo! Kali ini kita akan belajar tentang penggunaan salah satu software yang biasa digunakan untuk melakukan analisis data pada ilmu-ilmu sosial, khususnya pada diskusi atau kajian mengenai Social Network Analysis (SNA).</description>
     </item>
     <item>
       <title>Private File Sharing with Onionshare</title>
-      <link>http://localhost:1313/post/onionshare/</link>
+      <link>https://wildanhaq.github.io/post/onionshare/</link>
       <pubDate>Thu, 30 Nov 2023 07:35:02 -0500</pubDate>
-      <guid>http://localhost:1313/post/onionshare/</guid>
-      <description>Halo! Beberapa pekan lalu, saya sempat memberikan tutorial untuk mendapatkan e-book gratis dengan bot Telegram yang berasal dari situs z-library. Saat tulisan tersebut dibuat, situs utama z-lib di-banned oleh FBI karena dianggap menyebarkan buku-buku berbayar tanpa hak izin dari penulisnya. Maka, agar dapat mengakses situs z-lib, kita memerlukan TOR Browser.
-Nah, pernahkah kalian penasaran, bagaimana cara meng-hosting file yang hanya dapat diakses dengan TOR Browser dan jaringan TOR saja?
-Kali ini, kita akan belajar bagaimana cara meng-hosting atau membagikan file yang hanya dapat diakses oleh TOR Browser.</description>
+      <guid>https://wildanhaq.github.io/post/onionshare/</guid>
+      <description>Halo! Beberapa pekan lalu, saya sempat memberikan tutorial untuk mendapatkan e-book gratis dengan bot Telegram yang berasal dari situs z-library. Saat tulisan tersebut dibuat, situs utama z-lib di-banned oleh FBI karena dianggap menyebarkan buku-buku berbayar tanpa hak izin dari penulisnya.</description>
+    </item>
+    <item>
+      <title>Private File Sharing with Onionshare</title>
+      <link>https://wildanhaq.github.io/tech/onionshare/</link>
+      <pubDate>Thu, 30 Nov 2023 07:35:02 -0500</pubDate>
+      <guid>https://wildanhaq.github.io/tech/onionshare/</guid>
+      <description>Halo! Beberapa pekan lalu, saya sempat memberikan tutorial untuk mendapatkan e-book gratis dengan bot Telegram yang berasal dari situs z-library. Saat tulisan tersebut dibuat, situs utama z-lib di-banned oleh FBI karena dianggap menyebarkan buku-buku berbayar tanpa hak izin dari penulisnya.</description>
     </item>
     <item>
       <title>Mengunduh (free) e-book via Bot Telegram</title>
-      <link>http://localhost:1313/post/ebook-via-bot_telegram/</link>
+      <link>https://wildanhaq.github.io/post/ebook-via-bot_telegram/</link>
       <pubDate>Wed, 11 Oct 2023 16:32:22 +0700</pubDate>
-      <guid>http://localhost:1313/post/ebook-via-bot_telegram/</guid>
-      <description>Keberadaan buku digital / buku elektronik (e-book) saat ini sudah menjadi keniscayaan di era yang juga sudah digital. Kelebihan buku elektronik dibanding buku fisik selain murah dan mudah (atau gak mudah ya? hehe) diperoleh adalah juga tidak banyak memakan tempat (rak buku, dsb). Oleh karena itu, kita (apalagi akademisi, baik di sekolah ataupun perguruan tinggi) sangat memerlukan buku sebagai referensi dalam kegiatan belajar-mengajar.
-Nah, kali ini saya akan memberikan tutorial mendapatkan buku digital dengan mudah karena hanya membutuhkan telegram sebagai modal utamanya.</description>
+      <guid>https://wildanhaq.github.io/post/ebook-via-bot_telegram/</guid>
+      <description>Keberadaan buku digital / buku elektronik (e-book) saat ini sudah menjadi keniscayaan di era yang juga sudah digital. Kelebihan buku elektronik dibanding buku fisik selain murah dan mudah (atau gak mudah ya?</description>
+    </item>
+    <item>
+      <title>Mengunduh (free) e-book via Bot Telegram</title>
+      <link>https://wildanhaq.github.io/tech/ebook-via-bot_telegram/</link>
+      <pubDate>Wed, 11 Oct 2023 16:32:22 +0700</pubDate>
+      <guid>https://wildanhaq.github.io/tech/ebook-via-bot_telegram/</guid>
+      <description>Keberadaan buku digital / buku elektronik (e-book) saat ini sudah menjadi keniscayaan di era yang juga sudah digital. Kelebihan buku elektronik dibanding buku fisik selain murah dan mudah (atau gak mudah ya?</description>
     </item>
     <item>
       <title>FFmpeg - Convert MP4 to GIF</title>
-      <link>http://localhost:1313/post/ffmpeg-mp42gif/</link>
+      <link>https://wildanhaq.github.io/post/ffmpeg-mp42gif/</link>
       <pubDate>Wed, 11 Oct 2023 00:40:23 +0700</pubDate>
-      <guid>http://localhost:1313/post/ffmpeg-mp42gif/</guid>
-      <description>Terkadang, GIF punya kelebihan dibandingkan dengan file video, terutama dalam hal ukuran file. Dengan kualitas gambar yang hampir sama dengan video, file GIF bisa berukuran lebih kecil dari file video. Contohnya, saya punya sebuah file video rekaman layar 720p berdurasi 25 detik, dan satu file GIF yang merupakan hasil konversi video sebelumnya: Berikut adalah langkah-langkah membuat meng-convert video (MP4) ke GIF1.
-Membuat palette Palette yang dibuat nanti akan dijadikan sebagai dasar warna dalam GIF.</description>
+      <guid>https://wildanhaq.github.io/post/ffmpeg-mp42gif/</guid>
+      <description>Terkadang, GIF punya kelebihan dibandingkan dengan file video, terutama dalam hal ukuran file. Dengan kualitas gambar yang hampir sama dengan video, file GIF bisa berukuran lebih kecil dari file video.</description>
+    </item>
+    <item>
+      <title>FFmpeg - Convert MP4 to GIF</title>
+      <link>https://wildanhaq.github.io/tech/ffmpeg-mp42gif/</link>
+      <pubDate>Wed, 11 Oct 2023 00:40:23 +0700</pubDate>
+      <guid>https://wildanhaq.github.io/tech/ffmpeg-mp42gif/</guid>
+      <description>Terkadang, GIF punya kelebihan dibandingkan dengan file video, terutama dalam hal ukuran file. Dengan kualitas gambar yang hampir sama dengan video, file GIF bisa berukuran lebih kecil dari file video.</description>
     </item>
     <item>
       <title>Screen Recorder with FFmpeg</title>
-      <link>http://localhost:1313/post/ffmpeg-sr/</link>
+      <link>https://wildanhaq.github.io/post/ffmpeg-sr/</link>
       <pubDate>Tue, 10 Oct 2023 09:13:32 +0700</pubDate>
-      <guid>http://localhost:1313/post/ffmpeg-sr/</guid>
-      <description>Kali ini, saya akan memberi tahu cara merekam layar desktop laptop atau komputer kita dengan FFmpeg. Apa itu FFmpeg? Penjelasan detail-nya tentu saja bisa didapatkan langsung dari website resminya di sini1. Tapi, sederhananya, FFmpeg adalah *utility/tool/*aplikasi/software video dan audio converter. FFmpeg juga merupakan program yang berbaris command line sebagai interface-nya. Jadi, meskipun hanya digunakan lewat CLI, tapi ffmpeg punya banyak sekali power, salah satunya adalah merekam layar desktop kita.
-Misalnya, dibandingkan beberapa aplikasi perekam layar lainnya (seperti OBS-Studio walaupun sama-sama open source), FFmpeg lebih praktis dan lebih kecil ukurannya.</description>
+      <guid>https://wildanhaq.github.io/post/ffmpeg-sr/</guid>
+      <description>Kali ini, saya akan memberi tahu cara merekam layar desktop laptop atau komputer kita dengan FFmpeg. Apa itu FFmpeg? Penjelasan detail-nya tentu saja bisa didapatkan langsung dari website resminya di sini1.</description>
+    </item>
+    <item>
+      <title>Screen Recorder with FFmpeg</title>
+      <link>https://wildanhaq.github.io/tech/ffmpeg-sr/</link>
+      <pubDate>Tue, 10 Oct 2023 09:13:32 +0700</pubDate>
+      <guid>https://wildanhaq.github.io/tech/ffmpeg-sr/</guid>
+      <description>Kali ini, saya akan memberi tahu cara merekam layar desktop laptop atau komputer kita dengan FFmpeg. Apa itu FFmpeg? Penjelasan detail-nya tentu saja bisa didapatkan langsung dari website resminya di sini1.</description>
     </item>
     <item>
       <title>Hugo (Papermod) Advanced</title>
-      <link>http://localhost:1313/post/hugo-advanced/</link>
+      <link>https://wildanhaq.github.io/post/hugo-advanced/</link>
       <pubDate>Mon, 09 Oct 2023 15:22:46 +0700</pubDate>
-      <guid>http://localhost:1313/post/hugo-advanced/</guid>
-      <description>Mengkonfigurasi Hugo (Advanced) Setelah berhasil membuat website Hugo dan men-deploy-nya ke Github, kali ini saya akan memberi beberapa tips yang sedikit banyak dapat memberi kemudahan dan nilai estetika pada website Hugo tersebut.
-Tips 1: Mengganti format file konfigurasi By default, format file konfigurasi Hugo tersimpan dalam format TOML (.toml). Tapi, Hugo sendiri menyediakan 2 opsi format lain yang dapat kita gunakan, yaitu YAML/YML (.yaml) dan JSON (.json)1.
-Untuk alasan humanisme (kemudahan dan kenyamanan dipandang dan dibaca), maka kita akan mengganti format file konfigurasi Hugo dari TOML ke YAML/YML.</description>
+      <guid>https://wildanhaq.github.io/post/hugo-advanced/</guid>
+      <description>Mengkonfigurasi Hugo (Advanced) Setelah berhasil membuat website Hugo dan men-deploy-nya ke Github, kali ini saya akan memberi beberapa tips yang sedikit banyak dapat memberi kemudahan dan nilai estetika pada website Hugo tersebut.</description>
+    </item>
+    <item>
+      <title>Hugo (Papermod) Advanced</title>
+      <link>https://wildanhaq.github.io/tech/hugo-advanced/</link>
+      <pubDate>Mon, 09 Oct 2023 15:22:46 +0700</pubDate>
+      <guid>https://wildanhaq.github.io/tech/hugo-advanced/</guid>
+      <description>Mengkonfigurasi Hugo (Advanced) Setelah berhasil membuat website Hugo dan men-deploy-nya ke Github, kali ini saya akan memberi beberapa tips yang sedikit banyak dapat memberi kemudahan dan nilai estetika pada website Hugo tersebut.</description>
     </item>
     <item>
       <title>Hugo To Github</title>
-      <link>http://localhost:1313/post/hugo-to_github/</link>
+      <link>https://wildanhaq.github.io/post/hugo-to_github/</link>
       <pubDate>Mon, 09 Oct 2023 09:03:40 +0700</pubDate>
-      <guid>http://localhost:1313/post/hugo-to_github/</guid>
-      <description>Meng-Hosting di Github Di tulisan ini, saya akan menunjukkan cara hosting static-site Hugo yang sudah dibuat sebelumnya ke Github. Jadi, sebelum lanjut membaca tutorial ini, ada 3 persyaratan yang harus sudah dipenuhi:
-Punya akun Github (kalau belum punya silakan buat dulu). Komputer/laptop-nya sudah terinstall git (kalau belum silakan install). Sudah membuat website Hugo sebelumnya (kalau belum, silakan buat dulu, tutorialnya bisa mengikuti tulisan saya sebelumnya). Saya akan menunjukkan 10 langkah dalam mem-publish atau meng-hosting static-site Hugo kita ke Github1.</description>
+      <guid>https://wildanhaq.github.io/post/hugo-to_github/</guid>
+      <description>Meng-Hosting di Github Di tulisan ini, saya akan menunjukkan cara hosting static-site Hugo yang sudah dibuat sebelumnya ke Github. Jadi, sebelum lanjut membaca tutorial ini, ada 3 persyaratan yang harus sudah dipenuhi:</description>
+    </item>
+    <item>
+      <title>Hugo To Github</title>
+      <link>https://wildanhaq.github.io/tech/hugo-to_github/</link>
+      <pubDate>Mon, 09 Oct 2023 09:03:40 +0700</pubDate>
+      <guid>https://wildanhaq.github.io/tech/hugo-to_github/</guid>
+      <description>Meng-Hosting di Github Di tulisan ini, saya akan menunjukkan cara hosting static-site Hugo yang sudah dibuat sebelumnya ke Github. Jadi, sebelum lanjut membaca tutorial ini, ada 3 persyaratan yang harus sudah dipenuhi:</description>
     </item>
     <item>
       <title>Hugo-ing (from Zero to Hero)</title>
-      <link>http://localhost:1313/post/hugo-ing/</link>
+      <link>https://wildanhaq.github.io/post/hugo-ing/</link>
       <pubDate>Sat, 07 Oct 2023 15:26:34 +0700</pubDate>
-      <guid>http://localhost:1313/post/hugo-ing/</guid>
-      <description>Membuat Website via Hugo Pengenalan singkat tentang Hugo Hugo adalah framework yang memungkinkan setiap orang untuk membuat dan mengelola website mereka.
-Secara teknis, Hugo adalah static site generator. 1
-Secara umum, website dibagi 2: dynamic &amp;amp; static site dan itu disesuaikan dengan kebutuhan atau tujuan dibuatnya website tersebut. Tapi, umumnya, static site memang banyak digunakan sebagai:
-Personal blog posts Documentasi pages Portofolio pages, dan lain sebagainya. Instalasi Hugo Hugo dapat diinstal di sistem operasi apapun, Windows, Mac, atau Linux dapat menginstall Hugo.</description>
+      <guid>https://wildanhaq.github.io/post/hugo-ing/</guid>
+      <description>Membuat Website via Hugo Pengenalan singkat tentang Hugo Hugo adalah framework yang memungkinkan setiap orang untuk membuat dan mengelola website mereka.</description>
+    </item>
+    <item>
+      <title>Hugo-ing (from Zero to Hero)</title>
+      <link>https://wildanhaq.github.io/tech/hugo-ing/</link>
+      <pubDate>Sat, 07 Oct 2023 15:26:34 +0700</pubDate>
+      <guid>https://wildanhaq.github.io/tech/hugo-ing/</guid>
+      <description>Membuat Website via Hugo Pengenalan singkat tentang Hugo Hugo adalah framework yang memungkinkan setiap orang untuk membuat dan mengelola website mereka.</description>
     </item>
     <item>
       <title>😃 About Me</title>
-      <link>http://localhost:1313/whoami/</link>
+      <link>https://wildanhaq.github.io/whoami/</link>
       <pubDate>Sat, 07 Oct 2023 13:17:32 +0700</pubDate>
-      <guid>http://localhost:1313/whoami/</guid>
-      <description>Hello there!
-My name is Wildan and I am a master of communication student at Telkom University. My research interests are in human resources, health communication, and social network analysis.
-In my free time, I usually play sports (badminton and running) and do my hobbies (journaling and linux-ing). The linux distro that I use as my daily driver is Kali Linux. This is my desktop look like:</description>
+      <guid>https://wildanhaq.github.io/whoami/</guid>
+      <description>Hello there!&#xA;My name is Wildan and I am a master of communication student at Telkom University . My research interests are in human resources, health communication, and social network analysis.</description>
+    </item>
+    <item>
+      <title>Archive</title>
+      <link>https://wildanhaq.github.io/archives/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://wildanhaq.github.io/archives/</guid>
+      <description>archives</description>
+    </item>
+    <item>
+      <title>Search</title>
+      <link>https://wildanhaq.github.io/search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://wildanhaq.github.io/search/</guid>
+      <description>search</description>
     </item>
   </channel>
 </rss>

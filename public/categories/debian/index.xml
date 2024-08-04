@@ -1,22 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Debian on Wildan&#39;s Workspace</title>
-    <link>http://localhost:1313/categories/debian/</link>
+    <link>https://wildanhaq.github.io/categories/debian/</link>
     <description>Recent content in Debian on Wildan&#39;s Workspace</description>
-    <generator>Hugo -- 0.128.2</generator>
-    <language>en-US</language>
+    <generator>Hugo</generator>
+    <language>en-us</language>
     <lastBuildDate>Mon, 15 Apr 2024 07:45:05 +0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/debian/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://wildanhaq.github.io/categories/debian/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Debian Linux Installation in Virtualbox</title>
-      <link>http://localhost:1313/post/debian-installation/</link>
+      <link>https://wildanhaq.github.io/post/debian-installation/</link>
       <pubDate>Mon, 15 Apr 2024 07:45:05 +0700</pubDate>
-      <guid>http://localhost:1313/post/debian-installation/</guid>
-      <description>Pra Instalasi Hola!
-Kali ini saya akan memberikan tutorial instalasi salah satu distro linux legendaris, Debian. Saya akan menginstall Debian sebagai VM (virtual machine) di Virtualbox. Namun, sebelum saya melakukan instalasi, ada beberapa catatan berikut yang perlu diperhatikan:
-Mengunduh &amp;amp; Menginstall Virtualbox (di sini) Mengunduh file ISO debian (di sini) Instalasi Sekarang, kita masuk ke tahap instalasi&amp;hellip;
-Membuat VM di Virtualbox 1. Klik &amp;ldquo;New&amp;rdquo; di interface Virtualbox 2. Isi bagian Name, bebas, bisa diisi dengan nama distronya.</description>
+      <guid>https://wildanhaq.github.io/post/debian-installation/</guid>
+      <description>Pra Instalasi Hola!&#xA;Kali ini saya akan memberikan tutorial instalasi salah satu distro linux legendaris, Debian. Saya akan menginstall Debian sebagai VM (virtual machine) di Virtualbox.</description>
+    </item>
+    <item>
+      <title>Debian Linux Installation in Virtualbox</title>
+      <link>https://wildanhaq.github.io/tech/debian-installation/</link>
+      <pubDate>Mon, 15 Apr 2024 07:45:05 +0700</pubDate>
+      <guid>https://wildanhaq.github.io/tech/debian-installation/</guid>
+      <description>Pra Instalasi Hola!&#xA;Kali ini saya akan memberikan tutorial instalasi salah satu distro linux legendaris, Debian. Saya akan menginstall Debian sebagai VM (virtual machine) di Virtualbox.</description>
     </item>
   </channel>
 </rss>

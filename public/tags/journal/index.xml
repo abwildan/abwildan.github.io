@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Journal on Wildan&#39;s Workspace</title>
-    <link>http://localhost:1313/tags/journal/</link>
+    <link>https://wildanhaq.github.io/tags/journal/</link>
     <description>Recent content in Journal on Wildan&#39;s Workspace</description>
-    <generator>Hugo -- 0.128.2</generator>
-    <language>en-US</language>
+    <generator>Hugo</generator>
+    <language>en-us</language>
     <lastBuildDate>Tue, 21 May 2024 09:10:19 +0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/journal/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://wildanhaq.github.io/tags/journal/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bypassing Article Journal Paywall using Scihub</title>
-      <link>http://localhost:1313/post/scihub/</link>
+      <link>https://wildanhaq.github.io/post/scihub/</link>
       <pubDate>Tue, 21 May 2024 09:10:19 +0700</pubDate>
-      <guid>http://localhost:1313/post/scihub/</guid>
-      <description>Kalian adalah seorang peneliti yang membutuhkan jurnal yang berstandar internasional tapi terkendala karena tidak bisa mengaksesnya? Solusinya adalah Scihub!
-About Sci-hub Sci-hub adalah situs web &amp;ldquo;perpustakaan bayangan&amp;rdquo; yang didirkan oleh seorang perempuan asal Kazakhstan yang lahir pada tahun 1988 bernama Alexandra Elbakyan. Disebut &amp;ldquo;perpustakaan bayangan&amp;rdquo; karena sci-hub memberikan akses ke jutaan artikel penelitian berbayar secara gratis hanya dengan meng-input-kan tautan DOI (Digital Object Identifier) sebuah artikel ke situs sci-hub.1 Situs ini didirikan pada tahun 2011 oleh perempuan lulusan jurusan Teknologi Informasi dari Kazakh National Technical University juga karena alasan mahalnya biaya makalah atau artikel penelitian yang tersedia di internet.</description>
+      <guid>https://wildanhaq.github.io/post/scihub/</guid>
+      <description>Kalian adalah seorang peneliti yang membutuhkan jurnal yang berstandar internasional tapi terkendala karena tidak bisa mengaksesnya? Solusinya adalah Scihub!&#xA;About Sci-hub Sci-hub adalah situs web &amp;ldquo;perpustakaan bayangan&amp;rdquo; yang didirkan oleh seorang perempuan asal Kazakhstan yang lahir pada tahun 1988 bernama Alexandra Elbakyan .</description>
+    </item>
+    <item>
+      <title>Bypassing Article Journal Paywall using Scihub</title>
+      <link>https://wildanhaq.github.io/tech/scihub/</link>
+      <pubDate>Tue, 21 May 2024 09:10:19 +0700</pubDate>
+      <guid>https://wildanhaq.github.io/tech/scihub/</guid>
+      <description>Kalian adalah seorang peneliti yang membutuhkan jurnal yang berstandar internasional tapi terkendala karena tidak bisa mengaksesnya? Solusinya adalah Scihub!&#xA;About Sci-hub Sci-hub adalah situs web &amp;ldquo;perpustakaan bayangan&amp;rdquo; yang didirkan oleh seorang perempuan asal Kazakhstan yang lahir pada tahun 1988 bernama Alexandra Elbakyan .</description>
     </item>
   </channel>
 </rss>

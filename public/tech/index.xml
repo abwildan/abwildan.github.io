@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Teches on Wildan&#39;s Workspace</title>
+    <link>https://wildanhaq.github.io/tech/</link>
+    <description>Recent content in Teches on Wildan&#39;s Workspace</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 20 Jul 2024 11:16:26 +0700</lastBuildDate>
+    <atom:link href="https://wildanhaq.github.io/tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Enhancing Your Linux Desktop with Conky</title>
+      <link>https://wildanhaq.github.io/tech/conky/</link>
+      <pubDate>Sat, 20 Jul 2024 11:16:26 +0700</pubDate>
+      <guid>https://wildanhaq.github.io/tech/conky/</guid>
+      <description>Tentang Conky, meskipun terdengar seperti singkatan &amp;ldquo;Pocong Pinky&amp;rdquo;, sebetulnya adalah program monitor sistem untuk linux desktop1. Kalau merujuk pada repositori resminya di Github, Conky dinyatakan sebagai berikut:</description>
+    </item>
+    <item>
+      <title>Log in to Your System with (Stunning) TTY</title>
+      <link>https://wildanhaq.github.io/tech/tty/</link>
+      <pubDate>Wed, 17 Jul 2024 15:06:15 +0700</pubDate>
+      <guid>https://wildanhaq.github.io/tech/tty/</guid>
+      <description>About Login Interface &amp;amp; TTY Ketika kita akan login ke sebuah sistem, kita biasanya disuguhkan interface untuk memasukkan kredensial login kita (username &amp;amp; password), kan?</description>
+    </item>
+    <item>
+      <title>A Feature Rich Command Line Audio/Video Downloader: YT-DLP</title>
+      <link>https://wildanhaq.github.io/tech/yt-dlp/</link>
+      <pubDate>Sun, 23 Jun 2024 00:49:55 -0400</pubDate>
+      <guid>https://wildanhaq.github.io/tech/yt-dlp/</guid>
+      <description>What Is It? Apa yang akan kalian lakukan kalau mau mengunduh video Youtube?&#xA;A. Mengunjungi website seperti savefrom, savetube, y2meta, ssyoutube, dll.</description>
+    </item>
+    <item>
+      <title>RStudio Basic: From Installation to Data Visualization</title>
+      <link>https://wildanhaq.github.io/tech/rstudio-basic/</link>
+      <pubDate>Thu, 13 Jun 2024 11:56:25 -0400</pubDate>
+      <guid>https://wildanhaq.github.io/tech/rstudio-basic/</guid>
+      <description>Hola!&#xA;RStudio menurut saya adalah software keren untuk mengolah data menggunakan bahasa R. Jadi, saya memutuskan untuk membahasnya di artikel ini.</description>
+    </item>
+    <item>
+      <title>Cool Terminal Tools You Should Know</title>
+      <link>https://wildanhaq.github.io/tech/cooltools/</link>
+      <pubDate>Sun, 09 Jun 2024 16:59:47 +0700</pubDate>
+      <guid>https://wildanhaq.github.io/tech/cooltools/</guid>
+      <description>Yoo, jumpa lagi!&#xA;Saya mau berbagi sejumlah tools terminal yang sayang jika dilewatkan, apalagi bagi kalian guys, linux nerds. Sebagian besar (atau mungkin semuanya) tools yang akan saya share di artikel ini murni for fun.</description>
+    </item>
+    <item>
+      <title>A Classic yet Nostalgic Music Player: NCMPCPP</title>
+      <link>https://wildanhaq.github.io/tech/ncmpcpp/</link>
+      <pubDate>Fri, 07 Jun 2024 14:41:49 +0700</pubDate>
+      <guid>https://wildanhaq.github.io/tech/ncmpcpp/</guid>
+      <description>Intro NCurses Music Player Client Plus Plus adalah nama panjang dari NCMPCPP. Ya, seperti namanya, ncmpcpp adalah music player berbasis mpd.</description>
+    </item>
+    <item>
+      <title>My Remote Desktop Client(s)</title>
+      <link>https://wildanhaq.github.io/tech/rdpclient/</link>
+      <pubDate>Tue, 04 Jun 2024 22:05:26 +0700</pubDate>
+      <guid>https://wildanhaq.github.io/tech/rdpclient/</guid>
+      <description>Holaa!!&#xA;Saya akan berbagi beberapa RDP client yang biasa saya gunakan untuk melakukan remote desktop. BTW, RDP atau Remote Desktop Protocol adalah salah satu protokol komunikasi dalam jaringan komputer yang dikembangkan awalnya oleh Microsoft untuk melakukan remote akses berbasis GUI (Graphical User Interface)1.</description>
+    </item>
+    <item>
+      <title>Gorgeous Status Bar with Polybar</title>
+      <link>https://wildanhaq.github.io/tech/polybar/</link>
+      <pubDate>Sun, 02 Jun 2024 19:14:29 +0700</pubDate>
+      <guid>https://wildanhaq.github.io/tech/polybar/</guid>
+      <description>Polybar adalah tool yang cepat mudah digunakan untuk membuat status bar1, seperti: Secara umum, artikel ini akan membahas 3 proses: Memasang Polybar, Menjalankan Polybar, dan Mengkustom Polybar.</description>
+    </item>
+    <item>
+      <title>Openbox - Simple and Easy Window Manager for Beginners</title>
+      <link>https://wildanhaq.github.io/tech/openbox/</link>
+      <pubDate>Thu, 30 May 2024 01:49:56 +0000</pubDate>
+      <guid>https://wildanhaq.github.io/tech/openbox/</guid>
+      <description>Dari 1-10 (dengan skala 1: paling tidak cantik dan 10: paling cantik), seberapa cantik tampilan tangkapan layar pada cover artikel ini?</description>
+    </item>
+    <item>
+      <title>Bypassing Article Journal Paywall using Scihub</title>
+      <link>https://wildanhaq.github.io/tech/scihub/</link>
+      <pubDate>Tue, 21 May 2024 09:10:19 +0700</pubDate>
+      <guid>https://wildanhaq.github.io/tech/scihub/</guid>
+      <description>Kalian adalah seorang peneliti yang membutuhkan jurnal yang berstandar internasional tapi terkendala karena tidak bisa mengaksesnya? Solusinya adalah Scihub!&#xA;About Sci-hub Sci-hub adalah situs web &amp;ldquo;perpustakaan bayangan&amp;rdquo; yang didirkan oleh seorang perempuan asal Kazakhstan yang lahir pada tahun 1988 bernama Alexandra Elbakyan .</description>
+    </item>
+    <item>
+      <title>Steganography - Hiding secret(s) Inside A File</title>
+      <link>https://wildanhaq.github.io/tech/steganography/</link>
+      <pubDate>Mon, 13 May 2024 10:52:32 +0700</pubDate>
+      <guid>https://wildanhaq.github.io/tech/steganography/</guid>
+      <description>Steganography is the practice of representing information within another message or physical object.1&#xA;Pengertian &amp;amp; Sejarah Steganography Pengertian steganography [selanjutnya saya singkat dengan stego] memang sesederhana &amp;ldquo;ilmu dan seni menyembunyikan pesan atau informasi rahasia di dalam pesan lain&amp;rdquo;.</description>
+    </item>
+    <item>
+      <title>Rofi - Beautiful &amp; Modern App Launcher</title>
+      <link>https://wildanhaq.github.io/tech/rofi/</link>
+      <pubDate>Sat, 04 May 2024 10:38:46 +0700</pubDate>
+      <guid>https://wildanhaq.github.io/tech/rofi/</guid>
+      <description>What is Rofi?&#xA;Kenalan dengan Rofi Teman kalian mungkin ada yang namanya Rofi. Tapi, tentu saja artikel ini tidak sedang menggosipkan Rofi sebagai manusia, tapi Rofi sebagai sebuah program, xixi.</description>
+    </item>
+    <item>
+      <title>Instalasi Archlinux KDE via archinstall</title>
+      <link>https://wildanhaq.github.io/tech/archinstall/</link>
+      <pubDate>Thu, 02 May 2024 09:52:29 +0700</pubDate>
+      <guid>https://wildanhaq.github.io/tech/archinstall/</guid>
+      <description>Siapa yang tidak pernah dengar Archlinux?&#xA;Archlinux adalah sebuah distro linux (legendaris) yang terkenal dengan komunitasnya yang besar dari seluruh dunia dan dokumentasi distronya yang lengkap.</description>
+    </item>
+    <item>
+      <title>Linux Ricing?</title>
+      <link>https://wildanhaq.github.io/tech/rice/</link>
+      <pubDate>Sun, 28 Apr 2024 14:21:13 +0700</pubDate>
+      <guid>https://wildanhaq.github.io/tech/rice/</guid>
+      <description>Hola!&#xA;Teman-teman familiar dengan istilah rice atau Linux ricing?&#xA;Tidak seperti makna dari terjemah harfiahnya yang berarti nasi atau menasikan Linux, istilah rice atau Linux Ricing punya makna yang boleh dibilang eksklusif dan kontekstual.</description>
+    </item>
+    <item>
+      <title>Debian Linux Installation in Virtualbox</title>
+      <link>https://wildanhaq.github.io/tech/debian-installation/</link>
+      <pubDate>Mon, 15 Apr 2024 07:45:05 +0700</pubDate>
+      <guid>https://wildanhaq.github.io/tech/debian-installation/</guid>
+      <description>Pra Instalasi Hola!&#xA;Kali ini saya akan memberikan tutorial instalasi salah satu distro linux legendaris, Debian. Saya akan menginstall Debian sebagai VM (virtual machine) di Virtualbox.</description>
+    </item>
+    <item>
+      <title>Ngrok - Make Your localhost Accessible Publicly</title>
+      <link>https://wildanhaq.github.io/tech/ngrok/</link>
+      <pubDate>Tue, 02 Apr 2024 17:30:12 +0700</pubDate>
+      <guid>https://wildanhaq.github.io/tech/ngrok/</guid>
+      <description>Ngrok? Ngrok bagi sebagian orang mungkin sudah faniliar karena sering digunakan untuk berbagai kebutuhan. Tapi, bagi yang belum tahu, ngrok secara sederhana dapat didefinisikan sebagai aplikasi yang memungkinkan kita untuk mem-publish server lokal kita di localhost ke publik dengan aman.</description>
+    </item>
+    <item>
+      <title>Mystiq - FFmpeg&#39;s GUI</title>
+      <link>https://wildanhaq.github.io/tech/mystiq/</link>
+      <pubDate>Tue, 26 Mar 2024 17:56:16 +0700</pubDate>
+      <guid>https://wildanhaq.github.io/tech/mystiq/</guid>
+      <description>Hola!&#xA;Kali ini saya akan berbagi satu tools yang secara fungsi mungkin 11-12 dengan FFmpeg, tapi dia punya tampilan yang lebih user-friendly, nama tools-nya adalah Mystiq.</description>
+    </item>
+    <item>
+      <title>Eternalblue (MS17-010) - SMBv1&#39;s Exploit</title>
+      <link>https://wildanhaq.github.io/tech/eternalblue/</link>
+      <pubDate>Thu, 21 Mar 2024 18:54:33 +0700</pubDate>
+      <guid>https://wildanhaq.github.io/tech/eternalblue/</guid>
+      <description>Sejarah (Singkat) Apa itu Eternalblue?&#xA;Eternalblue atau oleh Microsoft disebut dengan MS17-010 adalah sebuah exploit yang dapat digunakan untuk menyebarkan malware pada sebuah mesin Windows.</description>
+    </item>
+    <item>
+      <title>Virustotal - Platform untuk Scanning Virus</title>
+      <link>https://wildanhaq.github.io/tech/virustotal/</link>
+      <pubDate>Tue, 19 Mar 2024 21:43:27 +0700</pubDate>
+      <guid>https://wildanhaq.github.io/tech/virustotal/</guid>
+      <description>Overview Virustotal adalah salah satu website terbaik untuk melakukan identifikasi terhadap suatu file/software/aplikasi dan url, apakah mengandung virus atau malware (malicious software) atau tidak.</description>
+    </item>
+    <item>
+      <title>Recordmydesktop - Screen Recorder based on CLI</title>
+      <link>https://wildanhaq.github.io/tech/recordmydesktop/</link>
+      <pubDate>Fri, 08 Mar 2024 14:55:26 +0700</pubDate>
+      <guid>https://wildanhaq.github.io/tech/recordmydesktop/</guid>
+      <description>Tepat pada tanggal 10 Oktober 2023 lalu, saya membuat tutorial merekam layar (screen recorder) desktop menggunakan program ffmpeg. Hanya saja, hingga saat ini, ada dua kelemahan ffmpeg yang belum dapat saya temukan solusinya ketika berbicara tentang dekstop screen recorder.</description>
+    </item>
+    <item>
+      <title>Gephi - Actor(s) Centrality</title>
+      <link>https://wildanhaq.github.io/tech/gephi/</link>
+      <pubDate>Sat, 06 Jan 2024 02:26:47 -0500</pubDate>
+      <guid>https://wildanhaq.github.io/tech/gephi/</guid>
+      <description>Halo! Kali ini kita akan belajar tentang penggunaan salah satu software yang biasa digunakan untuk melakukan analisis data pada ilmu-ilmu sosial, khususnya pada diskusi atau kajian mengenai Social Network Analysis (SNA).</description>
+    </item>
+    <item>
+      <title>Private File Sharing with Onionshare</title>
+      <link>https://wildanhaq.github.io/tech/onionshare/</link>
+      <pubDate>Thu, 30 Nov 2023 07:35:02 -0500</pubDate>
+      <guid>https://wildanhaq.github.io/tech/onionshare/</guid>
+      <description>Halo! Beberapa pekan lalu, saya sempat memberikan tutorial untuk mendapatkan e-book gratis dengan bot Telegram yang berasal dari situs z-library. Saat tulisan tersebut dibuat, situs utama z-lib di-banned oleh FBI karena dianggap menyebarkan buku-buku berbayar tanpa hak izin dari penulisnya.</description>
+    </item>
+    <item>
+      <title>Mengunduh (free) e-book via Bot Telegram</title>
+      <link>https://wildanhaq.github.io/tech/ebook-via-bot_telegram/</link>
+      <pubDate>Wed, 11 Oct 2023 16:32:22 +0700</pubDate>
+      <guid>https://wildanhaq.github.io/tech/ebook-via-bot_telegram/</guid>
+      <description>Keberadaan buku digital / buku elektronik (e-book) saat ini sudah menjadi keniscayaan di era yang juga sudah digital. Kelebihan buku elektronik dibanding buku fisik selain murah dan mudah (atau gak mudah ya?</description>
+    </item>
+    <item>
+      <title>FFmpeg - Convert MP4 to GIF</title>
+      <link>https://wildanhaq.github.io/tech/ffmpeg-mp42gif/</link>
+      <pubDate>Wed, 11 Oct 2023 00:40:23 +0700</pubDate>
+      <guid>https://wildanhaq.github.io/tech/ffmpeg-mp42gif/</guid>
+      <description>Terkadang, GIF punya kelebihan dibandingkan dengan file video, terutama dalam hal ukuran file. Dengan kualitas gambar yang hampir sama dengan video, file GIF bisa berukuran lebih kecil dari file video.</description>
+    </item>
+    <item>
+      <title>Screen Recorder with FFmpeg</title>
+      <link>https://wildanhaq.github.io/tech/ffmpeg-sr/</link>
+      <pubDate>Tue, 10 Oct 2023 09:13:32 +0700</pubDate>
+      <guid>https://wildanhaq.github.io/tech/ffmpeg-sr/</guid>
+      <description>Kali ini, saya akan memberi tahu cara merekam layar desktop laptop atau komputer kita dengan FFmpeg. Apa itu FFmpeg? Penjelasan detail-nya tentu saja bisa didapatkan langsung dari website resminya di sini1.</description>
+    </item>
+    <item>
+      <title>Hugo (Papermod) Advanced</title>
+      <link>https://wildanhaq.github.io/tech/hugo-advanced/</link>
+      <pubDate>Mon, 09 Oct 2023 15:22:46 +0700</pubDate>
+      <guid>https://wildanhaq.github.io/tech/hugo-advanced/</guid>
+      <description>Mengkonfigurasi Hugo (Advanced) Setelah berhasil membuat website Hugo dan men-deploy-nya ke Github, kali ini saya akan memberi beberapa tips yang sedikit banyak dapat memberi kemudahan dan nilai estetika pada website Hugo tersebut.</description>
+    </item>
+    <item>
+      <title>Hugo To Github</title>
+      <link>https://wildanhaq.github.io/tech/hugo-to_github/</link>
+      <pubDate>Mon, 09 Oct 2023 09:03:40 +0700</pubDate>
+      <guid>https://wildanhaq.github.io/tech/hugo-to_github/</guid>
+      <description>Meng-Hosting di Github Di tulisan ini, saya akan menunjukkan cara hosting static-site Hugo yang sudah dibuat sebelumnya ke Github. Jadi, sebelum lanjut membaca tutorial ini, ada 3 persyaratan yang harus sudah dipenuhi:</description>
+    </item>
+    <item>
+      <title>Hugo-ing (from Zero to Hero)</title>
+      <link>https://wildanhaq.github.io/tech/hugo-ing/</link>
+      <pubDate>Sat, 07 Oct 2023 15:26:34 +0700</pubDate>
+      <guid>https://wildanhaq.github.io/tech/hugo-ing/</guid>
+      <description>Membuat Website via Hugo Pengenalan singkat tentang Hugo Hugo adalah framework yang memungkinkan setiap orang untuk membuat dan mengelola website mereka.</description>
+    </item>
+  </channel>
+</rss>

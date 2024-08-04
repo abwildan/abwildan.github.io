@@ -1,21 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Steganography on Wildan&#39;s Workspace</title>
-    <link>http://localhost:1313/categories/steganography/</link>
+    <link>https://wildanhaq.github.io/categories/steganography/</link>
     <description>Recent content in Steganography on Wildan&#39;s Workspace</description>
-    <generator>Hugo -- 0.128.2</generator>
-    <language>en-US</language>
+    <generator>Hugo</generator>
+    <language>en-us</language>
     <lastBuildDate>Mon, 13 May 2024 10:52:32 +0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/steganography/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://wildanhaq.github.io/categories/steganography/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Steganography - Hiding secret(s) Inside A File</title>
-      <link>http://localhost:1313/post/steganography/</link>
+      <link>https://wildanhaq.github.io/post/steganography/</link>
       <pubDate>Mon, 13 May 2024 10:52:32 +0700</pubDate>
-      <guid>http://localhost:1313/post/steganography/</guid>
-      <description>Steganography is the practice of representing information within another message or physical object.1
-Pengertian &amp;amp; Sejarah Steganography Pengertian steganography [selanjutnya saya singkat dengan stego] memang sesederhana &amp;ldquo;ilmu dan seni menyembunyikan pesan atau informasi rahasia di dalam pesan lain&amp;rdquo;.
-Tapi sebetulnya, jauh sebelum komputer ditemukan, proses stego ini sudah dilakukan sejak zaman Yunani Kuno. Sebuah kisah dari penguasa Yunani saat itu, Herodotus pada tahun 440 BC (re: Before Christ / Sebelum Masehi) yang terdapat dalam buku Histories of Herodotus, menceritakan tentang bagaimana kepala budak digunakan sebagai media steganography.</description>
+      <guid>https://wildanhaq.github.io/post/steganography/</guid>
+      <description>Steganography is the practice of representing information within another message or physical object.1&#xA;Pengertian &amp;amp; Sejarah Steganography Pengertian steganography [selanjutnya saya singkat dengan stego] memang sesederhana &amp;ldquo;ilmu dan seni menyembunyikan pesan atau informasi rahasia di dalam pesan lain&amp;rdquo;.</description>
+    </item>
+    <item>
+      <title>Steganography - Hiding secret(s) Inside A File</title>
+      <link>https://wildanhaq.github.io/tech/steganography/</link>
+      <pubDate>Mon, 13 May 2024 10:52:32 +0700</pubDate>
+      <guid>https://wildanhaq.github.io/tech/steganography/</guid>
+      <description>Steganography is the practice of representing information within another message or physical object.1&#xA;Pengertian &amp;amp; Sejarah Steganography Pengertian steganography [selanjutnya saya singkat dengan stego] memang sesederhana &amp;ldquo;ilmu dan seni menyembunyikan pesan atau informasi rahasia di dalam pesan lain&amp;rdquo;.</description>
     </item>
   </channel>
 </rss>

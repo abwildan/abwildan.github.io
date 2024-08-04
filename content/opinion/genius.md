@@ -20,7 +20,7 @@ Oke, I would like to start the discussion with making some assumptions about wha
 
 First, I'll assume that genius is a person that have an intelligent capability to literally reign almost everything fast and easy.
 
-{{< pdf "/opinion/write/bringupgenius.pdf" >}}
+{{< pdf "/opinion/genius/bringupgenius.pdf" >}}
 
 
 ---

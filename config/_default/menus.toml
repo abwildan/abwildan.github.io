@@ -1,0 +1,52 @@
+# -- Main Menu --
+# The main menu is displayed in the header at the top of the page.
+# Acceptable parameters are name, page, url, pre, weight.
+
+# Add a trailing '/' to local URLs.
+# For example: /posts/
+# NOT: /posts
+
+# `pre` is an icon ID. For a list of all available icons, check [https://github.com/mnjm/kayal/tree/main/assets/icons]
+
+[[main]]
+name = "tech"
+title = "Tech"
+url = "/tech/"
+weight = 1
+
+[[main]]
+name = "chess"
+title = "Chess"
+url = "/chess/"
+weight = 2
+
+[[main]]
+name = "life"
+title = "Life"
+url = "/life/"
+weight = 3
+
+[[main]]
+name = "opinion"
+title = "Opinion"
+url = "/opinion/"
+weight = 4
+
+# [[main]]
+# name = "tags"
+# title = "Tags"
+# url = "/tags/"
+# weight = 2
+#
+# [[main]]
+# name = "about"
+# title = "About"
+# url = "/about/"
+# weight = 3
+#
+# [[main]]
+# name = "github"
+# pre = "github"
+# name = ""
+# url = "https://github.com/mnjm/kayal"
+# weight = 4

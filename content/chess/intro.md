@@ -294,6 +294,11 @@ E-book atau buku digital sebetulnya juga banyak dan bisa didapatkan secara grati
 
 Belajar teori bermain catur dari menonton video atau membaca literatur catur tidaklah salah. Namun, akan lebih baik jika kita juga langsung mencoba memainkan catur. Sebab, dengan banyak berlatih catur dengan praktik langsung, kita akan lebih mudah mengenali kekuatan dan kelemahan kita sehingga kita bisa memprioritaskan hal yang perlu di-*improve*. Sebagaimana kata pepatah, ***"experience is the best teacher"***. Nah, saya punya 2 rekomendasi platform bermain dan belajar catur yang cukup bagus untuk mengasah maupun meningkatkan skill catur kita, yaitu [**Chesscom**](https://www.chess.com/) dan [**Lichess**](https://lichess.org/).
 
+---
+
+🐧 This article is created with [**"Archlinux"**](https://archlinux.org/) + [**"AwesomeWM"**](https://awesomewm.org/):  
+![ss34](/chess/intro/ss34.png)
+
 
 [^1]: https://id.wikipedia.org/wiki/Catur
 [^2]: https://www.detik.com/edu/detikpedia/d-6544556/siapa-penemu-catur-ini-sejarahnya

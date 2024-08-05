@@ -270,7 +270,7 @@ Sebetulnya, ada banyak sekali *channel* Youtube catur yang dapat dijadikan refer
 |       6       | Legenda Catur Dunia (Indonesia)                   | https://www.youtube.com/@LegendaCaturDunia                        |
 |       7       | Gotham Chess                                      | https://www.youtube.com/@GothamChess                              |
 |       8       | GM Hikaru                                         | https://www.youtube.com/@GMHikaru                                 |
-|       9       | Adagmator's Chess Channel                         | https://www.youtube.com/@agadmator/videos                         |
+|       9       | Adagmator's Chess Channel                         | https://www.youtube.com/@agadmator/                               |
 |       10      | Remote Chess Academy                              | https://www.youtube.com/@GMIgorSmirnov                            |
 
 Dan masih banyak lagi *channel-channel* Youtube catur lainnya. Saya rasa saya haruskan cukupkan 10 ini saja dulu sebagai awalan. Selanjutnya, biarkan algoritma Youtube yang langsung memberikan rekomendasi video dan *channel* Youtube catur lainnya... wkwkwk
@@ -290,9 +290,19 @@ E-book atau buku digital sebetulnya juga banyak dan bisa didapatkan secara grati
 |       7       | 303 Tricky Chess Tactics                          | Fred Wilson & Bruce Alberston             | [pdf](https://drive.google.com/file/d/1SScvrHCwV5kNRHpg5coSQvq2lTfvMWOk/view?usp=sharing) |
 |       8       | 1001 Chess Exercises for Beginners                | Franco Masetti & Roberto Messa            | [pdf](https://drive.google.com/file/d/1ODf6i-WSqaiulz2Z_JUWEwvIrpa8Wq11/view?usp=sharing) |
 
-### Platform Bermain & Belajar Catur
+### Platform Catur Online
 
-Belajar teori bermain catur dari menonton video atau membaca literatur catur tidaklah salah. Namun, akan lebih baik jika kita juga langsung mencoba memainkan catur. Sebab, dengan banyak berlatih catur dengan praktik langsung, kita akan lebih mudah mengenali kekuatan dan kelemahan kita sehingga kita bisa memprioritaskan hal yang perlu di-*improve*. Sebagaimana kata pepatah, ***"experience is the best teacher"***. Nah, saya punya 2 rekomendasi platform bermain dan belajar catur yang cukup bagus untuk mengasah maupun meningkatkan skill catur kita, yaitu [**Chesscom**](https://www.chess.com/) dan [**Lichess**](https://lichess.org/).
+Belajar teori bermain catur dari menonton video atau membaca literatur catur tidaklah salah. Namun, akan lebih baik jika kita juga langsung mencoba memainkan catur. Sebab, dengan banyak berlatih catur dengan praktik langsung, kita akan lebih mudah mengenali kekuatan dan kelemahan kita sehingga kita bisa memprioritaskan hal yang perlu di-*improve*. Sebagaimana kata pepatah, ***"experience is the best teacher"***. Nah, saya punya 2 rekomendasi platform bermain dan belajar catur yang cukup bagus untuk mengasah maupun meningkatkan skill catur kita, yaitu [**Chesscom**](https://www.chess.com/) dan [**Lichess**](https://lichess.org/). Di kedua platform catur online tersebut, kalian bisa mengasah skill catur dengan menyelesaikan *puzzle* setiap hari.
+
+|   No  |       Platform        |               Overview                |       Kelebihan                       |               Kekurangan           |
+|  ---  |         :---          |             :---:                     |          :---                         |                 :---               |
+|   1.  | [Chesscom](https://www.chess.com/puzzles/rated)              | ![ss36](/chess/intro/ss36.png)        | Punya banyak fitur belajar catur      | Berbayar |
+|   2.  | [Lichess](https://lichess.org/training/daily)               | ![ss35](/chess/intro/ss35.png)        | Gratis                                | Fiturnya tidak sekaya Chesscom    |              
+
+Okeeyy, sekian dulu pengelanan ~~(singkat)~~ tentang catur.  
+Semoga bisa dipahami ya!  
+Selamat belajar catur, dan ...  
+Salam **Gens Una Sumus**!!
 
 ---
 

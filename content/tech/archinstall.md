@@ -1,5 +1,5 @@
 ---
-title: "Instalasi Archlinux KDE via archinstall"
+title: "Archlinux KDE Installation via archinstall"
 date: 2024-05-02T09:52:29+07:00
 draft: false		
 cover: 

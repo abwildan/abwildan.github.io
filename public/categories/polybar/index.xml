@@ -10,13 +10,6 @@
     <atom:link href="http://localhost:1313/categories/polybar/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Gorgeous Status Bar with Polybar</title>
-      <link>http://localhost:1313/post/polybar/</link>
-      <pubDate>Sun, 02 Jun 2024 19:14:29 +0700</pubDate>
-      <guid>http://localhost:1313/post/polybar/</guid>
-      <description>Polybar adalah tool yang cepat mudah digunakan untuk membuat status bar1, seperti: Secara umum, artikel ini akan membahas 3 proses: Memasang Polybar, Menjalankan Polybar, dan Mengkustom Polybar.</description>
-    </item>
-    <item>
-      <title>Gorgeous Status Bar with Polybar</title>
       <link>http://localhost:1313/tech/polybar/</link>
       <pubDate>Sun, 02 Jun 2024 19:14:29 +0700</pubDate>
       <guid>http://localhost:1313/tech/polybar/</guid>

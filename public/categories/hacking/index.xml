@@ -10,13 +10,6 @@
     <atom:link href="http://localhost:1313/categories/hacking/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Eternalblue (MS17-010) - SMBv1&#39;s Exploit</title>
-      <link>http://localhost:1313/post/eternalblue/</link>
-      <pubDate>Thu, 21 Mar 2024 18:54:33 +0700</pubDate>
-      <guid>http://localhost:1313/post/eternalblue/</guid>
-      <description>Sejarah (Singkat) Apa itu Eternalblue?&#xA;Eternalblue atau oleh Microsoft disebut dengan MS17-010 adalah sebuah exploit yang dapat digunakan untuk menyebarkan malware pada sebuah mesin Windows.</description>
-    </item>
-    <item>
-      <title>Eternalblue (MS17-010) - SMBv1&#39;s Exploit</title>
       <link>http://localhost:1313/tech/eternalblue/</link>
       <pubDate>Thu, 21 Mar 2024 18:54:33 +0700</pubDate>
       <guid>http://localhost:1313/tech/eternalblue/</guid>

@@ -10,24 +10,10 @@
     <atom:link href="http://localhost:1313/tags/static-site/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo (Papermod) Advanced</title>
-      <link>http://localhost:1313/post/hugo-advanced/</link>
-      <pubDate>Mon, 09 Oct 2023 15:22:46 +0700</pubDate>
-      <guid>http://localhost:1313/post/hugo-advanced/</guid>
-      <description>Mengkonfigurasi Hugo (Advanced) Setelah berhasil membuat website Hugo dan men-deploy-nya ke Github, kali ini saya akan memberi beberapa tips yang sedikit banyak dapat memberi kemudahan dan nilai estetika pada website Hugo tersebut.</description>
-    </item>
-    <item>
-      <title>Hugo (Papermod) Advanced</title>
       <link>http://localhost:1313/tech/hugo-advanced/</link>
       <pubDate>Mon, 09 Oct 2023 15:22:46 +0700</pubDate>
       <guid>http://localhost:1313/tech/hugo-advanced/</guid>
       <description>Mengkonfigurasi Hugo (Advanced) Setelah berhasil membuat website Hugo dan men-deploy-nya ke Github, kali ini saya akan memberi beberapa tips yang sedikit banyak dapat memberi kemudahan dan nilai estetika pada website Hugo tersebut.</description>
-    </item>
-    <item>
-      <title>Hugo To Github</title>
-      <link>http://localhost:1313/post/hugo-to_github/</link>
-      <pubDate>Mon, 09 Oct 2023 09:03:40 +0700</pubDate>
-      <guid>http://localhost:1313/post/hugo-to_github/</guid>
-      <description>Meng-Hosting di Github Di tulisan ini, saya akan menunjukkan cara hosting static-site Hugo yang sudah dibuat sebelumnya ke Github. Jadi, sebelum lanjut membaca tutorial ini, ada 3 persyaratan yang harus sudah dipenuhi:</description>
     </item>
     <item>
       <title>Hugo To Github</title>

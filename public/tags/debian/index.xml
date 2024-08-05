@@ -10,24 +10,10 @@
     <atom:link href="http://localhost:1313/tags/debian/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Linux Ricing?</title>
-      <link>http://localhost:1313/post/rice/</link>
-      <pubDate>Sun, 28 Apr 2024 14:21:13 +0700</pubDate>
-      <guid>http://localhost:1313/post/rice/</guid>
-      <description>Hola!&#xA;Teman-teman familiar dengan istilah rice atau Linux ricing?&#xA;Tidak seperti makna dari terjemah harfiahnya yang berarti nasi atau menasikan Linux, istilah rice atau Linux Ricing punya makna yang boleh dibilang eksklusif dan kontekstual.</description>
-    </item>
-    <item>
-      <title>Linux Ricing?</title>
       <link>http://localhost:1313/tech/rice/</link>
       <pubDate>Sun, 28 Apr 2024 14:21:13 +0700</pubDate>
       <guid>http://localhost:1313/tech/rice/</guid>
       <description>Hola!&#xA;Teman-teman familiar dengan istilah rice atau Linux ricing?&#xA;Tidak seperti makna dari terjemah harfiahnya yang berarti nasi atau menasikan Linux, istilah rice atau Linux Ricing punya makna yang boleh dibilang eksklusif dan kontekstual.</description>
-    </item>
-    <item>
-      <title>Debian Linux Installation in Virtualbox</title>
-      <link>http://localhost:1313/post/debian-installation/</link>
-      <pubDate>Mon, 15 Apr 2024 07:45:05 +0700</pubDate>
-      <guid>http://localhost:1313/post/debian-installation/</guid>
-      <description>Pra Instalasi Hola!&#xA;Kali ini saya akan memberikan tutorial instalasi salah satu distro linux legendaris, Debian. Saya akan menginstall Debian sebagai VM (virtual machine) di Virtualbox.</description>
     </item>
     <item>
       <title>Debian Linux Installation in Virtualbox</title>

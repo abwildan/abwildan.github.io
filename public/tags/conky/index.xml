@@ -10,13 +10,6 @@
     <atom:link href="http://localhost:1313/tags/conky/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Enhancing Your Linux Desktop with Conky</title>
-      <link>http://localhost:1313/post/conky/</link>
-      <pubDate>Sat, 20 Jul 2024 11:16:26 +0700</pubDate>
-      <guid>http://localhost:1313/post/conky/</guid>
-      <description>Tentang Conky, meskipun terdengar seperti singkatan &amp;ldquo;Pocong Pinky&amp;rdquo;, sebetulnya adalah program monitor sistem untuk linux desktop1. Kalau merujuk pada repositori resminya di Github, Conky dinyatakan sebagai berikut:</description>
-    </item>
-    <item>
-      <title>Enhancing Your Linux Desktop with Conky</title>
       <link>http://localhost:1313/tech/conky/</link>
       <pubDate>Sat, 20 Jul 2024 11:16:26 +0700</pubDate>
       <guid>http://localhost:1313/tech/conky/</guid>

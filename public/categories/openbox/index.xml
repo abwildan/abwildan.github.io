@@ -10,13 +10,6 @@
     <atom:link href="http://localhost:1313/categories/openbox/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Openbox - Simple and Easy Window Manager for Beginners</title>
-      <link>http://localhost:1313/post/openbox/</link>
-      <pubDate>Thu, 30 May 2024 01:49:56 +0000</pubDate>
-      <guid>http://localhost:1313/post/openbox/</guid>
-      <description>Dari 1-10 (dengan skala 1: paling tidak cantik dan 10: paling cantik), seberapa cantik tampilan tangkapan layar pada cover artikel ini?</description>
-    </item>
-    <item>
-      <title>Openbox - Simple and Easy Window Manager for Beginners</title>
       <link>http://localhost:1313/tech/openbox/</link>
       <pubDate>Thu, 30 May 2024 01:49:56 +0000</pubDate>
       <guid>http://localhost:1313/tech/openbox/</guid>

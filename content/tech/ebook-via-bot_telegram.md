@@ -1,5 +1,5 @@
 ---
-title: "Mengunduh (free) e-book via Bot Telegram"
+title: "Getting (free) e-books via Bot Telegram"
 date: 2023-10-11T16:32:22+07:00
 draft: false
 cover:
@@ -22,19 +22,22 @@ Secara singkat, berikut adalah langkah-langkah yang perlu diikuti:
 4. Menghubungkan z-library ke telegram (dan membuat bot telegram)
 5. Mengunduh *e-book* via bot telegram z-library
 
-> **DISCLAIMER!** *Buku yang ada di Z-Library sebetulnya adalah buku "illegal" karena bukan disebarkan atau di-share langsung oleh author-nya. Itulah mengapa Z-lib di-banned FBI (wkwk, ini serius) dan harus pakai Tor Browser untuk mengaksesnya sekarang.*
+{{< collapse summary="***DISCLAIMER!***" >}}
+
+Buku yang ada di Z-Library sebetulnya adalah buku "illegal" karena bukan disebarkan atau di-share langsung oleh author-nya. Itulah mengapa Z-lib di-banned FBI (wkwk, ini serius) dan harus pakai Tor Browser untuk mengaksesnya sekarang.
+
+Berapa domain Z-lib yang di-*banned*:
+1. https://www.z-lib.org 
+2. https://www.z-lib.se
+
 ![ss7](/zlib-tele/ss7.png)
-***Jadi, ini rahasia kita aja ya, wkwk***
+
+{{< /collapse >}}
 
 Detail penjelasannya adalah sebagai berikut:
 
-**[UPDATE!!]**
-Per hari ini, 26 Desember 2023, situs cloning resmi Z-Library sudah *launching* di alamat [url ini](https://z-library.se/).
-![ss11](/zlib-tele/ss11.png)
-
 Jadi, kalian bisa melewati langkah 1 (Menginstall TOR Browser) & langkah 2 (Mengakses alamat url Z-Library via Tor Browser)
 karena kalian dapat mengakses alamat *clone* Z-Library tersebut di browser normal.
-
 
 ### 1. Meginstall Tor Browser
 TOR Browser perlu diinstal karena kita akan mengakses alamat tor z-library (berakhiran .union). 
@@ -53,9 +56,12 @@ Jika sudah terkoneksi, jangan lupa untuk meng-aktifkan *bridges* di **Setting** 
 
 Jika sudah aman semua, tinggal *copy-paste* url tor z-library berikut di kolom pencarian.
 
-opsi 1: `http://zlibrary24tuxziyiyfr7zd46ytefdqbqd2axkmxm4o5374ptpc52fad.onion`
+opsi 1: <mark>**http://zlibrary24tuxziyiyfr7zd46ytefdqbqd2axkmxm4o5374ptpc52fad.onion**</mark>
 
-opsi 2: `http://loginzlib2vrak5zzpcocc3ouizykn6k5qecgj2tzlnab5wcbqhembyd.onion`
+opsi 2: <mark>**http://loginzlib2vrak5zzpcocc3ouizykn6k5qecgj2tzlnab5wcbqhembyd.onion**</mark>
+
+> **Notes:**  
+> Berselancar di tor browser tidak akan semulus dan selancar berselancar di browser pada umumnya. Oleh karena itu, jika kalian mengalami koneksi yang lamban, jangan khawatir, memang seperti itulah jaringan tor.
 
 ### 3. Membuat akun di z-library
 Berikutnya, silakan buat akun z-library dengan menginputkan
@@ -86,14 +92,9 @@ Pesan terakhir yang harus di-*copy-paste* seluruhnya:
 Jika semua rangkaian proses tadi sudah selesai dilakukan, maka sejatinya kita sudah bisa mendapatkan e-book dari z-library dengan mudah, yaitu hanya via bot telegram **"t.me/nama_bot_kalian"**.
 
 Berikut akan saya demo-kan cara mendapatkan e-book dari z-library via bot telegram. 
-Misalnya, saya ingin mencari buku ensiklopedia teori komunikasi, maka saya hanya perlu mengetikkan keyword berikut:
-`encyclopedia of communication theory`
+Misalnya, saya ingin mencari buku ensiklopedia teori komunikasi, maka saya hanya perlu mengetikkan keyword berikut:  
+<mark>encyclopedia of communication theory</mark>
 ![sr1](/zlib-tele/sr1.gif)
-
-
-> **[UPDATE]**
-Z-library saat ini sudah punya domain mirror. Jadi, kita tidak perlu mengaksesnya dari TOR Browser, tapi bisa via browser biasa (firefox, chrome, safari, dkk) di alamat berikut: [https://www.z-library.se](https://z-library.se)
-Artinya, kita bisa langsung membuat bot telegram tanpa harus menginstal TOR Browser.
 
 Oke, sekian dulu tutorial kali ini.
 

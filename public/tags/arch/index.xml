@@ -10,13 +10,6 @@
     <atom:link href="http://localhost:1313/tags/arch/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Instalasi Archlinux KDE via archinstall</title>
-      <link>http://localhost:1313/post/archinstall/</link>
-      <pubDate>Thu, 02 May 2024 09:52:29 +0700</pubDate>
-      <guid>http://localhost:1313/post/archinstall/</guid>
-      <description>Siapa yang tidak pernah dengar Archlinux?&#xA;Archlinux adalah sebuah distro linux (legendaris) yang terkenal dengan komunitasnya yang besar dari seluruh dunia dan dokumentasi distronya yang lengkap.</description>
-    </item>
-    <item>
-      <title>Instalasi Archlinux KDE via archinstall</title>
       <link>http://localhost:1313/tech/archinstall/</link>
       <pubDate>Thu, 02 May 2024 09:52:29 +0700</pubDate>
       <guid>http://localhost:1313/tech/archinstall/</guid>

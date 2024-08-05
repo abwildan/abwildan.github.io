@@ -10,13 +10,6 @@
     <atom:link href="http://localhost:1313/tags/ffmpeg/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mystiq - FFmpeg&#39;s GUI</title>
-      <link>http://localhost:1313/post/mystiq/</link>
-      <pubDate>Tue, 26 Mar 2024 17:56:16 +0700</pubDate>
-      <guid>http://localhost:1313/post/mystiq/</guid>
-      <description>Hola!&#xA;Kali ini saya akan berbagi satu tools yang secara fungsi mungkin 11-12 dengan FFmpeg, tapi dia punya tampilan yang lebih user-friendly, nama tools-nya adalah Mystiq.</description>
-    </item>
-    <item>
-      <title>Mystiq - FFmpeg&#39;s GUI</title>
       <link>http://localhost:1313/tech/mystiq/</link>
       <pubDate>Tue, 26 Mar 2024 17:56:16 +0700</pubDate>
       <guid>http://localhost:1313/tech/mystiq/</guid>
@@ -24,24 +17,10 @@
     </item>
     <item>
       <title>FFmpeg - Convert MP4 to GIF</title>
-      <link>http://localhost:1313/post/ffmpeg-mp42gif/</link>
-      <pubDate>Wed, 11 Oct 2023 00:40:23 +0700</pubDate>
-      <guid>http://localhost:1313/post/ffmpeg-mp42gif/</guid>
-      <description>Terkadang, GIF punya kelebihan dibandingkan dengan file video, terutama dalam hal ukuran file. Dengan kualitas gambar yang hampir sama dengan video, file GIF bisa berukuran lebih kecil dari file video.</description>
-    </item>
-    <item>
-      <title>FFmpeg - Convert MP4 to GIF</title>
       <link>http://localhost:1313/tech/ffmpeg-mp42gif/</link>
       <pubDate>Wed, 11 Oct 2023 00:40:23 +0700</pubDate>
       <guid>http://localhost:1313/tech/ffmpeg-mp42gif/</guid>
       <description>Terkadang, GIF punya kelebihan dibandingkan dengan file video, terutama dalam hal ukuran file. Dengan kualitas gambar yang hampir sama dengan video, file GIF bisa berukuran lebih kecil dari file video.</description>
-    </item>
-    <item>
-      <title>Screen Recorder with FFmpeg</title>
-      <link>http://localhost:1313/post/ffmpeg-sr/</link>
-      <pubDate>Tue, 10 Oct 2023 09:13:32 +0700</pubDate>
-      <guid>http://localhost:1313/post/ffmpeg-sr/</guid>
-      <description>Kali ini, saya akan memberi tahu cara merekam layar desktop laptop atau komputer kita dengan FFmpeg. Apa itu FFmpeg? Penjelasan detail-nya tentu saja bisa didapatkan langsung dari website resminya di sini1.</description>
     </item>
     <item>
       <title>Screen Recorder with FFmpeg</title>

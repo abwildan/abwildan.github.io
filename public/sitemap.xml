@@ -67,12 +67,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/post/conky/</loc>
-    <lastmod>2024-07-20T11:16:26+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://localhost:1313/tech/conky/</loc>
     <lastmod>2024-07-20T11:16:26+07:00</lastmod>
     <changefreq>daily</changefreq>
@@ -85,19 +79,7 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/post/</loc>
-    <lastmod>2024-07-20T11:16:26+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://localhost:1313/tags/display-manager/</loc>
-    <lastmod>2024-07-17T15:06:15+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/post/tty/</loc>
     <lastmod>2024-07-17T15:06:15+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -123,12 +105,6 @@
   <url>
     <loc>http://localhost:1313/categories/tty/</loc>
     <lastmod>2024-07-17T15:06:15+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/post/yt-dlp/</loc>
-    <lastmod>2024-06-23T00:49:55-04:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -181,12 +157,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/post/rstudio-basic/</loc>
-    <lastmod>2024-06-13T11:56:25-04:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://localhost:1313/tech/rstudio-basic/</loc>
     <lastmod>2024-06-13T11:56:25-04:00</lastmod>
     <changefreq>daily</changefreq>
@@ -194,12 +164,6 @@
   </url>
   <url>
     <loc>http://localhost:1313/tags/cool/</loc>
-    <lastmod>2024-06-09T16:59:47+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/post/cooltools/</loc>
     <lastmod>2024-06-09T16:59:47+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -219,12 +183,6 @@
   <url>
     <loc>http://localhost:1313/tags/terminal/</loc>
     <lastmod>2024-06-09T16:59:47+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/post/ncmpcpp/</loc>
-    <lastmod>2024-06-07T14:41:49+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -289,12 +247,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/post/rdpclient/</loc>
-    <lastmod>2024-06-04T22:05:26+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://localhost:1313/tech/rdpclient/</loc>
     <lastmod>2024-06-04T22:05:26+07:00</lastmod>
     <changefreq>daily</changefreq>
@@ -315,12 +267,6 @@
   <url>
     <loc>http://localhost:1313/tags/windows/</loc>
     <lastmod>2024-06-04T22:05:26+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/post/polybar/</loc>
-    <lastmod>2024-06-02T19:14:29+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -361,12 +307,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/post/openbox/</loc>
-    <lastmod>2024-05-30T01:49:56+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://localhost:1313/tech/openbox/</loc>
     <lastmod>2024-05-30T01:49:56+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -375,12 +315,6 @@
   <url>
     <loc>http://localhost:1313/tags/window-manager/</loc>
     <lastmod>2024-05-30T01:49:56+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/post/scihub/</loc>
-    <lastmod>2024-05-21T09:10:19+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -433,12 +367,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/post/steganography/</loc>
-    <lastmod>2024-05-13T10:52:32+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://localhost:1313/tech/steganography/</loc>
     <lastmod>2024-05-13T10:52:32+07:00</lastmod>
     <changefreq>daily</changefreq>
@@ -452,12 +380,6 @@
   </url>
   <url>
     <loc>http://localhost:1313/categories/rofi/</loc>
-    <lastmod>2024-05-04T10:38:46+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/post/rofi/</loc>
     <lastmod>2024-05-04T10:38:46+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -481,12 +403,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/post/archinstall/</loc>
-    <lastmod>2024-05-02T09:52:29+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://localhost:1313/tech/archinstall/</loc>
     <lastmod>2024-05-02T09:52:29+07:00</lastmod>
     <changefreq>daily</changefreq>
@@ -500,12 +416,6 @@
   </url>
   <url>
     <loc>http://localhost:1313/tags/debian/</loc>
-    <lastmod>2024-04-28T14:21:13+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/post/rice/</loc>
     <lastmod>2024-04-28T14:21:13+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -535,12 +445,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/post/debian-installation/</loc>
-    <lastmod>2024-04-15T07:45:05+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://localhost:1313/tech/debian-installation/</loc>
     <lastmod>2024-04-15T07:45:05+07:00</lastmod>
     <changefreq>daily</changefreq>
@@ -560,12 +464,6 @@
   </url>
   <url>
     <loc>http://localhost:1313/categories/ngrok/</loc>
-    <lastmod>2024-04-02T17:30:12+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/post/ngrok/</loc>
     <lastmod>2024-04-02T17:30:12+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -601,20 +499,8 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/post/mystiq/</loc>
-    <lastmod>2024-03-26T17:56:16+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://localhost:1313/tech/mystiq/</loc>
     <lastmod>2024-03-26T17:56:16+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/post/eternalblue/</loc>
-    <lastmod>2024-03-21T18:54:33+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -649,12 +535,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/post/virustotal/</loc>
-    <lastmod>2024-03-19T21:43:27+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://localhost:1313/tech/virustotal/</loc>
     <lastmod>2024-03-19T21:43:27+07:00</lastmod>
     <changefreq>daily</changefreq>
@@ -668,12 +548,6 @@
   </url>
   <url>
     <loc>http://localhost:1313/categories/recordmydesktop/</loc>
-    <lastmod>2024-03-08T14:55:26+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/post/recordmydesktop/</loc>
     <lastmod>2024-03-08T14:55:26+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -709,12 +583,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/post/gephi/</loc>
-    <lastmod>2024-01-06T02:26:47-05:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://localhost:1313/tech/gephi/</loc>
     <lastmod>2024-01-06T02:26:47-05:00</lastmod>
     <changefreq>daily</changefreq>
@@ -728,12 +596,6 @@
   </url>
   <url>
     <loc>http://localhost:1313/categories/onionshare/</loc>
-    <lastmod>2023-11-30T07:35:02-05:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/post/onionshare/</loc>
     <lastmod>2023-11-30T07:35:02-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -758,12 +620,6 @@
   </url>
   <url>
     <loc>http://localhost:1313/tags/e-book/</loc>
-    <lastmod>2023-10-11T16:32:22+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/post/ebook-via-bot_telegram/</loc>
     <lastmod>2023-10-11T16:32:22+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -799,12 +655,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/post/ffmpeg-mp42gif/</loc>
-    <lastmod>2023-10-11T00:40:23+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://localhost:1313/tech/ffmpeg-mp42gif/</loc>
     <lastmod>2023-10-11T00:40:23+07:00</lastmod>
     <changefreq>daily</changefreq>
@@ -823,12 +673,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/post/ffmpeg-sr/</loc>
-    <lastmod>2023-10-10T09:13:32+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://localhost:1313/tech/ffmpeg-sr/</loc>
     <lastmod>2023-10-10T09:13:32+07:00</lastmod>
     <changefreq>daily</changefreq>
@@ -842,12 +686,6 @@
   </url>
   <url>
     <loc>http://localhost:1313/categories/hugo/</loc>
-    <lastmod>2023-10-09T15:22:46+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/post/hugo-advanced/</loc>
     <lastmod>2023-10-09T15:22:46+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -871,20 +709,8 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/post/hugo-to_github/</loc>
-    <lastmod>2023-10-09T09:03:40+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://localhost:1313/tech/hugo-to_github/</loc>
     <lastmod>2023-10-09T09:03:40+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/post/hugo-ing/</loc>
-    <lastmod>2023-10-07T15:26:34+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

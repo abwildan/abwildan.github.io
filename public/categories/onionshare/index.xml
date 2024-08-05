@@ -10,13 +10,6 @@
     <atom:link href="http://localhost:1313/categories/onionshare/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Private File Sharing with Onionshare</title>
-      <link>http://localhost:1313/post/onionshare/</link>
-      <pubDate>Thu, 30 Nov 2023 07:35:02 -0500</pubDate>
-      <guid>http://localhost:1313/post/onionshare/</guid>
-      <description>Halo! Beberapa pekan lalu, saya sempat memberikan tutorial untuk mendapatkan e-book gratis dengan bot Telegram yang berasal dari situs z-library. Saat tulisan tersebut dibuat, situs utama z-lib di-banned oleh FBI karena dianggap menyebarkan buku-buku berbayar tanpa hak izin dari penulisnya.</description>
-    </item>
-    <item>
-      <title>Private File Sharing with Onionshare</title>
       <link>http://localhost:1313/tech/onionshare/</link>
       <pubDate>Thu, 30 Nov 2023 07:35:02 -0500</pubDate>
       <guid>http://localhost:1313/tech/onionshare/</guid>

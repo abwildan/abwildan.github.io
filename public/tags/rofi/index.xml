@@ -10,13 +10,6 @@
     <atom:link href="http://localhost:1313/tags/rofi/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Rofi - Beautiful &amp; Modern App Launcher</title>
-      <link>http://localhost:1313/post/rofi/</link>
-      <pubDate>Sat, 04 May 2024 10:38:46 +0700</pubDate>
-      <guid>http://localhost:1313/post/rofi/</guid>
-      <description>What is Rofi?&#xA;Kenalan dengan Rofi Teman kalian mungkin ada yang namanya Rofi. Tapi, tentu saja artikel ini tidak sedang menggosipkan Rofi sebagai manusia, tapi Rofi sebagai sebuah program, xixi.</description>
-    </item>
-    <item>
-      <title>Rofi - Beautiful &amp; Modern App Launcher</title>
       <link>http://localhost:1313/tech/rofi/</link>
       <pubDate>Sat, 04 May 2024 10:38:46 +0700</pubDate>
       <guid>http://localhost:1313/tech/rofi/</guid>

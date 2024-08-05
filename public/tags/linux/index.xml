@@ -10,24 +10,10 @@
     <atom:link href="http://localhost:1313/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Enhancing Your Linux Desktop with Conky</title>
-      <link>http://localhost:1313/post/conky/</link>
-      <pubDate>Sat, 20 Jul 2024 11:16:26 +0700</pubDate>
-      <guid>http://localhost:1313/post/conky/</guid>
-      <description>Tentang Conky, meskipun terdengar seperti singkatan &amp;ldquo;Pocong Pinky&amp;rdquo;, sebetulnya adalah program monitor sistem untuk linux desktop1. Kalau merujuk pada repositori resminya di Github, Conky dinyatakan sebagai berikut:</description>
-    </item>
-    <item>
-      <title>Enhancing Your Linux Desktop with Conky</title>
       <link>http://localhost:1313/tech/conky/</link>
       <pubDate>Sat, 20 Jul 2024 11:16:26 +0700</pubDate>
       <guid>http://localhost:1313/tech/conky/</guid>
       <description>Tentang Conky, meskipun terdengar seperti singkatan &amp;ldquo;Pocong Pinky&amp;rdquo;, sebetulnya adalah program monitor sistem untuk linux desktop1. Kalau merujuk pada repositori resminya di Github, Conky dinyatakan sebagai berikut:</description>
-    </item>
-    <item>
-      <title>Log in to Your System with (Stunning) TTY</title>
-      <link>http://localhost:1313/post/tty/</link>
-      <pubDate>Wed, 17 Jul 2024 15:06:15 +0700</pubDate>
-      <guid>http://localhost:1313/post/tty/</guid>
-      <description>About Login Interface &amp;amp; TTY Ketika kita akan login ke sebuah sistem, kita biasanya disuguhkan interface untuk memasukkan kredensial login kita (username &amp;amp; password), kan?</description>
     </item>
     <item>
       <title>Log in to Your System with (Stunning) TTY</title>
@@ -38,24 +24,10 @@
     </item>
     <item>
       <title>A Feature Rich Command Line Audio/Video Downloader: YT-DLP</title>
-      <link>http://localhost:1313/post/yt-dlp/</link>
-      <pubDate>Sun, 23 Jun 2024 00:49:55 -0400</pubDate>
-      <guid>http://localhost:1313/post/yt-dlp/</guid>
-      <description>What Is It? Apa yang akan kalian lakukan kalau mau mengunduh video Youtube?&#xA;A. Mengunjungi website seperti savefrom, savetube, y2meta, ssyoutube, dll.</description>
-    </item>
-    <item>
-      <title>A Feature Rich Command Line Audio/Video Downloader: YT-DLP</title>
       <link>http://localhost:1313/tech/yt-dlp/</link>
       <pubDate>Sun, 23 Jun 2024 00:49:55 -0400</pubDate>
       <guid>http://localhost:1313/tech/yt-dlp/</guid>
       <description>What Is It? Apa yang akan kalian lakukan kalau mau mengunduh video Youtube?&#xA;A. Mengunjungi website seperti savefrom, savetube, y2meta, ssyoutube, dll.</description>
-    </item>
-    <item>
-      <title>Cool Terminal Tools You Should Know</title>
-      <link>http://localhost:1313/post/cooltools/</link>
-      <pubDate>Sun, 09 Jun 2024 16:59:47 +0700</pubDate>
-      <guid>http://localhost:1313/post/cooltools/</guid>
-      <description>Yoo, jumpa lagi!&#xA;Saya mau berbagi sejumlah tools terminal yang sayang jika dilewatkan, apalagi bagi kalian guys, linux nerds. Sebagian besar (atau mungkin semuanya) tools yang akan saya share di artikel ini murni for fun.</description>
     </item>
     <item>
       <title>Cool Terminal Tools You Should Know</title>
@@ -66,24 +38,10 @@
     </item>
     <item>
       <title>My Remote Desktop Client(s)</title>
-      <link>http://localhost:1313/post/rdpclient/</link>
-      <pubDate>Tue, 04 Jun 2024 22:05:26 +0700</pubDate>
-      <guid>http://localhost:1313/post/rdpclient/</guid>
-      <description>Holaa!!&#xA;Saya akan berbagi beberapa RDP client yang biasa saya gunakan untuk melakukan remote desktop. BTW, RDP atau Remote Desktop Protocol adalah salah satu protokol komunikasi dalam jaringan komputer yang dikembangkan awalnya oleh Microsoft untuk melakukan remote akses berbasis GUI (Graphical User Interface)1.</description>
-    </item>
-    <item>
-      <title>My Remote Desktop Client(s)</title>
       <link>http://localhost:1313/tech/rdpclient/</link>
       <pubDate>Tue, 04 Jun 2024 22:05:26 +0700</pubDate>
       <guid>http://localhost:1313/tech/rdpclient/</guid>
       <description>Holaa!!&#xA;Saya akan berbagi beberapa RDP client yang biasa saya gunakan untuk melakukan remote desktop. BTW, RDP atau Remote Desktop Protocol adalah salah satu protokol komunikasi dalam jaringan komputer yang dikembangkan awalnya oleh Microsoft untuk melakukan remote akses berbasis GUI (Graphical User Interface)1.</description>
-    </item>
-    <item>
-      <title>Gorgeous Status Bar with Polybar</title>
-      <link>http://localhost:1313/post/polybar/</link>
-      <pubDate>Sun, 02 Jun 2024 19:14:29 +0700</pubDate>
-      <guid>http://localhost:1313/post/polybar/</guid>
-      <description>Polybar adalah tool yang cepat mudah digunakan untuk membuat status bar1, seperti: Secara umum, artikel ini akan membahas 3 proses: Memasang Polybar, Menjalankan Polybar, dan Mengkustom Polybar.</description>
     </item>
     <item>
       <title>Gorgeous Status Bar with Polybar</title>
@@ -94,24 +52,10 @@
     </item>
     <item>
       <title>Openbox - Simple and Easy Window Manager for Beginners</title>
-      <link>http://localhost:1313/post/openbox/</link>
-      <pubDate>Thu, 30 May 2024 01:49:56 +0000</pubDate>
-      <guid>http://localhost:1313/post/openbox/</guid>
-      <description>Dari 1-10 (dengan skala 1: paling tidak cantik dan 10: paling cantik), seberapa cantik tampilan tangkapan layar pada cover artikel ini?</description>
-    </item>
-    <item>
-      <title>Openbox - Simple and Easy Window Manager for Beginners</title>
       <link>http://localhost:1313/tech/openbox/</link>
       <pubDate>Thu, 30 May 2024 01:49:56 +0000</pubDate>
       <guid>http://localhost:1313/tech/openbox/</guid>
       <description>Dari 1-10 (dengan skala 1: paling tidak cantik dan 10: paling cantik), seberapa cantik tampilan tangkapan layar pada cover artikel ini?</description>
-    </item>
-    <item>
-      <title>Rofi - Beautiful &amp; Modern App Launcher</title>
-      <link>http://localhost:1313/post/rofi/</link>
-      <pubDate>Sat, 04 May 2024 10:38:46 +0700</pubDate>
-      <guid>http://localhost:1313/post/rofi/</guid>
-      <description>What is Rofi?&#xA;Kenalan dengan Rofi Teman kalian mungkin ada yang namanya Rofi. Tapi, tentu saja artikel ini tidak sedang menggosipkan Rofi sebagai manusia, tapi Rofi sebagai sebuah program, xixi.</description>
     </item>
     <item>
       <title>Rofi - Beautiful &amp; Modern App Launcher</title>
@@ -122,13 +66,6 @@
     </item>
     <item>
       <title>Instalasi Archlinux KDE via archinstall</title>
-      <link>http://localhost:1313/post/archinstall/</link>
-      <pubDate>Thu, 02 May 2024 09:52:29 +0700</pubDate>
-      <guid>http://localhost:1313/post/archinstall/</guid>
-      <description>Siapa yang tidak pernah dengar Archlinux?&#xA;Archlinux adalah sebuah distro linux (legendaris) yang terkenal dengan komunitasnya yang besar dari seluruh dunia dan dokumentasi distronya yang lengkap.</description>
-    </item>
-    <item>
-      <title>Instalasi Archlinux KDE via archinstall</title>
       <link>http://localhost:1313/tech/archinstall/</link>
       <pubDate>Thu, 02 May 2024 09:52:29 +0700</pubDate>
       <guid>http://localhost:1313/tech/archinstall/</guid>
@@ -136,24 +73,10 @@
     </item>
     <item>
       <title>Linux Ricing?</title>
-      <link>http://localhost:1313/post/rice/</link>
-      <pubDate>Sun, 28 Apr 2024 14:21:13 +0700</pubDate>
-      <guid>http://localhost:1313/post/rice/</guid>
-      <description>Hola!&#xA;Teman-teman familiar dengan istilah rice atau Linux ricing?&#xA;Tidak seperti makna dari terjemah harfiahnya yang berarti nasi atau menasikan Linux, istilah rice atau Linux Ricing punya makna yang boleh dibilang eksklusif dan kontekstual.</description>
-    </item>
-    <item>
-      <title>Linux Ricing?</title>
       <link>http://localhost:1313/tech/rice/</link>
       <pubDate>Sun, 28 Apr 2024 14:21:13 +0700</pubDate>
       <guid>http://localhost:1313/tech/rice/</guid>
       <description>Hola!&#xA;Teman-teman familiar dengan istilah rice atau Linux ricing?&#xA;Tidak seperti makna dari terjemah harfiahnya yang berarti nasi atau menasikan Linux, istilah rice atau Linux Ricing punya makna yang boleh dibilang eksklusif dan kontekstual.</description>
-    </item>
-    <item>
-      <title>Debian Linux Installation in Virtualbox</title>
-      <link>http://localhost:1313/post/debian-installation/</link>
-      <pubDate>Mon, 15 Apr 2024 07:45:05 +0700</pubDate>
-      <guid>http://localhost:1313/post/debian-installation/</guid>
-      <description>Pra Instalasi Hola!&#xA;Kali ini saya akan memberikan tutorial instalasi salah satu distro linux legendaris, Debian. Saya akan menginstall Debian sebagai VM (virtual machine) di Virtualbox.</description>
     </item>
     <item>
       <title>Debian Linux Installation in Virtualbox</title>

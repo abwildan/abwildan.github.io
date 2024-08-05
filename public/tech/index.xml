@@ -93,7 +93,7 @@
       <description>What is Rofi?&#xA;Kenalan dengan Rofi Teman kalian mungkin ada yang namanya Rofi. Tapi, tentu saja artikel ini tidak sedang menggosipkan Rofi sebagai manusia, tapi Rofi sebagai sebuah program, xixi.</description>
     </item>
     <item>
-      <title>Instalasi Archlinux KDE via archinstall</title>
+      <title>Archlinux KDE Installation via archinstall</title>
       <link>http://localhost:1313/tech/archinstall/</link>
       <pubDate>Thu, 02 May 2024 09:52:29 +0700</pubDate>
       <guid>http://localhost:1313/tech/archinstall/</guid>
@@ -163,7 +163,7 @@
       <description>Halo! Beberapa pekan lalu, saya sempat memberikan tutorial untuk mendapatkan e-book gratis dengan bot Telegram yang berasal dari situs z-library. Saat tulisan tersebut dibuat, situs utama z-lib di-banned oleh FBI karena dianggap menyebarkan buku-buku berbayar tanpa hak izin dari penulisnya.</description>
     </item>
     <item>
-      <title>Mengunduh (free) e-book via Bot Telegram</title>
+      <title>Getting (free) e-books via Bot Telegram</title>
       <link>http://localhost:1313/tech/ebook-via-bot_telegram/</link>
       <pubDate>Wed, 11 Oct 2023 16:32:22 +0700</pubDate>
       <guid>http://localhost:1313/tech/ebook-via-bot_telegram/</guid>

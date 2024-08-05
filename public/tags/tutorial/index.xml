@@ -10,24 +10,10 @@
     <atom:link href="http://localhost:1313/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ngrok - Make Your localhost Accessible Publicly</title>
-      <link>http://localhost:1313/post/ngrok/</link>
-      <pubDate>Tue, 02 Apr 2024 17:30:12 +0700</pubDate>
-      <guid>http://localhost:1313/post/ngrok/</guid>
-      <description>Ngrok? Ngrok bagi sebagian orang mungkin sudah faniliar karena sering digunakan untuk berbagai kebutuhan. Tapi, bagi yang belum tahu, ngrok secara sederhana dapat didefinisikan sebagai aplikasi yang memungkinkan kita untuk mem-publish server lokal kita di localhost ke publik dengan aman.</description>
-    </item>
-    <item>
-      <title>Ngrok - Make Your localhost Accessible Publicly</title>
       <link>http://localhost:1313/tech/ngrok/</link>
       <pubDate>Tue, 02 Apr 2024 17:30:12 +0700</pubDate>
       <guid>http://localhost:1313/tech/ngrok/</guid>
       <description>Ngrok? Ngrok bagi sebagian orang mungkin sudah faniliar karena sering digunakan untuk berbagai kebutuhan. Tapi, bagi yang belum tahu, ngrok secara sederhana dapat didefinisikan sebagai aplikasi yang memungkinkan kita untuk mem-publish server lokal kita di localhost ke publik dengan aman.</description>
-    </item>
-    <item>
-      <title>Mystiq - FFmpeg&#39;s GUI</title>
-      <link>http://localhost:1313/post/mystiq/</link>
-      <pubDate>Tue, 26 Mar 2024 17:56:16 +0700</pubDate>
-      <guid>http://localhost:1313/post/mystiq/</guid>
-      <description>Hola!&#xA;Kali ini saya akan berbagi satu tools yang secara fungsi mungkin 11-12 dengan FFmpeg, tapi dia punya tampilan yang lebih user-friendly, nama tools-nya adalah Mystiq.</description>
     </item>
     <item>
       <title>Mystiq - FFmpeg&#39;s GUI</title>
@@ -38,24 +24,10 @@
     </item>
     <item>
       <title>Eternalblue (MS17-010) - SMBv1&#39;s Exploit</title>
-      <link>http://localhost:1313/post/eternalblue/</link>
-      <pubDate>Thu, 21 Mar 2024 18:54:33 +0700</pubDate>
-      <guid>http://localhost:1313/post/eternalblue/</guid>
-      <description>Sejarah (Singkat) Apa itu Eternalblue?&#xA;Eternalblue atau oleh Microsoft disebut dengan MS17-010 adalah sebuah exploit yang dapat digunakan untuk menyebarkan malware pada sebuah mesin Windows.</description>
-    </item>
-    <item>
-      <title>Eternalblue (MS17-010) - SMBv1&#39;s Exploit</title>
       <link>http://localhost:1313/tech/eternalblue/</link>
       <pubDate>Thu, 21 Mar 2024 18:54:33 +0700</pubDate>
       <guid>http://localhost:1313/tech/eternalblue/</guid>
       <description>Sejarah (Singkat) Apa itu Eternalblue?&#xA;Eternalblue atau oleh Microsoft disebut dengan MS17-010 adalah sebuah exploit yang dapat digunakan untuk menyebarkan malware pada sebuah mesin Windows.</description>
-    </item>
-    <item>
-      <title>Virustotal - Platform untuk Scanning Virus</title>
-      <link>http://localhost:1313/post/virustotal/</link>
-      <pubDate>Tue, 19 Mar 2024 21:43:27 +0700</pubDate>
-      <guid>http://localhost:1313/post/virustotal/</guid>
-      <description>Overview Virustotal adalah salah satu website terbaik untuk melakukan identifikasi terhadap suatu file/software/aplikasi dan url, apakah mengandung virus atau malware (malicious software) atau tidak.</description>
     </item>
     <item>
       <title>Virustotal - Platform untuk Scanning Virus</title>
@@ -66,24 +38,10 @@
     </item>
     <item>
       <title>Recordmydesktop - Screen Recorder based on CLI</title>
-      <link>http://localhost:1313/post/recordmydesktop/</link>
-      <pubDate>Fri, 08 Mar 2024 14:55:26 +0700</pubDate>
-      <guid>http://localhost:1313/post/recordmydesktop/</guid>
-      <description>Tepat pada tanggal 10 Oktober 2023 lalu, saya membuat tutorial merekam layar (screen recorder) desktop menggunakan program ffmpeg. Hanya saja, hingga saat ini, ada dua kelemahan ffmpeg yang belum dapat saya temukan solusinya ketika berbicara tentang dekstop screen recorder.</description>
-    </item>
-    <item>
-      <title>Recordmydesktop - Screen Recorder based on CLI</title>
       <link>http://localhost:1313/tech/recordmydesktop/</link>
       <pubDate>Fri, 08 Mar 2024 14:55:26 +0700</pubDate>
       <guid>http://localhost:1313/tech/recordmydesktop/</guid>
       <description>Tepat pada tanggal 10 Oktober 2023 lalu, saya membuat tutorial merekam layar (screen recorder) desktop menggunakan program ffmpeg. Hanya saja, hingga saat ini, ada dua kelemahan ffmpeg yang belum dapat saya temukan solusinya ketika berbicara tentang dekstop screen recorder.</description>
-    </item>
-    <item>
-      <title>Private File Sharing with Onionshare</title>
-      <link>http://localhost:1313/post/onionshare/</link>
-      <pubDate>Thu, 30 Nov 2023 07:35:02 -0500</pubDate>
-      <guid>http://localhost:1313/post/onionshare/</guid>
-      <description>Halo! Beberapa pekan lalu, saya sempat memberikan tutorial untuk mendapatkan e-book gratis dengan bot Telegram yang berasal dari situs z-library. Saat tulisan tersebut dibuat, situs utama z-lib di-banned oleh FBI karena dianggap menyebarkan buku-buku berbayar tanpa hak izin dari penulisnya.</description>
     </item>
     <item>
       <title>Private File Sharing with Onionshare</title>
@@ -94,13 +52,6 @@
     </item>
     <item>
       <title>Mengunduh (free) e-book via Bot Telegram</title>
-      <link>http://localhost:1313/post/ebook-via-bot_telegram/</link>
-      <pubDate>Wed, 11 Oct 2023 16:32:22 +0700</pubDate>
-      <guid>http://localhost:1313/post/ebook-via-bot_telegram/</guid>
-      <description>Keberadaan buku digital / buku elektronik (e-book) saat ini sudah menjadi keniscayaan di era yang juga sudah digital. Kelebihan buku elektronik dibanding buku fisik selain murah dan mudah (atau gak mudah ya?</description>
-    </item>
-    <item>
-      <title>Mengunduh (free) e-book via Bot Telegram</title>
       <link>http://localhost:1313/tech/ebook-via-bot_telegram/</link>
       <pubDate>Wed, 11 Oct 2023 16:32:22 +0700</pubDate>
       <guid>http://localhost:1313/tech/ebook-via-bot_telegram/</guid>
@@ -108,24 +59,10 @@
     </item>
     <item>
       <title>FFmpeg - Convert MP4 to GIF</title>
-      <link>http://localhost:1313/post/ffmpeg-mp42gif/</link>
-      <pubDate>Wed, 11 Oct 2023 00:40:23 +0700</pubDate>
-      <guid>http://localhost:1313/post/ffmpeg-mp42gif/</guid>
-      <description>Terkadang, GIF punya kelebihan dibandingkan dengan file video, terutama dalam hal ukuran file. Dengan kualitas gambar yang hampir sama dengan video, file GIF bisa berukuran lebih kecil dari file video.</description>
-    </item>
-    <item>
-      <title>FFmpeg - Convert MP4 to GIF</title>
       <link>http://localhost:1313/tech/ffmpeg-mp42gif/</link>
       <pubDate>Wed, 11 Oct 2023 00:40:23 +0700</pubDate>
       <guid>http://localhost:1313/tech/ffmpeg-mp42gif/</guid>
       <description>Terkadang, GIF punya kelebihan dibandingkan dengan file video, terutama dalam hal ukuran file. Dengan kualitas gambar yang hampir sama dengan video, file GIF bisa berukuran lebih kecil dari file video.</description>
-    </item>
-    <item>
-      <title>Screen Recorder with FFmpeg</title>
-      <link>http://localhost:1313/post/ffmpeg-sr/</link>
-      <pubDate>Tue, 10 Oct 2023 09:13:32 +0700</pubDate>
-      <guid>http://localhost:1313/post/ffmpeg-sr/</guid>
-      <description>Kali ini, saya akan memberi tahu cara merekam layar desktop laptop atau komputer kita dengan FFmpeg. Apa itu FFmpeg? Penjelasan detail-nya tentu saja bisa didapatkan langsung dari website resminya di sini1.</description>
     </item>
     <item>
       <title>Screen Recorder with FFmpeg</title>

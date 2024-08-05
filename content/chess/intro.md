@@ -286,9 +286,12 @@ E-book atau buku digital sebetulnya juga banyak dan bisa didapatkan secara grati
 |       3       | The Complete Manual of Positional Chess (V1)      | Konstantin Sakaev & Konstantin Landa      | [pdf](https://drive.google.com/file/d/1QqMS2kGVK87pagW5SQ5FxpHDS1hSq6Lo/view?usp=sharing) |
 |       4       | The Complete Manual of Positional Chess (V2)      | Konstantin Sakaev & Konstantin Landa      | [pdf](https://drive.google.com/file/d/1sxxK6UaVV_v2tJ5KNVEK8RB5Jr5i5G7F/view?usp=sharing) |
 |       5       | Improve Your Chess Pattern Recognition            | Arthur Van De Oudeweetering               | [pdf](https://drive.google.com/file/d/1M2OBqNMJ_OQ2qDzdjsGA0fhLuCDwosvA/view?usp=sharing) |
-|       6       | How to Choose a Chess Move                        | Andrew Soltis                             | [pdf](https://drive.google.com/file/d/1uVRphFiofa6fOR7k3Fo7vRqNcs70O6Y2/view?usp=sharing) |
+|       6       | Chess for Beginners                               | Drew Sleep & Adam Markiewicz              | [pdf](https://drive.google.com/file/d/15HZSQg-oqiHSawZBAD7lbvX4ZK6bB0lT/view?usp=sharing) |
 |       7       | 303 Tricky Chess Tactics                          | Fred Wilson & Bruce Alberston             | [pdf](https://drive.google.com/file/d/1SScvrHCwV5kNRHpg5coSQvq2lTfvMWOk/view?usp=sharing) |
 |       8       | 1001 Chess Exercises for Beginners                | Franco Masetti & Roberto Messa            | [pdf](https://drive.google.com/file/d/1ODf6i-WSqaiulz2Z_JUWEwvIrpa8Wq11/view?usp=sharing) |
+
+Kalau saya boleh pilihkan 1 buku yang paling mesti dibaca bagi pemula catur, saya akan rekomendasikan <mark>**"*Chess for Beginners* oleh Drew Sleep & Adam Markiewicz"**</mark>. Buku tersebut selain adalah buku yang relatif baru (karena dicetak tahun 2023), juga menyajikan ilustrasi yang menarik dan memanjakan mata. Benar-benar diciptakan khusus untuk menarik minat para pemula catur. Meskipun demikian, buku tersebut juga membahas semua jenis informasi catur yang komprehensif. Sebagai gambaran, berikut ini tangkapan layar bukunya:
+![ss37](/chess/intro/ss37.png)
 
 ### Platform Catur Online
 

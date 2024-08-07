@@ -3,7 +3,7 @@
 # customize the display of your website.
 
 # [Optional] Path to the site logo image relative to assets/ folder. Displayed before the Site Title in the header. Minimum size: 64x64px.
-# logo = "/imgs/logo.png"
+logo = "tsukasa.png"
 # Site description.
 description = "A Hugo Theme"
 # [Optional] Copyright owner name.
@@ -80,7 +80,7 @@ groupByYear = false
 # Whether to show dates with article listings.
 showDate = true
 # Whether to display breadcrumbs
-showBreadcrumbs = false
+showBreadcrumbs = true
 
 # Taxonomy settings
 [taxonomy]

@@ -290,7 +290,7 @@ E-book atau buku digital sebetulnya juga banyak dan bisa didapatkan secara grati
 |       7       | 303 Tricky Chess Tactics                          | Fred Wilson & Bruce Alberston             | [pdf](https://drive.google.com/file/d/1SScvrHCwV5kNRHpg5coSQvq2lTfvMWOk/view?usp=sharing) |
 |       8       | 1001 Chess Exercises for Beginners                | Franco Masetti & Roberto Messa            | [pdf](https://drive.google.com/file/d/1ODf6i-WSqaiulz2Z_JUWEwvIrpa8Wq11/view?usp=sharing) |
 
-Kalau saya boleh pilihkan 1 buku yang paling mesti dibaca bagi pemula catur, saya akan rekomendasikan <mark>**"*Chess for Beginners* oleh Drew Sleep & Adam Markiewicz"**</mark>. Buku tersebut selain adalah buku yang relatif baru (karena dicetak tahun 2023), juga menyajikan ilustrasi yang menarik dan memanjakan mata. Benar-benar diciptakan khusus untuk menarik minat para pemula catur. Meskipun demikian, buku tersebut juga membahas semua jenis informasi catur yang komprehensif. Sebagai gambaran, berikut ini tangkapan layar bukunya:
+Kalau saya boleh pilihkan 1 buku yang paling mesti dibaca bagi pemula catur, saya akan rekomendasikan <mark>**"*Chess for Beginners* oleh Drew Sleep & Adam Markiewicz"**</mark>. Buku 130 halaman tersebut selain adalah buku yang relatif baru (karena dicetak tahun 2023), juga menyajikan ilustrasi yang menarik dan memanjakan mata. Benar-benar diciptakan khusus untuk menarik minat para pemula catur. Meskipun demikian, buku tersebut juga membahas semua jenis informasi catur yang komprehensif. Sebagai gambaran, berikut ini tangkapan layar bukunya:
 ![ss37](/chess/intro/ss37.png)
 
 ### Platform Catur Online
@@ -309,7 +309,7 @@ Salam **Gens Una Sumus**!!
 
 ---
 
-🐧 This article is created with [**"Archlinux"**](https://archlinux.org/) + [**"AwesomeWM"**](https://awesomewm.org/):  
+🐧 This article is created with [**"Archlinux"**](https://archlinux.org/) + [**"AwesomeWM"**](https://awesomewm.org/) + [**"Manas dotfile"**](https://github.com/Manas140/dotfiles):  
 ![ss34](/chess/intro/ss34.png)
 
 

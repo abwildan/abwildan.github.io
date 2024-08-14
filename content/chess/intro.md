@@ -9,7 +9,7 @@ categories = "chess"
 
 Hola!
 
-Saya akan berbagi tentang catur di artikel ini. Sudah pada tau catur, kan? Iya, catur adalah permainan yang dimainkan oleh dua orang pada sebuah papan 64 petak yang berwarna gelap dan terang berukuran 8x8, dimana setiap pemain memiliki seperangkat buah catur (satu set buah catur) berjumlah 16 yang terdiri dari:[^1]
+Saya akan berbagi tentang catur di artikel ini. Sudah pada tau catur, kan? Iya, catur adalah permainan yang dimainkan oleh dua orang pada sebuah papan 64 petak yang berwarna gelap dan terang berukuran 8x8, dimana setiap pemain memiliki seperangkat buah catur (satu set buah catur) berjumlah 16 yang terdiri dari Raja, Menteri/Ratu, Gajah/Seluncur/Peluncur, Kuda, Benteng, dan Pion. Berikut adalah buah-buah catur beserta susunannya dalam papan catur:[^1]
 ![ss2](/chess/intro/ss2.jpg "papan catur dan susunan buah catur")
 
 Catur menurut saya pribadi adalah salah satu permainan sekaligus olahraga (otak) yang dapat melatih cara berfikir strategis. Bahkan, sependek pengetahuan saya, catur sudah dimainkan sejak zaman dulu oleh raja-raja. Artinya, catur pada zaman itu adalah permainan "kelas atas" yang sekarang sudah bisa dinikmati oleh semua kelas atau kalangan. Meskipun demikian, sebagaimana hakikatnya yang saat ini diberi predikat "permainan", catur juga punya sisi negatifnya. 
@@ -167,7 +167,7 @@ Notasi tersebut ditulis dan disusun berdasarkan langkah-langkah yang dibuat oleh
 
 Supaya lebih mudah memahami notasi catur, perhatikan 9 langkah catur pada permainan berikut!
 
-{{< chesscom url="//www.chess.com/emboard?id=12053291" id="12053291" >}}
+{{< chesscom url="//www.chess.com/emboard?id=12072909" id="12072909" >}}
 
 ## Nilai Buah Catur
 

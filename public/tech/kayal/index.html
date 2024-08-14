@@ -296,7 +296,7 @@
 
 </span>
   
-    11 mins
+    12 mins
   
 
 
@@ -599,6 +599,19 @@ Tulisan saya yang membahas langkah-langkah membuat <em>static-site</em> dengan H
 </span></span></code></pre></div><p>maka, berikut adalah penampakan awal websitenya:
 <img loading="lazy" src="/kayal/ss6.png" alt="ss6"  />
 </p>
+
+<p><details >
+  <summary markdown="span"><strong>Menambahkan list heading yang tampil di ToC (Table of Content) alias daftar isi</strong></summary>
+  <p>Kita hanya perlu menambahan baris berikut di dalam file <code>config/_default/hugo.toml</code>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span>[<span style="color:#a6e22e">markup</span>]
+</span></span><span style="display:flex;"><span>  [<span style="color:#a6e22e">markup</span>.<span style="color:#a6e22e">tableOfContents</span>]
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">endLevel</span> = <span style="color:#ae81ff">5</span> <span style="color:#75715e"># ganti di sini, disesuaikan dengan kebutuhan</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">ordered</span> = <span style="color:#66d9ef">false</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">startLevel</span> = <span style="color:#ae81ff">2</span>
+</span></span></code></pre></div>
+</details></p>
+
+
 
 <h3 id="menustoml">
   menus.toml

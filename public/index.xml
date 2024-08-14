@@ -6,8 +6,15 @@
     <description>Recent content on Wildan&#39;s Workspace</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 04 Aug 2024 13:54:17 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 Aug 2024 03:10:27 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chess Tactics: Fork, Pin, and Skewer</title>
+      <link>http://localhost:1313/chess/pop-tactics/</link>
+      <pubDate>Wed, 14 Aug 2024 03:10:27 +0000</pubDate>
+      <guid>http://localhost:1313/chess/pop-tactics/</guid>
+      <description>This article shares about 3 popular tactics in chess, which are Fork, Pin, and Skewer.</description>
+    </item>
     <item>
       <title>Trying Out A Flavor of New Hugo Theme: Kayal</title>
       <link>http://localhost:1313/tech/kayal/</link>

@@ -2,13 +2,55 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2024-08-04T13:54:17+00:00</lastmod>
+    <lastmod>2024-08-14T03:10:27+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2024-08-04T13:54:17+00:00</lastmod>
+    <lastmod>2024-08-14T03:10:27+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/chess/</loc>
+    <lastmod>2024-08-14T03:10:27+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/categories/chess/</loc>
+    <lastmod>2024-08-14T03:10:27+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/chess/pop-tactics/</loc>
+    <lastmod>2024-08-14T03:10:27+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/chess/</loc>
+    <lastmod>2024-08-14T03:10:27+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/intro/</loc>
+    <lastmod>2024-08-14T03:10:27+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/tactics/</loc>
+    <lastmod>2024-08-14T03:10:27+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-08-14T03:10:27+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -31,12 +73,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2024-08-04T13:54:17+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://localhost:1313/tech/</loc>
     <lastmod>2024-08-04T13:54:17+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -51,30 +87,6 @@
   <url>
     <loc>http://localhost:1313/tech/kayal/</loc>
     <lastmod>2024-08-04T13:54:17+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/tags/chess/</loc>
-    <lastmod>2024-08-02T07:59:33+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/categories/chess/</loc>
-    <lastmod>2024-08-02T07:59:33+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/chess/</loc>
-    <lastmod>2024-08-02T07:59:33+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/tags/intro/</loc>
-    <lastmod>2024-08-02T07:59:33+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

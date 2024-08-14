@@ -381,7 +381,7 @@ Bagi mayoritas orang, mungkin shortcode catur tidak terlalu penting. Tapi, karen
 
 ```shell
 <div style="text-align: center;">
-  <iframe id="{{ .Get "id" }}" allowtransparency="true" frameborder="0" style="width:100%;border:none;" src="{{ .Get "url" }}"></iframe><script>window.addEventListener("message",e=>{e['data']&&"{{ .Get "id" }}"===e['data']['id']&&document.getElementById(`${e['data']['id']}`)&&(document.getElementById(`${e['data']['id']}`).style.height=`${e['data']['frameHeight']+30}px`)});</script>
+  <iframe id="{{ .Get "id" }}" allowtransparency="true" frameborder="0" scrolling="false" style="width:100%;height:465px;border:none;" src="{{ .Get "url" }}"></iframe><script>window.addEventListener("message",e=>{e['data']&&"{{ .Get "id" }}"===e['data']['id']&&document.getElementById(`${e['data']['id']}`)&&(document.getElementById(`${e['data']['id']}`).style.height=`${e['data']['frameHeight']+30}px`)});</script>
 </div>
 ```
 

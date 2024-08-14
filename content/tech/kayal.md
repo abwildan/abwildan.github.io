@@ -135,6 +135,20 @@ hugo server
 maka, berikut adalah penampakan awal websitenya:
 ![ss6](/kayal/ss6.png)
 
+{{< collapse summary="**Menambahkan list heading yang tampil di ToC (Table of Content) alias daftar isi**" open=false >}} 
+
+Kita hanya perlu menambahan baris berikut di dalam file `config/_default/hugo.toml`:
+```toml
+[markup]
+  [markup.tableOfContents]
+    endLevel = 5 # ganti di sini, disesuaikan dengan kebutuhan
+    ordered = false
+    startLevel = 2
+
+
+```
+{{< /collapse >}}
+
 ### menus.toml
 
 Berikut adalah isi file **`menu.toml`**:

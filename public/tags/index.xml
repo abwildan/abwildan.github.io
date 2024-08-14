@@ -6,8 +6,29 @@
     <description>Recent content in Tags on Wildan&#39;s Workspace</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 14 Aug 2024 03:10:27 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 Aug 2024 14:28:44 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cooking</title>
+      <link>http://localhost:1313/tags/cooking/</link>
+      <pubDate>Wed, 14 Aug 2024 14:28:44 +0000</pubDate>
+      <guid>http://localhost:1313/tags/cooking/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Food</title>
+      <link>http://localhost:1313/tags/food/</link>
+      <pubDate>Wed, 14 Aug 2024 14:28:44 +0000</pubDate>
+      <guid>http://localhost:1313/tags/food/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Life</title>
+      <link>http://localhost:1313/tags/life/</link>
+      <pubDate>Wed, 14 Aug 2024 14:28:44 +0000</pubDate>
+      <guid>http://localhost:1313/tags/life/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Chess</title>
       <link>http://localhost:1313/tags/chess/</link>

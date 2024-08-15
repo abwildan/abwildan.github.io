@@ -20,17 +20,17 @@ title = "Chess"
 url = "/chess/"
 weight = 2
 
-[[main]]
-name = "life"
-title = "Life"
-url = "/life/"
-weight = 3
+# [[main]]
+# name = "life"
+# title = "Life"
+# url = "/life/"
+# weight = 3
 
-[[main]]
-name = "opinion"
-title = "Opinion"
-url = "/opinion/"
-weight = 4
+# [[main]]
+# name = "opinion"
+# title = "Opinion"
+# url = "/opinion/"
+# weight = 4
 
 # [[main]]
 # name = "tags"

@@ -43,6 +43,19 @@ Untuk memastikan mariadb sudah terinstall, gunakan perintah:
 mariadb --version
 ```
 
+Berikutnya, kita akan inisialisasi database dengan perintah berikut:
+```shell
+sudo mysql_install_db --user=mysql --basedir=/usr --datadir=/var/lib/mysql
+```
+
+Aktifkan *service* mariadb:
+```shell
+sudo systemctl start mariadb
+sudo systemctl enable mariadb
+
+sudo systemctl status mariadb
+```
+
 
 
 

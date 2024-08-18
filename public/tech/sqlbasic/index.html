@@ -381,6 +381,13 @@
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>sudo apt install mariadb-server mariadb-client
 </span></span></code></pre></div><p>Untuk memastikan mariadb sudah terinstall, gunakan perintah:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>mariadb --version
+</span></span></code></pre></div><p>Berikutnya, kita akan inisialisasi database dengan perintah berikut:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>sudo mysql_install_db --user<span style="color:#f92672">=</span>mysql --basedir<span style="color:#f92672">=</span>/usr --datadir<span style="color:#f92672">=</span>/var/lib/mysql
+</span></span></code></pre></div><p>Aktifkan <em>service</em> mariadb:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>sudo systemctl start mariadb
+</span></span><span style="display:flex;"><span>sudo systemctl enable mariadb
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>sudo systemctl status mariadb
 </span></span></code></pre></div><div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
@@ -407,7 +414,11 @@
 
 <nav class="pagenav">
   
-  <div></div>
+    <a class="prev" href="/tech/lazyvim/">
+      <span class="direction">« Prev</span>
+      <br>
+      <span> Lazyvim: A neovim script setup for the lazy-er(s) </span>
+    </a>
   
   
     <a class="next" href="/tech/kayal/">

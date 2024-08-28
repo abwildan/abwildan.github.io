@@ -6,8 +6,15 @@
     <description>Recent content on Wildan&#39;s Workspace</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 18 Aug 2024 13:50:11 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Aug 2024 16:39:26 +0700</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chafa: Character Art Facsimile Generator</title>
+      <link>http://localhost:1313/tech/chafa/</link>
+      <pubDate>Wed, 28 Aug 2024 16:39:26 +0700</pubDate>
+      <guid>http://localhost:1313/tech/chafa/</guid>
+      <description>Chafa is a command-line utility that converts image data, including animated GIFs, into graphics formats or ANSI/Unicode character art suitable for display in a terminal.</description>
+    </item>
     <item>
       <title>Lazyvim: A neovim setup for the lazy-er(s)</title>
       <link>http://localhost:1313/tech/lazyvim/</link>

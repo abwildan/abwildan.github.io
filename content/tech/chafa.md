@@ -34,9 +34,13 @@ Boom!
 
 ![ss1](/chafa/ss1.png)
 
+GIF-nya jangan lupa!!
+
+![gif1](/chafa/gif1.gif)
+
 Keren banget, bukan? 
 
-Tapi memang, kalau dilihat di official repo github-nya, program **chafa** ini memang relatif baru rilis, sekitar 2 tahun lalu. Jadi, saat itu saya memang belum menjumpai chafa karena program ini (mungkin) belum lahir. 
+Tapi, kalau dilihat di *official* repo github-nya, program **chafa** ini memang relatif baru rilis, sekitar 2 tahun lalu. Jadi, saat itu (ketika saya mencari-cari program seperti chafa) saya mungkin saja belum menjumpai chafa karena program ini (mungkin) belum lahir. 
 
 Wkwkwk~
 

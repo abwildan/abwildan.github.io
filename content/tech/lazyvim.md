@@ -1,5 +1,5 @@
 +++
-title = "Lazyvim: A neovim script setup for the lazy-er(s)"
+title = "Lazyvim: A neovim setup for the lazy-er(s)"
 date = 2024-08-18T13:50:11Z
 draft = false
 cover = ""

@@ -112,7 +112,7 @@ Ukuran yang terdapat pada ***corners*** akan kita inputkan pada parameter x & y,
 ![ss4](/recordmydesktop/ss4.png)
 
 ```bash
-recordmydesktop --x= --y= --width --height=
+recordmydesktop --x= --y= --width= --height=
 ```
 
 Hasilnya adalah sebagai berikut:

@@ -8,8 +8,8 @@
 
   
   
-  <title>SQL Basic Commands &middot; Wildan&#39;s Workspace</title>
-  <meta name="title" content="SQL Basic Commands &middot; Wildan&#39;s Workspace" />
+  <title>SQL Basics - Installation to Basic Commands &middot; Wildan&#39;s Workspace</title>
+  <meta name="title" content="SQL Basics - Installation to Basic Commands &middot; Wildan&#39;s Workspace" />
   
 
   
@@ -67,7 +67,7 @@
 
   <meta property="og:url" content="http://localhost:1313/tech/sqlbasic/">
   <meta property="og:site_name" content="Wildan&#39;s Workspace">
-  <meta property="og:title" content="SQL Basic Commands">
+  <meta property="og:title" content="SQL Basics - Installation to Basic Commands">
   <meta property="og:description" content="Let’s learn about SQL basic commands for databases.">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
@@ -80,7 +80,7 @@
 
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="SQL Basic Commands">
+  <meta name="twitter:title" content="SQL Basics - Installation to Basic Commands">
   <meta name="twitter:description" content="Let’s learn about SQL basic commands for databases.">
 
 
@@ -253,7 +253,7 @@
 
 
 
-<h1 class="pg-title">SQL Basic Commands</h1>
+<h1 class="pg-title">SQL Basics - Installation to Basic Commands</h1>
 
 
 <div class="meta">
@@ -290,7 +290,7 @@
 
 </span>
   
-    2 mins
+    10 mins
   
 
 
@@ -330,8 +330,33 @@
       <div class="toc-innr">
         <nav id="TableOfContents">
   <ul>
-    <li><a href="#sepintas-sql-database-dan-database-relational">Sepintas SQL, Database, dan Database Relational</a></li>
-    <li><a href="#instalasi-mariadb">Instalasi Mariadb</a></li>
+    <li><a href="#sepintas-sql-database-dan-database-relational">Sepintas SQL, Database, dan Database Relational</a>
+      <ul>
+        <li><a href="#tentang-sql-dan-mysql">Tentang SQL dan MySQL</a></li>
+        <li><a href="#mengapa-sql--mysql-itu-penting">Mengapa SQL &amp; MySQL itu penting?</a></li>
+        <li><a href="#fungsi-fungsi-dasar-mysql">Fungsi-fungsi Dasar MySQL</a></li>
+        <li><a href="#tipe-data-mysql">Tipe Data MySQL</a></li>
+      </ul>
+    </li>
+    <li><a href="#instalasi-mysql">Instalasi MySQL</a>
+      <ul>
+        <li><a href="#instalasi-via-repository">Instalasi via Repository</a></li>
+        <li><a href="#instalasi-via-deb-file-debian">Instalasi via .deb File (Debian)</a></li>
+      </ul>
+    </li>
+    <li><a href="#syntax--query-dasar-mysql">Syntax / Query Dasar MySQL</a>
+      <ul>
+        <li><a href="#membuat-database-baru">Membuat Database Baru</a></li>
+        <li><a href="#membuat-tabel-baru">Membuat Tabel Baru</a></li>
+        <li><a href="#mengubah-menghapus-dan-menambah-kolom-baru">Mengubah, Menghapus, dan Menambah Kolom Baru</a></li>
+        <li><a href="#menghapus-tabel">Menghapus Tabel</a></li>
+        <li><a href="#menghapus-database">Menghapus Database</a></li>
+        <li><a href="#menambahkan-data-ke-dalam-tabel">Menambahkan Data Ke Dalam Tabel</a></li>
+        <li><a href="#mengubah-data-dalam-tabel">Mengubah Data Dalam Tabel</a></li>
+        <li><a href="#menghapus-data-dalam-tabel">Menghapus Data Dalam Tabel</a></li>
+        <li><a href="#mengambil--menampilkan-data-dari-tabel">Mengambil / Menampilkan Data dari Tabel</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
       </div>
@@ -353,8 +378,23 @@
  </a>
   
 </h2>
+
+<h3 id="tentang-sql-dan-mysql">
+  Tentang SQL dan MySQL
+  
+  <a hidden class="anchor" href="#tentang-sql-dan-mysql">
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
+
+
+ </a>
+  
+</h3>
 <p>Pernah dengan SQL?</p>
 <p>Yap, SQL atau <em>Structured Query Language</em> adalah bahasa yang digunakan untuk membuat, mengakses, dan memodifikasi data dalam sebuah <em>database</em>, khususnya pada <em>relational database</em>.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> Apa itu <em>relational database</em>?. Perlu diketahui terlebih dahulu bahwa <em>database</em> atau basis data adalah sebuah sistem untuk menyimpan data dengan rapih. Database dapat diibaratkan sebagai lemari yang menyimpan berbagai macam pakaian.<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> Dengan adanya lemari, pakaian kita tersusun, tersimpan, dan tertata dengan rapih sehingga mudah untuk dicari nanti ketika dibutuhkan. Begitupula dengan data, data yang disimpan dalam sebuah <em>database</em> akan memudahkan pengguna data untuk mengaksesnya nanti ketika diperlukan. Data dalam database disimpan dalam bentuk tabel yang memiliki baris dan kolom.</p>
+<blockquote>
+<p><strong>Ilustrasi:</strong> Database dan tabel dapat diibaratkan juga seperti menyimpan file-file di dalam folder, dimana database adalah foldernya dan tabel-tabelnya adalah file-filenya.</p>
+</blockquote>
 <p><img loading="lazy" src="/sqlbasic/ss1.png" alt="ss1"  title="Tabel database"  />
 </p>
 <p>Nah, sekarang, kita kembali lagi, apa itu <em>relational database</em>? Sebetulnya, <em>relational database</em> adalah kumpulan tabel yang dapat saling terhubung satu sama lain melalui kunci (<em>keys</em>), yaitu <em>primary key</em> dan <em>foreign key</em>. Primary key adalah nilai unik yang dimiliki suatu data. Contoh <em>primary key</em> adalah nomor KTP karena nomor KTP setiap orang tidak akan sama, meskipun diantara dua anak kembar sekalipun. Atau pada contoh gambar tabel saya di atas adalah NIM (Nomor Induk Mahasiswa). Sedangkan <em>foreign key</em> adalah adalah nilai yang mereferensikan data dari tabel lain.</p>
@@ -363,10 +403,118 @@
 <p><mark> Referensi bacaan lanjut tentang <em>database relational</em>: <a href="https://www.dicoding.com/blog/mengenal-apa-itu-relational-database/" target="_blank">https://www.dicoding.com/blog/mengenal-apa-itu-relational-database/</a>
  </mark></p>
 
-<h2 id="instalasi-mariadb">
-  Instalasi Mariadb
+<h3 id="mengapa-sql--mysql-itu-penting">
+  Mengapa SQL &amp; MySQL itu penting?
   
-  <a hidden class="anchor" href="#instalasi-mariadb">
+  <a hidden class="anchor" href="#mengapa-sql--mysql-itu-penting">
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
+
+
+ </a>
+  
+</h3>
+<p>Mungkin kita bisa beranggapan bahwa jika database hanya terdiri dari kumpulan tabel-tabel saja, mengapa tidak menggunakan aplikasi yang lebih familiar seperti Excel saja? Betul, aplikasi seperti excel selain lebih familiar juga lebih user-friendly jika digunakan untuk mengelola data-data berskala kecil. Jika database yang dikelola berjumlah puluhan-ratusan ribu atau bahkan hingga jutaan, maka aplikasi berbasis GUI (<em>Grapical User Interface</em>) akan kewalahan jika diminta untuk mengelola data-data tersebut. Oleh karena itu, SQL yang berbasis CLI (<em>Command Line Interface</em>) diciptakan untuk meng-<em>handle</em> data-data yang lebih besar. Salah satu aplikasi berbasis SQL yang populer adalah MySQL, yang perintah-perintah dasarnya akan kita pelajari pada artikel ini.</p>
+<p>Selain alasan di atas, SQL dan MySQL menjadi populer karena beberapa alasan lain, misalnya alasan keamanan data, bersifat <em>open source</em> (gratis), dan memiliki performa yang relatif cukup baik<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>. Alasan keamanan data artinya, MySQL memberikan sistem manajemen database yang paling aman dan andal sehingga banyak digunakan oleh perusahaan-perusahaan ternama seperti Wordpress, Facebook, Twitter alias X, dan Joomla. MySQL juga bersifat <em>open source</em> karena memiliki lisensi <a href="https://en.wikipedia.org/wiki/Free-software_license" target="_blank">Free Software</a>
+ dan <a href="https://en.wikipedia.org/wiki/Shareware" target="_blank">Shareware</a>
+ serta memiliki banyak komunitas dan dokumentasinya. Terkait performa, MySQL memang dirancang untuk aplikasi yang butuh kecepatan sangat tinggi dan memanfaatkan penyimpanan data di memori agar performa aplikasi semakin baik.</p>
+
+<h3 id="fungsi-fungsi-dasar-mysql">
+  Fungsi-fungsi Dasar MySQL
+  
+  <a hidden class="anchor" href="#fungsi-fungsi-dasar-mysql">
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
+
+
+ </a>
+  
+</h3>
+<p>Setidaknya, terdapat 3 fungsi dasar MySQL sebagai aplikasi pengelola database. Ketiga fungsi tersebut terkait dengan membuat, memanipulasi, dan mengontrol database. Berikut adalah 3 fungsi MySQL<sup id="fnref1:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>:</p>
+<p><strong>1. DDL (<em>Data Definition Language</em>)</strong></p>
+<p>DDL adalah metode query yang digunakan untuk <mark> mendefinisikan objek-objek database </mark> seperti:</p>
+<ul>
+<li><strong>CREATE DATABASE</strong>: membuat database baru.</li>
+<li><strong>CREATE TABLE:</strong> membuat tabel baru dalam database.</li>
+<li><strong>ALTER TABLE:</strong> mengubah struktur tabel yang sudah ada, misalnya menambah atau menghapus kolom.</li>
+<li><strong>DROP DATABASE:</strong> menghapus seluruh database beserta seluruh isinya.</li>
+<li><strong>DROP TABLE:</strong> menghapus tabel beserta data yang ada di dalamnya.</li>
+<li><strong>CREATE INDEX:</strong> membuat indeks untuk meningkatkan kecepatan pencarian data.</li>
+<li><strong>DROP INDEX:</strong> menghapus indeks yang sudah ada.</li>
+</ul>
+<p><strong>2. DML (<em>Data Manipulation Language</em>)</strong></p>
+<p>DML adalah metode query yang digunakan untuk <mark> memanipulasi (menambah, mengubah, dan menghapus) data di dalam tabel </mark>, seperti:</p>
+<ul>
+<li><strong>SELECT:</strong> mengambil data dari satu atau lebih tabel.</li>
+<li><strong>INSERT INTO:</strong> menambahkan data baru ke dalam tabel.</li>
+<li><strong>UPDATE:</strong> mengubah data yang sudah ada dalam tabel.</li>
+<li><strong>DELETE:</strong> menghapus data dari tabel.</li>
+</ul>
+<p><strong>3. DCL (<em>Data Control Language</em>)</strong></p>
+<p>DCL adalah metode query yang digunakan untuk <mark> mengatur hak akses dan kontrol terhadap data dalam database </mark>, seperti :</p>
+<ul>
+<li><strong>GRANT:</strong> memberikan hak akses tertentu kepada pengguna atau grup pengguna.</li>
+<li><strong>REVOKE:</strong> mencabut hak akses yang sudah diberikan kepada pengguna.</li>
+</ul>
+
+<h3 id="tipe-data-mysql">
+  Tipe Data MySQL
+  
+  <a hidden class="anchor" href="#tipe-data-mysql">
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
+
+
+ </a>
+  
+</h3>
+<p>Sebelum mulai instalasi, perlu diketahui beberapa tipe data di MySQL. Secara garis besar, tipe data di MySQL dapat dibagi menjadi 4 kategori, yaitu teks &amp; karakter, angka, tanggal &amp; jam/waktu, serta jenis data khusus<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup>:</p>
+<p><strong>1. Teks &amp; Karakter (<em>String</em>)</strong></p>
+<p>Tipe data paling umum digunakan yang terkait dengan teks &amp; karakter (<em>string</em>) adalah:</p>
+<ul>
+<li><strong>VAR:</strong> menyimpan teks atau karakter dengan panjang tetap (0-255).</li>
+<li><strong>VARCHAR:</strong> menyimpan teks atau karakter yang lebih panjang (0-65535).</li>
+<li><strong>TEXT:</strong> menyimpan string dengan maksimum panjang 65535 bytes.</li>
+<li><strong>LONGTEXT:</strong> menyimpan string dengan maksium panjang 4,294,967,295 karakter.</li>
+</ul>
+<p><strong>2. Angka (<em>Numeric</em>)</strong></p>
+<p>Tipe data <em>numeric</em> yang biasa digunakan antara lain:</p>
+<ul>
+<li><strong>SMALLINT:</strong> menyimpan / mendefinisikan bilangan bulat kecil, berkisar dari -32768 hingga 32767</li>
+<li><strong>INT:</strong> menyimpan / mendefinisikan data berupa bilangan bulat, antara -2147483648 hingga 2147483647.</li>
+<li><strong>BIGINT:</strong> menyimpan / mendefinisikan bilangan bulat yang lebih besar, antara -9223372036854775808 hingga 9223372036854775807.</li>
+<li><strong>FLOAT:</strong> menyimpan / mendefinisikan data berupa angka desimal dengan presisi rendah.</li>
+<li><strong>DOUBLE:</strong> menyimpan / mendefinisikan data berupa angka desimal dengan presisi tinggi.</li>
+</ul>
+<p><strong>3. Tanggal &amp; Jam (<em>Date and Time</em>)</strong></p>
+<p>Tipe data tanggal &amp; jam diantaranya yaitu:</p>
+<ul>
+<li><strong>DATE:</strong> untuk tanggal.</li>
+<li><strong>TIME:</strong> untuk jam / waktu.</li>
+<li><strong>DATETIME:</strong> untuk kombinasi tanggal dan jam / waktu.</li>
+<li><strong>YEAR:</strong> untuk tahun dalam format 4 digit.</li>
+</ul>
+<p><strong>4. Jenis Data Khusus</strong></p>
+<p>Jenis data khusus ini terbagi menjadi 2, yaitu:</p>
+<ul>
+<li><strong>BOOL:</strong> untuk menyimpan / mendefinisikan data boolean, 0 dianggap sebagai <em><strong>false</strong></em> dan selain 0 dianggap <em><strong>true</strong></em>.</li>
+<li><strong>ENUM:</strong> untuk menyimpan / mendefinisikan data berupa nilai yang sudah ditentukan sebelumnya.</li>
+</ul>
+
+<p><details >
+  <summary markdown="span"><strong>Selengkapnya Tentang Tipe Data MySQL</strong></summary>
+  <p>Sebetulnya, masih banyak lagi tipe data yang dapat digunakan di MySQL, namun semuanya mengacu pada 3 kategori besar, yaitu tipe data string, numeric, dan time &amp; date. Selengkapnya mengenai tipe data MySQL dapat dibaca di tautan berikut:</p>
+<p><a href="https://www-w3schools-com.translate.goog/mysql/mysql_datatypes.asp?_x_tr_sl=en&amp;_x_tr_tl=id&amp;_x_tr_hl=id&amp;_x_tr_pto=tc%28http://www.glicko.net/glicko/glicko.pdf%29" target="_blank">https://www-w3schools-com.translate.goog/mysql/mysql_datatypes.asp?_x_tr_sl=en&_x_tr_tl=id&_x_tr_hl=id&_x_tr_pto=tc(http://www.glicko.net/glicko/glicko.pdf)</a>
+ <em>rating</em>.</p>
+
+</details></p>
+
+
+
+<h2 id="instalasi-mysql">
+  Instalasi MySQL
+  
+  <a hidden class="anchor" href="#instalasi-mysql">
 
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
 
@@ -374,21 +522,392 @@
  </a>
   
 </h2>
-<p>Oke, sekarang saya akan menginstall mariadb di linux:</p>
-<p>Archlinux:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>sudo pacman -S mariadb  
+<p>Oke, sekarang saya akan menginstall mysql di linux:</p>
+
+<h3 id="instalasi-via-repository">
+  Instalasi via Repository
+  
+  <a hidden class="anchor" href="#instalasi-via-repository">
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
+
+
+ </a>
+  
+</h3>
+<p>Archlinux (via AUR - <em>Arch User Repository</em>):</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>sudo yay -Sy mssql-server
 </span></span></code></pre></div><p>Debian:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>sudo apt install mariadb-server mariadb-client
-</span></span></code></pre></div><p>Untuk memastikan mariadb sudah terinstall, gunakan perintah:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>mariadb --version
-</span></span></code></pre></div><p>Berikutnya, kita akan inisialisasi database dengan perintah berikut:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>sudo mysql_install_db --user<span style="color:#f92672">=</span>mysql --basedir<span style="color:#f92672">=</span>/usr --datadir<span style="color:#f92672">=</span>/var/lib/mysql
-</span></span></code></pre></div><p>Aktifkan <em>service</em> mariadb:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>sudo systemctl start mariadb
-</span></span><span style="display:flex;"><span>sudo systemctl enable mariadb
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>sudo apt install mysql-server
+</span></span></code></pre></div>
+<h3 id="instalasi-via-deb-file-debian">
+  Instalasi via .deb File (Debian)
+  
+  <a hidden class="anchor" href="#instalasi-via-deb-file-debian">
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
+
+
+ </a>
+  
+</h3>
+<blockquote>
+<p><strong>Catatan:</strong><br>
+Instalasi SQL di Debian via repository official hanya dapat dilakukan di Debian sid (<em>unstable</em>). Jadi, kita akan melakukan instalasi SQL manual menggunakan file <code>.deb</code> resmi dari SQL-nya.
+<img loading="lazy" src="/sqlbasic/ss3.png" alt="ss3"  />
+</p>
+</blockquote>
+<ol>
+<li>Pertama, kita unduh terlebih dahulu file-nya dari website MySQL (<a href="https://dev.mysql.com/downloads/repo/apt/%29" target="_blank">https://dev.mysql.com/downloads/repo/apt/)</a>
+. Kita juga bisa mengunduh filenya via terminal dengan mengetikkan perintah berikut:</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>wget https://dev.mysql.com/get/mysql-apt-config_0.8.32-1_all.deb
+</span></span></code></pre></div><ol start="2">
+<li>Kemudian, kita akan melakukan instalasi repo MySQL dengan mengetikkan perintah berikut:</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>sudo dpkg -i mysql-apt-config_0.8.32-1_all.deb
+</span></span></code></pre></div><p>Nanti akan muncul <em>interface</em> berwarna biru (seperti gambar di bawah ini), dimana kita bisa memilih versi SQL yang ingin di-<em>install</em> dan statu <em>connector</em>-nya. Saya biarkan <em>default</em> seperti ini:
+<img loading="lazy" src="/sqlbasic/ss4.png" alt="ss4"  />
+</p>
+<p>Klik <strong><code>Tab</code></strong> di keyboard untuk memindahkan kursor ke <strong>Ok</strong> di bawah, lalu tekan Enter.</p>
+<ol start="3">
+<li>Berikutnya, kita perlu melakukan update repository dan melakukan instalasi mysql server:</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>sudo apt update 
+</span></span><span style="display:flex;"><span>sudo apt install mysql-server
+</span></span></code></pre></div><p>Jika diminta password, silakan buat password untuk root akses ke server MySQL nanti:
+<img loading="lazy" src="/sqlbasic/ss5.png" alt="ss5"  />
+</p>
+<p>Biarkan proses instalasinya berjalan hingga selesai.</p>
+<p>Untuk memastikan mysql sudah ter-<em>install</em>, gunakan perintah:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>mysql --version
+</span></span></code></pre></div><p><img loading="lazy" src="/sqlbasic/ss6.png" alt="ss6"  />
+</p>
+<p>Untuk memastikan mysql sudah berjalan, jalankan perintah:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>systemctl status mysql
+</span></span></code></pre></div><p><img loading="lazy" src="/sqlbasic/ss7.png" alt="ss7"  />
+</p>
+
+<h2 id="syntax--query-dasar-mysql">
+  Syntax / Query Dasar MySQL
+  
+  <a hidden class="anchor" href="#syntax--query-dasar-mysql">
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
+
+
+ </a>
+  
+</h2>
+<p><em>Syntax</em> dan <em>query</em> yang akan saya bahas di artikel ini adalah <em>syntax</em> dan <em>query</em> yang terkait dengan ketiga fungsi MySQL, yaitu DDL (<em>Data Definition Language</em>), DML (<em>Data Manipulation Language</em>), dan DCL (<em>Data Control Language</em>):</p>
+
+<h3 id="membuat-database-baru">
+  Membuat Database Baru
+  
+  <a hidden class="anchor" href="#membuat-database-baru">
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
+
+
+ </a>
+  
+</h3>
+<p>Kita perlu masuk ke server SQL terlebih dahulu:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span>mysql <span style="color:#f92672">-</span>u root <span style="color:#f92672">-</span>p 
+</span></span></code></pre></div><p>Kemudian masukkan password root yang sudah kita buat ketika instalasi tadi.</p>
+<p><img loading="lazy" src="/sqlbasic/gif1.gif" alt="gif1"  />
+</p>
+<p>Kita bisa melihat database default yang sudah ada dengan perintah:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#66d9ef">show</span> databases;
+</span></span></code></pre></div>
+  
+
+
+<div class="callout"
+  
+>
+<span class="icon"
+
+>
+
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M506.3 417l-213.3-364c-16.33-28-57.54-28-73.98 0l-213.2 364C-10.59 444.9 9.849 480 42.74 480h426.6C502.1 480 522.6 445 506.3 417zM232 168c0-13.25 10.75-24 24-24S280 154.8 280 168v128c0 13.25-10.75 24-23.1 24S232 309.3 232 296V168zM256 416c-17.36 0-31.44-14.08-31.44-31.44c0-17.36 14.07-31.44 31.44-31.44s31.44 14.08 31.44 31.44C287.4 401.9 273.4 416 256 416z"/></svg>
+
+
+
+</span>
+<span class="txt"
+
+>
+<strong>Penting!</strong> Pastikan setiap perintah atau <em>command</em> diakhiri dengan tanda titik koma <strong>(;)</strong>
+</span>
+</div>
+
+<p><img loading="lazy" src="/sqlbasic/ss8.png" alt="ss8"  />
+</p>
+<p>Sekarang, saya akan membuat sebuah database baru bernama <strong>&ldquo;chessgm&rdquo;</strong>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#66d9ef">create</span> <span style="color:#66d9ef">database</span> chessgm;
+</span></span></code></pre></div><p>Sekarang, kalau dicek kembali database yang ada dengan perintah <code>show databases;</code>, maka <strong>chessgm</strong> ada di sana:
+<img loading="lazy" src="/sqlbasic/ss9.png" alt="ss9"  />
+</p>
+
+<h3 id="membuat-tabel-baru">
+  Membuat Tabel Baru
+  
+  <a hidden class="anchor" href="#membuat-tabel-baru">
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
+
+
+ </a>
+  
+</h3>
+<p>Selanjutnya, saya akan membuat tabel baru di dalam database chessgm. Oleh karena itu, saya perlu mengetikkan perintah berikut terlebih dahulu:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span>use chessgm;
+</span></span></code></pre></div><p>Berikut adalah spesifikasi tabel yang ingin saya buat:</p>
+<ul>
+<li>nama tabel: &ldquo;Chess Grandmaster&rdquo;,</li>
+<li>kolom id: mengidentifikasi setiap grandmaster catur, tipe data <em>numeric</em> (INT) dan berperan sebagai primary key,</li>
+<li>kolom nama: berisi nama-nama grandmaster catur, tipe data <em>string</em> (VARCHAR),</li>
+<li>kolom elo: berisi elo rating dari masing-masing grandmater, tipe data <em>numeric</em> (INT),</li>
+<li>kolom birth: berisi tanggal lahir masing-masing grandmaster, tipe data <em>date &amp; time</em> (DATE),</li>
+<li>kolom fed: berisi federasi caturnya, tipe data string (VARCHAR).</li>
+</ul>
+<p>Berikut adalah syntax-nya:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#66d9ef">CREATE</span> <span style="color:#66d9ef">TABLE</span> <span style="color:#f92672">`</span>Chess Grandmaster<span style="color:#f92672">`</span> (
+</span></span><span style="display:flex;"><span>    id INT AUTO_INCREMENT <span style="color:#66d9ef">PRIMARY</span> <span style="color:#66d9ef">KEY</span>,
+</span></span><span style="display:flex;"><span>    nama VARCHAR(<span style="color:#ae81ff">100</span>) <span style="color:#66d9ef">NOT</span> <span style="color:#66d9ef">NULL</span>,
+</span></span><span style="display:flex;"><span>    elo INT <span style="color:#66d9ef">NOT</span> <span style="color:#66d9ef">NULL</span>,
+</span></span><span style="display:flex;"><span>    birth DATE <span style="color:#66d9ef">NOT</span> <span style="color:#66d9ef">NULL</span>,
+</span></span><span style="display:flex;"><span>    fed VARCHAR(<span style="color:#ae81ff">100</span>) <span style="color:#66d9ef">NOT</span> <span style="color:#66d9ef">NULL</span>
+</span></span><span style="display:flex;"><span>);
+</span></span></code></pre></div>
+<p><details >
+  <summary markdown="span"><strong>Keterangan</strong></summary>
+  <ol>
+<li>Kita perlu menambahkan <em>backticks</em> atau tanda petik miring <strong>( `` )</strong> di nama database karena memiliki spasi.</li>
+<li>INT, VARCHAR, dan DATE adalah tipe data yang kita definisikan pada variabel-variabel di depannya.</li>
+<li>Argumen &ldquo;NOT NULL&rdquo; artinya kolom tersebut tidak boleh kosong.</li>
+<li>Argumen 100 pada parameter VARCHAR(100) adalah jumlah karakter maksimal.</li>
+</ol>
+
+</details></p>
+
+
+<p>Berikutnya, kita bisa memastikan tabel &ldquo;Chess Grandmaster&rdquo; tersebut sudah berhasil dibuat dengan mengetikkan perintah:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#66d9ef">show</span> tables;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">describe</span> <span style="color:#f92672">`</span>Chess Grandmaster<span style="color:#f92672">`</span>;
+</span></span></code></pre></div><p><img loading="lazy" src="/sqlbasic/ss10.png" alt="ss10"  title="Membuat tabel Chess Grandmaster"  />
+</p>
+
+<h3 id="mengubah-menghapus-dan-menambah-kolom-baru">
+  Mengubah, Menghapus, dan Menambah Kolom Baru
+  
+  <a hidden class="anchor" href="#mengubah-menghapus-dan-menambah-kolom-baru">
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
+
+
+ </a>
+  
+</h3>
+<p>Misalnya, saya akan mengganti nama kolom <strong>&ldquo;fed&rdquo;</strong> menjadi <strong>&ldquo;federation&rdquo;</strong>, perintahnya:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#66d9ef">ALTER</span> <span style="color:#66d9ef">TABLE</span> <span style="color:#f92672">`</span>Chess Grandmaster<span style="color:#f92672">`</span> CHANGE <span style="color:#66d9ef">COLUMN</span> fed federation VARCHAR(<span style="color:#ae81ff">100</span>);
+</span></span></code></pre></div><p><img loading="lazy" src="/sqlbasic/ss11.png" alt="ss11"  title="Mengubah kolom fed"  />
+</p>
+<p>Saya kemudian akan menghapus kolom <strong>&ldquo;birth&rdquo;</strong>, perintahnya:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#66d9ef">ALTER</span> <span style="color:#66d9ef">TABLE</span> <span style="color:#f92672">`</span>Chess Grandmaster<span style="color:#f92672">`</span> <span style="color:#66d9ef">DROP</span> <span style="color:#66d9ef">COLUMN</span> birth;
+</span></span></code></pre></div><p><img loading="lazy" src="/sqlbasic/ss12.png" alt="ss12"  title="Menghapus kolom birth"  />
+</p>
+<p>Saya kemudian akan membuat kolom baru, yaitu <strong>&ldquo;birthday&rdquo;</strong>, perintahnya:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#66d9ef">ALTER</span> <span style="color:#66d9ef">TABLE</span> <span style="color:#f92672">`</span>Chess Grandmaster<span style="color:#f92672">`</span> <span style="color:#66d9ef">ADD</span> <span style="color:#66d9ef">COLUMN</span> birthday DATE;
+</span></span></code></pre></div><p><img loading="lazy" src="/sqlbasic/ss13.png" alt="ss13"  title="Menambahkan kolom birthday"  />
+</p>
+<p>Kita berhasil mengubah nama kolom fed menjadi federation, menghapus kolom birth, dan menambahkan kolom baru yaitu kolom birthday. Namun, seperti terlihat, kedua kolom <strong>&ldquo;federation&rdquo;</strong> dan <strong>&ldquo;birthday&rdquo;</strong> status NULL-nya adalah &ldquo;YES&rdquo;, padahal, seharusnya kedua kolom tersebut status NULL-nya <strong>&ldquo;NO&rdquo;</strong> sehingga artinya kolom tersebut tidak boleh kosong. Jadi, mari kita ubah status NULL kedua kolom tersebut.</p>
+<p>Kita bisa mengubahnya satu persatu dengan perintah berikut:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#66d9ef">ALTER</span> <span style="color:#66d9ef">TABLE</span> <span style="color:#f92672">`</span>Chess Grandmaster<span style="color:#f92672">`</span> <span style="color:#66d9ef">MODIFY</span> <span style="color:#66d9ef">COLUMN</span> federation VARCHAR(<span style="color:#ae81ff">100</span>) <span style="color:#66d9ef">NOT</span> <span style="color:#66d9ef">NULL</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">ALTER</span> <span style="color:#66d9ef">TABLE</span> <span style="color:#f92672">`</span>Chess Grandmaster<span style="color:#f92672">`</span> <span style="color:#66d9ef">MODIFY</span> <span style="color:#66d9ef">COLUMN</span> birthday DATE <span style="color:#66d9ef">NOT</span> <span style="color:#66d9ef">NULL</span>;
+</span></span></code></pre></div><p>Atau dengan satu baris perintah:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#66d9ef">ALTER</span> <span style="color:#66d9ef">TABLE</span> <span style="color:#f92672">`</span>Chess Grandmaster<span style="color:#f92672">`</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">MODIFY</span> <span style="color:#66d9ef">COLUMN</span> federation VARCHAR(<span style="color:#ae81ff">100</span>) <span style="color:#66d9ef">NOT</span> <span style="color:#66d9ef">NULL</span>, 
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">MODIFY</span> <span style="color:#66d9ef">COLUMN</span> birthday DATE <span style="color:#66d9ef">NOT</span> <span style="color:#66d9ef">NULL</span>;
+</span></span></code></pre></div><p>Hasilnya sama saja:</p>
+<p><img loading="lazy" src="/sqlbasic/ss14.png" alt="ss14"  title="Mengganti status NULL di kolom federation dan birthday"  />
+</p>
+
+<h3 id="menghapus-tabel">
+  Menghapus Tabel
+  
+  <a hidden class="anchor" href="#menghapus-tabel">
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
+
+
+ </a>
+  
+</h3>
+<p>Saya memiliki satu database lain, yaitu database <strong>&ldquo;cobachess&rdquo;</strong> yang memiliki tabel <strong>&ldquo;chess grandmaster&rdquo;</strong>. Misalnya, saya ingin menghapus tabel &ldquo;chess grandmaster&rdquo; tersebut, maka perintahnya adalah:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#66d9ef">DROP</span> <span style="color:#66d9ef">table</span> <span style="color:#f92672">`</span>chess grandmaster<span style="color:#f92672">`</span>;
+</span></span></code></pre></div><p><img loading="lazy" src="/sqlbasic/ss15.png" alt="ss15"  title="Menghapus tabel"  />
+</p>
+
+<h3 id="menghapus-database">
+  Menghapus Database
+  
+  <a hidden class="anchor" href="#menghapus-database">
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
+
+
+ </a>
+  
+</h3>
+<p>Sekarang, saya ingin menghapus database <strong>&ldquo;cobachess&rdquo;</strong> tadi, perintahnya:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#66d9ef">DROP</span> <span style="color:#66d9ef">database</span> cobachess;
+</span></span></code></pre></div><p><img loading="lazy" src="/sqlbasic/ss16.png" alt="ss16"  title="Menghapus database"  />
+</p>
+
+<h3 id="menambahkan-data-ke-dalam-tabel">
+  Menambahkan Data Ke Dalam Tabel
+  
+  <a hidden class="anchor" href="#menambahkan-data-ke-dalam-tabel">
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
+
+
+ </a>
+  
+</h3>
+<p>Sekarang, kita akan memasukkan data-data Grandmaster Catur ke dalam tabel <strong>&ldquo;Chess Grandmaster&rdquo;</strong> yang ada di dalam database <strong>&ldquo;chessgm&rdquo;</strong>. Misalnya, saya hanya akan memasukkan top 10 elo rating GM berdasarkan rangking <a href="https://ratings.fide.com/" target="_blank">FIDE</a>
+ per artikel ini dibuat.</p>
+<p>Kita bisa memasukkan data setiap Grandmaster tersebut satu persatu ke dalam tabel dengan perintah:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#66d9ef">INSERT</span> <span style="color:#66d9ef">INTO</span> <span style="color:#f92672">`</span>Chess Grandmaster<span style="color:#f92672">`</span> (nama, elo, birthday, federation) 
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">VALUES</span> (<span style="color:#e6db74">&#39;Magnus Carlsen&#39;</span>, <span style="color:#ae81ff">2832</span>, <span style="color:#e6db74">&#39;1990-11-30&#39;</span>, <span style="color:#e6db74">&#39;Norway&#39;</span>);
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>sudo systemctl status mariadb
-</span></span></code></pre></div><div class="footnotes" role="doc-endnotes">
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">INSERT</span> <span style="color:#66d9ef">INTO</span> <span style="color:#f92672">`</span>Chess Grandmaster<span style="color:#f92672">`</span> (nama, elo, birthday, federation) 
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">VALUES</span> (<span style="color:#e6db74">&#39;Hikaru Nakamura&#39;</span>, <span style="color:#ae81ff">2802</span>, <span style="color:#e6db74">&#39;1987-12-09&#39;</span>, <span style="color:#e6db74">&#39;USA&#39;</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">INSERT</span> <span style="color:#66d9ef">INTO</span> <span style="color:#f92672">`</span>Chess Grandmaster<span style="color:#f92672">`</span> (nama, elo, birthday, federation) 
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">VALUES</span> (<span style="color:#e6db74">&#39;Fabiano Caruana&#39;</span>, <span style="color:#ae81ff">2793</span>, <span style="color:#e6db74">&#39;1990-11-30&#39;</span>, <span style="color:#e6db74">&#39;USA&#39;</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>.
+</span></span><span style="display:flex;"><span>.
+</span></span><span style="display:flex;"><span>.
+</span></span></code></pre></div><p>Atau dengan satu perintah:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#66d9ef">INSERT</span> <span style="color:#66d9ef">INTO</span> <span style="color:#f92672">`</span>Chess Grandmaster<span style="color:#f92672">`</span> (nama, elo, birthday, federation) 
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">VALUES</span> 
+</span></span><span style="display:flex;"><span>    (<span style="color:#e6db74">&#39;Magnus Carlsen&#39;</span>, <span style="color:#ae81ff">2832</span>, <span style="color:#e6db74">&#39;1990-11-30&#39;</span>, <span style="color:#e6db74">&#39;Norway&#39;</span>),
+</span></span><span style="display:flex;"><span>    (<span style="color:#e6db74">&#39;Hikaru Nakamura&#39;</span>, <span style="color:#ae81ff">2802</span>, <span style="color:#e6db74">&#39;1987-12-09&#39;</span>, <span style="color:#e6db74">&#39;USA&#39;</span>),
+</span></span><span style="display:flex;"><span>    (<span style="color:#e6db74">&#39;Fabiano Caruana&#39;</span>, <span style="color:#ae81ff">2793</span>, <span style="color:#e6db74">&#39;1990-11-30&#39;</span>, <span style="color:#e6db74">&#39;USA&#39;</span>),
+</span></span><span style="display:flex;"><span>    (<span style="color:#e6db74">&#39;Arjun Erigaisi&#39;</span>, <span style="color:#ae81ff">2778</span>, <span style="color:#e6db74">&#39;1992-07-30&#39;</span>, <span style="color:#e6db74">&#39;IND&#39;</span>),
+</span></span><span style="display:flex;"><span>    (<span style="color:#e6db74">&#39;Ian Nepomniachtchi&#39;</span>, <span style="color:#ae81ff">2767</span>, <span style="color:#e6db74">&#39;1990-07-14&#39;</span>, <span style="color:#e6db74">&#39;RUS&#39;</span>),
+</span></span><span style="display:flex;"><span>    (<span style="color:#e6db74">&#39;Gukesh Dommaraju&#39;</span>, <span style="color:#ae81ff">2766</span>, <span style="color:#e6db74">&#39;2006-05-29&#39;</span>, <span style="color:#e6db74">&#39;IND&#39;</span>),
+</span></span><span style="display:flex;"><span>    (<span style="color:#e6db74">&#39;Nodirbek Abdusattorov&#39;</span>, <span style="color:#ae81ff">2762</span>, <span style="color:#e6db74">&#39;2004-09-18&#39;</span>, <span style="color:#e6db74">&#39;UZB&#39;</span>),
+</span></span><span style="display:flex;"><span>    (<span style="color:#e6db74">&#39;Wei Yi&#39;</span>, <span style="color:#ae81ff">2762</span>, <span style="color:#e6db74">&#39;1999-06-02&#39;</span>, <span style="color:#e6db74">&#39;CHN&#39;</span>),
+</span></span><span style="display:flex;"><span>    (<span style="color:#e6db74">&#39;Alireza Firouzja&#39;</span>, <span style="color:#ae81ff">2751</span>, <span style="color:#e6db74">&#39;2003-06-18&#39;</span>, <span style="color:#e6db74">&#39;FRA&#39;</span>),
+</span></span><span style="display:flex;"><span>    (<span style="color:#e6db74">&#39;Wesley So&#39;</span>, <span style="color:#ae81ff">2751</span>, <span style="color:#e6db74">&#39;1993-10-9&#39;</span>, <span style="color:#e6db74">&#39;USA&#39;</span>);
+</span></span></code></pre></div><p>Hasilnya sama saja. Kita bisa melihat data-data yang baru saja di-<em>input</em>-kan ke dalam tabel <strong>&ldquo;Chess Grandmaster&rdquo;</strong> tersebut dengan perintah:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#66d9ef">SELECT</span> <span style="color:#f92672">*</span> <span style="color:#66d9ef">FROM</span> <span style="color:#f92672">`</span>Chess Grandmaster<span style="color:#f92672">`</span>;
+</span></span></code></pre></div><p><img loading="lazy" src="/sqlbasic/ss17.png" alt="ss17"  title="Menambahkan data ke dalam tabel"  />
+</p>
+<blockquote>
+<p><strong>Notes:</strong><br>
+Perhatikan bahwa saya tidak memasukkan nomor urut di kolom id, tapi nomor langsung di-<em>generate</em> karena di awal pembuatan tabel, kita sudah mendefinisikan kolom id sebagai data <em>integer</em> yang &ldquo;AUTO INCREMENT&rdquo; dan juga berfungsi sebagai PRIMARY KEY.</p>
+</blockquote>
+
+<h3 id="mengubah-data-dalam-tabel">
+  Mengubah Data Dalam Tabel
+  
+  <a hidden class="anchor" href="#mengubah-data-dalam-tabel">
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
+
+
+ </a>
+  
+</h3>
+<p>Misalnya, saya akan mengubah data Wesley So, dimana</p>
+<ul>
+<li>namanya akan saya ubah menjadi &ldquo;Wesley Jo&rdquo;,</li>
+<li>elo rating-nya akan saya ubah menjadi &ldquo;2750&rdquo;, dan</li>
+<li>federasinya akan ubah ke &ldquo;PHI&rdquo;.</li>
+</ul>
+<p>Perintahnya:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#66d9ef">UPDATE</span> <span style="color:#f92672">`</span>Chess Grandmaster<span style="color:#f92672">`</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">SET</span> nama <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;Wesley Jo&#39;</span>, elo <span style="color:#f92672">=</span> <span style="color:#ae81ff">2750</span>, federation <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;PHI&#39;</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">WHERE</span> nama <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;Wesley So&#39;</span>;
+</span></span></code></pre></div><p><img loading="lazy" src="/sqlbasic/ss18.png" alt="ss18"  title="Mengubah data di dalam tabel"  />
+</p>
+
+<h3 id="menghapus-data-dalam-tabel">
+  Menghapus Data Dalam Tabel
+  
+  <a hidden class="anchor" href="#menghapus-data-dalam-tabel">
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
+
+
+ </a>
+  
+</h3>
+<p>Sekarang, saya ingin menghapus data <strong>&ldquo;Wesley Jo&rdquo;</strong> dalam tabel &ldquo;Chess Grandmaster&rdquo;, perintahnya:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#66d9ef">DELETE</span> <span style="color:#66d9ef">FROM</span> <span style="color:#f92672">`</span>Chess Grandmaster<span style="color:#f92672">`</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">WHERE</span> nama <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;Wesley Jo&#39;</span>;
+</span></span></code></pre></div><p><img loading="lazy" src="/sqlbasic/ss19.png" alt="ss19"  title="Mengubah data Wesley So dari tabel"  />
+</p>
+
+<h3 id="mengambil--menampilkan-data-dari-tabel">
+  Mengambil / Menampilkan Data dari Tabel
+  
+  <a hidden class="anchor" href="#mengambil--menampilkan-data-dari-tabel">
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
+
+
+ </a>
+  
+</h3>
+<p>Pengambilan data dari tabel dapat dilakukan dengan berbagai cara, menyesuaikan dengan kebutuhan data yang ingin kita ambil. Beberapa cara pengambilan data dari tabel yang akan saya bahas di artikel ini dapat dilakukan dengan 5 cara:               |</p>
+<ol>
+<li>Menampilkan seluruh data</li>
+</ol>
+<p>Untuk menampilkan seluruh data pada kolom yang terdapat di dalam tabel, perintahnya:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#66d9ef">SELECT</span> <span style="color:#f92672">*</span> <span style="color:#66d9ef">FROM</span> <span style="color:#f92672">`</span>Chess Grandmaster<span style="color:#f92672">`</span>;
+</span></span></code></pre></div><p><img loading="lazy" src="/sqlbasic/ss20.png" alt="ss20"  title="Menampilkan seluruh tabel"  />
+</p>
+<ol start="2">
+<li>Menampilkan kolom tertentu</li>
+</ol>
+<p>Jika misalnya saya hanya ingin menampilkan kolom &ldquo;nama&rdquo; dan &ldquo;elo&rdquo; saja, maka perintahnya:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#66d9ef">SELECT</span> nama, elo <span style="color:#66d9ef">FROM</span> <span style="color:#f92672">`</span>Chess Grandmaster<span style="color:#f92672">`</span>;
+</span></span></code></pre></div><p><img loading="lazy" src="/sqlbasic/ss21.png" alt="ss21"  title="Menampilkan kolom nama dan elo saja"  />
+</p>
+<ol start="3">
+<li>Menggunakan kondisi untuk memfilter data</li>
+</ol>
+<p>Misalnya, saya hanya ingin menampilkan Grandmaster yang memiliki elo di atas 2770 saja, perintahnya:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#66d9ef">SELECT</span> <span style="color:#f92672">*</span> <span style="color:#66d9ef">FROM</span> <span style="color:#f92672">`</span>Chess Grandmaster<span style="color:#f92672">`</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">WHERE</span> elo <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">2770</span>;
+</span></span></code></pre></div><p><img loading="lazy" src="/sqlbasic/ss22.png" alt="ss22"  title="Memfilter data yang tampil dengan kondisi elo &gt; 2770"  />
+</p>
+<ol start="4">
+<li>Mengurutkan hasil Query</li>
+</ol>
+<p>Kita bisa mengurutkan data yang akan ditampilkan, baik mengurutkan secara ASC (<em>ascending</em> / rendah ke tinggi) maupun DESC (<em>descending</em> / tinggi ke rendah). Misalnya saya ingin mengurutkan data Grandmaster dari elo terendah, perintahnya:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#66d9ef">SELECT</span> <span style="color:#f92672">*</span> <span style="color:#66d9ef">FROM</span> <span style="color:#f92672">`</span>Chess Grandmaster<span style="color:#f92672">`</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">ORDER</span> <span style="color:#66d9ef">BY</span> elo <span style="color:#66d9ef">ASC</span>;
+</span></span></code></pre></div><p><img loading="lazy" src="/sqlbasic/ss23.png" alt="ss23"  title="Mengurutkan hasil query secara ASC"  />
+</p>
+<ol start="5">
+<li>Membatasi data yang tampil</li>
+</ol>
+<p>Jika kita hanya ingin menampilkan beberapa data, kita bisa melakukannya dengan menggunakan perintah:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#66d9ef">SELECT</span> <span style="color:#f92672">*</span> <span style="color:#66d9ef">FROM</span> <span style="color:#f92672">`</span>Chess Grandmaster<span style="color:#f92672">`</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">ORDER</span> <span style="color:#66d9ef">BY</span> elo <span style="color:#66d9ef">ASC</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">LIMIT</span> <span style="color:#ae81ff">3</span>;
+</span></span></code></pre></div><p><img loading="lazy" src="/sqlbasic/ss24.png" alt="ss24"  title="Melimit jumlah data yang akan ditampilkan"  />
+</p>
+<div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
 <li id="fn:1">
@@ -398,6 +917,14 @@
 <li id="fn:2">
 <p><a href="https://www.dicoding.com/blog/mengenal-apa-itu-relational-database/" target="_blank">https://www.dicoding.com/blog/mengenal-apa-itu-relational-database/</a>
 &#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p><a href="https://dqlab.id/belajar-mysql-secara-mendalam-pemula-wajib-tahu" target="_blank">https://dqlab.id/belajar-mysql-secara-mendalam-pemula-wajib-tahu</a>
+&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4">
+<p><a href="https://blog.unmaha.ac.id/memahami-tipe-data-pada-mysql/" target="_blank">https://blog.unmaha.ac.id/memahami-tipe-data-pada-mysql/</a>
+&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
 </div>
@@ -417,7 +944,7 @@
     <a class="prev" href="/tech/lazyvim/">
       <span class="direction">« Prev</span>
       <br>
-      <span> Lazyvim: A neovim script setup for the lazy-er(s) </span>
+      <span> Lazyvim: A neovim setup for the lazy-er(s) </span>
     </a>
   
   

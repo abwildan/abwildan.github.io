@@ -290,7 +290,7 @@
 
 </span>
   
-    10 mins
+    12 mins
   
 
 
@@ -355,6 +355,13 @@
         <li><a href="#mengubah-data-dalam-tabel">Mengubah Data Dalam Tabel</a></li>
         <li><a href="#menghapus-data-dalam-tabel">Menghapus Data Dalam Tabel</a></li>
         <li><a href="#mengambil--menampilkan-data-dari-tabel">Mengambil / Menampilkan Data dari Tabel</a></li>
+      </ul>
+    </li>
+    <li><a href="#menjawab-soal-soal-database">Menjawab Soal-soal Database</a>
+      <ul>
+        <li><a href="#1-siapakah-gm-yang-paling-tinggi--paling-rendah-elo-rating-nya">1. Siapakah GM yang <em><strong>paling tinggi</strong></em> &amp; <em><strong>paling rendah</strong></em> ELO rating-nya?</a></li>
+        <li><a href="#2-siapakah-gm-yang-paling-tua-dan-paling-muda-umurnya">2. Siapakah GM yang <em><strong>paling tua</strong></em> dan <em><strong>paling muda</strong></em> umurnya?</a></li>
+        <li><a href="#berapakah-jumlah-gm-yang-berasal-dari-federasi-amerika-dan-china">Berapakah jumlah GM yang berasal dari (federasi) Amerika dan China?</a></li>
       </ul>
     </li>
   </ul>
@@ -906,6 +913,118 @@ Perhatikan bahwa saya tidak memasukkan nomor urut di kolom id, tapi nomor langsu
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">ORDER</span> <span style="color:#66d9ef">BY</span> elo <span style="color:#66d9ef">ASC</span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">LIMIT</span> <span style="color:#ae81ff">3</span>;
 </span></span></code></pre></div><p><img loading="lazy" src="/sqlbasic/ss24.png" alt="ss24"  title="Melimit jumlah data yang akan ditampilkan"  />
+</p>
+
+<h2 id="menjawab-soal-soal-database">
+  Menjawab Soal-soal Database
+  
+  <a hidden class="anchor" href="#menjawab-soal-soal-database">
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
+
+
+ </a>
+  
+</h2>
+<p>Kita sudah membuat database <strong>chessgm</strong> yang memiliki sebuah tabel, <strong>Chess Grandmaster</strong>.</p>
+<p>Sekarang, kita akan menjawab beberapa pertanyaan menggunakan perintah-perintah SQL yang sudah dibahas sebelumnya. Pertanyaan atau soal-soal yang akan dijawab akan merujuk pada tabel dan database yang sudah kita dibuat tersebut. Berikut adalah pertanyaan-pertanyaan yang perlu dijawab:</p>
+<ol>
+<li>Siapakah GM yang <em><strong>paling tinggi</strong></em> &amp; <em><strong>paling rendah</strong></em> ELO rating-nya?</li>
+<li>Siapakah GM yang <em><strong>paling tua</strong></em> dan <em><strong>paling muda</strong></em> umurnya?</li>
+<li>Berapakah jumlah GM yang berasal dari (federasi) Amerika dan China?</li>
+</ol>
+<p>Mari kita jawab&hellip;</p>
+
+<h3 id="1-siapakah-gm-yang-paling-tinggi--paling-rendah-elo-rating-nya">
+  1. Siapakah GM yang <em><strong>paling tinggi</strong></em> &amp; <em><strong>paling rendah</strong></em> ELO rating-nya?
+  
+  <a hidden class="anchor" href="#1-siapakah-gm-yang-paling-tinggi--paling-rendah-elo-rating-nya">
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
+
+
+ </a>
+  
+</h3>
+<p>Untuk mencari GM dengan ELO rating paling tinggi, kita bisa menggunakan query berikut:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#66d9ef">SELECT</span> <span style="color:#f92672">*</span> 
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">FROM</span> <span style="color:#f92672">`</span>Chess Grandmaster<span style="color:#f92672">`</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">ORDER</span> <span style="color:#66d9ef">BY</span> elo <span style="color:#66d9ef">DESC</span> 
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">LIMIT</span> <span style="color:#ae81ff">1</span>;
+</span></span></code></pre></div><p>Outputnya akan menunjukkan <strong>Magnus Carlsen</strong> sebagai GM dengan ELO rating tertinggi:</p>
+<p><img loading="lazy" src="/sqlbasic/ss25.png" alt="ss25"  />
+</p>
+<p>Untuk mencari GM dengan ELO rating paling rendah, kita bisa menggunakan query berikut:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#66d9ef">SELECT</span> <span style="color:#f92672">*</span> 
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">FROM</span> <span style="color:#f92672">`</span>Chess Grandmaster<span style="color:#f92672">`</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">ORDER</span> <span style="color:#66d9ef">BY</span> elo <span style="color:#66d9ef">ASC</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">LIMIT</span> <span style="color:#ae81ff">1</span>;
+</span></span></code></pre></div><p>Outputnya akan menunjukkan <strong>Wesley So</strong> sebagai GM dengan ELO rating terendah:</p>
+<p><img loading="lazy" src="/sqlbasic/ss26.png" alt="ss26"  />
+</p>
+
+<p><details >
+  <summary markdown="span"><strong>Catatan</strong></summary>
+  <p><img loading="lazy" src="/sqlbasic/ss27.png" alt="ss27"  />
+</p>
+<p>Query tersebut tentu memiliki batasan, yaitu kita hanya bisa mendapatkan satu nama saja, meskipun misalnya GM di dalam database yang memiliki ELO terendah ada lebih dari 1 orang. Tapi, tujuan dari soal-soal ini adalah untuk mempraktikkan kembali pelajaran-pelajaran tentang query dasar SQL yang sudah saya jelaskan sebelumnya. Jadi, untuk hasil yang lebih presisi, tentu ada perintah atau query SQL yang lebih sesuai yang akan kita pelajar next time &hellip;</p>
+
+</details></p>
+
+
+
+<h3 id="2-siapakah-gm-yang-paling-tua-dan-paling-muda-umurnya">
+  2. Siapakah GM yang <em><strong>paling tua</strong></em> dan <em><strong>paling muda</strong></em> umurnya?
+  
+  <a hidden class="anchor" href="#2-siapakah-gm-yang-paling-tua-dan-paling-muda-umurnya">
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
+
+
+ </a>
+  
+</h3>
+<p>Untuk mencari GM yang paling senior, kita bisa menggunakan perintah berikut:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#66d9ef">SELECT</span> <span style="color:#f92672">*</span> 
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">FROM</span> <span style="color:#f92672">`</span>Chess Grandmaster<span style="color:#f92672">`</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">ORDER</span> <span style="color:#66d9ef">BY</span> birth <span style="color:#66d9ef">ASC</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">LIMIT</span> <span style="color:#ae81ff">1</span>;
+</span></span></code></pre></div><p>Outputnya akan menunjukkan <strong>Hikaru Nakamura</strong> sebagai GM yang paling senior:</p>
+<p><img loading="lazy" src="/sqlbasic/ss28.png" alt="ss28"  />
+</p>
+<p>Begitu juga dengan GM yang paling junior, kita bisa menggunakan perintah berikut:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#66d9ef">SELECT</span> <span style="color:#f92672">*</span> 
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">FROM</span> <span style="color:#f92672">`</span>Chess Grandmaster<span style="color:#f92672">`</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">ORDER</span> <span style="color:#66d9ef">BY</span> birth <span style="color:#66d9ef">DESC</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">LIMIT</span> <span style="color:#ae81ff">1</span>;
+</span></span></code></pre></div><p>Outputnya akan menunjukkan Gukesh Dommaraju sebagai GM yang paling junior:</p>
+<p><img loading="lazy" src="/sqlbasic/ss29.png" alt="ss29"  />
+</p>
+
+<h3 id="berapakah-jumlah-gm-yang-berasal-dari-federasi-amerika-dan-china">
+  Berapakah jumlah GM yang berasal dari (federasi) Amerika dan China?
+  
+  <a hidden class="anchor" href="#berapakah-jumlah-gm-yang-berasal-dari-federasi-amerika-dan-china">
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
+
+
+ </a>
+  
+</h3>
+<p>Untuk mencari GM yang berasal dari federasi Amerika, kita bisa menggunakan perintah:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#66d9ef">SELECT</span> <span style="color:#f92672">*</span> 
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">FROM</span> <span style="color:#f92672">`</span>Chess Grandmaster<span style="color:#f92672">`</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">WHERE</span> fed <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;USA&#39;</span>;
+</span></span></code></pre></div><p>Outpunya akan menunjukkan 3 GM, yaitu <strong>Hikaru Nakamura</strong>, <strong>Fabiano Caruana</strong>, dan <strong>Wesley So</strong>:</p>
+<p><img loading="lazy" src="/sqlbasic/ss30.png" alt="ss30"  />
+</p>
+<p>Untuk mencari GM yang berasal dari federasi China, kita hanya perlu mengganti kode federasinya saja:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#66d9ef">SELECT</span> <span style="color:#f92672">*</span> 
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">FROM</span> <span style="color:#f92672">`</span>Chess Grandmaster<span style="color:#f92672">`</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">WHERE</span> fed <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;CHN&#39;</span>;
+</span></span></code></pre></div><p>Outpunya akan menunjukkan <strong>Wei Yi</strong>:</p>
+<p><img loading="lazy" src="/sqlbasic/ss31.png" alt="ss31"  />
 </p>
 <div class="footnotes" role="doc-endnotes">
 <hr>

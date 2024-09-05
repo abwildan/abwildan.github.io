@@ -2,7 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2024-08-28T16:39:26+07:00</lastmod>
+    <lastmod>2024-09-03T10:55:11+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/chess/</loc>
+    <lastmod>2024-09-03T10:55:11+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -146,12 +152,6 @@
   </url>
   <url>
     <loc>http://localhost:1313/chess/pop-tactics/</loc>
-    <lastmod>2024-08-14T03:10:27+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/chess/</loc>
     <lastmod>2024-08-14T03:10:27+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>

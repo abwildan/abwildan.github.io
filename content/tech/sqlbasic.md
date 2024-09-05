@@ -423,7 +423,99 @@ LIMIT 3;
 
 ![ss24](/sqlbasic/ss24.png "Melimit jumlah data yang akan ditampilkan")
 
+## Menjawab Soal-soal Database
 
+Kita sudah membuat database **chessgm** yang memiliki sebuah tabel, **Chess Grandmaster**.
+
+Sekarang, kita akan menjawab beberapa pertanyaan menggunakan perintah-perintah SQL yang sudah dibahas sebelumnya. Pertanyaan atau soal-soal yang akan dijawab akan merujuk pada tabel dan database yang sudah kita dibuat tersebut. Berikut adalah pertanyaan-pertanyaan yang perlu dijawab:
+
+1. Siapakah GM yang ***paling tinggi*** & ***paling rendah*** ELO rating-nya?
+2. Siapakah GM yang ***paling tua*** dan ***paling muda*** umurnya?
+3. Berapakah jumlah GM yang berasal dari (federasi) Amerika dan China?
+
+Mari kita jawab...
+
+### 1. Siapakah GM yang ***paling tinggi*** & ***paling rendah*** ELO rating-nya?
+
+Untuk mencari GM dengan ELO rating paling tinggi, kita bisa menggunakan query berikut:
+```sql
+SELECT * 
+FROM `Chess Grandmaster`
+ORDER BY elo DESC 
+LIMIT 1;
+```
+
+Outputnya akan menunjukkan **Magnus Carlsen** sebagai GM dengan ELO rating tertinggi:
+
+![ss25](/sqlbasic/ss25.png)
+
+Untuk mencari GM dengan ELO rating paling rendah, kita bisa menggunakan query berikut:
+```sql
+SELECT * 
+FROM `Chess Grandmaster`
+ORDER BY elo ASC
+LIMIT 1;
+```
+
+Outputnya akan menunjukkan **Wesley So** sebagai GM dengan ELO rating terendah:
+
+![ss26](/sqlbasic/ss26.png)
+
+{{< collapse summary="**Catatan**" >}} 
+![ss27](/sqlbasic/ss27.png)
+
+Query tersebut tentu memiliki batasan, yaitu kita hanya bisa mendapatkan satu nama saja, meskipun misalnya GM di dalam database yang memiliki ELO terendah ada lebih dari 1 orang. Tapi, tujuan dari soal-soal ini adalah untuk mempraktikkan kembali pelajaran-pelajaran tentang query dasar SQL yang sudah saya jelaskan sebelumnya. Jadi, untuk hasil yang lebih presisi, tentu ada perintah atau query SQL yang lebih sesuai yang akan kita pelajar next time ...
+{{< /collapse >}}
+
+### 2. Siapakah GM yang ***paling tua*** dan ***paling muda*** umurnya?
+
+Untuk mencari GM yang paling senior, kita bisa menggunakan perintah berikut:
+```sql
+SELECT * 
+FROM `Chess Grandmaster`
+ORDER BY birth ASC
+LIMIT 1;
+```
+
+Outputnya akan menunjukkan **Hikaru Nakamura** sebagai GM yang paling senior:
+
+![ss28](/sqlbasic/ss28.png)
+
+Begitu juga dengan GM yang paling junior, kita bisa menggunakan perintah berikut:
+```sql
+SELECT * 
+FROM `Chess Grandmaster`
+ORDER BY birth DESC
+LIMIT 1;
+```
+
+Outputnya akan menunjukkan Gukesh Dommaraju sebagai GM yang paling junior:
+
+![ss29](/sqlbasic/ss29.png)
+
+### Berapakah jumlah GM yang berasal dari (federasi) Amerika dan China?
+
+Untuk mencari GM yang berasal dari federasi Amerika, kita bisa menggunakan perintah:
+```sql
+SELECT * 
+FROM `Chess Grandmaster`
+WHERE fed = 'USA';
+```
+
+Outpunya akan menunjukkan 3 GM, yaitu **Hikaru Nakamura**, **Fabiano Caruana**, dan **Wesley So**:
+
+![ss30](/sqlbasic/ss30.png)
+
+Untuk mencari GM yang berasal dari federasi China, kita hanya perlu mengganti kode federasinya saja:
+```sql
+SELECT * 
+FROM `Chess Grandmaster`
+WHERE fed = 'CHN';
+```
+
+Outpunya akan menunjukkan **Wei Yi**:
+
+![ss31](/sqlbasic/ss31.png)
 
 
 [^1]: https://id.wikipedia.org/wiki/SQL

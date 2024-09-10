@@ -6,8 +6,15 @@
     <description>Recent content in Categories on Wildan&#39;s Workspace</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 Aug 2024 16:39:26 +0700</lastBuildDate>
+    <lastBuildDate>Tue, 10 Sep 2024 10:53:50 +0700</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kitty</title>
+      <link>http://localhost:1313/categories/kitty/</link>
+      <pubDate>Tue, 10 Sep 2024 10:53:50 +0700</pubDate>
+      <guid>http://localhost:1313/categories/kitty/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Chafa</title>
       <link>http://localhost:1313/categories/chafa/</link>

@@ -9,11 +9,11 @@
     <lastBuildDate>Sun, 15 Sep 2024 21:23:53 +0700</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Create Your Own IRC Server with Inspircd &amp; Ircd-hybrid!</title>
+      <title>Create Your Own IRC Server!</title>
       <link>http://localhost:1313/tech/ircserver/</link>
       <pubDate>Sun, 15 Sep 2024 21:23:53 +0700</pubDate>
       <guid>http://localhost:1313/tech/ircserver/</guid>
-      <description>Do you want to chat via terminal like a hackerman? If so, it&amp;rsquo;s time to read this, then&amp;hellip;</description>
+      <description>Do you want to chat via terminal like a hackerman? If so, it&amp;rsquo;s time to read this because we will create an IRC Server with inspircd &amp;amp; ircd-hybrid.</description>
     </item>
     <item>
       <title>Configuring Kitty &amp; Bash</title>

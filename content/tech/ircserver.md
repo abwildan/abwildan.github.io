@@ -1,8 +1,8 @@
 +++
-title = "Create Your Own IRC Server with Inspircd & Ircd-hybrid!"
+title = "Create Your Own IRC Server!"
 date = 2024-09-15T21:23:53+07:00
 cover = ""
-summary = "Do you want to chat via terminal like a hackerman? If so, it's time to read this, then..."
+summary = "Do you want to chat via terminal like a hackerman? If so, it's time to read this because we will create an IRC Server with inspircd & ircd-hybrid."
 tags = [ "irc", "server" ]
 categories = "irc"
 +++

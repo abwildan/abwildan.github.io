@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+  <meta http-equiv="content-language" content="en-us" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+  
+  
+  <title>Create Your Own IRC Server with Inspircd & Ircd-hybrid! &middot; Wildan&#39;s Workspace</title>
+  <meta name="title" content="Create Your Own IRC Server with Inspircd & Ircd-hybrid! &middot; Wildan&#39;s Workspace" />
+  
+
+  
+  
+  <meta name="description" content="Do you want to chat via terminal like a hackerman? If so, it&#39;s time to read this, then..." />
+  
+  <meta name="keywords" content="irc, server, " />
+  <link rel="canonical" href="http://localhost:1313/tech/ircserver/" />
+
+  
+
+  
+    
+        <link rel="stylesheet" href="/css/theme.css">
+    
+  
+    
+        <link rel="stylesheet" href="/css/main.css">
+    
+  
+    
+  
+
+
+  
+
+
+  
+
+
+
+  
+    
+        <script src="/js/theme.js"></script>
+      
+    
+  
+
+  
+    
+        <script src="/js/codecopy.js"></script>
+      
+    
+  
+
+
+
+  
+  
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+  
+
+  <meta property="og:url" content="http://localhost:1313/tech/ircserver/">
+  <meta property="og:site_name" content="Wildan&#39;s Workspace">
+  <meta property="og:title" content="Create Your Own IRC Server with Inspircd & Ircd-hybrid!">
+  <meta property="og:description" content="Do you want to chat via terminal like a hackerman? If so, it’s time to read this, then…">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="tech">
+    <meta property="article:published_time" content="2024-09-15T21:23:53+07:00">
+    <meta property="article:modified_time" content="2024-09-15T21:23:53+07:00">
+    <meta property="article:tag" content="Irc">
+    <meta property="article:tag" content="Server">
+
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Create Your Own IRC Server with Inspircd & Ircd-hybrid!">
+  <meta name="twitter:description" content="Do you want to chat via terminal like a hackerman? If so, it’s time to read this, then…">
+
+
+  
+  
+
+
+
+
+
+
+  
+  
+
+
+  
+  
+  
+  
+  
+
+  
+  
+  
+    <link rel="preload" href="http://localhost:1313/fonts/Ubuntu-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  
+
+  
+
+</head>
+
+  <body>
+    <script>
+      const siteTheme = "auto";
+      let savedTheme = localStorage.getItem('theme') || siteTheme;
+      if (savedTheme == 'auto') {
+        if ( window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ) {
+          savedTheme = 'dark';
+        }
+      }
+      if (savedTheme === "dark") {
+        document.body.classList.add('dark');
+        localStorage.setItem('theme', 'dark');
+      }
+    </script>
+    <div class="content">
+      <header>
+    
+    <a class="title" href="/">
+      <img alt="Site Logo" src="/tsukasa.png" />
+    </a>
+    
+    <div class="header-cntr">
+    <a class="title" href="/">
+    <span>Wildan's Workspace</span>
+    </a>
+  <div class="menu">
+  <nav id="main-menu" class="mm-normal">
+    <ul>
+    <li> <button id="mob-x-icon" class="menu-btn" arial-label="x-icon"> 
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+
+
+ </button> </li>
+    
+      <li><a href="/tech/" aria-label="tech">
+      Tech</li></a>
+    
+      <li><a href="/chess/" aria-label="chess">
+      Chess</li></a>
+    
+    </ul>
+  </nav>
+    <div class="side-menu">
+    
+    <button id="theme-switcher" class="menu-btn" aria-label="Theme switcher">
+      <div id="moon">
+      
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
+
+
+
+      </div>
+      <div id="sun">
+      
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/></svg>
+
+
+
+      </div>
+    </button>
+    
+    </div>
+    <button id="mob-hb-icon" class="menu-btn" aria-label="Hamburger icon">
+      
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z"/></svg>
+
+
+
+    </button>
+  </div>
+  <script>
+  (function() {
+    document.addEventListener('DOMContentLoaded', function() {
+    const openBtn = document.getElementById('mob-hb-icon');
+    const closeBtn = document.getElementById('mob-x-icon');
+    const mainMenu = document.getElementById('main-menu');
+    const body = document.body;
+
+    openBtn.addEventListener('click', function() {
+        mainMenu.classList.replace('mm-normal', 'mm-mobile-open');
+        closeBtn.style.display = 'block';
+        body.style.overflow = 'hidden';
+    });
+    closeBtn.addEventListener('click', function() {
+        mainMenu.classList.replace('mm-mobile-open', 'mm-normal');
+        closeBtn.style.display = 'none';
+        body.style.overflow = '';
+    });
+    })
+  })();
+  </script>
+  
+  <script>
+  (function() {
+    var mainmenu = document.getElementById('main-menu');
+    if (!mainmenu) return;
+
+    var path = window.location.pathname;
+    var links = mainmenu.querySelectorAll('a');
+
+    links.forEach(function(link) {
+      if (link.getAttribute('href') === path) {
+        link.classList.add('active');
+      }
+    });
+  })();
+  </script>
+  
+</div>
+</header>
+
+      <main>
+        
+
+
+
+
+<ul class="breadcrumbs">
+  <li><a href="http://localhost:1313/">
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="currentColor" d="M575.8 255.5c0 18-15 32.1-32 32.1l-32 0 .7 160.2c0 2.7-.2 5.4-.5 8.1l0 16.2c0 22.1-17.9 40-40 40l-16 0c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1L416 512l-24 0c-22.1 0-40-17.9-40-40l0-24 0-64c0-17.7-14.3-32-32-32l-64 0c-17.7 0-32 14.3-32 32l0 64 0 24c0 22.1-17.9 40-40 40l-24 0-31.9 0c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2l-16 0c-22.1 0-40-17.9-40-40l0-112c0-.9 0-1.9 .1-2.8l0-69.7-32 0c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z"/></svg>
+
+
+</a></li>
+  
+    
+    
+      <li><a href="http://localhost:1313/tech/">Teches</a></li>
+    
+    
+  
+    
+  
+</ul>
+
+
+
+<h1 class="pg-title">Create Your Own IRC Server with Inspircd & Ircd-hybrid!</h1>
+
+
+<div class="meta">
+  
+
+
+
+<p>
+
+
+  
+  
+  <span class="meta-icon">
+
+    <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+<svg fill="currentColor" width="800px" height="800px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19,4H17V3a1,1,0,0,0-2,0V4H9V3A1,1,0,0,0,7,3V4H5A3,3,0,0,0,2,7V19a3,3,0,0,0,3,3H19a3,3,0,0,0,3-3V7A3,3,0,0,0,19,4Zm1,15a1,1,0,0,1-1,1H5a1,1,0,0,1-1-1V12H20Zm0-9H4V7A1,1,0,0,1,5,6H7V7A1,1,0,0,0,9,7V6h6V7a1,1,0,0,0,2,0V6h2a1,1,0,0,1,1,1Z"/></svg>
+
+
+</span>
+  Posted on <time datetime="2024-09-15T21:23:53&#43;07:00">Sep 15, 2024</time>
+  
+  
+  
+
+
+  <span class="meta-icon">
+
+    <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+<svg width="800px" height="800px" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+<path d="M23 12C23 18.0751 18.0751 23 12 23C5.92487 23 1 18.0751 1 12C1 5.92487 5.92487 1 12 1C18.0751 1 23 5.92487 23 12ZM3.00683 12C3.00683 16.9668 7.03321 20.9932 12 20.9932C16.9668 20.9932 20.9932 16.9668 20.9932 12C20.9932 7.03321 16.9668 3.00683 12 3.00683C7.03321 3.00683 3.00683 7.03321 3.00683 12Z" fill="currentColor"/>
+<path d="M12 5C11.4477 5 11 5.44771 11 6V12.4667C11 12.4667 11 12.7274 11.1267 12.9235C11.2115 13.0898 11.3437 13.2343 11.5174 13.3346L16.1372 16.0019C16.6155 16.278 17.2271 16.1141 17.5032 15.6358C17.7793 15.1575 17.6155 14.5459 17.1372 14.2698L13 11.8812V6C13 5.44772 12.5523 5 12 5Z" fill="currentColor"/>
+</svg>
+
+
+</span>
+  
+    5 mins
+  
+
+
+</p>
+
+  
+
+
+<p>
+  <span class="meta-icon"> 
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M48 32H197.5C214.5 32 230.7 38.74 242.7 50.75L418.7 226.7C443.7 251.7 443.7 292.3 418.7 317.3L285.3 450.7C260.3 475.7 219.7 475.7 194.7 450.7L18.75 274.7C6.743 262.7 0 246.5 0 229.5V80C0 53.49 21.49 32 48 32L48 32zM112 176C129.7 176 144 161.7 144 144C144 126.3 129.7 112 112 112C94.33 112 80 126.3 80 144C80 161.7 94.33 176 112 176z"/></svg>
+
+
+ </span>
+  
+  <a class="tag" href="/tags/irc/">Irc</a>
+  
+  <a class="tag" href="/tags/server/">Server</a>
+  
+</p>
+
+
+
+</div>
+
+
+
+
+  <div class="toc">
+    <details >
+      <summary accesskey="c" title="(Alt+C)">
+        Table of Contents
+      </summary>
+      <div class="toc-innr">
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#sekilas-tentang-irc">Sekilas Tentang IRC</a></li>
+    <li><a href="#setup-irc-server">Setup IRC Server</a>
+      <ul>
+        <li><a href="#inspircd">inspircd</a></li>
+        <li><a href="#ircd-hybrid">ircd-hybrid</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+      </div>
+    </details>
+  </div>
+  
+
+
+
+<p>Salah satu aplikasi <em>chatting</em> konvensional yang saya sukai adalah IRC (<em>Internet Relay Chat</em>). IRC ini suka muncul di film-film yang bertemakan hacker ketika aktor digambarkan sedang berkomunikasi. Ya, seperti namanya, IRC jika boleh saya sandingkan adalah seperti aplikasi-aplikasi pengirim pesan (<em>chatting</em>) saat ini, mungkin Discord yang paling dekat. Kenapa Discord? Karena cara kerjanya mirip-mirip menurut saya. Misalnya, kita bisa membuat server dan <em>chatting</em> dengan orang lain di server yang sama tersebut. Nah, IRC juga demikian, kita bisa memilih satu server tertentu, kemudian masuk ke <em>channel</em> tertentu, dan memulai chat<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.</p>
+<p>Berikut saya lampirkan cuplikan film <a href="https://www.imdb.com/title/tt4158110/" target="_blank">Mr Robot</a>
+ yang menampilkan Elliot sedang chatting dengan timnya (FSOCIETY) via IRC:</p>
+
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/67gYEK4FtzA?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
+
+<p>Tapi, kabar baiknya, selain bisa masuk dan ber-<em>chatting</em> ria di server dan <em>channel</em> yang sudah ada, kita juga bisa membuat server IRC kita sendiri! WOW! So, di artikel ini, saya sedikit akan berbagi cara membuat server IRC kita sendiri. Tapi, sebelum itu, mari saya sedikit beri <em>preface</em> bahwa artikel ini terdiri dari 2 bagian utama, yaitu:</p>
+<ol>
+<li>Sekilas tentang IRC</li>
+<li>Setup IRC Server</li>
+</ol>
+<p>Langsung ke bagian pertama&hellip;</p>
+
+<h2 id="sekilas-tentang-irc">
+  Sekilas Tentang IRC
+  
+  <a hidden class="anchor" href="#sekilas-tentang-irc">
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
+
+
+ </a>
+  
+</h2>
+<p>Sebetulnya, apa itu IRC?</p>
+<p>IRC atau <em>Internet Relay Chat</em> merupakan sebuah protokol yang dibuat pada tahun 1988 untuk melakukan pengiriman pesan teks secara <em>realtime</em> diantara komputer-komputer yang terhubung ke internet. Umumnya, IRC menggunakan sistem <em>chatting</em> di sebuah grup (atau diistilahkan sebagai <em>channel</em>), meskipun bisa juga digunakan untuk mengirim pesan orang perorang secara langsung. <sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> Ada banyak server IRC public yang bisa kita akses, diantaranya:<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></p>
+<table>
+<thead>
+<tr>
+<th>No</th>
+<th>IRC Public Server</th>
+<th>URL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>DALnet</td>
+<td><a href="https://www.dal.net/server" target="_blank">https://www.dal.net/server</a>
+</td>
+</tr>
+<tr>
+<td>2</td>
+<td>EFNet</td>
+<td><a href="http://www.efnet.org/?module=servers" target="_blank">http://www.efnet.org/?module=servers</a>
+</td>
+</tr>
+<tr>
+<td>3</td>
+<td>GeekShed</td>
+<td><a href="http://www.geekshed.net/servers/" target="_blank">http://www.geekshed.net/servers/</a>
+</td>
+</tr>
+<tr>
+<td>4</td>
+<td>IRCnet</td>
+<td><a href="https://www.ircnet.info/servers" target="_blank">www.ircnet.info/servers</a>
+</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Libera.Chat</td>
+<td><a href="https://libera.chat/" target="_blank">https://libera.chat/</a>
+</td>
+</tr>
+<tr>
+<td>6</td>
+<td>OFTC</td>
+<td><a href="https://webchat.oftc.net/" target="_blank">https://webchat.oftc.net/</a>
+</td>
+</tr>
+<tr>
+<td>7</td>
+<td>QuakeNet</td>
+<td><a href="https://www.quakenet.org/servers" target="_blank">https://www.quakenet.org/servers</a>
+</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Rizon</td>
+<td><a href="https://wiki.rizon.net/index.php?title=Servers" target="_blank">https://wiki.rizon.net/index.php?title=Servers</a>
+</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Undernet</td>
+<td><a href="https://www.undernet.org/servers.php" target="_blank">https://www.undernet.org/servers.php</a>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Sebagai ilustrasi saja, berikut adalah ketika saya join ke <em>channel</em> linux di server Libera:</p>
+<p><img loading="lazy" src="/ircserver/gif1.gif" alt="gif1"  title="Join ke channel linux di server libera dengan Weechat"  />
+</p>
+<p>Untuk terhubung ke sebuah server IRC, kita memerlukan IRC <em>client</em>. Ada banyak IRC <em>client</em> sebetulnya. IRC <em>client</em> yang pernah saya gunakan ada <a href="https://irssi.org/" target="_blank">irssi</a>
+ dan <a href="https://weechat.org/" target="_blank">weechat</a>
+. Tapi, kalau kalian mau tau lebih banyak terkait IRC <em>client</em>, berikut juga perbandingan-perbandingannya, bisa dibaca-baca di sini: <a href="https://en.wikipedia.org/wiki/Comparison_of_IRC_clients" target="_blank">https://en.wikipedia.org/wiki/Comparison_of_IRC_clients</a>
+</p>
+
+<h2 id="setup-irc-server">
+  Setup IRC Server
+  
+  <a hidden class="anchor" href="#setup-irc-server">
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
+
+
+ </a>
+  
+</h2>
+<p>Nah, sekarang, kita masuk ke inti artikel ini, yaitu membuat sebuah IRC server. Kita bisa menggunakan 2 alternatif cara (yang saya tahu), yaitu dengan <em>package</em> IRC Daemon <a href="https://www.inspircd.org/" target="_blank"><strong>inspird</strong></a>
+ atau <a href="http://www.ircd-hybrid.org/" target="_blank"><strong>ircd-hybrid</strong></a>
+. Kita akan bahas satu persatu&hellip;</p>
+
+<h3 id="inspircd">
+  inspircd
+  
+  <a hidden class="anchor" href="#inspircd">
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
+
+
+ </a>
+  
+</h3>
+<p>Pertama-tama, kita perlu meng-<em>install</em> paket <strong><code>inspircd</code></strong> terlebih dahulu&hellip;</p>
+<table>
+<thead>
+<tr>
+<th>Distro</th>
+<th>Command</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Debian/Ubuntu</strong></td>
+<td><strong><code>sudo apt install inspircd</code></strong></td>
+</tr>
+<tr>
+<td><strong>Arch Linux</strong></td>
+<td><strong><code>sudo yay -Sy inspircd</code></strong></td>
+</tr>
+<tr>
+<td><strong>Opensuse</strong></td>
+<td><strong><code>sudo zypper install inspircd</code></strong></td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>Notes:</strong>
+Perlu dicatat beberapa hal berikut:</p>
+<ol>
+<li><strong><code>inspircd</code></strong> tidak ada di repo utama Archlinux, jadi meng-<em>install</em>-nya harus dari <em>Arch User Repository</em> (AUR).</li>
+<li>Fedora juga tidak menyediakan <strong><code>inspircd</code></strong> di repo-nya, jadi, kita perlu meng-<em>compile</em>-nya langsung dari <em>source code</em> di github.</li>
+</ol>
+</blockquote>
+
+<p><details >
+  <summary markdown="span"><strong>Instalasi <strong><code>inspircd</code></strong> via Github</strong> 💡</summary>
+  <p>Pertama, kita <em>clone</em> dulu repo-nya : [^4]</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>wget <span style="color:#e6db74">&#34;https://github.com/inspircd/inspircd/archive/refs/tags/[VERSION].tar.gz&#34;</span>
+</span></span></code></pre></div><p>Ganti [VERSION] ke versi terbaru. Bisa dicek ke github-nya langsung: <a href="https://github.com/inspircd/inspircd/releases" target="_blank">https://github.com/inspircd/inspircd/releases</a>
+</p>
+<p><em>Extract</em>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>tar -xvf <span style="color:#e6db74">&#34;./inspircd-[VERSION].tar.gz&#34;</span>
+</span></span></code></pre></div><p>Masuk ke direktori inspircd.</p>
+<p>Execute binary file <code>configure</code>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>./configure
+</span></span></code></pre></div><p>Mulai proses <em>compile</em>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>make install
+</span></span></code></pre></div><p><img loading="lazy" src="/ircserver/gif2.gif" alt="gif2"  title="Install inspircd via Github"  />
+</p>
+<p>Dan tunggu prosesnya hingga selesai&hellip;</p>
+
+</details></p>
+
+
+<p>Setelah instalasi berhasil, berikutnya, kita perlu mengkonfigurasi beberapa hal. Edit file konfigurasinya di <strong><code>/etc/inspircd/</code></strong>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>sudo su
+</span></span><span style="display:flex;"><span>cd /etc/inspircd
+</span></span><span style="display:flex;"><span>ls -l
+</span></span></code></pre></div><p><img loading="lazy" src="/ircserver/ss1.png" alt="ss1"  title="inspircd directory"  />
+</p>
+<p>Di sana ada 2 file:</p>
+<ol>
+<li><strong>inspircd.conf</strong>: file konfigurasi inspircd.</li>
+<li><strong>inspircd.mord</strong>: file konfigurasi MOTD (Message of The Day) inspircd yang akan ditampilkan ketika pertama kali masuk ke server.</li>
+</ol>
+<p>Kita bebas untuk mengubah file <strong><code>inspircd.motd</code></strong>, tapi yang akan saya <em>highlight</em> di sini adalah file konfigurasi <strong><code>inspircd.conf</code></strong>. Agar IRC server kita bisa diakses oleh komputer lain, kita perlu mengganti <em>ip address</em> di baris <em>bind address</em> sesuai dengan <em>ip address</em> jaringan lokal / publik kita (dalam hal ini saya gunakan ip lokal):</p>
+<p><img loading="lazy" src="/ircserver/ss2.png" alt="ss2"  title="mengganti ip address"  />
+</p>
+<blockquote>
+<p><strong>Note:</strong><br>
+Perhatikan juga <em>server name</em>-nya (dalam hal ini saya biarkan <em>default</em>, yaitu <strong>irc.local</strong>, karena akan kita gunakan nanti ketika akan masuk ke server ini.)</p>
+</blockquote>
+<p>Setelah itu, kita bisa memastikan inspircd sudah <em>running</em>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>sudo systemctl status inspircd
+</span></span></code></pre></div><p><img loading="lazy" src="/ircserver/ss3.png" alt="ss3"  title="check inspircd"  />
+</p>
+<p>Kalau belum jalan, tinggal jalankan:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>sudo systemctl start inspircd
+</span></span></code></pre></div><p>Kalau inspircd sudah <em>running</em>, itu artinya, kita sudah berhasil membuat server IRC kita sendiri.</p>
+<p>Berikut adalah demonstrasi saya masuk ke IRC server yang saya <em>install</em> di Debian2 dari Debian1. Dengan kata lain, IRC server saya adalah Debian2, sementara <em>client</em>-nya adalah Debian1.</p>
+<p><img loading="lazy" src="/ircserver/gif3.gif" alt="gif3"  title="Connect to IRC Server (inspircd)"  />
+</p>
+
+<h3 id="ircd-hybrid">
+  ircd-hybrid
+  
+  <a hidden class="anchor" href="#ircd-hybrid">
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
+
+
+ </a>
+  
+</h3>
+<p>Mula-mula, kita <em>install</em> dulu <em>package</em>-nya:</p>
+<table>
+<thead>
+<tr>
+<th>Distro</th>
+<th>Command</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Debian/Ubuntu</strong></td>
+<td><strong><code>sudo apt install ircd-hybrid</code></strong></td>
+</tr>
+<tr>
+<td><strong>Arch Linux</strong></td>
+<td><strong><code>sudo yay -Sy ircd-hybrid</code></strong></td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>Notes:</strong>
+Perlu dicatat beberapa hal berikut:</p>
+<ol>
+<li><strong><code>ircd-hybrid</code></strong> tidak ada di repo utama Archlinux, jadi meng-<em>install</em>-nya harus dari <em>Arch User Repository</em> (AUR).</li>
+<li>Fedora dan Opensuse juga tidak menyediakan <strong><code>ircd-hybrid</code></strong> di repo-nya, jadi, kita perlu meng-<em>compile</em>-nya langsung dari <em>source code</em> di github.</li>
+</ol>
+</blockquote>
+
+<p><details >
+  <summary markdown="span"><strong>Instalasi <strong><code>ircd-hybrid</code></strong> via Github</strong> 💡</summary>
+  <p>Sebelum mulai instalasi, pastikan kita sudah memenuhi beberapa persyaratan berikut:[^5]</p>
+<ul>
+<li>Autoconf 2.71 or higher</li>
+<li>Automake 1.16.5 or higher</li>
+<li>C compiler (e.g., GCC)</li>
+<li>Yacc</li>
+<li>Lex with noyywrap support</li>
+<li>Libtool</li>
+<li>GNU make or a compatible make utility</li>
+</ul>
+<p>Kemudian unduh <em>source code</em>-nya:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>wget https://github.com/ircd-hybrid/ircd-hybrid/archive/8.2.8.tar.gz
+</span></span></code></pre></div><p><em>Extract</em>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>tar xvf 8.2.8.tar.gz
+</span></span></code></pre></div><p><em>Compile</em> dan <em>install</em>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>cd ircd-hybrid-8.2.8
+</span></span><span style="display:flex;"><span>./configure
+</span></span><span style="display:flex;"><span>make
+</span></span><span style="display:flex;"><span>make install
+</span></span></code></pre></div>
+</details></p>
+
+
+<p>Setelah proses instalasi selesai, kita perlu mengkonfigurasi ip address di file konfigurasinya yang terletak di <strong><code>/etc/ircd-hybrid</code></strong>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>sudo su
+</span></span><span style="display:flex;"><span>cd /etc/ircd-hybrid
+</span></span><span style="display:flex;"><span>ls -l
+</span></span></code></pre></div><p><img loading="lazy" src="/ircserver/ss4.png" alt="ss4"  title="check ircd-hybrid"  />
+</p>
+<p>Ada 3 file dan sebuah direktori di sana:</p>
+<ol>
+<li><strong>cert.cnf</strong>: file sertifikat.</li>
+<li><strong>ircd.conf</strong>: file konfigurasi ircd-hybrid.</li>
+<li><strong>ircd.motd</strong>: file konfigurasi MOTD (Message of The Day) ircd-hybrid yang akan ditampilkan ketika pertama kali masuk ke server.</li>
+<li><strong>key</strong>: direktori yang berisi beberapa key.</li>
+</ol>
+<p>Untuk sekarang, kita bisa mengabaikan <code>cert.cnf</code>, <code>ircd.motd</code>, dan direktori <code>key</code>, karena kita hanya akan mengkonfigurasi file <strong><code>ircd.conf</code></strong> saja. Seperti sebelumnya ketika mengkonfigurasi IRC Server di inspircd, kita perlu memperhatikan nama server-nya, di sini saya biarkan default:</p>
+<p><img loading="lazy" src="/ircserver/ss5.png" alt="ss5"  title="irc name server"  />
+</p>
+<p>Dan <em>ip address</em>-nya perlu diganti dari 127.0.0.1 ke alamat ip lokal / publik agar dapat diakses oleh komputer lain.</p>
+<p><img loading="lazy" src="/ircserver/ss6.png" alt="ss6"  title="irc server ip address"  />
+</p>
+<p>Selanjutnya, kita bisa memastikan ircd-hybrid sudah <em>running</em>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>sudo systemctl status ircd-hybrid
+</span></span></code></pre></div><p><img loading="lazy" src="/ircserver/ss7.png" alt="ss7"  title="ircd-hybrid status"  />
+</p>
+<p>Atau kalau belum running, bisa diaktifkan dengan perintah:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>sudo systemctl start ircd-hybrid
+</span></span></code></pre></div><p>Kalau ircd-hybrid sudah <em>running</em>, itu artinya kita sudah berhasil membuat IRC Server dengan ircd-hybrid.</p>
+<p>Berikut adalah demonstrasi saya masuk ke IRC server yang saya <em>install</em> di Debian2 dari Debian1. Dengan kata lain, IRC server saya adalah Debian2, sementara client-nya adalah Debian1.</p>
+<p><img loading="lazy" src="/ircserver/gif4.gif" alt="gif4"  title="Connect to IRC Server (ircd-hybrid)"  />
+</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p><a href="https://en.wikipedia.org/wiki/IRC" target="_blank">https://en.wikipedia.org/wiki/IRC</a>
+&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p><a href="https://www.radware.com/security/ddos-knowledge-center/ddospedia/irc-internet-relay-chat/" target="_blank">https://www.radware.com/security/ddos-knowledge-center/ddospedia/irc-internet-relay-chat/</a>
+&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p><a href="https://www.irchelp.org/networks/popular.html" target="_blank">https://www.irchelp.org/networks/popular.html</a>
+&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<nav class="pagenav">
+  
+  <div></div>
+  
+  
+    <a class="next" href="/tech/kittyconfig/">
+      <span class="direction">Next »</span>
+      <br>
+      <span> Configuring Kitty & Bash </span>
+    </a>
+  
+</nav>
+
+
+
+
+
+
+
+
+      </main>
+      <footer>
+  <div class="copyright">
+     © 2024  Abdullah Wildan Ulhaq 
+  </div>
+  
+  <div class="attribution">
+    Built with <a href="https://gohugo.io" target="_blank">Hugo</a> & <a href="https://github.com/mnjm/kayal" target="_blank">Kayal</a>
+  </div>
+  
+</footer>
+
+    </div>
+  </body>
+</html>

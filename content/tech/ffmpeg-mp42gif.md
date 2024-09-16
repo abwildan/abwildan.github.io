@@ -30,6 +30,11 @@ ffmpeg -i file_video.mp4 -i palette_output.png -filter_complex "fps=20,scale=108
 ```
 FPS dan scale-nya bisa kita sesuaikan dengan kualitas GIF yang kita inginkan. Saya set fps di 20 karena file video yang saya buat memang di 20 fps (jadi saya buat juga 20 supaya sama) dan scale-nya di 1080 untuk menjaga kualitas GIF-nya (karena memang ada tulisan kecil yang harus terbaca). Semakin bagus kualitas yang dipertahankan untuk membuat GIF, semakin lama juga proses konversi-nya, tentu, menyesuaikan dengan kualitas hardware komputer/laptop yang digunakan :)
 
+Atau menggabungkan kedua command tersebut dalam satu baris:
+
+```shell
+ffmpeg -i file_video.mp4 -filter_complex "[0:v] split [a][b];[a] palettegen [p];[b][p] paletteuse" gif_output.gif
+```
 
 [^1]: https://www.bannerbear.com/blog/how-to-make-a-gif-from-a-video-using-ffmpeg/
 

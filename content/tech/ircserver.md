@@ -135,6 +135,14 @@ Kalau belum jalan, tinggal jalankan:
 sudo systemctl start inspircd
 ```
 
+Kita bisa memastikan juga inspircd sudah berjalan dengan melihat port yang aktif:
+
+```shell
+sudo netstat -tupln
+```
+
+![ss8](/ircserver/ss8.png "inspircd is running on port 6667")
+
 Kalau inspircd sudah *running*, itu artinya, kita sudah berhasil membuat server IRC kita sendiri. 
 
 Berikut adalah demonstrasi saya masuk ke IRC server yang saya *install* di Debian2 dari Debian1. Dengan kata lain, IRC server saya adalah Debian2, sementara *client*-nya adalah Debian1.
@@ -226,6 +234,14 @@ Atau kalau belum running, bisa diaktifkan dengan perintah:
 ```shell
 sudo systemctl start ircd-hybrid
 ```
+
+Kita bisa memastikan juga ircd-hybrid sudah berjalan dengan melihat port yang aktif:
+
+```shell
+sudo netstat -tupln
+```
+
+![ss9](/ircserver/ss9.png "ircd-hybrid is running on port 6697")
 
 Kalau ircd-hybrid sudah *running*, itu artinya kita sudah berhasil membuat IRC Server dengan ircd-hybrid. 
 

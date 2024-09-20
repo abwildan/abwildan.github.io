@@ -6,8 +6,15 @@
     <description>Recent content in Categories on Wildan&#39;s Workspace</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 15 Sep 2024 21:23:53 +0700</lastBuildDate>
+    <lastBuildDate>Fri, 20 Sep 2024 10:37:37 +0700</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Openvpn</title>
+      <link>http://localhost:1313/categories/openvpn/</link>
+      <pubDate>Fri, 20 Sep 2024 10:37:37 +0700</pubDate>
+      <guid>http://localhost:1313/categories/openvpn/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Irc</title>
       <link>http://localhost:1313/categories/irc/</link>

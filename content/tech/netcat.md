@@ -46,18 +46,28 @@ nc -lvnp 1234 > skynight.jpg
 2. Transfer file dari Debian ke Arch dengan perintah
 
 ```shell
-nc $IP 1234 < skynight.jpg
+nc $IP 1234 -w 1 < skynight.jpg
 ```
 
 {{< collapse summary="Keterangan" open=false >}} 
 
 1. Perintah <mark> **nc $IP 1234**</mark> artinya komputer melakukan koneksi ke *ip address* yang ditentukan di port 1234.
-2. <mark> **< skynight.jpg**</mark> artinya, paket yang dikirim adalah file bernama skynight.jpg.
+2. <mark> **-w 1**</mark> memberikan *timeout* 1 detik, artinya koneksi akan ditutup setelah terhubung selama 1 detik.
+3. <mark> **< skynight.jpg**</mark> artinya, paket yang dikirim adalah file bernama skynight.jpg.
 
 {{< /collapse >}}
+
+Kemudian, kita bisa memastikan file yang di-*transfer* tersebut (skynight.jpg) sudah terkirim dengan baik dengan mengecek *integrity file*-nya melalui perintah berikut:
+```shell
+sha256sum skynight.jpg
+```
 
 Berikut adalah demonstrasinya:
 
 ![gif1](/netcat/gif1.gif "transfer file through netcat")
 
 Sangat mudah, kita hanya perlu tahu *ip address* mesin yang akan kita kirimkan filenya. Itu saja, tidak perlu mengkonfigurasi macam-macam seperti bikin *key pairs* (*private* & *public key*) seperti di ssh / scp misalnya.
+
+Sebetulnya, video Youtube yang menginspirasi artikel ini adalah video short Youtube, tapi karena saya belum tahu cara menginputkan short tersebut di Hugo/HTML, berikut saya lampirkan video tutorial penggantinya:
+
+{{< youtube VK_TiHyX_hY >}}

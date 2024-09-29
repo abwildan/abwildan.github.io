@@ -421,12 +421,13 @@
 <ol start="2">
 <li>Transfer file dari Debian ke Arch dengan perintah</li>
 </ol>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>nc $IP <span style="color:#ae81ff">1234</span> &lt; skynight.jpg
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>nc $IP <span style="color:#ae81ff">1234</span> -w <span style="color:#ae81ff">1</span> &lt; skynight.jpg
 </span></span></code></pre></div>
 <p><details >
   <summary markdown="span">Keterangan</summary>
   <ol>
 <li>Perintah <mark> <strong>nc $IP 1234</strong></mark> artinya komputer melakukan koneksi ke <em>ip address</em> yang ditentukan di port 1234.</li>
+<li><mark> <strong>-w 1</strong></mark> memberikan <em>timeout</em> 1 detik, artinya koneksi akan ditutup setelah terhubung selama 1 detik.</li>
 <li><mark> <strong>&lt; skynight.jpg</strong></mark> artinya, paket yang dikirim adalah file bernama skynight.jpg.</li>
 </ol>
 
@@ -450,7 +451,11 @@
 
 <nav class="pagenav">
   
-  <div></div>
+    <a class="prev" href="/tech/netcat/">
+      <span class="direction">« Prev</span>
+      <br>
+      <span> Netcat: The Simplest Way to Transfer File </span>
+    </a>
   
   
     <a class="next" href="/tech/openvpn-server/">

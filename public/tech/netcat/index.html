@@ -421,22 +421,34 @@
 <ol start="2">
 <li>Transfer file dari Debian ke Arch dengan perintah</li>
 </ol>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>nc $IP <span style="color:#ae81ff">1234</span> &lt; skynight.jpg
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>nc $IP <span style="color:#ae81ff">1234</span> -w <span style="color:#ae81ff">1</span> &lt; skynight.jpg
 </span></span></code></pre></div>
 <p><details >
   <summary markdown="span">Keterangan</summary>
   <ol>
 <li>Perintah <mark> <strong>nc $IP 1234</strong></mark> artinya komputer melakukan koneksi ke <em>ip address</em> yang ditentukan di port 1234.</li>
+<li><mark> <strong>-w 1</strong></mark> memberikan <em>timeout</em> 1 detik, artinya koneksi akan ditutup setelah terhubung selama 1 detik.</li>
 <li><mark> <strong>&lt; skynight.jpg</strong></mark> artinya, paket yang dikirim adalah file bernama skynight.jpg.</li>
 </ol>
 
 </details></p>
 
 
-<p>Berikut adalah demonstrasinya:</p>
+<p>Kemudian, kita bisa memastikan file yang di-<em>transfer</em> tersebut (skynight.jpg) sudah terkirim dengan baik dengan mengecek <em>integrity file</em>-nya melalui perintah berikut:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>sha256sum skynight.jpg
+</span></span></code></pre></div><p>Berikut adalah demonstrasinya:</p>
 <p><img loading="lazy" src="/netcat/gif1.gif" alt="gif1"  title="transfer file through netcat"  />
 </p>
 <p>Sangat mudah, kita hanya perlu tahu <em>ip address</em> mesin yang akan kita kirimkan filenya. Itu saja, tidak perlu mengkonfigurasi macam-macam seperti bikin <em>key pairs</em> (<em>private</em> &amp; <em>public key</em>) seperti di ssh / scp misalnya.</p>
+<p>Sebetulnya, video Youtube yang menginspirasi artikel ini adalah video short Youtube, tapi karena saya belum tahu cara menginputkan short tersebut di Hugo/HTML, berikut saya lampirkan video tutorial penggantinya:</p>
+
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/VK_TiHyX_hY?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
+
 
 
 

@@ -6,8 +6,29 @@
     <description>Recent content in Tags on Wildan&#39;s Workspace</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 20 Sep 2024 10:37:37 +0700</lastBuildDate>
+    <lastBuildDate>Sun, 29 Sep 2024 02:06:27 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>File</title>
+      <link>http://localhost:1313/tags/file/</link>
+      <pubDate>Sun, 29 Sep 2024 02:06:27 +0000</pubDate>
+      <guid>http://localhost:1313/tags/file/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Netcat</title>
+      <link>http://localhost:1313/tags/netcat/</link>
+      <pubDate>Sun, 29 Sep 2024 02:06:27 +0000</pubDate>
+      <guid>http://localhost:1313/tags/netcat/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Transfer</title>
+      <link>http://localhost:1313/tags/transfer/</link>
+      <pubDate>Sun, 29 Sep 2024 02:06:27 +0000</pubDate>
+      <guid>http://localhost:1313/tags/transfer/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Openvpn</title>
       <link>http://localhost:1313/tags/openvpn/</link>

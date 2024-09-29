@@ -16,6 +16,13 @@
       <description>Learn the best way to transfer file(s) through a network.</description>
     </item>
     <item>
+      <title>Netcat: The Simplest Way to Transfer File</title>
+      <link>http://localhost:1313/tech/transfile/</link>
+      <pubDate>Sun, 29 Sep 2024 02:06:27 +0000</pubDate>
+      <guid>http://localhost:1313/tech/transfile/</guid>
+      <description>Learn the best way to transfer file(s) through a network.</description>
+    </item>
+    <item>
       <title>Building VPN Server using OpenVPN</title>
       <link>http://localhost:1313/tech/openvpn-server/</link>
       <pubDate>Fri, 20 Sep 2024 10:37:37 +0700</pubDate>

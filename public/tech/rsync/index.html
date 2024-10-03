@@ -8,16 +8,16 @@
 
   
   
-  <title>Netcat: The Simplest Way to Transfer File &middot; Wildan&#39;s Workspace</title>
-  <meta name="title" content="Netcat: The Simplest Way to Transfer File &middot; Wildan&#39;s Workspace" />
+  <title>Rsync: The Best Tool for Backing Up Data &middot; Wildan&#39;s Workspace</title>
+  <meta name="title" content="Rsync: The Best Tool for Backing Up Data &middot; Wildan&#39;s Workspace" />
   
 
   
   
-  <meta name="description" content="Learn the best way to transfer file(s) through a network." />
+  <meta name="description" content="The simplest and easiest way to backup your data..." />
   
-  <meta name="keywords" content="file, transfer, netcat, " />
-  <link rel="canonical" href="http://localhost:1313/tech/netcat/" />
+  <meta name="keywords" content="rsync, backup, " />
+  <link rel="canonical" href="http://localhost:1313/tech/rsync/" />
 
   
 
@@ -65,23 +65,22 @@
     <link rel="manifest" href="/site.webmanifest" />
   
 
-  <meta property="og:url" content="http://localhost:1313/tech/netcat/">
+  <meta property="og:url" content="http://localhost:1313/tech/rsync/">
   <meta property="og:site_name" content="Wildan&#39;s Workspace">
-  <meta property="og:title" content="Netcat: The Simplest Way to Transfer File">
-  <meta property="og:description" content="Learn the best way to transfer file(s) through a network.">
+  <meta property="og:title" content="Rsync: The Best Tool for Backing Up Data">
+  <meta property="og:description" content="The simplest and easiest way to backup your data…">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="tech">
-    <meta property="article:published_time" content="2024-09-29T02:06:27+00:00">
-    <meta property="article:modified_time" content="2024-09-29T02:06:27+00:00">
-    <meta property="article:tag" content="File">
-    <meta property="article:tag" content="Transfer">
-    <meta property="article:tag" content="Netcat">
+    <meta property="article:published_time" content="2024-10-03T21:42:14+07:00">
+    <meta property="article:modified_time" content="2024-10-03T21:42:14+07:00">
+    <meta property="article:tag" content="Rsync">
+    <meta property="article:tag" content="Backup">
 
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Netcat: The Simplest Way to Transfer File">
-  <meta name="twitter:description" content="Learn the best way to transfer file(s) through a network.">
+  <meta name="twitter:title" content="Rsync: The Best Tool for Backing Up Data">
+  <meta name="twitter:description" content="The simplest and easiest way to backup your data…">
 
 
   
@@ -253,7 +252,7 @@
 
 
 
-<h1 class="pg-title">Netcat: The Simplest Way to Transfer File</h1>
+<h1 class="pg-title">Rsync: The Best Tool for Backing Up Data</h1>
 
 
 <div class="meta">
@@ -273,7 +272,7 @@
 
 
 </span>
-  Posted on <time datetime="2024-09-29T02:06:27&#43;00:00">Sep 29, 2024</time>
+  Posted on <time datetime="2024-10-03T21:42:14&#43;07:00">Oct 3, 2024</time>
   
   
   
@@ -290,7 +289,7 @@
 
 </span>
   
-    2 mins
+    3 mins
   
 
 
@@ -307,11 +306,9 @@
 
  </span>
   
-  <a class="tag" href="/tags/file/">File</a>
+  <a class="tag" href="/tags/rsync/">Rsync</a>
   
-  <a class="tag" href="/tags/transfer/">Transfer</a>
-  
-  <a class="tag" href="/tags/netcat/">Netcat</a>
+  <a class="tag" href="/tags/backup/">Backup</a>
   
 </p>
 
@@ -330,7 +327,7 @@
       <div class="toc-innr">
         <nav id="TableOfContents">
   <ul>
-    <li><a href="#instalasi">Instalasi</a></li>
+    <li><a href="#instalasi-rsync">Instalasi <code>rsync</code></a></li>
     <li><a href="#demonstrasi">Demonstrasi</a></li>
   </ul>
 </nav>
@@ -341,17 +338,49 @@
 
 
 
-<p>Saya biasa menggunakan <strong>scp</strong> dan <em>simple webserver</em> seperti yang disediakan oleh python jika ingin memindahkan satu atau lebih file dari sebuah mesin linux ke mesin linux lainnya (atau windows). Tapi, baru-baru ini saya lihat tutorial singkat di Youtube untuk men-<em>transfer</em> file dengan cara yang lebih efektif, yaitu menggunakan <strong>netcat</strong>. Saya sebut sebagai cara tersimpel setidaknya karena 3 alasan:</p>
-<ul>
-<li>Paketnya tersedia di semua distro linux</li>
-<li>Instalasinya mudah, dan</li>
-<li>Penggunaannya relatif lebih mudah dan lebih praktis dibanding cara lainnya.</li>
-</ul>
+<p><strong><code>rsync</code></strong> adalah <em>utility</em> atau <em>tools</em> atau aplikasi berbasis terminal (<em>CLI-based</em>) yang digunakan untuk melakukan <em>back up</em> data. Kalau merujuk pada definisi resmi dari halaman manual (<em><strong>man page</strong></em>)-nya, <mark> <strong><code>rsync</code></strong> <em>is a fast, versatile, remote (and local) file-copying tool</em> </mark>. Yap, sebetulnya, <strong>rsync</strong> pada dasarnya memang mirip seperti <strong>cp</strong> yang digunakan untuk meng-<em>copy</em> file, tapi <strong>rsync</strong> tidak sama dengan <strong>cp</strong>. Berikut adalah perbandingan <strong>rsync</strong> dan <strong>cp</strong> <u> (menurut ChatGPT) </u> sehingga <strong>rsync</strong> bisa dibilang sebagai <em>tools</em> yang lebih fleksibel dan lebih canggih dibandingkan <strong>cp</strong>:</p>
+<table>
+<thead>
+<tr>
+<th><strong>Fitur</strong></th>
+<th><strong><code>cp</code></strong></th>
+<th><strong><code>rsync</code></strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Sinkronisasi</strong></td>
+<td>Tidak ada sinkronisasi</td>
+<td>Sinkronisasi hanya file yang berubah / belum ada</td>
+</tr>
+<tr>
+<td><strong>Jaringan</strong></td>
+<td>Tidak mendukung koneksi ke jaringan</td>
+<td>Mendukung jaringan melalui SSH</td>
+</tr>
+<tr>
+<td><strong>Kecepatan</strong></td>
+<td>Menyalin semua file</td>
+<td>Lebih cepat karena hanya menyalin perubahan saja</td>
+</tr>
+<tr>
+<td><strong>Melanjutkan Proses</strong></td>
+<td>Tidak</td>
+<td>Bisa melanjutkan transfer yang terputus</td>
+</tr>
+<tr>
+<td><strong>Fitur Tambahan</strong></td>
+<td>Sederhana, sedikit opsi</td>
+<td>Banyak opsi (<em>compress</em>, <em>progress</em>, <em>delete</em>)</td>
+</tr>
+</tbody>
+</table>
+<p>Karena rsync hanya meng-<em>copy</em> file atau data yang belum ada atau berubah saja, maka proses <em>copy</em> data via <em>rsync</em> menjadi relatif lebih cepat dibandingkan dengan <em>copy</em> data via <strong>cp</strong>. Intinya, <strong>rsync</strong> dapat bekerja lebih efektif ada efisien dalam hal <em>copy</em> data dibandingkan <strong>cp</strong>. Oleh karena itu, <strong>rsync</strong> sangat cocok digunakan untuk melakukan <em>backup</em> data.</p>
 
-<h2 id="instalasi">
-  Instalasi
+<h2 id="instalasi-rsync">
+  Instalasi <code>rsync</code>
   
-  <a hidden class="anchor" href="#instalasi">
+  <a hidden class="anchor" href="#instalasi-rsync">
 
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
 
@@ -359,6 +388,7 @@
  </a>
   
 </h2>
+<p>Cara instalasi <strong>rsync</strong> di masing-masing distro:</p>
 <table>
 <thead>
 <tr>
@@ -369,27 +399,22 @@
 <tbody>
 <tr>
 <td><strong>Debian/Ubuntu</strong></td>
-<td><strong><code>sudo apt install netcat-traditional</code></strong></td>
+<td><strong><code>sudo apt install rsync</code></strong></td>
 </tr>
 <tr>
 <td><strong>Arch Linux</strong></td>
-<td><strong><code>sudo pacman -Sy gnu-netcat</code></strong></td>
-</tr>
-<tr>
-<td><strong>Opensuse</strong></td>
-<td><strong><code>sudo zypper install gnu-netcat</code></strong></td>
+<td><strong><code>sudo pacman -Sy rsync</code></strong></td>
 </tr>
 <tr>
 <td><strong>Fedora</strong></td>
-<td><strong><code>sudo dnf install netcat-gnu</code></strong></td>
+<td><strong><code>sudo dnf install rsync</code></strong></td>
+</tr>
+<tr>
+<td><strong>Opensuse</strong></td>
+<td><strong><code>sudo zypper install rsync</code></strong></td>
 </tr>
 </tbody>
 </table>
-<p>Untuk Windows, <em>binary</em> netcat dapat diunduh di url berikut:<br>
-<a href="https://nmap.org/download.html#windows" target="_blank">https://nmap.org/download.html#windows</a>
-.</p>
-<p>Berikut ini adalah artikel relevan terkait instalasi netcat di Windows: <a href="https://medium.com/@bonguides25/how-to-install-netcat-on-windows-10-11-f5be1a185611" target="_blank">How to Install on Windows 10/11</a>
-.</p>
 
 <h2 id="demonstrasi">
   Demonstrasi
@@ -402,53 +427,73 @@
  </a>
   
 </h2>
-<p>Misalnya, saya ingin men-<em>transfer</em> sebuah file gambar bernama <strong>skynight.jpg</strong> dari Debian ke Archlinux, maka, langkah-langkahnya:</p>
+<p>Pola dasar perintah <strong>rsync</strong> sangat sederhana, sebagai berikut:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>rsync <span style="color:#f92672">[</span>options<span style="color:#f92672">]</span> <span style="color:#f92672">[</span>source<span style="color:#f92672">]</span> <span style="color:#f92672">[</span>destination<span style="color:#f92672">]</span> 
+</span></span></code></pre></div><p>Misalnya, saya ingin mem-<em>backup</em> seluruh file yang ada di folder/direktori <strong>~/Templates</strong> ke direktori <strong>~/backup</strong>, maka perintahnya:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>rsync -arzv ~/Templates/ ~/backup/
+</span></span></code></pre></div>
+  
+
+
+<div class="callout"
+  
+>
+<span class="icon"
+
+>
+
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M506.3 417l-213.3-364c-16.33-28-57.54-28-73.98 0l-213.2 364C-10.59 444.9 9.849 480 42.74 480h426.6C502.1 480 522.6 445 506.3 417zM232 168c0-13.25 10.75-24 24-24S280 154.8 280 168v128c0 13.25-10.75 24-23.1 24S232 309.3 232 296V168zM256 416c-17.36 0-31.44-14.08-31.44-31.44c0-17.36 14.07-31.44 31.44-31.44s31.44 14.08 31.44 31.44C287.4 401.9 273.4 416 256 416z"/></svg>
+
+
+
+</span>
+<span class="txt"
+
+>
+<strong>Penting!</strong>  Pastikan kita menambahkan tanda garis miring atau <em>slash</em> <strong>[ / ]</strong> di akhir nama direktori jika kita hanya ingin meng-<em>copy</em> isi file yang terdapat di dalam direktori tersebut. Dengan kata lain, kita tidak ingin direktori <strong>~/Templates</strong> tersebut juga ikut ter-<em>copy</em>.
+</span>
+</div>
+
+<p><strong>Keterangan:</strong></p>
 <ol>
-<li>Siapkan <em>listener</em> di Arch dengan perintah</li>
+<li><strong>-a : <em>archive mode</em></strong>, menyalin data dengan tetap mempertahankan atribut-atributnya (<em>timestamps, permissions, owner,</em> etc)</li>
+<li><strong>-r : <em>recursive</em></strong>, mengambil semua file yang ada di dalam direktori</li>
+<li><strong>-z : <em>compress</em></strong>, mengkompres data selama proses transfer</li>
+<li><strong>-v : <em>verbose</em></strong>, meningkatkan <em>verbosity</em></li>
 </ol>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>nc -lvnp <span style="color:#ae81ff">1234</span> &gt; skynight.jpg
-</span></span></code></pre></div>
-<p><details >
-  <summary markdown="span">Keterangan</summary>
-  <ol>
-<li>Perintah <mark> <strong>nc -lvnp 1234</strong></mark> artinya komputer melakukan <em>listening</em> koneksi di port 1234.</li>
-<li><mark> <strong>&gt; skynight.jpg</strong></mark> artinya, koneksi dan paket yang masuk nanti akan disimpan ke dalam file bernama skynight.jpg.</li>
-</ol>
-
-</details></p>
-
-
-<ol start="2">
-<li>Transfer file dari Debian ke Arch dengan perintah</li>
-</ol>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>nc $IP <span style="color:#ae81ff">1234</span> -w <span style="color:#ae81ff">1</span> &lt; skynight.jpg
-</span></span></code></pre></div>
-<p><details >
-  <summary markdown="span">Keterangan</summary>
-  <ol>
-<li>Perintah <mark> <strong>nc $IP 1234</strong></mark> artinya komputer melakukan koneksi ke <em>ip address</em> yang ditentukan di port 1234.</li>
-<li><mark> <strong>-w 1</strong></mark> memberikan <em>timeout</em> 1 detik, artinya koneksi akan ditutup setelah terhubung selama 1 detik.</li>
-<li><mark> <strong>&lt; skynight.jpg</strong></mark> artinya, paket yang dikirim adalah file bernama skynight.jpg.</li>
-</ol>
-
-</details></p>
-
-
-<p>Kemudian, kita bisa memastikan file yang di-<em>transfer</em> tersebut (skynight.jpg) sudah terkirim dengan baik dengan mengecek <em>integrity file</em>-nya melalui perintah berikut:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>sha256sum skynight.jpg
-</span></span></code></pre></div><p>Berikut adalah demonstrasinya:</p>
-<p><img loading="lazy" src="/netcat/gif1.gif" alt="gif1"  title="transfer file through netcat"  />
+<p>Berikut demo-nya:</p>
+<p><img loading="lazy" src="/rsync/gif1.gif" alt="gif1"  title="backup ~/Templates to ~/backup"  />
 </p>
-<p>Sangat mudah, kita hanya perlu tahu <em>ip address</em> mesin yang akan kita kirimkan filenya. Itu saja, tidak perlu mengkonfigurasi macam-macam seperti bikin <em>key pairs</em> (<em>private</em> &amp; <em>public key</em>) seperti di ssh / scp misalnya.</p>
-<p>Sebetulnya, video Youtube yang menginspirasi artikel ini adalah video short Youtube, tapi karena saya belum tahu cara menginputkan short tersebut di Hugo/HTML, berikut saya lampirkan video tutorial penggantinya:</p>
-
-
-    
-    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/VK_TiHyX_hY?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
-      ></iframe>
-    </div>
-
+<blockquote>
+<p>Tentang <strong><code>watch</code></strong>:<br>
+Saya menggunakan perintah <strong>watch</strong> berikut untuk memantau aktivitas di dalam direktori ~/backup:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>watch -n <span style="color:#ae81ff">2</span> ls -l
+</span></span></code></pre></div><p>Artinya, saya akan menginputkan perintah ls -l setiap 2 detik.</p>
+</blockquote>
+<p>Selain digunakan untuk melakukan <em>backup</em> pada komputer lokal, <strong>rsync</strong> juga dapat digunakan untuk melakukan <em>backup</em> secara <em>remote</em> pada komputer server. Pola perintahnya juga masih sama seperti yang saya sampaikan di awal bagian demonstrasi ini. Hanya saja, kita perlu mengganti bagian <em>source</em> atau <em>destination</em>-nya dengan <em>remote</em> server yang ingin di-<em>backup</em> atau mem-<em>backup</em>. Sehingga kira-kira pola perintahnya akan seperti ini jika kita ingin melakukan <em>backup</em> dari sebuah server:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>rsync <span style="color:#f92672">[</span>options<span style="color:#f92672">]</span> <span style="color:#f92672">[</span>username@ip-or-hostname:/source/path<span style="color:#f92672">]</span> <span style="color:#f92672">[</span>destination<span style="color:#f92672">]</span> 
+</span></span></code></pre></div><p>Atau jika ingin melakukan <em>backup</em> ke sebuah server:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>rsync <span style="color:#f92672">[</span>options<span style="color:#f92672">]</span> <span style="color:#f92672">[</span>source<span style="color:#f92672">]</span> <span style="color:#f92672">[</span>username@ip-or-hostname:/dest/path<span style="color:#f92672">]</span> 
+</span></span></code></pre></div><p>Misalnya, saya ingin mem-<em>backup</em> file-file dari direktori <strong>~/Templates</strong> yang ada di komputer saya ke direktori <strong>~/backup</strong> di server Ubuntu 20.04, maka perintahnya adalah sebagai berikut:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>rsync -arzv ~/Templates/ wildan@192.168.0.114:~/backup/
+</span></span></code></pre></div><p>Berikut demonya:</p>
+<p>Kiri adalah komputer lokal saya - Debian, kanan adalah komputer server - Ubuntu</p>
+<p><img loading="lazy" src="/rsync/gif2.gif" alt="gif2"  title="backup ~/Templates to wildan@192.168.0.114:~/backup"  />
+</p>
+<blockquote>
+<p><strong>Notes:</strong><br>
+Ketika akan melakukan <em>backup</em> ke atau dari server, kita akan diminta untuk memasukkan password, karena memang <strong>rsync</strong> menggunakan SSH sebagai protokol komunikasinya.</p>
+</blockquote>
+<p>Gimana? Mudah bukan?<br>
+Kalau masih bingung atau mau <em>explore</em> lebih jauh tentang <strong><code>rsync</code></strong>, jangan sungkan-sungkan untuk baca-baca <em>manual page</em>-nya dengan perintah <strong><code>man rsync</code></strong> atau berselancar dan bertanya ke mbah Google atau mas ChatGPT ya. Berikut saya coba lampirkan <em>cheatsheet</em> rsync yang barangkali bisa sedikit membantu :)</p>
+<p>rsync cheatsheet: <mark> <a href="https://devhints.io/rsync" target="_blank">https://devhints.io/rsync</a>
+ </mark></p>
+<hr>
+<p>Artikel ini ditulis menggunakan sistem operasi Debian dengan Tema: <a href="https://www.youtube.com/watch?v=N6o-coKG67Y" target="_blank">52 Hz</a>
+</p>
+<p><img loading="lazy" src="/rsync/debian-whalien.png" alt="ss1"  title="Whalien 52 - Paus paling kesepian di dunia"  />
+</p>
 
 
 
@@ -462,17 +507,13 @@
 
 <nav class="pagenav">
   
-    <a class="prev" href="/tech/rsync/">
-      <span class="direction">« Prev</span>
-      <br>
-      <span> Rsync: Best Tools for Backing Up Data </span>
-    </a>
+  <div></div>
   
   
-    <a class="next" href="/tech/openvpn-server/">
+    <a class="next" href="/tech/netcat/">
       <span class="direction">Next »</span>
       <br>
-      <span> Building VPN Server using OpenVPN </span>
+      <span> Netcat: The Simplest Way to Transfer File </span>
     </a>
   
 </nav>

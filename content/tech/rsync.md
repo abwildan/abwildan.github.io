@@ -1,0 +1,106 @@
++++
+title = "Rsync: The Best Tool for Backing Up Data"
+date = 2024-10-03T21:42:14+07:00
+cover = ""
+summary = "The simplest and easiest way to backup your data..."
+tags = [ "rsync", "backup" ]
+categories = "rsync"
++++
+
+**`rsync`** adalah *utility* atau *tools* atau aplikasi berbasis terminal (*CLI-based*) yang digunakan untuk melakukan *back up* data. Kalau merujuk pada definisi resmi dari halaman manual (***man page***)-nya, <mark> **`rsync`** *is a fast, versatile, remote (and local) file-copying tool* </mark>. Yap, sebetulnya, **rsync** pada dasarnya memang mirip seperti **cp** yang digunakan untuk meng-*copy* file, tapi **rsync** tidak sama dengan **cp**. Berikut adalah perbandingan **rsync** dan **cp** <u> (menurut ChatGPT) </u> sehingga **rsync** bisa dibilang sebagai *tools* yang lebih fleksibel dan lebih canggih dibandingkan **cp**:
+
+|     **Fitur**             | **`cp`**                                  | **`rsync`**                                       |
+|   ---                     | ---                                       | ---                                               |
+| **Sinkronisasi**          | Tidak ada sinkronisasi                    | Sinkronisasi hanya file yang berubah / belum ada  |
+| **Jaringan**              | Tidak mendukung koneksi ke jaringan       | Mendukung jaringan melalui SSH                    |
+| **Kecepatan**             | Menyalin semua file                       | Lebih cepat karena hanya menyalin perubahan saja  |
+| **Melanjutkan Proses**    | Tidak                                     | Bisa melanjutkan transfer yang terputus           |
+| **Fitur Tambahan**        | Sederhana, sedikit opsi                   | Banyak opsi (*compress*, *progress*, *delete*)    |
+
+Karena rsync hanya meng-*copy* file atau data yang belum ada atau berubah saja, maka proses *copy* data via *rsync* menjadi relatif lebih cepat dibandingkan dengan *copy* data via **cp**. Intinya, **rsync** dapat bekerja lebih efektif ada efisien dalam hal *copy* data dibandingkan **cp**. Oleh karena itu, **rsync** sangat cocok digunakan untuk melakukan *backup* data.
+
+## Instalasi `rsync`
+
+Cara instalasi **rsync** di masing-masing distro:
+
+|       Distro      |                  Command                  |
+|       ---         |                   ---                     |
+| **Debian/Ubuntu** | **`sudo apt install rsync`**              |
+| **Arch Linux**    | **`sudo pacman -Sy rsync`**               |
+| **Fedora**        | **`sudo dnf install rsync`**              |
+| **Opensuse**      | **`sudo zypper install rsync`**           |
+
+## Demonstrasi
+
+Pola dasar perintah **rsync** sangat sederhana, sebagai berikut:
+
+```shell
+rsync [options] [source] [destination] 
+```
+
+Misalnya, saya ingin mem-*backup* seluruh file yang ada di folder/direktori **~/Templates** ke direktori **~/backup**, maka perintahnya:
+
+```shell
+rsync -arzv ~/Templates/ ~/backup/
+```
+
+{{< callout >}} 
+
+**Penting!**  Pastikan kita menambahkan tanda garis miring atau *slash* **[ / ]** di akhir nama direktori jika kita hanya ingin meng-*copy* isi file yang terdapat di dalam direktori tersebut. Dengan kata lain, kita tidak ingin direktori **~/Templates** tersebut juga ikut ter-*copy*.
+
+{{< /callout >}}
+
+**Keterangan:**
+1. **-a : *archive mode***, menyalin data dengan tetap mempertahankan atribut-atributnya (*timestamps, permissions, owner,* etc)
+2. **-r : *recursive***, mengambil semua file yang ada di dalam direktori
+3. **-z : *compress***, mengkompres data selama proses transfer
+4. **-v : *verbose***, meningkatkan *verbosity* 
+
+Berikut demo-nya:
+
+![gif1](/rsync/gif1.gif "backup ~/Templates to ~/backup")
+
+> Tentang **`watch`**:  
+> Saya menggunakan perintah **watch** berikut untuk memantau aktivitas di dalam direktori ~/backup:  
+> ```shell
+> watch -n 2 ls -l
+>```  
+> Artinya, saya akan menginputkan perintah ls -l setiap 2 detik.
+
+Selain digunakan untuk melakukan *backup* pada komputer lokal, **rsync** juga dapat digunakan untuk melakukan *backup* secara *remote* pada komputer server. Pola perintahnya juga masih sama seperti yang saya sampaikan di awal bagian demonstrasi ini. Hanya saja, kita perlu mengganti bagian *source* atau *destination*-nya dengan *remote* server yang ingin di-*backup* atau mem-*backup*. Sehingga kira-kira pola perintahnya akan seperti ini jika kita ingin melakukan *backup* dari sebuah server:
+
+```shell
+rsync [options] [username@ip-or-hostname:/source/path] [destination] 
+```
+
+Atau jika ingin melakukan *backup* ke sebuah server:
+
+```shell
+rsync [options] [source] [username@ip-or-hostname:/dest/path] 
+```
+
+Misalnya, saya ingin mem-*backup* file-file dari direktori **~/Templates** yang ada di komputer saya ke direktori **~/backup** di server Ubuntu 20.04, maka perintahnya adalah sebagai berikut:
+
+```shell
+rsync -arzv ~/Templates/ wildan@192.168.0.114:~/backup/
+```
+
+Berikut demonya:
+
+Kiri adalah komputer lokal saya - Debian, kanan adalah komputer server - Ubuntu
+
+![gif2](/rsync/gif2.gif "backup ~/Templates to wildan@192.168.0.114:~/backup")
+
+> **Notes:**  
+> Ketika akan melakukan *backup* ke atau dari server, kita akan diminta untuk memasukkan password, karena memang **rsync** menggunakan SSH sebagai protokol komunikasinya.
+
+Gimana? Mudah bukan?  
+Kalau masih bingung atau mau *explore* lebih jauh tentang **`rsync`**, jangan sungkan-sungkan untuk baca-baca *manual page*-nya dengan perintah **`man rsync`** atau berselancar dan bertanya ke mbah Google atau mas ChatGPT ya. Berikut saya coba lampirkan *cheatsheet* rsync yang barangkali bisa sedikit membantu :)
+
+rsync cheatsheet: <mark> https://devhints.io/rsync </mark>
+
+---
+
+Artikel ini ditulis menggunakan sistem operasi Debian dengan Tema: [52 Hz](https://www.youtube.com/watch?v=N6o-coKG67Y)
+
+![ss1](/rsync/debian-whalien.png "Whalien 52 - Paus paling kesepian di dunia")

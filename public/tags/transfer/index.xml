@@ -15,12 +15,5 @@
       <guid>http://localhost:1313/tech/netcat/</guid>
       <description>Learn the best way to transfer file(s) through a network.</description>
     </item>
-    <item>
-      <title>Netcat: The Simplest Way to Transfer File</title>
-      <link>http://localhost:1313/tech/transfile/</link>
-      <pubDate>Sun, 29 Sep 2024 02:06:27 +0000</pubDate>
-      <guid>http://localhost:1313/tech/transfile/</guid>
-      <description>Learn the best way to transfer file(s) through a network.</description>
-    </item>
   </channel>
 </rss>

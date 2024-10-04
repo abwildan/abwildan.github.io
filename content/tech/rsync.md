@@ -89,7 +89,7 @@ rsync -arzv ~/Templates/ wildan@192.168.0.114:~/backup/
 
 Berikut demonya:
 
-Kiri adalah komputer lokal saya - Debian, kanan adalah komputer server - Ubuntu
+Kiri adalah komputer lokal saya:Debian, kanan adalah komputer server:Ubuntu
 
 <video width="900" controls>
   <source src="/rsync/l2s.ogv" type="video/mp4">
@@ -99,9 +99,9 @@ Kiri adalah komputer lokal saya - Debian, kanan adalah komputer server - Ubuntu
 > Ketika akan melakukan *backup* ke atau dari server, kita akan diminta untuk memasukkan password, karena memang **rsync** menggunakan SSH sebagai protokol komunikasinya.
 
 Gimana? Mudah bukan?  
-Kalau masih bingung atau mau *explore* lebih jauh tentang **`rsync`**, jangan sungkan-sungkan untuk baca-baca *manual page*-nya dengan perintah **`man rsync`** atau berselancar dan bertanya ke mbah Google atau mas ChatGPT ya. Berikut saya coba lampirkan *cheatsheet* rsync yang barangkali bisa sedikit membantu :)
+Kalau masih bingung atau mau *explore* lebih jauh tentang **`rsync`**, jangan sungkan-sungkan untuk baca-baca *manual page*-nya dengan perintah **`man rsync`** atau berselancar dan bertanya ke mbah Google atau mas ChatGPT ya. Berikut saya coba lampirkan *cheatsheet* **rsync** yang barangkali bisa sedikit membantu :)
 
-rsync cheatsheet: <mark> https://devhints.io/rsync </mark>
+rsync *cheatsheet*: <mark> https://devhints.io/rsync </mark>
 
 ---
 

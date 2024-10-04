@@ -479,7 +479,7 @@ Saya menggunakan perintah <strong>watch</strong> berikut untuk memantau aktivita
 </span></span></code></pre></div><p>Misalnya, saya ingin mem-<em>backup</em> file-file dari direktori <strong>~/Templates</strong> yang ada di komputer saya ke direktori <strong>~/backup</strong> di server Ubuntu 20.04, maka perintahnya adalah sebagai berikut:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>rsync -arzv ~/Templates/ wildan@192.168.0.114:~/backup/
 </span></span></code></pre></div><p>Berikut demonya:</p>
-<p>Kiri adalah komputer lokal saya - Debian, kanan adalah komputer server - Ubuntu</p>
+<p>Kiri adalah komputer lokal saya:Debian, kanan adalah komputer server:Ubuntu</p>
 <video width="900" controls>
   <source src="/rsync/l2s.ogv" type="video/mp4">
 </video>
@@ -488,8 +488,8 @@ Saya menggunakan perintah <strong>watch</strong> berikut untuk memantau aktivita
 Ketika akan melakukan <em>backup</em> ke atau dari server, kita akan diminta untuk memasukkan password, karena memang <strong>rsync</strong> menggunakan SSH sebagai protokol komunikasinya.</p>
 </blockquote>
 <p>Gimana? Mudah bukan?<br>
-Kalau masih bingung atau mau <em>explore</em> lebih jauh tentang <strong><code>rsync</code></strong>, jangan sungkan-sungkan untuk baca-baca <em>manual page</em>-nya dengan perintah <strong><code>man rsync</code></strong> atau berselancar dan bertanya ke mbah Google atau mas ChatGPT ya. Berikut saya coba lampirkan <em>cheatsheet</em> rsync yang barangkali bisa sedikit membantu :)</p>
-<p>rsync cheatsheet: <mark> <a href="https://devhints.io/rsync" target="_blank">https://devhints.io/rsync</a>
+Kalau masih bingung atau mau <em>explore</em> lebih jauh tentang <strong><code>rsync</code></strong>, jangan sungkan-sungkan untuk baca-baca <em>manual page</em>-nya dengan perintah <strong><code>man rsync</code></strong> atau berselancar dan bertanya ke mbah Google atau mas ChatGPT ya. Berikut saya coba lampirkan <em>cheatsheet</em> <strong>rsync</strong> yang barangkali bisa sedikit membantu :)</p>
+<p>rsync <em>cheatsheet</em>: <mark> <a href="https://devhints.io/rsync" target="_blank">https://devhints.io/rsync</a>
  </mark></p>
 <hr>
 <p>Artikel ini ditulis menggunakan sistem operasi Debian dengan Tema: <a href="https://www.youtube.com/watch?v=N6o-coKG67Y" target="_blank">52 Hz</a>

@@ -8,8 +8,8 @@
 
   
   
-  <title>Rsync: The Best Tool for Backing Up Data &middot; Wildan&#39;s Workspace</title>
-  <meta name="title" content="Rsync: The Best Tool for Backing Up Data &middot; Wildan&#39;s Workspace" />
+  <title>rsync: The Best Tool for Backing Up Data &middot; Wildan&#39;s Workspace</title>
+  <meta name="title" content="rsync: The Best Tool for Backing Up Data &middot; Wildan&#39;s Workspace" />
   
 
   
@@ -67,7 +67,7 @@
 
   <meta property="og:url" content="http://localhost:1313/tech/rsync/">
   <meta property="og:site_name" content="Wildan&#39;s Workspace">
-  <meta property="og:title" content="Rsync: The Best Tool for Backing Up Data">
+  <meta property="og:title" content="rsync: The Best Tool for Backing Up Data">
   <meta property="og:description" content="The simplest and easiest way to backup your data…">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
@@ -79,7 +79,7 @@
 
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Rsync: The Best Tool for Backing Up Data">
+  <meta name="twitter:title" content="rsync: The Best Tool for Backing Up Data">
   <meta name="twitter:description" content="The simplest and easiest way to backup your data…">
 
 
@@ -252,7 +252,7 @@
 
 
 
-<h1 class="pg-title">Rsync: The Best Tool for Backing Up Data</h1>
+<h1 class="pg-title">rsync: The Best Tool for Backing Up Data</h1>
 
 
 <div class="meta">
@@ -463,8 +463,9 @@
 <li><strong>-v : <em>verbose</em></strong>, meningkatkan <em>verbosity</em></li>
 </ol>
 <p>Berikut demo-nya:</p>
-<p><img loading="lazy" src="/rsync/gif1.gif" alt="gif1"  title="backup ~/Templates to ~/backup"  />
-</p>
+<video width="900" controls>
+  <source src="/rsync/l2l.ogv" type="video/mp4">
+</video>
 <blockquote>
 <p>Tentang <strong><code>watch</code></strong>:<br>
 Saya menggunakan perintah <strong>watch</strong> berikut untuk memantau aktivitas di dalam direktori ~/backup:</p>
@@ -479,8 +480,9 @@ Saya menggunakan perintah <strong>watch</strong> berikut untuk memantau aktivita
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>rsync -arzv ~/Templates/ wildan@192.168.0.114:~/backup/
 </span></span></code></pre></div><p>Berikut demonya:</p>
 <p>Kiri adalah komputer lokal saya - Debian, kanan adalah komputer server - Ubuntu</p>
-<p><img loading="lazy" src="/rsync/gif2.gif" alt="gif2"  title="backup ~/Templates to wildan@192.168.0.114:~/backup"  />
-</p>
+<video width="900" controls>
+  <source src="/rsync/l2s.ogv" type="video/mp4">
+</video>
 <blockquote>
 <p><strong>Notes:</strong><br>
 Ketika akan melakukan <em>backup</em> ke atau dari server, kita akan diminta untuk memasukkan password, karena memang <strong>rsync</strong> menggunakan SSH sebagai protokol komunikasinya.</p>

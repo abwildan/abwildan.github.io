@@ -1,5 +1,5 @@
 +++
-title = "Rsync: The Best Tool for Backing Up Data"
+title = "rsync: The Best Tool for Backing Up Data"
 date = 2024-10-03T21:42:14+07:00
 cover = ""
 summary = "The simplest and easiest way to backup your data..."
@@ -58,7 +58,9 @@ rsync -arzv ~/Templates/ ~/backup/
 
 Berikut demo-nya:
 
-![gif1](/rsync/gif1.gif "backup ~/Templates to ~/backup")
+<video width="900" controls>
+  <source src="/rsync/l2l.ogv" type="video/mp4">
+</video>
 
 > Tentang **`watch`**:  
 > Saya menggunakan perintah **watch** berikut untuk memantau aktivitas di dalam direktori ~/backup:  
@@ -89,7 +91,9 @@ Berikut demonya:
 
 Kiri adalah komputer lokal saya - Debian, kanan adalah komputer server - Ubuntu
 
-![gif2](/rsync/gif2.gif "backup ~/Templates to wildan@192.168.0.114:~/backup")
+<video width="900" controls>
+  <source src="/rsync/l2s.ogv" type="video/mp4">
+</video>
 
 > **Notes:**  
 > Ketika akan melakukan *backup* ke atau dari server, kita akan diminta untuk memasukkan password, karena memang **rsync** menggunakan SSH sebagai protokol komunikasinya.

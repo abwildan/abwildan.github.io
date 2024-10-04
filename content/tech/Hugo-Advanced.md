@@ -366,7 +366,7 @@ Hasilnya, sepert ini:
 Kita bisa meng-highlight teks penting dengan menggunakan *tag* `<mark> </mark>`. Misalnya, saya akan meng-highlight kata **"elang"** pada kalimat "Saya adalah seekot elang".
 
 ```shell
-Saya adalah seekor </mark> elang </elang>.
+Saya adalah seekor </mark> elang </mark>.
 ```
 
 Hasilnya:
@@ -397,6 +397,21 @@ Hasilnya:
 > ID catur tersebut dapat diperoleh di bagisn ***"embed"*** ketika kita klik tombol share (khusus di Chess.com).  
 > ![ss21](/Hugo-Advanced/ss21.png)
 
+### Tips 19: Menambahkan video
+
+Karena Hugo per artikel ini ditulis belum support video *attachment*, jadi, saya menggunakan html tag untuk menampilkan video di website:
+
+```html
+<video width="900" controls>
+  <source src="/path/to/video.mp4" type="video/mp4">
+</video>
+```
+
+Hasilnya, kira-kira seperti ini:
+
+<video width="900" controls>
+  <source src="/rsync/l2l.ogv" type="video/mp4">
+</video>
 
 Kalau sudah selesai, jangan lupa commit ke repo lokal dan push ke Github:
 

@@ -58,8 +58,8 @@ rsync -arzv ~/Templates/ ~/backup/
 
 Berikut demo-nya:
 
-<video width="900" controls>
-  <source src="/rsync/l2l.ogv" type="video/mp4">
+<video width="100%" controls>
+  <source src="/rsync/l2l.mp4" type="video/mp4">
 </video>
 
 > Tentang **`watch`**:  
@@ -91,8 +91,8 @@ Berikut demonya:
 
 Kiri adalah komputer lokal saya:Debian, kanan adalah komputer server:Ubuntu
 
-<video width="900" controls>
-  <source src="/rsync/l2s.ogv" type="video/mp4">
+<video width="100%" controls>
+  <source src="/rsync/l2s.mp4" type="video/mp4">
 </video>
 
 > **Notes:**  

@@ -397,7 +397,7 @@ Hasilnya:
 > ID catur tersebut dapat diperoleh di bagisn ***"embed"*** ketika kita klik tombol share (khusus di Chess.com).  
 > ![ss21](/Hugo-Advanced/ss21.png)
 
-### Tips 19: Menambahkan video
+### Tips 20: Menambahkan video
 
 Karena Hugo per artikel ini ditulis belum support video *attachment*, jadi, saya menggunakan html tag untuk menampilkan video di website:
 

@@ -402,15 +402,15 @@ Hasilnya:
 Karena Hugo per artikel ini ditulis belum support video *attachment*, jadi, saya menggunakan html tag untuk menampilkan video di website:
 
 ```html
-<video width="900" controls>
+<video width="100%" controls>
   <source src="/path/to/video.mp4" type="video/mp4">
 </video>
 ```
 
 Hasilnya, kira-kira seperti ini:
 
-<video width="900" controls>
-  <source src="/rsync/l2l.ogv" type="video/mp4">
+<video width="100%" controls>
+  <source src="/rsync/l2l.mp4" type="video/mp4">
 </video>
 
 Kalau sudah selesai, jangan lupa commit ke repo lokal dan push ke Github:

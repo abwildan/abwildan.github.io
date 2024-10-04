@@ -101,7 +101,7 @@ Kiri adalah komputer lokal saya:Debian, kanan adalah komputer server:Ubuntu
 Gimana? Mudah bukan?  
 Kalau masih bingung atau mau *explore* lebih jauh tentang **`rsync`**, jangan sungkan-sungkan untuk baca-baca *manual page*-nya dengan perintah **`man rsync`** atau berselancar dan bertanya ke mbah Google atau mas ChatGPT ya. Berikut saya coba lampirkan *cheatsheet* **rsync** yang barangkali bisa sedikit membantu :)
 
-rsync *cheatsheet*: <mark> https://devhints.io/rsync </mark>
+**rsync** *cheatsheet*: <mark> https://devhints.io/rsync </mark>
 
 ---
 

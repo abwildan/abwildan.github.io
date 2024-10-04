@@ -1,5 +1,5 @@
 +++
-title = "Netcat: The Simplest Way to Transfer File"
+title = "netcat: The Simplest Way to Transfer File"
 date = 2024-09-29T02:06:27Z
 cover = ""
 summary = "Learn the best way to transfer file(s) through a network."

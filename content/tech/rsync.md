@@ -1,5 +1,5 @@
 +++
-title = "rsync: The Best Tool for Backing Up Data"
+title = "rsync: The Powerful Tool for Backing Up Data"
 date = 2024-10-03T21:42:14+07:00
 cover = ""
 summary = "The simplest and easiest way to backup your data..."
@@ -97,6 +97,14 @@ Kiri adalah komputer lokal saya:Debian, kanan adalah komputer server:Ubuntu
 
 > **Notes:**  
 > Ketika akan melakukan *backup* ke atau dari server, kita akan diminta untuk memasukkan password, karena memang **rsync** menggunakan SSH sebagai protokol komunikasinya.
+
+Berikutnya, saya juga akan menunjukkan bagaimana **`rsync`** meng-*handle* hanya file yang belum ada atau berubah saja, artinya, tidak semua file yang akan ter-*copy*, tapi hanya file-file yang berubah atau belum ada saja yang akan ditambahkan dan atau diperbarui (di-*update*) sehingga lebih efisien dalam melakukan *backup* data.
+
+Perhatikan, saya akan melakukan *backup* data dari direktori **`~/Templates`** (di sebelah kiri) ke direktori **`~/backup`** (di sebelah kanan). Secara rinci, saya akan memindahkan / meng-*copy* 3 file baru, yaitu **baloon.jpg**, **ipaddr.sh**, dan **sample.pdf** dari **`~/Templates`** ke **`~/backup`** serta memperbarui / meng-*update* isi konten pada file **greetings.txt**.  
+
+<video width="100%" controls>
+  <source src="/rsync/upd.mp4" type="video/mp4">
+</video>
 
 Gimana? Mudah bukan?  
 Kalau masih bingung atau mau *explore* lebih jauh tentang **`rsync`**, jangan sungkan-sungkan untuk baca-baca *manual page*-nya dengan perintah **`man rsync`** atau berselancar dan bertanya ke mbah Google atau mas ChatGPT ya. Berikut saya coba lampirkan *cheatsheet* **rsync** yang barangkali bisa sedikit membantu :)

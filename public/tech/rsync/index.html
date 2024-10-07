@@ -8,8 +8,8 @@
 
   
   
-  <title>rsync: The Best Tool for Backing Up Data &middot; Wildan&#39;s Workspace</title>
-  <meta name="title" content="rsync: The Best Tool for Backing Up Data &middot; Wildan&#39;s Workspace" />
+  <title>rsync: The Powerful Tool for Backing Up Data &middot; Wildan&#39;s Workspace</title>
+  <meta name="title" content="rsync: The Powerful Tool for Backing Up Data &middot; Wildan&#39;s Workspace" />
   
 
   
@@ -67,7 +67,7 @@
 
   <meta property="og:url" content="http://localhost:1313/tech/rsync/">
   <meta property="og:site_name" content="Wildan&#39;s Workspace">
-  <meta property="og:title" content="rsync: The Best Tool for Backing Up Data">
+  <meta property="og:title" content="rsync: The Powerful Tool for Backing Up Data">
   <meta property="og:description" content="The simplest and easiest way to backup your data…">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
@@ -79,7 +79,7 @@
 
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="rsync: The Best Tool for Backing Up Data">
+  <meta name="twitter:title" content="rsync: The Powerful Tool for Backing Up Data">
   <meta name="twitter:description" content="The simplest and easiest way to backup your data…">
 
 
@@ -252,7 +252,7 @@
 
 
 
-<h1 class="pg-title">rsync: The Best Tool for Backing Up Data</h1>
+<h1 class="pg-title">rsync: The Powerful Tool for Backing Up Data</h1>
 
 
 <div class="meta">
@@ -289,7 +289,7 @@
 
 </span>
   
-    3 mins
+    4 mins
   
 
 
@@ -487,6 +487,11 @@ Saya menggunakan perintah <strong>watch</strong> berikut untuk memantau aktivita
 <p><strong>Notes:</strong><br>
 Ketika akan melakukan <em>backup</em> ke atau dari server, kita akan diminta untuk memasukkan password, karena memang <strong>rsync</strong> menggunakan SSH sebagai protokol komunikasinya.</p>
 </blockquote>
+<p>Berikutnya, saya juga akan menunjukkan bagaimana <strong><code>rsync</code></strong> meng-<em>handle</em> hanya file yang belum ada atau berubah saja, artinya, tidak semua file yang akan ter-<em>copy</em>, tapi hanya file-file yang berubah atau belum ada saja yang akan ditambahkan dan atau diperbarui (di-<em>update</em>) sehingga lebih efisien dalam melakukan <em>backup</em> data.</p>
+<p>Perhatikan, saya akan melakukan <em>backup</em> data dari direktori <strong><code>~/Templates</code></strong> (di sebelah kiri) ke direktori <strong><code>~/backup</code></strong> (di sebelah kanan). Secara rinci, saya akan memindahkan / meng-<em>copy</em> 3 file baru, yaitu <strong>baloon.jpg</strong>, <strong>ipaddr.sh</strong>, dan <strong>sample.pdf</strong> dari <strong><code>~/Templates</code></strong> ke <strong><code>~/backup</code></strong> serta memperbarui / meng-<em>update</em> isi konten pada file <strong>greetings.txt</strong>.</p>
+<video width="100%" controls>
+  <source src="/rsync/upd.mp4" type="video/mp4">
+</video>
 <p>Gimana? Mudah bukan?<br>
 Kalau masih bingung atau mau <em>explore</em> lebih jauh tentang <strong><code>rsync</code></strong>, jangan sungkan-sungkan untuk baca-baca <em>manual page</em>-nya dengan perintah <strong><code>man rsync</code></strong> atau berselancar dan bertanya ke mbah Google atau mas ChatGPT ya. Berikut saya coba lampirkan <em>cheatsheet</em> <strong>rsync</strong> yang barangkali bisa sedikit membantu :)</p>
 <p><strong>rsync</strong> <em>cheatsheet</em>: <mark> <a href="https://devhints.io/rsync" target="_blank">https://devhints.io/rsync</a>

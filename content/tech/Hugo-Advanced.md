@@ -410,7 +410,7 @@ Karena Hugo per artikel ini ditulis belum support video *attachment*, jadi, saya
 Hasilnya, kira-kira seperti ini:
 
 <video width="100%" controls>
-  <source src="/rsync/l2l.mp4" type="video/mp4">
+  <source src="/rsync/upd.mp4" type="video/mp4">
 </video>
 
 Kalau sudah selesai, jangan lupa commit ke repo lokal dan push ke Github:

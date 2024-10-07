@@ -6,8 +6,15 @@
     <description>Recent content in Tutorial on Wildan&#39;s Workspace</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 02 Apr 2024 17:30:12 +0700</lastBuildDate>
+    <lastBuildDate>Mon, 07 Oct 2024 22:00:53 +0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>FFmpeg - Convert Any Video Format to MP4</title>
+      <link>http://localhost:1313/tech/covertvideoformat/</link>
+      <pubDate>Mon, 07 Oct 2024 22:00:53 +0700</pubDate>
+      <guid>http://localhost:1313/tech/covertvideoformat/</guid>
+      <description>If you are using Linux, than it can help you convert any video format to MP4 using ffmpeg!</description>
+    </item>
     <item>
       <title>Ngrok - Make Your localhost Accessible Publicly</title>
       <link>http://localhost:1313/tech/ngrok/</link>

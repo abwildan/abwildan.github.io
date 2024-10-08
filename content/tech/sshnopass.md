@@ -50,7 +50,7 @@ ssh-keygen -t rsa -b 4096 -C "yourname/hostname/email"
 
 Nanti, kita akan memiliki 2 buah *key pair* yang tersimpan (secara *default*) di direktori **`~/.ssh`**: sebuah *private key* (**`~/.ssh/id_rsa`**) dan sebuah *public key* (**`~/.ssh/id_rsa.pub`**). 
 
-1. Berikutnya, kita perlu meng-*copy-paste*-kan <mark> public key</mark> tersebut ke file **`~/.ssh/authorized_key`** di server (bisa manual atau) dengan perintah berikut:
+2. Berikutnya, kita perlu meng-*copy-paste*-kan <mark> public key</mark> tersebut ke file **`~/.ssh/authorized_key`** di server (bisa manual atau) dengan perintah berikut:
 
 ```shell
 cat ~/.ssh/id_rsa.pub | ssh username@remote_host "mkdir -p ~/.ssh && cat >> ~/.ssh/authorized_keys"

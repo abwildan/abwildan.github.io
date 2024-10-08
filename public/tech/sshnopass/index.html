@@ -384,7 +384,7 @@
 </ol>
 </blockquote>
 <p>Nanti, kita akan memiliki 2 buah <em>key pair</em> yang tersimpan (secara <em>default</em>) di direktori <strong><code>~/.ssh</code></strong>: sebuah <em>private key</em> (<strong><code>~/.ssh/id_rsa</code></strong>) dan sebuah <em>public key</em> (<strong><code>~/.ssh/id_rsa.pub</code></strong>).</p>
-<ol>
+<ol start="2">
 <li>Berikutnya, kita perlu meng-<em>copy-paste</em>-kan <mark> public key</mark> tersebut ke file <strong><code>~/.ssh/authorized_key</code></strong> di server (bisa manual atau) dengan perintah berikut:</li>
 </ol>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>cat ~/.ssh/id_rsa.pub | ssh username@remote_host <span style="color:#e6db74">&#34;mkdir -p ~/.ssh &amp;&amp; cat &gt;&gt; ~/.ssh/authorized_keys&#34;</span>

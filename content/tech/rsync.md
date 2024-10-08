@@ -1,5 +1,5 @@
 +++
-title = "rsync: The Powerful Tool for Backing Up Data"
+title = "rsync: A Powerful Tool for Backing Up Data"
 date = 2024-10-03T21:42:14+07:00
 cover = ""
 summary = "The simplest and easiest way to backup your data..."
@@ -58,7 +58,7 @@ rsync -arzv ~/Templates/ ~/backup/
 
 Berikut demo-nya:
 
-<video width="100%" controls>
+<video width="100%" controls autoplay loop muted>
   <source src="/rsync/l2l.mp4" type="video/mp4">
 </video>
 
@@ -91,7 +91,7 @@ Berikut demonya:
 
 Kiri adalah komputer lokal saya:Debian, kanan adalah komputer server:Ubuntu
 
-<video width="100%" controls>
+<video width="100%" controls autoplay loop muted>
   <source src="/rsync/l2s.mp4" type="video/mp4">
 </video>
 
@@ -102,7 +102,7 @@ Berikutnya, saya juga akan menunjukkan bagaimana **`rsync`** meng-*handle* hanya
 
 Perhatikan, saya akan melakukan *backup* data dari direktori **`~/Templates`** (di sebelah kiri) ke direktori **`~/backup`** (di sebelah kanan). Secara rinci, saya akan memindahkan / meng-*copy* 3 file baru, yaitu **baloon.jpg**, **ipaddr.sh**, dan **sample.pdf** dari **`~/Templates`** ke **`~/backup`** serta memperbarui / meng-*update* isi konten pada file **greetings.txt**.  
 
-<video width="100%" controls>
+<video width="100%" controls autoplay loop muted>
   <source src="/rsync/upd.mp4" type="video/mp4">
 </video>
 
@@ -113,6 +113,6 @@ Kalau masih bingung atau mau *explore* lebih jauh tentang **`rsync`**, jangan su
 
 ---
 
-Artikel ini ditulis menggunakan sistem operasi Debian dengan Tema: [52 Hz](https://www.youtube.com/watch?v=N6o-coKG67Y)
+Artikel ini ditulis menggunakan sistem operasi Debian dengan Tema: [52 Hz](https://www.youtube.com/watch?v=PPcU3NN61rQ&pp=ygUId2hhbGUgNTI%3D)
 
 ![ss1](/rsync/debian-whalien.png "Whalien 52 - Paus paling kesepian di dunia")

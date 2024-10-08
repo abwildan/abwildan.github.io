@@ -13,7 +13,7 @@
       <link>http://localhost:1313/tech/covertvideoformat/</link>
       <pubDate>Mon, 07 Oct 2024 22:00:53 +0700</pubDate>
       <guid>http://localhost:1313/tech/covertvideoformat/</guid>
-      <description>If you are using Linux, than it can help you convert any video format to MP4 using ffmpeg!</description>
+      <description>If you have ffmpeg installed on your Linux machine, then it can help you convert any video format to MP4!</description>
     </item>
   </channel>
 </rss>

@@ -402,14 +402,20 @@ Hasilnya:
 Karena Hugo per artikel ini ditulis belum support video *attachment*, jadi, saya menggunakan html tag untuk menampilkan video di website:
 
 ```html
-<video width="100%" controls>
+<video width="100%" controls autoplay loop muted>
   <source src="/path/to/video.mp4" type="video/mp4">
 </video>
 ```
 
+> Keterangan:  
+> 1. <mark> controls</mark> : Menampilkan tombol kontrol, seperti play, audio, fullscreen.
+> 2. <mark> autoplay</mark> : Langsung menjalankan video ketika membuka website tanpa perlu interaksi dari user.
+> 3. <mark> loop</mark> : Langsung kembali memutar ulang video ketika sudah berakhir.
+> 4. <mark> muted</mark> : Me-non-aktifkan suara.
+
 Hasilnya, kira-kira seperti ini:
 
-<video width="100%" controls>
+<video width="100%" controls autoplay loop muted>
   <source src="/rsync/upd.mp4" type="video/mp4">
 </video>
 

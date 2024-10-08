@@ -2,13 +2,49 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2024-10-07T22:00:53+07:00</lastmod>
+    <lastmod>2024-10-08T17:00:47+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2024-10-07T22:00:53+07:00</lastmod>
+    <lastmod>2024-10-08T17:00:47+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/password/</loc>
+    <lastmod>2024-10-08T17:00:47+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/ssh/</loc>
+    <lastmod>2024-10-08T17:00:47+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/categories/ssh/</loc>
+    <lastmod>2024-10-08T17:00:47+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tech/sshnopass/</loc>
+    <lastmod>2024-10-08T17:00:47+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-10-08T17:00:47+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tech/</loc>
+    <lastmod>2024-10-08T17:00:47+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -26,18 +62,6 @@
   </url>
   <url>
     <loc>http://localhost:1313/tech/covertvideoformat/</loc>
-    <lastmod>2024-10-07T22:00:53+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2024-10-07T22:00:53+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/tech/</loc>
     <lastmod>2024-10-07T22:00:53+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>

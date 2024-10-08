@@ -8,16 +8,16 @@
 
   
   
-  <title>netcat: The Simplest Way to Transfer File &middot; Wildan&#39;s Workspace</title>
-  <meta name="title" content="netcat: The Simplest Way to Transfer File &middot; Wildan&#39;s Workspace" />
+  <title>SSH without Password? &middot; Wildan&#39;s Workspace</title>
+  <meta name="title" content="SSH without Password? &middot; Wildan&#39;s Workspace" />
   
 
   
   
-  <meta name="description" content="Learn the best way to transfer file(s) through a network." />
+  <meta name="description" content="Too lazy to input your SSH password while doing routine task? Here is the solution..." />
   
-  <meta name="keywords" content="file, transfer, netcat, " />
-  <link rel="canonical" href="http://localhost:1313/tech/netcat/" />
+  <meta name="keywords" content="ssh, password, " />
+  <link rel="canonical" href="http://localhost:1313/tech/sshnopass/" />
 
   
 
@@ -65,23 +65,22 @@
     <link rel="manifest" href="/site.webmanifest" />
   
 
-  <meta property="og:url" content="http://localhost:1313/tech/netcat/">
+  <meta property="og:url" content="http://localhost:1313/tech/sshnopass/">
   <meta property="og:site_name" content="Wildan&#39;s Workspace">
-  <meta property="og:title" content="netcat: The Simplest Way to Transfer File">
-  <meta property="og:description" content="Learn the best way to transfer file(s) through a network.">
+  <meta property="og:title" content="SSH without Password?">
+  <meta property="og:description" content="Too lazy to input your SSH password while doing routine task? Here is the solution…">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="tech">
-    <meta property="article:published_time" content="2024-09-29T02:06:27+00:00">
-    <meta property="article:modified_time" content="2024-09-29T02:06:27+00:00">
-    <meta property="article:tag" content="File">
-    <meta property="article:tag" content="Transfer">
-    <meta property="article:tag" content="Netcat">
+    <meta property="article:published_time" content="2024-10-08T17:00:47+07:00">
+    <meta property="article:modified_time" content="2024-10-08T17:00:47+07:00">
+    <meta property="article:tag" content="Ssh">
+    <meta property="article:tag" content="Password">
 
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="netcat: The Simplest Way to Transfer File">
-  <meta name="twitter:description" content="Learn the best way to transfer file(s) through a network.">
+  <meta name="twitter:title" content="SSH without Password?">
+  <meta name="twitter:description" content="Too lazy to input your SSH password while doing routine task? Here is the solution…">
 
 
   
@@ -253,7 +252,7 @@
 
 
 
-<h1 class="pg-title">netcat: The Simplest Way to Transfer File</h1>
+<h1 class="pg-title">SSH without Password?</h1>
 
 
 <div class="meta">
@@ -273,7 +272,7 @@
 
 
 </span>
-  Posted on <time datetime="2024-09-29T02:06:27&#43;00:00">Sep 29, 2024</time>
+  Posted on <time datetime="2024-10-08T17:00:47&#43;07:00">Oct 8, 2024</time>
   
   
   
@@ -290,7 +289,7 @@
 
 </span>
   
-    2 mins
+    3 mins
   
 
 
@@ -307,11 +306,9 @@
 
  </span>
   
-  <a class="tag" href="/tags/file/">File</a>
+  <a class="tag" href="/tags/ssh/">Ssh</a>
   
-  <a class="tag" href="/tags/transfer/">Transfer</a>
-  
-  <a class="tag" href="/tags/netcat/">Netcat</a>
+  <a class="tag" href="/tags/password/">Password</a>
   
 </p>
 
@@ -322,43 +319,15 @@
 
 
 
-  <div class="toc">
-    <details >
-      <summary accesskey="c" title="(Alt+C)">
-        Table of Contents
-      </summary>
-      <div class="toc-innr">
-        <nav id="TableOfContents">
-  <ul>
-    <li><a href="#instalasi">Instalasi</a></li>
-    <li><a href="#demonstrasi">Demonstrasi</a></li>
-  </ul>
-</nav>
-      </div>
-    </details>
-  </div>
-  
 
 
 
-<p>Saya biasa menggunakan <strong>scp</strong> dan <em>simple webserver</em> seperti yang disediakan oleh python jika ingin memindahkan satu atau lebih file dari sebuah mesin linux ke mesin linux lainnya (atau windows). Tapi, baru-baru ini saya lihat tutorial singkat di Youtube untuk men-<em>transfer</em> file dengan cara yang lebih efektif, yaitu menggunakan <strong>netcat</strong>. Saya sebut sebagai cara tersimpel setidaknya karena 3 alasan:</p>
-<ul>
-<li>Paketnya tersedia di semua distro linux</li>
-<li>Instalasinya mudah, dan</li>
-<li>Penggunaannya relatif lebih mudah dan lebih praktis dibanding cara lainnya.</li>
-</ul>
+<p>Hola!</p>
+<p>Terkadang, kalau kita terlalu sering menggunakan SSH (Secure Shell) untuk me-<em>remote</em> server dengan terus menerus harus meng-<em>input</em>-kan password, bisa saja kita menjadi <s> frustasi</s> capek, bukan? Kita menghendaki agar kebutuhan <em>login</em> ke server via SSH bisa dilakukan se-<em>simple</em> mungkin. Nah, ternyata, kita bisa melakukan hal tersebut kok, dan kabar baiknya, cara agar bisa login ke SSH server tanpa password ini mudah untuk dipelajari. <em>So</em>, langsung kita ke tutorial&hellip;</p>
 
-<h2 id="instalasi">
-  Instalasi
-  
-  <a hidden class="anchor" href="#instalasi">
-
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
-
-
- </a>
-  
-</h2>
+<p><details >
+  <summary markdown="span"><strong>Note:</strong></summary>
+  <p>Tutor ini berasumsi bahwa kalian sudah memiliki / meng-<em>install</em> paket ssh ya di sistem linux kalian. Kalau ternyata kalian belum meng-<em>install</em>-nya tapi juga ingin ikutan bereksperimen, maka SSH di linux host kalian dan tentu saja di server bisa di-<em>install</em> dengan perintah berikut:</p>
 <table>
 <thead>
 <tr>
@@ -369,83 +338,68 @@
 <tbody>
 <tr>
 <td><strong>Debian/Ubuntu</strong></td>
-<td><strong><code>sudo apt install netcat-traditional</code></strong></td>
+<td><strong><code>sudo apt install openssh-client openssh-server</code></strong></td>
 </tr>
 <tr>
 <td><strong>Arch Linux</strong></td>
-<td><strong><code>sudo pacman -Sy gnu-netcat</code></strong></td>
-</tr>
-<tr>
-<td><strong>Opensuse</strong></td>
-<td><strong><code>sudo zypper install gnu-netcat</code></strong></td>
+<td><strong><code>sudo pacman -Sy openssh</code></strong></td>
 </tr>
 <tr>
 <td><strong>Fedora</strong></td>
-<td><strong><code>sudo dnf install netcat-gnu</code></strong></td>
+<td><strong><code>sudo dnf install openssh</code></strong></td>
+</tr>
+<tr>
+<td><strong>Opensuse</strong></td>
+<td><strong><code>sudo zypper install openssh</code></strong></td>
 </tr>
 </tbody>
 </table>
-<p>Untuk Windows, <em>binary</em> netcat dapat diunduh di url berikut:<br>
-<a href="https://nmap.org/download.html#windows" target="_blank">https://nmap.org/download.html#windows</a>
-.</p>
-<p>Berikut ini adalah artikel relevan terkait instalasi netcat di Windows: <a href="https://medium.com/@bonguides25/how-to-install-netcat-on-windows-10-11-f5be1a185611" target="_blank">How to Install on Windows 10/11</a>
-.</p>
-
-<h2 id="demonstrasi">
-  Demonstrasi
-  
-  <a hidden class="anchor" href="#demonstrasi">
-
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
+</details></p>
 
 
- </a>
-  
-</h2>
-<p>Misalnya, saya ingin men-<em>transfer</em> sebuah file gambar bernama <strong>skynight.jpg</strong> dari Debian ke Archlinux, maka, langkah-langkahnya:</p>
 <ol>
-<li>Siapkan <em>listener</em> di Arch dengan perintah</li>
+<li><em>Generate</em> SSH <em>keys</em> (<em>private</em> &amp; <em>public key</em>)</li>
 </ol>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>nc -lvnp <span style="color:#ae81ff">1234</span> &gt; skynight.jpg
-</span></span></code></pre></div>
+
 <p><details >
-  <summary markdown="span">Keterangan</summary>
-  <ol>
-<li>Perintah <mark> <strong>nc -lvnp 1234</strong></mark> artinya komputer melakukan <em>listening</em> koneksi di port 1234.</li>
-<li><mark> <strong>&gt; skynight.jpg</strong></mark> artinya, koneksi dan paket yang masuk nanti akan disimpan ke dalam file bernama skynight.jpg.</li>
-</ol>
-
-</details></p>
-
-
-<ol start="2">
-<li>Transfer file dari Debian ke Arch dengan perintah</li>
-</ol>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>nc $IP <span style="color:#ae81ff">1234</span> -w <span style="color:#ae81ff">1</span> &lt; skynight.jpg
-</span></span></code></pre></div>
-<p><details >
-  <summary markdown="span">Keterangan</summary>
-  <ol>
-<li>Perintah <mark> <strong>nc $IP 1234</strong></mark> artinya komputer melakukan koneksi ke <em>ip address</em> yang ditentukan di port 1234.</li>
-<li><mark> <strong>-w 1</strong></mark> memberikan <em>timeout</em> 1 detik, artinya koneksi akan ditutup setelah terhubung selama 1 detik.</li>
-<li><mark> <strong>&lt; skynight.jpg</strong></mark> artinya, paket yang dikirim adalah file bernama skynight.jpg.</li>
-</ol>
-
-</details></p>
-
-
-<p>Kemudian, kita bisa memastikan file yang di-<em>transfer</em> tersebut (skynight.jpg) sudah terkirim dengan baik dengan mengecek <em>integrity file</em>-nya melalui perintah berikut:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>sha256sum skynight.jpg
-</span></span></code></pre></div><p>Berikut adalah demonstrasinya:</p>
-<p><img loading="lazy" src="/netcat/gif1.gif" alt="gif1"  title="transfer file through netcat"  />
+  <summary markdown="span"><strong>Sekilas tentang <em>Private</em> &amp; <em>Public Key</em></strong> 💡</summary>
+  <p>Ilmu kriptografi diperlukan untuk mengamankan pesan atau data yang &ldquo;terbang&rdquo; di lalu lintas internet. Kriptografi digunakan untuk menyandikan pesan dan data sebelum dikirim untuk memastikan pesan tersebut aman (tidak bisa dibaca oleh orang lain) ketika di perjalanan dan membuka sandi tersebut ketika sudah terkirim kepada penerima. Untuk keperluan tersebut, mula-mula lahirlah metode kriptografi pertama yang bernama <em><strong>Private Key Encryption</strong></em>. Kemudian, seiring perkembangan zaman, lahirlah metode kedua yang dinilai lebih aman dari metode pertama, yaitu metode <em><strong>Public Key Encryption</strong></em>.</p>
+<p>Metode <mark> <em><strong>Private Key Encryption</strong></em></mark> adalah metode kriptografi pertama dan bersifat simetris. Disebut simetris karena metode ini hanya mengandalkan 1 buah kunci untuk meng-<em>encrypt</em> dan juga sekaligus men-<em>decrypt</em> data / pesan, yaitu <em>private key</em> saja. Jadi, dalam metode <em><strong>Private Key Encryption</strong></em> ini, hanya diperlukan 1 kunci saja untuk mengenkrip dan mendekrip data / pesan. Artinya, baik pengirim maupun penerima pesan harus memiliki <em>private key</em> yang sama untuk bisa saling berkomunikasi dengan aman. Namun itu juga berarti, jika orang lain berhasil mencuri <em>private key</em> tersebut, itu artinya tidak ada lagi rahasia di antara pengirim dan penerima pesan.</p>
+<p><img loading="lazy" src="/sshnopass/ss1.png" alt="ss1"  title="sumber: www.cheapsslsecurity.com"  />
 </p>
-<p>Sangat mudah, kita hanya perlu tahu <em>ip address</em> mesin yang akan kita kirimkan filenya. Itu saja, tidak perlu mengkonfigurasi macam-macam seperti bikin <em>key pairs</em> (<em>private</em> &amp; <em>public key</em>) seperti di ssh / scp misalnya.</p>
-<p>Sebetulnya, video Youtube yang menginspirasi artikel ini adalah video short Youtube, tapi karena saya belum tahu cara menginputkan short tersebut di Hugo/HTML, berikut saya lampirkan video tutorial penggantinya:</p>
+<p>Berdasarkan kekhawatiran tersebut, maka lahirlah metode kedua, yaitu metode <mark> <em><strong>Public Key Encryption</strong></em></mark> yang bersifat asimetris. Disebut asimetris karena metode <em><strong>Public Key Ecryption</strong></em> menggunakan 2 buah kunci yang memiliki fungsinya masing-masing, yaitu sebuah kunci untuk meng-<em>encrypt</em> data / pesan (<em>public key</em>) dan sebuah kunci lainnya yang digunakan untuk men-<em>decrypt</em> data / pesan (<em>private key</em>). Jadi, metode enkripsi ini disebut asimetris karena memerlukan 2 kunci berbeda untuk mengenkrip dan mendekrip data / pesan. Artinya, seorang pengirim pesan memerlukan <em>public key</em> untuk mengenkrip pesan yang akan dikirim dan seorang penerima pesan memerlukan <em>private key</em> untuk mendekrip pesan yang terkirim padanya.</p>
+<p><img loading="lazy" src="/sshnopass/ss2.png" alt="ss2"  title="sumber: www.cheapsslsecurity.com"  />
+</p>
+
+</details></p>
+
+
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>ssh-keygen -t rsa -b <span style="color:#ae81ff">4096</span> -C <span style="color:#e6db74">&#34;yourname/hostname/email&#34;</span>
+</span></span></code></pre></div><blockquote>
+<p>Keterangan:</p>
+<ol>
+<li><mark> -t rsa</mark> : Tipe <em>key</em>-nya, karena RSA, berarti kita memilih menggunakan algoritma RSA untuk membuat <em>key</em> tersebut.</li>
+<li><mark> -b 4096</mark> : Jumlah bit dalam <em>key</em>-nya, semakin panjang, semakin aman. Default-nya adalah 2048.</li>
+<li><mark> -C &ldquo;yourname/hostname/email&rdquo;</mark> : komentar di akhir, bisa diisi nama user, nama host, atau email sebagai pengenal.</li>
+</ol>
+</blockquote>
+<p>Nanti, kita akan memiliki 2 buah <em>key pair</em> yang tersimpan (secara <em>default</em>) di direktori <strong><code>~/.ssh</code></strong>: sebuah <em>private key</em> (<strong><code>~/.ssh/id_rsa</code></strong>) dan sebuah <em>public key</em> (<strong><code>~/.ssh/id_rsa.pub</code></strong>).</p>
+<ol>
+<li>Berikutnya, kita perlu meng-<em>copy-paste</em>-kan <mark> public key</mark> tersebut ke file <strong><code>~/.ssh/authorized_key</code></strong> di server (bisa manual atau) dengan perintah berikut:</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>cat ~/.ssh/id_rsa.pub | ssh username@remote_host <span style="color:#e6db74">&#34;mkdir -p ~/.ssh &amp;&amp; cat &gt;&gt; ~/.ssh/authorized_keys&#34;</span>
+</span></span></code></pre></div><p>Berikut adalah demonstrasinya, mulai dari pembuatan <em>key pair</em> hingga login ke server via SSH tanpa password:</p>
+<video width="100%" controls autoplay loop muted>
+  <source src="/sshnopass/vid1.mp4" type="video/mp4">
+</video>
+<p>Tada! Kita sudah bisa login ke server via SSH tanpa memerlukan password!</p>
+<p>Btw, artikel ini selain diinspirasi oleh rasa malas saya mengetikkan password berulang-ulang tiap login ke server via SSH, juga diinspirasikan oleh sebuah video Youtube dari channel <a href="https://www.youtube.com/@TonyTeachesTech" target="_blank">Tony Teach Tech</a>
+ berikut ini:</p>
 
 
     
     <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/VK_TiHyX_hY?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/j2vBT3T79Pg?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
       ></iframe>
     </div>
 
@@ -462,17 +416,13 @@
 
 <nav class="pagenav">
   
-    <a class="prev" href="/tech/rsync/">
-      <span class="direction">« Prev</span>
-      <br>
-      <span> rsync: A Powerful Tool for Backing Up Data </span>
-    </a>
+  <div></div>
   
   
-    <a class="next" href="/tech/openvpn-server/">
+    <a class="next" href="/tech/covertvideoformat/">
       <span class="direction">Next »</span>
       <br>
-      <span> Building VPN Server using OpenVPN </span>
+      <span> FFmpeg - Convert Any Video Format to MP4 </span>
     </a>
   
 </nav>

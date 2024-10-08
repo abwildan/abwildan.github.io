@@ -2,7 +2,7 @@
 title = "FFmpeg - Convert Any Video Format to MP4"
 date = 2024-10-07T22:00:53+07:00
 cover = ""
-summary = "If you have ffmpeg installed on your Linux machine, then it can help you convert any video format to MP4!"
+summary = "If you have ffmpeg installed on your Linux machine, then it actually could help you to convert any video format to MP4!"
 tags = [ "ffmpeg", "tutorial", "video format" ]
 categories = "ffmpeg"
 +++

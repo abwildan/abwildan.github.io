@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ssh on Wildan&#39;s Workspace</title>
+    <link>http://localhost:1313/tags/ssh/</link>
+    <description>Recent content in Ssh on Wildan&#39;s Workspace</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 08 Oct 2024 17:00:47 +0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/ssh/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SSH without Password?</title>
+      <link>http://localhost:1313/tech/sshnopass/</link>
+      <pubDate>Tue, 08 Oct 2024 17:00:47 +0700</pubDate>
+      <guid>http://localhost:1313/tech/sshnopass/</guid>
+      <description>Too lazy to input your SSH password while doing routine task? Here is the solution&amp;hellip;</description>
+    </item>
+  </channel>
+</rss>

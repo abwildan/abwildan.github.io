@@ -1190,11 +1190,20 @@ ID catur tersebut dapat diperoleh di bagisn <em><strong>&ldquo;embed&rdquo;</str
   
 </h3>
 <p>Karena Hugo per artikel ini ditulis belum support video <em>attachment</em>, jadi, saya menggunakan html tag untuk menampilkan video di website:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#f92672">video</span> <span style="color:#a6e22e">width</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;100%&#34;</span> <span style="color:#a6e22e">controls</span>&gt;
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#f92672">video</span> <span style="color:#a6e22e">width</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;100%&#34;</span> <span style="color:#a6e22e">controls</span> <span style="color:#a6e22e">autoplay</span> <span style="color:#a6e22e">loop</span> <span style="color:#a6e22e">muted</span>&gt;
 </span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">source</span> <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;/path/to/video.mp4&#34;</span> <span style="color:#a6e22e">type</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;video/mp4&#34;</span>&gt;
 </span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">video</span>&gt;
-</span></span></code></pre></div><p>Hasilnya, kira-kira seperti ini:</p>
-<video width="100%" controls>
+</span></span></code></pre></div><blockquote>
+<p>Keterangan:</p>
+<ol>
+<li><mark> controls</mark> : Menampilkan tombol kontrol, seperti play, audio, fullscreen.</li>
+<li><mark> autoplay</mark> : Langsung menjalankan video ketika membuka website tanpa perlu interaksi dari user.</li>
+<li><mark> loop</mark> : Langsung kembali memutar ulang video ketika sudah berakhir.</li>
+<li><mark> muted</mark> : Me-non-aktifkan suara.</li>
+</ol>
+</blockquote>
+<p>Hasilnya, kira-kira seperti ini:</p>
+<video width="100%" controls autoplay loop muted>
   <source src="/rsync/upd.mp4" type="video/mp4">
 </video>
 <p>Kalau sudah selesai, jangan lupa commit ke repo lokal dan push ke Github:</p>

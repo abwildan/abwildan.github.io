@@ -6,8 +6,15 @@
     <description>Recent content on Wildan&#39;s Workspace</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 08 Oct 2024 17:00:47 +0700</lastBuildDate>
+    <lastBuildDate>Fri, 11 Oct 2024 13:28:19 +0700</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Step by Step DVWA Installation via Docker</title>
+      <link>http://localhost:1313/tech/dvwa-docker/</link>
+      <pubDate>Fri, 11 Oct 2024 13:28:19 +0700</pubDate>
+      <guid>http://localhost:1313/tech/dvwa-docker/</guid>
+      <description>DVWA (Damn Vulnerable Webb Apps) is a PHP/MySQL web application that is damn vulnerable~</description>
+    </item>
     <item>
       <title>SSH without Password?</title>
       <link>http://localhost:1313/tech/sshnopass/</link>

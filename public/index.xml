@@ -9,7 +9,7 @@
     <lastBuildDate>Fri, 11 Oct 2024 13:28:19 +0700</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Step by Step DVWA Installation via Docker</title>
+      <title>Step by Step DVWA Installation for Web App Hacking</title>
       <link>http://localhost:1313/tech/dvwa-docker/</link>
       <pubDate>Fri, 11 Oct 2024 13:28:19 +0700</pubDate>
       <guid>http://localhost:1313/tech/dvwa-docker/</guid>

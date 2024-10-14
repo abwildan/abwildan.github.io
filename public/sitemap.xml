@@ -2,19 +2,73 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2024-10-11T13:28:19+07:00</lastmod>
+    <lastmod>2024-10-13T17:04:53+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2024-10-11T13:28:19+07:00</lastmod>
+    <lastmod>2024-10-13T17:04:53+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/command-injection/</loc>
+    <lastmod>2024-10-13T17:04:53+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/categories/command-injection/</loc>
+    <lastmod>2024-10-13T17:04:53+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/tags/docker/</loc>
-    <lastmod>2024-10-11T13:28:19+07:00</lastmod>
+    <lastmod>2024-10-13T17:04:53+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/dvwa/</loc>
+    <lastmod>2024-10-13T17:04:53+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tech/commandinjection/</loc>
+    <lastmod>2024-10-13T17:04:53+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/hacking/</loc>
+    <lastmod>2024-10-13T17:04:53+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/reverse-shell/</loc>
+    <lastmod>2024-10-13T17:04:53+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-10-13T17:04:53+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tech/</loc>
+    <lastmod>2024-10-13T17:04:53+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/web/</loc>
+    <lastmod>2024-10-13T17:04:53+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -25,31 +79,7 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/dvwa/</loc>
-    <lastmod>2024-10-11T13:28:19+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://localhost:1313/tech/dvwa-docker/</loc>
-    <lastmod>2024-10-11T13:28:19+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2024-10-11T13:28:19+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/tech/</loc>
-    <lastmod>2024-10-11T13:28:19+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/tags/web/</loc>
     <lastmod>2024-10-11T13:28:19+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -698,12 +728,6 @@
   </url>
   <url>
     <loc>http://localhost:1313/tags/cyber-security/</loc>
-    <lastmod>2024-05-13T10:52:32+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/tags/hacking/</loc>
     <lastmod>2024-05-13T10:52:32+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>

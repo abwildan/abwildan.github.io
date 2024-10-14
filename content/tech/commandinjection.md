@@ -3,7 +3,7 @@ title = "DVWA - Command Injection"
 date = 2024-10-13T17:04:53+07:00
 cover = ""
 summary = "Command injection is a simple yet still pretty common and relevant vulnerability in the real world even nowadays..."
-tags = [ "docker", "DVWA", "web", "hacking", "command injection", "reverse shell" ]
+tags = [ "DVWA", "web", "hacking", "command injection", "reverse shell" ]
 categories = "command injection"
 +++
 

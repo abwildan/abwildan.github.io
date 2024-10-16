@@ -1,0 +1,139 @@
++++
+title = "Increasing Virtual Machine Disk Size in Virtualbox"
+date = 2024-10-16T16:51:19+07:00
+cover = ""
+summary = "Pretty easy tutorial on increasing Virtualbox VM disk size..."
+tags = [ "Virtual machine", "linux", "virtualbox" ]
+categories = "virtualbox"
++++
+
+Secara *default*, biasanya saya akan mengatur ukuran *virtual disk* untuk VM saya di Virtualbox di sekitar 20 GB. Dulu, ketika VM tersebut sudah mulai terisi penuh *disk size*-nya sementara saya masih memerlukan *space* atau ruang kosong, biasanya yang saya lakukan adalah meng-*install* ulang VM tersebut atau menambah ukuran disk-nya. Sayangnya, saat itu, tutorial menambah VM *disk size* yang saya jumpai di internet adalah tutorial menambah VM disk size di virtualbox berbasis CLI via command prompt / powershell. 
+
+Nah, kali ini, saya sudah menemukan cara yang relatif lebih awam-*friendly* (baca: mudah dipahami) karena kita hanya perlu mengutak-atik GUI dari virtualbox itu sendiri. Jadi, di tutorial ini, saya akan berbagi cara menambah ukuran disk *virtual machine* (VM) di Virtualbox, baik VM Linux maupun VM windows. Nah, untuk skema tutorial ini, saya memiliki sebuah VM Debian dengan *disk size* 20 GB yang akan saya tambahkan 10 GB sehingga nanti ukuran disk-nya akan menjadi 30 GB. 
+
+{{< callout >}}
+
+**WARNING** Sebelum melakukan langkah-langkah di bawah ini, pastikan data (yang dianggap penting) sudah di-*backup* terlebih dahulu karena meskipun (sejauh saya praktek) harusnya tidak ada data yang hilang ketika melakukan langkah-langkah di bawah ini, kita harus tetap berjaga-jaga untuk mengantisipasi kemungkinan terburuk.
+
+{{< /callout >}}
+
+## Linux
+
+Secara detail, ukuran disk 20 GB yang saya punya saat ini di Linux terbagi menjadi 2 partisi utama, yaitu 19 GB di **`/dev/sda1`** dengan *file system* ext4, 1 GB di **`/dev/sda5`** dengan *file system* SWAP. Nah, nanti, saya akan tambahkan 10 GB sehingga total disk-nya akan menjadi 30 GB dengan rincian partisi 29 GB untuk *file system* ext4 dan 1 GB untuk *file system* SWAP. 
+
+> **Note:** Saya tidak akan membahas secara rinci mengenai file system, baik ext4 maupun SWAP di artikel ini. Jika ingin mengetahui lebih dalam tentang file system di linux, bisa merujuk ke tautan berikut: [File System](https://wiki.archlinux.org/title/File_systems) & [SWAP](https://wiki.archlinux.org/title/Swap).  
+
+### 1. Properties di Virtualbox
+
+Pertama, pergi ke **"Virtualbox -> Tools -> Properties"**, kemudian klik file ***.vdi** yang ingin ditambah ukuran disk-nya. Di sini saya pilih VM yang sudah saya siapkan, yaitu VM Debian (Debians.vdi).
+
+![ss1](/updisk/1.png "Virtualbox -> Tools -> Properties")
+
+### 2. Menambah VM *disk size*
+
+Selanjutnya, untuk menambah ukuran disk VM-nya kita hanya perlu menggeser garis di bagian **"Size"** di bawah tersebut atau langsung mengetikkan ukuran yang diinginkan. Di sini saya akan menambahkan 10 GB dari 20 GB, jadi saya akan langsung ketikkan 30 GB di kolom tersebut. Kemudian klik **Apply**. 
+
+> **Note:** Pastikan disk utama (SSD atau Hardisk) yang digunakan sebagai "host" untuk Virtualbox memiliki kapasitas ukuran yang memadai. 
+
+![ss2](/updisk/2.png "Increasing VM disk from 20 GB to 30 GB")
+
+### 3. Login ke VM
+
+Berikutnya, kita perlu masuk ke VM untuk mengkonfigurasi disk yang baru saja ditambahkan tadi. Nah, untuk melihat ukuran disk VM-nya, gunakan perintah:
+
+```shell
+lsblk
+```
+
+![ss3](/updisk/3.png "lsblk")
+
+Terlihat ukuran **`/dev/sda`** sudah 30 GB, tapi partisinya masih sama seperti ketika masih 20 GB, yaitu 19 GB ext4 dan 1 GB SWAP. Hal yang wajar, karena memang 10 GB yang baru saja ditambahkan masih berupa disk kosong yang belum dialokasikan dan belum diformat. Oleh sebab itu, langkah-langkah berikutnya akan terkait dengan pengalokasian ulang disk dan kemudian pem-format-an disk.
+
+### 4. Non-aktifkan SWAP
+
+Langkah pertama untuk mulai mengatur ulang dan memformat disk, kita mula-mula perlu me-non-aktifkan SWAP dengan perintah:
+
+```shell
+sudo swapoff /dev/sda5
+```
+
+![ss4](/updisk/4.png "swap off")
+
+> **Note:** Perhatikan bahwa saya me-non-aktifkan SWAP di **`/dev/sda5`** karena memang disitulah file SWAP saya dijalankan. Kalian perlu menyesuaikannya dengan kondisi.
+
+### 5. Menggunakan `cfdisk`
+
+Pada tahap ini, kita akan mulai mengatur dan memformat ulang partisi yang sudah ada. Itu artinya, kita akan mulai menghapus partisi yang sudah ada, kemudian nanti membuat partisi baru lagi, dan dilanjutkan dengan memformat partisi baru tersebut. Untuk memulai proses ini, kita akan menggunakan *utility* [**`cfdisk`**](https://en.wikipedia.org/wiki/Cfdisk).
+
+```shell
+sudo cfdisk
+```
+
+![ss5](/updisk/5.png "cfdisk")
+
+Terlihat bahwa terdapat partisi *free space* 10 GB yang tampak di **`cfdisk`**. Itulah partisi yang baru saja ditambahkan di awal.
+
+{{< collapse summary="**Instalasi `cfdisk`**" open=false >}}
+
+Secara umum, di linux **`cfdisk`** *by default* sudah ter-*install* bersamaan dengan instalasi OS-nya pertama kali. Jadi, tidak perlu melakukan instalasi lagi. Tapi, *just in case* **`cfdisk`** belum ada di distro linux kalian, **`cfdisk`** bisa di-*install* dengan *package manager* masing-masing distro:
+
+|       Distro      |                  Command                  |
+|       ---         |                   ---                     |
+| **Debian**        | **`sudo apt install fdisk`**              |
+| **Arch Linux**    | **`sudo pacman -Sy util-linux`**          |
+| **Fedora**        | **`sudo dnf install fdisk`**              |
+| **Opensuse**      | **`sudo zypper install fdisk`**           |
+
+{{< /collapse >}}
+
+### 6. Menghapus & memformat ulang partisi
+
+Sekarang adalah masa-masa yang paling krusial karena kita akan melakukan proses inti dari tujuan artikel ini, yaitu menambahkan partisi baru ke disk yang ada di VM kita menggunakan utility **`cfdisk`** tadi. Berikut adalah *step by step* langkahnya:
+
+<mark> **1. Hapus seluruh partisi yang ada.** </mark>   
+
+   Kita akan menghapus partisi ext4 (**`/dev/sda1`**) dan juga partisi SWAP (**`/dev/sda2`** & **`/dev/sda5`**). Hal ini dilakukan agar partisi ext4 sekarang yang hanya 19 GB dapat di-*extend* ke partisi baru yang 10 GB sehingga nanti akan menjadi 29 GB. Kita tidak bisa melakukan *extend* partisi ext4 yang sekarang 19 GB ke partisi baru 10 GB secara langsung sekarang karena terhalang oleh partisi SWAP di tengah (partisi SWAP **`/dev/sda5`** ada diantara partisi ext4 **`/dev/sda1`** dan partisi *free space*) sehingga kita perlu menghapus partisi SWAP terlebih dahulu supaya nanti partisi SWAP-nya bisa diatur kembali agar posisinya berada di belakang / di akhir. 
+
+   Cara menghapusnya, kita hanya perlu meletakkan *highlight* kursornya yang berwarna putih ke partisi yang akan dihapus dengan menggunakan *arrow key* *up* dan *down* di keyboard. Kemudian, kita arahkan *highlight* kursor di bagian bawah ke **"Delete"** menggunakan *arrow key* *right* dan *left* di keyboard. Lalu tekan Enter. Lakukan ke semua partisi yang terdaftar hingga semua partisi menjadi satu partisi *free space*.
+
+<mark> **2. Buat partisi baru.** </mark>  
+
+   Buat minimal 2 partisi baru. Saya akan buat dua partisi, yang pertama untuk ext4 di **`/dev/sda1`** dengan size 29 GB dan partisi kedua 1 GB untuk SWAP di **`/dev/sda2`**. 
+   
+   Caranya, pilih **"New"** pada partisi *free space* tadi (di saya 30 GB), kemudian sesuaikan ukuran untuk membuat partisi pertama, yaitu ext4, saya akan buat 29 GB, lalu Enter, dan pilih **"primary"**. Nanti akan ada sisa satu partisi kosong (*free space*) yang akan kita gunakan sebagai SWAP. Caranya, arahkan *highlight* kursor-nya ke partisi kosong tersebut, pilih **"New"**, biarkan *partition size*-nya *default*, lalu berikutnya pilih **"primary"**. 
+
+   Sekarang, sudah ada 2 partisi baru, tapi partisi SWAP (yang 1 GB) masih belum diganti file system-nya ke SWAP. Jadi, kita perlu menggantinya terlebih dahulu. Caranya, arahkan highlight kursos ke partisi SWAP, kemudian pilih **"Type"**, pilih **"82 Linux swap / Solaris"**.
+
+   Terakhir, pilih **"Write"** untuk menuliskan perubahan partisi yang baru saja kita lakukan ke disk dan ketik **yes** jika ada pesan konfirmasi. Setelah itu, kita bisa keluar **`cfdik`** dengan memilih **"Quit"** di menu di bawah atau menekan tombol **q** di keyboard. Untuk melihat dan memastikan partisi baru kita sudah berhasil dibuat, kita bisa kembali menggunakan **`lsblk`**.
+
+   Berikut video untuk menghapus & membuat partisi baru dengan **`cfdisk`**:
+
+   <div style="display: flex; justify-content: center;">
+        <video width="100%" controls autoplay loop muted>
+            <source src="/updisk/vid1.mp4" type="video/mp4">
+        </video>
+   </div>
+
+<mark> **3. Memformat partisi baru** </mark>  
+
+   Memformat partisi **`/dev/sda2`** ke SWAP:
+   
+   ```shell
+   sudo mkswap /dev/sda2
+   sudo swapon /dev/sda2
+   ```
+   Memformat partisi **`/dev/sda1`** ke ext4 sekaligus *extend* ukurannya ke 29 GB:
+
+   ```shell
+   sudo mkfs.ext4 /dev/sda1
+   sudo resize2fs /dev/sda1
+   ```
+
+![ss6](/updisk/6.png "formatting partition")
+
+Selesai! 
+
+Kita sudah berhasil menyelesaikan proses penambahan ukuran disk ke VM di linux (Debian). Jika kalian menggunakan distro linux atau UNIX yang lain, silakan disesuaikan karena pada dasarnya perintah dan langkah-langkahnya relatif sama saja, hanya akan beda di *package manager* saja (itupun kalau memerlukan *package manager*).
+
+
+

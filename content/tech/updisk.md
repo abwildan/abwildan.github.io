@@ -19,15 +19,15 @@ Nah, kali ini, saya sudah menemukan cara yang relatif lebih awam-*friendly* (bac
 
 ## Linux
 
-Secara detail, ukuran disk 20 GB yang saya punya saat ini di Linux terbagi menjadi 2 partisi utama, yaitu 19 GB di **`/dev/sda1`** dengan *file system* ext4, 1 GB di **`/dev/sda5`** dengan *file system* SWAP. Nah, nanti, saya akan tambahkan 10 GB sehingga total disk-nya akan menjadi 30 GB dengan rincian partisi 29 GB untuk *file system* ext4 dan 1 GB untuk *file system* SWAP. 
+Secara detail, ukuran disk 20 GB yang saya punya saat ini di Linux terbagi menjadi 2 partisi utama, yaitu 19 GB di **`/dev/sda1`** dengan *file system* ext4, 1 GB di **`/dev/sda5`** dengan *file system* SWAP. Nah, nanti, saya akan tambahkan 10 GB sehingga total disk-nya akan menjadi 30 GB dengan rincian partisi 29 GB untuk *file system* ext4 dan 1 GB untuk *file system* SWAP.[^1] 
 
 > **Note:** Saya tidak akan membahas secara rinci mengenai file system, baik ext4 maupun SWAP di artikel ini. Jika ingin mengetahui lebih dalam tentang file system di linux, bisa merujuk ke tautan berikut: [File System](https://wiki.archlinux.org/title/File_systems) & [SWAP](https://wiki.archlinux.org/title/Swap).  
 
 ### 1. Properties di Virtualbox
 
-Pertama, pergi ke **"Virtualbox -> Tools -> Properties"**, kemudian klik file ***.vdi** yang ingin ditambah ukuran disk-nya. Di sini saya pilih VM yang sudah saya siapkan, yaitu VM Debian (Debians.vdi).
+Pertama, pergi ke **"Virtualbox -> Tools -> Media -> Properties"**, kemudian klik file ***.vdi** yang ingin ditambah ukuran disk-nya. Di sini saya pilih VM yang sudah saya siapkan, yaitu VM Debian (Debians.vdi).
 
-![ss1](/updisk/1.png "Virtualbox -> Tools -> Properties")
+![ss1](/updisk/1.png "Virtualbox -> Tools -> Media -> Properties")
 
 ### 2. Menambah VM *disk size*
 
@@ -134,6 +134,63 @@ Sekarang adalah masa-masa yang paling krusial karena kita akan melakukan proses 
 Selesai! 
 
 Kita sudah berhasil menyelesaikan proses penambahan ukuran disk ke VM di linux (Debian). Jika kalian menggunakan distro linux atau UNIX yang lain, silakan disesuaikan karena pada dasarnya perintah dan langkah-langkahnya relatif sama saja, hanya akan beda di *package manager* saja (itupun kalau memerlukan *package manager*).
+
+## Windows
+
+Saya juga punya sebuah VM Windows 7 dengan ukuran disk 20 GB yang terdaftar sebagai drive **C:\** yang akan saya tambahkan 10 GB. Walaupun pada tutorial ini saya menggunakan Windows 7, akan tetapi, cara menambahkan ukuran disk di Windows di bawah ini dapat dipraktekkan juga untuk versi-versi Windows lainnya, seperti Windows 10 dan Windows 11.[^2] 
+
+### Properties di Virtualbox
+
+Seperti biasa, untuk meng-*increase* VM *disk size*- VM Windows-nya, di Virtualbox kita bisa menujuk **"Tools -> Media -> Properties"**, kemudian klik file **.vdi** yang ingin ditambahkan ukuran disk-nya. Di sini saya akan pilih VM Windows 7 saya (Windows7 Clone). 
+
+![ss1](/updisk/w-1.png)
+
+### Menambahkan VM disk size
+
+Tinggal tambahkan berapa jumlah tambahan disk-nya. Seperti rencana awal, saya akan menambahkan 10 GB ke disk Windows 7 saya yang 20 GB. Berarti, saya akan tulis / ketik jumlah total ukuran disk-nya, yaitu 30 GB. Klik **"Apply"**.
+
+![ss2](/updisk/w-2.png)
+
+### Login ke VM 
+
+Selanjutnya, kita perlu login ke VM yang baru saja kita tambahkan ukuran disk-nya. Untuk melihat jumlah disk dan partisinya di Windows, kita perlu pergi ke **"Disk Management"**. Salah satu cara untuk membuka aplikasi **Disk Management** di Windows adalah dengan menggunakan *shortcut* **"Ctrl+r"**, kemudian akan muncul *prompt* **Run** yang akan kita isi dengan **diskmgmt.msc**.
+
+![ss3](/updisk/w-3.png)
+
+Sekarang, kita bisa melihat ada 10 GB disk baru (*unallocated*):
+
+![ss4](/updisk/w-4.png)
+
+### Extend disk size
+
+Nah, di sini, saya akan menambahkan 10 GB tersebut ke drive **(C:)** yang saat ini disk-nya berukuran 20 GB sehingga nanti drive **(C:)** akan menjadi 30 GB ukuran disk-nya:
+
+Caranya, 
+1. klik kanan di drive **(C:)**, pilih **"Extend Volume"**, 
+2. pada bagian "Welcome ..." di window "Extend Volume Wizard" klik **"Next"**, 
+3. kemudian pastikan jumlah *space* yang ingin ditambahkan pada kolom "Select the amount of space in MB" sudah sesuai dengan "Maximum available space in MB" karena kita akan menambahkan seluruh *free space* tadi (10 GB) ke drive **(C:)**, klik **"Next"**, 
+4. dan klik **"Finish"**.  
+
+Untuk memperjelas, berikut adalah video *extend disk size* di Windows:
+
+<div style="display: flex; justify-content: center;">
+  <video width="100%" controls autoplay loop muted>
+    <source src="/updisk/vid2.mp4" type="video/mp4">
+  </video>
+</div>
+
+Selesai!
+
+Kita sudah berhasil menambahkan *disk size* untuk VM Windows di Virtualbox. Untuk memastikannya, kita bisa membuka "File Explorer" dan melihat ukuran drive **(C:)** -nya.
+
+
+
+
+
+
+
+[^1]: www.chatgpt.com/
+[^2]: https://www.youtube.com/watch?v=pVjDFBdBQ7I
 
 
 

@@ -290,7 +290,7 @@
 
 </span>
   
-    6 mins
+    8 mins
   
 
 
@@ -340,6 +340,14 @@
         <li><a href="#6-menghapus--memformat-ulang-partisi">6. Menghapus &amp; memformat ulang partisi</a></li>
       </ul>
     </li>
+    <li><a href="#windows">Windows</a>
+      <ul>
+        <li><a href="#properties-di-virtualbox">Properties di Virtualbox</a></li>
+        <li><a href="#menambahkan-vm-disk-size">Menambahkan VM disk size</a></li>
+        <li><a href="#login-ke-vm">Login ke VM</a></li>
+        <li><a href="#extend-disk-size">Extend disk size</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
       </div>
@@ -387,7 +395,7 @@
  </a>
   
 </h2>
-<p>Secara detail, ukuran disk 20 GB yang saya punya saat ini di Linux terbagi menjadi 2 partisi utama, yaitu 19 GB di <strong><code>/dev/sda1</code></strong> dengan <em>file system</em> ext4, 1 GB di <strong><code>/dev/sda5</code></strong> dengan <em>file system</em> SWAP. Nah, nanti, saya akan tambahkan 10 GB sehingga total disk-nya akan menjadi 30 GB dengan rincian partisi 29 GB untuk <em>file system</em> ext4 dan 1 GB untuk <em>file system</em> SWAP.</p>
+<p>Secara detail, ukuran disk 20 GB yang saya punya saat ini di Linux terbagi menjadi 2 partisi utama, yaitu 19 GB di <strong><code>/dev/sda1</code></strong> dengan <em>file system</em> ext4, 1 GB di <strong><code>/dev/sda5</code></strong> dengan <em>file system</em> SWAP. Nah, nanti, saya akan tambahkan 10 GB sehingga total disk-nya akan menjadi 30 GB dengan rincian partisi 29 GB untuk <em>file system</em> ext4 dan 1 GB untuk <em>file system</em> SWAP.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
 <blockquote>
 <p><strong>Note:</strong> Saya tidak akan membahas secara rinci mengenai file system, baik ext4 maupun SWAP di artikel ini. Jika ingin mengetahui lebih dalam tentang file system di linux, bisa merujuk ke tautan berikut: <a href="https://wiki.archlinux.org/title/File_systems" target="_blank">File System</a>
  &amp; <a href="https://wiki.archlinux.org/title/Swap" target="_blank">SWAP</a>
@@ -405,8 +413,8 @@
  </a>
   
 </h3>
-<p>Pertama, pergi ke <strong>&ldquo;Virtualbox -&gt; Tools -&gt; Properties&rdquo;</strong>, kemudian klik file *<strong>.vdi</strong> yang ingin ditambah ukuran disk-nya. Di sini saya pilih VM yang sudah saya siapkan, yaitu VM Debian (Debians.vdi).</p>
-<p><img loading="lazy" src="/updisk/1.png" alt="ss1"  title="Virtualbox -&gt; Tools -&gt; Properties"  />
+<p>Pertama, pergi ke <strong>&ldquo;Virtualbox -&gt; Tools -&gt; Media -&gt; Properties&rdquo;</strong>, kemudian klik file *<strong>.vdi</strong> yang ingin ditambah ukuran disk-nya. Di sini saya pilih VM yang sudah saya siapkan, yaitu VM Debian (Debians.vdi).</p>
+<p><img loading="lazy" src="/updisk/1.png" alt="ss1"  title="Virtualbox -&gt; Tools -&gt; Media -&gt; Properties"  />
 </p>
 
 <h3 id="2-menambah-vm-disk-size">
@@ -551,6 +559,108 @@
 </p>
 <p>Selesai!</p>
 <p>Kita sudah berhasil menyelesaikan proses penambahan ukuran disk ke VM di linux (Debian). Jika kalian menggunakan distro linux atau UNIX yang lain, silakan disesuaikan karena pada dasarnya perintah dan langkah-langkahnya relatif sama saja, hanya akan beda di <em>package manager</em> saja (itupun kalau memerlukan <em>package manager</em>).</p>
+
+<h2 id="windows">
+  Windows
+  
+  <a hidden class="anchor" href="#windows">
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
+
+
+ </a>
+  
+</h2>
+<p>Saya juga punya sebuah VM Windows 7 dengan ukuran disk 20 GB yang terdaftar sebagai drive *<em>C:*</em> yang akan saya tambahkan 10 GB. Walaupun pada tutorial ini saya menggunakan Windows 7, akan tetapi, cara menambahkan ukuran disk di Windows di bawah ini dapat dipraktekkan juga untuk versi-versi Windows lainnya, seperti Windows 10 dan Windows 11.<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
+
+<h3 id="properties-di-virtualbox">
+  Properties di Virtualbox
+  
+  <a hidden class="anchor" href="#properties-di-virtualbox">
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
+
+
+ </a>
+  
+</h3>
+<p>Seperti biasa, untuk meng-<em>increase</em> VM <em>disk size</em>- VM Windows-nya, di Virtualbox kita bisa menujuk <strong>&ldquo;Tools -&gt; Media -&gt; Properties&rdquo;</strong>, kemudian klik file <strong>.vdi</strong> yang ingin ditambahkan ukuran disk-nya. Di sini saya akan pilih VM Windows 7 saya (Windows7 Clone).</p>
+<p><img loading="lazy" src="/updisk/w-1.png" alt="ss1"  />
+</p>
+
+<h3 id="menambahkan-vm-disk-size">
+  Menambahkan VM disk size
+  
+  <a hidden class="anchor" href="#menambahkan-vm-disk-size">
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
+
+
+ </a>
+  
+</h3>
+<p>Tinggal tambahkan berapa jumlah tambahan disk-nya. Seperti rencana awal, saya akan menambahkan 10 GB ke disk Windows 7 saya yang 20 GB. Berarti, saya akan tulis / ketik jumlah total ukuran disk-nya, yaitu 30 GB. Klik <strong>&ldquo;Apply&rdquo;</strong>.</p>
+<p><img loading="lazy" src="/updisk/w-2.png" alt="ss2"  />
+</p>
+
+<h3 id="login-ke-vm">
+  Login ke VM
+  
+  <a hidden class="anchor" href="#login-ke-vm">
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
+
+
+ </a>
+  
+</h3>
+<p>Selanjutnya, kita perlu login ke VM yang baru saja kita tambahkan ukuran disk-nya. Untuk melihat jumlah disk dan partisinya di Windows, kita perlu pergi ke <strong>&ldquo;Disk Management&rdquo;</strong>. Salah satu cara untuk membuka aplikasi <strong>Disk Management</strong> di Windows adalah dengan menggunakan <em>shortcut</em> <strong>&ldquo;Ctrl+r&rdquo;</strong>, kemudian akan muncul <em>prompt</em> <strong>Run</strong> yang akan kita isi dengan <strong>diskmgmt.msc</strong>.</p>
+<p><img loading="lazy" src="/updisk/w-3.png" alt="ss3"  />
+</p>
+<p>Sekarang, kita bisa melihat ada 10 GB disk baru (<em>unallocated</em>):</p>
+<p><img loading="lazy" src="/updisk/w-4.png" alt="ss4"  />
+</p>
+
+<h3 id="extend-disk-size">
+  Extend disk size
+  
+  <a hidden class="anchor" href="#extend-disk-size">
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
+
+
+ </a>
+  
+</h3>
+<p>Nah, di sini, saya akan menambahkan 10 GB tersebut ke drive <strong>(C:)</strong> yang saat ini disk-nya berukuran 20 GB sehingga nanti drive <strong>(C:)</strong> akan menjadi 30 GB ukuran disk-nya:</p>
+<p>Caranya,</p>
+<ol>
+<li>klik kanan di drive <strong>(C:)</strong>, pilih <strong>&ldquo;Extend Volume&rdquo;</strong>,</li>
+<li>pada bagian &ldquo;Welcome &hellip;&rdquo; di window &ldquo;Extend Volume Wizard&rdquo; klik <strong>&ldquo;Next&rdquo;</strong>,</li>
+<li>kemudian pastikan jumlah <em>space</em> yang ingin ditambahkan pada kolom &ldquo;Select the amount of space in MB&rdquo; sudah sesuai dengan &ldquo;Maximum available space in MB&rdquo; karena kita akan menambahkan seluruh <em>free space</em> tadi (10 GB) ke drive <strong>(C:)</strong>, klik <strong>&ldquo;Next&rdquo;</strong>,</li>
+<li>dan klik <strong>&ldquo;Finish&rdquo;</strong>.</li>
+</ol>
+<p>Untuk memperjelas, berikut adalah video <em>extend disk size</em> di Windows:</p>
+<div style="display: flex; justify-content: center;">
+  <video width="100%" controls autoplay loop muted>
+    <source src="/updisk/vid2.mp4" type="video/mp4">
+  </video>
+</div>
+<p>Selesai!</p>
+<p>Kita sudah berhasil menambahkan <em>disk size</em> untuk VM Windows di Virtualbox. Untuk memastikannya, kita bisa membuka &ldquo;File Explorer&rdquo; dan melihat ukuran drive <strong>(C:)</strong> -nya.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p><a href="https://www.chatgpt.com/" target="_blank">www.chatgpt.com/</a>
+&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p><a href="https://www.youtube.com/watch?v=pVjDFBdBQ7I" target="_blank">https://www.youtube.com/watch?v=pVjDFBdBQ7I</a>
+&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
 
 
 

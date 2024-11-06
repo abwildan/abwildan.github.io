@@ -6,14 +6,21 @@
     <description>Recent content in Teches on Wildan&#39;s Workspace</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 16 Oct 2024 16:51:19 +0700</lastBuildDate>
+    <lastBuildDate>Wed, 06 Nov 2024 21:45:18 +0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Exa</title>
+      <link>http://localhost:1313/tech/exa/</link>
+      <pubDate>Wed, 06 Nov 2024 21:45:18 +0700</pubDate>
+      <guid>http://localhost:1313/tech/exa/</guid>
+      <description>Neo ls</description>
+    </item>
     <item>
       <title>Increasing Virtual Machine Disk Size in Virtualbox</title>
       <link>http://localhost:1313/tech/updisk/</link>
       <pubDate>Wed, 16 Oct 2024 16:51:19 +0700</pubDate>
       <guid>http://localhost:1313/tech/updisk/</guid>
-      <description>Pretty easy tutorial on increasing Virtualbox VM disk size&amp;hellip;</description>
+      <description>An easy tutorial on increasing Virtualbox VM disk size&amp;hellip;</description>
     </item>
     <item>
       <title>DVWA - Command Injection</title>

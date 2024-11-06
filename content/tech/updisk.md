@@ -2,7 +2,7 @@
 title = "Increasing Virtual Machine Disk Size in Virtualbox"
 date = 2024-10-16T16:51:19+07:00
 cover = ""
-summary = "Pretty easy tutorial on increasing Virtualbox VM disk size..."
+summary = "An easy tutorial on increasing Virtualbox VM disk size..."
 tags = [ "Virtual machine", "linux", "virtualbox" ]
 categories = "virtualbox"
 +++

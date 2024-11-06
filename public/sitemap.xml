@@ -2,36 +2,60 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2024-10-16T16:51:19+07:00</lastmod>
+    <lastmod>2024-11-06T21:45:18+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2024-10-16T16:51:19+07:00</lastmod>
+    <lastmod>2024-11-06T21:45:18+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tech/updisk/</loc>
-    <lastmod>2024-10-16T16:51:19+07:00</lastmod>
+    <loc>http://localhost:1313/tags/exa/</loc>
+    <lastmod>2024-11-06T21:45:18+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/categories/exa/</loc>
+    <lastmod>2024-11-06T21:45:18+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tech/exa/</loc>
+    <lastmod>2024-11-06T21:45:18+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/tags/linux/</loc>
-    <lastmod>2024-10-16T16:51:19+07:00</lastmod>
+    <lastmod>2024-11-06T21:45:18+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/ls/</loc>
+    <lastmod>2024-11-06T21:45:18+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2024-10-16T16:51:19+07:00</lastmod>
+    <lastmod>2024-11-06T21:45:18+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/tech/</loc>
+    <lastmod>2024-11-06T21:45:18+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tech/updisk/</loc>
     <lastmod>2024-10-16T16:51:19+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>

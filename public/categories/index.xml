@@ -6,8 +6,15 @@
     <description>Recent content in Categories on Wildan&#39;s Workspace</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 16 Oct 2024 16:51:19 +0700</lastBuildDate>
+    <lastBuildDate>Wed, 06 Nov 2024 21:45:18 +0700</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Exa</title>
+      <link>http://localhost:1313/categories/exa/</link>
+      <pubDate>Wed, 06 Nov 2024 21:45:18 +0700</pubDate>
+      <guid>http://localhost:1313/categories/exa/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Virtualbox</title>
       <link>http://localhost:1313/categories/virtualbox/</link>

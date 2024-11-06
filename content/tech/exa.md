@@ -1,5 +1,5 @@
 ---
-title: "Exa-Eza as a Modern Replacement of ls"
+title: "Exa-Eza as a Modern Replacement for ls"
 date: 2024-11-06T21:45:18+07:00
 draft: false
 cover: ""
@@ -12,7 +12,7 @@ categories: "exa"
 
 ![ss1](/exa/ss1.png "listing directory's files and folders via exa command")
 
-Seperti terlihat di tangkapan layar (*screenshot*) di atas, me-*list*-ing direktori menggunakan **`exa`** memberikan kesan yang berbeda dibandingkan dengan menggunakan **`ls`**. **`exa`** memberikan kesan yang lebih modern dan *sophisticated* yang tampak dari pemberian warna yang bervariatif, tampilan icon untuk setiap jenis file dan folder, serta bisa model *listing* dalam format cabang-cabang bergaris. 
+Seperti terlihat di tangkapan layar (*screenshot*) di atas, me-*list*-ing direktori menggunakan **`exa`** memberikan kesan yang berbeda dibandingkan dengan menggunakan **`ls`**. **`exa`** memberikan kesan yang lebih modern dan *sophisticated* yang tampak dari pemberian warna yang bervariatif, tampilan icon untuk setiap jenis file dan folder, serta dapat menampilkan model *listing* dalam format cabang-cabang bergaris. 
 
 > **Note:**  
 > **`exa`** dan **`eza`** menurut saya adalah dua *utility* yang beda nama, tapi sama kegunaannya. Beberapa distro seperti Debian (yang saya gunakan untuk membuat artikel ini) tidak menyediakan **`eza`** di *official repository*-nya, tapi menyediakan **`exa`**. Sebaliknya, distro lain (seperti Archlinux) mungkin tidak menyediakan **`exa`** di *repo*-nya, tapi menyediakan **`eza`**. Jadi, silakan *install* menyesuaikan dengan ketersidaan *package*-nya di masing-masing distro Linux.
@@ -30,7 +30,7 @@ Berikut tutorial instalasi **`exa`** / **`eza`** di masing-masing distro Linux:
 
 ## Instalasi icon font
 
-Setelah selesai meng-*install* package **`exa`** / **`eza`**, kita juga perlu meng-*install* font yang mendukung icon *rendering* di terminal. Untuk kasus ini, kita bisa meng-*install* **["Symbols Nerd Font"](https://www.nerdfonts.com/font-downloads)** melalui langkah-langkah berikut:
+Setelah selesai meng-*install* *package* **`exa`** / **`eza`**, kita juga perlu meng-*install* font untuk menampilkan file icons di terminal. Untuk kasus ini, kita bisa meng-*install* **["Symbols Nerd Font"](https://www.nerdfonts.com/font-downloads)** melalui langkah-langkah berikut:
 
 1. *Download* font **Symbols Nerd Font** di tautan berikut: https://www.nerdfonts.com/font-downloads  
 2. *Extract* file **NerdFontsSymbolsOnly.zip** yang sudah terunduh:

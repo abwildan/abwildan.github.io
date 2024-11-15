@@ -6,8 +6,15 @@
     <description>Recent content in Intro on Wildan&#39;s Workspace</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 14 Aug 2024 03:10:27 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 07 Nov 2024 10:39:37 +0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/intro/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chess Tactics: Double Attack, Discovered Attack, Removing The Defender</title>
+      <link>http://localhost:1313/chess/pop-tactics2/</link>
+      <pubDate>Thu, 07 Nov 2024 10:39:37 +0700</pubDate>
+      <guid>http://localhost:1313/chess/pop-tactics2/</guid>
+      <description>This article shares about 3 popular tactics in chess, which are Double Attack, Discovered Attack, and Removing The Defender</description>
+    </item>
     <item>
       <title>Chess Tactics: Fork, Pin, and Skewer</title>
       <link>http://localhost:1313/chess/pop-tactics/</link>

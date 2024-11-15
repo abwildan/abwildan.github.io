@@ -3,7 +3,7 @@ title = 'Chess Tactics: Fork, Pin, and Skewer'
 date = 2024-08-14T03:10:27Z
 draft = false
 summary = "This article shares about 3 popular tactics in chess, which are Fork, Pin, and Skewer."
-tags = ["chess", "intro", "tactics"]
+tags = ["chess", "intro", "tactics", "fork", "pin", "skewer"]
 categories = "chess"
 +++
 
@@ -16,7 +16,7 @@ Pada dasarnya, taktik catur adalah gerakan / langkah (atau serangkaian langkah) 
 
 ### Fork
 
-Sebagaimana namanya, ***Fork*** atau serangan garpuan adalah salah satu taktik catur dengan menyerang dua buah catur sekaligus. Oleh karena itu, taktik ***fork*** juga dapat disebut dengan serangan ganda atau *double attack*. Pihak lawan yang terkena taktik ***fork*** biasanya akan kesulitan untuk mempertahankan kedua buah catur yang terserang sehingga pihak penyerang akan mendapatkan salah satu buah catur yang terkena ***fork*** tersebut. 
+Sebagaimana namanya, ***Fork*** atau serangan garpuan adalah salah satu taktik catur dengan menyerang dua buah catur sekaligus dengan satu buah catur. Pihak lawan yang terkena taktik ***fork*** biasanya akan kesulitan untuk mempertahankan kedua buah catur yang terserang sehingga pihak penyerang akan mendapatkan salah satu buah catur yang terkena ***fork*** tersebut. 
 Serangan ***fork*** pada Raja dan Menteri juga biasa disebut sebagai ***Royal Fork***. 
 
 Berikut adalah contoh taktik *fork*:

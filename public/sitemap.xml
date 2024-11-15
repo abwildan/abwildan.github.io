@@ -2,13 +2,73 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2024-11-06T21:45:18+07:00</lastmod>
+    <lastmod>2024-11-07T10:39:37+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2024-11-06T21:45:18+07:00</lastmod>
+    <lastmod>2024-11-07T10:39:37+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/chess/</loc>
+    <lastmod>2024-11-07T10:39:37+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/categories/chess/</loc>
+    <lastmod>2024-11-07T10:39:37+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/chess/pop-tactics2/</loc>
+    <lastmod>2024-11-07T10:39:37+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/chess/</loc>
+    <lastmod>2024-11-07T10:39:37+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/discovered-attack/</loc>
+    <lastmod>2024-11-07T10:39:37+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/double-attack/</loc>
+    <lastmod>2024-11-07T10:39:37+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/intro/</loc>
+    <lastmod>2024-11-07T10:39:37+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/removing-the-defender/</loc>
+    <lastmod>2024-11-07T10:39:37+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/tactics/</loc>
+    <lastmod>2024-11-07T10:39:37+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-11-07T10:39:37+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -38,12 +98,6 @@
   </url>
   <url>
     <loc>http://localhost:1313/tags/ls/</loc>
-    <lastmod>2024-11-06T21:45:18+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2024-11-06T21:45:18+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -421,37 +475,25 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/chess/</loc>
-    <lastmod>2024-08-14T03:10:27+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/categories/chess/</loc>
-    <lastmod>2024-08-14T03:10:27+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://localhost:1313/chess/pop-tactics/</loc>
     <lastmod>2024-08-14T03:10:27+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/chess/</loc>
+    <loc>http://localhost:1313/tags/fork/</loc>
     <lastmod>2024-08-14T03:10:27+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/intro/</loc>
+    <loc>http://localhost:1313/tags/pin/</loc>
     <lastmod>2024-08-14T03:10:27+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/tactics/</loc>
+    <loc>http://localhost:1313/tags/skewer/</loc>
     <lastmod>2024-08-14T03:10:27+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>

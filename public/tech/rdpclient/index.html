@@ -17,7 +17,7 @@
   <meta name="description" content="A Hugo Theme" />
   
   <meta name="keywords" content="remote desktop, windows, linux, " />
-  <link rel="canonical" href="http://localhost:1313/tech/rdpclient/" />
+  <link rel="canonical" href="//localhost:1313/tech/rdpclient/" />
 
   
 
@@ -42,6 +42,10 @@
 
 
   
+
+
+
+  
     
         <script src="/js/theme.js"></script>
       
@@ -51,6 +55,13 @@
   
     
         <script src="/js/codecopy.js"></script>
+      
+    
+  
+
+  
+    
+        <script src="/js/search.js"></script>
       
     
   
@@ -65,11 +76,12 @@
     <link rel="manifest" href="/site.webmanifest" />
   
 
-  <meta property="og:url" content="http://localhost:1313/tech/rdpclient/">
+  <meta property="og:url" content="//localhost:1313/tech/rdpclient/">
   <meta property="og:site_name" content="Wildan&#39;s Workspace">
   <meta property="og:title" content="My Remote Desktop Client(s)">
   <meta property="og:description" content="Holaa!!
-Saya akan berbagi beberapa RDP client yang biasa saya gunakan untuk melakukan remote desktop. BTW, RDP atau Remote Desktop Protocol adalah salah satu protokol komunikasi dalam jaringan komputer yang dikembangkan awalnya oleh Microsoft untuk melakukan remote akses berbasis GUI (Graphical User Interface)1.">
+Saya akan berbagi beberapa RDP client yang biasa saya gunakan untuk melakukan remote desktop. BTW, RDP atau Remote Desktop Protocol adalah salah satu protokol komunikasi dalam jaringan komputer yang dikembangkan awalnya oleh Microsoft untuk melakukan remote akses berbasis GUI (Graphical User Interface)1. Kemudian, protokol ini juga dibawa ke environment linux sehingga RDP tidak hanya dapat digunakan di Windows (as a microsoft product obviously) saja, tetapi juga di linux.
+Note:">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="tech">
@@ -83,7 +95,8 @@ Saya akan berbagi beberapa RDP client yang biasa saya gunakan untuk melakukan re
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="My Remote Desktop Client(s)">
   <meta name="twitter:description" content="Holaa!!
-Saya akan berbagi beberapa RDP client yang biasa saya gunakan untuk melakukan remote desktop. BTW, RDP atau Remote Desktop Protocol adalah salah satu protokol komunikasi dalam jaringan komputer yang dikembangkan awalnya oleh Microsoft untuk melakukan remote akses berbasis GUI (Graphical User Interface)1.">
+Saya akan berbagi beberapa RDP client yang biasa saya gunakan untuk melakukan remote desktop. BTW, RDP atau Remote Desktop Protocol adalah salah satu protokol komunikasi dalam jaringan komputer yang dikembangkan awalnya oleh Microsoft untuk melakukan remote akses berbasis GUI (Graphical User Interface)1. Kemudian, protokol ini juga dibawa ke environment linux sehingga RDP tidak hanya dapat digunakan di Windows (as a microsoft product obviously) saja, tetapi juga di linux.
+Note:">
 
 
   
@@ -94,6 +107,19 @@ Saya akan berbagi beberapa RDP client yang biasa saya gunakan untuk melakukan re
 
 
 
+
+  
+  
+    <script
+      defer
+      type="text/javascript"
+      src="/lib/fuse/fuse.min.1ab2783fdcab6ba75fb69e4ed1e68a14a4b8721d45627d7147f5421d020c24ed4b36a70a8639009001131d8a04f3515f87706308931603f0194983f9db58f114.js"
+      integrity="sha512-GrJ4P9yra6dftp5O0eaKFKS4ch1FYn1xR/VCHQIMJO1LNqcKhjkAkAETHYoE81Ffh3BjCJMWA/AZSYP521jxFA=="
+    ></script>
+  
+
+
+
   
   
 
@@ -105,10 +131,7 @@ Saya akan berbagi beberapa RDP client yang biasa saya gunakan untuk melakukan re
   
 
   
-  
-  
-    <link rel="preload" href="http://localhost:1313/fonts/Ubuntu-Regular.woff2" as="font" type="font/woff2" crossorigin>
-  
+  <link rel="preload" href="//localhost:1313/fonts/Ubuntu-Regular.woff2" as="font" type="font/woff2" crossorigin>
 
   
 
@@ -132,7 +155,43 @@ Saya akan berbagi beberapa RDP client yang biasa saya gunakan untuk melakukan re
       <header>
     
     <a class="title" href="/">
-      <img alt="Site Logo" src="/tsukasa.png" />
+      
+      
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+    <img loading="lazy" 
+    
+      
+        src="/tsukasa_hu17823179094668833204.png"
+      
+    
+      alt="Site Logo" />
+  
+
+
+
+
     </a>
     
     <div class="header-cntr">
@@ -158,6 +217,52 @@ Saya akan berbagi beberapa RDP client yang biasa saya gunakan untuk melakukan re
     </ul>
   </nav>
     <div class="side-menu">
+    
+<button id="search-open" class="menu-btn" aria-label="Search button">
+  
+
+    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+
+
+
+</button>
+
+<div id="search-container" data-url="//localhost:1313/">
+  <div class="search">
+    <div class="panel">
+      <form>
+        
+
+    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+
+
+
+        <input type="search" id="search-query" placeholder="Search" tabindex=0 autocomplete="off"/>
+        <button id="search-close" title="Cancel (ESC)">
+          
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+
+
+
+        </button>
+      </form>
+    </div>
+    <ul id="search-results">
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </ul>
+  </div>
+</div>
+
     
     <button id="theme-switcher" class="menu-btn" aria-label="Theme switcher">
       <div id="moon">
@@ -235,8 +340,11 @@ Saya akan berbagi beberapa RDP client yang biasa saya gunakan untuk melakukan re
 
 
 
+
+
+
 <ul class="breadcrumbs">
-  <li><a href="http://localhost:1313/">
+  <li><a href="//localhost:1313/">
 
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="currentColor" d="M575.8 255.5c0 18-15 32.1-32 32.1l-32 0 .7 160.2c0 2.7-.2 5.4-.5 8.1l0 16.2c0 22.1-17.9 40-40 40l-16 0c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1L416 512l-24 0c-22.1 0-40-17.9-40-40l0-24 0-64c0-17.7-14.3-32-32-32l-64 0c-17.7 0-32 14.3-32 32l0 64 0 24c0 22.1-17.9 40-40 40l-24 0-31.9 0c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2l-16 0c-22.1 0-40-17.9-40-40l0-112c0-.9 0-1.9 .1-2.8l0-69.7-32 0c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z"/></svg>
 
@@ -245,7 +353,7 @@ Saya akan berbagi beberapa RDP client yang biasa saya gunakan untuk melakukan re
   
     
     
-      <li><a href="http://localhost:1313/tech/">Teches</a></li>
+      <li><a href="//localhost:1313/tech/">Teches</a></li>
     
     
   
@@ -491,7 +599,35 @@ Saya akan berbagi beberapa RDP client yang biasa saya gunakan untuk melakukan re
   
 </h4>
 <p>Kita coba remote ke linux (Debian):
-<img loading="lazy" src="/rdpclient/gif1.gif" alt="gif1"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Berhasil.</p>
 
@@ -507,7 +643,35 @@ Saya akan berbagi beberapa RDP client yang biasa saya gunakan untuk melakukan re
   
 </h4>
 <p>Sekarang, kita coba remote ke windows (Windows 7):
-<img loading="lazy" src="/rdpclient/gif2.gif" alt="gif2"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Berhasil.</p>
 
@@ -523,7 +687,35 @@ Saya akan berbagi beberapa RDP client yang biasa saya gunakan untuk melakukan re
   
 </h4>
 <p>Kita coba fitur <em>dynamic resolution</em>-nya:
-<img loading="lazy" src="/rdpclient/gif1-1.gif" alt="gif1-1"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Berhasil.</p>
 
@@ -634,7 +826,35 @@ Saya akan berbagi beberapa RDP client yang biasa saya gunakan untuk melakukan re
   
 </h4>
 <p>Kita coba remote ke linux (Debian):
-<img loading="lazy" src="/rdpclient/gif3.gif" alt="gif3"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Berhasil.</p>
 
@@ -650,7 +870,35 @@ Saya akan berbagi beberapa RDP client yang biasa saya gunakan untuk melakukan re
   
 </h4>
 <p>Sekarang, kita coba remote ke windows (Windows 7):
-<img loading="lazy" src="/rdpclient/gif4.gif" alt="gif4"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Berhasil.</p>
 
@@ -730,19 +978,131 @@ Saya akan berbagi beberapa RDP client yang biasa saya gunakan untuk melakukan re
   
 </h3>
 <p>Untuk menjalankan remmina, kita bisa mengetikkan <code>remmina</code> di terminal atau mencari dan membukanya via app launcher.
-<img loading="lazy" src="/rdpclient/ss1.png" alt="ss1"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Kemudian, kita klik icon plus atau tanda tambah di pojok kiri atas.</p>
-<p><img loading="lazy" src="/rdpclient/ss2.png" alt="ss2"  />
+<p>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 
 Kita hanya perlu memilih RDP, kemudian memasukkan <em><strong>username</strong></em> dan <em><strong>password</strong></em> dan klik <em><strong>Connect</strong></em>.</p>
 <p>Atau jika kita ingin me-<em>launch</em> remmina dari terminal via <em>command line</em>, kita bisa menggunakan perintah berikut:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>remmina -c rdp://<span style="color:#f92672">{</span>username<span style="color:#f92672">}</span>:<span style="color:#f92672">{</span>password<span style="color:#f92672">}</span>@<span style="color:#f92672">{</span>IP<span style="color:#f92672">}</span>
 </span></span></code></pre></div><p>Yang perlu diketahui jika ingin melakukan remote desktop ke windows (dalam konteks ini Windows 7), jangan lupa mengganti <strong>TLS Security Level</strong>-nya ke <strong>0</strong>.
-<img loading="lazy" src="/rdpclient/ss3.png" alt="ss3"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Bagaimana cara mengaktifkan fitur <em><strong>dynamic resolution</strong></em>-nya? Kita bisa mengaturnya langsung dari window remmina yang sedang aktif dengan meng-klik icon di bagian sebelah kiri: <em><strong>&ldquo;Toogle dynamic resolution update&rdquo;</strong></em>. Kita akan lihat fiturnya di bagian demonstrasi di bawah.
-<img loading="lazy" src="/rdpclient/ss4.png" alt="ss4"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Mau tau lebih banyak apa saja yang bisa dilakukan rdesktop untuk remote desktop? Kalian bisa mengeksplorasi <em>software</em> GUI remmina atau baca-baca dokumentasi <code>help</code>-nya:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>remmina -h
@@ -771,7 +1131,35 @@ Kita hanya perlu memilih RDP, kemudian memasukkan <em><strong>username</strong><
   
 </h4>
 <p>Kita coba remote ke linux (Debian):
-<img loading="lazy" src="/rdpclient/gif5.gif" alt="gif5"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Berhasil.</p>
 
@@ -787,7 +1175,35 @@ Kita hanya perlu memilih RDP, kemudian memasukkan <em><strong>username</strong><
   
 </h4>
 <p>Kita coba remote ke windows (Windows 7):
-<img loading="lazy" src="/rdpclient/gif6.gif" alt="gif6"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Berhasil.</p>
 
@@ -803,7 +1219,35 @@ Kita hanya perlu memilih RDP, kemudian memasukkan <em><strong>username</strong><
   
 </h4>
 <p>Sekarang, kita coba untuk mengaktifkan fitur <em><strong>dynamic resolution</strong></em>-nya.
-<img loading="lazy" src="/rdpclient/gif2-1.gif" alt="gif2-1"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Berhasil. Di demo <em><strong>dynamic resolution</strong></em> tersebut juga bisa kita lihat, kalau fiturnya di-non-aktifkan, maka otomatis resolusinya juga tidak akan mengikuti ukuran window remmina.</p>
 

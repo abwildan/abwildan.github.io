@@ -17,7 +17,7 @@
   <meta name="description" content="This article shares about (short) history, pieces, notation, and other things regarding Intro to Chess." />
   
   <meta name="keywords" content="chess, intro, " />
-  <link rel="canonical" href="http://localhost:1313/chess/intro/" />
+  <link rel="canonical" href="//localhost:1313/chess/intro/" />
 
   
 
@@ -42,6 +42,10 @@
 
 
   
+
+
+
+  
     
         <script src="/js/theme.js"></script>
       
@@ -51,6 +55,13 @@
   
     
         <script src="/js/codecopy.js"></script>
+      
+    
+  
+
+  
+    
+        <script src="/js/search.js"></script>
       
     
   
@@ -65,7 +76,7 @@
     <link rel="manifest" href="/site.webmanifest" />
   
 
-  <meta property="og:url" content="http://localhost:1313/chess/intro/">
+  <meta property="og:url" content="//localhost:1313/chess/intro/">
   <meta property="og:site_name" content="Wildan&#39;s Workspace">
   <meta property="og:title" content="Introduction to Chess ♟️">
   <meta property="og:description" content="This article shares about (short) history, pieces, notation, and other things regarding Intro to Chess.">
@@ -91,6 +102,19 @@
 
 
 
+
+  
+  
+    <script
+      defer
+      type="text/javascript"
+      src="/lib/fuse/fuse.min.1ab2783fdcab6ba75fb69e4ed1e68a14a4b8721d45627d7147f5421d020c24ed4b36a70a8639009001131d8a04f3515f87706308931603f0194983f9db58f114.js"
+      integrity="sha512-GrJ4P9yra6dftp5O0eaKFKS4ch1FYn1xR/VCHQIMJO1LNqcKhjkAkAETHYoE81Ffh3BjCJMWA/AZSYP521jxFA=="
+    ></script>
+  
+
+
+
   
   
 
@@ -102,10 +126,7 @@
   
 
   
-  
-  
-    <link rel="preload" href="http://localhost:1313/fonts/Ubuntu-Regular.woff2" as="font" type="font/woff2" crossorigin>
-  
+  <link rel="preload" href="//localhost:1313/fonts/Ubuntu-Regular.woff2" as="font" type="font/woff2" crossorigin>
 
   
 
@@ -129,7 +150,43 @@
       <header>
     
     <a class="title" href="/">
-      <img alt="Site Logo" src="/tsukasa.png" />
+      
+      
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+    <img loading="lazy" 
+    
+      
+        src="/tsukasa_hu17823179094668833204.png"
+      
+    
+      alt="Site Logo" />
+  
+
+
+
+
     </a>
     
     <div class="header-cntr">
@@ -155,6 +212,52 @@
     </ul>
   </nav>
     <div class="side-menu">
+    
+<button id="search-open" class="menu-btn" aria-label="Search button">
+  
+
+    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+
+
+
+</button>
+
+<div id="search-container" data-url="//localhost:1313/">
+  <div class="search">
+    <div class="panel">
+      <form>
+        
+
+    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+
+
+
+        <input type="search" id="search-query" placeholder="Search" tabindex=0 autocomplete="off"/>
+        <button id="search-close" title="Cancel (ESC)">
+          
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+
+
+
+        </button>
+      </form>
+    </div>
+    <ul id="search-results">
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </ul>
+  </div>
+</div>
+
     
     <button id="theme-switcher" class="menu-btn" aria-label="Theme switcher">
       <div id="moon">
@@ -232,8 +335,11 @@
 
 
 
+
+
+
 <ul class="breadcrumbs">
-  <li><a href="http://localhost:1313/">
+  <li><a href="//localhost:1313/">
 
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="currentColor" d="M575.8 255.5c0 18-15 32.1-32 32.1l-32 0 .7 160.2c0 2.7-.2 5.4-.5 8.1l0 16.2c0 22.1-17.9 40-40 40l-16 0c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1L416 512l-24 0c-22.1 0-40-17.9-40-40l0-24 0-64c0-17.7-14.3-32-32-32l-64 0c-17.7 0-32 14.3-32 32l0 64 0 24c0 22.1-17.9 40-40 40l-24 0-31.9 0c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2l-16 0c-22.1 0-40-17.9-40-40l0-112c0-.9 0-1.9 .1-2.8l0-69.7-32 0c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z"/></svg>
 
@@ -242,7 +348,7 @@
   
     
     
-      <li><a href="http://localhost:1313/chess/">Chesses</a></li>
+      <li><a href="//localhost:1313/chess/">Chesses</a></li>
     
     
   
@@ -368,7 +474,35 @@
 
 <p>Hola!</p>
 <p>Saya akan berbagi tentang catur di artikel ini. Sudah pada tau catur, kan? Iya, catur adalah permainan yang dimainkan oleh dua orang pada sebuah papan 64 petak yang berwarna gelap dan terang berukuran 8x8, dimana setiap pemain memiliki seperangkat buah catur (satu set buah catur) berjumlah 16 yang terdiri dari Raja, Menteri/Ratu, Gajah/Seluncur/Peluncur, Kuda, Benteng, dan Pion. Berikut adalah buah-buah catur beserta susunannya dalam papan catur:<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>
-<img loading="lazy" src="/chess/intro/ss2.jpg" alt="ss2"  title="papan catur dan susunan buah catur"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<figure>
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+<figcaption>papan catur dan susunan buah catur</figcaption></figure>
+
 </p>
 <p>Catur menurut saya pribadi adalah salah satu permainan sekaligus olahraga (otak) yang dapat melatih cara berfikir strategis. Bahkan, sependek pengetahuan saya, catur sudah dimainkan sejak zaman dulu oleh raja-raja. Artinya, catur pada zaman itu adalah permainan &ldquo;kelas atas&rdquo; yang sekarang sudah bisa dinikmati oleh semua kelas atau kalangan. Meskipun demikian, sebagaimana hakikatnya yang saat ini diberi predikat &ldquo;permainan&rdquo;, catur juga punya sisi negatifnya.</p>
 <p>Nah, jadi, apa aja sih sebetulnya <strong>pro&rsquo;s &amp; con&rsquo;s</strong> catur?<br>
@@ -494,7 +628,35 @@ Berikut akan saya coba jabarkan (tentu saja berdasarkan pengalaman dan pendapat 
   
 </h3>
 <p>Elo <em>rating</em> adalah sebuah sistem yang dibuat untuk mengukur kekuatan relatif seseorang pada permainan catur dibandingkan dengan pemain lain. Sistem Elo <em>rating</em> ini secara resmi diadopsi oleh Federasi Catur Amerika Serikat pada tahun 1960 dan oleh FIDE pada tahun 1970. Saat ini, <strong>Grandmaster (GM) Magnus Carlsen</strong> sebagai juara dunia ke-16 adalah pemain dengan skor Elo <em>rating</em> tertinggi sepanjang sejarah manusia.
-<img loading="lazy" src="/chess/intro/ss3.png" alt="ss3"  title="https://www.chess.com/member/magnuscarlsen"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<figure>
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+<figcaption><a href="https://www.chess.com/member/magnuscarlsen" target="_blank">https://www.chess.com/member/magnuscarlsen</a></figcaption></figure>
+
 </p>
 
 <h3 id="cara-kerja-elo-rating">
@@ -519,9 +681,65 @@ Berikut akan saya coba jabarkan (tentu saja berdasarkan pengalaman dan pendapat 
 </thead>
 <tbody>
 <tr>
-<td><img loading="lazy" src="/chess/intro/ss4.png" alt="ss4"  />
+<td>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </td>
-<td><img loading="lazy" src="/chess/intro/ss5.png" alt="ss5"  />
+<td>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </td>
 </tr>
 <tr>
@@ -621,7 +839,35 @@ Berikut akan saya coba jabarkan (tentu saja berdasarkan pengalaman dan pendapat 
 </table>
 <p>Dimanakah posisi Elo <em>rating</em> kalian, guys?</p>
 <p>Berikut Top 10 Super Grandmaster (per artikel ini dibuat) berdasarkan website FIDE:
-<img loading="lazy" src="/chess/intro/ss6.png" alt="ss6"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Selengkapnya, bisa kunjungi website resmi FIDE:  <a href="https://ratings.fide.com/" target="_blank">https://ratings.fide.com/</a>
 </p>
@@ -639,7 +885,35 @@ Berikut akan saya coba jabarkan (tentu saja berdasarkan pengalaman dan pendapat 
 </h2>
 <p>Sejak lahirnya sistem pe-waktu-an, permainan catur bisa menjadi lebih kompetitif sebab seorang pemain memiliki waktu yang terbatas sehingga tidak bisa berfikir terlalu lama. Permainan catur juga dapat diklasifikasikan berdasarkan kontrol waktu yand digunakan. Berikut adalah klasifikasi permainan catur berdasarkan kontrol waktunya yang saya rujuk ke <a href="https://chess.com" target="_blank">Chess.com</a>
  <sup id="fnref:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup>:</p>
-<p><img loading="lazy" src="/chess/intro/ss7.png" alt="ss7"  />
+<p>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <table>
 <thead>
@@ -827,9 +1101,65 @@ Papan catur sendiri merupakan papan berukuran 8x8 sehingga satu papan catur memi
 </thead>
 <tbody>
 <tr>
-<td><img loading="lazy" src="/chess/intro/ss8.jpg" alt="ss8"  />
+<td>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </td>
-<td><img loading="lazy" src="/chess/intro/ss9.png" alt="ss9"  />
+<td>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </td>
 </tr>
 </tbody>
@@ -863,8 +1193,10 @@ Papan catur sendiri merupakan papan berukuran 8x8 sehingga satu papan catur memi
 <p>Notasi tersebut ditulis dan disusun berdasarkan langkah-langkah yang dibuat oleh masing-masing pemain. Artinya, pada langkah pertama, akan ada dua notasi, yaitu notasi langkah dari pemain putih dan notasi langkah dari pemain hitam. Dengan demikian, yang dimaksud dengan &ldquo;langkah pertama&rdquo; adalah gabungan langkah pertama dari kedua pemain (pemain putih dan pemain hitam). Begitupula seterusnya hingga langkah terakhir. Misalnya, permainan baru dimulai dan pemain putih menjalankan <strong>Kuda (N)</strong> dari <strong>g1</strong> ke <strong>f3</strong>, kemudian pemain hitam membalas dengan menjalankan pion dari petak <strong>b7</strong> ke <strong>b6</strong>, maka notasi yang akan ditulis yaitu <strong>1. Nf3 b6</strong>. Inilah langkah pertama. Jika pemain meneruskan permainan, misalnya pemain putih menjalankan pion <strong>e2</strong> ke <strong>e3</strong> dan pemain hitam mengeluarkan gajah di <strong>c8</strong> ke <strong>b7</strong>, maka notasinya adalah <strong>1. Nf3 b6 2. e3 Bb7</strong>.</p>
 <p>Supaya lebih mudah memahami notasi catur, perhatikan 9 langkah catur pada permainan berikut!</p>
 <div style="text-align: center;">
-  <iframe id="12072909" allowtransparency="true" frameborder="0" scrolling="false" style="width:100%;height:460px;border:none;" src="//www.chess.com/emboard?id=12072909"></iframe><script>window.addEventListener("message",e=>{e['data']&&"12072909"===e['data']['id']&&document.getElementById(`${e['data']['id']}`)&&(document.getElementById(`${e['data']['id']}`).style.height=`${e['data']['frameHeight']+30}px`)});</script>
+  <iframe id="12072909" allowtransparency="true" frameborder="0" style="width:100%;border:none;" src="//www.chess.com/emboard?id=12072909"></iframe><script>window.addEventListener("message",e=>{e['data']&&"12072909"===e['data']['id']&&document.getElementById(`${e['data']['id']}`)&&(document.getElementById(`${e['data']['id']}`).style.height=`${e['data']['frameHeight']+30}px`)});</script>
 </div>
+
+
 
 <h2 id="nilai-buah-catur">
   Nilai Buah Catur
@@ -936,9 +1268,65 @@ Raja tidak memiliki nilai bukan karena tidak bernilai, tapi karena tidak ternila
 </thead>
 <tbody>
 <tr>
-<td><img loading="lazy" src="/chess/intro/ss33.png" alt="ss32"  />
+<td>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </td>
-<td><img loading="lazy" src="/chess/intro/ss32.png" alt="ss33"  />
+<td>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </td>
 </tr>
 </tbody>
@@ -970,42 +1358,210 @@ Raja tidak memiliki nilai bukan karena tidak bernilai, tapi karena tidak ternila
 <td style="text-align:center">1</td>
 <td style="text-align:center">Raja</td>
 <td style="text-align:left">Raja hanya dapat bergerak atau berpindah satu petak yang ada di dekatnya.</td>
-<td><img loading="lazy" src="/chess/intro/ss10.png" alt="ss10"  />
+<td>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </td>
 </tr>
 <tr>
 <td style="text-align:center">2</td>
 <td style="text-align:center">Menteri / Ratu</td>
 <td style="text-align:left">Menteri dapat bergerak secara vertikal, horizontal, maupun diagonal.</td>
-<td><img loading="lazy" src="/chess/intro/ss11.png" alt="ss11"  />
+<td>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </td>
 </tr>
 <tr>
 <td style="text-align:center">3</td>
 <td style="text-align:center">Gajah</td>
 <td style="text-align:left">Gajah terang bergerak secara diagonal di petak terang, sementara gajah gelap bergerak secara diagonal di petak gelap.</td>
-<td><img loading="lazy" src="/chess/intro/ss12.png" alt="ss12"  />
+<td>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </td>
 </tr>
 <tr>
 <td style="text-align:center">4</td>
 <td style="text-align:center">Kuda</td>
 <td style="text-align:left">Kuda dapat bergerak dengan bentuk L.</td>
-<td><img loading="lazy" src="/chess/intro/ss13.png" alt="ss13"  />
+<td>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </td>
 </tr>
 <tr>
 <td style="text-align:center">5</td>
 <td style="text-align:center">Benteng</td>
 <td style="text-align:left">Benteng dapat bergerak secara vertikal dan horizontal.</td>
-<td><img loading="lazy" src="/chess/intro/ss14.png" alt="ss14"  />
+<td>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </td>
 </tr>
 <tr>
 <td style="text-align:center">6</td>
 <td style="text-align:center">Pion</td>
 <td style="text-align:left">Pion hanya dapat bergerak maju satu petak ke depan.</td>
-<td><img loading="lazy" src="/chess/intro/ss15.png" alt="ss15"  />
+<td>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </td>
 </tr>
 </tbody>
@@ -1030,17 +1586,185 @@ Raja tidak memiliki nilai bukan karena tidak bernilai, tapi karena tidak ternila
 </thead>
 <tbody>
 <tr>
-<td><img loading="lazy" src="/chess/intro/ss16.png" alt="ss16"  />
+<td>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </td>
-<td><img loading="lazy" src="/chess/intro/ss17.png" alt="ss17"  />
+<td>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </td>
-<td><img loading="lazy" src="/chess/intro/ss18.png" alt="ss18"  />
+<td>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </td>
-<td><img loading="lazy" src="/chess/intro/ss19.png" alt="ss19"  />
+<td>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </td>
-<td><img loading="lazy" src="/chess/intro/ss20.png" alt="ss20"  />
+<td>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </td>
-<td><img loading="lazy" src="/chess/intro/ss21.png" alt="ss21"  />
+<td>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </td>
 </tr>
 </tbody>
@@ -1061,17 +1785,185 @@ Raja tidak memiliki nilai bukan karena tidak bernilai, tapi karena tidak ternila
 </thead>
 <tbody>
 <tr>
-<td><img loading="lazy" src="/chess/intro/ss22.png" alt="ss22"  />
+<td>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </td>
-<td><img loading="lazy" src="/chess/intro/ss23.png" alt="ss23"  />
+<td>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </td>
-<td><img loading="lazy" src="/chess/intro/ss24.png" alt="ss24"  />
+<td>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </td>
-<td><img loading="lazy" src="/chess/intro/ss25.png" alt="ss25"  />
+<td>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </td>
-<td><img loading="lazy" src="/chess/intro/ss26.png" alt="ss26"  />
+<td>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </td>
-<td><img loading="lazy" src="/chess/intro/ss27.png" alt="ss27"  />
+<td>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </td>
 </tr>
 </tbody>
@@ -1102,11 +1994,95 @@ c. Pertukaran en passant harus dilakukan segera ketika pion lawan telah melangka
 </thead>
 <tbody>
 <tr>
-<td><img loading="lazy" src="/chess/intro/ss28.jpg" alt="ss28"  />
+<td>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </td>
-<td><img loading="lazy" src="/chess/intro/gif1.gif" alt="gif1"  />
+<td>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </td>
-<td><img loading="lazy" src="/chess/intro/gif5.gif" alt="gif4"  />
+<td>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </td>
 </tr>
 </tbody>
@@ -1132,24 +2108,164 @@ d. Petak yang akan dilewati atau ditempati Raja saat Rokade tidak sedang dikawal
 <tbody>
 <tr>
 <td>Rokade ke sayap Raja.</td>
-<td><img loading="lazy" src="/chess/intro/gif2.gif" alt="gif2"  />
+<td>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </td>
-<td><img loading="lazy" src="/chess/intro/ss29.jpg" alt="ss29"  />
+<td>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </td>
 <td>Raja tidak bisa rokade karena petak yang akan dilewatinya untuk Rokade dijaga Gajah lawan.</td>
 </tr>
 <tr>
 <td>Rokade ke sayap Menteri.</td>
-<td><img loading="lazy" src="/chess/intro/gif3.gif" alt="gif3"  />
+<td>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </td>
-<td><img loading="lazy" src="/chess/intro/ss30.png" alt="ss30"  />
+<td>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </td>
 <td>Raja tidak bisa rokade karena petak yang akan ditempatinya setelah rokade dijaga Gajah lawan.</td>
 </tr>
 <tr>
 <td></td>
 <td></td>
-<td><img loading="lazy" src="/chess/intro/ss31.png" alt="ss31"  />
+<td>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </td>
 <td>Raja tidak bisa rokade karena sedang terkena Skak.</td>
 </tr>
@@ -1339,7 +2455,35 @@ d. Petak yang akan dilewati atau ditempati Raja saat Rokade tidak sedang dikawal
 </tbody>
 </table>
 <p>Kalau saya boleh pilihkan 1 buku yang paling mesti dibaca bagi pemula catur, saya akan rekomendasikan <mark><strong>&quot;<em>Chess for Beginners</em> oleh Drew Sleep &amp; Adam Markiewicz&quot;</strong></mark>. Buku 130 halaman tersebut selain adalah buku yang relatif baru (karena dicetak tahun 2023), juga menyajikan ilustrasi yang menarik dan memanjakan mata. Benar-benar diciptakan khusus untuk menarik minat para pemula catur. Meskipun demikian, buku tersebut juga membahas semua jenis informasi catur yang komprehensif. Sebagai gambaran, berikut ini tangkapan layar bukunya:
-<img loading="lazy" src="/chess/intro/ss37.png" alt="ss37"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 
 <h3 id="platform-catur-online">
@@ -1371,7 +2515,35 @@ d. Petak yang akan dilewati atau ditempati Raja saat Rokade tidak sedang dikawal
 <td>1.</td>
 <td style="text-align:left"><a href="https://www.chess.com/puzzles/rated" target="_blank">Chesscom</a>
 </td>
-<td style="text-align:center"><img loading="lazy" src="/chess/intro/ss36.png" alt="ss36"  />
+<td style="text-align:center">
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </td>
 <td style="text-align:left">Punya banyak fitur belajar catur</td>
 <td style="text-align:left">Berbayar</td>
@@ -1380,7 +2552,35 @@ d. Petak yang akan dilewati atau ditempati Raja saat Rokade tidak sedang dikawal
 <td>2.</td>
 <td style="text-align:left"><a href="https://lichess.org/training/daily" target="_blank">Lichess</a>
 </td>
-<td style="text-align:center"><img loading="lazy" src="/chess/intro/ss35.png" alt="ss35"  />
+<td style="text-align:center">
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </td>
 <td style="text-align:left">Gratis</td>
 <td style="text-align:left">Fiturnya tidak sekaya Chesscom</td>
@@ -1396,7 +2596,35 @@ Salam <strong>Gens Una Sumus</strong>!!</p>
  + <a href="https://awesomewm.org/" target="_blank"><strong>&ldquo;AwesomeWM&rdquo;</strong></a>
  + <a href="https://github.com/Manas140/dotfiles" target="_blank"><strong>&ldquo;Manas dotfile&rdquo;</strong></a>
 :<br>
-<img loading="lazy" src="/chess/intro/ss34.png" alt="ss34"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <div class="footnotes" role="doc-endnotes">
 <hr>

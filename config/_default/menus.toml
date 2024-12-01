@@ -13,30 +13,12 @@ name = "tech"
 title = "Tech"
 url = "/tech/"
 weight = 1
-
+#
 [[main]]
 name = "chess"
 title = "Chess"
 url = "/chess/"
 weight = 2
-
-# [[main]]
-# name = "life"
-# title = "Life"
-# url = "/life/"
-# weight = 3
-
-# [[main]]
-# name = "opinion"
-# title = "Opinion"
-# url = "/opinion/"
-# weight = 4
-
-# [[main]]
-# name = "tags"
-# title = "Tags"
-# url = "/tags/"
-# weight = 2
 #
 # [[main]]
 # name = "about"

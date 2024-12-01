@@ -2,9 +2,13 @@
 
 Kayal is a Hugo theme designed to be minimal and lightweight, with markdown-ish aesthetics for personal blog sites.
 
-<h2 align="center"><a href="https://mnjm.github.io/kayal/">Demo site</a></h2>
-
-![Demo Site GH Pages](https://github.com/mnjm/kayal/actions/workflows/main.yaml/badge.svg)
+<p styles="font-size: 2em; font-weight:bold;" align="center">🌐<a href="https://mnjm.github.io/kayal/">Demo site</a></p>
+<p align="center">
+<img src="https://github.com/mnjm/kayal/actions/workflows/main.yaml/badge.svg" alt="Demo Site GH Pages">
+<img src="https://img.shields.io/github/license/mnjm/kayal" alt="GitHub License">
+<img src="https://img.shields.io/github/languages/code-size/mnjm/kayal" alt="GitHub code size in bytes">
+<a href="https://themes.gohugo.io/themes/kayal/"><img src="https://img.shields.io/badge/Hugo--Themes-@Kayal-blue" alt="Kayal"></a>
+</p>
 
 | Desktop | Mobile |
 | ---- | ---- |
@@ -20,7 +24,9 @@ Source for the Demo site is available in [exampleSite](https://github.com/mnjm/k
 - Shortcodes: Includes Callouts, Markdown and Code import from 3rd Party sites.
 - KaTeX Support
 - Mermaid Diagrams Support
+- Client-side search powered by [Fuse.js](https://www.fusejs.io/)
 - Cross-linking: Ability to link posts on third party sites.
+- RSS Feed
 - Table of Contents
 - Code Copy
 - Heading Anchors
@@ -28,6 +34,8 @@ Source for the Demo site is available in [exampleSite](https://github.com/mnjm/k
 - SVG Icons from FontAwesome 6
 - SEO Friendly.
 - Breadcrumbs
+- Article Cover image
+- Responsive Image optimization
 - Extensibility: Includes placeholders for
     - Custom Homepage
     - Other Analytics

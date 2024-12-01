@@ -1,1230 +1,1230 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>//localhost:1313/</loc>
     <lastmod>2024-11-19T16:28:36+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>//localhost:1313/categories/</loc>
     <lastmod>2024-11-19T16:28:36+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/dashboard/</loc>
+    <loc>//localhost:1313/tags/dashboard/</loc>
     <lastmod>2024-11-19T16:28:36+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/data/</loc>
+    <loc>//localhost:1313/tags/data/</loc>
     <lastmod>2024-11-19T16:28:36+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/data-analytics/</loc>
+    <loc>//localhost:1313/tags/data-analytics/</loc>
     <lastmod>2024-11-19T16:28:36+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/kaggle/</loc>
+    <loc>//localhost:1313/tags/kaggle/</loc>
     <lastmod>2024-11-19T16:28:36+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/tableau/</loc>
+    <loc>//localhost:1313/tags/tableau/</loc>
     <lastmod>2024-11-19T16:28:36+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/categories/tableau/</loc>
+    <loc>//localhost:1313/categories/tableau/</loc>
     <lastmod>2024-11-19T16:28:36+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tech/tableau-basics/</loc>
+    <loc>//localhost:1313/tech/tableau-basics/</loc>
     <lastmod>2024-11-19T16:28:36+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>//localhost:1313/tags/</loc>
     <lastmod>2024-11-19T16:28:36+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tech/</loc>
+    <loc>//localhost:1313/tech/</loc>
     <lastmod>2024-11-19T16:28:36+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/visualization/</loc>
+    <loc>//localhost:1313/tags/visualization/</loc>
     <lastmod>2024-11-19T16:28:36+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/chess/</loc>
+    <loc>//localhost:1313/tags/chess/</loc>
     <lastmod>2024-11-07T10:39:37+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/categories/chess/</loc>
+    <loc>//localhost:1313/categories/chess/</loc>
     <lastmod>2024-11-07T10:39:37+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/chess/pop-tactics2/</loc>
+    <loc>//localhost:1313/chess/pop-tactics2/</loc>
     <lastmod>2024-11-07T10:39:37+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/chess/</loc>
+    <loc>//localhost:1313/chess/</loc>
     <lastmod>2024-11-07T10:39:37+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/discovered-attack/</loc>
+    <loc>//localhost:1313/tags/discovered-attack/</loc>
     <lastmod>2024-11-07T10:39:37+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/double-attack/</loc>
+    <loc>//localhost:1313/tags/double-attack/</loc>
     <lastmod>2024-11-07T10:39:37+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/intro/</loc>
+    <loc>//localhost:1313/tags/intro/</loc>
     <lastmod>2024-11-07T10:39:37+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/removing-the-defender/</loc>
+    <loc>//localhost:1313/tags/removing-the-defender/</loc>
     <lastmod>2024-11-07T10:39:37+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/tactics/</loc>
+    <loc>//localhost:1313/tags/tactics/</loc>
     <lastmod>2024-11-07T10:39:37+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/exa/</loc>
+    <loc>//localhost:1313/tags/exa/</loc>
     <lastmod>2024-11-06T21:45:18+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/categories/exa/</loc>
+    <loc>//localhost:1313/categories/exa/</loc>
     <lastmod>2024-11-06T21:45:18+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tech/exa/</loc>
+    <loc>//localhost:1313/tech/exa/</loc>
     <lastmod>2024-11-06T21:45:18+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/linux/</loc>
+    <loc>//localhost:1313/tags/linux/</loc>
     <lastmod>2024-11-06T21:45:18+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/ls/</loc>
+    <loc>//localhost:1313/tags/ls/</loc>
     <lastmod>2024-11-06T21:45:18+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tech/updisk/</loc>
+    <loc>//localhost:1313/tech/updisk/</loc>
     <lastmod>2024-10-16T16:51:19+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/virtual-machine/</loc>
+    <loc>//localhost:1313/tags/virtual-machine/</loc>
     <lastmod>2024-10-16T16:51:19+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/virtualbox/</loc>
+    <loc>//localhost:1313/tags/virtualbox/</loc>
     <lastmod>2024-10-16T16:51:19+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/categories/virtualbox/</loc>
+    <loc>//localhost:1313/categories/virtualbox/</loc>
     <lastmod>2024-10-16T16:51:19+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/command-injection/</loc>
+    <loc>//localhost:1313/tags/command-injection/</loc>
     <lastmod>2024-10-13T17:04:53+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/categories/command-injection/</loc>
+    <loc>//localhost:1313/categories/command-injection/</loc>
     <lastmod>2024-10-13T17:04:53+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/dvwa/</loc>
+    <loc>//localhost:1313/tags/dvwa/</loc>
     <lastmod>2024-10-13T17:04:53+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tech/commandinjection/</loc>
+    <loc>//localhost:1313/tech/commandinjection/</loc>
     <lastmod>2024-10-13T17:04:53+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/hacking/</loc>
+    <loc>//localhost:1313/tags/hacking/</loc>
     <lastmod>2024-10-13T17:04:53+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/reverse-shell/</loc>
+    <loc>//localhost:1313/tags/reverse-shell/</loc>
     <lastmod>2024-10-13T17:04:53+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/web/</loc>
+    <loc>//localhost:1313/tags/web/</loc>
     <lastmod>2024-10-13T17:04:53+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/docker/</loc>
+    <loc>//localhost:1313/tags/docker/</loc>
     <lastmod>2024-10-11T13:28:19+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/categories/docker/</loc>
+    <loc>//localhost:1313/categories/docker/</loc>
     <lastmod>2024-10-11T13:28:19+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tech/dvwa-docker/</loc>
+    <loc>//localhost:1313/tech/dvwa-docker/</loc>
     <lastmod>2024-10-11T13:28:19+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/password/</loc>
+    <loc>//localhost:1313/tags/password/</loc>
     <lastmod>2024-10-08T17:00:47+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/ssh/</loc>
+    <loc>//localhost:1313/tags/ssh/</loc>
     <lastmod>2024-10-08T17:00:47+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/categories/ssh/</loc>
+    <loc>//localhost:1313/categories/ssh/</loc>
     <lastmod>2024-10-08T17:00:47+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tech/sshnopass/</loc>
+    <loc>//localhost:1313/tech/sshnopass/</loc>
     <lastmod>2024-10-08T17:00:47+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/ffmpeg/</loc>
+    <loc>//localhost:1313/tags/ffmpeg/</loc>
     <lastmod>2024-10-07T22:00:53+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/categories/ffmpeg/</loc>
+    <loc>//localhost:1313/categories/ffmpeg/</loc>
     <lastmod>2024-10-07T22:00:53+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tech/covertvideoformat/</loc>
+    <loc>//localhost:1313/tech/covertvideoformat/</loc>
     <lastmod>2024-10-07T22:00:53+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/tutorial/</loc>
+    <loc>//localhost:1313/tags/tutorial/</loc>
     <lastmod>2024-10-07T22:00:53+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/video-format/</loc>
+    <loc>//localhost:1313/tags/video-format/</loc>
     <lastmod>2024-10-07T22:00:53+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/backup/</loc>
+    <loc>//localhost:1313/tags/backup/</loc>
     <lastmod>2024-10-03T21:42:14+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/rsync/</loc>
+    <loc>//localhost:1313/tags/rsync/</loc>
     <lastmod>2024-10-03T21:42:14+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/categories/rsync/</loc>
+    <loc>//localhost:1313/categories/rsync/</loc>
     <lastmod>2024-10-03T21:42:14+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tech/rsync/</loc>
+    <loc>//localhost:1313/tech/rsync/</loc>
     <lastmod>2024-10-03T21:42:14+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/file/</loc>
+    <loc>//localhost:1313/tags/file/</loc>
     <lastmod>2024-09-29T02:06:27+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/netcat/</loc>
+    <loc>//localhost:1313/tags/netcat/</loc>
     <lastmod>2024-09-29T02:06:27+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/categories/netcat/</loc>
+    <loc>//localhost:1313/categories/netcat/</loc>
     <lastmod>2024-09-29T02:06:27+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tech/netcat/</loc>
+    <loc>//localhost:1313/tech/netcat/</loc>
     <lastmod>2024-09-29T02:06:27+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/transfer/</loc>
+    <loc>//localhost:1313/tags/transfer/</loc>
     <lastmod>2024-09-29T02:06:27+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tech/openvpn-server/</loc>
+    <loc>//localhost:1313/tech/openvpn-server/</loc>
     <lastmod>2024-09-20T10:37:37+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/openvpn/</loc>
+    <loc>//localhost:1313/tags/openvpn/</loc>
     <lastmod>2024-09-20T10:37:37+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/categories/openvpn/</loc>
+    <loc>//localhost:1313/categories/openvpn/</loc>
     <lastmod>2024-09-20T10:37:37+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/server/</loc>
+    <loc>//localhost:1313/tags/server/</loc>
     <lastmod>2024-09-20T10:37:37+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/vpn/</loc>
+    <loc>//localhost:1313/tags/vpn/</loc>
     <lastmod>2024-09-20T10:37:37+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tech/ircserver/</loc>
+    <loc>//localhost:1313/tech/ircserver/</loc>
     <lastmod>2024-09-15T21:23:53+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/irc/</loc>
+    <loc>//localhost:1313/tags/irc/</loc>
     <lastmod>2024-09-15T21:23:53+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/categories/irc/</loc>
+    <loc>//localhost:1313/categories/irc/</loc>
     <lastmod>2024-09-15T21:23:53+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/bash/</loc>
+    <loc>//localhost:1313/tags/bash/</loc>
     <lastmod>2024-09-10T10:53:50+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tech/kittyconfig/</loc>
+    <loc>//localhost:1313/tech/kittyconfig/</loc>
     <lastmod>2024-09-10T10:53:50+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/kitty/</loc>
+    <loc>//localhost:1313/tags/kitty/</loc>
     <lastmod>2024-09-10T10:53:50+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/categories/kitty/</loc>
+    <loc>//localhost:1313/categories/kitty/</loc>
     <lastmod>2024-09-10T10:53:50+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/chafa/</loc>
+    <loc>//localhost:1313/tags/chafa/</loc>
     <lastmod>2024-08-28T16:39:26+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/categories/chafa/</loc>
+    <loc>//localhost:1313/categories/chafa/</loc>
     <lastmod>2024-08-28T16:39:26+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tech/chafa/</loc>
+    <loc>//localhost:1313/tech/chafa/</loc>
     <lastmod>2024-08-28T16:39:26+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/lazyvim/</loc>
+    <loc>//localhost:1313/tags/lazyvim/</loc>
     <lastmod>2024-08-18T13:50:11+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/categories/lazyvim/</loc>
+    <loc>//localhost:1313/categories/lazyvim/</loc>
     <lastmod>2024-08-18T13:50:11+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tech/lazyvim/</loc>
+    <loc>//localhost:1313/tech/lazyvim/</loc>
     <lastmod>2024-08-18T13:50:11+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/vim/</loc>
+    <loc>//localhost:1313/tags/vim/</loc>
     <lastmod>2024-08-18T13:50:11+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/database/</loc>
+    <loc>//localhost:1313/tags/database/</loc>
     <lastmod>2024-08-16T08:03:25+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/sql/</loc>
+    <loc>//localhost:1313/tags/sql/</loc>
     <lastmod>2024-08-16T08:03:25+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/categories/sql/</loc>
+    <loc>//localhost:1313/categories/sql/</loc>
     <lastmod>2024-08-16T08:03:25+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tech/sqlbasic/</loc>
+    <loc>//localhost:1313/tech/sqlbasic/</loc>
     <lastmod>2024-08-16T08:03:25+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/cooking/</loc>
+    <loc>//localhost:1313/tags/cooking/</loc>
     <lastmod>2024-08-14T14:28:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/categories/cooking/</loc>
+    <loc>//localhost:1313/categories/cooking/</loc>
     <lastmod>2024-08-14T14:28:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/food/</loc>
+    <loc>//localhost:1313/tags/food/</loc>
     <lastmod>2024-08-14T14:28:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/life/</loc>
+    <loc>//localhost:1313/tags/life/</loc>
     <lastmod>2024-08-14T14:28:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/life/</loc>
+    <loc>//localhost:1313/life/</loc>
     <lastmod>2024-08-14T14:28:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/life/miesedaprawit/</loc>
+    <loc>//localhost:1313/life/miesedaprawit/</loc>
     <lastmod>2024-08-14T14:28:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/chess/pop-tactics/</loc>
+    <loc>//localhost:1313/chess/pop-tactics/</loc>
     <lastmod>2024-08-14T03:10:27+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/fork/</loc>
+    <loc>//localhost:1313/tags/fork/</loc>
     <lastmod>2024-08-14T03:10:27+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/pin/</loc>
+    <loc>//localhost:1313/tags/pin/</loc>
     <lastmod>2024-08-14T03:10:27+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/skewer/</loc>
+    <loc>//localhost:1313/tags/skewer/</loc>
     <lastmod>2024-08-14T03:10:27+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/hugo/</loc>
+    <loc>//localhost:1313/tags/hugo/</loc>
     <lastmod>2024-08-04T13:54:17+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/categories/hugo/</loc>
+    <loc>//localhost:1313/categories/hugo/</loc>
     <lastmod>2024-08-04T13:54:17+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/kayal/</loc>
+    <loc>//localhost:1313/tags/kayal/</loc>
     <lastmod>2024-08-04T13:54:17+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/theme/</loc>
+    <loc>//localhost:1313/tags/theme/</loc>
     <lastmod>2024-08-04T13:54:17+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tech/kayal/</loc>
+    <loc>//localhost:1313/tech/kayal/</loc>
     <lastmod>2024-08-04T13:54:17+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/chess/intro/</loc>
+    <loc>//localhost:1313/chess/intro/</loc>
     <lastmod>2024-08-02T07:59:33+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/conky/</loc>
+    <loc>//localhost:1313/tags/conky/</loc>
     <lastmod>2024-07-20T11:16:26+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/categories/conky/</loc>
+    <loc>//localhost:1313/categories/conky/</loc>
     <lastmod>2024-07-20T11:16:26+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tech/conky/</loc>
+    <loc>//localhost:1313/tech/conky/</loc>
     <lastmod>2024-07-20T11:16:26+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/display-manager/</loc>
+    <loc>//localhost:1313/tags/display-manager/</loc>
     <lastmod>2024-07-17T15:06:15+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tech/tty/</loc>
+    <loc>//localhost:1313/tech/tty/</loc>
     <lastmod>2024-07-17T15:06:15+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/login/</loc>
+    <loc>//localhost:1313/tags/login/</loc>
     <lastmod>2024-07-17T15:06:15+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/tty/</loc>
+    <loc>//localhost:1313/tags/tty/</loc>
     <lastmod>2024-07-17T15:06:15+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/categories/tty/</loc>
+    <loc>//localhost:1313/categories/tty/</loc>
     <lastmod>2024-07-17T15:06:15+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tech/yt-dlp/</loc>
+    <loc>//localhost:1313/tech/yt-dlp/</loc>
     <lastmod>2024-06-23T00:49:55-04:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/video/</loc>
+    <loc>//localhost:1313/tags/video/</loc>
     <lastmod>2024-06-23T00:49:55-04:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/yt-dlp/</loc>
+    <loc>//localhost:1313/tags/yt-dlp/</loc>
     <lastmod>2024-06-23T00:49:55-04:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/categories/yt-dlp/</loc>
+    <loc>//localhost:1313/categories/yt-dlp/</loc>
     <lastmod>2024-06-23T00:49:55-04:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/programming/</loc>
+    <loc>//localhost:1313/tags/programming/</loc>
     <lastmod>2024-06-13T11:56:25-04:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/r/</loc>
+    <loc>//localhost:1313/tags/r/</loc>
     <lastmod>2024-06-13T11:56:25-04:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/rstudio/</loc>
+    <loc>//localhost:1313/tags/rstudio/</loc>
     <lastmod>2024-06-13T11:56:25-04:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/categories/rstudio/</loc>
+    <loc>//localhost:1313/categories/rstudio/</loc>
     <lastmod>2024-06-13T11:56:25-04:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tech/rstudio-basic/</loc>
+    <loc>//localhost:1313/tech/rstudio-basic/</loc>
     <lastmod>2024-06-13T11:56:25-04:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/cool/</loc>
+    <loc>//localhost:1313/tags/cool/</loc>
     <lastmod>2024-06-09T16:59:47+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tech/cooltools/</loc>
+    <loc>//localhost:1313/tech/cooltools/</loc>
     <lastmod>2024-06-09T16:59:47+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/categories/linux/</loc>
+    <loc>//localhost:1313/categories/linux/</loc>
     <lastmod>2024-06-09T16:59:47+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/terminal/</loc>
+    <loc>//localhost:1313/tags/terminal/</loc>
     <lastmod>2024-06-09T16:59:47+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tech/ncmpcpp/</loc>
+    <loc>//localhost:1313/tech/ncmpcpp/</loc>
     <lastmod>2024-06-07T14:41:49+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/mpd/</loc>
+    <loc>//localhost:1313/tags/mpd/</loc>
     <lastmod>2024-06-07T14:41:49+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/music-player/</loc>
+    <loc>//localhost:1313/tags/music-player/</loc>
     <lastmod>2024-06-07T14:41:49+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/ncmpcpp/</loc>
+    <loc>//localhost:1313/tags/ncmpcpp/</loc>
     <lastmod>2024-06-07T14:41:49+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/categories/ncmpcpp/</loc>
+    <loc>//localhost:1313/categories/ncmpcpp/</loc>
     <lastmod>2024-06-07T14:41:49+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/blogging/</loc>
+    <loc>//localhost:1313/tags/blogging/</loc>
     <lastmod>2024-06-06T14:13:34+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/opinion/genius/</loc>
+    <loc>//localhost:1313/opinion/genius/</loc>
     <lastmod>2024-06-06T14:13:34+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/opinion/</loc>
+    <loc>//localhost:1313/opinion/</loc>
     <lastmod>2024-06-06T14:13:34+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/writing/</loc>
+    <loc>//localhost:1313/tags/writing/</loc>
     <lastmod>2024-06-06T14:13:34+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/categories/writing/</loc>
+    <loc>//localhost:1313/categories/writing/</loc>
     <lastmod>2024-06-06T14:13:34+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tech/rdpclient/</loc>
+    <loc>//localhost:1313/tech/rdpclient/</loc>
     <lastmod>2024-06-04T22:05:26+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/remote-desktop/</loc>
+    <loc>//localhost:1313/tags/remote-desktop/</loc>
     <lastmod>2024-06-04T22:05:26+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/categories/remote-desktop/</loc>
+    <loc>//localhost:1313/categories/remote-desktop/</loc>
     <lastmod>2024-06-04T22:05:26+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/windows/</loc>
+    <loc>//localhost:1313/tags/windows/</loc>
     <lastmod>2024-06-04T22:05:26+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tech/polybar/</loc>
+    <loc>//localhost:1313/tech/polybar/</loc>
     <lastmod>2024-06-02T19:14:29+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/polybar/</loc>
+    <loc>//localhost:1313/tags/polybar/</loc>
     <lastmod>2024-06-02T19:14:29+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/categories/polybar/</loc>
+    <loc>//localhost:1313/categories/polybar/</loc>
     <lastmod>2024-06-02T19:14:29+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/status-bar/</loc>
+    <loc>//localhost:1313/tags/status-bar/</loc>
     <lastmod>2024-06-02T19:14:29+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/openbox/</loc>
+    <loc>//localhost:1313/tags/openbox/</loc>
     <lastmod>2024-05-30T01:49:56+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/categories/openbox/</loc>
+    <loc>//localhost:1313/categories/openbox/</loc>
     <lastmod>2024-05-30T01:49:56+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tech/openbox/</loc>
+    <loc>//localhost:1313/tech/openbox/</loc>
     <lastmod>2024-05-30T01:49:56+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/window-manager/</loc>
+    <loc>//localhost:1313/tags/window-manager/</loc>
     <lastmod>2024-05-30T01:49:56+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tech/scihub/</loc>
+    <loc>//localhost:1313/tech/scihub/</loc>
     <lastmod>2024-05-21T09:10:19+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/journal/</loc>
+    <loc>//localhost:1313/tags/journal/</loc>
     <lastmod>2024-05-21T09:10:19+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/scihub/</loc>
+    <loc>//localhost:1313/tags/scihub/</loc>
     <lastmod>2024-05-21T09:10:19+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/categories/scihub/</loc>
+    <loc>//localhost:1313/categories/scihub/</loc>
     <lastmod>2024-05-21T09:10:19+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/cyber-security/</loc>
+    <loc>//localhost:1313/tags/cyber-security/</loc>
     <lastmod>2024-05-13T10:52:32+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/steganography/</loc>
+    <loc>//localhost:1313/tags/steganography/</loc>
     <lastmod>2024-05-13T10:52:32+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/categories/steganography/</loc>
+    <loc>//localhost:1313/categories/steganography/</loc>
     <lastmod>2024-05-13T10:52:32+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tech/steganography/</loc>
+    <loc>//localhost:1313/tech/steganography/</loc>
     <lastmod>2024-05-13T10:52:32+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/rofi/</loc>
+    <loc>//localhost:1313/tags/rofi/</loc>
     <lastmod>2024-05-04T10:38:46+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/categories/rofi/</loc>
+    <loc>//localhost:1313/categories/rofi/</loc>
     <lastmod>2024-05-04T10:38:46+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tech/rofi/</loc>
+    <loc>//localhost:1313/tech/rofi/</loc>
     <lastmod>2024-05-04T10:38:46+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/arch/</loc>
+    <loc>//localhost:1313/tags/arch/</loc>
     <lastmod>2024-05-02T09:52:29+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/categories/archlinux/</loc>
+    <loc>//localhost:1313/categories/archlinux/</loc>
     <lastmod>2024-05-02T09:52:29+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tech/archinstall/</loc>
+    <loc>//localhost:1313/tech/archinstall/</loc>
     <lastmod>2024-05-02T09:52:29+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/install/</loc>
+    <loc>//localhost:1313/tags/install/</loc>
     <lastmod>2024-05-02T09:52:29+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/debian/</loc>
+    <loc>//localhost:1313/tags/debian/</loc>
     <lastmod>2024-04-28T14:21:13+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tech/rice/</loc>
+    <loc>//localhost:1313/tech/rice/</loc>
     <lastmod>2024-04-28T14:21:13+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/ricing/</loc>
+    <loc>//localhost:1313/tags/ricing/</loc>
     <lastmod>2024-04-28T14:21:13+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/categories/ricing/</loc>
+    <loc>//localhost:1313/categories/ricing/</loc>
     <lastmod>2024-04-28T14:21:13+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/categories/debian/</loc>
+    <loc>//localhost:1313/categories/debian/</loc>
     <lastmod>2024-04-15T07:45:05+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tech/debian-installation/</loc>
+    <loc>//localhost:1313/tech/debian-installation/</loc>
     <lastmod>2024-04-15T07:45:05+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/instal/</loc>
+    <loc>//localhost:1313/tags/instal/</loc>
     <lastmod>2024-04-15T07:45:05+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/ngrok/</loc>
+    <loc>//localhost:1313/tags/ngrok/</loc>
     <lastmod>2024-04-02T17:30:12+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/categories/ngrok/</loc>
+    <loc>//localhost:1313/categories/ngrok/</loc>
     <lastmod>2024-04-02T17:30:12+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tech/ngrok/</loc>
+    <loc>//localhost:1313/tech/ngrok/</loc>
     <lastmod>2024-04-02T17:30:12+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/mystiq/</loc>
+    <loc>//localhost:1313/tags/mystiq/</loc>
     <lastmod>2024-03-26T17:56:16+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/categories/mystiq/</loc>
+    <loc>//localhost:1313/categories/mystiq/</loc>
     <lastmod>2024-03-26T17:56:16+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tech/mystiq/</loc>
+    <loc>//localhost:1313/tech/mystiq/</loc>
     <lastmod>2024-03-26T17:56:16+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tech/eternalblue/</loc>
+    <loc>//localhost:1313/tech/eternalblue/</loc>
     <lastmod>2024-03-21T18:54:33+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/categories/hacking/</loc>
+    <loc>//localhost:1313/categories/hacking/</loc>
     <lastmod>2024-03-21T18:54:33+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/metasploit/</loc>
+    <loc>//localhost:1313/tags/metasploit/</loc>
     <lastmod>2024-03-21T18:54:33+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/forensic/</loc>
+    <loc>//localhost:1313/tags/forensic/</loc>
     <lastmod>2024-03-19T21:43:27+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/categories/virustotal/</loc>
+    <loc>//localhost:1313/categories/virustotal/</loc>
     <lastmod>2024-03-19T21:43:27+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tech/virustotal/</loc>
+    <loc>//localhost:1313/tech/virustotal/</loc>
     <lastmod>2024-03-19T21:43:27+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/recordmydesktop/</loc>
+    <loc>//localhost:1313/tags/recordmydesktop/</loc>
     <lastmod>2024-03-08T14:55:26+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/categories/recordmydesktop/</loc>
+    <loc>//localhost:1313/categories/recordmydesktop/</loc>
     <lastmod>2024-03-08T14:55:26+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tech/recordmydesktop/</loc>
+    <loc>//localhost:1313/tech/recordmydesktop/</loc>
     <lastmod>2024-03-08T14:55:26+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/screen-recorder/</loc>
+    <loc>//localhost:1313/tags/screen-recorder/</loc>
     <lastmod>2024-03-08T14:55:26+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/gephi/</loc>
+    <loc>//localhost:1313/tags/gephi/</loc>
     <lastmod>2024-01-06T02:26:47-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/categories/gephi/</loc>
+    <loc>//localhost:1313/categories/gephi/</loc>
     <lastmod>2024-01-06T02:26:47-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tech/gephi/</loc>
+    <loc>//localhost:1313/tech/gephi/</loc>
     <lastmod>2024-01-06T02:26:47-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/anonymous/</loc>
+    <loc>//localhost:1313/tags/anonymous/</loc>
     <lastmod>2023-11-30T07:35:02-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/categories/onionshare/</loc>
+    <loc>//localhost:1313/categories/onionshare/</loc>
     <lastmod>2023-11-30T07:35:02-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tech/onionshare/</loc>
+    <loc>//localhost:1313/tech/onionshare/</loc>
     <lastmod>2023-11-30T07:35:02-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/categories/tor/</loc>
+    <loc>//localhost:1313/categories/tor/</loc>
     <lastmod>2023-11-30T07:35:02-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/tor/</loc>
+    <loc>//localhost:1313/tags/tor/</loc>
     <lastmod>2023-11-30T07:35:02-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/e-book/</loc>
+    <loc>//localhost:1313/tags/e-book/</loc>
     <lastmod>2023-10-11T16:32:22+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tech/ebook-via-bot_telegram/</loc>
+    <loc>//localhost:1313/tech/ebook-via-bot_telegram/</loc>
     <lastmod>2023-10-11T16:32:22+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/telegram/</loc>
+    <loc>//localhost:1313/tags/telegram/</loc>
     <lastmod>2023-10-11T16:32:22+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/categories/telegram/</loc>
+    <loc>//localhost:1313/categories/telegram/</loc>
     <lastmod>2023-10-11T16:32:22+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/z-library/</loc>
+    <loc>//localhost:1313/tags/z-library/</loc>
     <lastmod>2023-10-11T16:32:22+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tech/ffmpeg-mp42gif/</loc>
+    <loc>//localhost:1313/tech/ffmpeg-mp42gif/</loc>
     <lastmod>2023-10-11T00:40:23+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/mp4-to-gif/</loc>
+    <loc>//localhost:1313/tags/mp4-to-gif/</loc>
     <lastmod>2023-10-11T00:40:23+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/video-converter/</loc>
+    <loc>//localhost:1313/tags/video-converter/</loc>
     <lastmod>2023-10-11T00:40:23+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tech/ffmpeg-sr/</loc>
+    <loc>//localhost:1313/tech/ffmpeg-sr/</loc>
     <lastmod>2023-10-10T09:13:32+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tech/hugo-advanced/</loc>
+    <loc>//localhost:1313/tech/hugo-advanced/</loc>
     <lastmod>2023-10-09T15:22:46+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/static-site/</loc>
+    <loc>//localhost:1313/tags/static-site/</loc>
     <lastmod>2023-10-09T15:22:46+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/website/</loc>
+    <loc>//localhost:1313/tags/website/</loc>
     <lastmod>2023-10-09T15:22:46+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tech/hugo-to_github/</loc>
+    <loc>//localhost:1313/tech/hugo-to_github/</loc>
     <lastmod>2023-10-09T09:03:40+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tech/hugo-ing/</loc>
+    <loc>//localhost:1313/tech/hugo-ing/</loc>
     <lastmod>2023-10-07T15:26:34+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/whoami/</loc>
+    <loc>//localhost:1313/whoami/</loc>
     <lastmod>2023-10-07T13:17:32+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/introduction/</loc>
+    <loc>//localhost:1313/tags/introduction/</loc>
     <lastmod>2023-10-07T13:17:32+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/categories/whoami/</loc>
+    <loc>//localhost:1313/categories/whoami/</loc>
     <lastmod>2023-10-07T13:17:32+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/archives/</loc>
+    <loc>//localhost:1313/archives/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/search/</loc>
+    <loc>//localhost:1313/search/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

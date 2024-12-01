@@ -17,7 +17,7 @@
   <meta name="description" content="A Hugo Theme" />
   
   <meta name="keywords" content="arch, linux, install, " />
-  <link rel="canonical" href="http://localhost:1313/tech/archinstall/" />
+  <link rel="canonical" href="//localhost:1313/tech/archinstall/" />
 
   
 
@@ -42,6 +42,10 @@
 
 
   
+
+
+
+  
     
         <script src="/js/theme.js"></script>
       
@@ -51,6 +55,13 @@
   
     
         <script src="/js/codecopy.js"></script>
+      
+    
+  
+
+  
+    
+        <script src="/js/search.js"></script>
       
     
   
@@ -65,11 +76,12 @@
     <link rel="manifest" href="/site.webmanifest" />
   
 
-  <meta property="og:url" content="http://localhost:1313/tech/archinstall/">
+  <meta property="og:url" content="//localhost:1313/tech/archinstall/">
   <meta property="og:site_name" content="Wildan&#39;s Workspace">
   <meta property="og:title" content="Archlinux KDE Installation via archinstall">
   <meta property="og:description" content="Siapa yang tidak pernah dengar Archlinux?
-Archlinux adalah sebuah distro linux (legendaris) yang terkenal dengan komunitasnya yang besar dari seluruh dunia dan dokumentasi distronya yang lengkap.">
+Archlinux adalah sebuah distro linux (legendaris) yang terkenal dengan komunitasnya yang besar dari seluruh dunia dan dokumentasi distronya yang lengkap. Hal lain yang menjadikan Archlinux sebagai distro yang digemari banyak orang adalah karena filosofinya, yaitu Keep It Simple1. Ya, sesuai filosofinya, Archlinux memang di-design untuk memberikan kemudahan, baik untuk penggunanya maupun untuk hardware atau mesin host-nya2.
+Meskipun demikian, dulu Archlinux memiliki reputasi sebagai distro untuk “linux senior” atau “sepuh linux” alias tidak ramah pengguna linux pemula.">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="tech">
@@ -83,7 +95,8 @@ Archlinux adalah sebuah distro linux (legendaris) yang terkenal dengan komunitas
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Archlinux KDE Installation via archinstall">
   <meta name="twitter:description" content="Siapa yang tidak pernah dengar Archlinux?
-Archlinux adalah sebuah distro linux (legendaris) yang terkenal dengan komunitasnya yang besar dari seluruh dunia dan dokumentasi distronya yang lengkap.">
+Archlinux adalah sebuah distro linux (legendaris) yang terkenal dengan komunitasnya yang besar dari seluruh dunia dan dokumentasi distronya yang lengkap. Hal lain yang menjadikan Archlinux sebagai distro yang digemari banyak orang adalah karena filosofinya, yaitu Keep It Simple1. Ya, sesuai filosofinya, Archlinux memang di-design untuk memberikan kemudahan, baik untuk penggunanya maupun untuk hardware atau mesin host-nya2.
+Meskipun demikian, dulu Archlinux memiliki reputasi sebagai distro untuk “linux senior” atau “sepuh linux” alias tidak ramah pengguna linux pemula.">
 
 
   
@@ -94,6 +107,19 @@ Archlinux adalah sebuah distro linux (legendaris) yang terkenal dengan komunitas
 
 
 
+
+  
+  
+    <script
+      defer
+      type="text/javascript"
+      src="/lib/fuse/fuse.min.1ab2783fdcab6ba75fb69e4ed1e68a14a4b8721d45627d7147f5421d020c24ed4b36a70a8639009001131d8a04f3515f87706308931603f0194983f9db58f114.js"
+      integrity="sha512-GrJ4P9yra6dftp5O0eaKFKS4ch1FYn1xR/VCHQIMJO1LNqcKhjkAkAETHYoE81Ffh3BjCJMWA/AZSYP521jxFA=="
+    ></script>
+  
+
+
+
   
   
 
@@ -105,10 +131,7 @@ Archlinux adalah sebuah distro linux (legendaris) yang terkenal dengan komunitas
   
 
   
-  
-  
-    <link rel="preload" href="http://localhost:1313/fonts/Ubuntu-Regular.woff2" as="font" type="font/woff2" crossorigin>
-  
+  <link rel="preload" href="//localhost:1313/fonts/Ubuntu-Regular.woff2" as="font" type="font/woff2" crossorigin>
 
   
 
@@ -132,7 +155,43 @@ Archlinux adalah sebuah distro linux (legendaris) yang terkenal dengan komunitas
       <header>
     
     <a class="title" href="/">
-      <img alt="Site Logo" src="/tsukasa.png" />
+      
+      
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+    <img loading="lazy" 
+    
+      
+        src="/tsukasa_hu17823179094668833204.png"
+      
+    
+      alt="Site Logo" />
+  
+
+
+
+
     </a>
     
     <div class="header-cntr">
@@ -158,6 +217,52 @@ Archlinux adalah sebuah distro linux (legendaris) yang terkenal dengan komunitas
     </ul>
   </nav>
     <div class="side-menu">
+    
+<button id="search-open" class="menu-btn" aria-label="Search button">
+  
+
+    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+
+
+
+</button>
+
+<div id="search-container" data-url="//localhost:1313/">
+  <div class="search">
+    <div class="panel">
+      <form>
+        
+
+    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+
+
+
+        <input type="search" id="search-query" placeholder="Search" tabindex=0 autocomplete="off"/>
+        <button id="search-close" title="Cancel (ESC)">
+          
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+
+
+
+        </button>
+      </form>
+    </div>
+    <ul id="search-results">
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </ul>
+  </div>
+</div>
+
     
     <button id="theme-switcher" class="menu-btn" aria-label="Theme switcher">
       <div id="moon">
@@ -235,8 +340,11 @@ Archlinux adalah sebuah distro linux (legendaris) yang terkenal dengan komunitas
 
 
 
+
+
+
 <ul class="breadcrumbs">
-  <li><a href="http://localhost:1313/">
+  <li><a href="//localhost:1313/">
 
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="currentColor" d="M575.8 255.5c0 18-15 32.1-32 32.1l-32 0 .7 160.2c0 2.7-.2 5.4-.5 8.1l0 16.2c0 22.1-17.9 40-40 40l-16 0c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1L416 512l-24 0c-22.1 0-40-17.9-40-40l0-24 0-64c0-17.7-14.3-32-32-32l-64 0c-17.7 0-32 14.3-32 32l0 64 0 24c0 22.1-17.9 40-40 40l-24 0-31.9 0c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2l-16 0c-22.1 0-40-17.9-40-40l0-112c0-.9 0-1.9 .1-2.8l0-69.7-32 0c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z"/></svg>
 
@@ -245,7 +353,7 @@ Archlinux adalah sebuah distro linux (legendaris) yang terkenal dengan komunitas
   
     
     
-      <li><a href="http://localhost:1313/tech/">Teches</a></li>
+      <li><a href="//localhost:1313/tech/">Teches</a></li>
     
     
   
@@ -399,23 +507,135 @@ konfigurasinya di Virtualbox (bagi kalian yang belum tau), bisa menyimak tulisan
   
 </h2>
 <p>Saat pertama kali mulai, kita akan melihat tampilan berikut:
-<img loading="lazy" src="/archinstall/ss1.png" alt="ss1"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Kita boleh menekan Enter pada pilihan yang pertama, <strong>&ldquo;Arch Linux Install medium (x86_64, BIOS)&rdquo;</strong> atau membiarkannya saja juga tidak mengapa.</p>
 <p>Archlinux sudah siap diinstall ketika kita sudah masuk ke mode berikut:
-<img loading="lazy" src="/archinstall/ss2.png" alt="ss2"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Untuk memastikan kita sudah terhubung ke internet, kita bisa mengetikkan perintah</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ip a
 </span></span></code></pre></div><p>atau mencoba ping ke Google</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ping google.com
-</span></span></code></pre></div><p><img loading="lazy" src="/archinstall/ss3.png" alt="ss3"  />
+</span></span></code></pre></div><p>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Jika <em>ip address</em>-nya sudah muncul atau ping ke google berjalan dengan lancar, itu tandanya kita siap untuk menginstall Archlinux.</p>
 <p>Untuk mulai menjalankan <em>script</em>, kita cukup mengetikkan perintah</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>archinstall
 </span></span></code></pre></div><p>Tunggu beberapa saat hingga muncul tampilan berikut
-<img loading="lazy" src="/archinstall/ss4.png" alt="ss4"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Sekarang, kita perlu men-<em>setting</em> beberapa hal&hellip;</p>
 
@@ -432,7 +652,35 @@ konfigurasinya di Virtualbox (bagi kalian yang belum tau), bisa menyimak tulisan
 </h3>
 <p>Mirrors sederhananya adalah server repository Archlinux yang ada di seluruh dunia. Tentu, kita harus memilih server repo yang terdekat (yang ada di Indonesia) supaya nanti proses install
 <em>package</em> atau proses <em>update software</em>-nya dapat berjalan lebih cepat.</p>
-<p><img loading="lazy" src="/archinstall/mirror.gif" alt="gif1"  />
+<p>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <ul>
 <li>Silakan pilih bagian *<em>Mirrors</em>, untuk mengarahkan bisa menggunakan <em><strong>arrow keys</strong></em> di keyboard.</li>
@@ -453,7 +701,35 @@ konfigurasinya di Virtualbox (bagi kalian yang belum tau), bisa menyimak tulisan
   
 </h3>
 <p>Disk configuration adalah opsi untuk mengkonfigurasi partisi hardisk kita.</p>
-<p><img loading="lazy" src="/archinstall/disk.gif" alt="gif2"  />
+<p>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <ul>
 <li>Silakan pilih bagian <strong>Disk Configuration</strong></li>
@@ -475,7 +751,35 @@ konfigurasinya di Virtualbox (bagi kalian yang belum tau), bisa menyimak tulisan
 </h3>
 <p>Hostname adalah nama dari komputer yang &ldquo;meng-<em>hosting</em>&rdquo; Archlinux kita. Kita bisa membiarkannya default dengan nama &ldquo;archlinux&rdquo; atau boleh juga diganti sesuai dengan selera kita.</p>
 <p>Saya akan menggantinya ke <strong>castle</strong>.</p>
-<p><img loading="lazy" src="/archinstall/hostname.gif" alt="gif3"  />
+<p>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <ul>
 <li>Silakan pilih bagian <strong>Hostname</strong></li>
@@ -495,7 +799,35 @@ konfigurasinya di Virtualbox (bagi kalian yang belum tau), bisa menyimak tulisan
 </h3>
 <p>Root Password adalah bagian untuk memberikan password kepada user <strong>root</strong> (atau kalau di Windows adalah user <strong>Administrator</strong>). User root adalah user dengan <em>privilege</em> yang paling tinggi
 dalam hirarki user di linux. Jadi, saya sarankan kalian nanti akan menginputkan password yang tidak mudah dibobol.</p>
-<p><img loading="lazy" src="/archinstall/rootpwd.gif" alt="gif4"  />
+<p>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <ul>
 <li>Silakan pilih <strong>Root Password</strong></li>
@@ -515,7 +847,35 @@ dalam hirarki user di linux. Jadi, saya sarankan kalian nanti akan menginputkan 
   
 </h3>
 <p>Kita akan memasukkan akun user normal kita di bagian User Account ini, berikut juga password akunnya tentu saja.</p>
-<p><img loading="lazy" src="/archinstall/useraccount.gif" alt="gif5"  />
+<p>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <ul>
 <li>Silakan pilih <strong>User Account</strong></li>
@@ -540,7 +900,35 @@ dalam hirarki user di linux. Jadi, saya sarankan kalian nanti akan menginputkan 
 </h3>
 <p>Profile adalah bagian untuk kita mengkonfigurasi tipe Archlinux yang akan kita gunakan. Apakah Archlinux kita akan berjalan sebagai Desktop, Server, atau lainnya? Tapi, di sini, saya
 akan menginstall Archlinux sebagai Deskop dengan DE (<em>Desktop Environment</em>) KDE Plasma.</p>
-<p><img loading="lazy" src="/archinstall/profile.gif" alt="gif6"  />
+<p>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <ul>
 <li>Pilih <strong>Profile</strong> -&gt; <strong>Type</strong> -&gt; <strong>Desktop</strong></li>
@@ -559,7 +947,35 @@ akan menginstall Archlinux sebagai Deskop dengan DE (<em>Desktop Environment</em
   
 </h3>
 <p>Kita selanjutnya akan memilih audio server pada bagian Audio ini.</p>
-<p><img loading="lazy" src="/archinstall/audio.gif" alt="gif7"  />
+<p>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <ul>
 <li>Pilih <strong>Audio</strong></li>
@@ -579,7 +995,35 @@ akan menginstall Archlinux sebagai Deskop dengan DE (<em>Desktop Environment</em
 </h3>
 <p>Additional packages adalah paket-paket tambahan yang perlu kita install karena tidak terinstall secara default. Biasanya, firefox adalah salah satu dari paket yang tidak terinstall
 secara default pada <em>script</em> archinstall ini. Jadi, kita akan menginstallnya dengan menambahkannya pada bagian ini.</p>
-<p><img loading="lazy" src="/archinstall/additionalpackages.gif" alt="gif8"  />
+<p>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <ul>
 <li>Pilih <strong>Additional Packages</strong></li>
@@ -599,21 +1043,161 @@ secara default pada <em>script</em> archinstall ini. Jadi, kita akan menginstall
   
 </h3>
 <p>Network configuration adalah opsi untuk mengkonfigurasi jaringan internet yang akan digunakan oleh OS Archlinux kita.</p>
-<p><img loading="lazy" src="/archinstall/networkconfig.gif" alt="gif9"  />
+<p>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Setelah selesai mengisi semua opsi install-nya, berikutnya kita harus memilih <strong>Install</strong> untuk memulai instalasi&hellip;</p>
-<p><img loading="lazy" src="/archinstall/install.gif" alt="gif10"  />
+<p>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Nanti ada pesan permintaan menekan Enter untuk melanjutkan proses instalasi, kita tinggal menekan Enter dan proses instalasi pun berjalan&hellip;</p>
 <p>Silakan mandi dulu, kemudian seduh kopi, goreng telur, dan cuci baju, karena proses ini bisa dibilang proses yang memakan waktu (bergantung dari kecepatan internet kalian)&hellip;</p>
 <p>Tunggu proses instalasinya berjalan hingga muncul tampilan berikut
-<img loading="lazy" src="/archinstall/ss5.png" alt="ss5"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p><strong>Installation completed without any errors. You may now reboot.</strong> Artinya proses instalasi berjalan dengan baik tanpa ada error dan kita bisa me-<em>restart</em> laptop kita.</p>
-<p><img loading="lazy" src="/archinstall/ss6.png" alt="ss6"  />
+<p>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Kita berhasil masuk ke display manager untuk login, dan&hellip;</p>
-<p><img loading="lazy" src="/archinstall/ss7.png" alt="ss7"  />
+<p>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Ini dia desktop KDE dari Archlinux kita&hellip;</p>
 <p>Selamat!</p>

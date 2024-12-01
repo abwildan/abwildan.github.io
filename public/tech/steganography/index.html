@@ -17,7 +17,7 @@
   <meta name="description" content="A Hugo Theme" />
   
   <meta name="keywords" content="steganography, hacking, cyber security, " />
-  <link rel="canonical" href="http://localhost:1313/tech/steganography/" />
+  <link rel="canonical" href="//localhost:1313/tech/steganography/" />
 
   
 
@@ -42,6 +42,10 @@
 
 
   
+
+
+
+  
     
         <script src="/js/theme.js"></script>
       
@@ -51,6 +55,13 @@
   
     
         <script src="/js/codecopy.js"></script>
+      
+    
+  
+
+  
+    
+        <script src="/js/search.js"></script>
       
     
   
@@ -65,11 +76,12 @@
     <link rel="manifest" href="/site.webmanifest" />
   
 
-  <meta property="og:url" content="http://localhost:1313/tech/steganography/">
+  <meta property="og:url" content="//localhost:1313/tech/steganography/">
   <meta property="og:site_name" content="Wildan&#39;s Workspace">
   <meta property="og:title" content="Steganography - Hiding secret(s) Inside A File">
   <meta property="og:description" content="Steganography is the practice of representing information within another message or physical object.1
-Pengertian &amp; Sejarah Steganography Pengertian steganography [selanjutnya saya singkat dengan stego] memang sesederhana “ilmu dan seni menyembunyikan pesan atau informasi rahasia di dalam pesan lain”.">
+Pengertian &amp; Sejarah Steganography Pengertian steganography [selanjutnya saya singkat dengan stego] memang sesederhana “ilmu dan seni menyembunyikan pesan atau informasi rahasia di dalam pesan lain”.
+Tapi sebetulnya, jauh sebelum komputer ditemukan, proses stego ini sudah dilakukan sejak zaman Yunani Kuno. Sebuah kisah dari penguasa Yunani saat itu, Herodotus pada tahun 440 BC (re: Before Christ / Sebelum Masehi) yang terdapat dalam buku Histories of Herodotus, menceritakan tentang bagaimana kepala budak digunakan sebagai media steganography.">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="tech">
@@ -83,7 +95,8 @@ Pengertian &amp; Sejarah Steganography Pengertian steganography [selanjutnya say
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Steganography - Hiding secret(s) Inside A File">
   <meta name="twitter:description" content="Steganography is the practice of representing information within another message or physical object.1
-Pengertian &amp; Sejarah Steganography Pengertian steganography [selanjutnya saya singkat dengan stego] memang sesederhana “ilmu dan seni menyembunyikan pesan atau informasi rahasia di dalam pesan lain”.">
+Pengertian &amp; Sejarah Steganography Pengertian steganography [selanjutnya saya singkat dengan stego] memang sesederhana “ilmu dan seni menyembunyikan pesan atau informasi rahasia di dalam pesan lain”.
+Tapi sebetulnya, jauh sebelum komputer ditemukan, proses stego ini sudah dilakukan sejak zaman Yunani Kuno. Sebuah kisah dari penguasa Yunani saat itu, Herodotus pada tahun 440 BC (re: Before Christ / Sebelum Masehi) yang terdapat dalam buku Histories of Herodotus, menceritakan tentang bagaimana kepala budak digunakan sebagai media steganography.">
 
 
   
@@ -94,6 +107,19 @@ Pengertian &amp; Sejarah Steganography Pengertian steganography [selanjutnya say
 
 
 
+
+  
+  
+    <script
+      defer
+      type="text/javascript"
+      src="/lib/fuse/fuse.min.1ab2783fdcab6ba75fb69e4ed1e68a14a4b8721d45627d7147f5421d020c24ed4b36a70a8639009001131d8a04f3515f87706308931603f0194983f9db58f114.js"
+      integrity="sha512-GrJ4P9yra6dftp5O0eaKFKS4ch1FYn1xR/VCHQIMJO1LNqcKhjkAkAETHYoE81Ffh3BjCJMWA/AZSYP521jxFA=="
+    ></script>
+  
+
+
+
   
   
 
@@ -105,10 +131,7 @@ Pengertian &amp; Sejarah Steganography Pengertian steganography [selanjutnya say
   
 
   
-  
-  
-    <link rel="preload" href="http://localhost:1313/fonts/Ubuntu-Regular.woff2" as="font" type="font/woff2" crossorigin>
-  
+  <link rel="preload" href="//localhost:1313/fonts/Ubuntu-Regular.woff2" as="font" type="font/woff2" crossorigin>
 
   
 
@@ -132,7 +155,43 @@ Pengertian &amp; Sejarah Steganography Pengertian steganography [selanjutnya say
       <header>
     
     <a class="title" href="/">
-      <img alt="Site Logo" src="/tsukasa.png" />
+      
+      
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+    <img loading="lazy" 
+    
+      
+        src="/tsukasa_hu17823179094668833204.png"
+      
+    
+      alt="Site Logo" />
+  
+
+
+
+
     </a>
     
     <div class="header-cntr">
@@ -158,6 +217,52 @@ Pengertian &amp; Sejarah Steganography Pengertian steganography [selanjutnya say
     </ul>
   </nav>
     <div class="side-menu">
+    
+<button id="search-open" class="menu-btn" aria-label="Search button">
+  
+
+    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+
+
+
+</button>
+
+<div id="search-container" data-url="//localhost:1313/">
+  <div class="search">
+    <div class="panel">
+      <form>
+        
+
+    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+
+
+
+        <input type="search" id="search-query" placeholder="Search" tabindex=0 autocomplete="off"/>
+        <button id="search-close" title="Cancel (ESC)">
+          
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+
+
+
+        </button>
+      </form>
+    </div>
+    <ul id="search-results">
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </ul>
+  </div>
+</div>
+
     
     <button id="theme-switcher" class="menu-btn" aria-label="Theme switcher">
       <div id="moon">
@@ -235,8 +340,11 @@ Pengertian &amp; Sejarah Steganography Pengertian steganography [selanjutnya say
 
 
 
+
+
+
 <ul class="breadcrumbs">
-  <li><a href="http://localhost:1313/">
+  <li><a href="//localhost:1313/">
 
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="currentColor" d="M575.8 255.5c0 18-15 32.1-32 32.1l-32 0 .7 160.2c0 2.7-.2 5.4-.5 8.1l0 16.2c0 22.1-17.9 40-40 40l-16 0c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1L416 512l-24 0c-22.1 0-40-17.9-40-40l0-24 0-64c0-17.7-14.3-32-32-32l-64 0c-17.7 0-32 14.3-32 32l0 64 0 24c0 22.1-17.9 40-40 40l-24 0-31.9 0c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2l-16 0c-22.1 0-40-17.9-40-40l0-112c0-.9 0-1.9 .1-2.8l0-69.7-32 0c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z"/></svg>
 
@@ -245,7 +353,7 @@ Pengertian &amp; Sejarah Steganography Pengertian steganography [selanjutnya say
   
     
     
-      <li><a href="http://localhost:1313/tech/">Teches</a></li>
+      <li><a href="//localhost:1313/tech/">Teches</a></li>
     
     
   
@@ -374,13 +482,97 @@ Pengertian &amp; Sejarah Steganography Pengertian steganography [selanjutnya say
 <p>Pengertian <em>steganography</em> [selanjutnya saya singkat dengan <strong>stego</strong>] memang sesederhana &ldquo;ilmu dan seni menyembunyikan pesan atau informasi rahasia di dalam pesan lain&rdquo;.</p>
 <p>Tapi sebetulnya, jauh sebelum komputer ditemukan, proses stego ini sudah dilakukan sejak zaman Yunani Kuno. Sebuah kisah dari penguasa Yunani saat itu, Herodotus pada tahun 440 BC (<strong>re</strong>: <em>Before Christ / Sebelum Masehi</em>) yang terdapat dalam buku <em><strong>Histories of Herodotus</strong></em>, menceritakan tentang bagaimana kepala budak digunakan sebagai media <em>steganography</em>. Caranya, kepala budak digundul, kemudian ditulisi pesan, selanjutnya rambut budak tersebut dibiarkan tumbuh untuk kemudian dikirim. Nanti, penerima budak tersebut akan menggunduli kembali kepala budak tersebut agar pesannya dapat terbaca.<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
 <p>Sekarang, dengan keberadaan komputer, perkembangan stego tentu sudah jauh berkembang. Salah satu teknik yang paling banyak digunakan yaitu <strong>LSB</strong> (<em>Least Significant Bit</em>) dengan menyisipkan bit ke dalam file digital (teks / gambar / audio / video). Melalui teknik ini, informasi rahasia disisipkan ke dalam file digital dengan cara mengganti bit-bit paling tidak signifikan dalam file digital dengan bit-bit pesan rahasia. Bit-bit yang diganti tidak akan mempengaruhi kualitas file digital dan tidak akan terlihat oleh mata manusia.<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup> Kurang lebih, berikut adalah ilustrasi dari proses LSB:<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup></p>
-<p><img loading="lazy" src="/stego/ss1.png" alt="ss1"  />
+<p>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Contohnya seperti gambar berikut ini:
-<img loading="lazy" src="/stego/ss2.png" alt="ss2"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Salah satu dari dua gambar apel di atas sudah saya sisipi sebuah file bernama &ldquo;secrets.txt&rdquo; dengan isi file <em>This is an Apple</em>.
-<img loading="lazy" src="/stego/ss3.png" alt="ss3"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Pertanyaannya&hellip;</p>
 <ul>
@@ -401,14 +593,70 @@ Pengertian &amp; Sejarah Steganography Pengertian steganography [selanjutnya say
   
 </h1>
 <p>Stego sebagai teknik dapat digunakan oleh pakar siber untuk menyembunyikan pesan atau informasi rahasia. Sebelumnya, kita sudah melihat, stego sudah digunakan sejak zaman Yunani Kuno untuk mengirim pesan. Di zaman modern, ketika Perang Dunia 1, Kedutaan Jerman di Amerika (Washington D.C.) mengirimkan pesan ke kantor pusat di Berlin via Telegram (bukan telegram aplikasi seperti sekarang tentu saja). Pesan yang dikirim adalah seperti ini<sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup>:
-<img loading="lazy" src="/stego/ss4.png" alt="ss4"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Membaca huruf pertama dari setiap kata pada pesan pertama atau huruf kedua dari setiap kata pada pesan kedua akan menghasilkan informasi tersembunyi berikut ini:</p>
 <p><em>Pershing Sails From N.Y. June 1</em></p>
 <p>Namun, stego juga dapat disalahgunakan oleh para <em>hacker</em> untuk menyerang target serangannya. Misalnya, pada tahun 2022, sebuah perusahaan keamanan siber <a href="https://www.proofpoint.com/us" target="_blank">Proofpoint</a>
  merilis laporan mengenai aktivitas mencurigakan (<em>malicious activity</em>) yang membahayakan Perancis. Penyerang menggunakan teknis stego untuk menyembunyikan <em>malicious script</em> pada sebuah gambar di dalam dokumen MS. Word yang menyamar sebagai informasi yang terkait dengan aturan <a href="https://learn.microsoft.com/en-us/compliance/regulatory/gdpr" target="_blank">GDPR</a>
 . Padahal, <em>script</em> tersebut ternyata men-<em>trigger</em> atau memicu pengunduhan <em>backdoor</em> yang langsung menginstall sendiri ke perangkat korban<sup id="fnref:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup>.
-<img loading="lazy" src="/stego/ss5.png" alt="ss5"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 
 <h1 id="jenis---jenis-steganography">
@@ -436,7 +684,35 @@ Pengertian &amp; Sejarah Steganography Pengertian steganography [selanjutnya say
   
 </h2>
 <p>Image stego berarti menyisipkan pesan rahasia ke dalam file gambar. Teknik yang populer digunakan adalah LSB (<em>Least Significant Bit</em>) seperti yang sudah dijelaskan sebelumnya. Jadi, secara teknis, kita hanya perlu mengganti bit-bit yang paling tidak signifikan dalam sebuah file gmabar untuk diganti dengan bit informasi yang ingin kita sisipkan<sup id="fnref:8"><a href="#fn:8" class="footnote-ref" role="doc-noteref">8</a></sup>.
-<img loading="lazy" src="/stego/ss6.png" alt="ss6"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Beberapa <em>tools</em> yang dapat kita gunakan untuk melakukan <em>image</em> stego adalah sebagai berikut:</p>
 <ol>
@@ -462,7 +738,35 @@ Pengertian &amp; Sejarah Steganography Pengertian steganography [selanjutnya say
   
 </h2>
 <p>Audio stego berarti menyisipkan pesan rahasia ke dalam file audio. Prinsip teknisnya sama dengan <em>image</em> stego, yaitu menggunakan metode LSB dengan mengganti bit paling tidak signifikan dalam audio file untuk diganti dengan bit pesan atau informasi rahasia yang ingin disisipkan. Namun, jika ditelaah lebih dalam, sebetulnya ada beberapa teknik audio stego yang dapat dilakukan<sup id="fnref:9"><a href="#fn:9" class="footnote-ref" role="doc-noteref">9</a></sup>.
-<img loading="lazy" src="/stego/ss7.png" alt="ss7"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Beberapa <em>tools</em> yang dapat kita gunakan untuk melakukan audio stego adalah sebagai berikut:</p>
 <ol>
@@ -492,7 +796,35 @@ Pengertian &amp; Sejarah Steganography Pengertian steganography [selanjutnya say
   
 </h2>
 <p>Video stego berarti menyisipkan pesan rahasia ke dalam file video. Prinsipnya tetap sama seperti image stego, namun video stego memungkinkan kita untuk menyimpan lebih banyak data ke dalam file video. Karena, setiap frame adalah sebuah gambar sehingga kita bisa menyisipkan banyak data ke dalam file video tersebut<sup id="fnref:10"><a href="#fn:10" class="footnote-ref" role="doc-noteref">10</a></sup>.
-<img loading="lazy" src="/stego/ss8.png" alt="ss8"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p><em>Tools</em> yang dapat digunakan untuk video stego adalah sebagai berikut:</p>
 <ol>
@@ -514,7 +846,35 @@ Pengertian &amp; Sejarah Steganography Pengertian steganography [selanjutnya say
   
 </h2>
 <p>Teks stego adalah stego paling tua yang pernah ada. Salah satu contoh penerapan teks stego adalah dengan metode substitusi huruf. Pesan dapat disembunyikan di dalam teks melalui ukuran huruf, spasi, atau karakteristik lain yang sulit dilihat sehingga hanya orang yang tahu yang dapat membacanya<sup id="fnref:11"><a href="#fn:11" class="footnote-ref" role="doc-noteref">11</a></sup>.
-<img loading="lazy" src="/stego/ss9.png" alt="ss9"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 
 <h1 id="steganography-in-hacker-movie">
@@ -701,25 +1061,165 @@ Pengertian &amp; Sejarah Steganography Pengertian steganography [selanjutnya say
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>md5sum exam1.jpeg
 </span></span><span style="display:flex;"><span>ll exam1.jpeg
 </span></span><span style="display:flex;"><span>file exam1.jpeg
-</span></span></code></pre></div><p><img loading="lazy" src="/stego/ss10.png" alt="ss10"  />
+</span></span></code></pre></div><p>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Sebuah file JPEG biasa, kalau kita buka dengan image viewer:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ristretto exam1.jpeg
-</span></span></code></pre></div><p><img loading="lazy" src="/stego/ss11.png" alt="ss11"  />
+</span></span></code></pre></div><p>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Hanya sebuah gambar pohon dan pemandangan langit berukuran 213xx160 px.</p>
 <p>Sekarang, kita akan mencari <em><strong>key</strong></em> yang disembunyikan pada file exam1.jpeg ini. Berhubung file-nya adalah file gambar (JPEG), jadi saya berasumsi kita bisa mencari <em><strong>key</strong></em> tersebut dengan steghide:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>steghide extract -sf exam1.jpeg
-</span></span></code></pre></div><p><img loading="lazy" src="/stego/ss12.png" alt="ss12"  />
+</span></span></code></pre></div><p>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Ternyata minta parafrase. Kalau dikosongkan, kita tidak akan mendapatkan file <em><strong>key</strong></em> yang dimaksud tadi. Jadi, sebelum bisa mendapatkan <em><strong>key</strong></em>-nya, kita harus tau terlebih dahulu parafrase untuk extract file berisi <em><strong>key</strong></em> tersebut. Di sini, saya akan menggunakan exiftool:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>exiftool exam1.jpeg
-</span></span></code></pre></div><p><img loading="lazy" src="/stego/ss13.png" alt="ss13"  />
+</span></span></code></pre></div><p>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Berdasarkan <em>screenshot</em> di atas, kita bisa lihat, exiftool memberikan kita info penting tentang parafrasenya. Pada bagian &ldquo;Document Name&rdquo;, di sana tertulis password=admin. Artinya, kita bisa menebak, &ldquo;admin&rdquo; adalah parafrase untuk mendapatkan <em><strong>key</strong></em> tadi. Kita coba:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span> steghide extract -sf exam1.jpeg
 </span></span><span style="display:flex;"><span> admin
-</span></span></code></pre></div><p><img loading="lazy" src="/stego/ss14.png" alt="ss14"  />
+</span></span></code></pre></div><p>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Berhasil!!</p>
 <p>Berarti Key File1: <strong>superkeykey</strong></p>
@@ -744,31 +1244,227 @@ Pengertian &amp; Sejarah Steganography Pengertian steganography [selanjutnya say
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>md5sum exam1.wav
 </span></span><span style="display:flex;"><span>ll exam2.wav
 </span></span><span style="display:flex;"><span>file exam1.wav
-</span></span></code></pre></div><p><img loading="lazy" src="/stego/ss15.png" alt="ss15"  />
+</span></span></code></pre></div><p>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Sebuah file WAVE audio. Kalau kita buka filenya dengan mpv misalnya:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>mpv exam2.wav
-</span></span></code></pre></div><p><img loading="lazy" src="/stego/ss16.png" alt="ss16"  />
+</span></span></code></pre></div><p>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Karena ini file audio, kita bisa gunakan Sonic Visualiser untuk mencari <em><strong>key</strong></em>-nya.
-<img loading="lazy" src="/stego/ss17.png" alt="ss17"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Tidak terlihat ada apa-apa bukan? Karena biasanya informasi rahasianya disimpan di spektogram. Jadi, kita buka spektogramnya di <strong>Layer</strong> -&gt; <strong>Add Spectogram</strong>.
-<img loading="lazy" src="/stego/ss18.png" alt="ss18"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Terlihat informasi rahasia yang disembunyikan adalah sebuah url berikut: <a href="https://imgur.com/KTrtNI5" target="_blank">https://imgur.com/KTrtNI5</a>
 . Link tersebut mengarahkan kita ke suatu file gambar pensil yang harus kita unduh, KTrtNI5.png, sebagai berikut:
-<img loading="lazy" src="/stego/ss19.png" alt="ss19"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Cek hash dan jenis filenya:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>md5sum exam1.wav
 </span></span><span style="display:flex;"><span>ll exam2.wav
 </span></span><span style="display:flex;"><span>file exam1.wav
-</span></span></code></pre></div><p><img loading="lazy" src="/stego/ss20.png" alt="ss20"  />
+</span></span></code></pre></div><p>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Karena file-nya adalah PNG, saya akan gunakan zsteg untuk mendapatkan <em><strong>key</strong></em>-nya (karena kita masih belum dapat dari tadi&hellip;):</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>zsteg KTrtNI5.png
-</span></span></code></pre></div><p><img loading="lazy" src="/stego/ss21.png" alt="ss21"  />
+</span></span></code></pre></div><p>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Berhasil! Kita mendapatkan <em><strong>key</strong></em>-nya!!!</p>
 <p>Berarti Key File2: <strong>fatality</strong></p>
@@ -788,29 +1484,225 @@ Pengertian &amp; Sejarah Steganography Pengertian steganography [selanjutnya say
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>md5sum qrcode.png
 </span></span><span style="display:flex;"><span>ll qrcode.png
 </span></span><span style="display:flex;"><span>file qrcode.png
-</span></span></code></pre></div><p><img loading="lazy" src="/stego/ss22.png" alt="ss22"  />
+</span></span></code></pre></div><p>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Kalau dibuka:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ristretto qrcode.png
-</span></span></code></pre></div><p><img loading="lazy" src="/stego/ss23.png" alt="ss23"  />
+</span></span></code></pre></div><p>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>&hellip; adalah sebuah QR Code biasa. Tapi, kita tidak bisa men-<em>scan</em> QR Code tersebut karena warnanya yang &ldquo;tidak bagus&rdquo;. Jadi, kita perlu mencari versi warna yang paling tepat dari QR Code ini supaya bisa di-<em>scan</em>. Saya akan gunakan stegoveritas:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>stegoveritas qrcode.png
-</span></span></code></pre></div><p><img loading="lazy" src="/stego/gif1.gif" alt="gif1"  />
+</span></span></code></pre></div><p>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Setelah prosesnya selesai, kita mendapat satu folder / direktori baru, &ldquo;results&rdquo;.
-<img loading="lazy" src="/stego/ss24.png" alt="ss24"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Di dalamnya, terdapat banyak file QR Code dengan warna baru hasil dari ekstraksi oleh stegoveritas tadi&hellip;
-<img loading="lazy" src="/stego/ss25.png" alt="ss25"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Kita hanya perlu mencari file dengan gambar QR Code yang paling jelas, yaitu warna hitam putih dan tentu saja bisa di-<em>scan</em>.</p>
 <p>Setelah mencoba satu-satu, saya akhirnya mendapatkan saya file QR Code original, yaitu file dengan nama <strong>qrcode.png_Blue_2.png</strong>:
-<img loading="lazy" src="/stego/ss26.png" alt="ss26"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Scan, atau kalau tidak bisa scan, kita bisa menggunakan bantuan website <a href="https://webqr.com" target="_blank">Web QR</a>
 :
-<img loading="lazy" src="/stego/ss27.png" alt="ss27"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>EAASYY!!</p>
 <p>Berarti Key File3: <strong>killshot</strong></p>

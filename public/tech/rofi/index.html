@@ -17,7 +17,7 @@
   <meta name="description" content="A Hugo Theme" />
   
   <meta name="keywords" content="rofi, linux, " />
-  <link rel="canonical" href="http://localhost:1313/tech/rofi/" />
+  <link rel="canonical" href="//localhost:1313/tech/rofi/" />
 
   
 
@@ -42,6 +42,10 @@
 
 
   
+
+
+
+  
     
         <script src="/js/theme.js"></script>
       
@@ -51,6 +55,13 @@
   
     
         <script src="/js/codecopy.js"></script>
+      
+    
+  
+
+  
+    
+        <script src="/js/search.js"></script>
       
     
   
@@ -65,11 +76,14 @@
     <link rel="manifest" href="/site.webmanifest" />
   
 
-  <meta property="og:url" content="http://localhost:1313/tech/rofi/">
+  <meta property="og:url" content="//localhost:1313/tech/rofi/">
   <meta property="og:site_name" content="Wildan&#39;s Workspace">
   <meta property="og:title" content="Rofi - Beautiful & Modern App Launcher">
   <meta property="og:description" content="What is Rofi?
-Kenalan dengan Rofi Teman kalian mungkin ada yang namanya Rofi. Tapi, tentu saja artikel ini tidak sedang menggosipkan Rofi sebagai manusia, tapi Rofi sebagai sebuah program, xixi.">
+Kenalan dengan Rofi Teman kalian mungkin ada yang namanya Rofi. Tapi, tentu saja artikel ini tidak sedang menggosipkan Rofi sebagai manusia, tapi Rofi sebagai sebuah program, xixi.
+Merujuk pada definisi official-nya, secara singkat, Rofi yang dimaksud dalam artikel ini adalah
+window switcher, run dialog and dmenu replacement rofi can act as an application launcher, window switcher, ssh launcher and dmenu replacement.
+Atau definisi dengan versi yang lebih komplit:">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="tech">
@@ -82,7 +96,10 @@ Kenalan dengan Rofi Teman kalian mungkin ada yang namanya Rofi. Tapi, tentu saja
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Rofi - Beautiful & Modern App Launcher">
   <meta name="twitter:description" content="What is Rofi?
-Kenalan dengan Rofi Teman kalian mungkin ada yang namanya Rofi. Tapi, tentu saja artikel ini tidak sedang menggosipkan Rofi sebagai manusia, tapi Rofi sebagai sebuah program, xixi.">
+Kenalan dengan Rofi Teman kalian mungkin ada yang namanya Rofi. Tapi, tentu saja artikel ini tidak sedang menggosipkan Rofi sebagai manusia, tapi Rofi sebagai sebuah program, xixi.
+Merujuk pada definisi official-nya, secara singkat, Rofi yang dimaksud dalam artikel ini adalah
+window switcher, run dialog and dmenu replacement rofi can act as an application launcher, window switcher, ssh launcher and dmenu replacement.
+Atau definisi dengan versi yang lebih komplit:">
 
 
   
@@ -93,6 +110,19 @@ Kenalan dengan Rofi Teman kalian mungkin ada yang namanya Rofi. Tapi, tentu saja
 
 
 
+
+  
+  
+    <script
+      defer
+      type="text/javascript"
+      src="/lib/fuse/fuse.min.1ab2783fdcab6ba75fb69e4ed1e68a14a4b8721d45627d7147f5421d020c24ed4b36a70a8639009001131d8a04f3515f87706308931603f0194983f9db58f114.js"
+      integrity="sha512-GrJ4P9yra6dftp5O0eaKFKS4ch1FYn1xR/VCHQIMJO1LNqcKhjkAkAETHYoE81Ffh3BjCJMWA/AZSYP521jxFA=="
+    ></script>
+  
+
+
+
   
   
 
@@ -104,10 +134,7 @@ Kenalan dengan Rofi Teman kalian mungkin ada yang namanya Rofi. Tapi, tentu saja
   
 
   
-  
-  
-    <link rel="preload" href="http://localhost:1313/fonts/Ubuntu-Regular.woff2" as="font" type="font/woff2" crossorigin>
-  
+  <link rel="preload" href="//localhost:1313/fonts/Ubuntu-Regular.woff2" as="font" type="font/woff2" crossorigin>
 
   
 
@@ -131,7 +158,43 @@ Kenalan dengan Rofi Teman kalian mungkin ada yang namanya Rofi. Tapi, tentu saja
       <header>
     
     <a class="title" href="/">
-      <img alt="Site Logo" src="/tsukasa.png" />
+      
+      
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+    <img loading="lazy" 
+    
+      
+        src="/tsukasa_hu17823179094668833204.png"
+      
+    
+      alt="Site Logo" />
+  
+
+
+
+
     </a>
     
     <div class="header-cntr">
@@ -157,6 +220,52 @@ Kenalan dengan Rofi Teman kalian mungkin ada yang namanya Rofi. Tapi, tentu saja
     </ul>
   </nav>
     <div class="side-menu">
+    
+<button id="search-open" class="menu-btn" aria-label="Search button">
+  
+
+    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+
+
+
+</button>
+
+<div id="search-container" data-url="//localhost:1313/">
+  <div class="search">
+    <div class="panel">
+      <form>
+        
+
+    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+
+
+
+        <input type="search" id="search-query" placeholder="Search" tabindex=0 autocomplete="off"/>
+        <button id="search-close" title="Cancel (ESC)">
+          
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+
+
+
+        </button>
+      </form>
+    </div>
+    <ul id="search-results">
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </ul>
+  </div>
+</div>
+
     
     <button id="theme-switcher" class="menu-btn" aria-label="Theme switcher">
       <div id="moon">
@@ -234,8 +343,11 @@ Kenalan dengan Rofi Teman kalian mungkin ada yang namanya Rofi. Tapi, tentu saja
 
 
 
+
+
+
 <ul class="breadcrumbs">
-  <li><a href="http://localhost:1313/">
+  <li><a href="//localhost:1313/">
 
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="currentColor" d="M575.8 255.5c0 18-15 32.1-32 32.1l-32 0 .7 160.2c0 2.7-.2 5.4-.5 8.1l0 16.2c0 22.1-17.9 40-40 40l-16 0c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1L416 512l-24 0c-22.1 0-40-17.9-40-40l0-24 0-64c0-17.7-14.3-32-32-32l-64 0c-17.7 0-32 14.3-32 32l0 64 0 24c0 22.1-17.9 40-40 40l-24 0-31.9 0c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2l-16 0c-22.1 0-40-17.9-40-40l0-112c0-.9 0-1.9 .1-2.8l0-69.7-32 0c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z"/></svg>
 
@@ -244,7 +356,7 @@ Kenalan dengan Rofi Teman kalian mungkin ada yang namanya Rofi. Tapi, tentu saja
   
     
     
-      <li><a href="http://localhost:1313/tech/">Teches</a></li>
+      <li><a href="//localhost:1313/tech/">Teches</a></li>
     
     
   
@@ -360,13 +472,69 @@ Kenalan dengan Rofi Teman kalian mungkin ada yang namanya Rofi. Tapi, tentu saja
 rofi can act as an application launcher, window switcher, ssh launcher and
 dmenu replacement.</em></p>
 </blockquote>
-<p><img loading="lazy" src="/rofi/ss1.png" alt="ss1"  />
+<p>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Atau definisi dengan versi yang lebih komplit:</p>
 <blockquote>
 <p>rofi  is <em>an X11 pop-up window switcher, run dialog, dmenu replacement, and more. It focuses on being fast to use and have minimal distraction. It supports keyboard and  mouse  navigation, type to filter, tokenized search and more.</em></p>
 </blockquote>
-<p><img loading="lazy" src="/rofi/ss2.png" alt="ss2"  />
+<p>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Nah, berdasarkan deskripsi di atas, bisa disimpulkan bahwa Rofi adalah sebuah program di ada di linux (dan sebetulnya bisa juga digunakan di Windows) yang dapat berfungsi sebagai:</p>
 <ol>
@@ -418,12 +586,68 @@ dmenu replacement.</em></p>
 <p>Atau kalian bisa meng-<em>compile source code</em>-nya langsung dari official repo Rofi di github<sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup>.</p>
 <p>Dalam artikel ini, saya akan menggunakan Rofi di <a href="https://abwildan.github.io/post/rice/" target="_blank">Debian (dengan tema Chicago95 / Windows95)</a>
  yang sudah saya install sebelumnya.</p>
-<p><img loading="lazy" src="/rofi/ss3.png" alt="ss3"  />
+<p>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Setelah proses instalasi selesai, kita sudah dapat langsung menggunakan Rofi dengan mengetikkan perintah simpel berikut di terminal:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>rofi
 </span></span></code></pre></div><p>Maka, akan muncul tampilan berikut:
-<img loading="lazy" src="/rofi/ss4.png" alt="ss4"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Tampilan tersebut menunjukkan cara menggunakan atau menampilkan window Rofi, yaitu dengan mengetikkan perintah</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>rofi -show <span style="color:#f92672">{</span>mode<span style="color:#f92672">}</span>
@@ -439,18 +663,130 @@ dmenu replacement.</em></p>
 <li><strong>filebrowser</strong>: sebagai <em>filebrowser</em> :)</li>
 </ul>
 <p>Berikut contoh penggunaan setiap mode-nya:
-<img loading="lazy" src="/rofi/gif1.gif" alt="gif1"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Selain itu, kita juga dapat mengganti tema Rofi. File tema-nya dapat kita temukan di <code>/usr/share/rofi/themes</code>.
-<img loading="lazy" src="/rofi/ss5.png" alt="ss5"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Perintah berikut dapat digunakan untuk mengganti tema Rofi:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>rofi -show <span style="color:#f92672">{</span>mode<span style="color:#f92672">}</span> -theme <span style="color:#f92672">{</span>themes<span style="color:#f92672">}</span>
-</span></span></code></pre></div><p><img loading="lazy" src="/rofi/gif2.gif" alt="gif2"  />
+</span></span></code></pre></div><p>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>File konfigurasinya dapat di-<em>dump</em> dengan perintah</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>rofi -dump-config &gt; config.rasi
-</span></span></code></pre></div><p><img loading="lazy" src="/rofi/ss6.png" alt="ss6"  />
+</span></span></code></pre></div><p>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Selebihnya, kalian dapat mengulik sendiri. Kalau bingung, tinggal buka help atau manualnya saja.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>rofi --help
@@ -471,15 +807,155 @@ dmenu replacement.</em></p>
  yang bisa kalian temukan reponya di <a href="https://github.com/adi1090x/rofi" target="_blank">link Github ini</a>
 .</p>
 <p>Repo Github tersebut menyediakan koleksi tema Rofi yang menurut saya keren-keren. Beberapa diantaranya misalnya:
-<img loading="lazy" src="/rofi/showcase1.png" alt="sc1"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 <br>
-<img loading="lazy" src="/rofi/showcase2.png" alt="sc2"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 <br>
-<img loading="lazy" src="/rofi/showcase3.png" alt="sc3"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 <br>
-<img loading="lazy" src="/rofi/showcase4.png" alt="sc4"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 <br>
-<img loading="lazy" src="/rofi/showcase5.png" alt="sc5"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 
 <h2 id="memasang-tema-rofi">
@@ -499,10 +975,66 @@ dmenu replacement.</em></p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git clone https://github.com/adi1090x/rofi.git
 </span></span><span style="display:flex;"><span>cd rofi
 </span></span><span style="display:flex;"><span>./setup.sh
-</span></span></code></pre></div><p><img loading="lazy" src="/rofi/ss7.png" alt="ss7"  />
+</span></span></code></pre></div><p>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Sekarang, kita punya file konfigurasi Rofi yang baru di <code>/home/$USER/.config/rofi/config.rasi</code>:
-<img loading="lazy" src="/rofi/ss8.png" alt="ss8"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>/**
 </span></span><span style="display:flex;"><span> *
@@ -687,10 +1219,66 @@ dmenu replacement.</em></p>
 </span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
 </span></span></code></pre></div><p>Sebelum mulai mengkonfigurasi temanya, kita perlu memperbaiki <em><strong>sesuatu</strong></em> di file konfigurasinya terlebih dahulu karena menyebabkan Rofi tidak bisa berjalan dengan
 semestina (<em><strong>re</strong>:error</em>).
-<img loading="lazy" src="/rofi/ss9.png" alt="ss9"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Menurut keterangan <em>error</em> di atas, kita perlu mengecek file konfigurasi di line 54&hellip;
-<img loading="lazy" src="/rofi/ss10.png" alt="ss10"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Ada dua perintah di bawah bagian <strong>Fallback Icon</strong>, yaitu <code>run,drun</code>, mungkin itu yang membuat Rofi jadi bingung. So, kita hapus <code>run</code>.</p>
 
@@ -775,46 +1363,382 @@ semestina (<em><strong>re</strong>:error</em>).
 <p><code>theme='style-1'</code></p>
 <p>ke <em>style</em> yang tersedia <strong>Available Styles</strong>. Tidak semua <em>type</em> menyediakan jumlah <em>style</em> yang sama. Kalian bisa melihatnya langsung di setiap direktori <em>type</em>.</p>
 <p>Sebagai contoh, saya akan menggunakan config <strong>style-6</strong> di <strong>type-1</strong>:
-<img loading="lazy" src="/rofi/ss11.png" alt="ss11"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Jalankan <em>script</em> <strong>launcher.sh</strong>-nya&hellip;</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>./launcher.sh
-</span></span></code></pre></div><p><img loading="lazy" src="/rofi/gif3.gif" alt="gif3"  />
+</span></span></code></pre></div><p>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Berhasil!!</p>
 <p>Tapi, kalau dilihat-lihat, icon-icon aplikasi yang muncul belum sesuai dengan tema distro-nya, <em>which is</em> Windows95 a.k.a <strong>Chicago95</strong>. Jadi, kita perlu menyesuaikan icon-nya juga. Gampang, kita tinggal ganti di file config rofi-nya saja.
-<img loading="lazy" src="/rofi/ss12.png" alt="ss12"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Sekarang, icon-nya sudah berubah ke Chicago95 :)
-<img loading="lazy" src="/rofi/gif4.gif" alt="gif4"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Tapi, warna tema-nya masih biru, belum sesuai juga dengan tema distro-nya, Chicago95. Nah, berhubung warna tema yang ada di cover artikel ini sama dengan warna tema Chicago95, yaitu abu-abu, kita akan gunakan tema tersebut. Tema itu ada di <strong>type-7</strong> dengan file config <strong>style-6</strong>.</p>
 <p>So, kita akan mengeksekusi <em>script</em> <strong>launcher.sh</strong> di direktori <strong>type-7</strong>. Jangan lupa untuk mengganti tema ke style-6 di <strong>launcher.sh</strong>.
-<img loading="lazy" src="/rofi/ss13.png" alt="ss13"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Eksekusi&hellip;</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>./launcher.sh
-</span></span></code></pre></div><p><img loading="lazy" src="/rofi/gif5.gif" alt="gif5"  />
+</span></span></code></pre></div><p>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Yooo!!</p>
 <p>Dan kita bisa mengedit size window-nya, size icon-nya, gambar background-nya, dan lain-lain di file konfigurasi tema-nya (dalam konteks tema ini di <code>/home/$USER/.config/rofi/launcher/type-7/style-6.rasi</code>).</p>
 <p>Sekarang, supaya Rofi kita bisa muncul ketika kita menekan tombol Windows atau <strong>[<code>Super Key</code>]</strong>, kita bisa menambahkannya ke <em><strong>Application Shortcuts</strong></em> di pengaturan Keyboard.
-<img loading="lazy" src="/rofi/ss14.png" alt="ss14"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Berikutnya, pada menu <em><strong>Application Shortcuts</strong></em>, klik <em><strong>Add</strong></em>.
-<img loading="lazy" src="/rofi/ss15.png" alt="ss15"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Kemudian, nanti akan muncul window <em><strong>Shortcut Command</strong></em>, klik <strong><em>icon</em> folder</strong> kuning di sebelah kanan, dan pilih file <strong>launcher.sh</strong> di direktori <strong>type-7</strong> tadi.
-<img loading="lazy" src="/rofi/ss16.png" alt="ss16"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Dan akan muncul window untuk men-set <em>shortcut</em> yang diinginkan. Silakan tekan tombol Windows atau <strong>[<code>Super Key</code>]</strong>.
-<img loading="lazy" src="/rofi/gif6.gif" alt="gif6"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Setelah itu, kita bisa melihat di menu <em><strong>Application Shortcuts</strong></em>, aplikasi Rofi kita baru saja diberi <em>shortcut</em> baru. Yeeay!!
-<img loading="lazy" src="/rofi/ss17.png" alt="ss17"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Dengan begitu, setiap kali kita menekan tombol <strong>[<code>Super Key</code>]</strong>, Rofi dengan tema baru akan tampak!
-<img loading="lazy" src="/rofi/gif7.gif" alt="gif7"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Mantavvv!!</p>
 <p>Sekian dulu sharing tentang Rofi di artikel ini&hellip;</p>

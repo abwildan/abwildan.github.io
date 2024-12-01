@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>TOR on Wildan&#39;s Workspace</title>
-    <link>http://localhost:1313/tags/tor/</link>
+    <link>//localhost:1313/tags/tor/</link>
     <description>Recent content in TOR on Wildan&#39;s Workspace</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- 0.133.1</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 30 Nov 2023 07:35:02 -0500</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/tor/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/tor/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Private File Sharing with Onionshare</title>
-      <link>http://localhost:1313/tech/onionshare/</link>
+      <link>//localhost:1313/tech/onionshare/</link>
       <pubDate>Thu, 30 Nov 2023 07:35:02 -0500</pubDate>
-      <guid>http://localhost:1313/tech/onionshare/</guid>
-      <description>Halo! Beberapa pekan lalu, saya sempat memberikan tutorial untuk mendapatkan e-book gratis dengan bot Telegram yang berasal dari situs z-library. Saat tulisan tersebut dibuat, situs utama z-lib di-banned oleh FBI karena dianggap menyebarkan buku-buku berbayar tanpa hak izin dari penulisnya.</description>
+      <guid>//localhost:1313/tech/onionshare/</guid>
+      <description>Halo! Beberapa pekan lalu, saya sempat memberikan tutorial untuk mendapatkan e-book gratis dengan bot Telegram yang berasal dari situs z-library. Saat tulisan tersebut dibuat, situs utama z-lib di-banned oleh FBI karena dianggap menyebarkan buku-buku berbayar tanpa hak izin dari penulisnya. Maka, agar dapat mengakses situs z-lib, kita memerlukan TOR Browser.
+Nah, pernahkah kalian penasaran, bagaimana cara meng-hosting file yang hanya dapat diakses dengan TOR Browser dan jaringan TOR saja?
+Kali ini, kita akan belajar bagaimana cara meng-hosting atau membagikan file yang hanya dapat diakses oleh TOR Browser.</description>
     </item>
   </channel>
 </rss>

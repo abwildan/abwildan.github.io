@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Lazyvim on Wildan&#39;s Workspace</title>
-    <link>http://localhost:1313/categories/lazyvim/</link>
+    <link>//localhost:1313/categories/lazyvim/</link>
     <description>Recent content in Lazyvim on Wildan&#39;s Workspace</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- 0.133.1</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 18 Aug 2024 13:50:11 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/lazyvim/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/categories/lazyvim/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Lazyvim: A neovim setup for the lazy-er(s)</title>
-      <link>http://localhost:1313/tech/lazyvim/</link>
+      <link>//localhost:1313/tech/lazyvim/</link>
       <pubDate>Sun, 18 Aug 2024 13:50:11 +0000</pubDate>
-      <guid>http://localhost:1313/tech/lazyvim/</guid>
+      <guid>//localhost:1313/tech/lazyvim/</guid>
       <description>This is just my personal documentation of installing and using lazyvim as a blogger.</description>
     </item>
   </channel>

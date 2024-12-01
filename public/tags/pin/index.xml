@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Pin on Wildan&#39;s Workspace</title>
-    <link>http://localhost:1313/tags/pin/</link>
+    <link>//localhost:1313/tags/pin/</link>
     <description>Recent content in Pin on Wildan&#39;s Workspace</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- 0.133.1</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 14 Aug 2024 03:10:27 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/pin/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/pin/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Chess Tactics: Fork, Pin, and Skewer</title>
-      <link>http://localhost:1313/chess/pop-tactics/</link>
+      <link>//localhost:1313/chess/pop-tactics/</link>
       <pubDate>Wed, 14 Aug 2024 03:10:27 +0000</pubDate>
-      <guid>http://localhost:1313/chess/pop-tactics/</guid>
+      <guid>//localhost:1313/chess/pop-tactics/</guid>
       <description>This article shares about 3 popular tactics in chess, which are Fork, Pin, and Skewer.</description>
     </item>
   </channel>

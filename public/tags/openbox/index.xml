@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Openbox on Wildan&#39;s Workspace</title>
-    <link>http://localhost:1313/tags/openbox/</link>
+    <link>//localhost:1313/tags/openbox/</link>
     <description>Recent content in Openbox on Wildan&#39;s Workspace</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- 0.133.1</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 30 May 2024 01:49:56 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/openbox/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/openbox/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Openbox - Simple and Easy Window Manager for Beginners</title>
-      <link>http://localhost:1313/tech/openbox/</link>
+      <link>//localhost:1313/tech/openbox/</link>
       <pubDate>Thu, 30 May 2024 01:49:56 +0000</pubDate>
-      <guid>http://localhost:1313/tech/openbox/</guid>
-      <description>Dari 1-10 (dengan skala 1: paling tidak cantik dan 10: paling cantik), seberapa cantik tampilan tangkapan layar pada cover artikel ini?</description>
+      <guid>//localhost:1313/tech/openbox/</guid>
+      <description>Dari 1-10 (dengan skala 1: paling tidak cantik dan 10: paling cantik), seberapa cantik tampilan tangkapan layar pada cover artikel ini? Screenshot tersebut saya &ldquo;curi&rdquo; dari sebuah akun github bernama addy-dclxvi pada reponya, openbox-theme-collection .
+Kalau kalian mengunjungi repo tersebut, kalian akan menemukan keindahan-keindahan sebuah window manager bernama openbox di sana. Keindahan yang saya maksud di sini bukan keindahan biasa, tapi keindahan yang muncul dari kesederhanaan namun mampu memberikan kesan elegan dan nostalgic (oke, setidaknya ini menurut saya pribadi, hehe).</description>
     </item>
   </channel>
 </rss>

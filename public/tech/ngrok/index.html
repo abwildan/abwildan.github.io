@@ -17,7 +17,7 @@
   <meta name="description" content="A Hugo Theme" />
   
   <meta name="keywords" content="cyber security, ngrok, tutorial, " />
-  <link rel="canonical" href="http://localhost:1313/tech/ngrok/" />
+  <link rel="canonical" href="//localhost:1313/tech/ngrok/" />
 
   
 
@@ -42,6 +42,10 @@
 
 
   
+
+
+
+  
     
         <script src="/js/theme.js"></script>
       
@@ -51,6 +55,13 @@
   
     
         <script src="/js/codecopy.js"></script>
+      
+    
+  
+
+  
+    
+        <script src="/js/search.js"></script>
       
     
   
@@ -65,10 +76,10 @@
     <link rel="manifest" href="/site.webmanifest" />
   
 
-  <meta property="og:url" content="http://localhost:1313/tech/ngrok/">
+  <meta property="og:url" content="//localhost:1313/tech/ngrok/">
   <meta property="og:site_name" content="Wildan&#39;s Workspace">
   <meta property="og:title" content="Ngrok - Make Your localhost Accessible Publicly">
-  <meta property="og:description" content="Ngrok? Ngrok bagi sebagian orang mungkin sudah faniliar karena sering digunakan untuk berbagai kebutuhan. Tapi, bagi yang belum tahu, ngrok secara sederhana dapat didefinisikan sebagai aplikasi yang memungkinkan kita untuk mem-publish server lokal kita di localhost ke publik dengan aman.">
+  <meta property="og:description" content="Ngrok? Ngrok bagi sebagian orang mungkin sudah faniliar karena sering digunakan untuk berbagai kebutuhan. Tapi, bagi yang belum tahu, ngrok secara sederhana dapat didefinisikan sebagai aplikasi yang memungkinkan kita untuk mem-publish server lokal kita di localhost ke publik dengan aman. Artinya, service seperti misalnya web di localhost (http) atau bahkan SSH dan RDP dapat diakses di luar jaringan secara aman melalui bantuan dari Ngrok ini. Untuk detail teknisnya sebentar lagi kita akan lihat demonya.">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="tech">
@@ -81,7 +92,7 @@
   
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Ngrok - Make Your localhost Accessible Publicly">
-  <meta name="twitter:description" content="Ngrok? Ngrok bagi sebagian orang mungkin sudah faniliar karena sering digunakan untuk berbagai kebutuhan. Tapi, bagi yang belum tahu, ngrok secara sederhana dapat didefinisikan sebagai aplikasi yang memungkinkan kita untuk mem-publish server lokal kita di localhost ke publik dengan aman.">
+  <meta name="twitter:description" content="Ngrok? Ngrok bagi sebagian orang mungkin sudah faniliar karena sering digunakan untuk berbagai kebutuhan. Tapi, bagi yang belum tahu, ngrok secara sederhana dapat didefinisikan sebagai aplikasi yang memungkinkan kita untuk mem-publish server lokal kita di localhost ke publik dengan aman. Artinya, service seperti misalnya web di localhost (http) atau bahkan SSH dan RDP dapat diakses di luar jaringan secara aman melalui bantuan dari Ngrok ini. Untuk detail teknisnya sebentar lagi kita akan lihat demonya.">
 
 
   
@@ -92,6 +103,19 @@
 
 
 
+
+  
+  
+    <script
+      defer
+      type="text/javascript"
+      src="/lib/fuse/fuse.min.1ab2783fdcab6ba75fb69e4ed1e68a14a4b8721d45627d7147f5421d020c24ed4b36a70a8639009001131d8a04f3515f87706308931603f0194983f9db58f114.js"
+      integrity="sha512-GrJ4P9yra6dftp5O0eaKFKS4ch1FYn1xR/VCHQIMJO1LNqcKhjkAkAETHYoE81Ffh3BjCJMWA/AZSYP521jxFA=="
+    ></script>
+  
+
+
+
   
   
 
@@ -103,10 +127,7 @@
   
 
   
-  
-  
-    <link rel="preload" href="http://localhost:1313/fonts/Ubuntu-Regular.woff2" as="font" type="font/woff2" crossorigin>
-  
+  <link rel="preload" href="//localhost:1313/fonts/Ubuntu-Regular.woff2" as="font" type="font/woff2" crossorigin>
 
   
 
@@ -130,7 +151,43 @@
       <header>
     
     <a class="title" href="/">
-      <img alt="Site Logo" src="/tsukasa.png" />
+      
+      
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+    <img loading="lazy" 
+    
+      
+        src="/tsukasa_hu17823179094668833204.png"
+      
+    
+      alt="Site Logo" />
+  
+
+
+
+
     </a>
     
     <div class="header-cntr">
@@ -156,6 +213,52 @@
     </ul>
   </nav>
     <div class="side-menu">
+    
+<button id="search-open" class="menu-btn" aria-label="Search button">
+  
+
+    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+
+
+
+</button>
+
+<div id="search-container" data-url="//localhost:1313/">
+  <div class="search">
+    <div class="panel">
+      <form>
+        
+
+    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+
+
+
+        <input type="search" id="search-query" placeholder="Search" tabindex=0 autocomplete="off"/>
+        <button id="search-close" title="Cancel (ESC)">
+          
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+
+
+
+        </button>
+      </form>
+    </div>
+    <ul id="search-results">
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </ul>
+  </div>
+</div>
+
     
     <button id="theme-switcher" class="menu-btn" aria-label="Theme switcher">
       <div id="moon">
@@ -233,8 +336,11 @@
 
 
 
+
+
+
 <ul class="breadcrumbs">
-  <li><a href="http://localhost:1313/">
+  <li><a href="//localhost:1313/">
 
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="currentColor" d="M575.8 255.5c0 18-15 32.1-32 32.1l-32 0 .7 160.2c0 2.7-.2 5.4-.5 8.1l0 16.2c0 22.1-17.9 40-40 40l-16 0c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1L416 512l-24 0c-22.1 0-40-17.9-40-40l0-24 0-64c0-17.7-14.3-32-32-32l-64 0c-17.7 0-32 14.3-32 32l0 64 0 24c0 22.1-17.9 40-40 40l-24 0-31.9 0c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2l-16 0c-22.1 0-40-17.9-40-40l0-112c0-.9 0-1.9 .1-2.8l0-69.7-32 0c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z"/></svg>
 
@@ -243,7 +349,7 @@
   
     
     
-      <li><a href="http://localhost:1313/tech/">Teches</a></li>
+      <li><a href="//localhost:1313/tech/">Teches</a></li>
     
     
   
@@ -429,18 +535,102 @@ sebentar lagi kita akan lihat demonya.</p>
   
 </h3>
 <p>Jika ingin menginstall via zip file, kita perlu memilih dan mengunduh file zip-nya terlebih dahulu sesuai dengan arsitektur sistem operasi linux yang kita gunakan.
-<img loading="lazy" src="/ngrok/ss1.png" alt="ss1"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Saya akan mengunduh file <strong>x86-64</strong> karena arsitektur OS saya memang x86_64.</p>
 <p>Untuk mengecek arsitektur komputernya, kita dapat mengetikkan perintah berikut di terminal:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>arch
-</span></span></code></pre></div><p><img loading="lazy" src="/ngrok/ss2.png" alt="ss2"  />
+</span></span></code></pre></div><p>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Setelah selesai mengunduh file zip-nya, kita dapat mengetikkan perintah berikut di terminal untuk menginstallnya&quot;</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span> sudo tar xvzf ~/Downloads/ngrok-v3-stable-linux-amd64.tgz -C /usr/local/bin
 </span></span></code></pre></div><p>Pada dasarnya, perintah tersebut akan mengekstrak file <em><strong>binary</strong></em> dari file zip tersebut untuk kemudian disimpan di <em>PATH</em> <code>/usr/local/bin</code>.</p>
 <p>Atau kalau kita mau melakukannya secara manual, kira-kira bentuknya sama dengan perintah berikut:
-<img loading="lazy" src="/ngrok/ss3.png" alt="ss3"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Dengan demikian, Ngrok sudah berhasil kita install di komputer kita via zip file.</p>
 
@@ -502,7 +692,35 @@ juga perlu menginstall snap.</p>
 </span></span></code></pre></div><p>Token tersebut hanya bisa didapatkan jika kita sudan membuat akun di website Ngrok<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. Jadi, jika kalian belum punya akun
 di Ngrok, silakan buat akun terlebih dahulu.</p>
 <p>Jika sudah membuat akun, token Ngrok dapat ditemukan di menu <strong>Your Authtoken</strong>.
-<img loading="lazy" src="/ngrok/ss7.png" alt="ss7"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Di sini, saya akan mendemokan penggunaan Ngrok untuk mengekspos 3 <em>services</em>, yaitu</p>
 <ul>
@@ -524,23 +742,135 @@ di Ngrok, silakan buat akun terlebih dahulu.</p>
 </h2>
 <p>Saya akan menggunakan salah satu layanan web server dari Python, yaitu <a href="https://github.com/sc0tfree/updog" target="_blank">updog</a>
  di port 8000:
-<img loading="lazy" src="/ngrok/ss4.png" alt="ss4"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Oke, web server sudah berjalan di localhost:8000 yang menyediakan akses untuk semua file di komputer lokal
 saya, secara spesifik di direktori /home/wildan/ngrok.
-<img loading="lazy" src="/ngrok/ss5.png" alt="ss5"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Sekarang, kita akan mengekspos web saya di localhost tersebut dengan ngrok.</p>
 <p>Caranya, saya akan mengetikkan perintah berikut di terminal:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ngrok http <span style="color:#ae81ff">8000</span>
 </span></span></code></pre></div><p>Perintah tersebut berarti memintah ngrok untuk menyediakan URL untuk web server di port 8000 di komputer kita.</p>
 <p>Setelah mengetikkan perintah tersebut, maka ngrok akan menyediakan URL yang sudah kita minta sebagai berikut:
-<img loading="lazy" src="/ngrok/ss6.png" alt="ss6"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Kalau saya membuka link yang terdapat di bagian <em><strong>Forwarding</strong></em> tersebut, kita akan menjumpai web server updog
 saya sama persis yang berjalan di localhost:</p>
 <p><code>https://4383-2001-448a-114c-1db0-3d52-30e6-64dd-2511.ngrok-free.app</code>
-<img loading="lazy" src="/ngrok/ss8.png" alt="ss8"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <blockquote>
 <p><strong>Note:</strong> Link tersebut hanya aktif selagi saya masih menjalankan ngrok</p>
@@ -560,27 +890,195 @@ saya sama persis yang berjalan di localhost:</p>
 <p>Pada skema SSH ini, saya akan menggunakan laptop saya ini sebagai server yang menjalankan SSH (<em>Secure Shell</em>) server.
 Kemudian, saya akan mencoba melakukan <em>remote login</em> dari URL Ngrok via android (aplikasi <a href="https://play.google.com/store/apps/details?id=com.server.auditor.ssh.client&amp;hl=en_US&amp;pli=1" target="_blank">Termius</a>
 ).
-<img loading="lazy" src="/ngrok/ss14.png" alt="ss14"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Pertama-tama, saya akan jalankan SSH server terlebih dahulu.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo systemctl start ssh
-</span></span></code></pre></div><p><img loading="lazy" src="/ngrok/ss9.png" alt="ss9"  />
+</span></span></code></pre></div><p>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Oke, terpantau SSH server sudah <em>ready</em> di port 22.</p>
 <p>Sekarang, saya akan buat <em>tunnel</em>-nya dengan Ngrok.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ngrok tcp <span style="color:#ae81ff">22</span>
-</span></span></code></pre></div><p><img loading="lazy" src="/ngrok/ss10.png" alt="ss10"  />
+</span></span></code></pre></div><p>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Oke, Ngrok sudah <em>running</em> tanpa kendala.</p>
 <p>Kemudian, di Termius, saya mengetikkan perintah berikut:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ssh wildan@0.tcp.ngrok.io:14826
-</span></span></code></pre></div><p><img loading="lazy" src="/ngrok/ss11.png" alt="ss11"  />
+</span></span></code></pre></div><p>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 
 Login via SSH di Termius.</p>
-<p><img loading="lazy" src="/ngrok/ss12.png" alt="ss12"  />
+<p>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 
 Acc <em>fingerprint</em>, kemudian input password, dan &hellip;</p>
-<p><img loading="lazy" src="/ngrok/ss13.png" alt="ss13"  />
+<p>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 
 Boom! Berhasil login!</p>
 
@@ -598,20 +1096,132 @@ Boom! Berhasil login!</p>
 <p>Di skema RDP (<em>Remote Desktop Protocol</em>) ini, saya juga akan menggunakan laptop saya ini sebagai server dan kemudian
 client-nya akan menggunakan android (via aplikasi <a href="https://play.google.com/store/apps/details?id=com.microsoft.rdc.androidx&amp;hl=en_US" target="_blank">Remote Desktop</a>
 .
-<img loading="lazy" src="/ngrok/ss15.png" alt="ss15"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Pertama-tama, saya akan jalankan server RDP-nya terlebih dahulu&hellip;</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo systemctl start xrdp
-</span></span></code></pre></div><p><img loading="lazy" src="/ngrok/ss16.png" alt="ss16"  />
+</span></span></code></pre></div><p>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Server RDP sudah berjalan di port 3389.</p>
 <p>Sekarang, kita akan jalankan ngrok.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ngrok tcp <span style="color:#ae81ff">3389</span>
-</span></span></code></pre></div><p><img loading="lazy" src="/ngrok/ss17.png" alt="ss17"  />
+</span></span></code></pre></div><p>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 
 Sip, Ngrok juga sudah <em>running</em> dengan baik&hellip;</p>
 <p>Sekarang, saya akan coba me-<em>remote</em> laptop saya ini via RDP di android.
-<img loading="lazy" src="/ngrok/tele5.jpg" alt="ss18"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Berhasil RDP!</p>
 <blockquote>

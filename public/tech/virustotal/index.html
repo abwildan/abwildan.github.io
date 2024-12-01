@@ -17,7 +17,7 @@
   <meta name="description" content="A Hugo Theme" />
   
   <meta name="keywords" content="forensic, tutorial, cyber security, " />
-  <link rel="canonical" href="http://localhost:1313/tech/virustotal/" />
+  <link rel="canonical" href="//localhost:1313/tech/virustotal/" />
 
   
 
@@ -42,6 +42,10 @@
 
 
   
+
+
+
+  
     
         <script src="/js/theme.js"></script>
       
@@ -51,6 +55,13 @@
   
     
         <script src="/js/codecopy.js"></script>
+      
+    
+  
+
+  
+    
+        <script src="/js/search.js"></script>
       
     
   
@@ -65,10 +76,11 @@
     <link rel="manifest" href="/site.webmanifest" />
   
 
-  <meta property="og:url" content="http://localhost:1313/tech/virustotal/">
+  <meta property="og:url" content="//localhost:1313/tech/virustotal/">
   <meta property="og:site_name" content="Wildan&#39;s Workspace">
   <meta property="og:title" content="Virustotal - Platform untuk Scanning Virus">
-  <meta property="og:description" content="Overview Virustotal adalah salah satu website terbaik untuk melakukan identifikasi terhadap suatu file/software/aplikasi dan url, apakah mengandung virus atau malware (malicious software) atau tidak.">
+  <meta property="og:description" content="Overview Virustotal adalah salah satu website terbaik untuk melakukan identifikasi terhadap suatu file/software/aplikasi dan url, apakah mengandung virus atau malware (malicious software) atau tidak. Dengan kata lain, melalui bantuan website ini, kita dapat mengecek suatu file/software/aplikasi maupun suatu link/url apakah berbahaya atau tidak sebelum kita menginstallnya di device kita masing-masing.
+Virustotal1 menjadi salah satu website penyedia jasa scanning virus terbaik karena website tersebut melakukan scanning dengan menggunakan lebih dari 50 vendor antivirus, termasuk diantaranya adalah Avira, BitDefender, dan Kaspersky.">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="tech">
@@ -81,7 +93,8 @@
   
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Virustotal - Platform untuk Scanning Virus">
-  <meta name="twitter:description" content="Overview Virustotal adalah salah satu website terbaik untuk melakukan identifikasi terhadap suatu file/software/aplikasi dan url, apakah mengandung virus atau malware (malicious software) atau tidak.">
+  <meta name="twitter:description" content="Overview Virustotal adalah salah satu website terbaik untuk melakukan identifikasi terhadap suatu file/software/aplikasi dan url, apakah mengandung virus atau malware (malicious software) atau tidak. Dengan kata lain, melalui bantuan website ini, kita dapat mengecek suatu file/software/aplikasi maupun suatu link/url apakah berbahaya atau tidak sebelum kita menginstallnya di device kita masing-masing.
+Virustotal1 menjadi salah satu website penyedia jasa scanning virus terbaik karena website tersebut melakukan scanning dengan menggunakan lebih dari 50 vendor antivirus, termasuk diantaranya adalah Avira, BitDefender, dan Kaspersky.">
 
 
   
@@ -92,6 +105,19 @@
 
 
 
+
+  
+  
+    <script
+      defer
+      type="text/javascript"
+      src="/lib/fuse/fuse.min.1ab2783fdcab6ba75fb69e4ed1e68a14a4b8721d45627d7147f5421d020c24ed4b36a70a8639009001131d8a04f3515f87706308931603f0194983f9db58f114.js"
+      integrity="sha512-GrJ4P9yra6dftp5O0eaKFKS4ch1FYn1xR/VCHQIMJO1LNqcKhjkAkAETHYoE81Ffh3BjCJMWA/AZSYP521jxFA=="
+    ></script>
+  
+
+
+
   
   
 
@@ -103,10 +129,7 @@
   
 
   
-  
-  
-    <link rel="preload" href="http://localhost:1313/fonts/Ubuntu-Regular.woff2" as="font" type="font/woff2" crossorigin>
-  
+  <link rel="preload" href="//localhost:1313/fonts/Ubuntu-Regular.woff2" as="font" type="font/woff2" crossorigin>
 
   
 
@@ -130,7 +153,43 @@
       <header>
     
     <a class="title" href="/">
-      <img alt="Site Logo" src="/tsukasa.png" />
+      
+      
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+    <img loading="lazy" 
+    
+      
+        src="/tsukasa_hu17823179094668833204.png"
+      
+    
+      alt="Site Logo" />
+  
+
+
+
+
     </a>
     
     <div class="header-cntr">
@@ -156,6 +215,52 @@
     </ul>
   </nav>
     <div class="side-menu">
+    
+<button id="search-open" class="menu-btn" aria-label="Search button">
+  
+
+    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+
+
+
+</button>
+
+<div id="search-container" data-url="//localhost:1313/">
+  <div class="search">
+    <div class="panel">
+      <form>
+        
+
+    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+
+
+
+        <input type="search" id="search-query" placeholder="Search" tabindex=0 autocomplete="off"/>
+        <button id="search-close" title="Cancel (ESC)">
+          
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+
+
+
+        </button>
+      </form>
+    </div>
+    <ul id="search-results">
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </ul>
+  </div>
+</div>
+
     
     <button id="theme-switcher" class="menu-btn" aria-label="Theme switcher">
       <div id="moon">
@@ -233,8 +338,11 @@
 
 
 
+
+
+
 <ul class="breadcrumbs">
-  <li><a href="http://localhost:1313/">
+  <li><a href="//localhost:1313/">
 
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="currentColor" d="M575.8 255.5c0 18-15 32.1-32 32.1l-32 0 .7 160.2c0 2.7-.2 5.4-.5 8.1l0 16.2c0 22.1-17.9 40-40 40l-16 0c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1L416 512l-24 0c-22.1 0-40-17.9-40-40l0-24 0-64c0-17.7-14.3-32-32-32l-64 0c-17.7 0-32 14.3-32 32l0 64 0 24c0 22.1-17.9 40-40 40l-24 0-31.9 0c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2l-16 0c-22.1 0-40-17.9-40-40l0-112c0-.9 0-1.9 .1-2.8l0-69.7-32 0c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z"/></svg>
 
@@ -243,7 +351,7 @@
   
     
     
-      <li><a href="http://localhost:1313/tech/">Teches</a></li>
+      <li><a href="//localhost:1313/tech/">Teches</a></li>
     
     
   
@@ -383,7 +491,35 @@
   
 </h3>
 <p>Opsi <strong>File</strong> digunakan untuk melakukan <em>scanning</em> terhadap suatu file, apapun format filenya. File yang dimaksud dapat berupa file office (doc, ppt, xlsx, pdf), file program apapun sistem operasinya (exe, apk, sh, dll), dan file-file lainnya. Sebagai catatan, file yang diunggah ke Virustotal dibatasi ukurannya hingga <strong>maksimal 650 MB</strong>. Artinya, file dengan ukuran lebih besar dari 650 MB tidak dapat diunggah ke website tersebut.
-<img loading="lazy" src="/virustotal/ss1.png" alt="ss1"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 
 <h3 id="2-opsi-url">
@@ -398,7 +534,35 @@
   
 </h3>
 <p>Opsi <strong>URL</strong> digunakan untuk melakukan <em>scanning</em> terhadap suatu link atau URL (<em>Uniform Resource Locator</em>). Semua link (yang kita anggap berbahaya atau memiliki virus) dapat di-<em>copy-paste</em> di menu ini.
-<img loading="lazy" src="/virustotal/ss2.png" alt="ss2"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 
 <h3 id="3-opsi-search">
@@ -413,7 +577,35 @@
   
 </h3>
 <p>Opsi <strong>Search</strong> sebetulnya mirip dengan opsi <strong>URL</strong>, namun, secara lebih luas, opsi ini dapat digunakan untuk melakukan <em>scanning</em> terhadap sebuah domain, <em>IP Address</em>, dan juga file hash.
-<img loading="lazy" src="/virustotal/ss3.png" alt="ss3"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 
 <h2 id="demo">
@@ -440,7 +632,35 @@
  </a>
   
 </h3>
-<p><img loading="lazy" src="/virustotal/ss4.png" alt="ss4"  />
+<p>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 
 Seperti terlihat pada <em>screenshot</em> tersebut, saya sudah memiliki 2 file:</p>
 <ul>
@@ -466,7 +686,35 @@ Seperti terlihat pada <em>screenshot</em> tersebut, saya sudah memiliki 2 file:<
   
 </h4>
 <p>Pada skenario bersih, saya akan menggunakan file <em>installer</em> Telegram. Cara untuk melakukan <em>upload</em>-nya cukup sederhana, yaitu kita tinggal meng-klik tombol <strong>choose file</strong>, kemudian pilih file yang akan diunggah.</p>
-<p><img loading="lazy" src="/virustotal/ss5.png" alt="ss5"  />
+<p>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 
 Berdasarkan <em>screenshot</em> tersebut, dapat terlihat kesimpulannya, yaitu 0/69 dengan warna hijau total, yang artinya, 69 antivirus yang sudah melakukan <em>scanning</em> tidak mendapatkan tanda-tanda file <em>installer</em> Telegram tersebut mengandung virus.</p>
 <p>Beberapa informasi lainnya yang tampak, misalnya <strong>Last Modification Date 11 Minutes ago</strong> artinya, seseorang sudah lebih dulu melakukan upload file serupa ke Virustotal 11 menit yang lalu.</p>
@@ -483,7 +731,35 @@ Berdasarkan <em>screenshot</em> tersebut, dapat terlihat kesimpulannya, yaitu 0/
   
 </h4>
 <p>Pada skenario kotor, saya akan menggunakan file <em>installer</em> Whatsapp GB.</p>
-<p><img loading="lazy" src="/virustotal/ss6.png" alt="ss6"  />
+<p>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 
 Berdasarkan <em>screenshot</em> tersebut, dapat dilihat kesimpulannya, yaitu 4/58 vendor antivirus mengatakan bahwa file <em>installer</em> Whatsapp GB tersebut mengandung virus. Adapun vendor yang dimaksud ada <strong>Avast-Mobile</strong>, <strong>Symantec Mobile Insight</strong>, <strong>BitDefenderFalx</strong>, dan <strong>Tencet</strong>. Melihat <strong>Last Modification Date</strong>-nya, kita juga tahu bahwa file ini sudah pernah diunggah ke Virustotal 6 hari yang lalu.</p>
 <p>Dengan melihat laporan Virustotal tersebut, sudah selayaknya kita tidak menggunakan file <em>installer</em> tersebut untuk di-<em>install</em> di <em>smartphone</em> Android kita.</p>
@@ -499,7 +775,35 @@ Berdasarkan <em>screenshot</em> tersebut, dapat dilihat kesimpulannya, yaitu 4/5
  </a>
   
 </h3>
-<p><img loading="lazy" src="/virustotal/ss7.png" alt="ss7"  />
+<p>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 
 Seperti terlihat pada <em>screenshot</em> tersebut, saya sudah memiliki 2 target URL yang akan diuji coba:</p>
 <ul>
@@ -526,7 +830,35 @@ Seperti terlihat pada <em>screenshot</em> tersebut, saya sudah memiliki 2 target
   
 </h4>
 <p>Pada skenario bersih, saya akan mencoba menginputkan link url dari Instagram:</p>
-<p><img loading="lazy" src="/virustotal/ss8.png" alt="ss8"  />
+<p>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 
 Bersih, 0/93 vendor tidak ada yang mengatakan link tersebut mengandung virus atau malware. Seseorang juga baru mengecek link tersebut sekitar 3 jam yang lalu.</p>
 
@@ -542,7 +874,35 @@ Bersih, 0/93 vendor tidak ada yang mengatakan link tersebut mengandung virus ata
   
 </h4>
 <p>Pada skenario kotor, saya akan menginputkan link kedua, yaitu link software bajakan:</p>
-<p><img loading="lazy" src="/virustotal/ss9.png" alt="ss9"  />
+<p>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 
 Kotor, karena setidaknya ada 4/92 vendor antivirus bilang bahwa link tersebut mengandung virus. Seseorang ternyata ada yang sudah lebih dahulu menganalisis link tersebut sejak kira-kira 25 hari yang lalu.</p>
 
@@ -557,7 +917,35 @@ Kotor, karena setidaknya ada 4/92 vendor antivirus bilang bahwa link tersebut me
  </a>
   
 </h3>
-<p><img loading="lazy" src="/virustotal/ss10.png" alt="ss10"  />
+<p>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 
 Seperti terlihat pada <em>screenshot</em>, saya akan menggunakan 2 aplikasi yang saya gunakan sebelumnya di Opsi File, yaitu file <em>installer</em> Telegram dan <em>installer</em> Whatsapp GB. Hanya saja, kali ini, yang akan saya gunakan adalah hash dari kedua file tersebut. Dengan kata lain, melalui hash (algoritma <strong>sha 256</strong>) file tersebut, saya dapat mengetahui apakah file tersebut mengandung bersih atau kotor.</p>
 <p><strong>Hash file (SHA 256)</strong> <em>installer</em> Telegram: d39cef61102e25977d98bd2c5f06c2b0fd30c93589544493233be428f094794e</p>
@@ -575,7 +963,35 @@ Seperti terlihat pada <em>screenshot</em>, saya akan menggunakan 2 aplikasi yang
   
 </h4>
 <p>Pada skenario bersih, saya akan menggunakan hash file <em>installer</em> Telegram.</p>
-<p><img loading="lazy" src="/virustotal/ss11.png" alt="ss11"  />
+<p>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 
 Bersih,&hellip;</p>
 
@@ -591,7 +1007,35 @@ Bersih,&hellip;</p>
   
 </h4>
 <p>Pada skenario kotor, saya akan menggunakan hash file <em>installer</em> Whatsapp GB.</p>
-<p><img loading="lazy" src="/virustotal/ss12.png" alt="ss12"  />
+<p>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 
 Kotor,&hellip;</p>
 

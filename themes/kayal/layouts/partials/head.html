@@ -40,7 +40,13 @@
   {{ end -}}
 
   {{ template "_internal/opengraph.html" . }}
+  {{ with .Params.coverImg }}
+    <meta property="og:image" content="{{ . | absURL }}" />
+  {{ end }}
   {{ template "_internal/twitter_cards.html" . }}
+  {{ with .Params.coverImg }}
+    <meta name="twitter:image" content="{{ . | absURL }}" />
+  {{ end }}
 
   {{/* vendor */}}
   {{ partial "head/vendor.html" . }}
@@ -70,6 +76,10 @@
 
   {{ if templates.Exists "partials/extend-head.html" }}
   {{ partialCached "extend-head.html" .Site }}
+  {{ end }}
+
+  {{ with .OutputFormats.Get "rss" -}}
+    {{ printf `<link rel=%q type=%q href=%q title=%q>` .Rel .MediaType.Type .Permalink site.Title | safeHTML }}
   {{ end }}
 
 </head>

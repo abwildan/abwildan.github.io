@@ -17,7 +17,7 @@
   <meta name="description" content="Do you want to chat via terminal like a hackerman? If so, it&#39;s time to read this because we will create an IRC Server with inspircd &amp; ircd-hybrid." />
   
   <meta name="keywords" content="irc, server, " />
-  <link rel="canonical" href="http://localhost:1313/tech/ircserver/" />
+  <link rel="canonical" href="//localhost:1313/tech/ircserver/" />
 
   
 
@@ -42,6 +42,10 @@
 
 
   
+
+
+
+  
     
         <script src="/js/theme.js"></script>
       
@@ -51,6 +55,13 @@
   
     
         <script src="/js/codecopy.js"></script>
+      
+    
+  
+
+  
+    
+        <script src="/js/search.js"></script>
       
     
   
@@ -65,7 +76,7 @@
     <link rel="manifest" href="/site.webmanifest" />
   
 
-  <meta property="og:url" content="http://localhost:1313/tech/ircserver/">
+  <meta property="og:url" content="//localhost:1313/tech/ircserver/">
   <meta property="og:site_name" content="Wildan&#39;s Workspace">
   <meta property="og:title" content="Create Your Own IRC Server!">
   <meta property="og:description" content="Do you want to chat via terminal like a hackerman? If so, it’s time to read this because we will create an IRC Server with inspircd &amp; ircd-hybrid.">
@@ -91,6 +102,19 @@
 
 
 
+
+  
+  
+    <script
+      defer
+      type="text/javascript"
+      src="/lib/fuse/fuse.min.1ab2783fdcab6ba75fb69e4ed1e68a14a4b8721d45627d7147f5421d020c24ed4b36a70a8639009001131d8a04f3515f87706308931603f0194983f9db58f114.js"
+      integrity="sha512-GrJ4P9yra6dftp5O0eaKFKS4ch1FYn1xR/VCHQIMJO1LNqcKhjkAkAETHYoE81Ffh3BjCJMWA/AZSYP521jxFA=="
+    ></script>
+  
+
+
+
   
   
 
@@ -102,10 +126,7 @@
   
 
   
-  
-  
-    <link rel="preload" href="http://localhost:1313/fonts/Ubuntu-Regular.woff2" as="font" type="font/woff2" crossorigin>
-  
+  <link rel="preload" href="//localhost:1313/fonts/Ubuntu-Regular.woff2" as="font" type="font/woff2" crossorigin>
 
   
 
@@ -129,7 +150,43 @@
       <header>
     
     <a class="title" href="/">
-      <img alt="Site Logo" src="/tsukasa.png" />
+      
+      
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+    <img loading="lazy" 
+    
+      
+        src="/tsukasa_hu17823179094668833204.png"
+      
+    
+      alt="Site Logo" />
+  
+
+
+
+
     </a>
     
     <div class="header-cntr">
@@ -155,6 +212,52 @@
     </ul>
   </nav>
     <div class="side-menu">
+    
+<button id="search-open" class="menu-btn" aria-label="Search button">
+  
+
+    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+
+
+
+</button>
+
+<div id="search-container" data-url="//localhost:1313/">
+  <div class="search">
+    <div class="panel">
+      <form>
+        
+
+    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+
+
+
+        <input type="search" id="search-query" placeholder="Search" tabindex=0 autocomplete="off"/>
+        <button id="search-close" title="Cancel (ESC)">
+          
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+
+
+
+        </button>
+      </form>
+    </div>
+    <ul id="search-results">
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </ul>
+  </div>
+</div>
+
     
     <button id="theme-switcher" class="menu-btn" aria-label="Theme switcher">
       <div id="moon">
@@ -232,8 +335,11 @@
 
 
 
+
+
+
 <ul class="breadcrumbs">
-  <li><a href="http://localhost:1313/">
+  <li><a href="//localhost:1313/">
 
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="currentColor" d="M575.8 255.5c0 18-15 32.1-32 32.1l-32 0 .7 160.2c0 2.7-.2 5.4-.5 8.1l0 16.2c0 22.1-17.9 40-40 40l-16 0c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1L416 512l-24 0c-22.1 0-40-17.9-40-40l0-24 0-64c0-17.7-14.3-32-32-32l-64 0c-17.7 0-32 14.3-32 32l0 64 0 24c0 22.1-17.9 40-40 40l-24 0-31.9 0c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2l-16 0c-22.1 0-40-17.9-40-40l0-112c0-.9 0-1.9 .1-2.8l0-69.7-32 0c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z"/></svg>
 
@@ -242,7 +348,7 @@
   
     
     
-      <li><a href="http://localhost:1313/tech/">Teches</a></li>
+      <li><a href="//localhost:1313/tech/">Teches</a></li>
     
     
   
@@ -440,7 +546,35 @@
 </tbody>
 </table>
 <p>Sebagai ilustrasi saja, berikut adalah ketika saya join ke <em>channel</em> linux di server Libera:</p>
-<p><img loading="lazy" src="/ircserver/gif1.gif" alt="gif1"  title="Join ke channel linux di server libera dengan Weechat"  />
+<p>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<figure>
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+<figcaption>Join ke channel linux di server libera dengan Weechat</figcaption></figure>
+
 </p>
 <p>Untuk terhubung ke sebuah server IRC, kita memerlukan IRC <em>client</em>. Ada banyak IRC <em>client</em> sebetulnya. IRC <em>client</em> yang pernah saya gunakan ada <a href="https://irssi.org/" target="_blank">irssi</a>
  dan <a href="https://weechat.org/" target="_blank">weechat</a>
@@ -518,7 +652,35 @@ Perlu dicatat beberapa hal berikut:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>./configure
 </span></span></code></pre></div><p>Mulai proses <em>compile</em>:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>make install
-</span></span></code></pre></div><p><img loading="lazy" src="/ircserver/gif2.gif" alt="gif2"  title="Install inspircd via Github"  />
+</span></span></code></pre></div><p>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<figure>
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+<figcaption>Install inspircd via Github</figcaption></figure>
+
 </p>
 <p>Dan tunggu prosesnya hingga selesai&hellip;</p>
 
@@ -529,7 +691,35 @@ Perlu dicatat beberapa hal berikut:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>sudo su
 </span></span><span style="display:flex;"><span>cd /etc/inspircd
 </span></span><span style="display:flex;"><span>ls -l
-</span></span></code></pre></div><p><img loading="lazy" src="/ircserver/ss1.png" alt="ss1"  title="inspircd directory"  />
+</span></span></code></pre></div><p>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<figure>
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+<figcaption>inspircd directory</figcaption></figure>
+
 </p>
 <p>Di sana ada 2 file:</p>
 <ol>
@@ -537,7 +727,35 @@ Perlu dicatat beberapa hal berikut:</p>
 <li><strong>inspircd.mord</strong>: file konfigurasi MOTD (Message of The Day) inspircd yang akan ditampilkan ketika pertama kali masuk ke server.</li>
 </ol>
 <p>Kita bebas untuk mengubah file <strong><code>inspircd.motd</code></strong>, tapi yang akan saya <em>highlight</em> di sini adalah file konfigurasi <strong><code>inspircd.conf</code></strong>. Agar IRC server kita bisa diakses oleh komputer lain, kita perlu mengganti <em>ip address</em> di baris <em>bind address</em> sesuai dengan <em>ip address</em> jaringan lokal / publik kita (dalam hal ini saya gunakan ip lokal):</p>
-<p><img loading="lazy" src="/ircserver/ss2.png" alt="ss2"  title="mengganti ip address"  />
+<p>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<figure>
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+<figcaption>mengganti ip address</figcaption></figure>
+
 </p>
 <blockquote>
 <p><strong>Note:</strong><br>
@@ -545,17 +763,101 @@ Perhatikan juga <em>server name</em>-nya (dalam hal ini saya biarkan <em>default
 </blockquote>
 <p>Setelah itu, kita bisa memastikan inspircd sudah <em>running</em>:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>sudo systemctl status inspircd
-</span></span></code></pre></div><p><img loading="lazy" src="/ircserver/ss3.png" alt="ss3"  title="check inspircd"  />
+</span></span></code></pre></div><p>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<figure>
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+<figcaption>check inspircd</figcaption></figure>
+
 </p>
 <p>Kalau belum jalan, tinggal jalankan:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>sudo systemctl start inspircd
 </span></span></code></pre></div><p>Kita bisa memastikan juga inspircd sudah berjalan dengan melihat port yang aktif:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>sudo netstat -tupln
-</span></span></code></pre></div><p><img loading="lazy" src="/ircserver/ss8.png" alt="ss8"  title="inspircd is running on port 6667"  />
+</span></span></code></pre></div><p>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<figure>
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+<figcaption>inspircd is running on port 6667</figcaption></figure>
+
 </p>
 <p>Kalau inspircd sudah <em>running</em>, itu artinya, kita sudah berhasil membuat server IRC kita sendiri.</p>
 <p>Berikut adalah demonstrasi saya masuk ke IRC server yang saya <em>install</em> di Debian2 dari Debian1. Dengan kata lain, IRC server saya adalah Debian2, sementara <em>client</em>-nya adalah Debian1.</p>
-<p><img loading="lazy" src="/ircserver/gif3.gif" alt="gif3"  title="Connect to IRC Server (inspircd)"  />
+<p>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<figure>
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+<figcaption>Connect to IRC Server (inspircd)</figcaption></figure>
+
 </p>
 
 <h3 id="ircd-hybrid">
@@ -626,7 +928,35 @@ Perlu dicatat beberapa hal berikut:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>sudo su
 </span></span><span style="display:flex;"><span>cd /etc/ircd-hybrid
 </span></span><span style="display:flex;"><span>ls -l
-</span></span></code></pre></div><p><img loading="lazy" src="/ircserver/ss4.png" alt="ss4"  title="check ircd-hybrid"  />
+</span></span></code></pre></div><p>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<figure>
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+<figcaption>check ircd-hybrid</figcaption></figure>
+
 </p>
 <p>Ada 3 file dan sebuah direktori di sana:</p>
 <ol>
@@ -636,24 +966,164 @@ Perlu dicatat beberapa hal berikut:</p>
 <li><strong>key</strong>: direktori yang berisi beberapa key.</li>
 </ol>
 <p>Untuk sekarang, kita bisa mengabaikan <code>cert.cnf</code>, <code>ircd.motd</code>, dan direktori <code>key</code>, karena kita hanya akan mengkonfigurasi file <strong><code>ircd.conf</code></strong> saja. Seperti sebelumnya ketika mengkonfigurasi IRC Server di inspircd, kita perlu memperhatikan nama server-nya, di sini saya biarkan default:</p>
-<p><img loading="lazy" src="/ircserver/ss5.png" alt="ss5"  title="irc name server"  />
+<p>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<figure>
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+<figcaption>irc name server</figcaption></figure>
+
 </p>
 <p>Dan <em>ip address</em>-nya perlu diganti dari 127.0.0.1 ke alamat ip lokal / publik agar dapat diakses oleh komputer lain.</p>
-<p><img loading="lazy" src="/ircserver/ss6.png" alt="ss6"  title="irc server ip address"  />
+<p>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<figure>
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+<figcaption>irc server ip address</figcaption></figure>
+
 </p>
 <p>Selanjutnya, kita bisa memastikan ircd-hybrid sudah <em>running</em>:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>sudo systemctl status ircd-hybrid
-</span></span></code></pre></div><p><img loading="lazy" src="/ircserver/ss7.png" alt="ss7"  title="ircd-hybrid status"  />
+</span></span></code></pre></div><p>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<figure>
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+<figcaption>ircd-hybrid status</figcaption></figure>
+
 </p>
 <p>Atau kalau belum running, bisa diaktifkan dengan perintah:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>sudo systemctl start ircd-hybrid
 </span></span></code></pre></div><p>Kita bisa memastikan juga ircd-hybrid sudah berjalan dengan melihat port yang aktif:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>sudo netstat -tupln
-</span></span></code></pre></div><p><img loading="lazy" src="/ircserver/ss9.png" alt="ss9"  title="ircd-hybrid is running on port 6697"  />
+</span></span></code></pre></div><p>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<figure>
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+<figcaption>ircd-hybrid is running on port 6697</figcaption></figure>
+
 </p>
 <p>Kalau ircd-hybrid sudah <em>running</em>, itu artinya kita sudah berhasil membuat IRC Server dengan ircd-hybrid.</p>
 <p>Berikut adalah demonstrasi saya masuk ke IRC server yang saya <em>install</em> di Debian2 dari Debian1. Dengan kata lain, IRC server saya adalah Debian2, sementara client-nya adalah Debian1.</p>
-<p><img loading="lazy" src="/ircserver/gif4.gif" alt="gif4"  title="Connect to IRC Server (ircd-hybrid)"  />
+<p>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<figure>
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+<figcaption>Connect to IRC Server (ircd-hybrid)</figcaption></figure>
+
 </p>
 <div class="footnotes" role="doc-endnotes">
 <hr>

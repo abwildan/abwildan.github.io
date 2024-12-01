@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Scihub on Wildan&#39;s Workspace</title>
-    <link>http://localhost:1313/categories/scihub/</link>
+    <link>//localhost:1313/categories/scihub/</link>
     <description>Recent content in Scihub on Wildan&#39;s Workspace</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- 0.133.1</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 21 May 2024 09:10:19 +0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/scihub/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/categories/scihub/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bypassing Article Journal Paywall using Scihub</title>
-      <link>http://localhost:1313/tech/scihub/</link>
+      <link>//localhost:1313/tech/scihub/</link>
       <pubDate>Tue, 21 May 2024 09:10:19 +0700</pubDate>
-      <guid>http://localhost:1313/tech/scihub/</guid>
-      <description>Kalian adalah seorang peneliti yang membutuhkan jurnal yang berstandar internasional tapi terkendala karena tidak bisa mengaksesnya? Solusinya adalah Scihub!&#xA;About Sci-hub Sci-hub adalah situs web &amp;ldquo;perpustakaan bayangan&amp;rdquo; yang didirkan oleh seorang perempuan asal Kazakhstan yang lahir pada tahun 1988 bernama Alexandra Elbakyan .</description>
+      <guid>//localhost:1313/tech/scihub/</guid>
+      <description>Kalian adalah seorang peneliti yang membutuhkan jurnal yang berstandar internasional tapi terkendala karena tidak bisa mengaksesnya? Solusinya adalah Scihub!
+About Sci-hub Sci-hub adalah situs web &ldquo;perpustakaan bayangan&rdquo; yang didirkan oleh seorang perempuan asal Kazakhstan yang lahir pada tahun 1988 bernama Alexandra Elbakyan . Disebut &ldquo;perpustakaan bayangan&rdquo; karena sci-hub memberikan akses ke jutaan artikel penelitian berbayar secara gratis hanya dengan meng-input-kan tautan DOI (Digital Object Identifier) sebuah artikel ke situs sci-hub.1 Situs ini didirikan pada tahun 2011 oleh perempuan lulusan jurusan Teknologi Informasi dari Kazakh National Technical University juga karena alasan mahalnya biaya makalah atau artikel penelitian yang tersedia di internet.</description>
     </item>
   </channel>
 </rss>

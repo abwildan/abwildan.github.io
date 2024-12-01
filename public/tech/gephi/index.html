@@ -17,7 +17,7 @@
   <meta name="description" content="A Hugo Theme" />
   
   <meta name="keywords" content="gephi, data analytics, data, visualization, " />
-  <link rel="canonical" href="http://localhost:1313/tech/gephi/" />
+  <link rel="canonical" href="//localhost:1313/tech/gephi/" />
 
   
 
@@ -42,6 +42,10 @@
 
 
   
+
+
+
+  
     
         <script src="/js/theme.js"></script>
       
@@ -51,6 +55,13 @@
   
     
         <script src="/js/codecopy.js"></script>
+      
+    
+  
+
+  
+    
+        <script src="/js/search.js"></script>
       
     
   
@@ -65,10 +76,12 @@
     <link rel="manifest" href="/site.webmanifest" />
   
 
-  <meta property="og:url" content="http://localhost:1313/tech/gephi/">
+  <meta property="og:url" content="//localhost:1313/tech/gephi/">
   <meta property="og:site_name" content="Wildan&#39;s Workspace">
   <meta property="og:title" content="Gephi - Actor(s) Centrality">
-  <meta property="og:description" content="Halo! Kali ini kita akan belajar tentang penggunaan salah satu software yang biasa digunakan untuk melakukan analisis data pada ilmu-ilmu sosial, khususnya pada diskusi atau kajian mengenai Social Network Analysis (SNA).">
+  <meta property="og:description" content="Halo! Kali ini kita akan belajar tentang penggunaan salah satu software yang biasa digunakan untuk melakukan analisis data pada ilmu-ilmu sosial, khususnya pada diskusi atau kajian mengenai Social Network Analysis (SNA). Secara sederhana, SNA adalah sebuah metode untuk mengidentifikasi aktor (node) dan relasinya (edge) dalam suatu jaringan.
+Pada topik Gephi kali ini, saya akan menjelaskan analisis terhadap 4 jenis sentralitas aktor1, yaitu:
+Degree Centrality Betweeness Centrality Closeness Centrality Eigenvector Centrality Berikut adalah perbedaan singkat mengenai keempat jenis centrality tersebut.">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="tech">
@@ -82,7 +95,9 @@
   
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Gephi - Actor(s) Centrality">
-  <meta name="twitter:description" content="Halo! Kali ini kita akan belajar tentang penggunaan salah satu software yang biasa digunakan untuk melakukan analisis data pada ilmu-ilmu sosial, khususnya pada diskusi atau kajian mengenai Social Network Analysis (SNA).">
+  <meta name="twitter:description" content="Halo! Kali ini kita akan belajar tentang penggunaan salah satu software yang biasa digunakan untuk melakukan analisis data pada ilmu-ilmu sosial, khususnya pada diskusi atau kajian mengenai Social Network Analysis (SNA). Secara sederhana, SNA adalah sebuah metode untuk mengidentifikasi aktor (node) dan relasinya (edge) dalam suatu jaringan.
+Pada topik Gephi kali ini, saya akan menjelaskan analisis terhadap 4 jenis sentralitas aktor1, yaitu:
+Degree Centrality Betweeness Centrality Closeness Centrality Eigenvector Centrality Berikut adalah perbedaan singkat mengenai keempat jenis centrality tersebut.">
 
 
   
@@ -93,6 +108,19 @@
 
 
 
+
+  
+  
+    <script
+      defer
+      type="text/javascript"
+      src="/lib/fuse/fuse.min.1ab2783fdcab6ba75fb69e4ed1e68a14a4b8721d45627d7147f5421d020c24ed4b36a70a8639009001131d8a04f3515f87706308931603f0194983f9db58f114.js"
+      integrity="sha512-GrJ4P9yra6dftp5O0eaKFKS4ch1FYn1xR/VCHQIMJO1LNqcKhjkAkAETHYoE81Ffh3BjCJMWA/AZSYP521jxFA=="
+    ></script>
+  
+
+
+
   
   
 
@@ -104,10 +132,7 @@
   
 
   
-  
-  
-    <link rel="preload" href="http://localhost:1313/fonts/Ubuntu-Regular.woff2" as="font" type="font/woff2" crossorigin>
-  
+  <link rel="preload" href="//localhost:1313/fonts/Ubuntu-Regular.woff2" as="font" type="font/woff2" crossorigin>
 
   
 
@@ -131,7 +156,43 @@
       <header>
     
     <a class="title" href="/">
-      <img alt="Site Logo" src="/tsukasa.png" />
+      
+      
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+    <img loading="lazy" 
+    
+      
+        src="/tsukasa_hu17823179094668833204.png"
+      
+    
+      alt="Site Logo" />
+  
+
+
+
+
     </a>
     
     <div class="header-cntr">
@@ -157,6 +218,52 @@
     </ul>
   </nav>
     <div class="side-menu">
+    
+<button id="search-open" class="menu-btn" aria-label="Search button">
+  
+
+    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+
+
+
+</button>
+
+<div id="search-container" data-url="//localhost:1313/">
+  <div class="search">
+    <div class="panel">
+      <form>
+        
+
+    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+
+
+
+        <input type="search" id="search-query" placeholder="Search" tabindex=0 autocomplete="off"/>
+        <button id="search-close" title="Cancel (ESC)">
+          
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+
+
+
+        </button>
+      </form>
+    </div>
+    <ul id="search-results">
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </ul>
+  </div>
+</div>
+
     
     <button id="theme-switcher" class="menu-btn" aria-label="Theme switcher">
       <div id="moon">
@@ -234,8 +341,11 @@
 
 
 
+
+
+
 <ul class="breadcrumbs">
-  <li><a href="http://localhost:1313/">
+  <li><a href="//localhost:1313/">
 
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="currentColor" d="M575.8 255.5c0 18-15 32.1-32 32.1l-32 0 .7 160.2c0 2.7-.2 5.4-.5 8.1l0 16.2c0 22.1-17.9 40-40 40l-16 0c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1L416 512l-24 0c-22.1 0-40-17.9-40-40l0-24 0-64c0-17.7-14.3-32-32-32l-64 0c-17.7 0-32 14.3-32 32l0 64 0 24c0 22.1-17.9 40-40 40l-24 0-31.9 0c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2l-16 0c-22.1 0-40-17.9-40-40l0-112c0-.9 0-1.9 .1-2.8l0-69.7-32 0c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z"/></svg>
 
@@ -244,7 +354,7 @@
   
     
     
-      <li><a href="http://localhost:1313/tech/">Teches</a></li>
+      <li><a href="//localhost:1313/tech/">Teches</a></li>
     
     
   
@@ -403,19 +513,131 @@ sosial, khususnya pada diskusi atau kajian mengenai <em>Social Network Analysis<
   
 </h2>
 <p>Langkah pertama yang perlu kita lakukan ketika akan melakukan <em>crawling</em> data dari Youtube adalah menentukan satu video yang akan kita analisis dengan Gephi. Karena kita akan menganalisis <em>social networks</em> dari komen-komen yang terdapat pada satu video Youtube tersebut, maka saya sarankan untuk mencari video dengan komen yang banyak untuk memaksimalkan pemahaman. Dalam hal ini, saya akan mengambil video dari kanal KOMPASTV yang berjudul <strong>Panas! Prabowo Jawab Anies: Anda Tidak Pantas Bicara Etika Karena Tak Beri Contoh Etika</strong> dengan jumlah komentar sebanyak <strong>16,112</strong> sebagai berikut:
-<img loading="lazy" src="/gephi/ss2.png" alt="ss2"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 
 Link video: <a href="https://www.youtube.com/watch?v=GQX-Sp3hOf0" target="_blank">https://www.youtube.com/watch?v=GQX-Sp3hOf0</a>
 </p>
 <p>Kedua, sebetulnya, terdapat beberapa <em>tools</em> yang dapat kita gunakan untuk mendapatkan data dari Youtube. Akan tetapi, ada satu website yang sangat memudahkan kita untuk meng-<em>crawl</em> komentar-komentar Youtube tanpa harus ribet (login, dsb), nama websitenya adalah <strong><a href="https://ytdt.digitalmethods.net/mod_video_comments.php" target="_blank">Youtube Data Tools</a>
 </strong>. Penampakannya adalah sebagai berikut:
-<img loading="lazy" src="/gephi/ss1.png" alt="ss1"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Ketiga, agar dapat meng-<em>crawl</em> 16000-an komentar yang ada pada video tersebut, kita hanya perlu meng-<em>copy</em>-<em>paste</em> id video tersebut ke kolom &ldquo;Video id&rdquo; di website Youtube Data Tools. Jika kita lihat pada link video tersebut, kita akan tahu bahwa id video tersebut terletak setelah karakter sama dengan (=), yaitu GQX-Sp3hOf0. Setelah di-<em>paste</em>, memastikan <em>check box</em> &ldquo;I&rsquo;m not robot&rdquo; diceklis, dan meng-klik tombol &ldquo;submit&rdquo;, kita tinggal menunggu proses crawling selesai.
-<img loading="lazy" src="/gephi/ss3.png" alt="ss3"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Keempat, setelah proses crawling selesai, website tersebut akan memberikan dua pilihan format file yang dapat kita unduh, yaitu file csv dan gdf. Kita akan mengunduh file gdf karena file tersebut yang paling sesuai untuk dibuka di aplikasi gephi.
-<img loading="lazy" src="/gephi/ss4.png" alt="ss4"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 
 <h2 id="import-data-ke-gephi">
@@ -430,16 +652,128 @@ Link video: <a href="https://www.youtube.com/watch?v=GQX-Sp3hOf0" target="_blank
   
 </h2>
 <p>Untuk meng-<em>import</em> file gdf tadi ke gephi, kita tinggal pilih menu <strong>File</strong> -&gt; <strong>Open</strong>, cari file gdf yang sudah didownload tadi, dan klik &ldquo;Open&rdquo;.
-<img loading="lazy" src="/gephi/ss5.png" alt="ss5"  />
 
-<img loading="lazy" src="/gephi/ss6.png" alt="ss6"  />
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Kemudian, nanti akan muncul opsi untuk memilih jenis relasi yang akan digunakan. Secara umum, ada dua jenis relasi dalam jaringan, yaitu <em>directed</em> dan <em>undirected</em>. Relasi <em>directed</em> berarti relasi yang memiliki arah hubungan. Artinya, relasi <em>directed</em> memperhatikan siapa yang berperan sebagai pengirim pesan dan siapa yang berperan sebagai penerima pesan. Sementara itu, relasi <em>undirected</em> berarti relasi yang tidak berarah. Artinya, baik pengirim pesan dan penerima pesan dianggap setara sehingga relasi ini tidak melihat arah hubungan<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> .</p>
-<p><img loading="lazy" src="/gephi/ss7.png" alt="ss7"  />
+<p>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Dalam tutorial Gephi kali ini, saya akan menggunakan jenis relasi <em>undirected</em>. Selanjutnya, klik &ldquo;OK&rdquo;.</p>
 <p>Untuk menghitung nilai sentralitas setiap aktor, Gephi menyediakan fitur otomatis yang tersedia dalam bagian &ldquo;Statistics&rdquo;. Untuk membuka sub-window &ldquo;Statistics&rdquo; tersebut, klik menu &ldquo;Window&rdquo; -&gt; &ldquo;Statistics&rdquo;.
-<img loading="lazy" src="/gephi/ss8.png" alt="ss8"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Kemudian akan muncul jendela &ldquo;Statistic&rdquo; yang didalamnya terdapat tombol-tombol untuk menghitung beberapa hal yang dibutuhkan, diantaranya adalah sentralitas para aktor.</p>
 
@@ -455,13 +789,97 @@ Link video: <a href="https://www.youtube.com/watch?v=GQX-Sp3hOf0" target="_blank
   
 </h2>
 <p>Sebelum saya akan lebih jauh menghitung keempat sentralitas aktor tersebut, kita akan buat visualisasi jaringan dengan layout Yifan Hu. Jika window &ldquo;Layout&rdquo; belum tampak, kita dapat memanggilnya dari menu &ldquo;Windows&rdquo; -&gt; &ldquo;Layout&rdquo;.
-<img loading="lazy" src="/gephi/ss9.png" alt="ss9"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Selanjutnya, kita dapat mengaktifkan layout Yifan Hu dengan nilai <em>optimal distance</em> 60. Kemudian klik &ldquo;Run&rdquo;.
-<img loading="lazy" src="/gephi/ss10.png" alt="ss10"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Maka, visualisasi jaringan akan tampil dalam bentuk berikut:
-<img loading="lazy" src="/gephi/ss11.png" alt="ss11"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 
 <h3 id="1-degree-centrality">
@@ -476,16 +894,128 @@ Link video: <a href="https://www.youtube.com/watch?v=GQX-Sp3hOf0" target="_blank
   
 </h3>
 <p>Untuk mengitung <em>degree centrality</em>, klik pada bagian &ldquo;Average Degree&rdquo; pada window &ldquo;Statistics&rdquo;.
-<img loading="lazy" src="/gephi/ss12.png" alt="ss12"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Setelah perhitungan selesai, akan muncul window HTML Report yang menggambarkan distribusi degree pada jaringan ini.
-<img loading="lazy" src="/gephi/ss13.png" alt="ss13"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Secara spesifik, kita dapat melihat siapa akun atau aktor yang memiliki nilai degree centrality paling tinggi dengan melihat datanya pada menu &ldquo;Data Laboratory&rdquo;.
-<img loading="lazy" src="/gephi/ss14.png" alt="ss14"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Berikut adalah top 5 aktor yang memiliki nilai degree centrality paling tinggi, yaitu aktor dengan username akun Youtube <strong>@sudirmantowsan1743</strong>, <strong>@TamSar-yj3mn</strong>, <strong>@user-df4ms3ji2v</strong>, <strong>@rezaelmaris3822</strong>, <strong>@Ainal_Yakin</strong>, dan <strong>@MuhammadIhsan-pd8gp</strong>.
-<img loading="lazy" src="/gephi/ss15.png" alt="ss15"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Yang menarik, kita juga dapat menonjolkan username kelima aktor tersebut pada visualisasi yang sudah dibuat sebelumnya dengan algoritma Yifan Hu. Sebelum itu, kita perlu kembali ke sub-menu &ldquo;Overview&rdquo;.</p>
 
@@ -501,13 +1031,97 @@ Link video: <a href="https://www.youtube.com/watch?v=GQX-Sp3hOf0" target="_blank
   
 </h4>
 <p>Untuk men-setting <em>degree centrality</em> pada visualisasi tadi, kita dapat membuka window &ldquo;Appearance&rdquo; dari menu &ldquo;Windows&rdquo;.
-<img loading="lazy" src="/gephi/ss16.png" alt="ss16"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Kita akan pilih icon &ldquo;Size&rdquo; untuk &ldquo;Nodes&rdquo; dengan opsi &ldquo;Degree&rdquo; untuk ditampilkan berdasarkan &ldquo;Ranking&rdquo;-nya.
-<img loading="lazy" src="/gephi/ss17.png" alt="ss17"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Minimal size di 15 dan maksimal size di 100. Klik &ldquo;Apply&rdquo;.
-<img loading="lazy" src="/gephi/ss18.png" alt="ss18"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 
 <h4 id="nodes-color">
@@ -522,16 +1136,128 @@ Link video: <a href="https://www.youtube.com/watch?v=GQX-Sp3hOf0" target="_blank
   
 </h4>
 <p>Berikutnya, kita akan beri warna pada kelima aktor tertinggi tersebut. Caranya masih sama, di menu &ldquo;Nodes&rdquo;, pilih icon &ldquo;Color&rdquo; dan set &ldquo;Degree&rdquo; pada bagian &ldquo;Partition&rdquo;.
-<img loading="lazy" src="/gephi/ss19.png" alt="ss19"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Pertama, kita akan warnai semua aktor menjadi warna abu-abu.
-<img loading="lazy" src="/gephi/ss20.png" alt="ss20"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Kemudian, kita akan pilih lima aktor dengan nilai *degree centrality *paling tinggi dengan warna merah-kuning-hijau-biru-ungu.
-<img loading="lazy" src="/gephi/ss21.png" alt="ss21"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Pada visualisasi, akan tampil kelima node atau aktor tersebut dari urutan warna merah-kuning-hijau-biru-ungu, sementara aktor lainnya akan berwarna abu-abu.
-<img loading="lazy" src="/gephi/ss22.png" alt="ss22"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Namun, username dari masing-masing aktor tersebut masih belum tampak. Sebelum kita menampilkan label username setiap aktor, kita akan terlebih dahulu men-setting warna labelnya terlebih dahulu. Langkah-langkahnya mirip seperti langkah-langkah men-setting nodes atau aktor tadi.</p>
 
@@ -547,10 +1273,66 @@ Link video: <a href="https://www.youtube.com/watch?v=GQX-Sp3hOf0" target="_blank
   
 </h4>
 <p>Pertama, masih di window &ldquo;Appearance&rdquo;, kita atur terlebih dahulu size labelnya.
-<img loading="lazy" src="/gephi/ss23.png" alt="ss23"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Sesuaikan ukuran labelnya di minimal 1 dan maksimal 12.
-<img loading="lazy" src="/gephi/ss25.png" alt="ss25"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 
 <h4 id="label-color">
@@ -565,13 +1347,97 @@ Link video: <a href="https://www.youtube.com/watch?v=GQX-Sp3hOf0" target="_blank
   
 </h4>
 <p>Kemudian kita atur warnanya.
-<img loading="lazy" src="/gephi/ss24.png" alt="ss24"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Untuk memunculkan label dari setiap nodes, kita dapat memunculkannya dengan meng-klik icon &ldquo;T&rdquo; yang berwarna hitam di bagian bawah.
-<img loading="lazy" src="/gephi/ss27.png" alt="ss27"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Dan kita berhasil membuat visualisasinya lebih spesifik dengan menonjolkan lima aktor yang memiliki nilai <em>degree centrality</em> paling besar!
-<img loading="lazy" src="/gephi/ss26.png" alt="ss26"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 
 <h3 id="2-closeness-centrality">
@@ -587,10 +1453,66 @@ Link video: <a href="https://www.youtube.com/watch?v=GQX-Sp3hOf0" target="_blank
 </h3>
 <p>Untuk mengitung <em>closeness</em> dan <em>betweeness centrality</em>, klik pada bagian &ldquo;Avg. Path Length&rdquo; pada window &ldquo;Statistics&rdquo;. Kemudian akan muncul sebuah window, kita hanya perlu menceklis &ldquo;Normalize Centralities in [0,1]&rdquo;. Selanjutnya, klik &ldquo;OK&rdquo;. Setelah beberapa detik proses pengukuran, akan tampil window &ldquo;HTML Report&rdquo; seperti di <em>degree centrality</em> tadi, untuk menunjukkan distribusi <em>degree</em> pada jaringan ini.</p>
 <p>Berdasarkan tabel di bawah ini, kita dapat mengetahui bahwa ada lebih dari 20 aktor yang memiliki nilai <em>closeness centrality</em> sama dengan 1 (nilai maksimal). Sebetulnya, jika lihat data aslinya, ada lebih dari 100 aktor yang memiliki skor <em>closeness centrality</em> sama dengan 1.
-<img loading="lazy" src="/gephi/ss28.png" alt="ss28"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Berikut ini adalah visualisasi dari aktor-aktor top pada <em>closeness centrality</em> di jaringan ini.
-<img loading="lazy" src="/gephi/ss29.png" alt="ss29"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 
 <h3 id="3-betweeness-centrality">
@@ -605,7 +1527,35 @@ Link video: <a href="https://www.youtube.com/watch?v=GQX-Sp3hOf0" target="_blank
   
 </h3>
 <p>Berikut ini adalah tabel tabel data aktor-aktor yang memiliki nilai <em>betweeness centrality</em> tertinggi.
-<img loading="lazy" src="/gephi/ss32.png" alt="ss32"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Berikut ini adalah visualisasi dari 5 aktor top <em>betweeness centrality</em>.</p>
 
@@ -621,9 +1571,65 @@ Link video: <a href="https://www.youtube.com/watch?v=GQX-Sp3hOf0" target="_blank
   
 </h4>
 <p>Atur ukuran nodes untuk <em>betweeness centrality</em>.
-<img loading="lazy" src="/gephi/ss30.png" alt="ss30"  />
 
-<img loading="lazy" src="/gephi/ss31.png" alt="ss31"  />
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 
 Klik &ldquo;Apply&rdquo;.</p>
 
@@ -639,16 +1645,128 @@ Klik &ldquo;Apply&rdquo;.</p>
   
 </h4>
 <p>Atur warna nodes pada <em>betweeness centrality</em>.
-<img loading="lazy" src="/gephi/ss33.png" alt="ss33"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Ubah semua node berwarna abu-abu.
-<img loading="lazy" src="/gephi/ss34.png" alt="ss34"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Warnai top 5 aktor dengan warna berbeda, berurut dari yang terbesar ke terkecil (merah-kuning-hijau-biru-ungu).
-<img loading="lazy" src="/gephi/ss35.png" alt="ss35"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Klik &ldquo;Apply&rdquo;. Berikut adalah visualisasi sementaranya.
-<img loading="lazy" src="/gephi/ss36.png" alt="ss36"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 
 <h4 id="label-size-1">
@@ -663,9 +1781,65 @@ Klik &ldquo;Apply&rdquo;.</p>
   
 </h4>
 <p>Atur ukuran label untuk <em>betweeness centrality</em>.
-<img loading="lazy" src="/gephi/ss37.png" alt="ss37"  />
 
-<img loading="lazy" src="/gephi/ss38.png" alt="ss38"  />
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 
 <h4 id="label-color-1">
@@ -680,12 +1854,96 @@ Klik &ldquo;Apply&rdquo;.</p>
   
 </h4>
 <p>Atur warna untuk label aktor pada <em>betweeness centrality</em>.
-<img loading="lazy" src="/gephi/ss39.png" alt="ss39"  />
 
-<img loading="lazy" src="/gephi/ss40.png" alt="ss40"  />
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Klik &ldquo;Apply&rdquo;. Berikut adalah hasil visualisasi dari <em>betweeness centrality</em>-nya.
-<img loading="lazy" src="/gephi/ss41.png" alt="ss41"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 
 <h3 id="4-eigenvector-centrality">
@@ -700,13 +1958,97 @@ Klik &ldquo;Apply&rdquo;.</p>
   
 </h3>
 <p>Untuk menghitung <em>eigenvector centrality</em>, kita hanya perlu klik &ldquo;Run&rdquo; pada bagian &ldquo;Eigenvector Centrality&rdquo; di sub menu &ldquo;Node Overview&rdquo;.
-<img loading="lazy" src="/gephi/ss42.png" alt="ss42"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Nanti akan muncul window seperti di bawah ini, biarkan default, klik &ldquo;Ok&rdquo;.
-<img loading="lazy" src="/gephi/ss43.png" alt="ss43"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Setelah selesai, kita dapat melihat hasil perhitungannya pada tabel di &ldquo;Data Laboratory&rdquo;.
-<img loading="lazy" src="/gephi/ss44.png" alt="ss44"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Berdasarkan tabel tersebut, kita dapat mengetahui bahwa aktor dengan nilai <em>eigenvector centrality</em> tertinggi adalah aktor dengan nama akun @sudirmantowsan1743 dengan skor 1, kemudian disusul @user-df4ms3ji2v dengan skor 0.96, @TamSar-yj3mn 0.95, @icanaja8192 dengan skor 0.47, dan @sannymph575 dengan skor 0.34.</p>
 <p>Sekarang, kita akan mengimplementasikannya dalam format visual.</p>
@@ -723,7 +2065,35 @@ Klik &ldquo;Apply&rdquo;.</p>
   
 </h4>
 <p>Atur ukuran nodenya dengan setting 15 untuk aktor dengan nilai <em>eigenvector centrality</em> terkecil dan 100 untuk skor terbesar.
-<img loading="lazy" src="/gephi/ss45.png" alt="ss45"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 
 <h4 id="nodes-color-2">
@@ -738,10 +2108,66 @@ Klik &ldquo;Apply&rdquo;.</p>
   
 </h4>
 <p>Atur warna untuk 5 node dengan nilai <em>eigenvector centrality</em> tertinggi (merah-kuning-hijau-biru-ungu). Jangan lupa, ubah warna node aktor lainnya menjadi abu-abu.
-<img loading="lazy" src="/gephi/ss46.png" alt="ss46"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Berikut adalah hasil visualisasinya!
-<img loading="lazy" src="/gephi/ss50.png" alt="ss50"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 
 <h4 id="label-size-2">
@@ -756,7 +2182,35 @@ Klik &ldquo;Apply&rdquo;.</p>
   
 </h4>
 <p>Atur ukuran label setiap aktor.
-<img loading="lazy" src="/gephi/ss47.png" alt="ss47"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 
 <h4 id="label-color-2">
@@ -771,10 +2225,66 @@ Klik &ldquo;Apply&rdquo;.</p>
   
 </h4>
 <p>Atur warna untuk label sesuai dengan urutan nilai <em>eigenvector centrality</em>-nya (merah-kuning-hijau-biru). Jangan lupa ubah juga warna label aktor lainnya menjadi abu-abu.
-<img loading="lazy" src="/gephi/ss48.png" alt="ss48"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Berikut adalah hasil visualisasinya!
-<img loading="lazy" src="/gephi/ss49.png" alt="ss49"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <div class="footnotes" role="doc-endnotes">
 <hr>

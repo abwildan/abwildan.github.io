@@ -1,12 +1,12 @@
 {
   "name": "kayal",
-  "version": "0.1.1",
+  "version": "0.3.1",
   "description": "Minimal and lightweight Hugo theme with markdown-ish aesthetics",
   "scripts": {
     "postinstall": "vendor-copy",
-    "demo": "cd exampleSite; hugo --gc --themesDir ../.. serve -D --disableFastRender -b http://localhost:1313; rm -r public ; cd ..",
+    "demo": "cd exampleSite; hugo --gc --themesDir ../.. serve -D -O --disableFastRender -b http://localhost:1313; rm -r public ; cd ..",
     "demo-build": "cd exampleSite; hugo --gc --themesDir ../.. -D; cd ..",
-    "demo-clean": "rm -r exampleSite/public"
+    "demo-clean": "rm -r exampleSite/public exampleSite/resources"
   },
   "repository": {
     "type": "git",
@@ -23,8 +23,9 @@
   },
   "homepage": "https://github.com/mnjm/kayal#readme",
   "dependencies": {
+    "fuse.js": "^7.0.0",
     "katex": "^0.16.11",
-    "mermaid": "^10.9.1",
+    "mermaid": "^11.4.0",
     "vendor-copy": "^3.0.1"
   },
   "vendorCopy": [],
@@ -48,6 +49,10 @@
     {
       "from": "node_modules/katex/dist/fonts/",
       "to": "assets/lib/katex/fonts/"
+    },
+    {
+      "from": "node_modules/fuse.js/dist/fuse.min.js",
+      "to": "assets/lib/fuse/fuse.min.js"
     }
   ]
 }

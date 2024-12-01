@@ -17,7 +17,7 @@
   <meta name="description" content="A Hugo Theme" />
   
   <meta name="keywords" content="conky, linux, " />
-  <link rel="canonical" href="http://localhost:1313/tech/conky/" />
+  <link rel="canonical" href="//localhost:1313/tech/conky/" />
 
   
 
@@ -42,6 +42,10 @@
 
 
   
+
+
+
+  
     
         <script src="/js/theme.js"></script>
       
@@ -51,6 +55,13 @@
   
     
         <script src="/js/codecopy.js"></script>
+      
+    
+  
+
+  
+    
+        <script src="/js/search.js"></script>
       
     
   
@@ -65,10 +76,12 @@
     <link rel="manifest" href="/site.webmanifest" />
   
 
-  <meta property="og:url" content="http://localhost:1313/tech/conky/">
+  <meta property="og:url" content="//localhost:1313/tech/conky/">
   <meta property="og:site_name" content="Wildan&#39;s Workspace">
   <meta property="og:title" content="Enhancing Your Linux Desktop with Conky">
-  <meta property="og:description" content="Tentang Conky, meskipun terdengar seperti singkatan “Pocong Pinky”, sebetulnya adalah program monitor sistem untuk linux desktop1. Kalau merujuk pada repositori resminya di Github, Conky dinyatakan sebagai berikut:">
+  <meta property="og:description" content="Tentang Conky, meskipun terdengar seperti singkatan “Pocong Pinky”, sebetulnya adalah program monitor sistem untuk linux desktop1. Kalau merujuk pada repositori resminya di Github, Conky dinyatakan sebagai berikut:
+Conky is a free, light-weight system monitor for X, that displays any kind of information on your desktop2.
+Jadi, dapat disimpulkan bahwa Conky pada dasarnya adalah sebuah program untuk menampilkan monitoring sistem di layar desktop. Apa saja “sistem” yang bisa ditampilkan oleh Conky?">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="tech">
@@ -80,7 +93,9 @@
   
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Enhancing Your Linux Desktop with Conky">
-  <meta name="twitter:description" content="Tentang Conky, meskipun terdengar seperti singkatan “Pocong Pinky”, sebetulnya adalah program monitor sistem untuk linux desktop1. Kalau merujuk pada repositori resminya di Github, Conky dinyatakan sebagai berikut:">
+  <meta name="twitter:description" content="Tentang Conky, meskipun terdengar seperti singkatan “Pocong Pinky”, sebetulnya adalah program monitor sistem untuk linux desktop1. Kalau merujuk pada repositori resminya di Github, Conky dinyatakan sebagai berikut:
+Conky is a free, light-weight system monitor for X, that displays any kind of information on your desktop2.
+Jadi, dapat disimpulkan bahwa Conky pada dasarnya adalah sebuah program untuk menampilkan monitoring sistem di layar desktop. Apa saja “sistem” yang bisa ditampilkan oleh Conky?">
 
 
   
@@ -91,6 +106,19 @@
 
 
 
+
+  
+  
+    <script
+      defer
+      type="text/javascript"
+      src="/lib/fuse/fuse.min.1ab2783fdcab6ba75fb69e4ed1e68a14a4b8721d45627d7147f5421d020c24ed4b36a70a8639009001131d8a04f3515f87706308931603f0194983f9db58f114.js"
+      integrity="sha512-GrJ4P9yra6dftp5O0eaKFKS4ch1FYn1xR/VCHQIMJO1LNqcKhjkAkAETHYoE81Ffh3BjCJMWA/AZSYP521jxFA=="
+    ></script>
+  
+
+
+
   
   
 
@@ -102,10 +130,7 @@
   
 
   
-  
-  
-    <link rel="preload" href="http://localhost:1313/fonts/Ubuntu-Regular.woff2" as="font" type="font/woff2" crossorigin>
-  
+  <link rel="preload" href="//localhost:1313/fonts/Ubuntu-Regular.woff2" as="font" type="font/woff2" crossorigin>
 
   
 
@@ -129,7 +154,43 @@
       <header>
     
     <a class="title" href="/">
-      <img alt="Site Logo" src="/tsukasa.png" />
+      
+      
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+    <img loading="lazy" 
+    
+      
+        src="/tsukasa_hu17823179094668833204.png"
+      
+    
+      alt="Site Logo" />
+  
+
+
+
+
     </a>
     
     <div class="header-cntr">
@@ -155,6 +216,52 @@
     </ul>
   </nav>
     <div class="side-menu">
+    
+<button id="search-open" class="menu-btn" aria-label="Search button">
+  
+
+    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+
+
+
+</button>
+
+<div id="search-container" data-url="//localhost:1313/">
+  <div class="search">
+    <div class="panel">
+      <form>
+        
+
+    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+
+
+
+        <input type="search" id="search-query" placeholder="Search" tabindex=0 autocomplete="off"/>
+        <button id="search-close" title="Cancel (ESC)">
+          
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+
+
+
+        </button>
+      </form>
+    </div>
+    <ul id="search-results">
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </ul>
+  </div>
+</div>
+
     
     <button id="theme-switcher" class="menu-btn" aria-label="Theme switcher">
       <div id="moon">
@@ -232,8 +339,11 @@
 
 
 
+
+
+
 <ul class="breadcrumbs">
-  <li><a href="http://localhost:1313/">
+  <li><a href="//localhost:1313/">
 
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="currentColor" d="M575.8 255.5c0 18-15 32.1-32 32.1l-32 0 .7 160.2c0 2.7-.2 5.4-.5 8.1l0 16.2c0 22.1-17.9 40-40 40l-16 0c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1L416 512l-24 0c-22.1 0-40-17.9-40-40l0-24 0-64c0-17.7-14.3-32-32-32l-64 0c-17.7 0-32 14.3-32 32l0 64 0 24c0 22.1-17.9 40-40 40l-24 0-31.9 0c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2l-16 0c-22.1 0-40-17.9-40-40l0-112c0-.9 0-1.9 .1-2.8l0-69.7-32 0c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z"/></svg>
 
@@ -242,7 +352,7 @@
   
     
     
-      <li><a href="http://localhost:1313/tech/">Teches</a></li>
+      <li><a href="//localhost:1313/tech/">Teches</a></li>
     
     
   
@@ -434,7 +544,35 @@ Sebagai info, saya meng-<em>install</em> Conky di Debian 12 (Bookworm).</p>
 <p>Berikutnya, setelah proses instalasi selesai, kita hanya perlu menjalankan perintah berikut untuk menampilkan Conky pada layar desktop linux kita:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>conky
 </span></span></code></pre></div><p>Di bawah ini adalah Conky yang sedang berjalan dengan konfigurasi default:
-<img loading="lazy" src="/conky/ss1.png" alt="ss1"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Dan kita hanya perlu menekan <code>Ctrl+c</code> untuk me-non-aktifkan Conky.</p>
 
@@ -454,7 +592,35 @@ Sebagai info, saya meng-<em>install</em> Conky di Debian 12 (Bookworm).</p>
 <p>Sekarang, kita akan mencoba melakukan modifikasi sederhana pada konfigurasi Conky. Kita bisa mencari file config-nya dengan perintah:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>whereis conky
 </span></span><span style="display:flex;"><span>cd /etc/conky
-</span></span></code></pre></div><p><img loading="lazy" src="/conky/ss2.png" alt="ss2"  />
+</span></span></code></pre></div><p>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Yup, file konfigurasi Conky terletak di <code>/etc/conky/conky.conf</code>. Berikut isi filenya:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>-- Conky, a system monitor https://github.com/brndnmtthws/conky
@@ -571,7 +737,35 @@ Sebagai info, saya meng-<em>install</em> Conky di Debian 12 (Bookworm).</p>
 </span></span><span style="display:flex;"><span><span style="color:#e6db74">${</span>alignc<span style="color:#e6db74">}${</span>color white<span style="color:#e6db74">}${</span>time %H:%M<span style="color:#e6db74">}</span>
 </span></span><span style="display:flex;"><span><span style="color:#f92672">]]</span>
 </span></span></code></pre></div><p>Hasilnya:
-<img loading="lazy" src="/conky/ss3.png" alt="ss3"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Sangat mudah, bukan?</p>
 
@@ -591,7 +785,35 @@ Sebagai info, saya meng-<em>install</em> Conky di Debian 12 (Bookworm).</p>
 </p>
 <p>Kemudian, kita bisa memilih tema yang ingin kita gunakan. Kebetulan saya juga mengunduh dan menggunakan salah satu tema dari sana, yaitu tema <a href="https://www.gnome-look.org/p/2092022" target="_blank"><strong>Sargas</strong></a>
 . Kita akan gunakan yang MPD.
-<img loading="lazy" src="/conky/ss4.png" alt="ss4"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Unzip, kemudian pindahkan folder Sargas-nya ke <code>~/.config/conky/</code>:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>unzip Sargas-MpdC-v1.9.zip
@@ -599,7 +821,35 @@ Sebagai info, saya meng-<em>install</em> Conky di Debian 12 (Bookworm).</p>
 </span></span></code></pre></div><p>Kalau saya coba jalankan&hellip;</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>cd Sargas
 </span></span><span style="display:flex;"><span>conky -c Sargas.conf
-</span></span></code></pre></div><p><img loading="lazy" src="/conky/ss5.png" alt="ss5"  />
+</span></span></code></pre></div><p>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Masih perlu sedikit polesan.</p>
 <p>Apa saja yang masih perlu kita lakukan?</p>
@@ -623,7 +873,35 @@ Sebagai info, saya meng-<em>install</em> Conky di Debian 12 (Bookworm).</p>
   
 </h3>
 <p>Setidaknya, kita akan menginstall 2 fonts: <strong>Bebas Neue</strong> &amp; <strong>Carlito</strong>.<br>
-<img loading="lazy" src="/conky/ss6.png" alt="ss6"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Kalian bisa mengunduhnya di sini:<br>
 <strong>Bebas Neue Font:</strong> <a href="https://www.dafont.com/bebas-neue.font" target="_blank">https://www.dafont.com/bebas-neue.font</a>
@@ -649,7 +927,35 @@ Sebagai info, saya meng-<em>install</em> Conky di Debian 12 (Bookworm).</p>
   
 </h3>
 <p>Kembali ke file config-nya di <code>~/.config/conky/Sargas/Sargas.conf</code>, kemudian ubah nilai <code>false</code> dari variabel <em><strong>own_window_argb_visual</strong></em> ke <code>true</code>:
-<img loading="lazy" src="/conky/ss7.png" alt="ss7"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 
 <h3 id="3-menyesuaikan-kota--cuaca">
@@ -664,16 +970,100 @@ Sebagai info, saya meng-<em>install</em> Conky di Debian 12 (Bookworm).</p>
   
 </h3>
 <p>Untuk menyesuaikan kota dan cuaca, kita beralih ke file config berikutnya, yaitu <code>~/.config/conky/Sargas/scripts/weather-v2.0.sh</code>. Kita bisa mengganti nilai dari variabel <code>city</code> ke kota yang kita inginkan.
-<img loading="lazy" src="/conky/ss8.png" alt="ss8"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Kode kota-nya bisa kita peroleh dari website:<br>
 <a href="https://openweathermap.org/find" target="_blank">https://openweathermap.org/find</a>
 </p>
 <p>Misalnya, saya mau mengganti kota ke Bali. Ketika melakukan pencarian &ldquo;Bali&rdquo;, akan muncul beberapa saran. Tentu saja kita akan pilih Bali yang di Indonesia:
-<img loading="lazy" src="/conky/ss9.png" alt="ss9"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Nah, kode kotanya akan muncul pada url-nya:
-<img loading="lazy" src="/conky/ss10.png" alt="ss10"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Kode kota tersebutlah yang kita inputkan pada variabel <code>city</code> di script <code>~/.config/conky/Sargas/scripts/weather-v2.0.sh</code>.</p>
 
@@ -717,10 +1107,66 @@ sudo dnf install mpd mpc -&gt; Fedora-based distro
 <p>Pertama-tama, saya akan mengganti nilai variavel <code>color1</code> ke warna hijau, kemudian membuat variabel warna baru, yaitu <code>color2</code> untuk warna pink:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>  color1 <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;#00ff21&#39;</span>, 
 </span></span><span style="display:flex;"><span>  color2 <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;#ff5ce6&#39;</span>, 
-</span></span></code></pre></div><p><img loading="lazy" src="/conky/ss11.png" alt="ss11"  />
+</span></span></code></pre></div><p>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Kemudian menambahkan parameter warna tersebut ke conky teks:
-<img loading="lazy" src="/conky/ss12.png" alt="ss12"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Terakhir, untuk mengganti warna pada indikator CPU, RAM, dan Disk, kita akan beralih ke file config lainnya, yaitu <code>~/.config/conky/Sargas/scripts/lua/rings-v1.2.1.lua</code>, lalu ganti setiap nilai dari variabel <code>fg_colour</code> ke warna biru muda:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>fg_colour<span style="color:#f92672">=</span>0x00ffff
@@ -729,7 +1175,35 @@ sudo dnf install mpd mpc -&gt; Fedora-based distro
 Pastikan variabel <code>fg_colour</code>-nya ada 4, menyesuaikan dengan jumlah lingkarannya juga :v.</p>
 </blockquote>
 <p>Sekarang, saya akan putar musik dari Quod Libet dan beginilah hasil Congky-nya!!!
-<img loading="lazy" src="/conky/ss13.png" alt="ss13"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 
 <h2 id="finishing">
@@ -747,11 +1221,67 @@ Pastikan variabel <code>fg_colour</code>-nya ada 4, menyesuaikan dengan jumlah l
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>conky -c ~/.config/conky/Sargas/Sargas.conf &amp;
 </span></span></code></pre></div><p>Tapi, jika kita ingin agar Conky bisa langsung berjalan tepat setelah login, kita tentu akan sangat malas jika harus mengetikkan perintah di atas berulang-ulang setiap login di komputer. Oleh karena itu, kita bisa mengaturnya (pada artikel ini saya hanya tunjukkan di XFCE).</p>
 <p>Pertama, pergi ke setting <strong>Session and Startup</strong> -&gt; <strong>Application Autostart</strong> -&gt; <strong>Add</strong>, kemudian masukkan nama, deskripsi (opsional), dan <em>command</em>-nya. Pastikan memasukkan command conky yang langsung mengarah ke file config Sargas, <code>conky -c ~/.config/conky/Sargas/Sargas.conf</code>.
-<img loading="lazy" src="/conky/ss14.png" alt="ss14"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Klik <strong>Ok</strong>.</p>
 <p>Pastikan pengaturan Autostart Conky-nya sudah terceklis.
-<img loading="lazy" src="/conky/ss15.png" alt="ss15"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>SELESAIII!!</p>
 <p>Mudah? Bukan main mudahnya dong~</p>
@@ -766,7 +1296,35 @@ Berikut spek dan tangkapan layarnya:<br>
 <strong>DE:</strong> XFCE<br>
 <strong>Tema:</strong> Needy Girl Overdose<br>
 <strong>Icon:</strong> Tela Circle</p>
-<p><img loading="lazy" src="/conky/my-desktop.jpg" alt="my-desktop"  />
+<p>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Tipikal desktop emak-emak muda yang demen masak dan nulis wkwkwk.</p>
 <div class="footnotes" role="doc-endnotes">

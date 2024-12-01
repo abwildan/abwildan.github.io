@@ -17,7 +17,7 @@
   <meta name="description" content="A Hugo Theme" />
   
   <meta name="keywords" content="Rstudio, programming, R, " />
-  <link rel="canonical" href="http://localhost:1313/tech/rstudio-basic/" />
+  <link rel="canonical" href="//localhost:1313/tech/rstudio-basic/" />
 
   
 
@@ -42,6 +42,10 @@
 
 
   
+
+
+
+  
     
         <script src="/js/theme.js"></script>
       
@@ -51,6 +55,13 @@
   
     
         <script src="/js/codecopy.js"></script>
+      
+    
+  
+
+  
+    
+        <script src="/js/search.js"></script>
       
     
   
@@ -65,11 +76,13 @@
     <link rel="manifest" href="/site.webmanifest" />
   
 
-  <meta property="og:url" content="http://localhost:1313/tech/rstudio-basic/">
+  <meta property="og:url" content="//localhost:1313/tech/rstudio-basic/">
   <meta property="og:site_name" content="Wildan&#39;s Workspace">
   <meta property="og:title" content="RStudio Basic: From Installation to Data Visualization">
   <meta property="og:description" content="Hola!
-RStudio menurut saya adalah software keren untuk mengolah data menggunakan bahasa R. Jadi, saya memutuskan untuk membahasnya di artikel ini.">
+RStudio menurut saya adalah software keren untuk mengolah data menggunakan bahasa R. Jadi, saya memutuskan untuk membahasnya di artikel ini. Tapi, sebagaimana judulnya, saya hanya akan memberikan overview tentang RStudio secara singkat.
+Beberapa hal yang akan saya bahas dari Rstudio di artikel ini terbagi ke dalam 6 bagian:
+What is R &amp; RStudio? Why R &amp; RStudio1 R &amp; RStudio Installation RStudio Interface Introduction Installing Packages (tidyverse &amp; palmerpenguins) Playing with Data 1.">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="tech">
@@ -83,7 +96,9 @@ RStudio menurut saya adalah software keren untuk mengolah data menggunakan bahas
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="RStudio Basic: From Installation to Data Visualization">
   <meta name="twitter:description" content="Hola!
-RStudio menurut saya adalah software keren untuk mengolah data menggunakan bahasa R. Jadi, saya memutuskan untuk membahasnya di artikel ini.">
+RStudio menurut saya adalah software keren untuk mengolah data menggunakan bahasa R. Jadi, saya memutuskan untuk membahasnya di artikel ini. Tapi, sebagaimana judulnya, saya hanya akan memberikan overview tentang RStudio secara singkat.
+Beberapa hal yang akan saya bahas dari Rstudio di artikel ini terbagi ke dalam 6 bagian:
+What is R &amp; RStudio? Why R &amp; RStudio1 R &amp; RStudio Installation RStudio Interface Introduction Installing Packages (tidyverse &amp; palmerpenguins) Playing with Data 1.">
 
 
   
@@ -94,6 +109,19 @@ RStudio menurut saya adalah software keren untuk mengolah data menggunakan bahas
 
 
 
+
+  
+  
+    <script
+      defer
+      type="text/javascript"
+      src="/lib/fuse/fuse.min.1ab2783fdcab6ba75fb69e4ed1e68a14a4b8721d45627d7147f5421d020c24ed4b36a70a8639009001131d8a04f3515f87706308931603f0194983f9db58f114.js"
+      integrity="sha512-GrJ4P9yra6dftp5O0eaKFKS4ch1FYn1xR/VCHQIMJO1LNqcKhjkAkAETHYoE81Ffh3BjCJMWA/AZSYP521jxFA=="
+    ></script>
+  
+
+
+
   
   
 
@@ -105,10 +133,7 @@ RStudio menurut saya adalah software keren untuk mengolah data menggunakan bahas
   
 
   
-  
-  
-    <link rel="preload" href="http://localhost:1313/fonts/Ubuntu-Regular.woff2" as="font" type="font/woff2" crossorigin>
-  
+  <link rel="preload" href="//localhost:1313/fonts/Ubuntu-Regular.woff2" as="font" type="font/woff2" crossorigin>
 
   
 
@@ -132,7 +157,43 @@ RStudio menurut saya adalah software keren untuk mengolah data menggunakan bahas
       <header>
     
     <a class="title" href="/">
-      <img alt="Site Logo" src="/tsukasa.png" />
+      
+      
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+    <img loading="lazy" 
+    
+      
+        src="/tsukasa_hu17823179094668833204.png"
+      
+    
+      alt="Site Logo" />
+  
+
+
+
+
     </a>
     
     <div class="header-cntr">
@@ -158,6 +219,52 @@ RStudio menurut saya adalah software keren untuk mengolah data menggunakan bahas
     </ul>
   </nav>
     <div class="side-menu">
+    
+<button id="search-open" class="menu-btn" aria-label="Search button">
+  
+
+    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+
+
+
+</button>
+
+<div id="search-container" data-url="//localhost:1313/">
+  <div class="search">
+    <div class="panel">
+      <form>
+        
+
+    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+
+
+
+        <input type="search" id="search-query" placeholder="Search" tabindex=0 autocomplete="off"/>
+        <button id="search-close" title="Cancel (ESC)">
+          
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+
+
+
+        </button>
+      </form>
+    </div>
+    <ul id="search-results">
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </ul>
+  </div>
+</div>
+
     
     <button id="theme-switcher" class="menu-btn" aria-label="Theme switcher">
       <div id="moon">
@@ -235,8 +342,11 @@ RStudio menurut saya adalah software keren untuk mengolah data menggunakan bahas
 
 
 
+
+
+
 <ul class="breadcrumbs">
-  <li><a href="http://localhost:1313/">
+  <li><a href="//localhost:1313/">
 
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="currentColor" d="M575.8 255.5c0 18-15 32.1-32 32.1l-32 0 .7 160.2c0 2.7-.2 5.4-.5 8.1l0 16.2c0 22.1-17.9 40-40 40l-16 0c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1L416 512l-24 0c-22.1 0-40-17.9-40-40l0-24 0-64c0-17.7-14.3-32-32-32l-64 0c-17.7 0-32 14.3-32 32l0 64 0 24c0 22.1-17.9 40-40 40l-24 0-31.9 0c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2l-16 0c-22.1 0-40-17.9-40-40l0-112c0-.9 0-1.9 .1-2.8l0-69.7-32 0c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z"/></svg>
 
@@ -245,7 +355,7 @@ RStudio menurut saya adalah software keren untuk mengolah data menggunakan bahas
   
     
     
-      <li><a href="http://localhost:1313/tech/">Teches</a></li>
+      <li><a href="//localhost:1313/tech/">Teches</a></li>
     
     
   
@@ -435,7 +545,35 @@ Disclaimer dulu, di artikel ini, saya hanya akan membahas cara meng-<em>install<
 <li>Kemudian, kita bisa mengunduh package file-nya yang berekstensi <code>.deb</code> di <a href="https://posit.co/download/rstudio-desktop/" target="_blank">RStudio Download di sini</a>
 .</li>
 </ol>
-<p><img loading="lazy" src="/rstudio-basic/ss1.png" alt="ss1"  />
+<p>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 
 Karena saya menggunakan Debian 12 (bookworm), maka saya memilih yang Ubuntu 22/Debian 12. Silakan disesuaikan dengan distribusi linux kalian.</p>
 <blockquote>
@@ -468,7 +606,35 @@ Karena saya menggunakan Debian 12 (bookworm), maka saya memilih yang Ubuntu 22/D
   
 </h2>
 <p>Setelah terpasang, kita bisa membuka RStudio yang kira-kira tampilan awalnya seperti ini:
-<img loading="lazy" src="/rstudio-basic/ss2.png" alt="ss2"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Di bagian pertama, ada 3 sub-window, yaitu<sup id="fnref:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup>:</p>
 <ul>
@@ -493,7 +659,35 @@ Karena saya menggunakan Debian 12 (bookworm), maka saya memilih yang Ubuntu 22/D
 <li><strong>Presentation:</strong> Menyediakan alat untuk membuat presentasi di RMarkdown atau memvisualisasikan presentasi yang sudah ada. Kita dapat membuat, menyunting, dan menjalankan presentasi langsung dari RStudio.</li>
 </ul>
 <p>Ketika kita ingin menampilkan dataframe, maka dataframe tersebut juga akan muncul di bagian kiri seperti berikut:
-<img loading="lazy" src="/rstudio-basic/gif1.gif" alt="gif1"  title="View-ing penguins dataframe in RStudio"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<figure>
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+<figcaption>View-ing penguins dataframe in RStudio</figcaption></figure>
+
 </p>
 
 <h2 id="5-installing-packages-tidyverse--palmerpenguins">
@@ -626,12 +820,68 @@ Kita bisa melihat informasi atau deskripsi dari sebuah paket atau library dengan
 </span></span></code></pre></div><blockquote>
 <p><strong>Note:</strong> R adalah bahasa yang <em>case-sensitive</em>. Artinya, akan berbeda hasilnya jika kita menggunakan fungsi <code>view()</code> dan fungsi <code>View()</code>. Jadi, perhatikan penulisannya!</p>
 </blockquote>
-<p><img loading="lazy" src="/rstudio-basic/ss3.png" alt="ss3"  />
+<p>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Seperti terlihat pada tangkapan layar di atas, dataset <strong>penguins</strong> berhasil ditampilkan. Pada bagian pojok kiri bawah, kita juga dapat melihat informasi mengenai jumlah data yang terdapat dalam dataset tersebut (baris dan kolom).</p>
 <p>Atau kalau kita ingin melihat informasi sebuah dataset tanpa harus menampilkan isinya, kita bisa menggunakan fungsi <code>glimpse()</code> di console:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-R" data-lang="R"><span style="display:flex;"><span><span style="color:#a6e22e">glimpse</span>(penguins)
-</span></span></code></pre></div><p><img loading="lazy" src="/rstudio-basic/ss4.png" alt="ss4"  />
+</span></span></code></pre></div><p>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <p>Informasi yang ditampilkan juga merupakan informasi yang sama, yaitu tentang jumlah baris dan kolom, berikut juga nama dari masing-masing kolom yang terdapat pada tabel dataset yang kita ingin ketahui (dalam hal ini adalah dataset <strong>penguins</strong>). Berdasarkan informasi tersebut, kita dapat mengetahui bahwa dataset <strong>penguins</strong> memiliki 344 baris atau bisa kita asumsikan juga bahwa terdapat <em><strong>344 penguin</strong></em> yang tercatat dan 8 kolom berupa informasi mengenai penguin-penguin tersebut yang terdiri dari <em><strong>species</strong></em>, <em><strong>island</strong></em>, <em><strong>bill_length_mm</strong></em>, <em><strong>bill_depth_mm</strong></em>, <em><strong>flipper_length_mm</strong></em>, <em><strong>body_mass_g</strong></em>, <em><strong>sex</strong></em>, dan <em><strong>year</strong></em>.</p>
 
@@ -664,7 +914,35 @@ Misalnya: Hubungan antara panjang paruh dan panjang sirip penguin.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-R" data-lang="R"><span style="display:flex;"><span><span style="color:#a6e22e">ggplot</span>(data <span style="color:#f92672">=</span> penguins, <span style="color:#a6e22e">aes</span>(x <span style="color:#f92672">=</span> bill_length_mm, y <span style="color:#f92672">=</span> flipper_length_mm, color<span style="color:#f92672">=</span>species)) <span style="color:#f92672">+</span>
 </span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">geom_point</span>()
 </span></span></code></pre></div><p>Hasilnya:
-<img loading="lazy" src="/rstudio-basic/ss5.png" alt="ss5"  title="Scatter Plot hubungan antara panjang paruh dan panjang sirip penguin"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<figure>
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+<figcaption>Scatter Plot hubungan antara panjang paruh dan panjang sirip penguin</figcaption></figure>
+
 </p>
 
 <h4 id="2-histogram">
@@ -683,7 +961,35 @@ Misalnya: Distribusi panjang paruh penguin.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-R" data-lang="R"><span style="display:flex;"><span><span style="color:#a6e22e">ggplot</span>(data <span style="color:#f92672">=</span> penguins, <span style="color:#a6e22e">aes</span>(x <span style="color:#f92672">=</span> bill_length_mm)) <span style="color:#f92672">+</span>
 </span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">geom_histogram</span>(binwidth <span style="color:#f92672">=</span> <span style="color:#ae81ff">2</span>, fill <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;skyblue&#34;</span>, color <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;black&#34;</span>)
 </span></span></code></pre></div><p>Hasilnya:
-<img loading="lazy" src="/rstudio-basic/ss6.png" alt="ss6"  title="Histogram distribusi frekuensi panjang paruh penguin"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<figure>
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+<figcaption>Histogram distribusi frekuensi panjang paruh penguin</figcaption></figure>
+
 </p>
 
 <h4 id="3-bar-plot">
@@ -702,7 +1008,35 @@ Misalnya: Jumlah penguin berdasarkan spesiesnya.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-R" data-lang="R"><span style="display:flex;"><span><span style="color:#a6e22e">ggplot</span>(data <span style="color:#f92672">=</span> penguins, <span style="color:#a6e22e">aes</span>(x <span style="color:#f92672">=</span> species, fill <span style="color:#f92672">=</span> species)) <span style="color:#f92672">+</span>
 </span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">geom_bar</span>()
 </span></span></code></pre></div><p>Hasilnya:
-<img loading="lazy" src="/rstudio-basic/ss7.png" alt="ss7"  title="Bar Plot jumlah penguin berdasarkan spesiesnya"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<figure>
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+<figcaption>Bar Plot jumlah penguin berdasarkan spesiesnya</figcaption></figure>
+
 </p>
 
 <h4 id="4-box-plot">
@@ -721,7 +1055,35 @@ Misalnya: Distribusi panjang paruh penguin berdasarkan spesiesnya.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-R" data-lang="R"><span style="display:flex;"><span><span style="color:#a6e22e">ggplot</span>(data <span style="color:#f92672">=</span> penguins, <span style="color:#a6e22e">aes</span>(x <span style="color:#f92672">=</span> species, y <span style="color:#f92672">=</span> bill_length_mm, fill <span style="color:#f92672">=</span> species)) <span style="color:#f92672">+</span>
 </span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">geom_boxplot</span>()
 </span></span></code></pre></div><p>Hasilnya:
-<img loading="lazy" src="/rstudio-basic/ss8.png" alt="ss8"  title="Box Plot distribusi panjang paruh penguin berdasarkan spesiesnya"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<figure>
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+<figcaption>Box Plot distribusi panjang paruh penguin berdasarkan spesiesnya</figcaption></figure>
+
 </p>
 
 <h4 id="5-line-plot">
@@ -748,7 +1110,35 @@ Misalnya: Perubahan berat badan penguin dari waktu ke waktu.</p>
 </span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">labs</span>(x <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Tahun&#34;</span>, y <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Rata-Rata Berat Badan (g)&#34;</span>, title <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Perubahan Rata-Rata Berat Badan Penguin per Tahun&#34;</span>) <span style="color:#f92672">+</span>
 </span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">theme_minimal</span>()
 </span></span></code></pre></div><p>Hasilnya:
-<img loading="lazy" src="/rstudio-basic/ss9.png" alt="ss9"  title="Line Plot perubahan berat badan penguin dari waktu ke waktu"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<figure>
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+<figcaption>Line Plot perubahan berat badan penguin dari waktu ke waktu</figcaption></figure>
+
 </p>
 
 <h4 id="6-pie-chart">
@@ -781,7 +1171,35 @@ Misalnya: Perbandingan jumlah spesies penguin.</p>
 </span></span><span style="display:flex;"><span>pie <span style="color:#f92672">+</span>
 </span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">geom_text</span>(<span style="color:#a6e22e">aes</span>(label <span style="color:#f92672">=</span> <span style="color:#a6e22e">paste0</span>(<span style="color:#a6e22e">round</span>(percent), <span style="color:#e6db74">&#34;%&#34;</span>)), position <span style="color:#f92672">=</span> <span style="color:#a6e22e">position_stack</span>(vjust <span style="color:#f92672">=</span> <span style="color:#ae81ff">0.5</span>))
 </span></span></code></pre></div><p>Hasilnya:
-<img loading="lazy" src="/rstudio-basic/ss10.png" alt="ss10"  title="Pie Chart persentase spesies penguin"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<figure>
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+<figcaption>Pie Chart persentase spesies penguin</figcaption></figure>
+
 </p>
 <p>Sekian dulu untuk pembahasan RStudio Basic-nya. Kalau kalian ingin tahu lebih jauh tentang visualisasi di R dan RStudio, saya sarankan untuk membaca-baca lebih banyak, seperti misalnya pada artikel berikut: <a href="https://rpubs.com/alfanugraha/r-graph" target="_blank">https://rpubs.com/alfanugraha/r-graph</a>
 . Artikel tersebut membahas lebih dalam mengenai visualisasi dan grafik di R, mulai dari grafik dasar dengan fungsi <code>plot()</code>, <code>ggplot2()</code>, dan <code>ggplot()</code>, bahkan penerapan visualisasi spasial seperti peta.</p>
@@ -789,7 +1207,35 @@ Misalnya: Perbandingan jumlah spesies penguin.</p>
 See ya!</p>
 <hr>
 <p><em>By the way</em>, artikel ini saya buat dengan tampilan <strong>Debian Desktop XFCE</strong>:<br>
-<img loading="lazy" src="/rstudio-basic/debian_buuf.png" alt="debian_buuf"  />
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+  
+
+
+
+
 </p>
 <div class="footnotes" role="doc-endnotes">
 <hr>

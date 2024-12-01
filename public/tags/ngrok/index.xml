@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Ngrok on Wildan&#39;s Workspace</title>
-    <link>http://localhost:1313/tags/ngrok/</link>
+    <link>//localhost:1313/tags/ngrok/</link>
     <description>Recent content in Ngrok on Wildan&#39;s Workspace</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- 0.133.1</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 02 Apr 2024 17:30:12 +0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/ngrok/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/ngrok/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ngrok - Make Your localhost Accessible Publicly</title>
-      <link>http://localhost:1313/tech/ngrok/</link>
+      <link>//localhost:1313/tech/ngrok/</link>
       <pubDate>Tue, 02 Apr 2024 17:30:12 +0700</pubDate>
-      <guid>http://localhost:1313/tech/ngrok/</guid>
-      <description>Ngrok? Ngrok bagi sebagian orang mungkin sudah faniliar karena sering digunakan untuk berbagai kebutuhan. Tapi, bagi yang belum tahu, ngrok secara sederhana dapat didefinisikan sebagai aplikasi yang memungkinkan kita untuk mem-publish server lokal kita di localhost ke publik dengan aman.</description>
+      <guid>//localhost:1313/tech/ngrok/</guid>
+      <description>Ngrok? Ngrok bagi sebagian orang mungkin sudah faniliar karena sering digunakan untuk berbagai kebutuhan. Tapi, bagi yang belum tahu, ngrok secara sederhana dapat didefinisikan sebagai aplikasi yang memungkinkan kita untuk mem-publish server lokal kita di localhost ke publik dengan aman. Artinya, service seperti misalnya web di localhost (http) atau bahkan SSH dan RDP dapat diakses di luar jaringan secara aman melalui bantuan dari Ngrok ini. Untuk detail teknisnya sebentar lagi kita akan lihat demonya.</description>
     </item>
   </channel>
 </rss>

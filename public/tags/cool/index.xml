@@ -1,19 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Cool on Wildan&#39;s Workspace</title>
-    <link>http://localhost:1313/tags/cool/</link>
+    <link>//localhost:1313/tags/cool/</link>
     <description>Recent content in Cool on Wildan&#39;s Workspace</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- 0.133.1</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 09 Jun 2024 16:59:47 +0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/cool/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/cool/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cool Terminal Tools You Should Know</title>
-      <link>http://localhost:1313/tech/cooltools/</link>
+      <link>//localhost:1313/tech/cooltools/</link>
       <pubDate>Sun, 09 Jun 2024 16:59:47 +0700</pubDate>
-      <guid>http://localhost:1313/tech/cooltools/</guid>
-      <description>Yoo, jumpa lagi!&#xA;Saya mau berbagi sejumlah tools terminal yang sayang jika dilewatkan, apalagi bagi kalian guys, linux nerds. Sebagian besar (atau mungkin semuanya) tools yang akan saya share di artikel ini murni for fun.</description>
+      <guid>//localhost:1313/tech/cooltools/</guid>
+      <description>Yoo, jumpa lagi!
+Saya mau berbagi sejumlah tools terminal yang sayang jika dilewatkan, apalagi bagi kalian guys, linux nerds. Sebagian besar (atau mungkin semuanya) tools yang akan saya share di artikel ini murni for fun. Jadi, memang fungsinya hanya untuk show off kecantikan terminal. But, anyway, berikut adalah 9 terminal tools keren yang bisa kalian coba:
+1. cava Cava adalah cross-platform audio visualizer.
+Github: https://github.com/karlstav/cava Instalasi (Archlinux) via repositori komunitas (AUR - Arch User Repository):</description>
     </item>
   </channel>
 </rss>

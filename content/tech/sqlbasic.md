@@ -298,6 +298,26 @@ DROP database cobachess;
 
 ![ss16](/sqlbasic/ss16.png "Menghapus database")
 
+### Mengubah Nama Tabel
+
+Kita juga bisa mengganti nama tabelnya dengan syntax berikut:
+
+```sql
+RENAME TABLE nama_tabel_lama TO nama_tabel_baru;
+```
+
+Misalnya, saya ingin mengubah tabel **Chess Grandmaster** ke **chessgrandmaster**, maka perintahnya adalah sebagai berikut:
+
+```sql
+RENAME TABLE `Chess Grandmaster` TO chessgrandmaster;
+```
+
+![ss32](/sqlbasic/ss32.png "Mengganti nama tabel")
+
+> **Notes:**  
+> Jangan lupa untuk mengambahkan *backticks* ( **`** ) jika nama tabelnya memiliki spasi. 
+
+
 ### Menambahkan Data Ke Dalam Tabel
 
 Sekarang, kita akan memasukkan data-data Grandmaster Catur ke dalam tabel **"Chess Grandmaster"** yang ada di dalam database **"chessgm"**. Misalnya, saya hanya akan memasukkan top 10 elo rating GM berdasarkan rangking [FIDE](https://ratings.fide.com/) per artikel ini dibuat. 

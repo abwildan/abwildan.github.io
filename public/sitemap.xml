@@ -2,13 +2,73 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2024-11-07T10:39:37+07:00</lastmod>
+    <lastmod>2024-11-19T16:28:36+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2024-11-07T10:39:37+07:00</lastmod>
+    <lastmod>2024-11-19T16:28:36+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/dashboard/</loc>
+    <lastmod>2024-11-19T16:28:36+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/data/</loc>
+    <lastmod>2024-11-19T16:28:36+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/data-analytics/</loc>
+    <lastmod>2024-11-19T16:28:36+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/kaggle/</loc>
+    <lastmod>2024-11-19T16:28:36+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/tableau/</loc>
+    <lastmod>2024-11-19T16:28:36+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/categories/tableau/</loc>
+    <lastmod>2024-11-19T16:28:36+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tech/tableau-basics/</loc>
+    <lastmod>2024-11-19T16:28:36+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-11-19T16:28:36+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tech/</loc>
+    <lastmod>2024-11-19T16:28:36+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/visualization/</loc>
+    <lastmod>2024-11-19T16:28:36+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -67,12 +127,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2024-11-07T10:39:37+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://localhost:1313/tags/exa/</loc>
     <lastmod>2024-11-06T21:45:18+07:00</lastmod>
     <changefreq>daily</changefreq>
@@ -98,12 +152,6 @@
   </url>
   <url>
     <loc>http://localhost:1313/tags/ls/</loc>
-    <lastmod>2024-11-06T21:45:18+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/tech/</loc>
     <lastmod>2024-11-06T21:45:18+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -1017,12 +1065,6 @@
   <url>
     <loc>http://localhost:1313/tags/screen-recorder/</loc>
     <lastmod>2024-03-08T14:55:26+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/tags/data-analysis/</loc>
-    <lastmod>2024-01-06T02:26:47-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

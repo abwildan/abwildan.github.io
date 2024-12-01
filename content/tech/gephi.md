@@ -6,7 +6,7 @@ cover:
   image: "/gephi/ss51.png"
   alt: ''
   caption: ""
-tags: ["gephi", "data analysis"]
+tags: ["gephi", "data analytics", "data", "visualization"]
 categories: ["gephi"]
 ---
 

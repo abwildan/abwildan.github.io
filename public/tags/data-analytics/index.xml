@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Analytics on Wildan&#39;s Workspace</title>
+    <link>http://localhost:1313/tags/data-analytics/</link>
+    <description>Recent content in Data Analytics on Wildan&#39;s Workspace</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 19 Nov 2024 16:28:36 +0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/data-analytics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tableau Public Basics: Creating A Simple Dashboard</title>
+      <link>http://localhost:1313/tech/tableau-basics/</link>
+      <pubDate>Tue, 19 Nov 2024 16:28:36 +0700</pubDate>
+      <guid>http://localhost:1313/tech/tableau-basics/</guid>
+      <description>This article shares about 3 popular tactics in chess, which are Double Attack, Discovered Attack, and Removing The Defender</description>
+    </item>
+    <item>
+      <title>Gephi - Actor(s) Centrality</title>
+      <link>http://localhost:1313/tech/gephi/</link>
+      <pubDate>Sat, 06 Jan 2024 02:26:47 -0500</pubDate>
+      <guid>http://localhost:1313/tech/gephi/</guid>
+      <description>Halo! Kali ini kita akan belajar tentang penggunaan salah satu software yang biasa digunakan untuk melakukan analisis data pada ilmu-ilmu sosial, khususnya pada diskusi atau kajian mengenai Social Network Analysis (SNA).</description>
+    </item>
+  </channel>
+</rss>

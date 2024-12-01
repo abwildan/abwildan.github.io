@@ -6,7 +6,7 @@ cover:
   image: "/rstudio-basic/cover.png"
   alt: "Rstudio"
   caption: "Rstudio"
-tags: ["Rstudio", "programming", "R"]
+tags: ["Rstudio", "programming", "R", "data", "data visualization"]
 categories: ["Rstudio"]
 ---
 

@@ -2,7 +2,7 @@
 title: "Tableau Public Basics: Creating A Simple Dashboard"
 date: 2024-11-19T16:28:36+07:00
 draft: false
-summary: "This article shares about 3 popular tactics in chess, which are Double Attack, Discovered Attack, and Removing The Defender"
+summary: "Creating a dashboard is no longer that difficult. You are always able to create dashboard using Tableau Public. Here is the step by step of it."
 tags: ["tableau", "data analytics", "data", "visualization", "kaggle", "dashboard"]
 categories: "Tableau"
 ---

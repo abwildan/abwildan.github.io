@@ -4,7 +4,7 @@ date = 2024-08-16T08:03:25Z
 draft = false
 cover = ""
 summary = "Let's learn about SQL basic commands for databases."
-tags = [ "sql", "database", "linux" ]
+tags = [ "sql", "database", "linux", "data" ]
 categories = "sql"
 +++
 

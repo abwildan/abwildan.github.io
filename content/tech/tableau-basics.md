@@ -177,7 +177,7 @@ Selesai.
 
 {{< collapse summary="**[Opsional]:** Menambahkan Filter *Slicing* 💡" open=false >}}
 
-Berikut adalah langkah-langkah membuat filter *slicing*:
+Berikut adalah langkah-langkah membuat filter *slicing*[^2]:
 1. Klik menu **Dashboard** -> **Actions**.
 2. Pilih **Add Action** -> **Filter**.
 3. Beri nama **Slicing** dan pilih **"Select"** pada bagian **Run action on**.
@@ -193,6 +193,12 @@ Selesai
 
 {{< /collapse >}}
 
+### Publish Dahsboard
+
+Terakhir, jangan lupa klik **Publish** agar dashboardnya tersimpan sekaligus terpublikasi secara online sehingga orang lain juga dapat melihat dashboard yang sudah kalian buat!
+
+![ss3](/tableau-basic/ss6.png "Publish dashboard")
+
 Demikian tutorial membuat dashboard menggunakan Tableau!
 
 Terima kasih sudah mampir. Sampai ketemu di artikel-artikal saya yang lain!
@@ -200,6 +206,7 @@ Terima kasih sudah mampir. Sampai ketemu di artikel-artikal saya yang lain!
 
 
 [^1]: https://blog.bismart.com/en/what-is-a-dashboard-in-data-analytics-and-business-intelligence
+[^2]: https://www.youtube.com/watch?v=d_J2fWqCKgM
 
 
 

@@ -9,6 +9,6 @@ Welcome to <b> "My Awesome Site"! </b>
   lifeLike=true
 >}}
  Frankly, I am not a <mark> {hacker, programmer}</mark>.  
- I am just an ordinary <b><i> blogger that love <mark> linux</mark>.</i></b>
+ I am just an ordinary <b><i> blogger who love <mark> linux</mark>.</i></b>
 {{< /typeit >}}
 

@@ -1,23 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Rofi on Wildan&#39;s Workspace</title>
-    <link>//localhost:1313/tags/rofi/</link>
-    <description>Recent content in Rofi on Wildan&#39;s Workspace</description>
-    <generator>Hugo -- 0.133.1</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 04 May 2024 10:38:46 +0700</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/rofi/index.xml" rel="self" type="application/rss+xml" />
+    <title>Rofi on My Awesome Site</title>
+    <link>http://localhost:1313/tags/rofi/</link>
+    <description>Recent content in Rofi on My Awesome Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
+    <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
+    <copyright>© 2025 Wildan</copyright>
+    <lastBuildDate>Sat, 04 May 2024 10:38:46 +0700</lastBuildDate><atom:link href="http://localhost:1313/tags/rofi/index.xml" rel="self" type="application/rss+xml" />
+    
     <item>
       <title>Rofi - Beautiful &amp; Modern App Launcher</title>
-      <link>//localhost:1313/tech/rofi/</link>
+      <link>http://localhost:1313/tech/rofi/</link>
       <pubDate>Sat, 04 May 2024 10:38:46 +0700</pubDate>
-      <guid>//localhost:1313/tech/rofi/</guid>
-      <description>What is Rofi?
-Kenalan dengan Rofi Teman kalian mungkin ada yang namanya Rofi. Tapi, tentu saja artikel ini tidak sedang menggosipkan Rofi sebagai manusia, tapi Rofi sebagai sebuah program, xixi.
-Merujuk pada definisi official-nya, secara singkat, Rofi yang dimaksud dalam artikel ini adalah
-window switcher, run dialog and dmenu replacement rofi can act as an application launcher, window switcher, ssh launcher and dmenu replacement.
-Atau definisi dengan versi yang lebih komplit:</description>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tech/rofi/</guid>
+      <description></description>
+      
     </item>
+    
   </channel>
 </rss>

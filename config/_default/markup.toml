@@ -3,10 +3,11 @@
 
 [goldmark]
 [goldmark.renderer]
-unsafe = true
-[goldmark.extensions]
-[goldmark.extensions.passthrough]
-enable = true
-[goldmark.extensions.passthrough.delimiters]
-block = [['\[', '\]'], ['$$', '$$']]
-inline = [['\(', '\)']]
+  unsafe = true
+
+[highlight]
+  noClasses = false
+
+[tableOfContents]
+  startLevel = 2
+  endLevel = 4

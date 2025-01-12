@@ -1,162 +1,185 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Linux on Wildan&#39;s Workspace</title>
-    <link>//localhost:1313/tags/linux/</link>
-    <description>Recent content in Linux on Wildan&#39;s Workspace</description>
-    <generator>Hugo -- 0.133.1</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 06 Nov 2024 21:45:18 +0700</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <title>Linux on My Awesome Site</title>
+    <link>http://localhost:1313/tags/linux/</link>
+    <description>Recent content in Linux on My Awesome Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
+    <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
+    <copyright>© 2025 Wildan</copyright>
+    <lastBuildDate>Wed, 06 Nov 2024 21:45:18 +0700</lastBuildDate><atom:link href="http://localhost:1313/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    
     <item>
       <title>Exa-Eza as a Modern Replacement for ls</title>
-      <link>//localhost:1313/tech/exa/</link>
+      <link>http://localhost:1313/tech/exa/</link>
       <pubDate>Wed, 06 Nov 2024 21:45:18 +0700</pubDate>
-      <guid>//localhost:1313/tech/exa/</guid>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tech/exa/</guid>
       <description>Want to improve and modernize your ls appearance and functionality? This is the neo-ls..</description>
+      
     </item>
+    
     <item>
       <title>Increasing Virtual Machine Disk Size in Virtualbox</title>
-      <link>//localhost:1313/tech/updisk/</link>
+      <link>http://localhost:1313/tech/updisk/</link>
       <pubDate>Wed, 16 Oct 2024 16:51:19 +0700</pubDate>
-      <guid>//localhost:1313/tech/updisk/</guid>
-      <description>An easy tutorial on increasing Virtualbox VM disk size&hellip;</description>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tech/updisk/</guid>
+      <description>An easy tutorial on increasing Virtualbox VM disk size&amp;hellip;</description>
+      
     </item>
+    
     <item>
       <title>Configuring Kitty &amp; Bash</title>
-      <link>//localhost:1313/tech/kittyconfig/</link>
+      <link>http://localhost:1313/tech/kittyconfig/</link>
       <pubDate>Tue, 10 Sep 2024 10:53:50 +0700</pubDate>
-      <guid>//localhost:1313/tech/kittyconfig/</guid>
-      <description>How to configure kitty &amp; its shell (I use bash, btw) so it&rsquo;ll look charming&hellip;</description>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tech/kittyconfig/</guid>
+      <description>How to configure kitty &amp;amp; its shell (I use bash, btw) so it&amp;rsquo;ll look charming&amp;hellip;</description>
+      
     </item>
+    
     <item>
       <title>Chafa: Character Art Facsimile Generator</title>
-      <link>//localhost:1313/tech/chafa/</link>
+      <link>http://localhost:1313/tech/chafa/</link>
       <pubDate>Wed, 28 Aug 2024 16:39:26 +0700</pubDate>
-      <guid>//localhost:1313/tech/chafa/</guid>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tech/chafa/</guid>
       <description>Chafa is a command-line utility that converts image data, including animated GIFs, into graphics formats or ANSI/Unicode character art suitable for display in a terminal.</description>
+      
     </item>
+    
     <item>
       <title>Lazyvim: A neovim setup for the lazy-er(s)</title>
-      <link>//localhost:1313/tech/lazyvim/</link>
+      <link>http://localhost:1313/tech/lazyvim/</link>
       <pubDate>Sun, 18 Aug 2024 13:50:11 +0000</pubDate>
-      <guid>//localhost:1313/tech/lazyvim/</guid>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tech/lazyvim/</guid>
       <description>This is just my personal documentation of installing and using lazyvim as a blogger.</description>
+      
     </item>
+    
     <item>
       <title>SQL Basics - Installation to Basic Commands</title>
-      <link>//localhost:1313/tech/sqlbasic/</link>
+      <link>http://localhost:1313/tech/sqlbasic/</link>
       <pubDate>Fri, 16 Aug 2024 08:03:25 +0000</pubDate>
-      <guid>//localhost:1313/tech/sqlbasic/</guid>
-      <description>Let&rsquo;s learn about SQL basic commands for databases.</description>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tech/sqlbasic/</guid>
+      <description>Let&amp;rsquo;s learn about SQL basic commands for databases.</description>
+      
     </item>
+    
     <item>
       <title>Enhancing Your Linux Desktop with Conky</title>
-      <link>//localhost:1313/tech/conky/</link>
+      <link>http://localhost:1313/tech/conky/</link>
       <pubDate>Sat, 20 Jul 2024 11:16:26 +0700</pubDate>
-      <guid>//localhost:1313/tech/conky/</guid>
-      <description>Tentang Conky, meskipun terdengar seperti singkatan &ldquo;Pocong Pinky&rdquo;, sebetulnya adalah program monitor sistem untuk linux desktop1. Kalau merujuk pada repositori resminya di Github, Conky dinyatakan sebagai berikut:
-Conky is a free, light-weight system monitor for X, that displays any kind of information on your desktop2.
-Jadi, dapat disimpulkan bahwa Conky pada dasarnya adalah sebuah program untuk menampilkan monitoring sistem di layar desktop. Apa saja &ldquo;sistem&rdquo; yang bisa ditampilkan oleh Conky?</description>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tech/conky/</guid>
+      <description></description>
+      
     </item>
+    
     <item>
       <title>Log in to Your System with (Stunning) TTY</title>
-      <link>//localhost:1313/tech/tty/</link>
+      <link>http://localhost:1313/tech/tty/</link>
       <pubDate>Wed, 17 Jul 2024 15:06:15 +0700</pubDate>
-      <guid>//localhost:1313/tech/tty/</guid>
-      <description>About Login Interface &amp; TTY Ketika kita akan login ke sebuah sistem, kita biasanya disuguhkan interface untuk memasukkan kredensial login kita (username &amp; password), kan? Umumnya, interface yang biasa digunakan untuk login tersebut berbasis GUI (Graphical User Interface). Interface login berbasis GUI itulah yang kemudian dikenal (di komunitas linux, terutama) dengan istilah display manager1.
-Beberapa display manager yang populer digunakan misalnya ada sddm, lightdm, gdm, lxdm, dan masih banyak lagi.</description>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tech/tty/</guid>
+      <description></description>
+      
     </item>
+    
     <item>
       <title>A Feature Rich Command Line Audio/Video Downloader: YT-DLP</title>
-      <link>//localhost:1313/tech/yt-dlp/</link>
+      <link>http://localhost:1313/tech/yt-dlp/</link>
       <pubDate>Sun, 23 Jun 2024 00:49:55 -0400</pubDate>
-      <guid>//localhost:1313/tech/yt-dlp/</guid>
-      <description>What Is It? Apa yang akan kalian lakukan kalau mau mengunduh video Youtube?
-A. Mengunjungi website seperti savefrom, savetube, y2meta, ssyoutube, dll.
-B. Mengunduh aplikasi seperti MediaHuman, Open Video Downloader, dll.
-C. Memutar videonya via VLC Player.
-D. Mengunduh langsung di aplikasi Youtube.
-Bisakah kalian menentukan format videonya juga?
-Bagaimana kalau kalian hanya ingin mengunduh audionya saja?
-Bagaimana jika videonya ada di platform selain Youtube?
-Perkenalkan, yt-dlp adalah sebuah program berbasis open source yang kurang lebih fungsinya adalah untuk menjawab pertanyaan-pertanyaan serupa seperti yang ada di atas sebelumnya.</description>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tech/yt-dlp/</guid>
+      <description></description>
+      
     </item>
+    
     <item>
       <title>Cool Terminal Tools You Should Know</title>
-      <link>//localhost:1313/tech/cooltools/</link>
+      <link>http://localhost:1313/tech/cooltools/</link>
       <pubDate>Sun, 09 Jun 2024 16:59:47 +0700</pubDate>
-      <guid>//localhost:1313/tech/cooltools/</guid>
-      <description>Yoo, jumpa lagi!
-Saya mau berbagi sejumlah tools terminal yang sayang jika dilewatkan, apalagi bagi kalian guys, linux nerds. Sebagian besar (atau mungkin semuanya) tools yang akan saya share di artikel ini murni for fun. Jadi, memang fungsinya hanya untuk show off kecantikan terminal. But, anyway, berikut adalah 9 terminal tools keren yang bisa kalian coba:
-1. cava Cava adalah cross-platform audio visualizer.
-Github: https://github.com/karlstav/cava Instalasi (Archlinux) via repositori komunitas (AUR - Arch User Repository):</description>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tech/cooltools/</guid>
+      <description></description>
+      
     </item>
+    
     <item>
       <title>My Remote Desktop Client(s)</title>
-      <link>//localhost:1313/tech/rdpclient/</link>
+      <link>http://localhost:1313/tech/rdpclient/</link>
       <pubDate>Tue, 04 Jun 2024 22:05:26 +0700</pubDate>
-      <guid>//localhost:1313/tech/rdpclient/</guid>
-      <description>Holaa!!
-Saya akan berbagi beberapa RDP client yang biasa saya gunakan untuk melakukan remote desktop. BTW, RDP atau Remote Desktop Protocol adalah salah satu protokol komunikasi dalam jaringan komputer yang dikembangkan awalnya oleh Microsoft untuk melakukan remote akses berbasis GUI (Graphical User Interface)1. Kemudian, protokol ini juga dibawa ke environment linux sehingga RDP tidak hanya dapat digunakan di Windows (as a microsoft product obviously) saja, tetapi juga di linux.
-Note:</description>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tech/rdpclient/</guid>
+      <description></description>
+      
     </item>
+    
     <item>
       <title>Gorgeous Status Bar with Polybar</title>
-      <link>//localhost:1313/tech/polybar/</link>
+      <link>http://localhost:1313/tech/polybar/</link>
       <pubDate>Sun, 02 Jun 2024 19:14:29 +0700</pubDate>
-      <guid>//localhost:1313/tech/polybar/</guid>
-      <description>Polybar adalah tool yang cepat mudah digunakan untuk membuat status bar1, seperti: Secara umum, artikel ini akan membahas 3 proses: Memasang Polybar, Menjalankan Polybar, dan Mengkustom Polybar.
-Memasang Polybar Project polybar dapat ditemukan di internet, di repo github official-nya: Polybar Github Di linux, polybar dapat dipasang dengan mengetikkan perintah berikut:
-No Distro Install 1 Debian/Ubuntu sudo apt install polybar 2 Arch sudo pacman -S polybar 3 OpenSuse sudo zypper in polybar 4 Fedora sudo dnf install polybar Untuk memastikan polybar sudah terpasang, ketikkan perintah berikut di terminal:</description>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tech/polybar/</guid>
+      <description></description>
+      
     </item>
+    
     <item>
       <title>Openbox - Simple and Easy Window Manager for Beginners</title>
-      <link>//localhost:1313/tech/openbox/</link>
+      <link>http://localhost:1313/tech/openbox/</link>
       <pubDate>Thu, 30 May 2024 01:49:56 +0000</pubDate>
-      <guid>//localhost:1313/tech/openbox/</guid>
-      <description>Dari 1-10 (dengan skala 1: paling tidak cantik dan 10: paling cantik), seberapa cantik tampilan tangkapan layar pada cover artikel ini? Screenshot tersebut saya &ldquo;curi&rdquo; dari sebuah akun github bernama addy-dclxvi pada reponya, openbox-theme-collection .
-Kalau kalian mengunjungi repo tersebut, kalian akan menemukan keindahan-keindahan sebuah window manager bernama openbox di sana. Keindahan yang saya maksud di sini bukan keindahan biasa, tapi keindahan yang muncul dari kesederhanaan namun mampu memberikan kesan elegan dan nostalgic (oke, setidaknya ini menurut saya pribadi, hehe).</description>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tech/openbox/</guid>
+      <description></description>
+      
     </item>
+    
     <item>
       <title>Rofi - Beautiful &amp; Modern App Launcher</title>
-      <link>//localhost:1313/tech/rofi/</link>
+      <link>http://localhost:1313/tech/rofi/</link>
       <pubDate>Sat, 04 May 2024 10:38:46 +0700</pubDate>
-      <guid>//localhost:1313/tech/rofi/</guid>
-      <description>What is Rofi?
-Kenalan dengan Rofi Teman kalian mungkin ada yang namanya Rofi. Tapi, tentu saja artikel ini tidak sedang menggosipkan Rofi sebagai manusia, tapi Rofi sebagai sebuah program, xixi.
-Merujuk pada definisi official-nya, secara singkat, Rofi yang dimaksud dalam artikel ini adalah
-window switcher, run dialog and dmenu replacement rofi can act as an application launcher, window switcher, ssh launcher and dmenu replacement.
-Atau definisi dengan versi yang lebih komplit:</description>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tech/rofi/</guid>
+      <description></description>
+      
     </item>
+    
     <item>
       <title>Archlinux KDE Installation via archinstall</title>
-      <link>//localhost:1313/tech/archinstall/</link>
+      <link>http://localhost:1313/tech/archinstall/</link>
       <pubDate>Thu, 02 May 2024 09:52:29 +0700</pubDate>
-      <guid>//localhost:1313/tech/archinstall/</guid>
-      <description>Siapa yang tidak pernah dengar Archlinux?
-Archlinux adalah sebuah distro linux (legendaris) yang terkenal dengan komunitasnya yang besar dari seluruh dunia dan dokumentasi distronya yang lengkap. Hal lain yang menjadikan Archlinux sebagai distro yang digemari banyak orang adalah karena filosofinya, yaitu Keep It Simple1. Ya, sesuai filosofinya, Archlinux memang di-design untuk memberikan kemudahan, baik untuk penggunanya maupun untuk hardware atau mesin host-nya2.
-Meskipun demikian, dulu Archlinux memiliki reputasi sebagai distro untuk &ldquo;linux senior&rdquo; atau &ldquo;sepuh linux&rdquo; alias tidak ramah pengguna linux pemula.</description>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tech/archinstall/</guid>
+      <description></description>
+      
     </item>
+    
     <item>
       <title>Linux Ricing?</title>
-      <link>//localhost:1313/tech/rice/</link>
+      <link>http://localhost:1313/tech/rice/</link>
       <pubDate>Sun, 28 Apr 2024 14:21:13 +0700</pubDate>
-      <guid>//localhost:1313/tech/rice/</guid>
-      <description>Hola!
-Teman-teman familiar dengan istilah rice atau Linux ricing?
-Tidak seperti makna dari terjemah harfiahnya yang berarti nasi atau menasikan Linux, istilah rice atau Linux Ricing punya makna yang boleh dibilang eksklusif dan kontekstual. Gimana tu maksudnya? Mari saya jelaskan&hellip;
-Secara sederhana, istilah rice yang digunakan dalam dunia Linux dicomot dari istilah yang biasa digunakan di dunia otomotif (mobil), dimana RICE adalah singkatan dari Race Inspired Cosmetic Enhancement. Istilah RICE dalam dunia mobil tersebut digunakan untuk menjelaskan modifikasi pada mobil.</description>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tech/rice/</guid>
+      <description></description>
+      
     </item>
+    
     <item>
       <title>Debian Linux Installation in Virtualbox</title>
-      <link>//localhost:1313/tech/debian-installation/</link>
+      <link>http://localhost:1313/tech/debian-installation/</link>
       <pubDate>Mon, 15 Apr 2024 07:45:05 +0700</pubDate>
-      <guid>//localhost:1313/tech/debian-installation/</guid>
-      <description>Pra Instalasi Hola!
-Kali ini saya akan memberikan tutorial instalasi salah satu distro linux legendaris, Debian. Saya akan menginstall Debian sebagai VM (virtual machine) di Virtualbox. Namun, sebelum saya melakukan instalasi, ada beberapa catatan berikut yang perlu diperhatikan:
-Mengunduh &amp; Menginstall Virtualbox (di sini ) Mengunduh file ISO debian (di sini ) Instalasi Sekarang, kita masuk ke tahap instalasi&hellip;
-Membuat VM di Virtualbox 1. Klik &ldquo;New&rdquo; di interface Virtualbox 2.</description>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tech/debian-installation/</guid>
+      <description></description>
+      
     </item>
+    
   </channel>
 </rss>

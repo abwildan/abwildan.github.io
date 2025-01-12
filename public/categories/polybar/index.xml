@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Polybar on Wildan&#39;s Workspace</title>
-    <link>//localhost:1313/categories/polybar/</link>
-    <description>Recent content in Polybar on Wildan&#39;s Workspace</description>
-    <generator>Hugo -- 0.133.1</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 02 Jun 2024 19:14:29 +0700</lastBuildDate>
-    <atom:link href="//localhost:1313/categories/polybar/index.xml" rel="self" type="application/rss+xml" />
+    <title>Polybar on My Awesome Site</title>
+    <link>http://localhost:1313/categories/polybar/</link>
+    <description>Recent content in Polybar on My Awesome Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
+    <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
+    <copyright>© 2025 Wildan</copyright>
+    <lastBuildDate>Sun, 02 Jun 2024 19:14:29 +0700</lastBuildDate><atom:link href="http://localhost:1313/categories/polybar/index.xml" rel="self" type="application/rss+xml" />
+    
     <item>
       <title>Gorgeous Status Bar with Polybar</title>
-      <link>//localhost:1313/tech/polybar/</link>
+      <link>http://localhost:1313/tech/polybar/</link>
       <pubDate>Sun, 02 Jun 2024 19:14:29 +0700</pubDate>
-      <guid>//localhost:1313/tech/polybar/</guid>
-      <description>Polybar adalah tool yang cepat mudah digunakan untuk membuat status bar1, seperti: Secara umum, artikel ini akan membahas 3 proses: Memasang Polybar, Menjalankan Polybar, dan Mengkustom Polybar.
-Memasang Polybar Project polybar dapat ditemukan di internet, di repo github official-nya: Polybar Github Di linux, polybar dapat dipasang dengan mengetikkan perintah berikut:
-No Distro Install 1 Debian/Ubuntu sudo apt install polybar 2 Arch sudo pacman -S polybar 3 OpenSuse sudo zypper in polybar 4 Fedora sudo dnf install polybar Untuk memastikan polybar sudah terpasang, ketikkan perintah berikut di terminal:</description>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tech/polybar/</guid>
+      <description></description>
+      
     </item>
+    
   </channel>
 </rss>

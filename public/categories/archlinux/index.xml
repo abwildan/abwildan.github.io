@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Archlinux on Wildan&#39;s Workspace</title>
-    <link>//localhost:1313/categories/archlinux/</link>
-    <description>Recent content in Archlinux on Wildan&#39;s Workspace</description>
-    <generator>Hugo -- 0.133.1</generator>
-    <language>en-us</language>
-    <lastBuildDate>Thu, 02 May 2024 09:52:29 +0700</lastBuildDate>
-    <atom:link href="//localhost:1313/categories/archlinux/index.xml" rel="self" type="application/rss+xml" />
+    <title>Archlinux on My Awesome Site</title>
+    <link>http://localhost:1313/categories/archlinux/</link>
+    <description>Recent content in Archlinux on My Awesome Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
+    <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
+    <copyright>© 2025 Wildan</copyright>
+    <lastBuildDate>Thu, 02 May 2024 09:52:29 +0700</lastBuildDate><atom:link href="http://localhost:1313/categories/archlinux/index.xml" rel="self" type="application/rss+xml" />
+    
     <item>
       <title>Archlinux KDE Installation via archinstall</title>
-      <link>//localhost:1313/tech/archinstall/</link>
+      <link>http://localhost:1313/tech/archinstall/</link>
       <pubDate>Thu, 02 May 2024 09:52:29 +0700</pubDate>
-      <guid>//localhost:1313/tech/archinstall/</guid>
-      <description>Siapa yang tidak pernah dengar Archlinux?
-Archlinux adalah sebuah distro linux (legendaris) yang terkenal dengan komunitasnya yang besar dari seluruh dunia dan dokumentasi distronya yang lengkap. Hal lain yang menjadikan Archlinux sebagai distro yang digemari banyak orang adalah karena filosofinya, yaitu Keep It Simple1. Ya, sesuai filosofinya, Archlinux memang di-design untuk memberikan kemudahan, baik untuk penggunanya maupun untuk hardware atau mesin host-nya2.
-Meskipun demikian, dulu Archlinux memiliki reputasi sebagai distro untuk &ldquo;linux senior&rdquo; atau &ldquo;sepuh linux&rdquo; alias tidak ramah pengguna linux pemula.</description>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tech/archinstall/</guid>
+      <description></description>
+      
     </item>
+    
   </channel>
 </rss>

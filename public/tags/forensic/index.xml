@@ -1,20 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Forensic on Wildan&#39;s Workspace</title>
-    <link>//localhost:1313/tags/forensic/</link>
-    <description>Recent content in Forensic on Wildan&#39;s Workspace</description>
-    <generator>Hugo -- 0.133.1</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 19 Mar 2024 21:43:27 +0700</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/forensic/index.xml" rel="self" type="application/rss+xml" />
+    <title>Forensic on My Awesome Site</title>
+    <link>http://localhost:1313/tags/forensic/</link>
+    <description>Recent content in Forensic on My Awesome Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
+    <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
+    <copyright>© 2025 Wildan</copyright>
+    <lastBuildDate>Tue, 19 Mar 2024 21:43:27 +0700</lastBuildDate><atom:link href="http://localhost:1313/tags/forensic/index.xml" rel="self" type="application/rss+xml" />
+    
     <item>
       <title>Virustotal - Platform untuk Scanning Virus</title>
-      <link>//localhost:1313/tech/virustotal/</link>
+      <link>http://localhost:1313/tech/virustotal/</link>
       <pubDate>Tue, 19 Mar 2024 21:43:27 +0700</pubDate>
-      <guid>//localhost:1313/tech/virustotal/</guid>
-      <description>Overview Virustotal adalah salah satu website terbaik untuk melakukan identifikasi terhadap suatu file/software/aplikasi dan url, apakah mengandung virus atau malware (malicious software) atau tidak. Dengan kata lain, melalui bantuan website ini, kita dapat mengecek suatu file/software/aplikasi maupun suatu link/url apakah berbahaya atau tidak sebelum kita menginstallnya di device kita masing-masing.
-Virustotal1 menjadi salah satu website penyedia jasa scanning virus terbaik karena website tersebut melakukan scanning dengan menggunakan lebih dari 50 vendor antivirus, termasuk diantaranya adalah Avira, BitDefender, dan Kaspersky.</description>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tech/virustotal/</guid>
+      <description></description>
+      
     </item>
+    
   </channel>
 </rss>

@@ -1,19 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Kitty on Wildan&#39;s Workspace</title>
-    <link>//localhost:1313/tags/kitty/</link>
-    <description>Recent content in Kitty on Wildan&#39;s Workspace</description>
-    <generator>Hugo -- 0.133.1</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 10 Sep 2024 10:53:50 +0700</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/kitty/index.xml" rel="self" type="application/rss+xml" />
+    <title>Kitty on My Awesome Site</title>
+    <link>http://localhost:1313/tags/kitty/</link>
+    <description>Recent content in Kitty on My Awesome Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
+    <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
+    <copyright>© 2025 Wildan</copyright>
+    <lastBuildDate>Tue, 10 Sep 2024 10:53:50 +0700</lastBuildDate><atom:link href="http://localhost:1313/tags/kitty/index.xml" rel="self" type="application/rss+xml" />
+    
     <item>
       <title>Configuring Kitty &amp; Bash</title>
-      <link>//localhost:1313/tech/kittyconfig/</link>
+      <link>http://localhost:1313/tech/kittyconfig/</link>
       <pubDate>Tue, 10 Sep 2024 10:53:50 +0700</pubDate>
-      <guid>//localhost:1313/tech/kittyconfig/</guid>
-      <description>How to configure kitty &amp; its shell (I use bash, btw) so it&rsquo;ll look charming&hellip;</description>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tech/kittyconfig/</guid>
+      <description>How to configure kitty &amp;amp; its shell (I use bash, btw) so it&amp;rsquo;ll look charming&amp;hellip;</description>
+      
     </item>
+    
   </channel>
 </rss>

@@ -1,27 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Yt-Dlp on Wildan&#39;s Workspace</title>
-    <link>//localhost:1313/tags/yt-dlp/</link>
-    <description>Recent content in Yt-Dlp on Wildan&#39;s Workspace</description>
-    <generator>Hugo -- 0.133.1</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 23 Jun 2024 00:49:55 -0400</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/yt-dlp/index.xml" rel="self" type="application/rss+xml" />
+    <title>Yt-Dlp on My Awesome Site</title>
+    <link>http://localhost:1313/tags/yt-dlp/</link>
+    <description>Recent content in Yt-Dlp on My Awesome Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
+    <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
+    <copyright>© 2025 Wildan</copyright>
+    <lastBuildDate>Sun, 23 Jun 2024 00:49:55 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/yt-dlp/index.xml" rel="self" type="application/rss+xml" />
+    
     <item>
       <title>A Feature Rich Command Line Audio/Video Downloader: YT-DLP</title>
-      <link>//localhost:1313/tech/yt-dlp/</link>
+      <link>http://localhost:1313/tech/yt-dlp/</link>
       <pubDate>Sun, 23 Jun 2024 00:49:55 -0400</pubDate>
-      <guid>//localhost:1313/tech/yt-dlp/</guid>
-      <description>What Is It? Apa yang akan kalian lakukan kalau mau mengunduh video Youtube?
-A. Mengunjungi website seperti savefrom, savetube, y2meta, ssyoutube, dll.
-B. Mengunduh aplikasi seperti MediaHuman, Open Video Downloader, dll.
-C. Memutar videonya via VLC Player.
-D. Mengunduh langsung di aplikasi Youtube.
-Bisakah kalian menentukan format videonya juga?
-Bagaimana kalau kalian hanya ingin mengunduh audionya saja?
-Bagaimana jika videonya ada di platform selain Youtube?
-Perkenalkan, yt-dlp adalah sebuah program berbasis open source yang kurang lebih fungsinya adalah untuk menjawab pertanyaan-pertanyaan serupa seperti yang ada di atas sebelumnya.</description>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tech/yt-dlp/</guid>
+      <description></description>
+      
     </item>
+    
   </channel>
 </rss>

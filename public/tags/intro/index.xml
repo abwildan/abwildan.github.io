@@ -1,33 +1,45 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Intro on Wildan&#39;s Workspace</title>
-    <link>//localhost:1313/tags/intro/</link>
-    <description>Recent content in Intro on Wildan&#39;s Workspace</description>
-    <generator>Hugo -- 0.133.1</generator>
-    <language>en-us</language>
-    <lastBuildDate>Thu, 07 Nov 2024 10:39:37 +0700</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/intro/index.xml" rel="self" type="application/rss+xml" />
+    <title>Intro on My Awesome Site</title>
+    <link>http://localhost:1313/tags/intro/</link>
+    <description>Recent content in Intro on My Awesome Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
+    <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
+    <copyright>© 2025 Wildan</copyright>
+    <lastBuildDate>Thu, 07 Nov 2024 10:39:37 +0700</lastBuildDate><atom:link href="http://localhost:1313/tags/intro/index.xml" rel="self" type="application/rss+xml" />
+    
     <item>
       <title>Chess Tactics: Double Attack, Discovered Attack, Removing The Defender</title>
-      <link>//localhost:1313/chess/pop-tactics2/</link>
+      <link>http://localhost:1313/chess/pop-tactics2/</link>
       <pubDate>Thu, 07 Nov 2024 10:39:37 +0700</pubDate>
-      <guid>//localhost:1313/chess/pop-tactics2/</guid>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/chess/pop-tactics2/</guid>
       <description>This article shares about 3 popular tactics in chess, which are Double Attack, Discovered Attack, and Removing The Defender</description>
+      
     </item>
+    
     <item>
       <title>Chess Tactics: Fork, Pin, and Skewer</title>
-      <link>//localhost:1313/chess/pop-tactics/</link>
+      <link>http://localhost:1313/chess/pop-tactics/</link>
       <pubDate>Wed, 14 Aug 2024 03:10:27 +0000</pubDate>
-      <guid>//localhost:1313/chess/pop-tactics/</guid>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/chess/pop-tactics/</guid>
       <description>This article shares about 3 popular tactics in chess, which are Fork, Pin, and Skewer.</description>
+      
     </item>
+    
     <item>
       <title>Introduction to Chess ♟️</title>
-      <link>//localhost:1313/chess/intro/</link>
+      <link>http://localhost:1313/chess/intro/</link>
       <pubDate>Fri, 02 Aug 2024 07:59:33 +0000</pubDate>
-      <guid>//localhost:1313/chess/intro/</guid>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/chess/intro/</guid>
       <description>This article shares about (short) history, pieces, notation, and other things regarding Intro to Chess.</description>
+      
     </item>
+    
   </channel>
 </rss>

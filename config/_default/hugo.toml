@@ -1,45 +1,69 @@
 # -- Site Configuration --
+# Refer to the theme docs for more details about each of these parameters.
+# https://blowfish.page/docs/getting-started/
 
-# URL to the root of your website.
-# baseURL = "https://your_domain.com/"
+theme = "blowfish" # UNCOMMENT THIS LINE
+baseURL = "https://abwildan.github.io/"
+defaultContentLanguage = "en"
 
-# Site's language code
-languageCode = 'en-us'
+# pluralizeListTitles = "true" # hugo function useful for non-english languages, find out more in  https://gohugo.io/getting-started/configuration/#pluralizelisttitles
 
-title = "Wildan's Workspace"
+enableRobotsTXT = true
+summaryLength = 0
 
-theme = "kayal" # UNCOMMENT THIS LINE
+buildDrafts = false
+buildFuture = false
 
-# Number of articles per page in the listing.
-[pagination]
-  pagerSize = 5
-
-# Enable processing of emojis in markdown.
 enableEmoji = true
 
-# Enable creation of robots.txt for search engine crawling.
-enableRobotsTXT = true
+# googleAnalytics = "G-XXXXXXXXX"
 
-# Length of default summaries.
-summaryLength = 20
+[pagination]
+  pagerSize = 100
 
-# Build drafts during site generation.
-buildDrafts = true
-# Build pages with future dates during site generation.
-buildFuture = true
+[imaging]
+  anchor = 'Center'
 
-# The types of outputs to generate for the homepage.
-# RSS is required to create RSS feeds, and JSON is needed for the search to function.
-[outputs]
-  home = ["HTML", "RSS", "JSON"]
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  author = "authors"
+  series = "series"
 
-# Sitemap setting
 [sitemap]
   changefreq = 'daily'
   filename = 'sitemap.xml'
   priority = 0.5
 
-# Google Analytics Configuration
-# [services]
-#   [services.googleAnalytics]
-#     ID = 'G-MEASUREMENT_ID'
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[related]
+  threshold = 0
+  toLower = false
+
+    [[related.indices]]
+        name = "tags"
+        weight = 100
+
+    [[related.indices]]
+        name = "categories"
+        weight = 100
+
+    [[related.indices]]
+        name = "series"
+        weight = 50
+
+    [[related.indices]]
+        name = "authors"
+        weight = 20
+
+    [[related.indices]]
+        name = "date"
+        weight = 10
+
+    [[related.indices]]
+      applyFilter = false
+      name = 'fragmentrefs'
+      type = 'fragments'
+      weight = 10

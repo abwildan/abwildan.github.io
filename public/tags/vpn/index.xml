@@ -1,19 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vpn on Wildan&#39;s Workspace</title>
-    <link>//localhost:1313/tags/vpn/</link>
-    <description>Recent content in Vpn on Wildan&#39;s Workspace</description>
-    <generator>Hugo -- 0.133.1</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 20 Sep 2024 10:37:37 +0700</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/vpn/index.xml" rel="self" type="application/rss+xml" />
+    <title>Vpn on My Awesome Site</title>
+    <link>http://localhost:1313/tags/vpn/</link>
+    <description>Recent content in Vpn on My Awesome Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
+    <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
+    <copyright>© 2025 Wildan</copyright>
+    <lastBuildDate>Fri, 20 Sep 2024 10:37:37 +0700</lastBuildDate><atom:link href="http://localhost:1313/tags/vpn/index.xml" rel="self" type="application/rss+xml" />
+    
     <item>
       <title>Building VPN Server using OpenVPN</title>
-      <link>//localhost:1313/tech/openvpn-server/</link>
+      <link>http://localhost:1313/tech/openvpn-server/</link>
       <pubDate>Fri, 20 Sep 2024 10:37:37 +0700</pubDate>
-      <guid>//localhost:1313/tech/openvpn-server/</guid>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tech/openvpn-server/</guid>
       <description>A step by step vpn server installation using openvpn~</description>
+      
     </item>
+    
   </channel>
 </rss>

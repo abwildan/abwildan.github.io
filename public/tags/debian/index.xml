@@ -1,32 +1,35 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Debian on Wildan&#39;s Workspace</title>
-    <link>//localhost:1313/tags/debian/</link>
-    <description>Recent content in Debian on Wildan&#39;s Workspace</description>
-    <generator>Hugo -- 0.133.1</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 28 Apr 2024 14:21:13 +0700</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/debian/index.xml" rel="self" type="application/rss+xml" />
+    <title>Debian on My Awesome Site</title>
+    <link>http://localhost:1313/tags/debian/</link>
+    <description>Recent content in Debian on My Awesome Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
+    <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
+    <copyright>© 2025 Wildan</copyright>
+    <lastBuildDate>Sun, 28 Apr 2024 14:21:13 +0700</lastBuildDate><atom:link href="http://localhost:1313/tags/debian/index.xml" rel="self" type="application/rss+xml" />
+    
     <item>
       <title>Linux Ricing?</title>
-      <link>//localhost:1313/tech/rice/</link>
+      <link>http://localhost:1313/tech/rice/</link>
       <pubDate>Sun, 28 Apr 2024 14:21:13 +0700</pubDate>
-      <guid>//localhost:1313/tech/rice/</guid>
-      <description>Hola!
-Teman-teman familiar dengan istilah rice atau Linux ricing?
-Tidak seperti makna dari terjemah harfiahnya yang berarti nasi atau menasikan Linux, istilah rice atau Linux Ricing punya makna yang boleh dibilang eksklusif dan kontekstual. Gimana tu maksudnya? Mari saya jelaskan&hellip;
-Secara sederhana, istilah rice yang digunakan dalam dunia Linux dicomot dari istilah yang biasa digunakan di dunia otomotif (mobil), dimana RICE adalah singkatan dari Race Inspired Cosmetic Enhancement. Istilah RICE dalam dunia mobil tersebut digunakan untuk menjelaskan modifikasi pada mobil.</description>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tech/rice/</guid>
+      <description></description>
+      
     </item>
+    
     <item>
       <title>Debian Linux Installation in Virtualbox</title>
-      <link>//localhost:1313/tech/debian-installation/</link>
+      <link>http://localhost:1313/tech/debian-installation/</link>
       <pubDate>Mon, 15 Apr 2024 07:45:05 +0700</pubDate>
-      <guid>//localhost:1313/tech/debian-installation/</guid>
-      <description>Pra Instalasi Hola!
-Kali ini saya akan memberikan tutorial instalasi salah satu distro linux legendaris, Debian. Saya akan menginstall Debian sebagai VM (virtual machine) di Virtualbox. Namun, sebelum saya melakukan instalasi, ada beberapa catatan berikut yang perlu diperhatikan:
-Mengunduh &amp; Menginstall Virtualbox (di sini ) Mengunduh file ISO debian (di sini ) Instalasi Sekarang, kita masuk ke tahap instalasi&hellip;
-Membuat VM di Virtualbox 1. Klik &ldquo;New&rdquo; di interface Virtualbox 2.</description>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tech/debian-installation/</guid>
+      <description></description>
+      
     </item>
+    
   </channel>
 </rss>

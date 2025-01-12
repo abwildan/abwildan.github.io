@@ -1,20 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tty on Wildan&#39;s Workspace</title>
-    <link>//localhost:1313/tags/tty/</link>
-    <description>Recent content in Tty on Wildan&#39;s Workspace</description>
-    <generator>Hugo -- 0.133.1</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 17 Jul 2024 15:06:15 +0700</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/tty/index.xml" rel="self" type="application/rss+xml" />
+    <title>Tty on My Awesome Site</title>
+    <link>http://localhost:1313/tags/tty/</link>
+    <description>Recent content in Tty on My Awesome Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
+    <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
+    <copyright>© 2025 Wildan</copyright>
+    <lastBuildDate>Wed, 17 Jul 2024 15:06:15 +0700</lastBuildDate><atom:link href="http://localhost:1313/tags/tty/index.xml" rel="self" type="application/rss+xml" />
+    
     <item>
       <title>Log in to Your System with (Stunning) TTY</title>
-      <link>//localhost:1313/tech/tty/</link>
+      <link>http://localhost:1313/tech/tty/</link>
       <pubDate>Wed, 17 Jul 2024 15:06:15 +0700</pubDate>
-      <guid>//localhost:1313/tech/tty/</guid>
-      <description>About Login Interface &amp; TTY Ketika kita akan login ke sebuah sistem, kita biasanya disuguhkan interface untuk memasukkan kredensial login kita (username &amp; password), kan? Umumnya, interface yang biasa digunakan untuk login tersebut berbasis GUI (Graphical User Interface). Interface login berbasis GUI itulah yang kemudian dikenal (di komunitas linux, terutama) dengan istilah display manager1.
-Beberapa display manager yang populer digunakan misalnya ada sddm, lightdm, gdm, lxdm, dan masih banyak lagi.</description>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tech/tty/</guid>
+      <description></description>
+      
     </item>
+    
   </channel>
 </rss>

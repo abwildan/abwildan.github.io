@@ -1,19 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Kayal on Wildan&#39;s Workspace</title>
-    <link>//localhost:1313/tags/kayal/</link>
-    <description>Recent content in Kayal on Wildan&#39;s Workspace</description>
-    <generator>Hugo -- 0.133.1</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 04 Aug 2024 13:54:17 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/kayal/index.xml" rel="self" type="application/rss+xml" />
+    <title>Kayal on My Awesome Site</title>
+    <link>http://localhost:1313/tags/kayal/</link>
+    <description>Recent content in Kayal on My Awesome Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
+    <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
+    <copyright>© 2025 Wildan</copyright>
+    <lastBuildDate>Sun, 04 Aug 2024 13:54:17 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/kayal/index.xml" rel="self" type="application/rss+xml" />
+    
     <item>
       <title>Trying Out A Flavor of New Hugo Theme: Kayal</title>
-      <link>//localhost:1313/tech/kayal/</link>
+      <link>http://localhost:1313/tech/kayal/</link>
       <pubDate>Sun, 04 Aug 2024 13:54:17 +0000</pubDate>
-      <guid>//localhost:1313/tech/kayal/</guid>
-      <description>Kayal Hugo&rsquo;s  theme for me looks modern yet calm for a blog site. I got curious somehow and trying it out. Fortunately, I really like that theme. So, here is my thoughts about it&hellip;</description>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tech/kayal/</guid>
+      <description>Kayal Hugo&amp;rsquo;s  theme for me looks modern yet calm for a blog site. I got curious somehow and trying it out. Fortunately, I really like that theme. So, here is my thoughts about it&amp;hellip;</description>
+      
     </item>
+    
   </channel>
 </rss>

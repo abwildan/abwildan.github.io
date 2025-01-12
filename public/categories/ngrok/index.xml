@@ -1,19 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ngrok on Wildan&#39;s Workspace</title>
-    <link>//localhost:1313/categories/ngrok/</link>
-    <description>Recent content in Ngrok on Wildan&#39;s Workspace</description>
-    <generator>Hugo -- 0.133.1</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 02 Apr 2024 17:30:12 +0700</lastBuildDate>
-    <atom:link href="//localhost:1313/categories/ngrok/index.xml" rel="self" type="application/rss+xml" />
+    <title>Ngrok on My Awesome Site</title>
+    <link>http://localhost:1313/categories/ngrok/</link>
+    <description>Recent content in Ngrok on My Awesome Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
+    <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
+    <copyright>© 2025 Wildan</copyright>
+    <lastBuildDate>Tue, 02 Apr 2024 17:30:12 +0700</lastBuildDate><atom:link href="http://localhost:1313/categories/ngrok/index.xml" rel="self" type="application/rss+xml" />
+    
     <item>
       <title>Ngrok - Make Your localhost Accessible Publicly</title>
-      <link>//localhost:1313/tech/ngrok/</link>
+      <link>http://localhost:1313/tech/ngrok/</link>
       <pubDate>Tue, 02 Apr 2024 17:30:12 +0700</pubDate>
-      <guid>//localhost:1313/tech/ngrok/</guid>
-      <description>Ngrok? Ngrok bagi sebagian orang mungkin sudah faniliar karena sering digunakan untuk berbagai kebutuhan. Tapi, bagi yang belum tahu, ngrok secara sederhana dapat didefinisikan sebagai aplikasi yang memungkinkan kita untuk mem-publish server lokal kita di localhost ke publik dengan aman. Artinya, service seperti misalnya web di localhost (http) atau bahkan SSH dan RDP dapat diakses di luar jaringan secara aman melalui bantuan dari Ngrok ini. Untuk detail teknisnya sebentar lagi kita akan lihat demonya.</description>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tech/ngrok/</guid>
+      <description></description>
+      
     </item>
+    
   </channel>
 </rss>

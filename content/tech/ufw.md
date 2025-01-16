@@ -604,7 +604,19 @@ Anywhere (v6) on enp0s3    ALLOW       Anywhere (v6)
 21 (v6)                    ALLOW       Anywhere (v6)
 ```
 
+### Help
 
+Seperti _tools_ CLI yang lainnya, jika kita bingung bagaimana cara menggunakan `ufw` atau perintah apa saja yang tersedia di `ufw`, kita bisa gunakan perintah berikut untuk mencari bantuan:
+
+```bash
+ufw --help
+```
+
+Atau 
+
+```bash
+ufw -h
+```
 
 
 

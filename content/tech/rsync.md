@@ -113,6 +113,6 @@ Kalau masih bingung atau mau *explore* lebih jauh tentang **`rsync`**, jangan su
 
 ---
 
-Artikel ini ditulis menggunakan sistem operasi Debian dengan Tema: [52 Hz](https://www.youtube.com/watch?v=PPcU3NN61rQ&pp=ygUId2hhbGUgNTI%3D)
+Artikel ini ditulis menggunakan distro linux Debian dengan Tema: [52 Hz](https://www.youtube.com/watch?v=PPcU3NN61rQ&pp=ygUId2hhbGUgNTI%3D)
 
 ![ss1](/rsync/debian-whalien.png "Whalien 52 - Paus paling kesepian di dunia")

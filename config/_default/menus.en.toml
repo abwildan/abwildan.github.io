@@ -11,11 +11,13 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
+  pre = "article"
   name = "Tech"
   pageRef = "tech"
   weight = 10
 
 [[main]]
+  pre = "chess"
   name = "Chess"
   pageRef = "chess"
   weight = 20

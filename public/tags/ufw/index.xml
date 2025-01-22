@@ -12,7 +12,7 @@
     <lastBuildDate>Mon, 13 Jan 2025 08:59:03 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/ufw/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Managing Firewall with UFW (&#43;GUFW)</title>
+      <title>Managing Firewall in Linux with UFW (&#43;GUFW)</title>
       <link>http://localhost:1313/tech/ufw/</link>
       <pubDate>Mon, 13 Jan 2025 08:59:03 +0000</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>

@@ -69,8 +69,3 @@ enableEmoji = true
       weight = 10
 
 
-
-[services]
-  [services.disqus]
-    shortname = '@disqus_fySEiLlucc'
-

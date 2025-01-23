@@ -419,9 +419,10 @@ Hasilnya, kira-kira seperti ini:
   <source src="/rsync/upd.mp4" type="video/mp4">
 </video>
 
-### Tips 21: Menambahkan music dari Spotify & Soundcloud
+### Tips 21: Menambahkan music
 
-{{< icon "spotify" >}} **Spotify**
+#### Spotify
+{{< icon "spotify" >}}
 
 Kita bisa menambahkan lagu, playlist, atau album dari Spotify.  
 Saya demokan salah satunya di sini, kita akan menambahkan sebuah playlist.
@@ -449,7 +450,8 @@ Bum!
 Jika meng-_embed_ playlist/album, lagu-lagunya hanya akan berupa _preview_ saja alias tidak akan bisa diputar penuh.
 {{< /alert >}}
 
-{{< icon "soundcloud" >}} **Soundcloud**
+#### Soundcloud
+{{< icon "soundcloud" >}}
 
 Kita juga bisa menambahkan lagu/album/playlist dari Soundcloud.  
 Saya akan menambahkan album.

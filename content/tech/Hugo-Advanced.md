@@ -447,7 +447,7 @@ Contoh jika saya menggunakan preset berikut:
 Bum!
 
 {{< alert icon="spotify" iconColor="#006f13" cardColor="#84ff9b" textColor="#000000" >}}
-Jika meng-_embed_ playlist/album, lagu-lagunya hanya akan berupa _preview_ saja alias tidak akan bisa diputar penuh.
+Track/playlist/album yang di-_embed_ dari Spotify hanya akan berupa _preview_ saja alias tidak akan bisa diputar penuh.
 {{< /alert >}}
 
 #### Soundcloud

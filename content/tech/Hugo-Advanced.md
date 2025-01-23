@@ -419,6 +419,57 @@ Hasilnya, kira-kira seperti ini:
   <source src="/rsync/upd.mp4" type="video/mp4">
 </video>
 
+### Tips 21: Menambahkan music dari Spotify & Soundcloud
+
+{{< icon "spotify" >}} **Spotify**
+
+Kita bisa menambahkan lagu, playlist, atau album dari Spotify.  
+Saya demokan salah satunya di sini, kita akan menambahkan sebuah playlist.
+
+Langkah-langkahnya:
+1. Login ke Spotify.
+2. Cari lagu/playlist/album yang ingin di-_embed_.
+3. Klik **titik tiga** -> klik **Share** -> pilih **Embed track/album/playlist**. 
+4. Akan muncul pop-up window, klik **Copy**.
+5. _Paste_-kan code yang sudah di-_copy_ tadi ke halaman website.
+
+> Sebelum meng-_copy_ kode html-nya, kita bisa menyesuaikan warna dan ukuran track/album/playlist yang akan ditampilkan di website kita. Kita juga bisa melihat kode html-nya dengan men-ceklis "Show code".
+
+![ss22](/Hugo-Advanced/ss22.png "Spotify embed")
+
+Contoh jika saya menggunakan preset berikut:
+- Warna **Hitam**
+- Ukuran **Compact**
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/15HNdxGKNCIO9pgaY4n7FU?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+Bum!
+
+{{< alert icon="spotify" iconColor="#006f13" >}}
+**Note!** 
+Jika meng-_embed_ playlist/album, lagu-lagunya hanya akan berupa _preview_ saja alias tidak akan bisa diputar penuh.
+{{< /alert >}}
+
+{{< icon "soundcloud" >}} **Soundcloud**
+
+Kita juga bisa menambahkan lagu/album/playlist dari Soundcloud.  
+Saya akan menambahkan album.
+
+Berikut adalah langkah-langkahnya:
+1. Buka halaman website Soundcloud (tidak perlu login).
+2. Cari lagu/album/playlist yang ingin di-_embed_.
+3. Klik **icon Share** di lagu/album/playlist yang sudah dipilih.
+4. Pilih menu window **Embed**.
+5. Copy **code**-nya.
+
+> Sebelum meng-_copy_ kode html-nya, kita bisa menyesuaikan mode tampilan yang disediakan, biasanya bervariasi 2-3 pilihan. Kita juga bisa melakukan penyesuaian lain seperti mengganti tone warna, _automatic play_, dan opsi-opsi lainnya seperti yang terlihat pada tangkapan layar berikut:
+
+![ss23](/Hugo-Advanced/ss23.png "Soundcloud embed")
+
+Contoh jika saya menggunakan mode tampilan kedua:
+
+<iframe width="100%" height="570" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/304060230&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/justafoolishh" title="ＮＶＭ" target="_blank" style="color: #cccccc; text-decoration: none;">ＮＶＭ</a> · <a href="https://soundcloud.com/justafoolishh/sets/kimi-no-na-wa" title="Kimi no Na wa." target="_blank" style="color: #cccccc; text-decoration: none;">Kimi no Na wa.</a></div>
+
 Kalau sudah selesai, jangan lupa commit ke repo lokal dan push ke Github:
 
 ```shell

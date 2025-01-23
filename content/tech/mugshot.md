@@ -44,4 +44,3 @@ Sampai jumpa di artikel saya yang lain!
 Btw, artikel ini dibuat via **Archlinux** XFCE dengan tema OSX.
 ![ss2](/mugshot/ss2.png)
 
-

@@ -445,8 +445,7 @@ Contoh jika saya menggunakan preset berikut:
 
 Bum!
 
-{{< alert icon="spotify" iconColor="#006f13" >}}
-**Note!** 
+{{< alert icon="spotify" iconColor="#006f13" cardColor="#84ff9b" textColor="#000000" >}}
 Jika meng-_embed_ playlist/album, lagu-lagunya hanya akan berupa _preview_ saja alias tidak akan bisa diputar penuh.
 {{< /alert >}}
 
@@ -469,6 +468,10 @@ Berikut adalah langkah-langkahnya:
 Contoh jika saya menggunakan mode tampilan kedua:
 
 <iframe width="100%" height="570" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/304060230&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/justafoolishh" title="ＮＶＭ" target="_blank" style="color: #cccccc; text-decoration: none;">ＮＶＭ</a> · <a href="https://soundcloud.com/justafoolishh/sets/kimi-no-na-wa" title="Kimi no Na wa." target="_blank" style="color: #cccccc; text-decoration: none;">Kimi no Na wa.</a></div>
+
+{{< alert >}}
+Kita selalu bisa mengubah ukuran tinggi dan lebar music player-nya, baik Spotify maupun Soundcloud, dari variabel **height** dan **width** di kode html-nya.
+{{< /alert >}}
 
 Kalau sudah selesai, jangan lupa commit ke repo lokal dan push ke Github:
 

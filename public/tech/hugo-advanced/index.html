@@ -108,7 +108,7 @@
     "keywords": ["hugo","website","static-site"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "1933"
+    "wordCount": "1954"
   }]
   </script>
 
@@ -2090,7 +2090,8 @@ Saya demokan salah satunya di sini, kita akan menambahkan sebuah playlist.</p>
 
 <div
   
-    class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
+    class="flex px-4 py-3 rounded-md"
+    style="background-color: #84ff9b"
   >
 
   <span
@@ -2110,9 +2111,8 @@ Saya demokan salah satunya di sini, kita akan menambahkan sebuah playlist.</p>
 
   <span
     
-      class="dark:text-neutral-300"
-    ><strong>Note!</strong>
-Jika meng-<em>embed</em> playlist/album, lagu-lagunya hanya akan berupa <em>preview</em> saja alias tidak akan bisa diputar penuh.</span>
+      style="color: #000000"
+    >Jika meng-<em>embed</em> playlist/album, lagu-lagunya hanya akan berupa <em>preview</em> saja alias tidak akan bisa diputar penuh.</span>
 </div>
 
 <p>
@@ -2144,6 +2144,37 @@ Saya akan menambahkan album.</p>
 </p>
 <p>Contoh jika saya menggunakan mode tampilan kedua:</p>
 <iframe width="100%" height="570" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/304060230&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/justafoolishh" title="ＮＶＭ" target="_blank" style="color: #cccccc; text-decoration: none;">ＮＶＭ</a> · <a href="https://soundcloud.com/justafoolishh/sets/kimi-no-na-wa" title="Kimi no Na wa." target="_blank" style="color: #cccccc; text-decoration: none;">Kimi no Na wa.</a></div>
+
+  
+
+
+
+<div
+  
+    class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
+  >
+
+  <span
+    
+      class="text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center"
+    >
+
+    
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M506.3 417l-213.3-364c-16.33-28-57.54-28-73.98 0l-213.2 364C-10.59 444.9 9.849 480 42.74 480h426.6C502.1 480 522.6 445 506.3 417zM232 168c0-13.25 10.75-24 24-24S280 154.8 280 168v128c0 13.25-10.75 24-23.1 24S232 309.3 232 296V168zM256 416c-17.36 0-31.44-14.08-31.44-31.44c0-17.36 14.07-31.44 31.44-31.44s31.44 14.08 31.44 31.44C287.4 401.9 273.4 416 256 416z"/></svg>
+
+  </span>
+
+
+  </span>
+
+  <span
+    
+      class="dark:text-neutral-300"
+    >Kita selalu bisa mengubah ukuran tinggi dan lebar music player-nya, baik Spotify maupun Soundcloud, dari variabel <strong>height</strong> dan <strong>width</strong> di kode html-nya.</span>
+</div>
+
 <p>Kalau sudah selesai, jangan lupa commit ke repo lokal dan push ke Github:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">ssh-agent bash
 </span></span><span class="line"><span class="cl">ssh-add ./ssh/ssh-config-file

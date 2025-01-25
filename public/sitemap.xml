@@ -4,7 +4,19 @@
 
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-01-24T13:24:27+00:00</lastmod>
+    <lastmod>2025-01-25T07:00:57+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/gallery/</loc>
+    <lastmod>2025-01-25T07:00:57+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/gallery/wall/wall/</loc>
+    <lastmod>2025-01-25T07:00:57+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

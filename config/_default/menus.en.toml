@@ -22,6 +22,18 @@
   pageRef = "chess"
   weight = 20
 
+[[main]]
+  pre = "wall"
+  name = "Gallery"
+  pageRef = "gallery"
+  weight = 30
+
+[[main]]
+  name = "Wallpaper"
+  parent = "Gallery"
+  pageRef = "wall"
+  weight = 20
+
 #[[main]]
 #  name = "Parent"
 #  weight = 20

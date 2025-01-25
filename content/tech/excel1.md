@@ -7,7 +7,7 @@ tags: ["excel", "spreadsheet", "data", "data analysis"]
 categories: "excel"
 ---
 
-Di artikel ini, kita akan belajar menggunakan 6 fungsi dasar di Microsoft Excel atau Google Spreadsheet, yaitu **SUM**, **AVERAGE**, **MAX**, **MIN**, **COUNT**, dan **COUNTIF**.
+Di artikel ini, kita akan belajar menggunakan 6 fungsi dasar di Microsoft Excel atau Google Spreadsheet, yaitu **SUM**, **AVERAGE**, **MAX**, **MIN**, **COUNT**, dan **COUNTIF** [^1].
 
 {{< alert icon="none" >}}
 **Note:** Saya akan mendemokan rumus-rumus tersebut di Google Spreadsheet karena 2 alasan utama:
@@ -157,6 +157,11 @@ Untuk mengakses spreadsheet-nya, [**klik tautan ini!**](https://docs.google.com/
 
 
 
+
+
+
+
+[^1]: chatgpt.com
 
 
 

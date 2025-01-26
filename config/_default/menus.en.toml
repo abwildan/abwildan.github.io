@@ -34,6 +34,12 @@
   pageRef = "wall"
   weight = 20
 
+[[main]]
+  identifier = "github"
+  pre = "github"
+  url = "https://github.com/abwildan"
+  weight = 35
+
 #[[main]]
 #  name = "Parent"
 #  weight = 20

@@ -8,7 +8,6 @@ categories: "wallpaper"
 showTableOfContents: false
 layout: "simple"
 backgroundImage: "img/blue-aqua.jpg"
-heroStyle: "background"
 ---
 
 {{< collapse summary="**About This Page**" >}}
@@ -19,7 +18,10 @@ These are my personal wallpapers that I used to or have used in my Laptop. Mostl
 3. [**alphacoders**](https://alphacoders.com/),
 4. [**reddit**](https://reddit.com/),  
 5. [**wallpapers**](https://wallpapers.com),
-5. and so on.
+6. [**wallhere**](https://wallhere.com),
+7. [**wallpapersclan**](https://wallpapers-clan.com),
+
+and so on.
 
 I keep the walls here so I don't need to re-look for and re-download them a second time.
 
@@ -38,6 +40,10 @@ I keep the walls here so I don't need to re-look for and re-download them a seco
   <img src="/wall/wall10.jpg" class="grid-w50 md:grid-w33 xl:grid-w25" />
   <img src="/wall/wall11.jpg" class="grid-w50 md:grid-w33 xl:grid-w25" />
   <img src="/wall/wall12.jpg" class="grid-w50 md:grid-w33 xl:grid-w25" />
+  <img src="/wall/wall13.jpg" class="grid-w50 md:grid-w33 xl:grid-w25" />
+  <img src="/wall/wall14.jpg" class="grid-w50 md:grid-w33 xl:grid-w25" />
+  <img src="/wall/wall15.jpg" class="grid-w50 md:grid-w33 xl:grid-w25" />
+  <img src="/wall/wall16.jpg" class="grid-w50 md:grid-w33 xl:grid-w25" />
 
   <img src="/wall/wall1.png" class="grid-w50 md:grid-w33 xl:grid-w25" />
   <img src="/wall/wall2.png" class="grid-w50 md:grid-w33 xl:grid-w25" />

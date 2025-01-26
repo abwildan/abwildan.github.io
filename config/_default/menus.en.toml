@@ -23,7 +23,7 @@
   weight = 20
 
 [[main]]
-  pre = "wall"
+  pre = "walls"
   name = "Gallery"
   pageRef = "gallery"
   weight = 30

@@ -5,6 +5,10 @@ draft: false
 summary: "My personal wallpapers that I used to or have used in my Laptop."
 tags: ["wallpaper"]
 categories: "wallpaper"
+showTableOfContents: false
+layout: "simple"
+backgroundImage: "img/blue-aqua.jpg"
+heroStyle: "background"
 ---
 
 {{< collapse summary="**About This Page**" >}}

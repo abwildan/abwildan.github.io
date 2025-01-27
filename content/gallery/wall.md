@@ -51,6 +51,7 @@ I keep the walls here so I don't need to re-look for and re-download them a seco
   <img src="/wall/wall21.jpg" class="grid-w50 md:grid-w33 xl:grid-w25" />
   <img src="/wall/wall22.jpg" class="grid-w50 md:grid-w33 xl:grid-w25" />
   <img src="/wall/wall23.jpg" class="grid-w50 md:grid-w33 xl:grid-w25" />
+  <img src="/wall/wall24.jpg" class="grid-w50 md:grid-w33 xl:grid-w25" />
 
   <img src="/wall/wall1.jpeg" class="grid-w50 md:grid-w33 xl:grid-w25" />
 

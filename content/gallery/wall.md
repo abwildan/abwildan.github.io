@@ -12,7 +12,7 @@ backgroundImage: "img/blue-aqua.jpg"
 
 {{< collapse summary="**About This Page**" >}}
 
-These are my personal wallpapers that I used to or have used in my Laptop. Mostly being crawled from famous wallpaper websites such as 
+These are my personal wallpapers that I used to or have used in my Laptop. They mostly are crawled from famous wallpaper websites such as 
 1. [**wallhaven**](https://wallhaven.cc/), 
 2. [**wallpaperflare**](https://www.wallpaperflare.com/), 
 3. [**alphacoders**](https://alphacoders.com/),
@@ -52,6 +52,7 @@ I keep the walls here so I don't need to re-look for and re-download them a seco
   <img src="/wall/wall22.jpg" class="grid-w50 md:grid-w33 xl:grid-w25" />
   <img src="/wall/wall23.jpg" class="grid-w50 md:grid-w33 xl:grid-w25" />
   <img src="/wall/wall24.jpg" class="grid-w50 md:grid-w33 xl:grid-w25" />
+  <img src="/wall/wall25.jpg" class="grid-w50 md:grid-w33 xl:grid-w25" />
 
   <img src="/wall/wall1.jpeg" class="grid-w50 md:grid-w33 xl:grid-w25" />
 

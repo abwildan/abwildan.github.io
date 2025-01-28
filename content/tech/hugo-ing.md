@@ -8,6 +8,8 @@ cover:
   caption: "Hugo Website"
 tags: ["hugo"]
 categories: ["hugo"]
+series: ["Hugo"]
+series_order: 1
 ---
 
 # Membuat Website via Hugo

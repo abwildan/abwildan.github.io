@@ -9,7 +9,17 @@
     <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
     <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
     <copyright>© 2025 Wildan</copyright>
-    <lastBuildDate>Sat, 25 Jan 2025 07:00:57 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 Jan 2025 03:33:42 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Excel</title>
+      <link>http://localhost:1313/categories/excel/</link>
+      <pubDate>Tue, 28 Jan 2025 03:33:42 +0000</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/categories/excel/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>Wallpaper</title>
@@ -17,16 +27,6 @@
       <pubDate>Sat, 25 Jan 2025 07:00:57 +0000</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/categories/wallpaper/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Excel</title>
-      <link>http://localhost:1313/categories/excel/</link>
-      <pubDate>Fri, 24 Jan 2025 13:24:27 +0000</pubDate>
-      <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/excel/</guid>
       <description></description>
       
     </item>

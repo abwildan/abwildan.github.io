@@ -5,6 +5,8 @@ cover = ""
 summary = "Command injection is a simple yet still pretty common and relevant vulnerability in the real world even nowadays..."
 tags = [ "DVWA", "web", "hacking", "command injection", "reverse shell" ]
 categories = "command injection"
+series = [ "DVWA" ]
+series_order = 2
 +++
 
 Sesuai dengan namanya, ***Command Injection*** adalah kerentanan pada aplikasi web yang memungkinkan seorang penyerang dapat meng-*execute* perintah-perintah sistem operasi. Misalnya, *commands* sistem operasi Linux ada **`pwd`**, **`ls`**, **`cat`**, dan lain sebagainya. *Command injection* dapat terjadi disebabkan oleh tidak kurangnya perhatian seorang developer web terhadap **validasi input**.[^1]

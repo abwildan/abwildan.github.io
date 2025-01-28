@@ -5,6 +5,8 @@ draft = false
 summary = "This article shares about 3 popular tactics in chess, which are Fork, Pin, and Skewer."
 tags = ["chess", "intro", "tactics", "fork", "pin", "skewer"]
 categories = "chess"
+series = [ "Tactics" ]
+series_order = 1
 +++
 
 > Seorang master catur Jerman kelahiran tahun 1868, Richard Teichmann pernah berkata, "***chess is 99% tactics***".

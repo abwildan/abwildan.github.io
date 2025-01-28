@@ -9,7 +9,47 @@
     <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
     <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
     <copyright>© 2025 Wildan</copyright>
-    <atom:link href="http://localhost:1313/series/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 Jan 2025 03:33:42 +0000</lastBuildDate><atom:link href="http://localhost:1313/series/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Excel</title>
+      <link>http://localhost:1313/series/excel/</link>
+      <pubDate>Tue, 28 Jan 2025 03:33:42 +0000</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/series/excel/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Tactics</title>
+      <link>http://localhost:1313/series/tactics/</link>
+      <pubDate>Thu, 07 Nov 2024 10:39:37 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/series/tactics/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>DVWA</title>
+      <link>http://localhost:1313/series/dvwa/</link>
+      <pubDate>Sun, 13 Oct 2024 17:04:53 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/series/dvwa/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>http://localhost:1313/series/hugo/</link>
+      <pubDate>Mon, 09 Oct 2023 15:22:46 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/series/hugo/</guid>
+      <description></description>
+      
+    </item>
     
   </channel>
 </rss>

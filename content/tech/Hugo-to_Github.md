@@ -8,6 +8,8 @@ cover:
   caption: "Hugo + Github"
 tags: ["static-site"]
 categories: ["hugo"]
+series: ["Hugo"]
+series_order: 2
 ---
 
 # Meng-Hosting di Github

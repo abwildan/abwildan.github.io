@@ -5,6 +5,8 @@ draft: false
 summary: "This article shares about 3 popular tactics in chess, which are Double Attack, Discovered Attack, and Removing The Defender"
 tags: ["chess", "intro", "tactics", "double attack", "discovered attack", "removing the defender"]
 categories: "chess"
+series: ["Tactics"]
+series_order: 2
 ---
 
 > Seorang master catur Jerman kelahiran tahun 1868, Richard Teichmann pernah berkata, "***chess is 99% tactics***".

@@ -5,6 +5,8 @@ cover = ""
 summary = "DVWA (Damn Vulnerable Webb Apps) is a PHP/MySQL web application that is damn vulnerable~"
 tags = [ "docker", "DVWA", "web" ]
 categories = "docker"
+series = [ "DVWA" ]
+series_order = 1
 +++
 
 

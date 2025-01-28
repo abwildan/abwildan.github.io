@@ -2,9 +2,11 @@
 title: "Basic Excel (Spreadsheet) Functions - Part 1"
 date: 2025-01-24T13:24:27Z
 draft: false
-summary: "5 basic excel (spreadsheet) functions / formulas: SUM, AVERAGE, MAX, MIN, COUNT, COUNTIF"
+summary: "6 basic excel (spreadsheet) functions / formulas: SUM, AVERAGE, MAX, MIN, COUNT, COUNTIF"
 tags: ["excel", "spreadsheet", "data", "data analysis"]
 categories: "excel"
+series: ["Excel"]
+series_order: 1
 ---
 
 Di artikel ini, kita akan belajar menggunakan 6 fungsi dasar di Microsoft Excel atau Google Spreadsheet, yaitu **SUM**, **AVERAGE**, **MAX**, **MIN**, **COUNT**, dan **COUNTIF** [^1].

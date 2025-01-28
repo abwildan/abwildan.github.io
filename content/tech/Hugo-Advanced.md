@@ -8,6 +8,8 @@ cover:
   caption: ""
 tags: ["hugo", "website", "static-site"]
 categories: ["hugo"]
+series: ["Hugo"]
+series_order: 3
 ---
 
 # Mengkonfigurasi Hugo (Advanced)

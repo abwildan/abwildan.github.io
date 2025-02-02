@@ -163,6 +163,14 @@ Misalnya, sekarang saya ingin menghapus file **"secret-file.txt"** yang sudah di
 
 ![ss8](/luks/ss8.png "The cycle")
 
+## Additional Info: POC
+
+Kalau kita mencoba untuk me-_mounting_ partisi `/dev/sda3` secara manual seperti biasa, tentu saja tidak akan berhasil karena kita sudah mengubah filesystem partisi tersebut ke format **LUKS** dan tentu saja karena sudah di-_encrypt_:
+
+![ss9](/luks/ss9.png "POC")
+
+Jadi, kalau kita ingin menggunakan partisi tersebut, kita harus melakukan 4 prosedur yang sudah dijelaskan sebelumnya.
+
 ---
 
 Artikel ini di-inspirasi oleh video Youtube berikut:

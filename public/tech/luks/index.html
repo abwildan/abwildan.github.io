@@ -112,7 +112,7 @@
     "keywords": ["cryptsetup","linux","disk","encryption","luks"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "625"
+    "wordCount": "678"
   }]
   </script>
 
@@ -839,7 +839,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2025-02-02T04:43:27&#43;00:00">2 February 2025</time><span class="px-2 text-primary-500">&middot;</span><span>625 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">3 mins</span><span class="px-2 text-primary-500">&middot;</span>
+  <time datetime="2025-02-02T04:43:27&#43;00:00">2 February 2025</time><span class="px-2 text-primary-500">&middot;</span><span>678 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">4 mins</span><span class="px-2 text-primary-500">&middot;</span>
 
 
   
@@ -1198,6 +1198,7 @@
       </ul>
     </li>
     <li><a href="#the-end">The End</a></li>
+    <li><a href="#additional-info-poc">Additional Info: POC</a></li>
   </ul>
 </nav>
   </div>
@@ -1223,6 +1224,7 @@
       </ul>
     </li>
     <li><a href="#the-end">The End</a></li>
+    <li><a href="#additional-info-poc">Additional Info: POC</a></li>
   </ul>
 </nav>
   </div>
@@ -1683,6 +1685,26 @@
       <figcaption>The cycle</figcaption>
     </figure>
 </p>
+
+
+<h2 class="relative group">Additional Info: POC 
+    <div id="additional-info-poc" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#additional-info-poc" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<p>Kalau kita mencoba untuk me-<em>mounting</em> partisi <code>/dev/sda3</code> secara manual seperti biasa, tentu saja tidak akan berhasil karena kita sudah mengubah filesystem partisi tersebut ke format <strong>LUKS</strong> dan tentu saja karena sudah di-<em>encrypt</em>:</p>
+<p>
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="/luks/ss9.png" alt="ss9" />
+      <figcaption>POC</figcaption>
+    </figure>
+</p>
+<p>Jadi, kalau kita ingin menggunakan partisi tersebut, kita harus melakukan 4 prosedur yang sudah dijelaskan sebelumnya.</p>
 <hr>
 <p>Artikel ini di-inspirasi oleh video Youtube berikut:</p>
 

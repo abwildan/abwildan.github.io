@@ -8,14 +8,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title>Basic Excel (Spreadsheet) Functions - Part 2 &middot; My Awesome Site</title>
-  <meta name="title" content="Basic Excel (Spreadsheet) Functions - Part 2 &middot; My Awesome Site" />
+  <title>Enrypting Disk in Linux using LUKS &middot; My Awesome Site</title>
+  <meta name="title" content="Enrypting Disk in Linux using LUKS &middot; My Awesome Site" />
   
-  <meta name="description" content="6 basic excel (spreadsheet) functions / formulas: SUMIF, CONCATENATE, MATCH, (LEFT, MID, RIGHT), (HLOOKUP &amp; VLOOKUP), TRANSPOSE" />
-  <meta name="keywords" content="excel, spreadsheet, data, data analysis, " />
+  <meta name="description" content="A tutorial on how to encrypt disk/drive in linux with cryptsetup." />
+  <meta name="keywords" content="cryptsetup, linux, disk, encryption, luks, " />
   
   
-  <link rel="canonical" href="http://localhost:1313/tech/excel2/" />
+  <link rel="canonical" href="http://localhost:1313/tech/luks/" />
   
   
   
@@ -67,25 +67,25 @@
   
   
   
-  <meta property="og:url" content="http://localhost:1313/tech/excel2/">
+  <meta property="og:url" content="http://localhost:1313/tech/luks/">
   <meta property="og:site_name" content="My Awesome Site">
-  <meta property="og:title" content="Basic Excel (Spreadsheet) Functions - Part 2">
-  <meta property="og:description" content="6 basic excel (spreadsheet) functions / formulas: SUMIF, CONCATENATE, MATCH, (LEFT, MID, RIGHT), (HLOOKUP &amp; VLOOKUP), TRANSPOSE">
+  <meta property="og:title" content="Enrypting Disk in Linux using LUKS">
+  <meta property="og:description" content="A tutorial on how to encrypt disk/drive in linux with cryptsetup.">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="tech">
-    <meta property="article:published_time" content="2025-01-28T03:33:42+00:00">
-    <meta property="article:modified_time" content="2025-01-28T03:33:42+00:00">
-    <meta property="article:tag" content="Excel">
-    <meta property="article:tag" content="Spreadsheet">
-    <meta property="article:tag" content="Data">
-    <meta property="article:tag" content="Data Analysis">
-      <meta property="og:see_also" content="http://localhost:1313/tech/excel1/">
+    <meta property="article:published_time" content="2025-02-02T04:43:27+00:00">
+    <meta property="article:modified_time" content="2025-02-02T04:43:27+00:00">
+    <meta property="article:tag" content="Cryptsetup">
+    <meta property="article:tag" content="Linux">
+    <meta property="article:tag" content="Disk">
+    <meta property="article:tag" content="Encryption">
+    <meta property="article:tag" content="Luks">
 
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Basic Excel (Spreadsheet) Functions - Part 2">
-  <meta name="twitter:description" content="6 basic excel (spreadsheet) functions / formulas: SUMIF, CONCATENATE, MATCH, (LEFT, MID, RIGHT), (HLOOKUP &amp; VLOOKUP), TRANSPOSE">
+  <meta name="twitter:title" content="Enrypting Disk in Linux using LUKS">
+  <meta name="twitter:description" content="A tutorial on how to encrypt disk/drive in linux with cryptsetup.">
 
   
   <script type="application/ld+json">
@@ -93,26 +93,26 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "articleSection": "Teches",
-    "name": "Basic Excel (Spreadsheet) Functions - Part 2",
-    "headline": "Basic Excel (Spreadsheet) Functions - Part 2",
+    "name": "Enrypting Disk in Linux using LUKS",
+    "headline": "Enrypting Disk in Linux using LUKS",
     
-    "abstract": "6 basic excel (spreadsheet) functions \/ formulas: SUMIF, CONCATENATE, MATCH, (LEFT, MID, RIGHT), (HLOOKUP \u0026amp; VLOOKUP), TRANSPOSE",
+    "abstract": "A tutorial on how to encrypt disk\/drive in linux with cryptsetup.",
     "inLanguage": "en",
-    "url" : "http:\/\/localhost:1313\/tech\/excel2\/",
+    "url" : "http:\/\/localhost:1313\/tech\/luks\/",
     "author" : {
       "@type": "Person",
       "name": "Wildan"
     },
     "copyrightYear": "2025",
-    "dateCreated": "2025-01-28T03:33:42\u002b00:00",
-    "datePublished": "2025-01-28T03:33:42\u002b00:00",
+    "dateCreated": "2025-02-02T04:43:27\u002b00:00",
+    "datePublished": "2025-02-02T04:43:27\u002b00:00",
     
-    "dateModified": "2025-01-28T03:33:42\u002b00:00",
+    "dateModified": "2025-02-02T04:43:27\u002b00:00",
     
-    "keywords": ["excel","spreadsheet","data","data analysis"],
+    "keywords": ["cryptsetup","linux","disk","encryption","luks"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "792"
+    "wordCount": "618"
   }]
   </script>
 
@@ -780,8 +780,8 @@
   <li class="inline hidden">
     <a
       class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
-      href="/tech/excel2/"
-      >Basic Excel (Spreadsheet) Functions - Part 2</a
+      href="/tech/luks/"
+      >Enrypting Disk in Linux using LUKS</a
     ><span class="px-1 text-primary-500">/</span>
   </li>
 
@@ -790,7 +790,7 @@
 
     
     <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-      Basic Excel (Spreadsheet) Functions - Part 2
+      Enrypting Disk in Linux using LUKS
     </h1>
     <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
       
@@ -839,7 +839,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2025-01-28T03:33:42&#43;00:00">28 January 2025</time><span class="px-2 text-primary-500">&middot;</span><span>792 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">4 mins</span><span class="px-2 text-primary-500">&middot;</span>
+  <time datetime="2025-02-02T04:43:27&#43;00:00">2 February 2025</time><span class="px-2 text-primary-500">&middot;</span><span>618 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">3 mins</span><span class="px-2 text-primary-500">&middot;</span>
 
 
   
@@ -849,7 +849,7 @@
 
 <span class="mb-[2px]">
   <a
-    href="#/tech/excel2.md"
+    href="#/tech/luks.md"
     class="text-lg hover:text-primary-500"
     rel="noopener noreferrer"
     target="_blank"
@@ -901,10 +901,10 @@
   
   
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/categories/excel/&#34;,'_self');return false;">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/categories/cryptsetup/&#34;,'_self');return false;">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Excel
+    Cryptsetup
   </span>
 </span>
   </span>
@@ -917,34 +917,42 @@
   
   
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/excel/&#34;,'_self');return false;">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/cryptsetup/&#34;,'_self');return false;">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Excel
+    Cryptsetup
   </span>
 </span>
   </span>
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/spreadsheet/&#34;,'_self');return false;">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/linux/&#34;,'_self');return false;">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Spreadsheet
+    Linux
   </span>
 </span>
   </span>
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/data/&#34;,'_self');return false;">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/disk/&#34;,'_self');return false;">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Data
+    Disk
   </span>
 </span>
   </span>
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/data-analysis/&#34;,'_self');return false;">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/encryption/&#34;,'_self');return false;">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Data Analysis
+    Encryption
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/luks/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Luks
   </span>
 </span>
   </span>
@@ -1178,72 +1186,18 @@
     class="min-w-[220px] py-2 border-dotted ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#sumif">SUMIF</a>
+    <li><a href="#installation">Installation</a></li>
+    <li><a href="#the-initial-setup">The Initial Setup</a>
       <ul>
-        <li>
-          <ul>
-            <li><a href="#rumus-sumif">Rumus <strong>SUMIF</strong></a></li>
-            <li><a href="#contoh">Contoh:</a></li>
-          </ul>
-        </li>
+        <li><a href="#1-mengengkripsi-partisi">1. Mengengkripsi partisi</a></li>
+        <li><a href="#2-membuka-partisi-">2. Membuka partisi 🔑</a></li>
+        <li><a href="#3-memformat-filesystem">3. Memformat filesystem</a></li>
+        <li><a href="#4-me-mounting-partisi-">4. Me-mounting partisi 🛄</a></li>
+        <li><a href="#5-unmount-partisi-">5. Unmount partisi 🛅</a></li>
+        <li><a href="#6-menutup-partisi-">6. Menutup partisi 🔐</a></li>
       </ul>
     </li>
-    <li><a href="#concatenate">CONCATENATE</a>
-      <ul>
-        <li>
-          <ul>
-            <li><a href="#rumus-concatenate">Rumus <strong>CONCATENATE</strong></a></li>
-            <li><a href="#contoh-1">Contoh:</a></li>
-          </ul>
-        </li>
-      </ul>
-    </li>
-    <li><a href="#match">MATCH</a>
-      <ul>
-        <li>
-          <ul>
-            <li><a href="#rumus-match">Rumus <strong>MATCH</strong></a></li>
-            <li><a href="#contoh-2">Contoh:</a></li>
-          </ul>
-        </li>
-      </ul>
-    </li>
-    <li><a href="#left-mid-right">LEFT, MID, RIGHT</a>
-      <ul>
-        <li>
-          <ul>
-            <li><a href="#rumus-left">Rumus <strong>LEFT</strong></a></li>
-            <li><a href="#rumus-mid">Rumus <strong>MID</strong></a></li>
-            <li><a href="#rumus-right">Rumus <strong>RIGHT</strong></a></li>
-            <li><a href="#contoh-left">Contoh LEFT:</a></li>
-            <li><a href="#contoh-mid">Contoh MID:</a></li>
-            <li><a href="#contoh-right">Contoh RIGHT:</a></li>
-          </ul>
-        </li>
-      </ul>
-    </li>
-    <li><a href="#hlookup--vlookup">HLOOKUP &amp; VLOOKUP</a>
-      <ul>
-        <li>
-          <ul>
-            <li><a href="#rumus-vlookup">Rumus <strong>VLOOKUP</strong></a></li>
-            <li><a href="#rumus-hlookup">Rumus <strong>HLOOKUP</strong></a></li>
-            <li><a href="#contoh-vlookup">Contoh VLOOKUP:</a></li>
-            <li><a href="#contoh-hlookup">Contoh HLOOKUP:</a></li>
-          </ul>
-        </li>
-      </ul>
-    </li>
-    <li><a href="#transpose">TRANSPOSE</a>
-      <ul>
-        <li>
-          <ul>
-            <li><a href="#rumus-transpose">Rumus <strong>TRANSPOSE</strong></a></li>
-            <li><a href="#contoh-3">Contoh:</a></li>
-          </ul>
-        </li>
-      </ul>
-    </li>
+    <li><a href="#the-end">The End</a></li>
   </ul>
 </nav>
   </div>
@@ -1257,72 +1211,18 @@
     class="py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#sumif">SUMIF</a>
+    <li><a href="#installation">Installation</a></li>
+    <li><a href="#the-initial-setup">The Initial Setup</a>
       <ul>
-        <li>
-          <ul>
-            <li><a href="#rumus-sumif">Rumus <strong>SUMIF</strong></a></li>
-            <li><a href="#contoh">Contoh:</a></li>
-          </ul>
-        </li>
+        <li><a href="#1-mengengkripsi-partisi">1. Mengengkripsi partisi</a></li>
+        <li><a href="#2-membuka-partisi-">2. Membuka partisi 🔑</a></li>
+        <li><a href="#3-memformat-filesystem">3. Memformat filesystem</a></li>
+        <li><a href="#4-me-mounting-partisi-">4. Me-mounting partisi 🛄</a></li>
+        <li><a href="#5-unmount-partisi-">5. Unmount partisi 🛅</a></li>
+        <li><a href="#6-menutup-partisi-">6. Menutup partisi 🔐</a></li>
       </ul>
     </li>
-    <li><a href="#concatenate">CONCATENATE</a>
-      <ul>
-        <li>
-          <ul>
-            <li><a href="#rumus-concatenate">Rumus <strong>CONCATENATE</strong></a></li>
-            <li><a href="#contoh-1">Contoh:</a></li>
-          </ul>
-        </li>
-      </ul>
-    </li>
-    <li><a href="#match">MATCH</a>
-      <ul>
-        <li>
-          <ul>
-            <li><a href="#rumus-match">Rumus <strong>MATCH</strong></a></li>
-            <li><a href="#contoh-2">Contoh:</a></li>
-          </ul>
-        </li>
-      </ul>
-    </li>
-    <li><a href="#left-mid-right">LEFT, MID, RIGHT</a>
-      <ul>
-        <li>
-          <ul>
-            <li><a href="#rumus-left">Rumus <strong>LEFT</strong></a></li>
-            <li><a href="#rumus-mid">Rumus <strong>MID</strong></a></li>
-            <li><a href="#rumus-right">Rumus <strong>RIGHT</strong></a></li>
-            <li><a href="#contoh-left">Contoh LEFT:</a></li>
-            <li><a href="#contoh-mid">Contoh MID:</a></li>
-            <li><a href="#contoh-right">Contoh RIGHT:</a></li>
-          </ul>
-        </li>
-      </ul>
-    </li>
-    <li><a href="#hlookup--vlookup">HLOOKUP &amp; VLOOKUP</a>
-      <ul>
-        <li>
-          <ul>
-            <li><a href="#rumus-vlookup">Rumus <strong>VLOOKUP</strong></a></li>
-            <li><a href="#rumus-hlookup">Rumus <strong>HLOOKUP</strong></a></li>
-            <li><a href="#contoh-vlookup">Contoh VLOOKUP:</a></li>
-            <li><a href="#contoh-hlookup">Contoh HLOOKUP:</a></li>
-          </ul>
-        </li>
-      </ul>
-    </li>
-    <li><a href="#transpose">TRANSPOSE</a>
-      <ul>
-        <li>
-          <ul>
-            <li><a href="#rumus-transpose">Rumus <strong>TRANSPOSE</strong></a></li>
-            <li><a href="#contoh-3">Contoh:</a></li>
-          </ul>
-        </li>
-      </ul>
-    </li>
+    <li><a href="#the-end">The End</a></li>
   </ul>
 </nav>
   </div>
@@ -1363,39 +1263,119 @@
       <div class="min-w-0 min-h-0 max-w-fit">
         
         
-<details style="margin-left:0px" class="mt-2 mb-5 overflow-hidden rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5" >
-    
-    <summary
-        class="py-1 text-lg font-semibold cursor-pointer bg-primary-200 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-primary-800 dark:text-neutral-100">
-        Excel - This article is part of a series.
-    </summary>
-    
-    
-    
-    <div
-        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
-        <a href="http://localhost:1313/tech/excel1/">
-            Part 1: Basic Excel (Spreadsheet) Functions - Part 1
-        </a>
-    </div>
-    
-    
-    
-    <div
-        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
-        Part 2: This Article
-    </div>
-    
-    
-
-
-</details>
-
 
 
         <div class="article-content max-w-prose mb-20">
-          <p>Melanjutkan series Excel sebelumnya, di artikel ini, kita akan belajar menggunakan 6 fungsi dasar di Microsoft Excel atau Google Spreadsheet, yaitu <strong>SUMIF</strong>, <strong>CONCATENATE</strong>, <strong>MATCH</strong>, <strong>(LEFT, MID, RIGHT)</strong><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>, <strong>(HLOOKUP &amp; VLOOKUP)</strong><sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>, <strong>TRANSPOSE</strong>.<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></p>
+          <p>Kali ini kita akan belajar cara meng-<em>encypt</em> disk/drive di linux menggunakan <strong>LUKS (Linux Unified Key Format)</strong>. LUKS adalah format enkripsi yang umum digunakan di linux. Salah satu tool yang dapat digunakan untuk mengenkripsi disk/drive adalah <a href="https://www.google.com/search?q=cryptsetup" target="_blank"><strong><code>cryptsetup</code></strong></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.</p>
 
+
+<h2 class="relative group">Installation 
+    <div id="installation" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#installation" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<p>Karena merupakan <em>tool</em> standard, <strong><code>cryptsetup</code></strong> biasanya sudah terpasang ketika melakukan instalasi linux. Tapi, jika ternyata belum terpasang, silakan <em>install</em> terlebih dahulu:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Distro</th>
+          <th>Command</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Debian/Ubuntu</strong></td>
+          <td><strong><code>sudo apt install cryptsetup</code></strong></td>
+      </tr>
+      <tr>
+          <td><strong>Arch Linux</strong></td>
+          <td><strong><code>sudo pacman -Sy cryptsetup</code></strong></td>
+      </tr>
+      <tr>
+          <td><strong>Opensuse</strong></td>
+          <td><strong><code>sudo zypper install cryptsetup</code></strong></td>
+      </tr>
+      <tr>
+          <td><strong>Fedora</strong></td>
+          <td><strong><code>sudo dnf install cryptsetup</code></strong></td>
+      </tr>
+  </tbody>
+</table>
+
+
+<h2 class="relative group">The Initial Setup 
+    <div id="the-initial-setup" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#the-initial-setup" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<p>Sebelum melakukan proses enkripsi, beberapa hal berikut perlu diperhatikan:</p>
+
+  
+  
+  
+  
+
+
+
+<div
+  
+    class="flex px-4 py-3 rounded-md"
+    style="background-color: #ff9ba7"
+  >
+
+  <span
+    
+      class="ltr:pr-3 rtl:pl-3 flex items-center"
+      style="color: #ff001e"
+    >
+
+    
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M506.3 417l-213.3-364c-16.33-28-57.54-28-73.98 0l-213.2 364C-10.59 444.9 9.849 480 42.74 480h426.6C502.1 480 522.6 445 506.3 417zM232 168c0-13.25 10.75-24 24-24S280 154.8 280 168v128c0 13.25-10.75 24-23.1 24S232 309.3 232 296V168zM256 416c-17.36 0-31.44-14.08-31.44-31.44c0-17.36 14.07-31.44 31.44-31.44s31.44 14.08 31.44 31.44C287.4 401.9 273.4 416 256 416z"/></svg>
+
+  </span>
+
+
+  </span>
+
+  <span
+    
+      style="color: #000000"
+    ><ul>
+<li><strong><em>Back up</em></strong> data-data penting terlebih dahulu!</li>
+<li>Catat <strong><em>passphrase</em></strong> yang digunakan agar tidak lupa!</li>
+</ul>
+</span>
+</div>
+
+<p>Berikut adalah langkah-langkah enkripsi dengan <strong><code>cryptsetup</code></strong>:</p>
+
+
+<h3 class="relative group">1. Mengengkripsi partisi 
+    <div id="1-mengengkripsi-partisi" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#1-mengengkripsi-partisi" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>Pertama, kita perlu mengenkripsi partisi yang terdapat di sebuah disk/drive terlebih dahulu. Artinya, sebuah disk/drive mungkin punya lebih dari satu partisi dan kita tidak harus mengenkripsi semua partisinya.</p>
+<p>Berikut perintahnya:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">sudo cryptsetup luksFormat /dev/sda3
+</span></span></code></pre></div>
   
   
   
@@ -1421,461 +1401,296 @@
   <span
     
       class="dark:text-neutral-300"
-    ><p><strong>Note:</strong> Saya akan mendemokan rumus-rumus tersebut di Google Spreadsheet karena 2 alasan utama:</p>
-<ol>
-<li>fungi-fungsi tersebut masih dapat berfungsi persis seperti ketika digunakan di Microsoft Excel.</li>
-<li>saya tidak punya excel di linux (dan malas juga <em>install</em> via wine).</li>
-</ol></span>
+    ><p><strong>Keterangan:</strong></p>
+<ul>
+<li><code>/dev/sda3</code> adalah partisi yang akan saya <em>encrypt</em>. Silakan disesuaikan.</li>
+<li>Partisi yang ada dapat dilihat dengan perintah <code>lsblk</code>.</li>
+</ul></span>
 </div>
 
+<p>Setelah itu, akan muncul 2 prompt:</p>
+<ol>
+<li>Konfirmasi untuk mengenkripsi partisi, kita bisa ketik <strong>YES</strong> jika ingin melanjutkan.</li>
+<li><em>Passphrase</em> atau <em>password</em> yang digunakan untuk meng-<em>encrypt</em> dan men-<em>decrypt</em>. Gunakan passphrase yang tidak mudah ditebak tapi tidak mudah dilupakan.</li>
+</ol>
+<p>
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="/luks/ss1.png" alt="ss1" />
+      <figcaption>Encrypting a partition</figcaption>
+    </figure>
+</p>
 
 
-<h2 class="relative group">SUMIF 
-    <div id="sumif" class="anchor"></div>
+<h3 class="relative group">2. Membuka partisi 🔑 
+    <div id="2-membuka-partisi-" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#sumif" aria-label="Anchor">#</a>
+            style="text-decoration-line: none !important;" href="#2-membuka-partisi-" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>Sekarang, kita akan membuka partisi sebelumnya yang sudah diformat dengan LUKS:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">sudo cryptsetup open /dev/sda3 <span class="nb">test</span>
+</span></span></code></pre></div>
+  
+  
+  
+  
+
+
+
+<div
+  
+    class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
+  >
+
+  <span
+    
+      class="text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center"
+    >
+
+    
+
+
+  </span>
+
+  <span
+    
+      class="dark:text-neutral-300"
+    ><p><strong>Keterangan:</strong></p>
+<ul>
+<li><code>test</code> adalah nama partisi yang terenkripsi tadi. Nama ini hanya sementara. Jadi, bisa diganti ketika kita membuka partisi ini lagi nanti.</li>
+</ul></span>
+</div>
+
+<p>Sekarang, bandingkan partisi yang belum dibuka dengan yang sudah dibuka dengan <code>lsblk</code>. Sekarang, kita memiliki sebuah partisi baru yang ter-<em>decrypt</em> yang bernama <strong>&ldquo;test&rdquo;</strong> di <code>/dev/sda3</code>. :</p>
+<p>
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="/luks/ss2.png" alt="ss2" />
+      <figcaption>Opening up the encrypted partition</figcaption>
+    </figure>
+</p>
+<p>Hal penting lainnya yang perlu dicatat juga di tahap ini adalah bahwa partisi yang sudah didekripsi akan muncul di <strong><code>/dev/mapper</code></strong>.</p>
+
+
+<h3 class="relative group">3. Memformat filesystem 
+    <div id="3-memformat-filesystem" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#3-memformat-filesystem" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>Berikutnya, kita perlu membuat format <em>filesystem</em> baru ke partisi ini.<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> Kita hanya perlu melakukan ini di awal saja:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">sudo mkfs.ext4 /dev/mapper/test
+</span></span></code></pre></div>
+  
+  
+  
+  
+
+
+
+<div
+  
+    class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
+  >
+
+  <span
+    
+      class="text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center"
+    >
+
+    
+
+
+  </span>
+
+  <span
+    
+      class="dark:text-neutral-300"
+    ><p><strong>Keterangan:</strong></p>
+<ul>
+<li><code>mkfs.ext4</code> adalah nama filesystem standard untuk linux. Silakan disesuaikan dengan kebutuhan.</li>
+<li><code>/dev/mapper/test</code> adalah nama partisi terdekripsi yang sudah saya buat sebelunnya.</li>
+</ul></span>
+</div>
+
+<p>Perhatikan bahwa <em>formatting</em> filesystem ini kita lakukan ke <code>/dev/mapper/test</code>, bukan lagi ke <code>/dev/sda3</code>!</p>
+<p>
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="/luks/ss3.png" alt="ss3" />
+      <figcaption>Creating partition&rsquo;s filesystem</figcaption>
+    </figure>
+</p>
+
+
+<h3 class="relative group">4. Me-mounting partisi 🛄 
+    <div id="4-me-mounting-partisi-" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#4-me-mounting-partisi-" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>Langkah terakhir sebelum partisi ini dapat digunakan adalah me-<em>mounting</em>-nya ke direktori tertentu.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">sudo mount /dev/mapper/test /mnt
+</span></span></code></pre></div>
+  
+  
+  
+  
+
+
+
+<div
+  
+    class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
+  >
+
+  <span
+    
+      class="text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center"
+    >
+
+    
+
+
+  </span>
+
+  <span
+    
+      class="dark:text-neutral-300"
+    ><p><strong>Keterangan:</strong></p>
+<ul>
+<li><code>/dev/mapper/test</code> adalah nama partisi yang sudah dibuat sebelumnya.</li>
+<li><code>/mnt</code> adalah lokasi yang saya inginkan sebagai tempat partisi <code>/dev/mapper/test</code> dipasang.</li>
+</ul></span>
+</div>
+
+<p>
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="/luks/ss4.png" alt="ss4" />
+      <figcaption>Mounting partition</figcaption>
+    </figure>
+</p>
+<p>Seperti terlihat pada tangkapan layar, partisi <code>/dev/mapper/test</code> sudah terpasang ke <code>/mnt</code>.</p>
+<p>Sekarang, kita sudah bisa menggunakan (mengisinya dengan file &amp; folder) partisi tersebut. Misalnya, saya akan mengisinya dengan sebuah direktori/folder bernama <strong>&ldquo;secret-dir&rdquo;</strong> dan sebuah file teks bernama <strong>&ldquo;secret-file.txt&rdquo;</strong> di dalamnya:</p>
+<p>
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="/luks/ss5.png" alt="ss5" />
+      <figcaption>Creating a folder and a file</figcaption>
+    </figure>
+</p>
+
+
+<h3 class="relative group">5. Unmount partisi 🛅 
+    <div id="5-unmount-partisi-" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#5-unmount-partisi-" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>Setelah selesai menggunakan partisi tersebut, kita bisa meng-unmount-nya:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">sudo umount /mnt
+</span></span></code></pre></div>
+  
+  
+  
+  
+
+
+
+<div
+  
+    class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
+  >
+
+  <span
+    
+      class="text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center"
+    >
+
+    
+
+
+  </span>
+
+  <span
+    
+      class="dark:text-neutral-300"
+    ><p><strong>Keterangan:</strong></p>
+<ul>
+<li><code>/mnt</code> adalah tempat dimana partisi tadi terpasang.</li>
+</ul></span>
+</div>
+
+<p>
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="/luks/ss6.png" alt="ss6" />
+      <figcaption>Unmounting partition</figcaption>
+    </figure>
+</p>
+<p>Seperti terlihat, partisi <code>/dev/mapper/test</code> sudah terlepas dari <code>/mnt</code>.</p>
+
+
+<h3 class="relative group">6. Menutup partisi 🔐 
+    <div id="6-menutup-partisi-" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#6-menutup-partisi-" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>Ketika sudah tidak digunakan lagi, pastikan kita menutup partisi tersebut agar ketika misalnya komputer atau disk/drive kita di-<em>hack</em>, data-data dalam partisi kita akan tetap aman karena kita sudah kembali mengenkripsinya kembali.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">sudo cryptsetup close <span class="nb">test</span>
+</span></span></code></pre></div><p>Dan partisi tadi <code>/dev/sda3</code> sudah ter-<em>encrypt</em> kembali.</p>
+<p>
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="/luks/ss7.png" alt="ss7" />
+      <figcaption>Close the partition</figcaption>
+    </figure>
+</p>
+<p>SELESAI!!!</p>
+
+
+<h2 class="relative group">The End 
+    <div id="the-end" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#the-end" aria-label="Anchor">#</a>
     </span>        
     
 </h2>
-<p>Mirip dengan fungsi <strong>SUM</strong> di series sebelumnya, fungsi <strong>SUMIF</strong> digunakan untuk menjumlahkan otomatis nilai sehingga kita tidak perlu menghitung nilainya secara manual. Akan tetapi, penambahan ini hanya dilakukan jike memenuhi kriteria tertentu. Rumus <strong>SUMIF</strong> ini dapat digunakan untuk menjumlahkan nilai dalam sel, baik secara vertikal atau secara horizontal.</p>
-
-
-<h4 class="relative group">Rumus <strong>SUMIF</strong> 
-    <div id="rumus-sumif" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#rumus-sumif" aria-label="Anchor">#</a>
-    </span>        
-    
-</h4>
-<p><code>SUMIF(A1:A10; &quot;&gt;50&quot;)</code></p>
-<p>Keterangan:</p>
-<ul>
-<li>Menjumlahkan semua nilai dari sel <strong>A1</strong> sampai <strong>A10</strong> jika nilainya lebih dari 50.</li>
-</ul>
-
-
-<h4 class="relative group">Contoh: 
-    <div id="contoh" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#contoh" aria-label="Anchor">#</a>
-    </span>        
-    
-</h4>
-<p>Saya akan menjumlahkan nilai dari sel <strong>B3</strong> sampai <strong>B7</strong> yang lebih dari 80.<br>
-Jadi, rumus yang saya gunakan adalah</p>
-<p><code>=SUMIF(B3:B7; &quot;&gt;80&quot;)</code></p>
+<p>Sampai di tahap ini, kita telah berhasil membuat enkripsi pada sebuah partisi di disk/drive. Jika kita ingin menggunakan partisi tersebut lagi, kita hanya perlu men-<em>decrypt</em> partisinya dan me-<em>mounting</em>-nya ke suatu direktori <strong>(langkah 2 &amp; 4)</strong>, dan jika sudah selesai, kita bisa kembali meng-<em>unmount</em> dan meng-<em>encrypt</em>-nya lagi <strong>(langkah 5 &amp; 6)</strong>.</p>
+<p>Misalnya, sekarang saya ingin menghapus file <strong>&ldquo;secret-file.txt&rdquo;</strong> yang sudah dibuat sebelumnya dan menggantinya dengan file baru bernama <strong>&ldquo;secrets.txt&rdquo;</strong>. Berikut adalah langkah-langkahnya:</p>
 <p>
     <figure>
-      <img class="my-0 rounded-md" loading="lazy" src="/excel2/ss1.png" alt="ss1" />
-      <figcaption>SUMIF</figcaption>
+      <img class="my-0 rounded-md" loading="lazy" src="/luks/ss8.png" alt="ss8" />
+      <figcaption>The cycle</figcaption>
     </figure>
 </p>
-<p>Langsung terlihat hasilnya adalah <strong>182</strong>, karena hanya menjumlahkan 89 dan 93 saja.</p>
-
-
-<h2 class="relative group">CONCATENATE 
-    <div id="concatenate" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#concatenate" aria-label="Anchor">#</a>
-    </span>        
-    
-</h2>
-<p>Fungsi <strong>CONCATENATE</strong> digunakan untuk menggabungkan atau merangkai satu string atau karakter dengan string atau karakter lainnya.</p>
-
-
-<h4 class="relative group">Rumus <strong>CONCATENATE</strong> 
-    <div id="rumus-concatenate" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#rumus-concatenate" aria-label="Anchor">#</a>
-    </span>        
-    
-</h4>
-<p><code>CONCATENATE(A1:A10)</code></p>
-<p>Keterangan:</p>
-<ul>
-<li>Menggabungkan karakter di sel <strong>A1</strong> sampai <strong>A10</strong>.</li>
-</ul>
-
-
-<h4 class="relative group">Contoh: 
-    <div id="contoh-1" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#contoh-1" aria-label="Anchor">#</a>
-    </span>        
-    
-</h4>
-<p>Saya akan menjumlahkan nilai dari sel <strong>B3</strong> dan <strong>C3</strong>.<br>
-Jadi, rumus yang saya gunakan adalah</p>
-<p><code>=CONCATENATE(B3:C3)</code></p>
-<p>
-    <figure>
-      <img class="my-0 rounded-md" loading="lazy" src="/excel2/ss2.png" alt="ss2" />
-      <figcaption>CONCATENATE</figcaption>
-    </figure>
-</p>
-
-
-<h2 class="relative group">MATCH 
-    <div id="match" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#match" aria-label="Anchor">#</a>
-    </span>        
-    
-</h2>
-<p>Fungsi <strong>MATCH</strong> digunakan untuk mencari posisi suatu item atau nilai dalam rentang baris atau kolom tertentu. Hasil pencariannya akan menunjukkan lokasi baris atau kolom dimana item atau nilai yang dicari tersebut ditemukan.</p>
-
-
-<h4 class="relative group">Rumus <strong>MATCH</strong> 
-    <div id="rumus-match" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#rumus-match" aria-label="Anchor">#</a>
-    </span>        
-    
-</h4>
-<p><code>MATCH(10;A1:A10;0)</code></p>
-<p>Keterangan:</p>
-<ul>
-<li>Mencari nilai 10 dari rentang baris <strong>A1</strong> hingga <strong>A10</strong> dengan tepat/presisi (0).</li>
-</ul>
-
-
-<h4 class="relative group">Contoh: 
-    <div id="contoh-2" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#contoh-2" aria-label="Anchor">#</a>
-    </span>        
-    
-</h4>
-<p>Saya akan nilai 55 dari sel di baris <strong>B3</strong> hingga <strong>B7</strong> dengan presisi.<br>
-Jadi, rumus yang saya gunakan adalah</p>
-<p><code>=MATCH(55;B3:B7;0)</code></p>
-<p>
-    <figure>
-      <img class="my-0 rounded-md" loading="lazy" src="/excel2/ss3.png" alt="ss3" />
-      <figcaption>MATCH</figcaption>
-    </figure>
-</p>
-<p>Hasilnya <strong>4</strong> karena nilai 55 ditemukan berada di sel urutan ke-4 dari atas.</p>
-
-
-<h2 class="relative group">LEFT, MID, RIGHT 
-    <div id="left-mid-right" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#left-mid-right" aria-label="Anchor">#</a>
-    </span>        
-    
-</h2>
-<p>Fungsi <strong>LEFT, MID, RIGHT</strong> digunakan untuk mengambil sub-string atau sub-karakter dalam sebuah sel. <strong>LEFT</strong> berarti digunakan untuk mengambil sub-string atau sub-karakter dari kiri, <strong>MID</strong> digunakan untuk menambil sub-string atau sub-karakter dari tengah, dan <strong>RIGHT</strong> digunakan untuk mengambil sub-string dari kanan.</p>
-
-
-<h4 class="relative group">Rumus <strong>LEFT</strong> 
-    <div id="rumus-left" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#rumus-left" aria-label="Anchor">#</a>
-    </span>        
-    
-</h4>
-<p><code>LEFT(A1;2)</code></p>
-<p>Keterangan:</p>
-<ul>
-<li>Mengambil 2 karakter dari sebelah kiri di sel <strong>A1</strong>.</li>
-</ul>
-
-
-<h4 class="relative group">Rumus <strong>MID</strong> 
-    <div id="rumus-mid" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#rumus-mid" aria-label="Anchor">#</a>
-    </span>        
-    
-</h4>
-<p><code>MID(A1;4;3)</code></p>
-<p>Keterangan:</p>
-<ul>
-<li>Mengambil 3 karakter di sel <strong>A1</strong> mulai dari karakter ke-4.</li>
-</ul>
-
-
-<h4 class="relative group">Rumus <strong>RIGHT</strong> 
-    <div id="rumus-right" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#rumus-right" aria-label="Anchor">#</a>
-    </span>        
-    
-</h4>
-<p><code>RIGHT(A1;2)</code></p>
-<p>Keterangan:</p>
-<ul>
-<li>Mengambil 2 karakter dari sebelah kanan di sel <strong>A1</strong>.</li>
-</ul>
-
-
-<h4 class="relative group">Contoh LEFT: 
-    <div id="contoh-left" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#contoh-left" aria-label="Anchor">#</a>
-    </span>        
-    
-</h4>
-<p>Saya akan mengambil 4 karakter dari sebelah kiri di sel <strong>A3</strong>.
-Jadi, rumus yang saya gunakan adalah</p>
-<p><code>=LEFT(A3;4)</code></p>
-<p>
-    <figure>
-      <img class="my-0 rounded-md" loading="lazy" src="/excel2/ss4.png" alt="ss4" />
-      <figcaption>LEFT</figcaption>
-    </figure>
-</p>
-
-
-<h4 class="relative group">Contoh MID: 
-    <div id="contoh-mid" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#contoh-mid" aria-label="Anchor">#</a>
-    </span>        
-    
-</h4>
-<p>Saya akan mengambil 4 karakter di sel <strong>A3</strong> dimulai dari karakter ke-2.
-Jadi, rumus yang saya gunakan adalah</p>
-<p><code>=MID(A3;2;4)</code></p>
-<p>
-    <figure>
-      <img class="my-0 rounded-md" loading="lazy" src="/excel2/ss5.png" alt="ss5" />
-      <figcaption>MID</figcaption>
-    </figure>
-</p>
-
-
-<h4 class="relative group">Contoh RIGHT: 
-    <div id="contoh-right" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#contoh-right" aria-label="Anchor">#</a>
-    </span>        
-    
-</h4>
-<p>Saya akan mengambil 4 karakter dari sebelah kanan di sel <strong>A3</strong>.
-Jadi, rumus yang saya gunakan adalah</p>
-<p><code>=RIGHT(A3;4)</code></p>
-<p>
-    <figure>
-      <img class="my-0 rounded-md" loading="lazy" src="/excel2/ss6.png" alt="ss6" />
-      <figcaption>RIGHT</figcaption>
-    </figure>
-</p>
-
-
-<h2 class="relative group">HLOOKUP &amp; VLOOKUP 
-    <div id="hlookup--vlookup" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#hlookup--vlookup" aria-label="Anchor">#</a>
-    </span>        
-    
-</h2>
-<p>Fungsi <strong>HLOOKUP &amp; VLOOKUP</strong> digunakan untuk mencari suatu item atau nilai di sebuah sel. <strong>HLOOKUP</strong> digunakan untuk melakukan pencarian yang horizontal (kanan-kiri), sementara <strong>VLOOKUP</strong> dignakan untuk melakukan pencarian yang vertikal (atas-bawah).</p>
-<blockquote>
-<p><strong>NOTE:</strong> Baik <strong>VLOOKUP</strong> maupun <strong>HLOOKUP</strong> mempersyaratkan ID sebagai identifikator.</p>
-</blockquote>
-
-
-<h4 class="relative group">Rumus <strong>VLOOKUP</strong> 
-    <div id="rumus-vlookup" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#rumus-vlookup" aria-label="Anchor">#</a>
-    </span>        
-    
-</h4>
-<p><code>VLOOKUP(C3;A1:E10;3;FALSE)</code></p>
-<p>Keterangan:</p>
-<ul>
-<li><strong>C3</strong> adalah ID-nya (kode unik yang sama).</li>
-<li><strong>A1:E10</strong> adalah rentang tabel yang digunakan untuk mencari item atau nilai.</li>
-<li><strong>3</strong> adalah kolom ke-3 dari tabel yang sudah dipilih sebelumnya.</li>
-<li><strong>FALSE</strong> artinya pencarian dilakukan untuk mencari nilai tepat/presisi.</li>
-</ul>
-
-
-<h4 class="relative group">Rumus <strong>HLOOKUP</strong> 
-    <div id="rumus-hlookup" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#rumus-hlookup" aria-label="Anchor">#</a>
-    </span>        
-    
-</h4>
-<p><code>HLOOKUP(C3;A1:E10;3;FALSE)</code></p>
-<p>Keterangan:</p>
-<ul>
-<li><strong>C3</strong> adalah ID-nya (kode unik yang sama).</li>
-<li><strong>A1:E10</strong> adalah rentang tabel yang digunakan untuk mencari item atau nilai.</li>
-<li><strong>3</strong> adalah kolom ke-3 dari tabel yang sudah dipilih sebelumnya.</li>
-<li><strong>FALSE</strong> artinya pencarian dilakukan untuk mencari nilai tepat/presisi.</li>
-</ul>
-
-
-<h4 class="relative group">Contoh VLOOKUP: 
-    <div id="contoh-vlookup" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#contoh-vlookup" aria-label="Anchor">#</a>
-    </span>        
-    
-</h4>
-<p>Saya mau mengisi data nilai murid-murid berikut di tabel yang sudah lebih rapi.
-Jadi, rumus yang saya gunakan adalah</p>
-<p><code>=VLOOKUP(D3;A3:B7;2;FALSE)</code></p>
-<p>
-    <figure>
-      <img class="my-0 rounded-md" loading="lazy" src="/excel2/ss7.png" alt="ss7" />
-      <figcaption>VLOOKUP</figcaption>
-    </figure>
-</p>
-<p>Kolom <strong>D3</strong> adalah ID yang digunakan, kemudian, saya menyeleksi keseluruhan tabel yang mengandung nama siswa dan nilai yang ingin dipindahkan (A3-B7), dan karena saya hanya ingin mengambil <strong>nilai</strong> saja, maka setelah itu saya pilih kolom ke-2 saja.</p>
-
-
-<h4 class="relative group">Contoh HLOOKUP: 
-    <div id="contoh-hlookup" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#contoh-hlookup" aria-label="Anchor">#</a>
-    </span>        
-    
-</h4>
-<p>Saya mau mengisi data nilai murid-murid berikut di tabel yang sudah lebih rapi.
-Jadi, rumus yang saya gunakan adalah</p>
-<p><code>==HLOOKUP(E6;$C$2:$G$3;2;FALSE)</code></p>
-<p>
-    <figure>
-      <img class="my-0 rounded-md" loading="lazy" src="/excel2/ss8.png" alt="ss7" />
-      <figcaption>HLOOKUP</figcaption>
-    </figure>
-</p>
-<p>Kolom <strong>E3</strong> adalah ID yang digunakan, kemudian, saya menyeleksi keseluruhan tabel yang mengandung nama siswa dan nilai yang ingin dipindahkan (C2-G3), dan karena saya hanya ingin mengambil <strong>nilai</strong> saja, maka setelah itu saya pilih baris ke-2 saja.</p>
-
-
-<h2 class="relative group">TRANSPOSE 
-    <div id="transpose" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#transpose" aria-label="Anchor">#</a>
-    </span>        
-    
-</h2>
-<p>Fungsi <strong>TRANSPOSE</strong> digunakan untuk mengubah urutan baris atau kolom sehingga kita tidak perlu mengubah posisinya secara manual. Jika fungsi TRANSPOSE digunakan pada data-data dalam suatu baris, maka baris tersebut akan di-<em>transpose</em> menjadi kolom. Begitupula sebaliknya.<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup></p>
-
-
-<h4 class="relative group">Rumus <strong>TRANSPOSE</strong> 
-    <div id="rumus-transpose" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#rumus-transpose" aria-label="Anchor">#</a>
-    </span>        
-    
-</h4>
-<p><code>TRANPOSE(A1:A10)</code></p>
-<p>Keterangan:</p>
-<ul>
-<li>Mengubah baris A1-A10 menjadi kolom.</li>
-</ul>
-
-
-<h4 class="relative group">Contoh: 
-    <div id="contoh-3" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#contoh-3" aria-label="Anchor">#</a>
-    </span>        
-    
-</h4>
-<p>Saya akan men-transposisi baris nama-nama di baris <strong>A3</strong> hingga <strong>A7</strong> menjadi kolom.<br>
-Jadi, rumus yang saya gunakan adalah</p>
-<p><code>=TRANSPOSE(A3:A7)</code></p>
-<p>
-    <figure>
-      <img class="my-0 rounded-md" loading="lazy" src="/excel2/ss9.png" alt="ss9" />
-      <figcaption>TRANSPOSE</figcaption>
-    </figure>
-</p>
-<p>Terlihat, sekarang nama-nama tersebut berubah urutannya menjadi horizontal.</p>
 <div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
 <li id="fn:1">
-<p><a href="https://livingintelkom.medium.com/rumus-excel-dasar-yang-pemula-wajib-ketahui-4fc2d8e2b3c4" target="_blank">https://livingintelkom.medium.com/rumus-excel-dasar-yang-pemula-wajib-ketahui-4fc2d8e2b3c4</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p><a href="https://wiki.archlinux.org/title/Dm-crypt/Device_encryption" target="_blank">https://wiki.archlinux.org/title/Dm-crypt/Device_encryption</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:2">
-<p><a href="https://www.kitalulus.com/blog/seputar-kerja/rumus-excel/" target="_blank">https://www.kitalulus.com/blog/seputar-kerja/rumus-excel/</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-<li id="fn:3">
-<p><a href="https://kabar24.bisnis.com/read/20240923/79/1627817/47-rumus-excel-lengkap-beserta-contoh-dan-penjelasannya" target="_blank">https://kabar24.bisnis.com/read/20240923/79/1627817/47-rumus-excel-lengkap-beserta-contoh-dan-penjelasannya</a>&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-<li id="fn:4">
-<p><a href="https://support.microsoft.com/id-id/office/transpose-fungsi-transpose-ed039415-ed8a-4a81-93e9-4b6dfac76027" target="_blank">https://support.microsoft.com/id-id/office/transpose-fungsi-transpose-ed039415-ed8a-4a81-93e9-4b6dfac76027</a>&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p><a href="https://wiki.archlinux.org/title/File_systems" target="_blank">https://wiki.archlinux.org/title/File_systems</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
 </div>
@@ -1888,34 +1703,6 @@ Jadi, rumus yang saya gunakan adalah</p>
         
 
         
-<details style="margin-left:0px" class="mt-2 mb-5 overflow-hidden rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5">
-    
-    <summary
-        class="py-1 text-lg font-semibold cursor-pointer bg-primary-200 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-primary-800 dark:text-neutral-100">
-        Excel - This article is part of a series.
-    </summary>
-    
-    
-    
-    <div
-        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
-        <a href="http://localhost:1313/tech/excel1/">
-            Part 1: Basic Excel (Spreadsheet) Functions - Part 1
-        </a>
-    </div>
-    
-    
-    
-    <div
-        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
-        Part 2: This Article
-    </div>
-    
-    
-
-
-</details>
-
         
   
   <section class="flex flex-row flex-wrap justify-center pt-4 text-xl">
@@ -1924,7 +1711,7 @@ Jadi, rumus yang saya gunakan adalah</p>
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://localhost:1313/tech/excel2/&amp;title=Basic%20Excel%20%28Spreadsheet%29%20Functions%20-%20Part%202"
+      href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://localhost:1313/tech/luks/&amp;title=Enrypting%20Disk%20in%20Linux%20using%20LUKS"
       title="Share on LinkedIn"
       aria-label="Share on LinkedIn"
       >
@@ -1943,7 +1730,7 @@ Jadi, rumus yang saya gunakan adalah</p>
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://twitter.com/intent/tweet/?url=http://localhost:1313/tech/excel2/&amp;text=Basic%20Excel%20%28Spreadsheet%29%20Functions%20-%20Part%202"
+      href="https://twitter.com/intent/tweet/?url=http://localhost:1313/tech/luks/&amp;text=Enrypting%20Disk%20in%20Linux%20using%20LUKS"
       title="Tweet on Twitter"
       aria-label="Tweet on Twitter"
       >
@@ -1961,7 +1748,7 @@ Jadi, rumus yang saya gunakan adalah</p>
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://bsky.app/intent/compose?text=Basic%20Excel%20%28Spreadsheet%29%20Functions%20-%20Part%202&#43;http://localhost:1313/tech/excel2/"
+      href="https://bsky.app/intent/compose?text=Enrypting%20Disk%20in%20Linux%20using%20LUKS&#43;http://localhost:1313/tech/luks/"
       title="Post on Bluesky"
       aria-label="Post on Bluesky"
       >
@@ -1979,7 +1766,7 @@ Jadi, rumus yang saya gunakan adalah</p>
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://s2f.kytta.dev/?text=Basic%20Excel%20%28Spreadsheet%29%20Functions%20-%20Part%202%20http://localhost:1313/tech/excel2/"
+      href="https://s2f.kytta.dev/?text=Enrypting%20Disk%20in%20Linux%20using%20LUKS%20http://localhost:1313/tech/luks/"
       title=""
       aria-label=""
       >
@@ -1998,7 +1785,7 @@ Jadi, rumus yang saya gunakan adalah</p>
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://reddit.com/submit/?url=http://localhost:1313/tech/excel2/&amp;resubmit=true&amp;title=Basic%20Excel%20%28Spreadsheet%29%20Functions%20-%20Part%202"
+      href="https://reddit.com/submit/?url=http://localhost:1313/tech/luks/&amp;resubmit=true&amp;title=Enrypting%20Disk%20in%20Linux%20using%20LUKS"
       title="Submit to Reddit"
       aria-label="Submit to Reddit"
       >
@@ -2017,7 +1804,7 @@ Jadi, rumus yang saya gunakan adalah</p>
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://pinterest.com/pin/create/bookmarklet/?url=http://localhost:1313/tech/excel2/&amp;description=Basic%20Excel%20%28Spreadsheet%29%20Functions%20-%20Part%202"
+      href="https://pinterest.com/pin/create/bookmarklet/?url=http://localhost:1313/tech/luks/&amp;description=Enrypting%20Disk%20in%20Linux%20using%20LUKS"
       title="Pin on Pinterest"
       aria-label="Pin on Pinterest"
       >
@@ -2036,7 +1823,7 @@ Jadi, rumus yang saya gunakan adalah</p>
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:1313/tech/excel2/&amp;quote=Basic%20Excel%20%28Spreadsheet%29%20Functions%20-%20Part%202"
+      href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:1313/tech/luks/&amp;quote=Enrypting%20Disk%20in%20Linux%20using%20LUKS"
       title="Share on Facebook"
       aria-label="Share on Facebook"
       >
@@ -2055,7 +1842,7 @@ Jadi, rumus yang saya gunakan adalah</p>
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="mailto:?body=http://localhost:1313/tech/excel2/&amp;subject=Basic%20Excel%20%28Spreadsheet%29%20Functions%20-%20Part%202"
+      href="mailto:?body=http://localhost:1313/tech/luks/&amp;subject=Enrypting%20Disk%20in%20Linux%20using%20LUKS"
       title="Send via email"
       aria-label="Send via email"
       >
@@ -2074,7 +1861,7 @@ Jadi, rumus yang saya gunakan adalah</p>
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://api.whatsapp.com/send?text=http://localhost:1313/tech/excel2/&amp;resubmit=true&amp;title=Basic%20Excel%20%28Spreadsheet%29%20Functions%20-%20Part%202"
+      href="https://api.whatsapp.com/send?text=http://localhost:1313/tech/luks/&amp;resubmit=true&amp;title=Enrypting%20Disk%20in%20Linux%20using%20LUKS"
       title="Share via WhatsApp"
       aria-label="Share via WhatsApp"
       >
@@ -2093,7 +1880,7 @@ Jadi, rumus yang saya gunakan adalah</p>
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://t.me/share/url?url=http://localhost:1313/tech/excel2/&amp;resubmit=true&amp;title=Basic%20Excel%20%28Spreadsheet%29%20Functions%20-%20Part%202"
+      href="https://t.me/share/url?url=http://localhost:1313/tech/luks/&amp;resubmit=true&amp;title=Enrypting%20Disk%20in%20Linux%20using%20LUKS"
       title="Share via Telegram"
       aria-label="Share via Telegram"
       >
@@ -2119,7 +1906,7 @@ Jadi, rumus yang saya gunakan adalah</p>
   
   
 
-  <a href="/tech/excel1/" class="min-w-full">
+  <a href="/tech/ufw/" class="min-w-full">
     
     <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
 
@@ -2127,7 +1914,7 @@ Jadi, rumus yang saya gunakan adalah</p>
 
         
         <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
-          href="/tech/excel1/">Basic Excel (Spreadsheet) Functions - Part 1</div>
+          href="/tech/ufw/">Managing Firewall in Linux with UFW (+GUFW)</div>
         
 
         <div class="text-sm text-neutral-500 dark:text-neutral-400">
@@ -2170,7 +1957,7 @@ Jadi, rumus yang saya gunakan adalah</p>
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2025-01-24T13:24:27&#43;00:00">24 January 2025</time><span class="px-2 text-primary-500">&middot;</span><span>553 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">3 mins</span>
+  <time datetime="2025-01-13T08:59:03&#43;00:00">13 January 2025</time><span class="px-2 text-primary-500">&middot;</span><span>1607 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">8 mins</span>
   
 
   
@@ -2188,10 +1975,10 @@ Jadi, rumus yang saya gunakan adalah</p>
   
   
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/categories/excel/&#34;,'_self');return false;">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/categories/ufw/&#34;,'_self');return false;">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Excel
+    Ufw
   </span>
 </span>
   </span>
@@ -2204,318 +1991,18 @@ Jadi, rumus yang saya gunakan adalah</p>
   
   
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/excel/&#34;,'_self');return false;">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/ufw/&#34;,'_self');return false;">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Excel
+    Ufw
   </span>
 </span>
   </span>
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/spreadsheet/&#34;,'_self');return false;">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/gufw/&#34;,'_self');return false;">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Spreadsheet
-  </span>
-</span>
-  </span>
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/data/&#34;,'_self');return false;">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Data
-  </span>
-</span>
-  </span>
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/data-analysis/&#34;,'_self');return false;">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Data Analysis
-  </span>
-</span>
-  </span>
-  
-  
-  
-  
-</div>
-
-
-
-
-        </div>
-
-        
-        <div class="py-1 prose dark:prose-invert">
-          6 basic excel (spreadsheet) functions / formulas: SUM, AVERAGE, MAX, MIN, COUNT, COUNTIF
-        </div>
-        
-      </div>
-      <div class="px-6 pt-4 pb-2">
-
-      </div>
-    </div>
-  </a>
-
-  
-  
-
-  <a href="/tech/tableau-basics/" class="min-w-full">
-    
-    <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
-
-      <div class="px-6 py-4">
-
-        
-        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
-          href="/tech/tableau-basics/">Tableau Public Basics: Creating A Simple Dashboard</div>
-        
-
-        <div class="text-sm text-neutral-500 dark:text-neutral-400">
-          
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  <time datetime="2024-11-19T16:28:36&#43;07:00">19 November 2024</time><span class="px-2 text-primary-500">&middot;</span><span>1161 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">6 mins</span>
-  
-
-  
-  
-</div>
-
-
-
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  
-  
-  
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/categories/tableau/&#34;,'_self');return false;">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Tableau
-  </span>
-</span>
-  </span>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/tableau/&#34;,'_self');return false;">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Tableau
-  </span>
-</span>
-  </span>
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/data-analytics/&#34;,'_self');return false;">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Data Analytics
-  </span>
-</span>
-  </span>
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/data/&#34;,'_self');return false;">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Data
-  </span>
-</span>
-  </span>
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/visualization/&#34;,'_self');return false;">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Visualization
-  </span>
-</span>
-  </span>
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/kaggle/&#34;,'_self');return false;">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Kaggle
-  </span>
-</span>
-  </span>
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/dashboard/&#34;,'_self');return false;">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Dashboard
-  </span>
-</span>
-  </span>
-  
-  
-  
-  
-</div>
-
-
-
-
-        </div>
-
-        
-        <div class="py-1 prose dark:prose-invert">
-          Creating a dashboard is no longer that difficult. You are always able to create dashboard using Tableau Public. Here is the step by step of it.
-        </div>
-        
-      </div>
-      <div class="px-6 pt-4 pb-2">
-
-      </div>
-    </div>
-  </a>
-
-  
-  
-
-  <a href="/tech/sqlbasic/" class="min-w-full">
-    
-    <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
-
-      <div class="px-6 py-4">
-
-        
-        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
-          href="/tech/sqlbasic/">SQL Basics - Installation to Basic Commands</div>
-        
-
-        <div class="text-sm text-neutral-500 dark:text-neutral-400">
-          
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  <time datetime="2024-08-16T08:03:25&#43;00:00">16 August 2024</time><span class="px-2 text-primary-500">&middot;</span><span>2649 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">13 mins</span>
-  
-
-  
-  
-</div>
-
-
-
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  
-  
-  
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/categories/sql/&#34;,'_self');return false;">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Sql
-  </span>
-</span>
-  </span>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/sql/&#34;,'_self');return false;">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Sql
-  </span>
-</span>
-  </span>
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/database/&#34;,'_self');return false;">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Database
+    Gufw
   </span>
 </span>
   </span>
@@ -2528,10 +2015,34 @@ Jadi, rumus yang saya gunakan adalah</p>
 </span>
   </span>
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/data/&#34;,'_self');return false;">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/firewall/&#34;,'_self');return false;">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Data
+    Firewall
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/iptables/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Iptables
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/network/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Network
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/security/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Security
   </span>
 </span>
   </span>
@@ -2548,7 +2059,275 @@ Jadi, rumus yang saya gunakan adalah</p>
 
         
         <div class="py-1 prose dark:prose-invert">
-          Let&rsquo;s learn about SQL basic commands for databases.
+          A simple and user-friendly CLI firewall manager: UFW. It handles incoming to and outgoing traffic from our host machine.
+        </div>
+        
+      </div>
+      <div class="px-6 pt-4 pb-2">
+
+      </div>
+    </div>
+  </a>
+
+  
+  
+
+  <a href="/tech/mugshot/" class="min-w-full">
+    
+    <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
+
+      <div class="px-6 py-4">
+
+        
+        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="/tech/mugshot/">Mugshot to Change Your User Photo Profile</div>
+        
+
+        <div class="text-sm text-neutral-500 dark:text-neutral-400">
+          
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  <time datetime="2025-01-12T10:51:06&#43;00:00">12 January 2025</time><span class="px-2 text-primary-500">&middot;</span><span>162 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span>
+  
+
+  
+  
+</div>
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/categories/mugshot/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Mugshot
+  </span>
+</span>
+  </span>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/mugshot/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Mugshot
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/linux/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Linux
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/xfce/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Xfce
+  </span>
+</span>
+  </span>
+  
+  
+  
+  
+</div>
+
+
+
+
+        </div>
+
+        
+        <div class="py-1 prose dark:prose-invert">
+          Mugshot, a simple program to change personal user details such as photo profile.
+        </div>
+        
+      </div>
+      <div class="px-6 pt-4 pb-2">
+
+      </div>
+    </div>
+  </a>
+
+  
+  
+
+  <a href="/tech/exa/" class="min-w-full">
+    
+    <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
+
+      <div class="px-6 py-4">
+
+        
+        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="/tech/exa/">Exa-Eza as a Modern Replacement for ls</div>
+        
+
+        <div class="text-sm text-neutral-500 dark:text-neutral-400">
+          
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  <time datetime="2024-11-06T21:45:18&#43;07:00">6 November 2024</time><span class="px-2 text-primary-500">&middot;</span><span>618 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">3 mins</span>
+  
+
+  
+  
+</div>
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/categories/exa/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Exa
+  </span>
+</span>
+  </span>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/exa/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Exa
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/linux/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Linux
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/ls/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Ls
+  </span>
+</span>
+  </span>
+  
+  
+  
+  
+</div>
+
+
+
+
+        </div>
+
+        
+        <div class="py-1 prose dark:prose-invert">
+          Want to improve and modernize your ls appearance and functionality? This is the neo-ls..
         </div>
         
       </div>
@@ -2572,8 +2351,8 @@ Jadi, rumus yang saya gunakan adalah</p>
           
         
       <script>
-        var oid = "views_tech\/excel2.md"
-        var oid_likes = "likes_tech\/excel2.md"
+        var oid = "views_tech\/luks.md"
+        var oid_likes = "likes_tech\/luks.md"
       </script>
       
       
@@ -2593,7 +2372,7 @@ Jadi, rumus yang saya gunakan adalah</p>
       <div class="flex justify-between pt-3">
         <span>
           
-            <a class="flex group mr-3" href="/tech/excel1/">
+            <a class="flex group mr-3" href="/tech/excel2/">
               <span
                 class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
                 >&larr;</span
@@ -2605,11 +2384,11 @@ Jadi, rumus yang saya gunakan adalah</p>
               <span class="flex flex-col">
                 <span
                   class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >Basic Excel (Spreadsheet) Functions - Part 1</span
+                  >Basic Excel (Spreadsheet) Functions - Part 2</span
                 >
                 <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
                   
-                    <time datetime="2025-01-24T13:24:27&#43;00:00">24 January 2025</time>
+                    <time datetime="2025-01-28T03:33:42&#43;00:00">28 January 2025</time>
                   
                 </span>
               </span>
@@ -2617,28 +2396,6 @@ Jadi, rumus yang saya gunakan adalah</p>
           
         </span>
         <span>
-          
-            <a class="flex text-right group ml-3" href="/tech/luks/">
-              <span class="flex flex-col">
-                <span
-                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >Enrypting Disk in Linux using LUKS</span
-                >
-                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
-                  
-                    <time datetime="2025-02-02T04:43:27&#43;00:00">2 February 2025</time>
-                  
-                </span>
-              </span>
-              <span
-                class="ml-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
-                >&rarr;</span
-              >
-              <span
-                class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:hidden rtl:inline dark:text-neutral dark:group-hover:text-primary-400"
-                >&larr;</span
-              >
-            </a>
           
         </span>
       </div>

@@ -9,7 +9,17 @@
     <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
     <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
     <copyright>© 2025 Wildan</copyright>
-    <lastBuildDate>Tue, 28 Jan 2025 03:33:42 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 02 Feb 2025 04:43:27 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Enrypting Disk in Linux using LUKS</title>
+      <link>http://localhost:1313/tech/luks/</link>
+      <pubDate>Sun, 02 Feb 2025 04:43:27 +0000</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tech/luks/</guid>
+      <description>A tutorial on how to encrypt disk/drive in linux with cryptsetup.</description>
+      
+    </item>
     
     <item>
       <title>Basic Excel (Spreadsheet) Functions - Part 2</title>

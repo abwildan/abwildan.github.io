@@ -163,7 +163,11 @@ Misalnya, sekarang saya ingin menghapus file **"secret-file.txt"** yang sudah di
 
 ![ss8](/luks/ss8.png "The cycle")
 
+---
 
+Artikel ini di-inspirasi oleh video Youtube berikut:
+
+{{< youtube ZNaT03-xamE >}}
 
 
 

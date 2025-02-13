@@ -9,7 +9,17 @@
     <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
     <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
     <copyright>© 2025 Wildan</copyright>
-    <lastBuildDate>Sun, 02 Feb 2025 04:43:27 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 Feb 2025 03:24:53 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Joining Windows and Linux Machine to a Domain (Windows Server 2022)</title>
+      <link>http://localhost:1313/tech/joinad/</link>
+      <pubDate>Wed, 12 Feb 2025 03:24:53 +0000</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tech/joinad/</guid>
+      <description>How to join a windows and linux machine to a active directory domain controller on Windows Server 2022</description>
+      
+    </item>
     
     <item>
       <title>Enrypting Disk in Linux using LUKS</title>

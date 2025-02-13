@@ -12,7 +12,7 @@
     <lastBuildDate>Sun, 02 Feb 2025 04:43:27 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/disk/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Enrypting Disk in Linux with LUKS</title>
+      <title>Enrypting Disk in Linux using LUKS</title>
       <link>http://localhost:1313/tech/luks/</link>
       <pubDate>Sun, 02 Feb 2025 04:43:27 +0000</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>

@@ -4,18 +4,24 @@
 
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-02-12T03:24:53+00:00</lastmod>
+    <lastmod>2025-02-20T15:43:50+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tech/joinad/</loc>
-    <lastmod>2025-02-12T03:24:53+00:00</lastmod>
+    <loc>http://localhost:1313/tech/resmon/</loc>
+    <lastmod>2025-02-20T15:43:50+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/tech/</loc>
+    <lastmod>2025-02-20T15:43:50+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tech/joinad/</loc>
     <lastmod>2025-02-12T03:24:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>

@@ -9,7 +9,57 @@
     <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
     <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
     <copyright>© 2025 Wildan</copyright>
-    <lastBuildDate>Wed, 12 Feb 2025 03:24:53 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 20 Feb 2025 15:43:50 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Linux</title>
+      <link>http://localhost:1313/tags/linux/</link>
+      <pubDate>Thu, 20 Feb 2025 15:43:50 +0000</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tags/linux/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Monitoring</title>
+      <link>http://localhost:1313/tags/monitoring/</link>
+      <pubDate>Thu, 20 Feb 2025 15:43:50 +0000</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tags/monitoring/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Resource</title>
+      <link>http://localhost:1313/tags/resource/</link>
+      <pubDate>Thu, 20 Feb 2025 15:43:50 +0000</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tags/resource/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Tools</title>
+      <link>http://localhost:1313/tags/tools/</link>
+      <pubDate>Thu, 20 Feb 2025 15:43:50 +0000</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tags/tools/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Utility</title>
+      <link>http://localhost:1313/tags/utility/</link>
+      <pubDate>Thu, 20 Feb 2025 15:43:50 +0000</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tags/utility/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>Active Directory</title>
@@ -37,16 +87,6 @@
       <pubDate>Wed, 12 Feb 2025 03:24:53 +0000</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tags/domain-controller/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Linux</title>
-      <link>http://localhost:1313/tags/linux/</link>
-      <pubDate>Wed, 12 Feb 2025 03:24:53 +0000</pubDate>
-      <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/tags/linux/</guid>
       <description></description>
       
     </item>

@@ -18,7 +18,7 @@
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/excel2/</guid>
       <description>6 basic excel (spreadsheet) functions / formulas: SUMIF, CONCATENATE, MATCH, (LEFT, MID, RIGHT), (HLOOKUP &amp;amp; VLOOKUP), TRANSPOSE</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/excel2/featured.png" />
     </item>
     
     <item>
@@ -28,7 +28,7 @@
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/excel1/</guid>
       <description>6 basic excel (spreadsheet) functions / formulas: SUM, AVERAGE, MAX, MIN, COUNT, COUNTIF</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/excel1/featured.png" />
     </item>
     
     <item>
@@ -38,7 +38,7 @@
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/tableau-basics/</guid>
       <description>Creating a dashboard is no longer that difficult. You are always able to create dashboard using Tableau Public. Here is the step by step of it.</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/tableau-basics/featured.png" />
     </item>
     
     <item>

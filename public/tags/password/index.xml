@@ -18,7 +18,7 @@
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/sshnopass/</guid>
       <description>Too lazy to input your SSH password while doing routine task? Here is the solution&amp;hellip;</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/sshnopass/featured.png" />
     </item>
     
   </channel>

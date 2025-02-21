@@ -18,7 +18,7 @@
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/resmon/</guid>
       <description>This article would show several modern linux resource monitoring utilities that might help you identify your resource consumptions easily.</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/resmon/featured.png" />
     </item>
     
   </channel>

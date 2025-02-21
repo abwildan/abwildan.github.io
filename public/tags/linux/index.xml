@@ -18,7 +18,7 @@
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/resmon/</guid>
       <description>This article would show several modern linux resource monitoring utilities that might help you identify your resource consumptions easily.</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/resmon/featured.png" />
     </item>
     
     <item>
@@ -28,7 +28,7 @@
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/joinad/</guid>
       <description>How to join a windows and linux machine to a active directory domain controller on Windows Server 2022</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/joinad/featured.png" />
     </item>
     
     <item>
@@ -38,7 +38,7 @@
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/luks/</guid>
       <description>A tutorial on how to encrypt disk/drive in linux with cryptsetup.</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/luks/featured.png" />
     </item>
     
     <item>
@@ -58,7 +58,7 @@
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/mugshot/</guid>
       <description>Mugshot, a simple program to change personal user details such as photo profile.</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/mugshot/featured.png" />
     </item>
     
     <item>
@@ -68,7 +68,7 @@
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/exa/</guid>
       <description>Want to improve and modernize your ls appearance and functionality? This is the neo-ls..</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/exa/featured.png" />
     </item>
     
     <item>
@@ -78,7 +78,7 @@
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/updisk/</guid>
       <description>An easy tutorial on increasing Virtualbox VM disk size&amp;hellip;</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/updisk/featured.png" />
     </item>
     
     <item>

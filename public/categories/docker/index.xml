@@ -18,7 +18,7 @@
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/dvwa-docker/</guid>
       <description>DVWA (Damn Vulnerable Webb Apps) is a PHP/MySQL web application that is damn vulnerable~</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/dvwa-docker/featured.png" />
     </item>
     
   </channel>

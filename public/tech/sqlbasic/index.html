@@ -46,8 +46,8 @@
   
   
   
-  <script defer type="text/javascript" id="script-bundle" src="/js/main.bundle.min.a2d78d78672e549fbfc972ece871725b5478ba0b65708dda20cb97ab80a865eae6d247e1b05a4aec6ebbf78647ec3233bad8b2609ed98eee53cd58aa17128bc7.js"
-    integrity="sha512-oteNeGcuVJ&#43;/yXLs6HFyW1R4ugtlcI3aIMuXq4CoZerm0kfhsFpK7G6794ZH7DIzutiyYJ7Zju5TzViqFxKLxw==" data-copy="" data-copied=""></script>
+  <script defer type="text/javascript" id="script-bundle" src="/js/main.bundle.min.f88bdf262f6df8418ce7e23e3c2483bca8a1e86d51d7528a9c62be5681e9dc1b693a7c25bcf112b5242d2f72e5e44902ff17dda3ca098b4e15898622c6a9e87b.js"
+    integrity="sha512-&#43;IvfJi9t&#43;EGM5&#43;I&#43;PCSDvKih6G1R11KKnGK&#43;VoHp3BtpOnwlvPEStSQtL3Ll5EkC/xfdo8oJi04ViYYixqnoew==" data-copy="" data-copied=""></script>
   
   
   
@@ -80,9 +80,11 @@
     <meta property="article:tag" content="Database">
     <meta property="article:tag" content="Linux">
     <meta property="article:tag" content="Data">
+    <meta property="og:image" content="http://localhost:1313/tech/sqlbasic/featured.png">
 
   
-  <meta name="twitter:card" content="summary">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/tech/sqlbasic/featured.png">
   <meta name="twitter:title" content="SQL Basics - Installation to Basic Commands">
   <meta name="twitter:description" content="Let’s learn about SQL basic commands for databases.">
 
@@ -712,12 +714,6 @@
   
   
   
- 
-  
-   
-  
- 
-
 
 
 <div id="hero" class="h-[150px] md:h-[200px]"></div>
@@ -726,7 +722,7 @@
 
     
     <div class="fixed inset-x-0 top-0 h-[800px] single_hero_background nozoom"
-    style="background-image:url(/img/blue-aqua_hu4590856205543336145.jpg);">
+    style="background-image:url(/tech/sqlbasic/featured_hu_a0f20c104230819c.png);">
     
 
 
@@ -982,7 +978,7 @@
         
       
       <img class="!mt-0 !mb-0 h-24 w-24 rounded-full ltr:mr-4 rtl:ml-4" width="96" height="96"
-      alt="Wildan" src="/tsukasa_hu558913697537378686.png" />
+      alt="Wildan" src="/tsukasa_hu_b7684f491175234e.png" />
     
   
   <div class="place-self-center">
@@ -1330,8 +1326,7 @@
 <p>Pernah dengan SQL?</p>
 <p>Yap, SQL atau <em>Structured Query Language</em> adalah bahasa yang digunakan untuk membuat, mengakses, dan memodifikasi data dalam sebuah <em>database</em>, khususnya pada <em>relational database</em>.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> Apa itu <em>relational database</em>?. Perlu diketahui terlebih dahulu bahwa <em>database</em> atau basis data adalah sebuah sistem untuk menyimpan data dengan rapih. Database dapat diibaratkan sebagai lemari yang menyimpan berbagai macam pakaian.<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> Dengan adanya lemari, pakaian kita tersusun, tersimpan, dan tertata dengan rapih sehingga mudah untuk dicari nanti ketika dibutuhkan. Begitupula dengan data, data yang disimpan dalam sebuah <em>database</em> akan memudahkan pengguna data untuk mengaksesnya nanti ketika diperlukan. Data dalam database disimpan dalam bentuk tabel yang memiliki baris dan kolom.</p>
 <blockquote>
-<p><strong>Ilustrasi:</strong> Database dan tabel dapat diibaratkan juga seperti menyimpan file-file di dalam folder, dimana database adalah foldernya dan tabel-tabelnya adalah file-filenya.</p>
-</blockquote>
+<p><strong>Ilustrasi:</strong> Database dan tabel dapat diibaratkan juga seperti menyimpan file-file di dalam folder, dimana database adalah foldernya dan tabel-tabelnya adalah file-filenya.</p></blockquote>
 <p>
     <figure>
       <img class="my-0 rounded-md" loading="lazy" src="/sqlbasic/ss1.png" alt="ss1" />
@@ -1500,8 +1495,7 @@ Instalasi SQL di Debian via repository official hanya dapat dilakukan di Debian 
       <img class="my-0 rounded-md" loading="lazy" src="/sqlbasic/ss3.png" alt="ss3" />
       
     </figure>
-</p>
-</blockquote>
+</p></blockquote>
 <ol>
 <li>Pertama, kita unduh terlebih dahulu file-nya dari website MySQL (<a href="https://dev.mysql.com/downloads/repo/apt/%29" target="_blank">https://dev.mysql.com/downloads/repo/apt/)</a>. Kita juga bisa mengunduh filenya via terminal dengan mengetikkan perintah berikut:</li>
 </ol>
@@ -1792,8 +1786,7 @@ Instalasi SQL di Debian via repository official hanya dapat dilakukan di Debian 
 </p>
 <blockquote>
 <p><strong>Notes:</strong><br>
-Jangan lupa untuk mengambahkan <em>backticks</em> ( <strong>`</strong> ) jika nama tabelnya memiliki spasi.</p>
-</blockquote>
+Jangan lupa untuk mengambahkan <em>backticks</em> ( <strong>`</strong> ) jika nama tabelnya memiliki spasi.</p></blockquote>
 
 
 <h3 class="relative group">Menambahkan Data Ke Dalam Tabel 
@@ -1843,8 +1836,7 @@ Jangan lupa untuk mengambahkan <em>backticks</em> ( <strong>`</strong> ) jika na
 </p>
 <blockquote>
 <p><strong>Notes:</strong><br>
-Perhatikan bahwa saya tidak memasukkan nomor urut di kolom id, tapi nomor langsung di-<em>generate</em> karena di awal pembuatan tabel, kita sudah mendefinisikan kolom id sebagai data <em>integer</em> yang &ldquo;AUTO INCREMENT&rdquo; dan juga berfungsi sebagai PRIMARY KEY.</p>
-</blockquote>
+Perhatikan bahwa saya tidak memasukkan nomor urut di kolom id, tapi nomor langsung di-<em>generate</em> karena di awal pembuatan tabel, kita sudah mendefinisikan kolom id sebagai data <em>integer</em> yang &ldquo;AUTO INCREMENT&rdquo; dan juga berfungsi sebagai PRIMARY KEY.</p></blockquote>
 
 
 <h3 class="relative group">Mengubah Data Dalam Tabel 
@@ -2338,6 +2330,10 @@ Perhatikan bahwa saya tidak memasukkan nomor urut di kolom id, tapi nomor langsu
   <a href="/tech/conky/" class="min-w-full">
     
     <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
+        
+        <div class="w-full thumbnail_card_related nozoom" style="background-image:url(/tech/conky/featured_hu_f41dd244aa24cabd.png);"></div>
+        
+      
 
       <div class="px-6 py-4">
 

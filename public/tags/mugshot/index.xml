@@ -18,7 +18,7 @@
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/mugshot/</guid>
       <description>Mugshot, a simple program to change personal user details such as photo profile.</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/mugshot/featured.png" />
     </item>
     
   </channel>

@@ -18,7 +18,7 @@
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/joinad/</guid>
       <description>How to join a windows and linux machine to a active directory domain controller on Windows Server 2022</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/joinad/featured.png" />
     </item>
     
     <item>

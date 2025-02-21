@@ -46,8 +46,8 @@
   
   
   
-  <script defer type="text/javascript" id="script-bundle" src="/js/main.bundle.min.a2d78d78672e549fbfc972ece871725b5478ba0b65708dda20cb97ab80a865eae6d247e1b05a4aec6ebbf78647ec3233bad8b2609ed98eee53cd58aa17128bc7.js"
-    integrity="sha512-oteNeGcuVJ&#43;/yXLs6HFyW1R4ugtlcI3aIMuXq4CoZerm0kfhsFpK7G6794ZH7DIzutiyYJ7Zju5TzViqFxKLxw==" data-copy="" data-copied=""></script>
+  <script defer type="text/javascript" id="script-bundle" src="/js/main.bundle.min.f88bdf262f6df8418ce7e23e3c2483bca8a1e86d51d7528a9c62be5681e9dc1b693a7c25bcf112b5242d2f72e5e44902ff17dda3ca098b4e15898622c6a9e87b.js"
+    integrity="sha512-&#43;IvfJi9t&#43;EGM5&#43;I&#43;PCSDvKih6G1R11KKnGK&#43;VoHp3BtpOnwlvPEStSQtL3Ll5EkC/xfdo8oJi04ViYYixqnoew==" data-copy="" data-copied=""></script>
   
   
   
@@ -78,9 +78,11 @@
     <meta property="article:modified_time" content="2024-10-03T21:42:14+07:00">
     <meta property="article:tag" content="Rsync">
     <meta property="article:tag" content="Backup">
+    <meta property="og:image" content="http://localhost:1313/tech/rsync/featured.png">
 
   
-  <meta name="twitter:card" content="summary">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/tech/rsync/featured.png">
   <meta name="twitter:title" content="rsync: A Powerful Tool for Backing Up Data">
   <meta name="twitter:description" content="The simplest and easiest way to backup your data…">
 
@@ -710,12 +712,6 @@
   
   
   
- 
-  
-   
-  
- 
-
 
 
 <div id="hero" class="h-[150px] md:h-[200px]"></div>
@@ -724,7 +720,7 @@
 
     
     <div class="fixed inset-x-0 top-0 h-[800px] single_hero_background nozoom"
-    style="background-image:url(/img/blue-aqua_hu4590856205543336145.jpg);">
+    style="background-image:url(/tech/rsync/featured_hu_e0a03fcf78511c58.png);">
     
 
 
@@ -964,7 +960,7 @@
         
       
       <img class="!mt-0 !mb-0 h-24 w-24 rounded-full ltr:mr-4 rtl:ml-4" width="96" height="96"
-      alt="Wildan" src="/tsukasa_hu558913697537378686.png" />
+      alt="Wildan" src="/tsukasa_hu_b7684f491175234e.png" />
     
   
   <div class="place-self-center">
@@ -1353,8 +1349,7 @@
 <p>Tentang <strong><code>watch</code></strong>:<br>
 Saya menggunakan perintah <strong>watch</strong> berikut untuk memantau aktivitas di dalam direktori ~/backup:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">watch -n <span class="m">2</span> ls -l
-</span></span></code></pre></div><p>Artinya, saya akan menginputkan perintah ls -l setiap 2 detik.</p>
-</blockquote>
+</span></span></code></pre></div><p>Artinya, saya akan menginputkan perintah ls -l setiap 2 detik.</p></blockquote>
 <p>Selain digunakan untuk melakukan <em>backup</em> pada komputer lokal, <strong>rsync</strong> juga dapat digunakan untuk melakukan <em>backup</em> secara <em>remote</em> pada komputer server. Pola perintahnya juga masih sama seperti yang saya sampaikan di awal bagian demonstrasi ini. Hanya saja, kita perlu mengganti bagian <em>source</em> atau <em>destination</em>-nya dengan <em>remote</em> server yang ingin di-<em>backup</em> atau mem-<em>backup</em>. Sehingga kira-kira pola perintahnya akan seperti ini jika kita ingin melakukan <em>backup</em> dari sebuah server:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">rsync <span class="o">[</span>options<span class="o">]</span> <span class="o">[</span>username@ip-or-hostname:/source/path<span class="o">]</span> <span class="o">[</span>destination<span class="o">]</span> 
 </span></span></code></pre></div><p>Atau jika ingin melakukan <em>backup</em> ke sebuah server:</p>
@@ -1368,8 +1363,7 @@ Saya menggunakan perintah <strong>watch</strong> berikut untuk memantau aktivita
 </video>
 <blockquote>
 <p><strong>Notes:</strong><br>
-Ketika akan melakukan <em>backup</em> ke atau dari server, kita akan diminta untuk memasukkan password, karena memang <strong>rsync</strong> menggunakan SSH sebagai protokol komunikasinya.</p>
-</blockquote>
+Ketika akan melakukan <em>backup</em> ke atau dari server, kita akan diminta untuk memasukkan password, karena memang <strong>rsync</strong> menggunakan SSH sebagai protokol komunikasinya.</p></blockquote>
 <p>Berikutnya, saya juga akan menunjukkan bagaimana <strong><code>rsync</code></strong> meng-<em>handle</em> hanya file yang belum ada atau berubah saja, artinya, tidak semua file yang akan ter-<em>copy</em>, tapi hanya file-file yang berubah atau belum ada saja yang akan ditambahkan dan atau diperbarui (di-<em>update</em>) sehingga lebih efisien dalam melakukan <em>backup</em> data.</p>
 <p>Perhatikan, saya akan melakukan <em>backup</em> data dari direktori <strong><code>~/Templates</code></strong> (di sebelah kiri) ke direktori <strong><code>~/backup</code></strong> (di sebelah kanan). Secara rinci, saya akan memindahkan / meng-<em>copy</em> 3 file baru, yaitu <strong>baloon.jpg</strong>, <strong>ipaddr.sh</strong>, dan <strong>sample.pdf</strong> dari <strong><code>~/Templates</code></strong> ke <strong><code>~/backup</code></strong> serta memperbarui / meng-<em>update</em> isi konten pada file <strong>greetings.txt</strong>.</p>
 <video width="100%" controls autoplay loop muted>
@@ -1601,6 +1595,10 @@ Kalau masih bingung atau mau <em>explore</em> lebih jauh tentang <strong><code>r
   <a href="/tech/netcat/" class="min-w-full">
     
     <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
+        
+        <div class="w-full thumbnail_card_related nozoom" style="background-image:url(/tech/netcat/featured_hu_45d8faacd7ac84b2.png);"></div>
+        
+      
 
       <div class="px-6 py-4">
 
@@ -1869,6 +1867,10 @@ Kalau masih bingung atau mau <em>explore</em> lebih jauh tentang <strong><code>r
   <a href="/tech/openvpn-server/" class="min-w-full">
     
     <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
+        
+        <div class="w-full thumbnail_card_related nozoom" style="background-image:url(/tech/openvpn-server/featured_hu_93754b9d708235dd.png);"></div>
+        
+      
 
       <div class="px-6 py-4">
 
@@ -2057,7 +2059,7 @@ Kalau masih bingung atau mau <em>explore</em> lebih jauh tentang <strong><code>r
         </span>
         <span>
           
-            <a class="flex text-right group ml-3" href="/tech/covertvideoformat/">
+            <a class="flex text-right group ml-3" href="/tech/convertvideoformat/">
               <span class="flex flex-col">
                 <span
                   class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"

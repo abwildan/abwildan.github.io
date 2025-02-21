@@ -46,8 +46,8 @@
   
   
   
-  <script defer type="text/javascript" id="script-bundle" src="/js/main.bundle.min.a2d78d78672e549fbfc972ece871725b5478ba0b65708dda20cb97ab80a865eae6d247e1b05a4aec6ebbf78647ec3233bad8b2609ed98eee53cd58aa17128bc7.js"
-    integrity="sha512-oteNeGcuVJ&#43;/yXLs6HFyW1R4ugtlcI3aIMuXq4CoZerm0kfhsFpK7G6794ZH7DIzutiyYJ7Zju5TzViqFxKLxw==" data-copy="" data-copied=""></script>
+  <script defer type="text/javascript" id="script-bundle" src="/js/main.bundle.min.f88bdf262f6df8418ce7e23e3c2483bca8a1e86d51d7528a9c62be5681e9dc1b693a7c25bcf112b5242d2f72e5e44902ff17dda3ca098b4e15898622c6a9e87b.js"
+    integrity="sha512-&#43;IvfJi9t&#43;EGM5&#43;I&#43;PCSDvKih6G1R11KKnGK&#43;VoHp3BtpOnwlvPEStSQtL3Ll5EkC/xfdo8oJi04ViYYixqnoew==" data-copy="" data-copied=""></script>
   
   
   
@@ -725,7 +725,7 @@
 
     
     <div class="fixed inset-x-0 top-0 h-[800px] single_hero_background nozoom"
-    style="background-image:url(/img/blue-aqua_hu4590856205543336145.jpg);">
+    style="background-image:url(/img/blue-aqua_hu_6efeced160f7cdc7.jpg);">
     
 
 
@@ -989,7 +989,7 @@
         
       
       <img class="!mt-0 !mb-0 h-24 w-24 rounded-full ltr:mr-4 rtl:ml-4" width="96" height="96"
-      alt="Wildan" src="/tsukasa_hu558913697537378686.png" />
+      alt="Wildan" src="/tsukasa_hu_b7684f491175234e.png" />
     
   
   <div class="place-self-center">
@@ -1369,8 +1369,7 @@ Disclaimer dulu, di artikel ini, saya hanya akan membahas cara meng-<em>install<
 
 Karena saya menggunakan Debian 12 (bookworm), maka saya memilih yang Ubuntu 22/Debian 12. Silakan disesuaikan dengan distribusi linux kalian.</p>
 <blockquote>
-<p><strong>Note:</strong> Sependek pengetahuan saya, RStudio di Archlinux hanya dapat di-<em>install</em> via repositori komunitasnya alias AUR (<em>Arch User Repository</em>).</p>
-</blockquote>
+<p><strong>Note:</strong> Sependek pengetahuan saya, RStudio di Archlinux hanya dapat di-<em>install</em> via repositori komunitasnya alias AUR (<em>Arch User Repository</em>).</p></blockquote>
 <ol start="3">
 <li>Kita tinggal menginstallnya via terminal dengan perintah:</li>
 </ol>
@@ -1446,8 +1445,7 @@ Karena saya menggunakan Debian 12 (bookworm), maka saya memilih yang Ubuntu 22/D
     
 </h2>
 <blockquote>
-<p><strong>Notes:</strong> <em>Packages</em> adalah sekumpulan kode yang ditulis, diuji, dan kemudian dirilis dengan tujuan untuk menyelesaikan permasalahan tertentu<sup id="fnref:7"><a href="#fn:7" class="footnote-ref" role="doc-noteref">7</a></sup>. Sebetulnya, kita bisa mengambil <em>packages</em> dari sumber manapun, tapi sebagai pemula, ada baiknya memulai untuk mengambil atau meng-<em>install</em> <em>package</em> dari <a href="https://cran.r-project.org/" target="_blank">CRAN</a>.</p>
-</blockquote>
+<p><strong>Notes:</strong> <em>Packages</em> adalah sekumpulan kode yang ditulis, diuji, dan kemudian dirilis dengan tujuan untuk menyelesaikan permasalahan tertentu<sup id="fnref:7"><a href="#fn:7" class="footnote-ref" role="doc-noteref">7</a></sup>. Sebetulnya, kita bisa mengambil <em>packages</em> dari sumber manapun, tapi sebagai pemula, ada baiknya memulai untuk mengambil atau meng-<em>install</em> <em>package</em> dari <a href="https://cran.r-project.org/" target="_blank">CRAN</a>.</p></blockquote>
 <p>Untuk kebutuhan demonstrasi, kita memerlukan dua library utama, yaitu tidyverse dan palmerpenguins.<br>
 Kita bisa melihat informasi atau deskripsi dari sebuah paket atau library dengan mengetikkan perintah berikut di console<code>packageDescription(&quot;nama_library&quot;)</code>. Misalnya, saya ingin melihat informasi tentang paket/library <strong><code>tidyverse</code></strong>:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-R" data-lang="R"><span class="line"><span class="cl"><span class="nf">packageDescription</span><span class="p">(</span><span class="s">&#34;tidyverse&#34;</span><span class="p">)</span>
@@ -1561,8 +1559,7 @@ Kita bisa melihat informasi atau deskripsi dari sebuah paket atau library dengan
 <p>Kemudian, kita bisa melihat dataset <strong>penguins</strong> menggunakan fungsi <code>View()</code>:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-R" data-lang="R"><span class="line"><span class="cl"><span class="nf">View</span><span class="p">(</span><span class="n">penguins</span><span class="p">)</span>
 </span></span></code></pre></div><blockquote>
-<p><strong>Note:</strong> R adalah bahasa yang <em>case-sensitive</em>. Artinya, akan berbeda hasilnya jika kita menggunakan fungsi <code>view()</code> dan fungsi <code>View()</code>. Jadi, perhatikan penulisannya!</p>
-</blockquote>
+<p><strong>Note:</strong> R adalah bahasa yang <em>case-sensitive</em>. Artinya, akan berbeda hasilnya jika kita menggunakan fungsi <code>view()</code> dan fungsi <code>View()</code>. Jadi, perhatikan penulisannya!</p></blockquote>
 <p>
     <figure>
       <img class="my-0 rounded-md" loading="lazy" src="/rstudio-basic/ss3.png" alt="ss3" />

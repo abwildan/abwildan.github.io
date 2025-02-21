@@ -18,7 +18,7 @@
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/commandinjection/</guid>
       <description>Command injection is a simple yet still pretty common and relevant vulnerability in the real world even nowadays&amp;hellip;</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/commandinjection/featured.png" />
     </item>
     
   </channel>

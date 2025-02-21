@@ -18,7 +18,7 @@
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/exa/</guid>
       <description>Want to improve and modernize your ls appearance and functionality? This is the neo-ls..</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/exa/featured.png" />
     </item>
     
   </channel>

@@ -18,7 +18,7 @@
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/updisk/</guid>
       <description>An easy tutorial on increasing Virtualbox VM disk size&amp;hellip;</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/updisk/featured.png" />
     </item>
     
   </channel>

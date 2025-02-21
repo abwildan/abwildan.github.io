@@ -18,7 +18,7 @@
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/luks/</guid>
       <description>A tutorial on how to encrypt disk/drive in linux with cryptsetup.</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/luks/featured.png" />
     </item>
     
   </channel>

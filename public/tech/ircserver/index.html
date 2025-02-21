@@ -46,8 +46,8 @@
   
   
   
-  <script defer type="text/javascript" id="script-bundle" src="/js/main.bundle.min.a2d78d78672e549fbfc972ece871725b5478ba0b65708dda20cb97ab80a865eae6d247e1b05a4aec6ebbf78647ec3233bad8b2609ed98eee53cd58aa17128bc7.js"
-    integrity="sha512-oteNeGcuVJ&#43;/yXLs6HFyW1R4ugtlcI3aIMuXq4CoZerm0kfhsFpK7G6794ZH7DIzutiyYJ7Zju5TzViqFxKLxw==" data-copy="" data-copied=""></script>
+  <script defer type="text/javascript" id="script-bundle" src="/js/main.bundle.min.f88bdf262f6df8418ce7e23e3c2483bca8a1e86d51d7528a9c62be5681e9dc1b693a7c25bcf112b5242d2f72e5e44902ff17dda3ca098b4e15898622c6a9e87b.js"
+    integrity="sha512-&#43;IvfJi9t&#43;EGM5&#43;I&#43;PCSDvKih6G1R11KKnGK&#43;VoHp3BtpOnwlvPEStSQtL3Ll5EkC/xfdo8oJi04ViYYixqnoew==" data-copy="" data-copied=""></script>
   
   
   
@@ -78,9 +78,11 @@
     <meta property="article:modified_time" content="2024-09-15T21:23:53+07:00">
     <meta property="article:tag" content="Irc">
     <meta property="article:tag" content="Server">
+    <meta property="og:image" content="http://localhost:1313/tech/ircserver/featured.png">
 
   
-  <meta name="twitter:card" content="summary">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/tech/ircserver/featured.png">
   <meta name="twitter:title" content="Create Your Own IRC Server!">
   <meta name="twitter:description" content="Do you want to chat via terminal like a hackerman? If so, it’s time to read this because we will create an IRC Server with inspircd &amp; ircd-hybrid.">
 
@@ -710,12 +712,6 @@
   
   
   
- 
-  
-   
-  
- 
-
 
 
 <div id="hero" class="h-[150px] md:h-[200px]"></div>
@@ -724,7 +720,7 @@
 
     
     <div class="fixed inset-x-0 top-0 h-[800px] single_hero_background nozoom"
-    style="background-image:url(/img/blue-aqua_hu4590856205543336145.jpg);">
+    style="background-image:url(/tech/ircserver/featured_hu_b6b1c34e7007ff6d.png);">
     
 
 
@@ -964,7 +960,7 @@
         
       
       <img class="!mt-0 !mb-0 h-24 w-24 rounded-full ltr:mr-4 rtl:ml-4" width="96" height="96"
-      alt="Wildan" src="/tsukasa_hu558913697537378686.png" />
+      alt="Wildan" src="/tsukasa_hu_b7684f491175234e.png" />
     
   
   <div class="place-self-center">
@@ -1231,8 +1227,7 @@
         <div class="article-content max-w-prose mb-20">
           <p>Salah satu aplikasi <em>chatting</em> konvensional yang saya sukai adalah IRC (<em>Internet Relay Chat</em>). IRC ini suka muncul di film-film yang bertemakan hacker ketika aktor digambarkan sedang berkomunikasi. Ya, seperti namanya, IRC jika boleh saya sandingkan adalah seperti aplikasi-aplikasi pengirim pesan (<em>chatting</em>) saat ini, mungkin Discord yang paling dekat. Kenapa Discord? Karena cara kerjanya mirip-mirip menurut saya. Misalnya, kita bisa membuat server dan <em>chatting</em> dengan orang lain di server yang sama tersebut. Nah, IRC juga demikian, kita bisa memilih satu server tertentu, kemudian masuk ke <em>channel</em> tertentu, dan memulai chat<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.</p>
 <p>Berikut saya lampirkan cuplikan film <a href="https://www.imdb.com/title/tt4158110/" target="_blank">Mr Robot</a> yang menampilkan Elliot sedang chatting dengan timnya (FSOCIETY) via IRC:</p>
-
-    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
       <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/67gYEK4FtzA?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
     </div>
 
@@ -1374,8 +1369,7 @@ Perlu dicatat beberapa hal berikut:</p>
 <ol>
 <li><strong><code>inspircd</code></strong> tidak ada di repo utama Archlinux, jadi meng-<em>install</em>-nya harus dari <em>Arch User Repository</em> (AUR).</li>
 <li>Fedora juga tidak menyediakan <strong><code>inspircd</code></strong> di repo-nya, jadi, kita perlu meng-<em>compile</em>-nya langsung dari <em>source code</em> di github.</li>
-</ol>
-</blockquote>
+</ol></blockquote>
 
 <p><details >
   <summary markdown="span"><strong>Instalasi <strong><code>inspircd</code></strong> via Github</strong> 💡</summary>
@@ -1424,8 +1418,7 @@ Perlu dicatat beberapa hal berikut:</p>
 </p>
 <blockquote>
 <p><strong>Note:</strong><br>
-Perhatikan juga <em>server name</em>-nya (dalam hal ini saya biarkan <em>default</em>, yaitu <strong>irc.local</strong>, karena akan kita gunakan nanti ketika akan masuk ke server ini.)</p>
-</blockquote>
+Perhatikan juga <em>server name</em>-nya (dalam hal ini saya biarkan <em>default</em>, yaitu <strong>irc.local</strong>, karena akan kita gunakan nanti ketika akan masuk ke server ini.)</p></blockquote>
 <p>Setelah itu, kita bisa memastikan inspircd sudah <em>running</em>:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">sudo systemctl status inspircd
 </span></span></code></pre></div><p>
@@ -1489,8 +1482,7 @@ Perlu dicatat beberapa hal berikut:</p>
 <ol>
 <li><strong><code>ircd-hybrid</code></strong> tidak ada di repo utama Archlinux, jadi meng-<em>install</em>-nya harus dari <em>Arch User Repository</em> (AUR).</li>
 <li>Fedora dan Opensuse juga tidak menyediakan <strong><code>ircd-hybrid</code></strong> di repo-nya, jadi, kita perlu meng-<em>compile</em>-nya langsung dari <em>source code</em> di github.</li>
-</ol>
-</blockquote>
+</ol></blockquote>
 
 <p><details >
   <summary markdown="span"><strong>Instalasi <strong><code>ircd-hybrid</code></strong> via Github</strong> 💡</summary>
@@ -1803,6 +1795,10 @@ Perlu dicatat beberapa hal berikut:</p>
   <a href="/tech/kittyconfig/" class="min-w-full">
     
     <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
+        
+        <div class="w-full thumbnail_card_related nozoom" style="background-image:url(/tech/kittyconfig/featured_hu_5b6b272881be6050.png);"></div>
+        
+      
 
       <div class="px-6 py-4">
 
@@ -1937,6 +1933,10 @@ Perlu dicatat beberapa hal berikut:</p>
   <a href="/tech/chafa/" class="min-w-full">
     
     <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
+        
+        <div class="w-full thumbnail_card_related nozoom" style="background-image:url(/tech/chafa/featured_hu_c1ca48136b867f29.png);"></div>
+        
+      
 
       <div class="px-6 py-4">
 
@@ -2063,6 +2063,10 @@ Perlu dicatat beberapa hal berikut:</p>
   <a href="/tech/lazyvim/" class="min-w-full">
     
     <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
+        
+        <div class="w-full thumbnail_card_related nozoom" style="background-image:url(/tech/lazyvim/featured_hu_c3a857ab54cae8c8.png);"></div>
+        
+      
 
       <div class="px-6 py-4">
 

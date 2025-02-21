@@ -46,8 +46,8 @@
   
   
   
-  <script defer type="text/javascript" id="script-bundle" src="/js/main.bundle.min.a2d78d78672e549fbfc972ece871725b5478ba0b65708dda20cb97ab80a865eae6d247e1b05a4aec6ebbf78647ec3233bad8b2609ed98eee53cd58aa17128bc7.js"
-    integrity="sha512-oteNeGcuVJ&#43;/yXLs6HFyW1R4ugtlcI3aIMuXq4CoZerm0kfhsFpK7G6794ZH7DIzutiyYJ7Zju5TzViqFxKLxw==" data-copy="" data-copied=""></script>
+  <script defer type="text/javascript" id="script-bundle" src="/js/main.bundle.min.f88bdf262f6df8418ce7e23e3c2483bca8a1e86d51d7528a9c62be5681e9dc1b693a7c25bcf112b5242d2f72e5e44902ff17dda3ca098b4e15898622c6a9e87b.js"
+    integrity="sha512-&#43;IvfJi9t&#43;EGM5&#43;I&#43;PCSDvKih6G1R11KKnGK&#43;VoHp3BtpOnwlvPEStSQtL3Ll5EkC/xfdo8oJi04ViYYixqnoew==" data-copy="" data-copied=""></script>
   
   
   
@@ -82,9 +82,11 @@
     <meta property="article:tag" content="Firewall">
     <meta property="article:tag" content="Iptables">
     <meta property="article:tag" content="Network">
+    <meta property="og:image" content="http://localhost:1313/tech/ufw/featured.png">
 
   
-  <meta name="twitter:card" content="summary">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/tech/ufw/featured.png">
   <meta name="twitter:title" content="Managing Firewall in Linux with UFW (&#43;GUFW)">
   <meta name="twitter:description" content="A simple and user-friendly CLI firewall manager: UFW. It handles incoming to and outgoing traffic from our host machine.">
 
@@ -714,12 +716,6 @@
   
   
   
- 
-  
-   
-  
- 
-
 
 
 <div id="hero" class="h-[150px] md:h-[200px]"></div>
@@ -728,7 +724,7 @@
 
     
     <div class="fixed inset-x-0 top-0 h-[800px] single_hero_background nozoom"
-    style="background-image:url(/img/blue-aqua_hu4590856205543336145.jpg);">
+    style="background-image:url(/tech/ufw/featured_hu_59d1eeae90a6ffb9.png);">
     
 
 
@@ -1008,7 +1004,7 @@
         
       
       <img class="!mt-0 !mb-0 h-24 w-24 rounded-full ltr:mr-4 rtl:ml-4" width="96" height="96"
-      alt="Wildan" src="/tsukasa_hu558913697537378686.png" />
+      alt="Wildan" src="/tsukasa_hu_b7684f491175234e.png" />
     
   
   <div class="place-self-center">
@@ -1329,12 +1325,10 @@
 <p>Sebentar, lalu apa itu <u> firewall</u>?</p>
 <p>Mari sejenak melihat definisi dari kamus bahasa Inggris <em>online</em> yang cukup populer, Merriam Webster berikut:</p>
 <blockquote>
-<p><strong>Firewall:</strong> &ldquo;<em>computer hardware or software that prevents unauthorized access to private data (as on a company&rsquo;s local area network or intranet) by outside computer users (as of the Internet).</em>&rdquo;<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
-</blockquote>
+<p><strong>Firewall:</strong> &ldquo;<em>computer hardware or software that prevents unauthorized access to private data (as on a company&rsquo;s local area network or intranet) by outside computer users (as of the Internet).</em>&rdquo;<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p></blockquote>
 <p>Definisinya sudah benar, tapi belum lengkap. Jadi, mari kembali lihat definisi lain, misalnya seperti yang dikatakan oleh Kaspersky di laman websitenya yang saya kutip berikut:</p>
 <blockquote>
-<p><strong>Firewall:</strong> &ldquo;<em>a computer network security system that restricts internet traffic in to, out of, or within a private network.</em>&rdquo;<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
-</blockquote>
+<p><strong>Firewall:</strong> &ldquo;<em>a computer network security system that restricts internet traffic in to, out of, or within a private network.</em>&rdquo;<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p></blockquote>
 <p>Nah, dari referensi kedua definisi tersebut, saya menyimpulkan definisi firewall sebagai &ldquo;<em>software komputer yang digunakan untuk mencegah atau membatasi lalu lintas internet <strong>ke luar jaringan</strong>, <strong>ke dalam jaringan</strong>, maupun <strong>di dalam jaringan</strong></em>&rdquo;.</p>
 
 
@@ -1482,8 +1476,7 @@
 [ 7] 443 (v6)                   ALLOW IN    Anywhere (v6)             
 [ 8] 22 (v6)                    ALLOW IN    Anywhere (v6) 
 </code></pre><blockquote>
-<p>Terlihat bahwa rule untuk memblokir subnet ditambahkan pada urutan ke dua di <code>ufw</code>. <strong>Artinya, setiap rule baru yang dibuat, akan ditambahkan di urutan berikutnya. Selain itu, <code>ufw</code> sebagai firewall membaca dan memprioritaskan rule berdasarkan urutan nomor yang paling rendah terlebih dahulu (0,1,2,3,&hellip;dst)</strong>.</p>
-</blockquote>
+<p>Terlihat bahwa rule untuk memblokir subnet ditambahkan pada urutan ke dua di <code>ufw</code>. <strong>Artinya, setiap rule baru yang dibuat, akan ditambahkan di urutan berikutnya. Selain itu, <code>ufw</code> sebagai firewall membaca dan memprioritaskan rule berdasarkan urutan nomor yang paling rendah terlebih dahulu (0,1,2,3,&hellip;dst)</strong>.</p></blockquote>
 <p>Berdasarkan status <code>ufw</code> tersebut, kita tahu bahwa aturan atau rule <code>ufw</code> sangat sederhana, dia hanya mencatat 3 hal:</p>
 <ul>
 <li>tujuan paketnya (<strong>from</strong>)</li>
@@ -1642,8 +1635,7 @@ Anywhere                   DENY        192.168.0.0/24
 Anywhere on enp0s3         DENY        Anywhere                  
 Anywhere (v6) on enp0s3    DENY        Anywhere (v6)
 </code></pre><blockquote>
-<p>Kita juga bisa memvariasikan rule ini pada opsi yang lain, misalnya untuk ip address atau subnet yang spesifik.</p>
-</blockquote>
+<p>Kita juga bisa memvariasikan rule ini pada opsi yang lain, misalnya untuk ip address atau subnet yang spesifik.</p></blockquote>
 
 
 <h4 class="relative group">Apps 
@@ -1841,8 +1833,7 @@ Anywhere                   ALLOW       192.168.0.0/24
 Anywhere on enp0s3         ALLOW       Anywhere                  
 Anywhere (v6) on enp0s3    ALLOW       Anywhere (v6)
 </code></pre><blockquote>
-<p>Kita juga bisa memvariasikan rule ini pada opsi yang lain, misalnya untuk ip address atau subnet yang spesifik.</p>
-</blockquote>
+<p>Kita juga bisa memvariasikan rule ini pada opsi yang lain, misalnya untuk ip address atau subnet yang spesifik.</p></blockquote>
 
 
 <h4 class="relative group">Apps 
@@ -2197,6 +2188,10 @@ Anywhere (v6) on enp0s3    ALLOW       Anywhere (v6)
   <a href="/tech/mugshot/" class="min-w-full">
     
     <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
+        
+        <div class="w-full thumbnail_card_related nozoom" style="background-image:url(/tech/mugshot/featured_hu_c40f963d27d87cd8.png);"></div>
+        
+      
 
       <div class="px-6 py-4">
 
@@ -2331,6 +2326,10 @@ Anywhere (v6) on enp0s3    ALLOW       Anywhere (v6)
   <a href="/tech/conky/" class="min-w-full">
     
     <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
+        
+        <div class="w-full thumbnail_card_related nozoom" style="background-image:url(/tech/conky/featured_hu_f41dd244aa24cabd.png);"></div>
+        
+      
 
       <div class="px-6 py-4">
 

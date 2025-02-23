@@ -37,8 +37,8 @@
       <pubDate>Sat, 07 Oct 2023 15:26:34 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/hugo-ing/</guid>
-      <description></description>
-      
+      <description>Beginner step to start creating static-site via using Hugo.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/hugo-ing/featured.png" />
     </item>
     
   </channel>

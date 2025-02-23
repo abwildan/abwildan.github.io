@@ -37,8 +37,8 @@
       <pubDate>Mon, 09 Oct 2023 09:03:40 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/hugo-to-github/</guid>
-      <description></description>
-      
+      <description>A guide to publish and hostyour Hugo site to Github.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/hugo-to-github/featured.png" />
     </item>
     
     <item>
@@ -47,8 +47,8 @@
       <pubDate>Sat, 07 Oct 2023 15:26:34 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/hugo-ing/</guid>
-      <description></description>
-      
+      <description>Beginner step to start creating static-site via using Hugo.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/hugo-ing/featured.png" />
     </item>
     
   </channel>

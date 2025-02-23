@@ -2,6 +2,7 @@
 title: "A Classic yet Nostalgic Music Player: NCMPCPP"
 date: 2024-06-07T14:41:49+07:00
 draft: false		
+summary: "Have you ever play a song from a classical radio? (I don't even know the name of classical radios tho, LOL) This is NCMPCPP!"
 cover: 
   image: "/ncmpcpp/cover.png"
   alt: "ncmpcpp"

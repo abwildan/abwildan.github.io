@@ -2,6 +2,7 @@
 title: "Eternalblue (MS17-010) - SMBv1's Exploit"
 date: 2024-03-21T18:54:33+07:00
 draft: false
+summary: "EternalBlue is a computer exploit software developed by the U.S. National Security Agency (NSA). It is based on a vulnerability in Microsoft Windows that allowed users to gain access to any number of computers connected to a network."
 cover:
   image: "/eternalblue/cover.png"
   alt: 'Eterbalblue (MS17-010)'

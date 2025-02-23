@@ -18,7 +18,7 @@
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/chess/pop-tactics2/</guid>
       <description>This article shares about 3 popular tactics in chess, which are Double Attack, Discovered Attack, and Removing The Defender</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/chess/pop-tactics2/featured.png" />
     </item>
     
     <item>
@@ -28,7 +28,7 @@
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/chess/pop-tactics/</guid>
       <description>This article shares about 3 popular tactics in chess, which are Fork, Pin, and Skewer.</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/chess/pop-tactics/featured.png" />
     </item>
     
     <item>
@@ -38,7 +38,7 @@
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/chess/intro/</guid>
       <description>This article shares about (short) history, pieces, notation, and other things regarding Intro to Chess.</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/chess/intro/featured.png" />
     </item>
     
   </channel>

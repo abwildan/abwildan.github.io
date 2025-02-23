@@ -18,7 +18,7 @@
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/kayal/</guid>
       <description>Kayal Hugo&amp;rsquo;s  theme for me looks modern yet calm for a blog site. I got curious somehow and trying it out. Fortunately, I really like that theme. So, here is my thoughts about it&amp;hellip;</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/kayal/featured.png" />
     </item>
     
     <item>
@@ -27,8 +27,8 @@
       <pubDate>Mon, 09 Oct 2023 15:22:46 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/hugo-advanced/</guid>
-      <description></description>
-      
+      <description>Hugo, but more advanced&amp;hellip;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/hugo-advanced/featured.png" />
     </item>
     
     <item>

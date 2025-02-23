@@ -17,8 +17,8 @@
       <pubDate>Sat, 06 Jan 2024 02:26:47 -0500</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/gephi/</guid>
-      <description></description>
-      
+      <description>Gephi is an open-source software for network visualization and analysis.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/gephi/featured.png" />
     </item>
     
   </channel>

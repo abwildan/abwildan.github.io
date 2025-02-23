@@ -18,7 +18,7 @@
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/ircserver/</guid>
       <description>Do you want to chat via terminal like a hackerman? If so, it&amp;rsquo;s time to read this because we will create an IRC Server with inspircd &amp;amp; ircd-hybrid.</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/ircserver/featured.png" />
     </item>
     
   </channel>

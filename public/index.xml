@@ -297,7 +297,7 @@
       <pubDate>Sat, 20 Jul 2024 11:16:26 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/conky/</guid>
-      <description></description>
+      <description>Conky is obviously not the acronym of poCOng piNKY, but a light-weight system monitor for X, Wayland, and other things.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/conky/featured.png" />
     </item>
     
@@ -307,8 +307,8 @@
       <pubDate>Wed, 17 Jul 2024 15:06:15 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/tty/</guid>
-      <description></description>
-      
+      <description>TTY in which is the acronym of TeleTYpe is a cool thing you need to know as linux user as it also will give you myriad of advantages.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/tty/featured.png" />
     </item>
     
     <item>
@@ -317,8 +317,8 @@
       <pubDate>Sun, 23 Jun 2024 00:49:55 -0400</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/yt-dlp/</guid>
-      <description></description>
-      
+      <description>A small yet powerful utility for downloading videos from popular stream sites.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/yt-dlp/featured.png" />
     </item>
     
     <item>
@@ -327,8 +327,8 @@
       <pubDate>Thu, 13 Jun 2024 11:56:25 -0400</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/rstudio-basic/</guid>
-      <description></description>
-      
+      <description>Rstudio is a free and open source integrated development environment (IDE) for R programming language.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/rstudio-basic/featured.png" />
     </item>
     
     <item>
@@ -337,8 +337,8 @@
       <pubDate>Sun, 09 Jun 2024 16:59:47 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/cooltools/</guid>
-      <description></description>
-      
+      <description>Just a list of a couple of (funny) terminal tools</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/cooltools/featured.png" />
     </item>
     
     <item>
@@ -347,8 +347,8 @@
       <pubDate>Fri, 07 Jun 2024 14:41:49 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/ncmpcpp/</guid>
-      <description></description>
-      
+      <description>Have you ever play a song from a classical radio? (I don&amp;rsquo;t even know the name of classical radios tho, LOL) This is NCMPCPP!</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/ncmpcpp/featured.png" />
     </item>
     
     <item>
@@ -367,8 +367,8 @@
       <pubDate>Tue, 04 Jun 2024 22:05:26 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/rdpclient/</guid>
-      <description></description>
-      
+      <description>RDP client sometimes play an important role, doesn&amp;rsquo;t it? Especially, when you are a sys-admin. So, you must find the most suitable one for getting your work done well.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/rdpclient/featured.png" />
     </item>
     
     <item>
@@ -377,8 +377,8 @@
       <pubDate>Sun, 02 Jun 2024 19:14:29 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/polybar/</guid>
-      <description></description>
-      
+      <description>Polybar aims to help users build beautiful and highly customizable status bars for their desktop environment, without the need of having a black belt in shell scripting.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/polybar/featured.png" />
     </item>
     
     <item>
@@ -387,8 +387,8 @@
       <pubDate>Thu, 30 May 2024 01:49:56 +0000</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/openbox/</guid>
-      <description></description>
-      
+      <description>As the title said, Openbox is simple and easy window manager for beginners</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/openbox/featured.png" />
     </item>
     
     <item>
@@ -397,8 +397,8 @@
       <pubDate>Tue, 21 May 2024 09:10:19 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/scihub/</guid>
-      <description></description>
-      
+      <description>Sci-Hub is the most controversial project in modern science. The goal of Sci-Hub is to provide free and unrestricted access to all scientific knowledge.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/scihub/featured.png" />
     </item>
     
     <item>
@@ -407,8 +407,8 @@
       <pubDate>Mon, 13 May 2024 10:52:32 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/steganography/</guid>
-      <description></description>
-      
+      <description>Steganography is the practice of concealing information within another message or physical object to avoid detection.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/steganography/featured.png" />
     </item>
     
     <item>
@@ -417,8 +417,8 @@
       <pubDate>Sat, 04 May 2024 10:38:46 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/rofi/</guid>
-      <description></description>
-      
+      <description>Rofi is an X11 pop-up window switcher, run dialog, dmenu replacement, and more. It focuses on being fast to use and have minimal distraction.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/rofi/featured.png" />
     </item>
     
     <item>
@@ -427,8 +427,8 @@
       <pubDate>Thu, 02 May 2024 09:52:29 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/archinstall/</guid>
-      <description></description>
-      
+      <description>Archinstall is a helper library which automates the installation of Arch Linux. It is packaged with different pre-configured installers, such as a &amp;lsquo;guided&amp;rsquo; installer.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/archinstall/featured.png" />
     </item>
     
     <item>
@@ -437,8 +437,8 @@
       <pubDate>Sun, 28 Apr 2024 14:21:13 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/rice/</guid>
-      <description></description>
-      
+      <description>Rice? Linux eating rice? Do you want to know more about behind the &amp;lsquo;Ricing&amp;rsquo; term on technology thing, especially Linux? Here is your article&amp;hellip;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/rice/featured.png" />
     </item>
     
     <item>
@@ -447,8 +447,8 @@
       <pubDate>Mon, 15 Apr 2024 07:45:05 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/debian-installation/</guid>
-      <description></description>
-      
+      <description>A baby guide to install Debian Linux distribution as virtual machine in Virtalbox.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/debian-installation/featured.png" />
     </item>
     
     <item>
@@ -458,7 +458,7 @@
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/ngrok/</guid>
       <description></description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/ngrok/featured.png" />
     </item>
     
     <item>
@@ -467,8 +467,8 @@
       <pubDate>Tue, 26 Mar 2024 17:56:16 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/mystiq/</guid>
-      <description></description>
-      
+      <description>It is as the title says, &amp;lsquo;A FFMPEG GUI&amp;rsquo;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/mystiq/featured.png" />
     </item>
     
     <item>
@@ -477,18 +477,18 @@
       <pubDate>Thu, 21 Mar 2024 18:54:33 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/eternalblue/</guid>
-      <description></description>
-      
+      <description>EternalBlue is a computer exploit software developed by the U.S. National Security Agency (NSA). It is based on a vulnerability in Microsoft Windows that allowed users to gain access to any number of computers connected to a network.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/eternalblue/featured.png" />
     </item>
     
     <item>
-      <title>Virustotal - Platform untuk Scanning Virus</title>
+      <title>Virustotal - A Virus Scanning Website.</title>
       <link>http://localhost:1313/tech/virustotal/</link>
       <pubDate>Tue, 19 Mar 2024 21:43:27 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/virustotal/</guid>
-      <description></description>
-      
+      <description>Analyse suspicious files, domains, IPs and URLs to detect malware and other breaches, automatically share them with the security community.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/virustotal/featured.png" />
     </item>
     
     <item>
@@ -497,8 +497,8 @@
       <pubDate>Fri, 08 Mar 2024 14:55:26 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/recordmydesktop/</guid>
-      <description></description>
-      
+      <description>a simple command line tool that performs the basic tasks of capturing and encoding.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/recordmydesktop/featured.png" />
     </item>
     
     <item>
@@ -507,8 +507,8 @@
       <pubDate>Sat, 06 Jan 2024 02:26:47 -0500</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/gephi/</guid>
-      <description></description>
-      
+      <description>Gephi is an open-source software for network visualization and analysis.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/gephi/featured.png" />
     </item>
     
     <item>
@@ -517,8 +517,8 @@
       <pubDate>Thu, 30 Nov 2023 07:35:02 -0500</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/onionshare/</guid>
-      <description></description>
-      
+      <description>OnionShare is an open-source tool that lets you securely and anonymously share files, host websites, and chat with friends using the Tor network.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/onionshare/featured.png" />
     </item>
     
     <item>
@@ -527,8 +527,8 @@
       <pubDate>Wed, 11 Oct 2023 16:32:22 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/ebook-via-bot_telegram/</guid>
-      <description></description>
-      
+      <description>Get &amp;lsquo;free&amp;rsquo; e-book(s) easily via Telegram bot.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/ebook-via-bot_telegram/featured.png" />
     </item>
     
     <item>
@@ -537,8 +537,8 @@
       <pubDate>Wed, 11 Oct 2023 00:40:23 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/ffmpeg-mp42gif/</guid>
-      <description></description>
-      
+      <description>My simple note in regards of converting video (MP4) to GIF.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/ffmpeg-mp42gif/featured.png" />
     </item>
     
     <item>
@@ -547,8 +547,8 @@
       <pubDate>Tue, 10 Oct 2023 09:13:32 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/ffmpeg-sr/</guid>
-      <description></description>
-      
+      <description>My simple note in regards of screen recording using ffmpeg.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/ffmpeg-sr/featured.png" />
     </item>
     
     <item>
@@ -557,16 +557,16 @@
       <pubDate>Mon, 09 Oct 2023 15:22:46 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/hugo-advanced/</guid>
-      <description></description>
-      
+      <description>Hugo, but more advanced&amp;hellip;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/hugo-advanced/featured.png" />
     </item>
     
     <item>
       <title>Hugo To Github</title>
-      <link>http://localhost:1313/tech/hugo-to_github/</link>
+      <link>http://localhost:1313/tech/hugo-to-github/</link>
       <pubDate>Mon, 09 Oct 2023 09:03:40 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/tech/hugo-to_github/</guid>
+      <guid>http://localhost:1313/tech/hugo-to-github/</guid>
       <description></description>
       
     </item>

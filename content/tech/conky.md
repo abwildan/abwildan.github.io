@@ -2,10 +2,7 @@
 title: "Enhancing Your Linux Desktop with Conky"
 date: 2024-07-20T11:16:26+07:00
 draft: false		
-cover: 
-  image: "/conky/cover.png"
-  alt: "conky"
-  caption: "conky"
+summary: "Conky is obviously not the acronym of poCOng piNKY, but a light-weight system monitor for X, Wayland, and other things."
 tags: ["conky", "linux"]
 categories: ["conky"]
 ---

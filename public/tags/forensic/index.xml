@@ -12,13 +12,13 @@
     <lastBuildDate>Tue, 19 Mar 2024 21:43:27 +0700</lastBuildDate><atom:link href="http://localhost:1313/tags/forensic/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Virustotal - Platform untuk Scanning Virus</title>
+      <title>Virustotal - A Virus Scanning Website.</title>
       <link>http://localhost:1313/tech/virustotal/</link>
       <pubDate>Tue, 19 Mar 2024 21:43:27 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/virustotal/</guid>
-      <description></description>
-      
+      <description>Analyse suspicious files, domains, IPs and URLs to detect malware and other breaches, automatically share them with the security community.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/virustotal/featured.png" />
     </item>
     
   </channel>

@@ -2,6 +2,7 @@
 title: "FFmpeg - Convert MP4 to GIF"
 date: 2023-10-11T00:40:23+07:00
 draft: false
+summary: "My simple note in regards of converting video (MP4) to GIF."
 cover:
   image: "/mp42gif/ss2.jpg"
   alt: ''

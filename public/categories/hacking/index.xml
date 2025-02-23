@@ -17,8 +17,8 @@
       <pubDate>Thu, 21 Mar 2024 18:54:33 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/eternalblue/</guid>
-      <description></description>
-      
+      <description>EternalBlue is a computer exploit software developed by the U.S. National Security Agency (NSA). It is based on a vulnerability in Microsoft Windows that allowed users to gain access to any number of computers connected to a network.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/eternalblue/featured.png" />
     </item>
     
   </channel>

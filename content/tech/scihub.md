@@ -2,6 +2,7 @@
 title: "Bypassing Article Journal Paywall using Scihub"
 date: 2024-05-21T09:10:19+07:00
 draft: false		
+summary: "Sci-Hub is the most controversial project in modern science. The goal of Sci-Hub is to provide free and unrestricted access to all scientific knowledge."
 cover: 
   image: "/scihub/cover.png"
   alt: "Scihub"

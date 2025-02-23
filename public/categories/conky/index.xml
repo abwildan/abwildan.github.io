@@ -17,8 +17,8 @@
       <pubDate>Sat, 20 Jul 2024 11:16:26 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/conky/</guid>
-      <description></description>
-      
+      <description>Conky is obviously not the acronym of poCOng piNKY, but a light-weight system monitor for X, Wayland, and other things.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/conky/featured.png" />
     </item>
     
   </channel>

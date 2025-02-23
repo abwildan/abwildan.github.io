@@ -18,7 +18,7 @@
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/kittyconfig/</guid>
       <description>How to configure kitty &amp;amp; its shell (I use bash, btw) so it&amp;rsquo;ll look charming&amp;hellip;</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/kittyconfig/featured.png" />
     </item>
     
   </channel>

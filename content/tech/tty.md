@@ -2,6 +2,7 @@
 title: "Log in to Your System with (Stunning) TTY"
 date: 2024-07-17T15:06:15+07:00
 draft: false		
+summary: "TTY in which is the acronym of TeleTYpe is a cool thing you need to know as linux user as it also will give you myriad of advantages."
 cover: 
   image: "/tty/cover.png"
   alt: "tty"

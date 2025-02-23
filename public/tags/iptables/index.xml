@@ -18,7 +18,7 @@
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/ufw/</guid>
       <description>A simple and user-friendly CLI firewall manager: UFW. It handles incoming to and outgoing traffic from our host machine.</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/ufw/featured.png" />
     </item>
     
   </channel>

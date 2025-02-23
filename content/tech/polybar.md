@@ -2,6 +2,7 @@
 title: "Gorgeous Status Bar with Polybar"
 date: 2024-06-02T19:14:29+07:00
 draft: false		
+summary: "Polybar aims to help users build beautiful and highly customizable status bars for their desktop environment, without the need of having a black belt in shell scripting."
 cover: 
   image: "/polybar/cover.png"
   alt: "Polybar"

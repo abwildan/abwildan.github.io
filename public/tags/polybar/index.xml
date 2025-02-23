@@ -17,8 +17,8 @@
       <pubDate>Sun, 02 Jun 2024 19:14:29 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/polybar/</guid>
-      <description></description>
-      
+      <description>Polybar aims to help users build beautiful and highly customizable status bars for their desktop environment, without the need of having a black belt in shell scripting.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/polybar/featured.png" />
     </item>
     
   </channel>

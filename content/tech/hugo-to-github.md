@@ -2,6 +2,7 @@
 title: "Hugo To Github"
 date: 2023-10-09T09:03:40+07:00
 draft: false
+summary: "A guide to publish and hostyour Hugo site to Github."
 cover:
   image: "/Hugo-to-Github/hugo+github.png"
   alt: ''

@@ -17,8 +17,8 @@
       <pubDate>Sat, 04 May 2024 10:38:46 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/rofi/</guid>
-      <description></description>
-      
+      <description>Rofi is an X11 pop-up window switcher, run dialog, dmenu replacement, and more. It focuses on being fast to use and have minimal distraction.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/rofi/featured.png" />
     </item>
     
   </channel>

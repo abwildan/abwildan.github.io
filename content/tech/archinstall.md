@@ -2,6 +2,7 @@
 title: "Archlinux KDE Installation via archinstall"
 date: 2024-05-02T09:52:29+07:00
 draft: false		
+summary: "Archinstall is a helper library which automates the installation of Arch Linux. It is packaged with different pre-configured installers, such as a 'guided' installer."
 cover: 
   image: "/archinstall/cover.png"
   alt: "Arch"

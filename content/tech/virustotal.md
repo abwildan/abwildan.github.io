@@ -1,7 +1,8 @@
 ---
-title: "Virustotal - Platform untuk Scanning Virus"
+title: "Virustotal - A Virus Scanning Website."
 date: 2024-03-19T21:43:27+07:00
 draft: false
+summary: "Analyse suspicious files, domains, IPs and URLs to detect malware and other breaches, automatically share them with the security community."
 cover:
   image: "/virustotal/cover.png"
   alt: 'virustotal.com'

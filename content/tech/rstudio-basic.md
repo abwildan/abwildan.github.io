@@ -2,6 +2,7 @@
 title: "RStudio Basic: From Installation to Data Visualization"
 date: 2024-06-13T11:56:25-04:00
 draft: false		
+summary: "Rstudio is a free and open source integrated development environment (IDE) for R programming language."
 cover: 
   image: "/rstudio-basic/cover.png"
   alt: "Rstudio"

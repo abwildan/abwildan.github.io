@@ -2,6 +2,7 @@
 title: "Rofi - Beautiful & Modern App Launcher"
 date: 2024-05-04T10:38:46+07:00
 draft: false		
+summary: "Rofi is an X11 pop-up window switcher, run dialog, dmenu replacement, and more. It focuses on being fast to use and have minimal distraction. "
 cover: 
   image: "/rofi/cover.png"
   alt: "Rofi"

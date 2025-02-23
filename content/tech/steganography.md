@@ -2,6 +2,7 @@
 title: "Steganography - Hiding secret(s) Inside A File"
 date: 2024-05-13T10:52:32+07:00
 draft: false		
+summary: "Steganography is the practice of concealing information within another message or physical object to avoid detection."
 cover: 
   image: "/stego/cover.png"
   alt: "Steganography"

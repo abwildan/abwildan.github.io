@@ -2,6 +2,7 @@
 title: "Linux Ricing?"
 date: 2024-04-28T14:21:13+07:00
 draft: false
+summary: "Rice? Linux eating rice? Do you want to know more about behind the 'Ricing' term on technology thing, especially Linux? Here is your article..."
 cover: 
   image: "/rice/xfce-win95.png"
   alt: "Linux Ricing"

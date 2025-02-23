@@ -2,6 +2,7 @@
 title: "Cool Terminal Tools You Should Know"
 date: 2024-06-09T16:59:47+07:00
 draft: false
+summary: "Just a list of a couple of (funny) terminal tools"
 cover:
   image: "/cooltools/cover.png"
   alt: 'bpytop'

@@ -17,8 +17,8 @@
       <pubDate>Mon, 13 May 2024 10:52:32 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/steganography/</guid>
-      <description></description>
-      
+      <description>Steganography is the practice of concealing information within another message or physical object to avoid detection.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/steganography/featured.png" />
     </item>
     
     <item>
@@ -28,7 +28,7 @@
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/ngrok/</guid>
       <description></description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/ngrok/featured.png" />
     </item>
     
     <item>
@@ -37,18 +37,18 @@
       <pubDate>Thu, 21 Mar 2024 18:54:33 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/eternalblue/</guid>
-      <description></description>
-      
+      <description>EternalBlue is a computer exploit software developed by the U.S. National Security Agency (NSA). It is based on a vulnerability in Microsoft Windows that allowed users to gain access to any number of computers connected to a network.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/eternalblue/featured.png" />
     </item>
     
     <item>
-      <title>Virustotal - Platform untuk Scanning Virus</title>
+      <title>Virustotal - A Virus Scanning Website.</title>
       <link>http://localhost:1313/tech/virustotal/</link>
       <pubDate>Tue, 19 Mar 2024 21:43:27 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/virustotal/</guid>
-      <description></description>
-      
+      <description>Analyse suspicious files, domains, IPs and URLs to detect malware and other breaches, automatically share them with the security community.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/virustotal/featured.png" />
     </item>
     
   </channel>

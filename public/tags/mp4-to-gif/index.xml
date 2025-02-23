@@ -17,8 +17,8 @@
       <pubDate>Wed, 11 Oct 2023 00:40:23 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/ffmpeg-mp42gif/</guid>
-      <description></description>
-      
+      <description>My simple note in regards of converting video (MP4) to GIF.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/ffmpeg-mp42gif/featured.png" />
     </item>
     
   </channel>

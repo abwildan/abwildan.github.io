@@ -17,8 +17,8 @@
       <pubDate>Mon, 13 May 2024 10:52:32 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/steganography/</guid>
-      <description></description>
-      
+      <description>Steganography is the practice of concealing information within another message or physical object to avoid detection.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/steganography/featured.png" />
     </item>
     
   </channel>

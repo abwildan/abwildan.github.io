@@ -2,6 +2,7 @@
 title: "A Feature Rich Command Line Audio/Video Downloader: YT-DLP"
 date: 2024-06-23T00:49:55-04:00
 draft: false		
+summary: "A small yet powerful utility for downloading videos from popular stream sites."
 cover: 
   image: "/yt-dlp/cover.png"
   alt: "yt-dlp"

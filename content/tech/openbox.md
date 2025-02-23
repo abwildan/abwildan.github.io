@@ -2,6 +2,7 @@
 title: "Openbox - Simple and Easy Window Manager for Beginners"
 date: 2024-05-30T01:49:56Z
 draft: false		
+summary: "As the title said, Openbox is simple and easy window manager for beginners"
 cover: 
   image: "/openbox/cover.jpg"
   alt: "openbox"

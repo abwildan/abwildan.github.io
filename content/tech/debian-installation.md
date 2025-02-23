@@ -2,6 +2,7 @@
 title: "Debian Linux Installation in Virtualbox"
 date: 2024-04-15T07:45:05+07:00
 draft: false		
+summary: "A baby guide to install Debian Linux distribution as virtual machine in Virtalbox."
 cover: 
   image: "/debinstall/ss38.png"
   alt: "Debian"

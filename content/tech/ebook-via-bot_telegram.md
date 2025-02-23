@@ -2,6 +2,7 @@
 title: "Getting (free) e-books via Bot Telegram"
 date: 2023-10-11T16:32:22+07:00
 draft: false
+summary: "Get 'free' e-book(s) easily via Telegram bot."
 cover:
   image: "/zlib-tele/ss10.png"
   alt: ''

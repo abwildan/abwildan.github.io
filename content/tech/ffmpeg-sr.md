@@ -2,6 +2,7 @@
 title: "Screen Recorder with FFmpeg"
 date: 2023-10-10T09:13:32+07:00
 draft: false
+summary: "My simple note in regards of screen recording using ffmpeg."
 cover:
   image: "/ffmpeg-sr/ss3.png"
   alt: ''

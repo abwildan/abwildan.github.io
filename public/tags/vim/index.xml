@@ -18,7 +18,7 @@
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/lazyvim/</guid>
       <description>This is just my personal documentation of installing and using lazyvim as a blogger.</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/lazyvim/featured.png" />
     </item>
     
   </channel>

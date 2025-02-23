@@ -18,7 +18,7 @@
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/rsync/</guid>
       <description>The simplest and easiest way to backup your data&amp;hellip;</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/rsync/featured.png" />
     </item>
     
   </channel>

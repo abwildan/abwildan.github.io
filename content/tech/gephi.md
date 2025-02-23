@@ -2,6 +2,7 @@
 title: "Gephi - Actor(s) Centrality"
 date: 2024-01-06T02:26:47-05:00
 draft: false
+summary: "Gephi is an open-source software for network visualization and analysis."
 cover:
   image: "/gephi/ss51.png"
   alt: ''

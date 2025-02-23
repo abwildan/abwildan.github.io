@@ -2,6 +2,7 @@
 title: "Hugo (Papermod) Advanced"
 date: 2023-10-09T15:22:46+07:00
 draft: false
+summary: "Hugo, but more advanced..."
 cover:
   image: "/Hugo-Advanced/cover.png"
   alt: ''

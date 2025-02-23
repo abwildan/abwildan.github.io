@@ -28,7 +28,7 @@
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/ngrok/</guid>
       <description></description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/ngrok/featured.png" />
     </item>
     
     <item>
@@ -37,8 +37,8 @@
       <pubDate>Tue, 26 Mar 2024 17:56:16 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/mystiq/</guid>
-      <description></description>
-      
+      <description>It is as the title says, &amp;lsquo;A FFMPEG GUI&amp;rsquo;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/mystiq/featured.png" />
     </item>
     
     <item>
@@ -47,18 +47,18 @@
       <pubDate>Thu, 21 Mar 2024 18:54:33 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/eternalblue/</guid>
-      <description></description>
-      
+      <description>EternalBlue is a computer exploit software developed by the U.S. National Security Agency (NSA). It is based on a vulnerability in Microsoft Windows that allowed users to gain access to any number of computers connected to a network.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/eternalblue/featured.png" />
     </item>
     
     <item>
-      <title>Virustotal - Platform untuk Scanning Virus</title>
+      <title>Virustotal - A Virus Scanning Website.</title>
       <link>http://localhost:1313/tech/virustotal/</link>
       <pubDate>Tue, 19 Mar 2024 21:43:27 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/virustotal/</guid>
-      <description></description>
-      
+      <description>Analyse suspicious files, domains, IPs and URLs to detect malware and other breaches, automatically share them with the security community.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/virustotal/featured.png" />
     </item>
     
     <item>
@@ -67,8 +67,8 @@
       <pubDate>Fri, 08 Mar 2024 14:55:26 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/recordmydesktop/</guid>
-      <description></description>
-      
+      <description>a simple command line tool that performs the basic tasks of capturing and encoding.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/recordmydesktop/featured.png" />
     </item>
     
     <item>
@@ -77,8 +77,8 @@
       <pubDate>Thu, 30 Nov 2023 07:35:02 -0500</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/onionshare/</guid>
-      <description></description>
-      
+      <description>OnionShare is an open-source tool that lets you securely and anonymously share files, host websites, and chat with friends using the Tor network.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/onionshare/featured.png" />
     </item>
     
     <item>
@@ -87,8 +87,8 @@
       <pubDate>Wed, 11 Oct 2023 16:32:22 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/ebook-via-bot_telegram/</guid>
-      <description></description>
-      
+      <description>Get &amp;lsquo;free&amp;rsquo; e-book(s) easily via Telegram bot.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/ebook-via-bot_telegram/featured.png" />
     </item>
     
     <item>
@@ -97,8 +97,8 @@
       <pubDate>Wed, 11 Oct 2023 00:40:23 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/ffmpeg-mp42gif/</guid>
-      <description></description>
-      
+      <description>My simple note in regards of converting video (MP4) to GIF.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/ffmpeg-mp42gif/featured.png" />
     </item>
     
     <item>
@@ -107,8 +107,8 @@
       <pubDate>Tue, 10 Oct 2023 09:13:32 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/ffmpeg-sr/</guid>
-      <description></description>
-      
+      <description>My simple note in regards of screen recording using ffmpeg.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/ffmpeg-sr/featured.png" />
     </item>
     
   </channel>

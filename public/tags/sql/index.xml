@@ -18,7 +18,7 @@
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/sqlbasic/</guid>
       <description>Let&amp;rsquo;s learn about SQL basic commands for databases.</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/sqlbasic/featured.png" />
     </item>
     
   </channel>

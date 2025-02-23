@@ -2,6 +2,7 @@
 title: "Hugo-ing (from Zero to Hero)"
 date: 2023-10-07T15:26:34+07:00
 draft: false
+summary: "Beginner step to start creating static-site via using Hugo."
 cover:
   image: "/Hugo-ing/hugo-page.png"
   alt: ''

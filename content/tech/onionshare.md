@@ -2,6 +2,7 @@
 title: "Private File Sharing with Onionshare"
 date: 2023-11-30T07:35:02-05:00
 draft: false
+summary: "OnionShare is an open-source tool that lets you securely and anonymously share files, host websites, and chat with friends using the Tor network."
 cover:
    image: "/onionshare/onionshare-features.png"
    alt: "Anionshare"

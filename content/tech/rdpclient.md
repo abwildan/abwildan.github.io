@@ -2,6 +2,7 @@
 title: "My Remote Desktop Client(s)"
 date: 2024-06-04T22:05:26+07:00
 draft: false		
+summary: "RDP client sometimes play an important role, doesn't it? Especially, when you are a sys-admin. So, you must find the most suitable one for getting your work done well."
 cover: 
   image: "/rdpclient/cover.png"
   alt: "rdesktop"

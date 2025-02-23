@@ -27,8 +27,8 @@
       <pubDate>Tue, 26 Mar 2024 17:56:16 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/mystiq/</guid>
-      <description></description>
-      
+      <description>It is as the title says, &amp;lsquo;A FFMPEG GUI&amp;rsquo;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/mystiq/featured.png" />
     </item>
     
     <item>
@@ -37,8 +37,8 @@
       <pubDate>Wed, 11 Oct 2023 00:40:23 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/ffmpeg-mp42gif/</guid>
-      <description></description>
-      
+      <description>My simple note in regards of converting video (MP4) to GIF.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/ffmpeg-mp42gif/featured.png" />
     </item>
     
     <item>
@@ -47,8 +47,8 @@
       <pubDate>Tue, 10 Oct 2023 09:13:32 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/ffmpeg-sr/</guid>
-      <description></description>
-      
+      <description>My simple note in regards of screen recording using ffmpeg.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/ffmpeg-sr/featured.png" />
     </item>
     
   </channel>

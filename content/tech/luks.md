@@ -98,7 +98,7 @@ Perhatikan bahwa _formatting_ filesystem ini kita lakukan ke `/dev/mapper/test`,
 
 ![ss3](/luks/ss3.png "Creating partition's filesystem")
 
-### 4. Me-mounting partisi 🛄
+### 4. Mounting partisi 🛄
 
 Langkah terakhir sebelum partisi ini dapat digunakan adalah me-_mounting_-nya ke direktori tertentu.
 

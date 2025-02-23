@@ -2,7 +2,7 @@
 title: "Recordmydesktop - Screen Recorder based on CLI"
 date: 2024-03-08T14:55:26+07:00
 draft: false
-summary: "a simple command line tool that performs the basic tasks of capturing and encoding."
+summary: "A simple command line tool that performs the basic tasks of capturing and encoding."
 cover:
   image: "/recordmydesktop/ss6.png"
   alt: ''

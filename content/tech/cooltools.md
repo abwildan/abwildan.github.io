@@ -169,4 +169,28 @@ Mapscii adalah *a Braille & ASCII world map renderer for your console*.
 
 ![gif9](/cooltools/gif9.gif)
 
+### 10. hollywood
+
+Hollywood adalah *a technical melodrama*.
+
+**Github:** https://github.com/dustinkirkland/hollywood
+
+Instalasi (Archlinux) via repositori komunitas (AUR - Arch User Repository):
+```shell
+yay -Sy hollywood
+```
+
+![gif10](/cooltools/gif10.gif)
+
+{{< alert icon="none" >}}
+
+**Notes:**  
+`hollywood` sangat memakan _resource_ (terutama CPU) jika dijalankan. Jadi, jika komputer kalian memiliki _resource_ yang terbatas, jangan jalankan program ini terlalu lama.
+
+{{< /alert >}}
+
+
+
+
 Artikel ini akan saya perbarui jika ada *tools* baru yang belum sempat ditulis.
+

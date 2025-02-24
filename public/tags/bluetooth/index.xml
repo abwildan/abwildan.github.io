@@ -12,13 +12,13 @@
     <lastBuildDate>Sun, 23 Feb 2025 22:57:04 +0700</lastBuildDate><atom:link href="http://localhost:1313/tags/bluetooth/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Bluetoothctl: CLI tools for managing bluetooth devices</title>
+      <title>bluetoothctl: CLI Tool for Managing Bluetooth Devices</title>
       <link>http://localhost:1313/tech/bluetoothctl/</link>
       <pubDate>Sun, 23 Feb 2025 22:57:04 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/bluetoothctl/</guid>
       <description>The easiest way to connect your bluetooth devices via terminal</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/bluetoothctl/featured.png" />
     </item>
     
   </channel>

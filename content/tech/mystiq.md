@@ -2,7 +2,7 @@
 title: "Mystiq - FFmpeg's GUI"
 date: 2024-03-26T17:56:16+07:00
 draft: false
-summary: "It is as the title says, 'A FFMPEG GUI'"
+summary: "Do you know FFmpeg? This is the GUI version of it. (If you don't like FFmpeg CLI version, this is the your right choice!)"
 cover: 
   image: "/mystiq/cover.png"
   alt: 'Mystiq'

@@ -2,6 +2,7 @@
 title: "Ngrok - Make Your localhost Accessible Publicly"
 date: 2024-04-02T17:30:12+07:00
 draft: false		
+summary: "ngrok is a globally distributed reverse proxy that secures, protects and accelerates your applications and network services, no matter where you run them."
 cover: 
   image: "/ngrok/cover.png"
   alt: "Ngrok"

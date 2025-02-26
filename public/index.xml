@@ -18,7 +18,7 @@
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/mountntfs/</guid>
       <description>Solving the NTFS problem while mounting it through terminal.</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/mountntfs/featured.png" />
     </item>
     
     <item>

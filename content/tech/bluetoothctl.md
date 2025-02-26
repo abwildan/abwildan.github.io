@@ -138,7 +138,15 @@ info
 
 ![ss7](/bluetoothctl/ss7.png "device info")
 
+---
 
+Btw, saya membuat artikel ini di [**Wayfire**](https://wayfire.org/)-nya Archlinux.
+
+{{< gallery >}}
+  <img src="/mountntfs/way1.jpg" class="grid-w33" />
+  <img src="/mountntfs/way2.jpg" class="grid-w33" />
+  <img src="/mountntfs/way3.jpg" class="grid-w33" />
+{{< /gallery >}}
 
 
 

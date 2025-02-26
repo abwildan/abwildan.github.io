@@ -121,19 +121,5 @@ Beberapa catatan artikel ini:
 1. Meskipun paket `ntfs-3g` sudah ter-*install*, masih ada kendala tidak dapat mengakses eksternal drive / partisi NTFS via Thunar sehigga masih perlu dilakukan experimen lebih lanjut.
 
 
----
-
-Btw, saya membuat artikel ini di [**Wayfire**](https://wayfire.org/)-nya Archlinux.
-
-{{< gallery >}}
-  <img src="/mountntfs/way1.jpg" class="grid-w33" />
-  <img src="/mountntfs/way2.jpg" class="grid-w33" />
-  <img src="/mountntfs/way3.jpg" class="grid-w33" />
-{{< /gallery >}}
-
-
-
-
-
 [^1]: https://chatgpt.com/
 

@@ -120,7 +120,7 @@ pair 27:AB:34:8B:CD:B1
 
 ### 2. _Listing_ perangkat
 
-Kita juga dapat melihat perangkat apa saja yang pernah berhubungan dengan bluetooth kita:
+Kita juga dapat melihat perangkat apa saja yang pernah terhubung, atau jika perintah ini dilakukan setelah *scanning*, maka akan terlihat perangkat-perangkat yang berhasil ter-*scan*:
 
 ```bash
 devices

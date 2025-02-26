@@ -87,9 +87,49 @@ sudo mount -t ntfs-3g /dev/sda1 /data
 
 BERHASIL!
 
+Bahkan, kita tidak perlu menambahkan opsi `-t ntfs-3g`, jadi jika ingin *mounting* drive/partisi NTFS, kita dapat langsung menuliskan perintah langsungnya saja:
+
+```shell
+sudo mount /dev/sda1 data
+```
+
+![ss5](/mountntfs/ss5.png "mounting NTFS")
+
 **File Manager**:
 
+{{< alert iconColor="#ff001e" cardColor="#ff9ba7" textColor="#000000" >}}
 
+**Masih terkendala**.  
+Masih dalam perlu peninjauan kembali.  
+Beberapa opsi percobaan lain yang dapat dilakukan:
+- Mencoba mengakses drive/partisi dari file manager yang lain.
+- Membuat entri di /etc/fstab.
+- Mencari keterkaitannya dengan pengaturan Thunar.
+- Mencari keterkaitannya dengan paket `gvfs`.
+
+{{< /alert >}}
+
+Yang jelas, kita sudah dapat mengakses drive 2 (HDD) dengan normal.
+
+## Conclusion
+
+Berikut adalah beberapa kesimpulan artikel ini:
+1. Kegagalan *mounting* NTFS di terminal Archlinux disebabkan karena kita belum memiliki paket **`ntfs-3g`** sehingga perlu di-*install* terlebih dahulu.
+2. Setelah meng-*install* paket `ntfs-3g`, *mounting* drive / partisi NTFS dapat dilakukan baik dengan menambahkn opsi `-t ntfs-3g` ataupun tidak.
+
+Beberapa catatan artikel ini:
+1. Meskipun paket `ntfs-3g` sudah ter-*install*, masih ada kendala tidak dapat mengakses eksternal drive / partisi NTFS via Thunar sehigga masih perlu dilakukan experimen lebih lanjut.
+
+
+---
+
+Btw, saya membuat artikel ini di [**Wayfire**](https://wayfire.org/)-nya Archlinux.
+
+{{< gallery >}}
+  <img src="/mountntfs/way1.jpg" class="grid-w33" />
+  <img src="/mountntfs/way2.jpg" class="grid-w33" />
+  <img src="/mountntfs/way3.jpg" class="grid-w33" />
+{{< /gallery >}}
 
 
 

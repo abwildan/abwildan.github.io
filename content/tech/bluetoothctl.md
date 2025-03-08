@@ -2,7 +2,7 @@
 title: "bluetoothctl: CLI Tool for Managing Bluetooth Devices"
 date: 2025-02-23T22:57:04+07:00
 draft: false
-summary: "The easiest way to connect your bluetooth devices via terminal"
+summary: "The easiest way to connect your bluetooth devices via terminal in Linux."
 tags: ["linux", "bluetooth", "bluetoothctl"]
 categories: "bluetoothctl"
 ---
@@ -147,9 +147,6 @@ Btw, saya membuat artikel ini di [**Wayfire**](https://wayfire.org/)-nya Archlin
   <img src="/mountntfs/way2.jpg" class="grid-w33" />
   <img src="/mountntfs/way3.jpg" class="grid-w33" />
 {{< /gallery >}}
-
-
-
 
 
 

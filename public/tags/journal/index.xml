@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Journal on My Awesome Site</title>
-    <link>http://localhost:1313/tags/journal/</link>
+    <link>http://localhost:37175/tags/journal/</link>
     <description>Recent content in Journal on My Awesome Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
     <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
     <copyright>© 2025 Wildan</copyright>
-    <lastBuildDate>Tue, 21 May 2024 09:10:19 +0700</lastBuildDate><atom:link href="http://localhost:1313/tags/journal/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 21 May 2024 09:10:19 +0700</lastBuildDate><atom:link href="http://localhost:37175/tags/journal/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Bypassing Article Journal Paywall using Scihub</title>
-      <link>http://localhost:1313/tech/scihub/</link>
+      <link>http://localhost:37175/tech/scihub/</link>
       <pubDate>Tue, 21 May 2024 09:10:19 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/tech/scihub/</guid>
+      <guid>http://localhost:37175/tech/scihub/</guid>
       <description>Sci-Hub is the most controversial project in modern science. The goal of Sci-Hub is to provide free and unrestricted access to all scientific knowledge.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/scihub/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:37175/tech/scihub/featured.png" />
     </item>
     
   </channel>

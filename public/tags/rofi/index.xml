@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Rofi on My Awesome Site</title>
-    <link>http://localhost:1313/tags/rofi/</link>
+    <link>http://localhost:37175/tags/rofi/</link>
     <description>Recent content in Rofi on My Awesome Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
     <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
     <copyright>© 2025 Wildan</copyright>
-    <lastBuildDate>Sat, 04 May 2024 10:38:46 +0700</lastBuildDate><atom:link href="http://localhost:1313/tags/rofi/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 04 May 2024 10:38:46 +0700</lastBuildDate><atom:link href="http://localhost:37175/tags/rofi/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Rofi - Beautiful &amp; Modern App Launcher</title>
-      <link>http://localhost:1313/tech/rofi/</link>
+      <link>http://localhost:37175/tech/rofi/</link>
       <pubDate>Sat, 04 May 2024 10:38:46 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/tech/rofi/</guid>
+      <guid>http://localhost:37175/tech/rofi/</guid>
       <description>Rofi is an X11 pop-up window switcher, run dialog, dmenu replacement, and more. It focuses on being fast to use and have minimal distraction.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/rofi/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:37175/tech/rofi/featured.png" />
     </item>
     
   </channel>

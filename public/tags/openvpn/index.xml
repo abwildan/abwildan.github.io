@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Openvpn on My Awesome Site</title>
-    <link>http://localhost:1313/tags/openvpn/</link>
+    <link>http://localhost:37175/tags/openvpn/</link>
     <description>Recent content in Openvpn on My Awesome Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
     <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
     <copyright>© 2025 Wildan</copyright>
-    <lastBuildDate>Fri, 20 Sep 2024 10:37:37 +0700</lastBuildDate><atom:link href="http://localhost:1313/tags/openvpn/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 20 Sep 2024 10:37:37 +0700</lastBuildDate><atom:link href="http://localhost:37175/tags/openvpn/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Building VPN Server using OpenVPN</title>
-      <link>http://localhost:1313/tech/openvpn-server/</link>
+      <link>http://localhost:37175/tech/openvpn-server/</link>
       <pubDate>Fri, 20 Sep 2024 10:37:37 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/tech/openvpn-server/</guid>
+      <guid>http://localhost:37175/tech/openvpn-server/</guid>
       <description>A step by step vpn server installation using openvpn~</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/openvpn-server/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:37175/tech/openvpn-server/featured.png" />
     </item>
     
   </channel>

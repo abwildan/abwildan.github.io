@@ -2,541 +2,551 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on My Awesome Site</title>
-    <link>http://localhost:1313/categories/</link>
+    <link>http://localhost:37175/categories/</link>
     <description>Recent content in Categories on My Awesome Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
     <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
     <copyright>© 2025 Wildan</copyright>
-    <lastBuildDate>Wed, 26 Feb 2025 10:16:28 +0700</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 08 Mar 2025 09:33:37 +0700</lastBuildDate><atom:link href="http://localhost:37175/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Dns</title>
+      <link>http://localhost:37175/categories/dns/</link>
+      <pubDate>Sat, 08 Mar 2025 09:33:37 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:37175/categories/dns/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>Ntfs</title>
-      <link>http://localhost:1313/categories/ntfs/</link>
+      <link>http://localhost:37175/categories/ntfs/</link>
       <pubDate>Wed, 26 Feb 2025 10:16:28 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/ntfs/</guid>
+      <guid>http://localhost:37175/categories/ntfs/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Bluetoothctl</title>
-      <link>http://localhost:1313/categories/bluetoothctl/</link>
+      <link>http://localhost:37175/categories/bluetoothctl/</link>
       <pubDate>Sun, 23 Feb 2025 22:57:04 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/bluetoothctl/</guid>
+      <guid>http://localhost:37175/categories/bluetoothctl/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Monitoring</title>
-      <link>http://localhost:1313/categories/monitoring/</link>
+      <link>http://localhost:37175/categories/monitoring/</link>
       <pubDate>Thu, 20 Feb 2025 15:43:50 +0000</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/monitoring/</guid>
+      <guid>http://localhost:37175/categories/monitoring/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Domain</title>
-      <link>http://localhost:1313/categories/domain/</link>
+      <link>http://localhost:37175/categories/domain/</link>
       <pubDate>Wed, 12 Feb 2025 03:24:53 +0000</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/domain/</guid>
+      <guid>http://localhost:37175/categories/domain/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Cryptsetup</title>
-      <link>http://localhost:1313/categories/cryptsetup/</link>
+      <link>http://localhost:37175/categories/cryptsetup/</link>
       <pubDate>Sun, 02 Feb 2025 04:43:27 +0000</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/cryptsetup/</guid>
+      <guid>http://localhost:37175/categories/cryptsetup/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Excel</title>
-      <link>http://localhost:1313/categories/excel/</link>
+      <link>http://localhost:37175/categories/excel/</link>
       <pubDate>Tue, 28 Jan 2025 03:33:42 +0000</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/excel/</guid>
+      <guid>http://localhost:37175/categories/excel/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Wallpaper</title>
-      <link>http://localhost:1313/categories/wallpaper/</link>
+      <link>http://localhost:37175/categories/wallpaper/</link>
       <pubDate>Sat, 25 Jan 2025 07:00:57 +0000</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/wallpaper/</guid>
+      <guid>http://localhost:37175/categories/wallpaper/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Ufw</title>
-      <link>http://localhost:1313/categories/ufw/</link>
+      <link>http://localhost:37175/categories/ufw/</link>
       <pubDate>Mon, 13 Jan 2025 08:59:03 +0000</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/ufw/</guid>
+      <guid>http://localhost:37175/categories/ufw/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Mugshot</title>
-      <link>http://localhost:1313/categories/mugshot/</link>
+      <link>http://localhost:37175/categories/mugshot/</link>
       <pubDate>Sun, 12 Jan 2025 10:51:06 +0000</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/mugshot/</guid>
+      <guid>http://localhost:37175/categories/mugshot/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Tableau</title>
-      <link>http://localhost:1313/categories/tableau/</link>
+      <link>http://localhost:37175/categories/tableau/</link>
       <pubDate>Tue, 19 Nov 2024 16:28:36 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/tableau/</guid>
+      <guid>http://localhost:37175/categories/tableau/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Chess</title>
-      <link>http://localhost:1313/categories/chess/</link>
+      <link>http://localhost:37175/categories/chess/</link>
       <pubDate>Thu, 07 Nov 2024 10:39:37 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/chess/</guid>
+      <guid>http://localhost:37175/categories/chess/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Exa</title>
-      <link>http://localhost:1313/categories/exa/</link>
+      <link>http://localhost:37175/categories/exa/</link>
       <pubDate>Wed, 06 Nov 2024 21:45:18 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/exa/</guid>
+      <guid>http://localhost:37175/categories/exa/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Virtualbox</title>
-      <link>http://localhost:1313/categories/virtualbox/</link>
+      <link>http://localhost:37175/categories/virtualbox/</link>
       <pubDate>Wed, 16 Oct 2024 16:51:19 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/virtualbox/</guid>
+      <guid>http://localhost:37175/categories/virtualbox/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Command Injection</title>
-      <link>http://localhost:1313/categories/command-injection/</link>
+      <link>http://localhost:37175/categories/command-injection/</link>
       <pubDate>Sun, 13 Oct 2024 17:04:53 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/command-injection/</guid>
+      <guid>http://localhost:37175/categories/command-injection/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Docker</title>
-      <link>http://localhost:1313/categories/docker/</link>
+      <link>http://localhost:37175/categories/docker/</link>
       <pubDate>Fri, 11 Oct 2024 13:28:19 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/docker/</guid>
+      <guid>http://localhost:37175/categories/docker/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Ssh</title>
-      <link>http://localhost:1313/categories/ssh/</link>
+      <link>http://localhost:37175/categories/ssh/</link>
       <pubDate>Tue, 08 Oct 2024 17:00:47 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/ssh/</guid>
+      <guid>http://localhost:37175/categories/ssh/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Ffmpeg</title>
-      <link>http://localhost:1313/categories/ffmpeg/</link>
+      <link>http://localhost:37175/categories/ffmpeg/</link>
       <pubDate>Mon, 07 Oct 2024 22:00:53 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/ffmpeg/</guid>
+      <guid>http://localhost:37175/categories/ffmpeg/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Rsync</title>
-      <link>http://localhost:1313/categories/rsync/</link>
+      <link>http://localhost:37175/categories/rsync/</link>
       <pubDate>Thu, 03 Oct 2024 21:42:14 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/rsync/</guid>
+      <guid>http://localhost:37175/categories/rsync/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Netcat</title>
-      <link>http://localhost:1313/categories/netcat/</link>
+      <link>http://localhost:37175/categories/netcat/</link>
       <pubDate>Sun, 29 Sep 2024 02:06:27 +0000</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/netcat/</guid>
+      <guid>http://localhost:37175/categories/netcat/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Openvpn</title>
-      <link>http://localhost:1313/categories/openvpn/</link>
+      <link>http://localhost:37175/categories/openvpn/</link>
       <pubDate>Fri, 20 Sep 2024 10:37:37 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/openvpn/</guid>
+      <guid>http://localhost:37175/categories/openvpn/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Irc</title>
-      <link>http://localhost:1313/categories/irc/</link>
+      <link>http://localhost:37175/categories/irc/</link>
       <pubDate>Sun, 15 Sep 2024 21:23:53 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/irc/</guid>
+      <guid>http://localhost:37175/categories/irc/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Kitty</title>
-      <link>http://localhost:1313/categories/kitty/</link>
+      <link>http://localhost:37175/categories/kitty/</link>
       <pubDate>Tue, 10 Sep 2024 10:53:50 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/kitty/</guid>
+      <guid>http://localhost:37175/categories/kitty/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Chafa</title>
-      <link>http://localhost:1313/categories/chafa/</link>
+      <link>http://localhost:37175/categories/chafa/</link>
       <pubDate>Wed, 28 Aug 2024 16:39:26 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/chafa/</guid>
+      <guid>http://localhost:37175/categories/chafa/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Lazyvim</title>
-      <link>http://localhost:1313/categories/lazyvim/</link>
+      <link>http://localhost:37175/categories/lazyvim/</link>
       <pubDate>Sun, 18 Aug 2024 13:50:11 +0000</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/lazyvim/</guid>
+      <guid>http://localhost:37175/categories/lazyvim/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Sql</title>
-      <link>http://localhost:1313/categories/sql/</link>
+      <link>http://localhost:37175/categories/sql/</link>
       <pubDate>Fri, 16 Aug 2024 08:03:25 +0000</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/sql/</guid>
+      <guid>http://localhost:37175/categories/sql/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Cooking</title>
-      <link>http://localhost:1313/categories/cooking/</link>
+      <link>http://localhost:37175/categories/cooking/</link>
       <pubDate>Wed, 14 Aug 2024 14:28:44 +0000</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/cooking/</guid>
+      <guid>http://localhost:37175/categories/cooking/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Hugo</title>
-      <link>http://localhost:1313/categories/hugo/</link>
+      <link>http://localhost:37175/categories/hugo/</link>
       <pubDate>Sun, 04 Aug 2024 13:54:17 +0000</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/hugo/</guid>
+      <guid>http://localhost:37175/categories/hugo/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Conky</title>
-      <link>http://localhost:1313/categories/conky/</link>
+      <link>http://localhost:37175/categories/conky/</link>
       <pubDate>Sat, 20 Jul 2024 11:16:26 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/conky/</guid>
+      <guid>http://localhost:37175/categories/conky/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Tty</title>
-      <link>http://localhost:1313/categories/tty/</link>
+      <link>http://localhost:37175/categories/tty/</link>
       <pubDate>Wed, 17 Jul 2024 15:06:15 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/tty/</guid>
+      <guid>http://localhost:37175/categories/tty/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Yt-Dlp</title>
-      <link>http://localhost:1313/categories/yt-dlp/</link>
+      <link>http://localhost:37175/categories/yt-dlp/</link>
       <pubDate>Sun, 23 Jun 2024 00:49:55 -0400</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/yt-dlp/</guid>
+      <guid>http://localhost:37175/categories/yt-dlp/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Rstudio</title>
-      <link>http://localhost:1313/categories/rstudio/</link>
+      <link>http://localhost:37175/categories/rstudio/</link>
       <pubDate>Thu, 13 Jun 2024 11:56:25 -0400</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/rstudio/</guid>
+      <guid>http://localhost:37175/categories/rstudio/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Linux</title>
-      <link>http://localhost:1313/categories/linux/</link>
+      <link>http://localhost:37175/categories/linux/</link>
       <pubDate>Sun, 09 Jun 2024 16:59:47 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/linux/</guid>
+      <guid>http://localhost:37175/categories/linux/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Ncmpcpp</title>
-      <link>http://localhost:1313/categories/ncmpcpp/</link>
+      <link>http://localhost:37175/categories/ncmpcpp/</link>
       <pubDate>Fri, 07 Jun 2024 14:41:49 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/ncmpcpp/</guid>
+      <guid>http://localhost:37175/categories/ncmpcpp/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Writing</title>
-      <link>http://localhost:1313/categories/writing/</link>
+      <link>http://localhost:37175/categories/writing/</link>
       <pubDate>Thu, 06 Jun 2024 14:13:34 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/writing/</guid>
+      <guid>http://localhost:37175/categories/writing/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Remote Desktop</title>
-      <link>http://localhost:1313/categories/remote-desktop/</link>
+      <link>http://localhost:37175/categories/remote-desktop/</link>
       <pubDate>Tue, 04 Jun 2024 22:05:26 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/remote-desktop/</guid>
+      <guid>http://localhost:37175/categories/remote-desktop/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Polybar</title>
-      <link>http://localhost:1313/categories/polybar/</link>
+      <link>http://localhost:37175/categories/polybar/</link>
       <pubDate>Sun, 02 Jun 2024 19:14:29 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/polybar/</guid>
+      <guid>http://localhost:37175/categories/polybar/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Openbox</title>
-      <link>http://localhost:1313/categories/openbox/</link>
+      <link>http://localhost:37175/categories/openbox/</link>
       <pubDate>Thu, 30 May 2024 01:49:56 +0000</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/openbox/</guid>
+      <guid>http://localhost:37175/categories/openbox/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Scihub</title>
-      <link>http://localhost:1313/categories/scihub/</link>
+      <link>http://localhost:37175/categories/scihub/</link>
       <pubDate>Tue, 21 May 2024 09:10:19 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/scihub/</guid>
+      <guid>http://localhost:37175/categories/scihub/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Steganography</title>
-      <link>http://localhost:1313/categories/steganography/</link>
+      <link>http://localhost:37175/categories/steganography/</link>
       <pubDate>Mon, 13 May 2024 10:52:32 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/steganography/</guid>
+      <guid>http://localhost:37175/categories/steganography/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Rofi</title>
-      <link>http://localhost:1313/categories/rofi/</link>
+      <link>http://localhost:37175/categories/rofi/</link>
       <pubDate>Sat, 04 May 2024 10:38:46 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/rofi/</guid>
+      <guid>http://localhost:37175/categories/rofi/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Archlinux</title>
-      <link>http://localhost:1313/categories/archlinux/</link>
+      <link>http://localhost:37175/categories/archlinux/</link>
       <pubDate>Thu, 02 May 2024 09:52:29 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/archlinux/</guid>
+      <guid>http://localhost:37175/categories/archlinux/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Ricing</title>
-      <link>http://localhost:1313/categories/ricing/</link>
+      <link>http://localhost:37175/categories/ricing/</link>
       <pubDate>Sun, 28 Apr 2024 14:21:13 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/ricing/</guid>
+      <guid>http://localhost:37175/categories/ricing/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Debian</title>
-      <link>http://localhost:1313/categories/debian/</link>
+      <link>http://localhost:37175/categories/debian/</link>
       <pubDate>Mon, 15 Apr 2024 07:45:05 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/debian/</guid>
+      <guid>http://localhost:37175/categories/debian/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Ngrok</title>
-      <link>http://localhost:1313/categories/ngrok/</link>
+      <link>http://localhost:37175/categories/ngrok/</link>
       <pubDate>Tue, 02 Apr 2024 17:30:12 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/ngrok/</guid>
+      <guid>http://localhost:37175/categories/ngrok/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Mystiq</title>
-      <link>http://localhost:1313/categories/mystiq/</link>
+      <link>http://localhost:37175/categories/mystiq/</link>
       <pubDate>Tue, 26 Mar 2024 17:56:16 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/mystiq/</guid>
+      <guid>http://localhost:37175/categories/mystiq/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Hacking</title>
-      <link>http://localhost:1313/categories/hacking/</link>
+      <link>http://localhost:37175/categories/hacking/</link>
       <pubDate>Thu, 21 Mar 2024 18:54:33 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/hacking/</guid>
+      <guid>http://localhost:37175/categories/hacking/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Virustotal</title>
-      <link>http://localhost:1313/categories/virustotal/</link>
+      <link>http://localhost:37175/categories/virustotal/</link>
       <pubDate>Tue, 19 Mar 2024 21:43:27 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/virustotal/</guid>
+      <guid>http://localhost:37175/categories/virustotal/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Recordmydesktop</title>
-      <link>http://localhost:1313/categories/recordmydesktop/</link>
+      <link>http://localhost:37175/categories/recordmydesktop/</link>
       <pubDate>Fri, 08 Mar 2024 14:55:26 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/recordmydesktop/</guid>
+      <guid>http://localhost:37175/categories/recordmydesktop/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Gephi</title>
-      <link>http://localhost:1313/categories/gephi/</link>
+      <link>http://localhost:37175/categories/gephi/</link>
       <pubDate>Sat, 06 Jan 2024 02:26:47 -0500</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/gephi/</guid>
+      <guid>http://localhost:37175/categories/gephi/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Onionshare</title>
-      <link>http://localhost:1313/categories/onionshare/</link>
+      <link>http://localhost:37175/categories/onionshare/</link>
       <pubDate>Thu, 30 Nov 2023 07:35:02 -0500</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/onionshare/</guid>
+      <guid>http://localhost:37175/categories/onionshare/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Tor</title>
-      <link>http://localhost:1313/categories/tor/</link>
+      <link>http://localhost:37175/categories/tor/</link>
       <pubDate>Thu, 30 Nov 2023 07:35:02 -0500</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/tor/</guid>
+      <guid>http://localhost:37175/categories/tor/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Telegram</title>
-      <link>http://localhost:1313/categories/telegram/</link>
+      <link>http://localhost:37175/categories/telegram/</link>
       <pubDate>Wed, 11 Oct 2023 16:32:22 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/telegram/</guid>
+      <guid>http://localhost:37175/categories/telegram/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Whoami</title>
-      <link>http://localhost:1313/categories/whoami/</link>
+      <link>http://localhost:37175/categories/whoami/</link>
       <pubDate>Sat, 07 Oct 2023 13:17:32 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/whoami/</guid>
+      <guid>http://localhost:37175/categories/whoami/</guid>
       <description></description>
       
     </item>

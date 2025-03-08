@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mugshot on My Awesome Site</title>
-    <link>http://localhost:1313/tags/mugshot/</link>
+    <link>http://localhost:37175/tags/mugshot/</link>
     <description>Recent content in Mugshot on My Awesome Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
     <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
     <copyright>© 2025 Wildan</copyright>
-    <lastBuildDate>Sun, 12 Jan 2025 10:51:06 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/mugshot/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 12 Jan 2025 10:51:06 +0000</lastBuildDate><atom:link href="http://localhost:37175/tags/mugshot/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Mugshot to Change Your User Photo Profile</title>
-      <link>http://localhost:1313/tech/mugshot/</link>
+      <link>http://localhost:37175/tech/mugshot/</link>
       <pubDate>Sun, 12 Jan 2025 10:51:06 +0000</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/tech/mugshot/</guid>
+      <guid>http://localhost:37175/tech/mugshot/</guid>
       <description>Mugshot, a simple program to change personal user details such as photo profile.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/mugshot/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:37175/tech/mugshot/featured.png" />
     </item>
     
   </channel>

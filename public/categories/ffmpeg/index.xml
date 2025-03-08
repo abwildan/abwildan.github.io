@@ -2,43 +2,43 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ffmpeg on My Awesome Site</title>
-    <link>http://localhost:1313/categories/ffmpeg/</link>
+    <link>http://localhost:37175/categories/ffmpeg/</link>
     <description>Recent content in Ffmpeg on My Awesome Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
     <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
     <copyright>© 2025 Wildan</copyright>
-    <lastBuildDate>Mon, 07 Oct 2024 22:00:53 +0700</lastBuildDate><atom:link href="http://localhost:1313/categories/ffmpeg/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 07 Oct 2024 22:00:53 +0700</lastBuildDate><atom:link href="http://localhost:37175/categories/ffmpeg/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>FFmpeg - Convert Any Video Format to MP4</title>
-      <link>http://localhost:1313/tech/convertvideoformat/</link>
+      <link>http://localhost:37175/tech/convertvideoformat/</link>
       <pubDate>Mon, 07 Oct 2024 22:00:53 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/tech/convertvideoformat/</guid>
+      <guid>http://localhost:37175/tech/convertvideoformat/</guid>
       <description>If you have ffmpeg installed on your Linux machine, then it actually could help you to convert any video format to MP4!</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/convertvideoformat/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:37175/tech/convertvideoformat/featured.png" />
     </item>
     
     <item>
       <title>FFmpeg - Convert MP4 to GIF</title>
-      <link>http://localhost:1313/tech/ffmpeg-mp42gif/</link>
+      <link>http://localhost:37175/tech/ffmpeg-mp42gif/</link>
       <pubDate>Wed, 11 Oct 2023 00:40:23 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/tech/ffmpeg-mp42gif/</guid>
+      <guid>http://localhost:37175/tech/ffmpeg-mp42gif/</guid>
       <description>My simple note in regards of converting video (MP4) to GIF.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/ffmpeg-mp42gif/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:37175/tech/ffmpeg-mp42gif/featured.png" />
     </item>
     
     <item>
       <title>Screen Recorder with FFmpeg</title>
-      <link>http://localhost:1313/tech/ffmpeg-sr/</link>
+      <link>http://localhost:37175/tech/ffmpeg-sr/</link>
       <pubDate>Tue, 10 Oct 2023 09:13:32 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/tech/ffmpeg-sr/</guid>
+      <guid>http://localhost:37175/tech/ffmpeg-sr/</guid>
       <description>My simple note in regards of screen recording using ffmpeg.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/ffmpeg-sr/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:37175/tech/ffmpeg-sr/featured.png" />
     </item>
     
   </channel>

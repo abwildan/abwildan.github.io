@@ -2,43 +2,43 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Server on My Awesome Site</title>
-    <link>http://localhost:1313/tags/server/</link>
+    <link>http://localhost:37175/tags/server/</link>
     <description>Recent content in Server on My Awesome Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
     <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
     <copyright>© 2025 Wildan</copyright>
-    <lastBuildDate>Wed, 12 Feb 2025 03:24:53 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/server/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 Feb 2025 03:24:53 +0000</lastBuildDate><atom:link href="http://localhost:37175/tags/server/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Joining Windows and Linux Machine to a Domain (Windows Server 2022)</title>
-      <link>http://localhost:1313/tech/joinad/</link>
+      <link>http://localhost:37175/tech/joinad/</link>
       <pubDate>Wed, 12 Feb 2025 03:24:53 +0000</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/tech/joinad/</guid>
+      <guid>http://localhost:37175/tech/joinad/</guid>
       <description>How to join a windows and linux machine to a active directory domain controller on Windows Server 2022</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/joinad/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:37175/tech/joinad/featured.png" />
     </item>
     
     <item>
       <title>Building VPN Server using OpenVPN</title>
-      <link>http://localhost:1313/tech/openvpn-server/</link>
+      <link>http://localhost:37175/tech/openvpn-server/</link>
       <pubDate>Fri, 20 Sep 2024 10:37:37 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/tech/openvpn-server/</guid>
+      <guid>http://localhost:37175/tech/openvpn-server/</guid>
       <description>A step by step vpn server installation using openvpn~</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/openvpn-server/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:37175/tech/openvpn-server/featured.png" />
     </item>
     
     <item>
       <title>Create Your Own IRC Server!</title>
-      <link>http://localhost:1313/tech/ircserver/</link>
+      <link>http://localhost:37175/tech/ircserver/</link>
       <pubDate>Sun, 15 Sep 2024 21:23:53 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/tech/ircserver/</guid>
+      <guid>http://localhost:37175/tech/ircserver/</guid>
       <description>Do you want to chat via terminal like a hackerman? If so, it&amp;rsquo;s time to read this because we will create an IRC Server with inspircd &amp;amp; ircd-hybrid.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/ircserver/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:37175/tech/ircserver/featured.png" />
     </item>
     
   </channel>

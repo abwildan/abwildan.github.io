@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ssh on My Awesome Site</title>
-    <link>http://localhost:1313/categories/ssh/</link>
+    <link>http://localhost:37175/categories/ssh/</link>
     <description>Recent content in Ssh on My Awesome Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
     <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
     <copyright>© 2025 Wildan</copyright>
-    <lastBuildDate>Tue, 08 Oct 2024 17:00:47 +0700</lastBuildDate><atom:link href="http://localhost:1313/categories/ssh/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 08 Oct 2024 17:00:47 +0700</lastBuildDate><atom:link href="http://localhost:37175/categories/ssh/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>SSH without Password?</title>
-      <link>http://localhost:1313/tech/sshnopass/</link>
+      <link>http://localhost:37175/tech/sshnopass/</link>
       <pubDate>Tue, 08 Oct 2024 17:00:47 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/tech/sshnopass/</guid>
+      <guid>http://localhost:37175/tech/sshnopass/</guid>
       <description>Too lazy to input your SSH password while doing routine task? Here is the solution&amp;hellip;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/sshnopass/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:37175/tech/sshnopass/featured.png" />
     </item>
     
   </channel>

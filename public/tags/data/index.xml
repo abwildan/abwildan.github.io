@@ -2,73 +2,73 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Data on My Awesome Site</title>
-    <link>http://localhost:37175/tags/data/</link>
+    <link>http://localhost:1313/tags/data/</link>
     <description>Recent content in Data on My Awesome Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
     <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
     <copyright>© 2025 Wildan</copyright>
-    <lastBuildDate>Tue, 28 Jan 2025 03:33:42 +0000</lastBuildDate><atom:link href="http://localhost:37175/tags/data/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 Jan 2025 03:33:42 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/data/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Basic Excel (Spreadsheet) Functions - Part 2</title>
-      <link>http://localhost:37175/tech/excel2/</link>
+      <link>http://localhost:1313/tech/excel2/</link>
       <pubDate>Tue, 28 Jan 2025 03:33:42 +0000</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:37175/tech/excel2/</guid>
+      <guid>http://localhost:1313/tech/excel2/</guid>
       <description>6 basic excel (spreadsheet) functions / formulas: SUMIF, CONCATENATE, MATCH, (LEFT, MID, RIGHT), (HLOOKUP &amp;amp; VLOOKUP), TRANSPOSE</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:37175/tech/excel2/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/excel2/featured.png" />
     </item>
     
     <item>
       <title>Basic Excel (Spreadsheet) Functions - Part 1</title>
-      <link>http://localhost:37175/tech/excel1/</link>
+      <link>http://localhost:1313/tech/excel1/</link>
       <pubDate>Fri, 24 Jan 2025 13:24:27 +0000</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:37175/tech/excel1/</guid>
+      <guid>http://localhost:1313/tech/excel1/</guid>
       <description>6 basic excel (spreadsheet) functions / formulas: SUM, AVERAGE, MAX, MIN, COUNT, COUNTIF</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:37175/tech/excel1/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/excel1/featured.png" />
     </item>
     
     <item>
       <title>Tableau Public Basics: Creating A Simple Dashboard</title>
-      <link>http://localhost:37175/tech/tableau-basics/</link>
+      <link>http://localhost:1313/tech/tableau-basics/</link>
       <pubDate>Tue, 19 Nov 2024 16:28:36 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:37175/tech/tableau-basics/</guid>
+      <guid>http://localhost:1313/tech/tableau-basics/</guid>
       <description>Creating a dashboard is no longer that difficult. You are always able to create dashboard using Tableau Public. Here is the step by step of it.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:37175/tech/tableau-basics/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/tableau-basics/featured.png" />
     </item>
     
     <item>
       <title>SQL Basics - Installation to Basic Commands</title>
-      <link>http://localhost:37175/tech/sqlbasic/</link>
+      <link>http://localhost:1313/tech/sqlbasic/</link>
       <pubDate>Fri, 16 Aug 2024 08:03:25 +0000</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:37175/tech/sqlbasic/</guid>
+      <guid>http://localhost:1313/tech/sqlbasic/</guid>
       <description>Let&amp;rsquo;s learn about SQL basic commands for databases.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:37175/tech/sqlbasic/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/sqlbasic/featured.png" />
     </item>
     
     <item>
       <title>RStudio Basic: From Installation to Data Visualization</title>
-      <link>http://localhost:37175/tech/rstudio-basic/</link>
+      <link>http://localhost:1313/tech/rstudio-basic/</link>
       <pubDate>Thu, 13 Jun 2024 11:56:25 -0400</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:37175/tech/rstudio-basic/</guid>
+      <guid>http://localhost:1313/tech/rstudio-basic/</guid>
       <description>Rstudio is a free and open source integrated development environment (IDE) for R programming language.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:37175/tech/rstudio-basic/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/rstudio-basic/featured.png" />
     </item>
     
     <item>
       <title>Gephi - Actor(s) Centrality</title>
-      <link>http://localhost:37175/tech/gephi/</link>
+      <link>http://localhost:1313/tech/gephi/</link>
       <pubDate>Sat, 06 Jan 2024 02:26:47 -0500</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:37175/tech/gephi/</guid>
+      <guid>http://localhost:1313/tech/gephi/</guid>
       <description>Gephi is an open-source software for network visualization and analysis.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:37175/tech/gephi/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/gephi/featured.png" />
     </item>
     
   </channel>

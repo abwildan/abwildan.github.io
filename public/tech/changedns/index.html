@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="scroll-smooth" data-default-appearance="light"
-  data-auto-appearance="true"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=37175&amp;path=livereload" data-no-instant defer></script>
+  data-auto-appearance="true"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8" />
   
   <meta http-equiv="content-language" content="en" />
@@ -15,7 +15,7 @@
   <meta name="keywords" content="dns, network, internet, linux, " />
   
   
-  <link rel="canonical" href="http://localhost:37175/tech/changedns/" />
+  <link rel="canonical" href="http://localhost:1313/tech/changedns/" />
   
   
   
@@ -67,7 +67,7 @@
   
   
   
-  <meta property="og:url" content="http://localhost:37175/tech/changedns/">
+  <meta property="og:url" content="http://localhost:1313/tech/changedns/">
   <meta property="og:site_name" content="My Awesome Site">
   <meta property="og:title" content="The Power of DNS (Domain Name System)">
   <meta property="og:description" content="Solving a ‘undetected’ network problem with only one simple solution: Changing the DNS.">
@@ -80,9 +80,11 @@
     <meta property="article:tag" content="Network">
     <meta property="article:tag" content="Internet">
     <meta property="article:tag" content="Linux">
+    <meta property="og:image" content="http://localhost:1313/tech/changedns/featured.png">
 
   
-  <meta name="twitter:card" content="summary">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/tech/changedns/featured.png">
   <meta name="twitter:title" content="The Power of DNS (Domain Name System)">
   <meta name="twitter:description" content="Solving a ‘undetected’ network problem with only one simple solution: Changing the DNS.">
 
@@ -97,7 +99,7 @@
     
     "abstract": "Solving a \u0026lsquo;undetected\u0026rsquo; network problem with only one simple solution: Changing the DNS.",
     "inLanguage": "en",
-    "url" : "http:\/\/localhost:37175\/tech\/changedns\/",
+    "url" : "http:\/\/localhost:1313\/tech\/changedns\/",
     "author" : {
       "@type": "Person",
       "name": "Wildan"
@@ -111,7 +113,7 @@
     "keywords": ["dns","network","internet","linux"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "1155"
+    "wordCount": "1204"
   }]
   </script>
 
@@ -712,12 +714,6 @@
   
   
   
- 
-  
-   
-  
- 
-
 
 
 <div id="hero" class="h-[150px] md:h-[200px]"></div>
@@ -726,7 +722,7 @@
 
     
     <div class="fixed inset-x-0 top-0 h-[800px] single_hero_background nozoom"
-    style="background-image:url(/img/blue-aqua_hu_6efeced160f7cdc7.jpg);">
+    style="background-image:url(/tech/changedns/featured_hu_39e89c5af4aa38d4.png);">
     
 
 
@@ -838,7 +834,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2025-03-08T09:33:37&#43;07:00">8 March 2025</time><span class="px-2 text-primary-500">&middot;</span><span>1155 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">6 mins</span><span class="px-2 text-primary-500">&middot;</span>
+  <time datetime="2025-03-08T09:33:37&#43;07:00">8 March 2025</time><span class="px-2 text-primary-500">&middot;</span><span>1204 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">6 mins</span><span class="px-2 text-primary-500">&middot;</span>
 
 
   
@@ -1380,8 +1376,8 @@
 <ul>
 <li><strong>.com</strong> (<a href="https://www.google.com/" target="_blank">google.com</a>, <a href="https://www.tokopedia.com/" target="_blank">tokopedia.com</a>, <a href="https://github.com/" target="_blank">github.com</a>, etc)</li>
 <li><strong>.org</strong> (<a href="https://archlinux.org/" target="_blank">archlinux.org</a>, <a href="https://www.virtualbox.org/" target="_blank">virtualbox.org</a>, <a href="https://www.wikipedia.org/" target="_blank">wikipedia.org</a>, etc)</li>
-<li><strong>.net</strong> (<a href=""></a>, <a href=""></a>, <a href=""></a>, etc)</li>
-<li><strong>.gov</strong> ()</li>
+<li><strong>.net</strong> (<a href="https://ankiweb.net/" target="_blank">ankiweb.net</a>, <a href="https://www.speedtest.net/" target="_blank">speedtest.net</a>, <a href="https://www.minecraft.net/en-us" target="_blank">minecraft.net</a>, etc)</li>
+<li><strong>.gov</strong> (<a href="https://www.nasa.gov/" target="_blank">nasa.gov</a>, <a href="https://www.usa.gov/" target="_blank">usa.gov</a>, <a href="https://www.gov.sg/" target="_blank">gov.sg</a>, etc)</li>
 <li>etc.</li>
 </ul>
 <p>Untuk referensi lebih lanjut, silakan merujuk ke:<br>
@@ -1472,6 +1468,38 @@
 </ul>
 <p><em>So</em>, kapan waktu yang tepat untuk mengganti DNS? Saat diperlukan&hellip;</p>
 
+  
+  
+  
+  
+
+
+
+<div
+  
+    class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
+  >
+
+  <span
+    
+      class="text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center"
+    >
+
+    
+
+
+  </span>
+
+  <span
+    
+      class="dark:text-neutral-300"
+    ><p><strong>Notes:</strong></p>
+<p>Perhatikan bahwa setiap DNS resolver dibuat dengan tujuannya masing-masing.
+Ada yang dibuat khusus untuk publik, alias akan menampilkan semua pencarian tanpa filter seperti DNS milik Google. Namun, ada juga yang dibuat untuk membuat filter konten tertentu pada hasil pencarian, seperti DNS milik Quad9 dan NextDNS.</p>
+</span>
+</div>
+
+
 
 <h2 class="relative group">The &ldquo;WHERE&rdquo; 
     <div id="the-where" class="anchor"></div>
@@ -1539,7 +1567,7 @@ Harap digunakan dengan sebaik-baiknya ya! 😊</p>
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://localhost:37175/tech/changedns/&amp;title=The%20Power%20of%20DNS%20%28Domain%20Name%20System%29"
+      href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://localhost:1313/tech/changedns/&amp;title=The%20Power%20of%20DNS%20%28Domain%20Name%20System%29"
       title="Share on LinkedIn"
       aria-label="Share on LinkedIn"
       >
@@ -1558,7 +1586,7 @@ Harap digunakan dengan sebaik-baiknya ya! 😊</p>
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://twitter.com/intent/tweet/?url=http://localhost:37175/tech/changedns/&amp;text=The%20Power%20of%20DNS%20%28Domain%20Name%20System%29"
+      href="https://twitter.com/intent/tweet/?url=http://localhost:1313/tech/changedns/&amp;text=The%20Power%20of%20DNS%20%28Domain%20Name%20System%29"
       title="Tweet on Twitter"
       aria-label="Tweet on Twitter"
       >
@@ -1576,7 +1604,7 @@ Harap digunakan dengan sebaik-baiknya ya! 😊</p>
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://bsky.app/intent/compose?text=The%20Power%20of%20DNS%20%28Domain%20Name%20System%29&#43;http://localhost:37175/tech/changedns/"
+      href="https://bsky.app/intent/compose?text=The%20Power%20of%20DNS%20%28Domain%20Name%20System%29&#43;http://localhost:1313/tech/changedns/"
       title="Post on Bluesky"
       aria-label="Post on Bluesky"
       >
@@ -1594,7 +1622,7 @@ Harap digunakan dengan sebaik-baiknya ya! 😊</p>
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://s2f.kytta.dev/?text=The%20Power%20of%20DNS%20%28Domain%20Name%20System%29%20http://localhost:37175/tech/changedns/"
+      href="https://s2f.kytta.dev/?text=The%20Power%20of%20DNS%20%28Domain%20Name%20System%29%20http://localhost:1313/tech/changedns/"
       title=""
       aria-label=""
       >
@@ -1613,7 +1641,7 @@ Harap digunakan dengan sebaik-baiknya ya! 😊</p>
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://reddit.com/submit/?url=http://localhost:37175/tech/changedns/&amp;resubmit=true&amp;title=The%20Power%20of%20DNS%20%28Domain%20Name%20System%29"
+      href="https://reddit.com/submit/?url=http://localhost:1313/tech/changedns/&amp;resubmit=true&amp;title=The%20Power%20of%20DNS%20%28Domain%20Name%20System%29"
       title="Submit to Reddit"
       aria-label="Submit to Reddit"
       >
@@ -1632,7 +1660,7 @@ Harap digunakan dengan sebaik-baiknya ya! 😊</p>
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://pinterest.com/pin/create/bookmarklet/?url=http://localhost:37175/tech/changedns/&amp;description=The%20Power%20of%20DNS%20%28Domain%20Name%20System%29"
+      href="https://pinterest.com/pin/create/bookmarklet/?url=http://localhost:1313/tech/changedns/&amp;description=The%20Power%20of%20DNS%20%28Domain%20Name%20System%29"
       title="Pin on Pinterest"
       aria-label="Pin on Pinterest"
       >
@@ -1651,7 +1679,7 @@ Harap digunakan dengan sebaik-baiknya ya! 😊</p>
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:37175/tech/changedns/&amp;quote=The%20Power%20of%20DNS%20%28Domain%20Name%20System%29"
+      href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:1313/tech/changedns/&amp;quote=The%20Power%20of%20DNS%20%28Domain%20Name%20System%29"
       title="Share on Facebook"
       aria-label="Share on Facebook"
       >
@@ -1670,7 +1698,7 @@ Harap digunakan dengan sebaik-baiknya ya! 😊</p>
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="mailto:?body=http://localhost:37175/tech/changedns/&amp;subject=The%20Power%20of%20DNS%20%28Domain%20Name%20System%29"
+      href="mailto:?body=http://localhost:1313/tech/changedns/&amp;subject=The%20Power%20of%20DNS%20%28Domain%20Name%20System%29"
       title="Send via email"
       aria-label="Send via email"
       >
@@ -1689,7 +1717,7 @@ Harap digunakan dengan sebaik-baiknya ya! 😊</p>
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://api.whatsapp.com/send?text=http://localhost:37175/tech/changedns/&amp;resubmit=true&amp;title=The%20Power%20of%20DNS%20%28Domain%20Name%20System%29"
+      href="https://api.whatsapp.com/send?text=http://localhost:1313/tech/changedns/&amp;resubmit=true&amp;title=The%20Power%20of%20DNS%20%28Domain%20Name%20System%29"
       title="Share via WhatsApp"
       aria-label="Share via WhatsApp"
       >
@@ -1708,7 +1736,7 @@ Harap digunakan dengan sebaik-baiknya ya! 😊</p>
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://t.me/share/url?url=http://localhost:37175/tech/changedns/&amp;resubmit=true&amp;title=The%20Power%20of%20DNS%20%28Domain%20Name%20System%29"
+      href="https://t.me/share/url?url=http://localhost:1313/tech/changedns/&amp;resubmit=true&amp;title=The%20Power%20of%20DNS%20%28Domain%20Name%20System%29"
       title="Share via Telegram"
       aria-label="Share via Telegram"
       >
@@ -2316,7 +2344,7 @@ Harap digunakan dengan sebaik-baiknya ya! 😊</p>
 <div
   id="search-wrapper"
   class="invisible fixed inset-0 flex h-screen w-screen cursor-default flex-col bg-neutral-500/50 p-4 backdrop-blur-sm dark:bg-neutral-900/50 sm:p-6 md:p-[10vh] lg:p-[12vh]"
-  data-url="http://localhost:37175/"
+  data-url="http://localhost:1313/"
   style="z-index:500"
 >
   <div

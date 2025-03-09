@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Backup on My Awesome Site</title>
-    <link>http://localhost:37175/tags/backup/</link>
+    <link>http://localhost:1313/tags/backup/</link>
     <description>Recent content in Backup on My Awesome Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
     <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
     <copyright>© 2025 Wildan</copyright>
-    <lastBuildDate>Thu, 03 Oct 2024 21:42:14 +0700</lastBuildDate><atom:link href="http://localhost:37175/tags/backup/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 03 Oct 2024 21:42:14 +0700</lastBuildDate><atom:link href="http://localhost:1313/tags/backup/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>rsync: A Powerful Tool for Backing Up Data</title>
-      <link>http://localhost:37175/tech/rsync/</link>
+      <link>http://localhost:1313/tech/rsync/</link>
       <pubDate>Thu, 03 Oct 2024 21:42:14 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:37175/tech/rsync/</guid>
+      <guid>http://localhost:1313/tech/rsync/</guid>
       <description>The simplest and easiest way to backup your data&amp;hellip;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:37175/tech/rsync/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/rsync/featured.png" />
     </item>
     
   </channel>

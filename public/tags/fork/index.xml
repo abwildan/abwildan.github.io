@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Fork on My Awesome Site</title>
-    <link>http://localhost:37175/tags/fork/</link>
+    <link>http://localhost:1313/tags/fork/</link>
     <description>Recent content in Fork on My Awesome Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
     <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
     <copyright>© 2025 Wildan</copyright>
-    <lastBuildDate>Wed, 14 Aug 2024 03:10:27 +0000</lastBuildDate><atom:link href="http://localhost:37175/tags/fork/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 14 Aug 2024 03:10:27 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/fork/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Chess Tactics: Fork, Pin, and Skewer</title>
-      <link>http://localhost:37175/chess/pop-tactics/</link>
+      <link>http://localhost:1313/chess/pop-tactics/</link>
       <pubDate>Wed, 14 Aug 2024 03:10:27 +0000</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:37175/chess/pop-tactics/</guid>
+      <guid>http://localhost:1313/chess/pop-tactics/</guid>
       <description>This article shares about 3 popular tactics in chess, which are Fork, Pin, and Skewer.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:37175/chess/pop-tactics/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/chess/pop-tactics/featured.png" />
     </item>
     
   </channel>

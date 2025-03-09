@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ricing on My Awesome Site</title>
-    <link>http://localhost:37175/tags/ricing/</link>
+    <link>http://localhost:1313/tags/ricing/</link>
     <description>Recent content in Ricing on My Awesome Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
     <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
     <copyright>© 2025 Wildan</copyright>
-    <lastBuildDate>Sun, 28 Apr 2024 14:21:13 +0700</lastBuildDate><atom:link href="http://localhost:37175/tags/ricing/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 28 Apr 2024 14:21:13 +0700</lastBuildDate><atom:link href="http://localhost:1313/tags/ricing/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Linux Ricing?</title>
-      <link>http://localhost:37175/tech/rice/</link>
+      <link>http://localhost:1313/tech/rice/</link>
       <pubDate>Sun, 28 Apr 2024 14:21:13 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:37175/tech/rice/</guid>
+      <guid>http://localhost:1313/tech/rice/</guid>
       <description>Rice? Linux eating rice? Do you want to know more about behind the &amp;lsquo;Ricing&amp;rsquo; term on technology thing, especially Linux? Here is your article&amp;hellip;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:37175/tech/rice/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/rice/featured.png" />
     </item>
     
   </channel>

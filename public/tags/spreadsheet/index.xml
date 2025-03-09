@@ -2,33 +2,33 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Spreadsheet on My Awesome Site</title>
-    <link>http://localhost:37175/tags/spreadsheet/</link>
+    <link>http://localhost:1313/tags/spreadsheet/</link>
     <description>Recent content in Spreadsheet on My Awesome Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
     <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
     <copyright>© 2025 Wildan</copyright>
-    <lastBuildDate>Tue, 28 Jan 2025 03:33:42 +0000</lastBuildDate><atom:link href="http://localhost:37175/tags/spreadsheet/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 Jan 2025 03:33:42 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/spreadsheet/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Basic Excel (Spreadsheet) Functions - Part 2</title>
-      <link>http://localhost:37175/tech/excel2/</link>
+      <link>http://localhost:1313/tech/excel2/</link>
       <pubDate>Tue, 28 Jan 2025 03:33:42 +0000</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:37175/tech/excel2/</guid>
+      <guid>http://localhost:1313/tech/excel2/</guid>
       <description>6 basic excel (spreadsheet) functions / formulas: SUMIF, CONCATENATE, MATCH, (LEFT, MID, RIGHT), (HLOOKUP &amp;amp; VLOOKUP), TRANSPOSE</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:37175/tech/excel2/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/excel2/featured.png" />
     </item>
     
     <item>
       <title>Basic Excel (Spreadsheet) Functions - Part 1</title>
-      <link>http://localhost:37175/tech/excel1/</link>
+      <link>http://localhost:1313/tech/excel1/</link>
       <pubDate>Fri, 24 Jan 2025 13:24:27 +0000</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:37175/tech/excel1/</guid>
+      <guid>http://localhost:1313/tech/excel1/</guid>
       <description>6 basic excel (spreadsheet) functions / formulas: SUM, AVERAGE, MAX, MIN, COUNT, COUNTIF</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:37175/tech/excel1/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/excel1/featured.png" />
     </item>
     
   </channel>

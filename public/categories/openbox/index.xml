@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Openbox on My Awesome Site</title>
-    <link>http://localhost:37175/categories/openbox/</link>
+    <link>http://localhost:1313/categories/openbox/</link>
     <description>Recent content in Openbox on My Awesome Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
     <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
     <copyright>© 2025 Wildan</copyright>
-    <lastBuildDate>Thu, 30 May 2024 01:49:56 +0000</lastBuildDate><atom:link href="http://localhost:37175/categories/openbox/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 30 May 2024 01:49:56 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/openbox/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Openbox - Simple and Easy Window Manager for Beginners</title>
-      <link>http://localhost:37175/tech/openbox/</link>
+      <link>http://localhost:1313/tech/openbox/</link>
       <pubDate>Thu, 30 May 2024 01:49:56 +0000</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:37175/tech/openbox/</guid>
+      <guid>http://localhost:1313/tech/openbox/</guid>
       <description>As the title said, Openbox is simple and easy window manager for beginners</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:37175/tech/openbox/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/openbox/featured.png" />
     </item>
     
   </channel>

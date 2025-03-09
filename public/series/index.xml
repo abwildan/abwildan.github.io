@@ -2,51 +2,51 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Series on My Awesome Site</title>
-    <link>http://localhost:37175/series/</link>
+    <link>http://localhost:1313/series/</link>
     <description>Recent content in Series on My Awesome Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
     <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
     <copyright>© 2025 Wildan</copyright>
-    <lastBuildDate>Tue, 28 Jan 2025 03:33:42 +0000</lastBuildDate><atom:link href="http://localhost:37175/series/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 Jan 2025 03:33:42 +0000</lastBuildDate><atom:link href="http://localhost:1313/series/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Excel</title>
-      <link>http://localhost:37175/series/excel/</link>
+      <link>http://localhost:1313/series/excel/</link>
       <pubDate>Tue, 28 Jan 2025 03:33:42 +0000</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:37175/series/excel/</guid>
+      <guid>http://localhost:1313/series/excel/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Tactics</title>
-      <link>http://localhost:37175/series/tactics/</link>
+      <link>http://localhost:1313/series/tactics/</link>
       <pubDate>Thu, 07 Nov 2024 10:39:37 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:37175/series/tactics/</guid>
+      <guid>http://localhost:1313/series/tactics/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>DVWA</title>
-      <link>http://localhost:37175/series/dvwa/</link>
+      <link>http://localhost:1313/series/dvwa/</link>
       <pubDate>Sun, 13 Oct 2024 17:04:53 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:37175/series/dvwa/</guid>
+      <guid>http://localhost:1313/series/dvwa/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Hugo</title>
-      <link>http://localhost:37175/series/hugo/</link>
+      <link>http://localhost:1313/series/hugo/</link>
       <pubDate>Mon, 09 Oct 2023 15:22:46 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:37175/series/hugo/</guid>
+      <guid>http://localhost:1313/series/hugo/</guid>
       <description></description>
       
     </item>

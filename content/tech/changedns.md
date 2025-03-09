@@ -81,8 +81,8 @@ TLD (*Top Level Domain*) server adalah server DNS yang bertaggung jawab untuk me
 Ada banyak TLD (*Top Level Domain*) di internet, diantaranya:
 - **.com** ([google.com](https://www.google.com/), [tokopedia.com](https://www.tokopedia.com/), [github.com](https://github.com/), etc)
 - **.org** ([archlinux.org](https://archlinux.org/), [virtualbox.org](https://www.virtualbox.org/), [wikipedia.org](https://www.wikipedia.org/), etc)
-- **.net** ([](), [](), [](), etc)
-- **.gov** ()
+- **.net** ([ankiweb.net](https://ankiweb.net/), [speedtest.net](https://www.speedtest.net/), [minecraft.net](https://www.minecraft.net/en-us), etc)
+- **.gov** ([nasa.gov](https://www.nasa.gov/), [usa.gov](https://www.usa.gov/), [gov.sg](https://www.gov.sg/), etc)
 - etc.
 
 Untuk referensi lebih lanjut, silakan merujuk ke:  
@@ -137,6 +137,15 @@ Ada beberapa perusahaan penyedia DNS resolver, seperti:[^5]
 - etc
 
 *So*, kapan waktu yang tepat untuk mengganti DNS? Saat diperlukan...
+
+{{< alert icon=none >}}
+
+**Notes:**
+
+Perhatikan bahwa setiap DNS resolver dibuat dengan tujuannya masing-masing. 
+Ada yang dibuat khusus untuk publik, alias akan menampilkan semua pencarian tanpa filter seperti DNS milik Google. Namun, ada juga yang dibuat untuk membuat filter konten tertentu pada hasil pencarian, seperti DNS milik Quad9 dan NextDNS. 
+
+{{< /alert >}}
 
 ## The "WHERE"
 

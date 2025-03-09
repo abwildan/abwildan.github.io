@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>TOR on My Awesome Site</title>
-    <link>http://localhost:37175/tags/tor/</link>
+    <link>http://localhost:1313/tags/tor/</link>
     <description>Recent content in TOR on My Awesome Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
     <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
     <copyright>© 2025 Wildan</copyright>
-    <lastBuildDate>Thu, 30 Nov 2023 07:35:02 -0500</lastBuildDate><atom:link href="http://localhost:37175/tags/tor/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 30 Nov 2023 07:35:02 -0500</lastBuildDate><atom:link href="http://localhost:1313/tags/tor/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Private File Sharing with Onionshare</title>
-      <link>http://localhost:37175/tech/onionshare/</link>
+      <link>http://localhost:1313/tech/onionshare/</link>
       <pubDate>Thu, 30 Nov 2023 07:35:02 -0500</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:37175/tech/onionshare/</guid>
+      <guid>http://localhost:1313/tech/onionshare/</guid>
       <description>OnionShare is an open-source tool that lets you securely and anonymously share files, host websites, and chat with friends using the Tor network.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:37175/tech/onionshare/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/onionshare/featured.png" />
     </item>
     
   </channel>

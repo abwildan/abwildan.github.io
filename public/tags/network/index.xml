@@ -9,7 +9,17 @@
     <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
     <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
     <copyright>© 2025 Wildan</copyright>
-    <lastBuildDate>Sat, 08 Mar 2025 09:33:37 +0700</lastBuildDate><atom:link href="http://localhost:1313/tags/network/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 21 Mar 2025 15:55:32 +0700</lastBuildDate><atom:link href="http://localhost:1313/tags/network/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>The Utilization of &#39;nmcli&#39;</title>
+      <link>http://localhost:1313/tech/nmcli/</link>
+      <pubDate>Fri, 21 Mar 2025 15:55:32 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tech/nmcli/</guid>
+      <description>Having issue to connect your server to a network (wifi)? Here is the solution to the problem.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/nmcli/featured.png" />
+    </item>
     
     <item>
       <title>The Power of DNS (Domain Name System)</title>
@@ -17,7 +27,7 @@
       <pubDate>Sat, 08 Mar 2025 09:33:37 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/changedns/</guid>
-      <description>Solving a &amp;lsquo;undetected&amp;rsquo; network problem with only one simple solution: Changing the DNS.</description>
+      <description>Solving an &amp;lsquo;undetected&amp;rsquo; network problem with only one simple solution: Changing the DNS.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/changedns/featured.png" />
     </item>
     

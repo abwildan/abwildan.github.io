@@ -2,7 +2,7 @@
 title: "The Power of DNS (Domain Name System)"
 date: 2025-03-08T09:33:37+07:00
 draft: false
-summary: "Solving a 'undetected' network problem with only one simple solution: Changing the DNS."
+summary: "Solving an 'undetected' network problem with only one simple solution: Changing the DNS."
 tags: ["dns", "network", "internet", "linux"]
 categories: "dns"
 ---

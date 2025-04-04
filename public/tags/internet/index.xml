@@ -18,7 +18,7 @@
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/nmcli/</guid>
       <description>Having issue to connect your server to a network (wifi)? Here is the solution to the problem.</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/nmcli/featured.png" />
     </item>
     
     <item>

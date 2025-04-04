@@ -4,7 +4,19 @@
 
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-03-21T15:55:32+07:00</lastmod>
+    <lastmod>2025-03-30T13:33:57+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/chess/pop-tactics3/</loc>
+    <lastmod>2025-03-30T13:33:57+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/chess/</loc>
+    <lastmod>2025-03-30T13:33:57+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -100,12 +112,6 @@
   </url>
   <url>
     <loc>http://localhost:1313/chess/pop-tactics2/</loc>
-    <lastmod>2024-11-07T10:39:37+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/chess/</loc>
     <lastmod>2024-11-07T10:39:37+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>

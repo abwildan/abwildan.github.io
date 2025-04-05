@@ -18,7 +18,7 @@
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/chess/pop-tactics3/</guid>
       <description>This article shares about 3 popular tactics in chess, which are Overloading, Clearance, and Decoy or Deflection.</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/chess/pop-tactics3/featured.png" />
     </item>
     
   </channel>

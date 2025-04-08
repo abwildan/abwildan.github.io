@@ -14,7 +14,8 @@ series_order: 5
 ## What is Chess Tactics?
 
 Apa itu taktik catur?
-Pada dasarnya, taktik catur adalah gerakan / langkah (atau serangkaian langkah) yang memberikan keuntungan bagipemainnya. Keuntungan yang dimaksud dapat berupa keuntungan material, yaitu dengan memenangkan buah catur, ataubahkan skakmat.[^1] Ada banyak taktik yang dapat dipelajari dan digunakan dalam bermain catur, tapi biarkan saya mengulas salah tiga diantaranya, yaitu <mark>**Trapped Piece** </mark>, <mark> **Simplification** </mark>,dan <mark> **Zugzwang** </mark>.
+
+Pada dasarnya, taktik catur adalah gerakan / langkah (atau serangkaian langkah) yang memberikan keuntungan bagipemainnya. Keuntungan yang dimaksud dapat berupa keuntungan material, yaitu dengan memenangkan buah catur, ataubahkan skakmat.[^1] Ada banyak taktik yang dapat dipelajari dan digunakan dalam bermain catur, tapi biarkan saya mengulas salah tiga diantaranya, yaitu <mark>**Trapped Piece**</mark>, <mark>**Simplification**</mark>,dan <mark>**Zugzwang**</mark>.
 
 ### Trapped Piece
 
@@ -45,7 +46,57 @@ Berikut adalah contoh taktik *trapped piece*:
 
 ### Simplification
 
-**Simplification** adalah taktik 
+Seperti namanya, **Simplification** adalah taktik penyederhaan permainan dengan menawarkan pertukaran buah catur kepada lawan. Tujuan taktik **Simplification** juga sudah sangat jelas, yaitu untuk mengurangi kompleksitas permainan di atas papan. Biasanya, taktik ini dilakukan apabila kita sudah memiliki keunggulan tertentu, baik keunggulan material maupun keunggulan kualitas. Oleh sebab itu pula, jika kita berada pada posisi yang berlawanan (tidak unggul/rugi), sebaiknya kita menolak ajakan pertukaran buah catur (**Simplification**) ini.
+
+Berikut adalah contoh taktik *simplification*:
+
+| Simplification 1	| Simplification 2	| Simplification 3	|
+| ---			| ---			| ---			|
+| ![ss4](/chess/pop-tactics5/ss4.png)	| ![ss5](/chess/pop-tactics5/ss5.png)	| ![ss6](/chess/pop-tactics5/ss6.png)	|
+| Putih unggul satu pion, jadi melakukan simplifikasi dengan menukar Benteng dengan Kuda adalah pilihan terbaik.	| Hitam unggul secara posisi karena Rajanya siap menghabisi pion-pion putih. Jadi, memaksakan pertukaran Menteri adalah pilihan terbaik.	| Hitam unggul satu pion, jadi memakan Benteng adalah pilihan terbaik di posisi ini untuk menyederhanakan permainan.	|
+
+{{< youtube tF2gmJ7YzAI >}}
+
+{{< collapse summary="**Simplification Puzzle**" >}}
+1. Hitam jalan dan unggul perwira.
+
+{{< chesscom url="//www.chess.com/emboard?id=13058295" id="13058295" >}}
+
+2. Hitam jalan dan unggul jumlah pion.
+
+{{< chesscom url="//www.chess.com/emboard?id=13058311" id="13058311" >}}
+
+3. Hitam jalan dan unggul jumlah perwira.
+
+{{< chesscom url="//www.chess.com/emboard?id=13058329" id="13058329" >}}
+{{< /collapse >}}
+
+### Zugzwang 
+
+**Zugzwang** adalah *term* bahasa Jerman yang berarti "*a compulstion to move*" atua paksaan untuk bergerak. Tujuan dari taktik **Zugzwang** ini adalah untuk memaksa lawan menggerakkan buah caturnya sehingga ketika kita mendapatkan giliran melangkah, kita akan mendapatkan keunggulan. Dengan kata lain, melalui taktik ini, apapun langkah yang dimainkan oleh lawan, dia akan tetap kalah.
+
+Berikut adalah contoh taktik *zugzwang*:
+
+| Zugzwang 1	| Zugzwang 2	| Zugzwang 3	|
+| ---		| ---		| ---		|
+| ![ss7](/chess/pop-tactics5/ss7.png)	| ![ss8](/chess/pop-tactics5/ss8.png)	|  ![ss9](/chess/pop-tactics5/ss9.png)	|
+| Raja hitam hanya bisa bergerak ke c8 atau e8. Jika Raja hitam ke e8, Raja putih ke c7 menjaga petak d8 untuk pion promosi. Begitupula sebaliknya.	| Putih mengalami *zugzwang*. Apapun langkah yang dimainkan putih, putih akan kalah. Misalnya, Raja ke f2, Benteng hitam ke h2, *skewer*, mendapatkan Benteng putih.	| Putih terkena *zugzwang* karena Benteng hitam tetap melakukan *pin* pada Gajah di baris ke-1, Raja dipaksa pindah ke a1, kemudian Benteng makan Gajah, skakmat.	|
+
+{{< youtube UCmsBHz5jU0 >}}
+
+{{< collapse summary="**Zugzwang Puzzle**" >}}
+1. Putih jalan dan menang.
+
+{{< chesscom url="//www.chess.com/emboard?id=13058435" id="13058435" >}}
+
+2. Putih jalan dan menang.
+
+{{< chesscom url="//www.chess.com/emboard?id=13058449" id="13058449" >}}
+
+3. Hitam jalan dan menang.
+
+{{< chesscom url="//www.chess.com/emboard?id=13058467" id="13058467" >}}
+{{< /collapse >}}
 
 
 
@@ -53,7 +104,6 @@ Berikut adalah contoh taktik *trapped piece*:
 
 
 [^1]: https://www.chess.com/article/view/chess-tactics#trappedpiece
-
 
 
 

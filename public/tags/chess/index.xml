@@ -18,7 +18,7 @@
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/chess/pop-tactics5/</guid>
       <description>This article shares about 3 popular tactics in chess, which are Trapped Piece, Simplification, Zugzwang.</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/chess/pop-tactics5/featured.png" />
     </item>
     
     <item>
@@ -67,7 +67,7 @@
       <pubDate>Fri, 02 Aug 2024 07:59:33 +0000</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/chess/intro/</guid>
-      <description>This article shares about (short) history, pieces, notation, and other things regarding Intro to Chess.</description>
+      <description>This article shares (short) history, pieces, notation, and other things regarding Intro to Chess.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/chess/intro/featured.png" />
     </item>
     

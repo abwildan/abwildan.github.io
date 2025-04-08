@@ -33,6 +33,13 @@ Berapa domain Z-lib yang di-*banned*:
 
 ![ss7](/zlib-tele/ss7.png)
 
+Beberapa alternatif tautan non-Tor yang official (karena ada beberapa tautan *scam*):
+
+1. https://www.z-library.sk
+2. https://www.z-lib.fm
+
+![ss12](/zlib-tele/ss12.png)
+
 {{< /collapse >}}
 
 Detail penjelasannya adalah sebagai berikut:

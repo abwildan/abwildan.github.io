@@ -70,6 +70,8 @@ opsi 1: <mark>**http://zlibrary24tuxziyiyfr7zd46ytefdqbqd2axkmxm4o5374ptpc52fad.
 
 opsi 2: <mark>**http://loginzlib2vrak5zzpcocc3ouizykn6k5qecgj2tzlnab5wcbqhembyd.onion**</mark>
 
+opsi 3: <mark>**http://bookszlibb74ugqojhzhg2a63w5i2atv5bqarulgczawnbmsb6s6qead.onion**</mark>
+
 > **Notes:**  
 > Berselancar di tor browser tidak akan semulus dan selancar berselancar di browser pada umumnya. Oleh karena itu, jika kalian mengalami koneksi yang lamban, jangan khawatir, memang seperti itulah jaringan tor.
 

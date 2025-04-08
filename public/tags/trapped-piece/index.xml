@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Trapped Piece on My Awesome Site</title>
+    <link>http://localhost:1313/tags/trapped-piece/</link>
+    <description>Recent content in Trapped Piece on My Awesome Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
+    <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
+    <copyright>© 2025 Wildan</copyright>
+    <lastBuildDate>Sun, 06 Apr 2025 16:33:38 +0700</lastBuildDate><atom:link href="http://localhost:1313/tags/trapped-piece/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Chess Tactics: Trapped Piece, Simplification, Zugzwang</title>
+      <link>http://localhost:1313/chess/pop-tactics5/</link>
+      <pubDate>Sun, 06 Apr 2025 16:33:38 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/chess/pop-tactics5/</guid>
+      <description>This article shares about 3 popular tactics in chess, which are Trapped Piece, Simplification, Zugzwang.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

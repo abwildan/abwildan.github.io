@@ -1,5 +1,5 @@
 ---
-title: "Mugshot to Change Your User Photo Profile"
+title: "Mugshot to Change Your User Profile Photo"
 date: 2025-01-12T10:51:06Z
 draft: false
 summary: "Mugshot, a simple program to change personal user details such as photo profile."

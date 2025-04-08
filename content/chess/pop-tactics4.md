@@ -54,7 +54,7 @@ Taktik **X-Ray Attack** terjadi ketika perwira jarak jauh (seperti Benteng, Gaja
 
 Berikut adalah contoh *x-ray attack*:
 
-| x-ray 1	| x-ray 2	| x-ray 3	|
+| X-ray 1	| X-ray 2	| X-ray 3	|
 | ---		| ---		| ---		|
 | ![ss4](/chess/pop-tactics4/ss4.png)	| ![ss5](/chess/pop-tactics4/ss5.png)	| ![ss6](/chess/pop-tactics4/ss6.png)	|
 | Gajah putih makan gajah hitam, kalau Menteri hitam makan Menteri putih, Gajah bisa makan lagi. Unggul perwira.	| Benteng putih makan Benteng hitam, kalau Gajah hitam makan Benteng, Gajah putih bisa makan Gajah hitam. Unggul perwira.	| Menteri putih dikorbankan ke e8, skak, Benteng hitam terpaksa makan, tapi dimakan lagi oleh Benteng putih, skakmat. 	| 

@@ -2,7 +2,7 @@
 title = 'Introduction to Chess ♟️'
 date = 2024-08-02T07:59:33Z
 draft = false
-summary = "This article shares about (short) history, pieces, notation, and other things regarding Intro to Chess."
+summary = "This article shares (short) history, pieces, notation, and other things regarding Intro to Chess."
 tags = ["chess", "intro"]
 categories = "chess"
 +++

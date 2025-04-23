@@ -110,7 +110,7 @@
     "keywords": ["intel","driver","windows","powershell","microsoft store"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "500"
+    "wordCount": "537"
   }]
   </script>
 
@@ -837,7 +837,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2025-04-23T07:30:49&#43;07:00">23 April 2025</time><span class="px-2 text-primary-500">&middot;</span><span>500 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">3 mins</span><span class="px-2 text-primary-500">&middot;</span>
+  <time datetime="2025-04-23T07:30:49&#43;07:00">23 April 2025</time><span class="px-2 text-primary-500">&middot;</span><span>537 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">3 mins</span><span class="px-2 text-primary-500">&middot;</span>
 
 
   
@@ -1250,7 +1250,7 @@
 <p><details >
   <summary markdown="span"><strong>Selayang Pandang (re: Curhat)</strong></summary>
   <p>Artikel ini melanjutkan pengalaman saya setelah berhasil <em>install</em> Windows 10. Pengalaman &ldquo;pertama&rdquo; saya pasca instalasi Windows 10 sendiri secara <em>baremetal</em>[^1] kemudian berlanjut. Saya mengalami kendala karena laptop saya tidak bisa mengatur <em>brightness</em>, baik melalui Setting, maupun dengan <em>shortcut</em>. Saya juga sudah melakukan salah satu langkah solusi, yaitu meng-<em>install</em> ulang <em>display driver</em>-nya di Setting &ldquo;Display Manager&rdquo;, namun, tak kunjung memperbaiki masalah tersebut. Sejujurnya, saya juga sudah sempat mencari tahu penyebab dan solusi masalah ini ke Google, tapi juga belum menemukan jalan keluar yang tepat.</p>
-<p>Akhirnya, kebingungan saya ini terjawab ketika saya bertanya ke ChatGPT (memang kehadiran AI ini sangat membantu kita menyelesaikan masalah, karena dia bisa menjawab dan memberikan alternatif-alternatif solusi yang <em>to the point</em>). ChatGPT merekomendasikan beberapa solusi pada masalah <em>brightness</em> pasca instalasi Windows, dimana salah satunya adalah untuk tidak hanya melakukan instalasi <em>driver</em> saja, tetapi juga meng-<em>install</em> <em>driver</em> yang tepat, sesuai dengan jenis prosesor komputernya. Setelah itu, saya mengunduh <em>display driver</em> dari Intel (karena laptop saya berprosesor Intel, tentu saja) dan Alhamdulillah, <em>brightness</em> dapat berjalan dengan normal.</p>
+<p>Akhirnya, kebingungan saya ini terjawab ketika saya bertanya ke ChatGPT (memang kehadiran AI ini sangat membantu kita menyelesaikan masalah, karena dia bisa menjawab dan memberikan alternatif-alternatif solusi yang <em>to the point</em>). ChatGPT merekomendasikan beberapa solusi pada masalah <em>brightness</em> pasca instalasi Windows, dimana salah satunya adalah untuk tidak hanya melakukan instalasi <em>driver</em> saja, tetapi juga meng-<em>install</em> <em>driver</em> yang tepat, sesuai dengan <em>hardware</em> atau spesifikasi komputernya. Setelah itu, saya mengunduh <em>display driver</em> dari Intel (karena laptop saya berprosesor Intel) dan Alhamdulillah, <em>brightness</em> dapat berjalan dengan normal.</p>
 <p>Berikut adalah Prompt-nya:</p>
 <blockquote>
 <p>Saya baru saja menginstall windows 10 di komputer, namun, brighteness di laptop saya tidak berfungsi dengan baik. Brightness tidak dapat diatur, baik melalui shortcut maupun melalui Setting di Windows. Saya juga sudah mencoba melakukan instal ulang display driver di Device Manager, tapi tetap tidak menyelesaikan masalah tersebut. Bagaimana solusinya?</p></blockquote>
@@ -1264,13 +1264,14 @@
 </details></p>
 
 
-<p>Berdasarkan pengalaman saya (yang tercantum pada bagian &ldquo;Selayang Pandang&rdquo; di atas), permasalahan <em>brightness</em> tidak berfungsi dengan baik pasca instalasi Windows hampir dapat dipastikan karena kita belum meng-<em>install</em> <em>display driver</em> yang tepat. Artinya, solusi untuk menyelesaikan masalah ini sangat sederhana: <strong>&ldquo;Install driver sesuai prosesor komputernya&rdquo;</strong>.</p>
+<p>Berdasarkan pengalaman saya (yang tercantum pada bagian &ldquo;Selayang Pandang&rdquo; di atas), permasalahan <em>brightness</em> tidak berfungsi dengan baik pasca instalasi Windows hampir dapat dipastikan karena kita belum meng-<em>install</em> <em>display driver</em> yang tepat.</p>
 <p>Jika kita baru saja meng-<em>install</em> Windows ke komputer kita, hampir dapat dipastikan <em>driver</em> grafis yang terpasang adalah <em>driver</em> grafis <em>default</em> bawaan dari Windows, sehingga kita perlu memasang <em>driver</em> yang lebih sesuai dengan prosesor secara manual. Hal ini dapat dipastikan melalui Setting &ldquo;Device Manager&rdquo; pada bagian <strong>&ldquo;Display adapter&rdquo;</strong>.</p>
 <p>Cara membuka &ldquo;Display Manager&rdquo; ada beberapa, diantaranya:</p>
 <ul>
 <li>Tekan &ldquo;Windows&rdquo; + &ldquo;X&rdquo; di keyboard, klik &ldquo;Device Manager&rdquo;.</li>
 <li>Tekan &ldquo;Windows&rdquo; di keyboard, ketikkan &ldquo;Device Manager&rdquo;, Enter.</li>
 </ul>
+<p>Di sana, alih-alih melihat <em>driver</em> yang sesuai dengan <em>hardware</em> atau spesifikasi komputer (prosesor atau kartu grafis), seperti misalnya &ldquo;Intel&rdquo;, &ldquo;AMD&rdquo;, atau &ldquo;NVIDIA&rdquo;, kita akan melihat bahwa <em>driver</em> yang terpasang adalah <em>driver</em> default Windows, yaitu &ldquo;Microsoft Basic Display Adapter&rdquo;. Jadi, solusi untuk masalah ini yaitu: <strong>&ldquo;Memasang <em>driver</em> yang sesuai dengan spesifikasi komputer&rdquo;</strong>.</p>
 <p>Kebetulan, laptop saya menggunakan prosesor Intel, jadi jika komputer atau laptop kalian menggunakan prosesor yang sama, sila mengikuti langkah-langkah di bawah ini.</p>
 
 

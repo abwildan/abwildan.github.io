@@ -18,7 +18,7 @@
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/mas/</guid>
       <description>A simple way to activate your Windows license using Microsoft Activation Script (MAS).</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/mas/featured.png" />
     </item>
     
   </channel>

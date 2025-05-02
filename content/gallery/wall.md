@@ -12,7 +12,7 @@ backgroundImage: "img/blue-aqua.jpg"
 
 {{< collapse summary="**About This Page**" >}}
 
-These are my personal wallpapers that I used to or have used in my Laptop. They mostly are crawled from famous wallpaper websites such as 
+These are my personal wallpapers that I've used to or currently use in my Laptop. They mostly are crawled from famous wallpaper websites such as 
 1. [**wallhaven**](https://wallhaven.cc/), 
 2. [**wallpaperflare**](https://www.wallpaperflare.com/), 
 3. [**alphacoders**](https://alphacoders.com/),

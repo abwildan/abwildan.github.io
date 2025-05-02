@@ -2,7 +2,7 @@
 title: "Wallpaper"
 date: 2025-01-25T07:00:57Z
 draft: false
-summary: "My personal wallpapers that I used to or have used in my Laptop."
+summary: "(My personal) wallpapers."
 tags: ["wallpaper"]
 categories: "wallpaper"
 showTableOfContents: false

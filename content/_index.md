@@ -1,5 +1,6 @@
 Hi, there! &#128522;  
-Welcome to <b> "My Awesome Site"! </b>
+Welcome to <b> "My Awesome Site"! </b>;  
+This is <b>copyleft</b>-ish site, btw.
 
 {{< typeit 
   tag=h4
@@ -9,6 +10,6 @@ Welcome to <b> "My Awesome Site"! </b>
   lifeLike=true
 >}}
  Frankly, I am not a <mark> {hacker, programmer}</mark>.  
- I am just an ordinary <b><i> blogger who love <mark> linux</mark>.</i></b>
+ I am just an ordinary <b><i> blogger who love <mark> linux</mark>.</i></b>   
 {{< /typeit >}}
 

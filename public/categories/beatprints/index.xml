@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Beatprints on My Awesome Site</title>
+    <link>http://localhost:1313/categories/beatprints/</link>
+    <description>Recent content in Beatprints on My Awesome Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
+    <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
+    <copyright>© 2025 Wildan</copyright>
+    <lastBuildDate>Sun, 04 May 2025 13:35:14 +0700</lastBuildDate><atom:link href="http://localhost:1313/categories/beatprints/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Beatprints</title>
+      <link>http://localhost:1313/tech/beatprints/</link>
+      <pubDate>Sun, 04 May 2025 13:35:14 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tech/beatprints/</guid>
+      <description>A quick and stylish posters for your favorite tracks!🎷☕️</description>
+      
+    </item>
+    
+  </channel>
+</rss>

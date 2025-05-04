@@ -1,5 +1,5 @@
 Hi, there! &#128522;  
-Welcome to <b> "My Awesome Site"! </b>;  
+Welcome to <b> "My Awesome Site"! </b>  
 This is <b>copyleft</b>-ish site, btw.
 
 {{< typeit 

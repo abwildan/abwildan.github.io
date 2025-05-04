@@ -1,5 +1,5 @@
 ---
-title: "Beatprints"
+title: "Beatprints: Your Favorite Spotify Poster"
 date: 2025-05-04T13:35:14+07:00
 draft: false
 summary: "A quick and stylish posters for your favorite tracks!🎷☕️ "

@@ -12,13 +12,13 @@
     <lastBuildDate>Sun, 04 May 2025 13:35:14 +0700</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Beatprints</title>
+      <title>Beatprints: Your Favorite Spotify Poster</title>
       <link>http://localhost:1313/tech/beatprints/</link>
       <pubDate>Sun, 04 May 2025 13:35:14 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/beatprints/</guid>
       <description>A quick and stylish posters for your favorite tracks!🎷☕️</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/beatprints/featured.png" />
     </item>
     
     <item>
@@ -27,7 +27,7 @@
       <pubDate>Wed, 23 Apr 2025 07:30:49 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/inteldriverinstall/</guid>
-      <description></description>
+      <description>Your windows brightness doesn&amp;rsquo;t work properly? May be it&amp;rsquo;s driver issue&amp;hellip;</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/inteldriverinstall/featured.png" />
     </item>
     

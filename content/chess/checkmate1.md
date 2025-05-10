@@ -2,8 +2,8 @@
 title: "Checkmate Pattern: Arabian Mate, Anastasia's Mate, Back Rank Mate, Boden's Mate"
 date: 2025-05-10T10:03:01+07:00
 draft: false
-summary: "In this article, I'd like to share 4 popular checkmate patterns, which are Arabian Mate, Anastasia's Mate, Back Rank Mate, and Boden's Mate"
-tags: ["chess", "intro", "checkmate", "arabian mate", "anastasia's mate", "back rank mate", "boden's mate"]
+summary: "In this article, I would like to share 4 popular checkmate patterns, which are Arabian Mate, Anastasias Mate, Back Rank Mate, and Bodens Mate"
+tags: ["chess", "intro", "checkmate", "pattern", "arabian mate", "anastasia's mate", "back rank mate", "boden's mate"]
 categories: "chess"
 series: ["checkmate"]
 series_order: 1
@@ -103,16 +103,15 @@ Pola **Boden's Mate** tercapai melalui kombinasi dua Gajah, dimana Gajah yang sa
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 [^1]: https://www.chess.com/terms/checkmate-chess
+
+
+
+
+
+
+
+
+
+
+

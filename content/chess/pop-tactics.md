@@ -9,7 +9,7 @@ series = [ "Tactics" ]
 series_order = 1
 +++
 
-> Seorang master catur Jerman kelahiran tahun 1868, Richard Teichmann pernah berkata, "***chess is 99% tactics***".
+> Seorang master catur Jerman kelahiran tahun 1868, [Richard Teichmann](https://chesspuzzle.net/Player/Richard_Teichmann) pernah berkata, "***chess is 99% tactics***".
 
 ## What is Chess Tactics?
 

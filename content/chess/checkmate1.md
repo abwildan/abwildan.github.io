@@ -40,7 +40,7 @@ Pola **Arabian Mate** tercapai melalui kombinasi sebuah Kuda dan Benteng, dimana
 
 ### Anastasia's Mate
 
-Pola **Anastasia's Mate** tercapai melalui kombinasi sebuah Kuda dan Benteng, dimana Kuda berperan sebagai penjaga Benteng dan penghalang petak kabur Raja, sementara Benteng berperan sebagai perwira yang melakukan skakmat. Mirip dengan Arabian Mate secara kombinasi, namun berbeda di kondisi Raja lawan yang terkena skakmat. Kuda dalam pola ini berperan menjaga 2 petak kabur raja. Biasanya pola ini terjadi ketika Raja lawan sudah rokade.[^1]
+Pola **Anastasia's Mate** tercapai melalui kombinasi sebuah Kuda dan Benteng, dimana Kuda dalam pola ini berperan menjaga 2 petak kabur raja dan Benteng berperan sebagai perwira yang melakukan skakmat. Biasanya pola ini terjadi ketika Raja lawan sudah rokade.[^1]
 
 ![ss2](/chess/checkmate1/ss2.png "Anastasia's Mate Pattern")
 

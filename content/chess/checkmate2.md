@@ -2,7 +2,7 @@
 title: "Checkmate Pattern: Blackburne's Mate, Damiano's Mate, Epaulette Mate, Opera Mate"
 date: 2025-05-10T15:29:25+07:00
 draft: false
-summary: "In this article, I would like to share 4 popular checkmate patterns, which are Blackburnes Mate, Damianos Mate, Epaulette Mate, and Opera Mate"
+summary: "In this article, I would like to share 4 popular checkmate patterns, which are Blackburnes Mate, Damianos Mate, Epaulette Mate, and Opera Mate."
 tags: ["chess", "intro", "checkmate", "pattern", "blackburne's mate", "damiano's mate", "epaulette mate", "opera mate"]
 categories: "chess"
 series: ["checkmate"]

@@ -21,6 +21,7 @@ These are my personal wallpapers that I've used to or currently use in my Laptop
 6. [**wallhere**](https://wallhere.com),
 7. [**wallpapersclan**](https://wallpapers-clan.com),
 8. [**pepper&carrot**](https://www.peppercarrot.com/en/wallpapers/index.html),
+9. [**pexel**](https://www.pexels.com),
 
 and so on.
 
@@ -57,6 +58,7 @@ I keep the walls here so I don't need to re-look for and re-download them a seco
   <img src="/wall/wall26.jpg" class="grid-w50 md:grid-w33 xl:grid-w25" />
   <img src="/wall/wall27.jpg" class="grid-w50 md:grid-w33 xl:grid-w25" />
   <img src="/wall/wall28.jpg" class="grid-w50 md:grid-w33 xl:grid-w25" />
+  <img src="/wall/wall29.jpg" class="grid-w50 md:grid-w33 xl:grid-w25" /> 
 
   <img src="/wall/wall1.jpeg" class="grid-w50 md:grid-w33 xl:grid-w25" />
 

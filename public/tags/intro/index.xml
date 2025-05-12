@@ -9,7 +9,17 @@
     <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
     <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
     <copyright>© 2025 Wildan</copyright>
-    <lastBuildDate>Sat, 10 May 2025 15:29:25 +0700</lastBuildDate><atom:link href="http://localhost:1313/tags/intro/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 11 May 2025 16:38:55 +0700</lastBuildDate><atom:link href="http://localhost:1313/tags/intro/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Checkmate Pattern: Dovetail Mate, Smothered Mate, Morphy&#39;s Mate, Swallow&#39;s Tail Mate</title>
+      <link>http://localhost:1313/chess/checkmate3/</link>
+      <pubDate>Sun, 11 May 2025 16:38:55 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/chess/checkmate3/</guid>
+      <description>In this article, I would like to share 4 popular checkmate patterns, which are Blackburnes Mate, Damianos Mate, Epaulette Mate, and Opera Mate.</description>
+      
+    </item>
     
     <item>
       <title>Checkmate Pattern: Blackburne&#39;s Mate, Damiano&#39;s Mate, Epaulette Mate, Opera Mate</title>
@@ -17,7 +27,7 @@
       <pubDate>Sat, 10 May 2025 15:29:25 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/chess/checkmate2/</guid>
-      <description>In this article, I would like to share 4 popular checkmate patterns, which are Blackburnes Mate, Damianos Mate, Epaulette Mate, and Opera Mate</description>
+      <description>In this article, I would like to share 4 popular checkmate patterns, which are Blackburnes Mate, Damianos Mate, Epaulette Mate, and Opera Mate.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/chess/checkmate2/featured.png" />
     </item>
     
@@ -27,7 +37,7 @@
       <pubDate>Sat, 10 May 2025 10:03:01 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/chess/checkmate1/</guid>
-      <description>In this article, I would like to share 4 popular checkmate patterns, which are Arabian Mate, Anastasias Mate, Back Rank Mate, and Bodens Mate</description>
+      <description>In this article, I would like to share 4 popular checkmate patterns, which are Arabian Mate, Anastasias Mate, Back Rank Mate, and Bodens Mate.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/chess/checkmate1/featured.png" />
     </item>
     

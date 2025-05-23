@@ -12,16 +12,6 @@
     <lastBuildDate>Sun, 11 May 2025 16:38:55 +0700</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Blackburne&#39;s Mate</title>
-      <link>http://localhost:1313/tags/blackburnes-mate/</link>
-      <pubDate>Sun, 11 May 2025 16:38:55 +0700</pubDate>
-      <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/tags/blackburnes-mate/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
       <title>Checkmate</title>
       <link>http://localhost:1313/tags/checkmate/</link>
       <pubDate>Sun, 11 May 2025 16:38:55 +0700</pubDate>
@@ -42,21 +32,11 @@
     </item>
     
     <item>
-      <title>Damiano&#39;s Mate</title>
-      <link>http://localhost:1313/tags/damianos-mate/</link>
+      <title>Dovetail Mate</title>
+      <link>http://localhost:1313/tags/dovetail-mate/</link>
       <pubDate>Sun, 11 May 2025 16:38:55 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/tags/damianos-mate/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Epaulette Mate</title>
-      <link>http://localhost:1313/tags/epaulette-mate/</link>
-      <pubDate>Sun, 11 May 2025 16:38:55 +0700</pubDate>
-      <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/tags/epaulette-mate/</guid>
+      <guid>http://localhost:1313/tags/dovetail-mate/</guid>
       <description></description>
       
     </item>
@@ -72,11 +52,11 @@
     </item>
     
     <item>
-      <title>Opera Mate</title>
-      <link>http://localhost:1313/tags/opera-mate/</link>
+      <title>Morphy&#39;s Mate</title>
+      <link>http://localhost:1313/tags/morphys-mate/</link>
       <pubDate>Sun, 11 May 2025 16:38:55 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/tags/opera-mate/</guid>
+      <guid>http://localhost:1313/tags/morphys-mate/</guid>
       <description></description>
       
     </item>
@@ -87,6 +67,66 @@
       <pubDate>Sun, 11 May 2025 16:38:55 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tags/pattern/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Smothered Mate</title>
+      <link>http://localhost:1313/tags/smothered-mate/</link>
+      <pubDate>Sun, 11 May 2025 16:38:55 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tags/smothered-mate/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Swallow&#39;s Tail Mate</title>
+      <link>http://localhost:1313/tags/swallows-tail-mate/</link>
+      <pubDate>Sun, 11 May 2025 16:38:55 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tags/swallows-tail-mate/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Blackburne&#39;s Mate</title>
+      <link>http://localhost:1313/tags/blackburnes-mate/</link>
+      <pubDate>Sat, 10 May 2025 15:29:25 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tags/blackburnes-mate/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Damiano&#39;s Mate</title>
+      <link>http://localhost:1313/tags/damianos-mate/</link>
+      <pubDate>Sat, 10 May 2025 15:29:25 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tags/damianos-mate/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Epaulette Mate</title>
+      <link>http://localhost:1313/tags/epaulette-mate/</link>
+      <pubDate>Sat, 10 May 2025 15:29:25 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tags/epaulette-mate/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Opera Mate</title>
+      <link>http://localhost:1313/tags/opera-mate/</link>
+      <pubDate>Sat, 10 May 2025 15:29:25 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tags/opera-mate/</guid>
       <description></description>
       
     </item>

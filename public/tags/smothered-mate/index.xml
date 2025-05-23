@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Smothered Mate on My Awesome Site</title>
+    <link>http://localhost:1313/tags/smothered-mate/</link>
+    <description>Recent content in Smothered Mate on My Awesome Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
+    <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
+    <copyright>© 2025 Wildan</copyright>
+    <lastBuildDate>Sun, 11 May 2025 16:38:55 +0700</lastBuildDate><atom:link href="http://localhost:1313/tags/smothered-mate/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Checkmate Pattern: Dovetail Mate, Smothered Mate, Morphy&#39;s Mate, Swallow&#39;s Tail Mate</title>
+      <link>http://localhost:1313/chess/checkmate3/</link>
+      <pubDate>Sun, 11 May 2025 16:38:55 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/chess/checkmate3/</guid>
+      <description>In this article, I would like to share 4 popular checkmate patterns, which are Dovettail Mate, Smothered Mate, Morphy Mate, and Swallow Tail Mate.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/chess/checkmate3/featured.png" />
+    </item>
+    
+  </channel>
+</rss>

@@ -82,7 +82,7 @@ Apa itu Pola Skakmat?
 
 ### Swallow Tail Mate
 
-**Swallow Tail Mate** adalah skakmat dengan pola bentuk huruf V sehingga menyerupai ekor burung walet. Skakmat ini sendiri dilakukan oleh Menteri yang didukung oleh buah catur yang lain.[^1] Pola skakmat ini mirip, namun tidak sama, dengan pola **"Epaulette Checkmate"**, yang juga sudah saya ulas di artikel berikut ini:
+**Swallow Tail Mate** atau Guerion Mate adalah skakmat dengan pola bentuk huruf V sehingga menyerupai ekor burung walet. Skakmat ini sendiri dilakukan oleh Menteri yang didukung oleh buah catur yang lain.[^1] Pola skakmat ini mirip, namun tidak sama, dengan pola **"Epaulette Checkmate"**, yang juga sudah saya ulas di artikel berikut ini:
 
 {{< article link="/chess/checkmate2/" >}}
 

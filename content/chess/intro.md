@@ -33,8 +33,6 @@ Berikut akan saya coba jabarkan (tentu saja berdasarkan pengalaman dan pendapat 
 
 Beberapa poin di atas dimaksudkan supaya kita bisa mengambil sikap yang moderat terhadap catur sehingga siap untuk mulai belajar. Satu hal yang perlu diingat ketika akan mulai belajar catur adalah bahwa  <mark>**catur tidak mempersyaratkan IQ yang tinggi untuk bisa menang. Tapi, catur mengharuskan EQ yang stabil untuk bisa menang.**</mark> Artinya, selama seseorang punya minat yang besar terhadap catur, dia pasti bisa mempelajarinya dan memainkannya dan bukan hal yang mustahil juga untuk bisa menguasainya.
 
-{{< callout >}} **Penting!** Saya bukan orang ber-IQ tinggi dan juga tidak memiliki EQ yang stabil. Saya juga masih belajar dan hanya ingin berbagi tentang catur di sini. 😭 {{< /callout >}}
-
 ## Sejarah (singkat)
 
 Mengutip dari Detikcom, awal mula kemunculan catur sebetulnya sulit ditentukan secara akurat karena usianya yang sudah sangat tua. Bidak  catur diduga sudah ada sejak abad ke-6 Masehi. Beberapa sumber mengatakan catur berasal dari India, sebab adanya istilah ***chaturanga*** atau ***chatur*** yang artinya empat anggota tentara (gajah, kuda, kereta, dan pejalan kaki). Pendapat lain mengatakan catur berasal dari Arab, sebab adanya istilah ***shatranj***.[^2] Namun, menurut laman [Chesscom](https://www.chess.com/article/view/history-of-chess), catur berasal dari India sehingga kemudian menyebar ke Asia dan Eropa dan menjadi inspirasi lahirnya permainan papan lain, seperti *shogi* (catur Jepang), *janggi* (catur Korea), dan *xiangqi* (catur China).[^3]

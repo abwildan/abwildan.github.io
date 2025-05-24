@@ -9,7 +9,17 @@
     <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
     <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
     <copyright>© 2025 Wildan</copyright>
-    <lastBuildDate>Sun, 11 May 2025 16:38:55 +0700</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 24 May 2025 20:36:39 +0700</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>&#39;pgrep&#39; and &#39;pkill&#39; Tutorial for Finding and Killing A Process</title>
+      <link>http://localhost:1313/tech/pgreppkill/</link>
+      <pubDate>Sat, 24 May 2025 20:36:39 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tech/pgreppkill/</guid>
+      <description>These two commands are highly underrated, yet they are completely beneficial.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/pgreppkill/featured.png" />
+    </item>
     
     <item>
       <title>Checkmate Pattern: Dovetail Mate, Smothered Mate, Morphy&#39;s Mate, Swallow&#39;s Tail Mate</title>

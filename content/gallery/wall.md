@@ -44,7 +44,6 @@ I keep the walls here so I don't need to re-look for and re-download them a seco
   <img src="/wall/wall12.jpg" class="grid-w50 md:grid-w33 xl:grid-w25" />
   <img src="/wall/wall13.jpg" class="grid-w50 md:grid-w33 xl:grid-w25" />
   <img src="/wall/wall14.jpg" class="grid-w50 md:grid-w33 xl:grid-w25" />
-  <img src="/wall/wall15.jpg" class="grid-w50 md:grid-w33 xl:grid-w25" />
   <img src="/wall/wall16.jpg" class="grid-w50 md:grid-w33 xl:grid-w25" />
   <img src="/wall/wall17.jpg" class="grid-w50 md:grid-w33 xl:grid-w25" />
   <img src="/wall/wall18.jpg" class="grid-w50 md:grid-w33 xl:grid-w25" />
@@ -54,15 +53,14 @@ I keep the walls here so I don't need to re-look for and re-download them a seco
   <img src="/wall/wall22.jpg" class="grid-w50 md:grid-w33 xl:grid-w25" />
   <img src="/wall/wall23.jpg" class="grid-w50 md:grid-w33 xl:grid-w25" />
   <img src="/wall/wall24.jpg" class="grid-w50 md:grid-w33 xl:grid-w25" />
-  <img src="/wall/wall25.jpg" class="grid-w50 md:grid-w33 xl:grid-w25" />
   <img src="/wall/wall26.jpg" class="grid-w50 md:grid-w33 xl:grid-w25" />
   <img src="/wall/wall27.jpg" class="grid-w50 md:grid-w33 xl:grid-w25" />
   <img src="/wall/wall28.jpg" class="grid-w50 md:grid-w33 xl:grid-w25" />
   <img src="/wall/wall29.jpg" class="grid-w50 md:grid-w33 xl:grid-w25" /> 
+  <img src="/wall/wall30.jpg" class="grid-w50 md:grid-w33 xl:grid-w25" /> 
 
   <img src="/wall/wall1.jpeg" class="grid-w50 md:grid-w33 xl:grid-w25" />
 
-  <img src="/wall/wall1.png" class="grid-w50 md:grid-w33 xl:grid-w25" />
   <img src="/wall/wall2.png" class="grid-w50 md:grid-w33 xl:grid-w25" />
   <img src="/wall/wall3.png" class="grid-w50 md:grid-w33 xl:grid-w25" />
   <img src="/wall/wall4.png" class="grid-w50 md:grid-w33 xl:grid-w25" />

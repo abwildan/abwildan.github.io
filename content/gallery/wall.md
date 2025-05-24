@@ -58,8 +58,12 @@ I keep the walls here so I don't need to re-look for and re-download them a seco
   <img src="/wall/wall28.jpg" class="grid-w50 md:grid-w33 xl:grid-w25" />
   <img src="/wall/wall29.jpg" class="grid-w50 md:grid-w33 xl:grid-w25" /> 
   <img src="/wall/wall30.jpg" class="grid-w50 md:grid-w33 xl:grid-w25" /> 
+  <img src="/wall/wall31.jpg" class="grid-w50 md:grid-w33 xl:grid-w25" />
+  <img src="/wall/wall32.jpg" class="grid-w50 md:grid-w33 xl:grid-w25" />
 
   <img src="/wall/wall1.jpeg" class="grid-w50 md:grid-w33 xl:grid-w25" />
+  <img src="/wall/wall2.jpeg" class="grid-w50 md:grid-w33 xl:grid-w25" />
+  <img src="/wall/wall3.jpeg" class="grid-w50 md:grid-w33 xl:grid-w25" />
 
   <img src="/wall/wall2.png" class="grid-w50 md:grid-w33 xl:grid-w25" />
   <img src="/wall/wall3.png" class="grid-w50 md:grid-w33 xl:grid-w25" />

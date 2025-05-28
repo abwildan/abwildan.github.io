@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tools on My Awesome Site</title>
+    <link>http://localhost:1313/categories/tools/</link>
+    <description>Recent content in Tools on My Awesome Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
+    <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
+    <copyright>© 2025 Wildan</copyright>
+    <lastBuildDate>Sun, 09 Jun 2024 16:59:47 +0700</lastBuildDate><atom:link href="http://localhost:1313/categories/tools/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Cool Terminal Tools You Should Know</title>
+      <link>http://localhost:1313/tech/cooltools/</link>
+      <pubDate>Sun, 09 Jun 2024 16:59:47 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tech/cooltools/</guid>
+      <description>Just a list of a couple of (funny) terminal tools</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/cooltools/featured.png" />
+    </item>
+    
+  </channel>
+</rss>

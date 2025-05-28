@@ -1,5 +1,5 @@
 ---
-title: "The Utilization of 'nmcli'"
+title: "The Utilization of 'nmcli' for Managing Wifi Network"
 date: 2025-03-21T15:55:32+07:00
 draft: false
 summary: "Having issue to connect your server to a network (wifi)? Here is the solution to the problem."

@@ -7,8 +7,8 @@ cover:
   image: "/cooltools/cover.png"
   alt: 'bpytop'
   caption: "Bpytop"
-tags: ["cool", "terminal", "linux"]
-categories: ["linux"]
+tags: ["tools", "cool", "terminal", "linux"]
+categories: ["tools"]
 ---
 
 Yoo, jumpa lagi!

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fish on My Awesome Site</title>
+    <link>http://localhost:1313/tags/fish/</link>
+    <description>Recent content in Fish on My Awesome Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
+    <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
+    <copyright>© 2025 Wildan</copyright>
+    <lastBuildDate>Wed, 28 May 2025 12:44:50 +0700</lastBuildDate><atom:link href="http://localhost:1313/tags/fish/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Starship: The Elegant yet Easy Way to Beautify Your Terminal Shell Prompt</title>
+      <link>http://localhost:1313/tech/starship/</link>
+      <pubDate>Wed, 28 May 2025 12:44:50 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tech/starship/</guid>
+      <description>Do you get bored of your common shell prompt? Let&amp;rsquo;s make it up with Starship!</description>
+      
+    </item>
+    
+  </channel>
+</rss>

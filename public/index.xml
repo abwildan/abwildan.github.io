@@ -18,7 +18,7 @@
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/starship/</guid>
       <description>Do you get bored of your common shell prompt? Let&amp;rsquo;s make it up with Starship!</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/starship/featured.png" />
     </item>
     
     <item>
@@ -122,7 +122,7 @@
     </item>
     
     <item>
-      <title>The Utilization of &#39;nmcli&#39;</title>
+      <title>The Utilization of &#39;nmcli&#39; for Managing Wifi Network</title>
       <link>http://localhost:1313/tech/nmcli/</link>
       <pubDate>Fri, 21 Mar 2025 15:55:32 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>

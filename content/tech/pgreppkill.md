@@ -12,17 +12,13 @@ categories: "pgrep"
 1. `pgrep` & `pkill` adalah _utilities_ bawaan sistem Linux (dari paket `procps-ng` di Archlinux). Artinya, kita tidak perlu meng-_install_ paket baru untuk menggunakannya. 
 2. `pgrep` & `pkill` sangat cepat dalam mencari dan menghentikan sebuah proses.
 
-![ss1](/pgreppkill/ss1.png "pgrep & pkill are part of procps-ng")
+![ss2](/pgreppkill/ss2.png "pgrep & pkill are parts of procps-ng")
 
 > Yang saya maksud dengan **proses** adalah aplikasi atau software apapun yang sedang berjalan, baik yang memiliki GUI seperti Browser, File Manager, dll, maupun yang tidak, seperti Music Daemon, SSH Server, dll.
 
 Sebetulnya, cara kerja `pgrep` dan `pkill` ini mirip dengan cara kita ketika ingin menghentikan, men-stop, atau menutup browser, misalnya Firefox. Langkah yang kita lakukan adalah mencari jendela / _window_ Firefox-nya, lalu klik pada tombol _close_ yang umumnya ada di pojok kanan atas (Windows & Linux) atau di pojok kiri atas (Mac). 
 
-Berikut adalah cara mematikan browser Firefox secara manual:
-
-<video width="100%" controls autoplay loop muted>
-  <source src="/pgreppkill/vid1.webm" type="video/mp4">
-</video>
+![ss3](/pgreppkill/ss3.png "manually killing firefox")
 
 Namun, cara tersebut terbatas karena hanya dapat dilakukan pada aplikasi yang memiliki GUI. Sementara, terkadang, kita perlu untuk mematikan sebuah proses yang tidak memiliki GUI dan menggunakan banyak _resource_ komputer, misalnya. Oleh karena itu, dengan _tools_ `pgrep` dan `pkill` ini, kita tidak akan khawatir dan bingung lagi untuk menemukan dan mematikan proses yang ingin dihentikan.
 
@@ -43,6 +39,15 @@ pkill mpd
 ```
 
 Berikut adalah cara mematikan Firefox (GUI _Process_) & MPD (non-GUI _Process_) dengan **`pgrep`** dan **`pkill`**:
+
+![ss1](/pgreppkill/ss1.png "finding and killing processes with `pgrep` & `pkill`")
+
+Atau jika ingin mematikan 2 atau lebih proses sekaligus, juga bisa:
+```shell
+pkill '(firefox|mpd|dolphin)'
+```
+
+Berikut praktiknya:
 
 <video width="100%" controls autoplay loop muted>
   <source src="/pgreppkill/vid2.webm" type="video/mp4">

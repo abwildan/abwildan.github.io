@@ -18,7 +18,7 @@
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/pgreppkill/</guid>
       <description>These two commands are highly underrated, yet they are completely beneficial.</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/pgreppkill/featured.png" />
     </item>
     
   </channel>

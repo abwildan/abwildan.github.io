@@ -112,7 +112,7 @@
     "keywords": ["pgrep","pkill","linux"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "403"
+    "wordCount": "421"
   }]
   </script>
 
@@ -737,7 +737,7 @@
 
     
     <div class="fixed inset-x-0 top-0 h-[800px] single_hero_background nozoom"
-    style="background-image:url(/tech/pgreppkill/featured_hu_f5084774e1f14db0.png);">
+    style="background-image:url(/tech/pgreppkill/featured_hu_4a7542f740131d7b.png);">
     
 
 
@@ -849,7 +849,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2025-05-24T20:36:39&#43;07:00">24 May 2025</time><span class="px-2 text-primary-500">&middot;</span><span>403 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span><span class="px-2 text-primary-500">&middot;</span>
+  <time datetime="2025-05-24T20:36:39&#43;07:00">24 May 2025</time><span class="px-2 text-primary-500">&middot;</span><span>421 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span><span class="px-2 text-primary-500">&middot;</span>
 
 
   
@@ -1181,17 +1181,19 @@
 </ol>
 <p>
     <figure>
-      <img class="my-0 rounded-md" loading="lazy" src="/pgreppkill/ss1.png" alt="ss1" />
-      <figcaption>pgrep &amp; pkill are part of procps-ng</figcaption>
+      <img class="my-0 rounded-md" loading="lazy" src="/pgreppkill/ss2.png" alt="ss2" />
+      <figcaption>pgrep &amp; pkill are parts of procps-ng</figcaption>
     </figure>
 </p>
 <blockquote>
 <p>Yang saya maksud dengan <strong>proses</strong> adalah aplikasi atau software apapun yang sedang berjalan, baik yang memiliki GUI seperti Browser, File Manager, dll, maupun yang tidak, seperti Music Daemon, SSH Server, dll.</p></blockquote>
 <p>Sebetulnya, cara kerja <code>pgrep</code> dan <code>pkill</code> ini mirip dengan cara kita ketika ingin menghentikan, men-stop, atau menutup browser, misalnya Firefox. Langkah yang kita lakukan adalah mencari jendela / <em>window</em> Firefox-nya, lalu klik pada tombol <em>close</em> yang umumnya ada di pojok kanan atas (Windows &amp; Linux) atau di pojok kiri atas (Mac).</p>
-<p>Berikut adalah cara mematikan browser Firefox secara manual:</p>
-<video width="100%" controls autoplay loop muted>
-  <source src="/pgreppkill/vid1.webm" type="video/mp4">
-</video>
+<p>
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="/pgreppkill/ss3.png" alt="ss3" />
+      <figcaption>manually killing firefox</figcaption>
+    </figure>
+</p>
 <p>Namun, cara tersebut terbatas karena hanya dapat dilakukan pada aplikasi yang memiliki GUI. Sementara, terkadang, kita perlu untuk mematikan sebuah proses yang tidak memiliki GUI dan menggunakan banyak <em>resource</em> komputer, misalnya. Oleh karena itu, dengan <em>tools</em> <code>pgrep</code> dan <code>pkill</code> ini, kita tidak akan khawatir dan bingung lagi untuk menemukan dan mematikan proses yang ingin dihentikan.</p>
 <p>Untuk mencari proses yang ingin dihentikan, gunakan <em>command</em> <strong><code>pgrep</code></strong> dan diikuti oleh nama proses/aplikasi yang ingin dicari:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">pgrep firefox
@@ -1201,6 +1203,15 @@
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">pkill firefox
 </span></span><span class="line"><span class="cl">pkill mpd
 </span></span></code></pre></div><p>Berikut adalah cara mematikan Firefox (GUI <em>Process</em>) &amp; MPD (non-GUI <em>Process</em>) dengan <strong><code>pgrep</code></strong> dan <strong><code>pkill</code></strong>:</p>
+<p>
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="/pgreppkill/ss1.png" alt="ss1" />
+      <figcaption>finding and killing processes with <code>pgrep</code> &amp; <code>pkill</code></figcaption>
+    </figure>
+</p>
+<p>Atau jika ingin mematikan 2 atau lebih proses sekaligus, juga bisa:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">pkill <span class="s1">&#39;(firefox|mpd|dolphin)&#39;</span>
+</span></span></code></pre></div><p>Berikut praktiknya:</p>
 <video width="100%" controls autoplay loop muted>
   <source src="/pgreppkill/vid2.webm" type="video/mp4">
 </video>

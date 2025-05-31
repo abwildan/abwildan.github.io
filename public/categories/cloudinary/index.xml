@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cloudinary on My Awesome Site</title>
+    <link>http://localhost:1313/categories/cloudinary/</link>
+    <description>Recent content in Cloudinary on My Awesome Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
+    <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
+    <copyright>© 2025 Wildan</copyright>
+    <lastBuildDate>Fri, 30 May 2025 18:47:46 +0700</lastBuildDate><atom:link href="http://localhost:1313/categories/cloudinary/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Automatic Image &amp; Video File(s) Hosting in Cloudinary through Python</title>
+      <link>http://localhost:1313/tech/cloudinary/</link>
+      <pubDate>Fri, 30 May 2025 18:47:46 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tech/cloudinary/</guid>
+      <description>A brief tutorial on how to upload file(s) or video(s) to Cloudinary through Python script.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/cloudinary/featured.png" />
+    </item>
+    
+  </channel>
+</rss>

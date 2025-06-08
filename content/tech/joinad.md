@@ -2,7 +2,7 @@
 title: "Joining Windows and Linux Machine to a Domain (Windows Server 2022)"
 date: 2025-02-12T03:24:53Z
 draft: false
-summary: "How to join a windows and linux machine to a active directory domain controller on Windows Server 2022"
+summary: "How to join a windows and linux machine to an active directory domain controller on Windows Server 2022"
 tags: ["domain", "domain controller", "server", "active directory", "windows server", "windows", "linux"]
 categories: "domain"
 ---

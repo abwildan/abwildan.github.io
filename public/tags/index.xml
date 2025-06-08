@@ -9,7 +9,37 @@
     <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
     <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
     <copyright>© 2025 Wildan</copyright>
-    <lastBuildDate>Mon, 02 Jun 2025 12:39:04 +0700</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 07 Jun 2025 18:09:46 +0700</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Blowfish</title>
+      <link>http://localhost:1313/tags/blowfish/</link>
+      <pubDate>Sat, 07 Jun 2025 18:09:46 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tags/blowfish/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>http://localhost:1313/tags/hugo/</link>
+      <pubDate>Sat, 07 Jun 2025 18:09:46 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tags/hugo/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Theme</title>
+      <link>http://localhost:1313/tags/theme/</link>
+      <pubDate>Sat, 07 Jun 2025 18:09:46 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tags/theme/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>Desktop Environment</title>
@@ -1402,31 +1432,11 @@
     </item>
     
     <item>
-      <title>Hugo</title>
-      <link>http://localhost:1313/tags/hugo/</link>
-      <pubDate>Sun, 04 Aug 2024 13:54:17 +0000</pubDate>
-      <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/tags/hugo/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
       <title>Kayal</title>
       <link>http://localhost:1313/tags/kayal/</link>
       <pubDate>Sun, 04 Aug 2024 13:54:17 +0000</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tags/kayal/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Theme</title>
-      <link>http://localhost:1313/tags/theme/</link>
-      <pubDate>Sun, 04 Aug 2024 13:54:17 +0000</pubDate>
-      <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/tags/theme/</guid>
       <description></description>
       
     </item>

@@ -74,5 +74,6 @@ I keep the walls here so I don't need to re-look for and re-download them a seco
   <img src="/wall/wall6.png" class="grid-w50 md:grid-w33 xl:grid-w25" />
   <img src="/wall/wall7.png" class="grid-w50 md:grid-w33 xl:grid-w25" />
   <img src="/wall/wall8.png" class="grid-w50 md:grid-w33 xl:grid-w25" />
+  <img src="/wall/wall9.png" class="grid-w50 md:grid-w33 xl:grid-w25" />
 {{< /gallery >}}
 

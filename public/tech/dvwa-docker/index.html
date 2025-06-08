@@ -46,8 +46,8 @@
   
   
   
-  <script defer type="text/javascript" id="script-bundle" src="/js/main.bundle.min.3ad74b33440334ca29f8801ec6dac1f314951cf580e503d49631816b48d1f28d03543275f92b651565b48045b90731f47595b1396214b8b6aa11c6990f867f7e.js"
-    integrity="sha512-OtdLM0QDNMop&#43;IAextrB8xSVHPWA5QPUljGBa0jR8o0DVDJ1&#43;StlFWW0gEW5BzH0dZWxOWIUuLaqEcaZD4Z/fg==" data-copy="Copy" data-copied="Copied"></script>
+  <script defer type="text/javascript" id="script-bundle" src="/js/main.bundle.min.829f1a320d5c2d64e9e0220d20960155b426b094cfb2440e4938166a93f52805a398e64abc400353e7a0b8ea9cb75083d6dd5238a5d4a59fd0cd01008d407301.js"
+    integrity="sha512-gp8aMg1cLWTp4CINIJYBVbQmsJTPskQOSTgWapP1KAWjmOZKvEADU&#43;eguOqct1CD1t1SOKXUpZ/QzQEAjUBzAQ==" data-copy="Copy" data-copied="Copied"></script>
   
   
   
@@ -706,6 +706,16 @@
 
 
 
+<script>
+    (function () {
+        var $mainmenu = $('.main-menu');
+        var path = window.location.pathname;
+        $mainmenu.find('a[href="' + path + '"]').each(function (i, e) {
+            $(e).children('p').addClass('active');
+        });
+    })();
+</script>
+
 
   </div>
 </div>
@@ -876,7 +886,7 @@
 </span><span class="px-2 text-primary-500">&middot;</span>
 
 
-<script type="text/javascript" src="/js/zen-mode.min.eea5245cf9244ecbdf2c150d1c8833226c1541cadf6e98f63a7c9192b1a3676df2c3ec603b14f4cfaaa53971fd9d8955640c0f405bf3de2b43ee7a5fb29ae721.js" integrity="sha512-7qUkXPkkTsvfLBUNHIgzImwVQcrfbpj2OnyRkrGjZ23yw&#43;xgOxT0z6qlOXH9nYlVZAwPQFvz3itD7npfsprnIQ=="></script>
+<script type="text/javascript" src="/js/zen-mode.min.2a0a1375509c03daf41c53a9831aa2d560895b7a2528c3eb3b56e7b11a135c7529e49727162a053b6193be8340270a8342f42c69f3d7e262ae54bc248eaac8f5.js" integrity="sha512-KgoTdVCcA9r0HFOpgxqi1WCJW3olKMPrO1bnsRoTXHUp5JcnFioFO2GTvoNAJwqDQvQsafPX4mKuVLwkjqrI9Q=="></script>
 
 <span class="mb-[2px]">
     <span id="zen-mode-button"
@@ -1270,6 +1280,46 @@
     $(document).ready(onResize);
   })();
 
+
+
+  (function () {
+    var $toc = $('#TableOfContents');
+    if ($toc.length > 0) {
+      var $window = $(window);
+
+      function onScroll() {
+        var currentScroll = $window.scrollTop();
+        var h = $('.anchor');
+        var id = "";
+        h.each(function (i, e) {
+          e = $(e);
+          if (e.offset().top - $(window).height()/3 <= currentScroll) {
+            id = decodeURIComponent(e.attr('id'));
+          }
+        });
+        var active = $toc.find('a.active');      
+        if (active.length == 1 && active.eq(0).attr('href') == '#' + id) return true;
+
+        active.each(function (i, e) {
+           
+            $(e).removeClass('active').siblings('ul').hide();
+          
+        });
+        $toc.find('a[href="#' + id + '"]').addClass('active')
+        $toc.find('a[href="#' + id + '"]').parentsUntil('#TableOfContents').each(function (i, e) {
+          $(e).children('a').parents('ul').show();          
+        });
+      }
+
+      $window.on('scroll', onScroll);
+      $(document).ready(function () {
+         
+          $toc.find('a').parent('li').find('ul').hide();
+        
+        onScroll();
+      });
+    }
+  })();
 
 
 </script>
@@ -2405,6 +2455,28 @@ password: password</p></blockquote>
     </main><footer id="site-footer" class="py-10 print:hidden">
   
   
+    
+    <nav class="flex flex-row pb-4 text-base font-medium text-neutral-500 dark:text-neutral-400">
+      <ul class="flex flex-col list-none sm:flex-row">
+        
+        <li class="flex mb-1 ltr:text-right rtl:text-left sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0">
+          <a class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2 flex items-center" href="/tags/"
+            title="Tags">
+            
+            Tags
+          </a>
+        </li>
+        
+        <li class="flex mb-1 ltr:text-right rtl:text-left sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0">
+          <a class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2 flex items-center" href="/categories/"
+            title="Categories">
+            
+            Categories
+          </a>
+        </li>
+        
+      </ul>
+    </nav>
     
   
   <div class="flex items-center justify-between">

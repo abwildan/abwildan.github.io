@@ -9,7 +9,17 @@
     <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
     <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
     <copyright>© 2025 Wildan</copyright>
-    <lastBuildDate>Mon, 02 Jun 2025 12:39:04 +0700</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 07 Jun 2025 18:09:46 +0700</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Hugo</title>
+      <link>http://localhost:1313/categories/hugo/</link>
+      <pubDate>Sat, 07 Jun 2025 18:09:46 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/categories/hugo/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>Hyprland</title>
@@ -357,16 +367,6 @@
       <pubDate>Wed, 14 Aug 2024 14:28:44 +0000</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/categories/cooking/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Hugo</title>
-      <link>http://localhost:1313/categories/hugo/</link>
-      <pubDate>Sun, 04 Aug 2024 13:54:17 +0000</pubDate>
-      <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/hugo/</guid>
       <description></description>
       
     </item>

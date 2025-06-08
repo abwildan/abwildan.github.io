@@ -1,8 +1,8 @@
 ---
-title: "Blowfish"
+title: "Blowfish: Another Special, Modern, and Feature-Rich Hugo's Theme"
 date: 2025-06-07T18:09:46+07:00
 draft: false
-summary: "How to create Hugo site using blowfish theme."
+summary: "This is just a simple explanation on installing and configuring blowfish as Hugo's theme."
 tags: ["hugo", "blowfish", "theme"]
 categories: "hugo"
 ---
@@ -294,7 +294,11 @@ Sebetulnya, sudah lama dari artikel ini dibuat sejak saya berganti tema Hugo dar
 
 Itulah tadi beberapa keunggulan Blowfish dibandingkan Kayal yang pada akhirnya membuat saya membuat keputusan untuk mengganti tema Hugo saya. 😎
 
+---
 
+Btw, artikel ini dibuat di distro linux yang baru saja saya coba: [**NixOS**](https://nixos.org/)
+
+![nixos](/blowfish/nixos.png "This is NixOS with XFCE, guys!")
 
 
 

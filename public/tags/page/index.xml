@@ -18,7 +18,7 @@
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/man/</guid>
       <description>Have you ever read man page in an effective way? If you haven&amp;rsquo;t, I&amp;rsquo;ll show you the art of reading man page, here&amp;hellip;</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/man/featured.png" />
     </item>
     
   </channel>

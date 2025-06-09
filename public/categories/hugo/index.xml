@@ -12,13 +12,13 @@
     <lastBuildDate>Sat, 07 Jun 2025 18:09:46 +0700</lastBuildDate><atom:link href="http://localhost:1313/categories/hugo/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Blowfish</title>
+      <title>Blowfish: Another Special, Modern, and Feature-Rich Hugo&#39;s Theme</title>
       <link>http://localhost:1313/tech/blowfish/</link>
       <pubDate>Sat, 07 Jun 2025 18:09:46 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/blowfish/</guid>
-      <description>This is just a simple explanation on installing and configuring blowfish as Hugo&amp;rsquo;s theme.</description>
-      
+      <description>This is just a brief explanation on installing and configuring blowfish as Hugo&amp;rsquo;s theme.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/blowfish/featured.png" />
     </item>
     
     <item>

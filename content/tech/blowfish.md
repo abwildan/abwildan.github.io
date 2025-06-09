@@ -1,8 +1,9 @@
 ---
 title: "Blowfish: Another Special, Modern, and Feature-Rich Hugo's Theme"
 date: 2025-06-07T18:09:46+07:00
+lastmod: 2025-06-09
 draft: false
-summary: "This is just a simple explanation on installing and configuring blowfish as Hugo's theme."
+summary: "This is just a brief explanation on installing and configuring blowfish as Hugo's theme."
 tags: ["hugo", "blowfish", "theme"]
 categories: "hugo"
 ---
@@ -20,6 +21,7 @@ Artikel ini tidak sedang mengajari cara membuat website Hugo, tapi menggunakan s
  {{< icon "globe" >}} https://blowfish.page  
  {{< icon "github" >}} https://github.com/nunocoracao/blowfish
 
+{{< github repo="nunocoracao/blowfish" showThumbnail=true >}}
 
 ## Installation
 
@@ -39,13 +41,24 @@ cp themes/blowfish/config .
 Sehingga, nanti struktur direktori kita menjadi seperti ini:
 
 ```
-config/_default/
-├─ hugo.toml
-├─ languages.en.toml
-├─ markup.toml
-├─ menus.en.toml
-├─ module.toml
-└─ params.toml
+mywebsite
+├── achetypes
+├── assets
+├── config
+│   └── _default
+│       ├── hugo.toml
+│       ├── languages.en.toml
+│       ├── markup.toml
+│       ├── menus.en.toml
+│       ├── module.toml
+│       └── params.toml
+├── content
+├── data
+├── il8n
+├── layouts
+├── public
+└── themes
+    └── blowfish
 ```
 
 Sampai sini, proses instalasi telah selesai.
@@ -66,7 +79,7 @@ Semua file konfigurasi dapat diubah/disesuaikan di direktori `config/_default/`.
 
 Di file ini, kita perlu menyesuaikan beberapa hal, diantaranya:
 
-```shell
+```toml
 theme = "blowfish" # UNCOMMENT THIS LINE
 baseURL = "https://your_domain.com/" # Diganti dengan domain website-nya
 ```
@@ -75,7 +88,7 @@ baseURL = "https://your_domain.com/" # Diganti dengan domain website-nya
 
 Di file ini, kita dapat mengganti beberapa hal berikut:
 
-```shell
+```toml
 title = "Blowfish" # Yang muncul di pojok kiri atas
 logo = "img/logo.png" # Menampilkan logo di sebelah title 
 
@@ -96,7 +109,7 @@ logo = "img/logo.png" # Menampilkan logo di sebelah title
 
 Konfigurasi menu yang akan muncul di sebelah kanan atas website:
 
-```shell
+```toml
 [[main]]
   name = "Blog"
   pageRef = "posts" # Case-sensitive, merujuk pada direktori-direktori di bawah `content/`
@@ -119,7 +132,7 @@ Konfigurasi menu yang akan muncul di sebelah kanan atas website:
 
 Ada banyak parameter yang dapat kita ganti di file ini:
 
-```shell
+```toml
 # Silakan di-comment (#) bagian yang tidak ingin diaktifkan
 
 colorScheme = "blowfish" # Ada 14 colorscheme yang disediakan
@@ -292,7 +305,7 @@ Sebetulnya, sudah lama dari artikel ini dibuat sejak saya berganti tema Hugo dar
 | Komunitas       | [Ramai](https://blowfish.page/users/) | Tidak ada          |
 | Ukuran          | 500-an MB                      | <10 MB                    |
 
-Itulah tadi beberapa keunggulan Blowfish dibandingkan Kayal yang pada akhirnya membuat saya membuat keputusan untuk mengganti tema Hugo saya. 😎
+Itulah tadi beberapa keunggulan Blowfish dibandingkan Kayal yang pada akhirnya membuat saya memutuskan untuk mengganti tema Hugo saya. 😎
 
 ---
 

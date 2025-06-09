@@ -2304,6 +2304,11 @@
     href="https://unpkg.com/@waline/client@v3/dist/waline.css"
   />
 </head>
+
+<script type="text/javascript">
+      document.getElementByClassName("aline-pageview-count")[0].data-path = window.location.pathname;
+</script>
+
 <body>
   
   <div id="waline"></div>
@@ -2316,12 +2321,10 @@
       serverURL: 'https://comment-waline-zeta.vercel.app',
       reaction: true,
       
-      admin: 'wildan',
       lang: 'en-US',
     });
   </script>
 </body>
-
       </div>
     </div>
     

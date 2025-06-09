@@ -1,6 +1,7 @@
 ---
 title: "Hugo Advanced"
 date: 2023-10-09T15:22:46+07:00
+lastmod: 2025-06-09
 draft: false
 summary: "Hugo, but more advanced..."
 cover:
@@ -478,6 +479,91 @@ Contoh jika saya menggunakan mode tampilan kedua:
 Kita selalu bisa mengubah ukuran tinggi dan lebar music player-nya, baik Spotify maupun Soundcloud, dari variabel **height** dan **width** di kode html-nya.
 {{< /alert >}}
 
+### Tips 22: Menambahkan kolom komentar
+
+Kali ini, kita akan belajar menambahkan kolom komentar yang akan muncul di setiap artikel. Berikut adalah beberapa _prerequisites_-nya:
+- Hugo menggunakan konfigurasi tema [blowfish](https://blowfish.page/).
+- Template kolom komentar menggunakan [walin](https://waline.js.org/).
+
+Berikut adalah tutorialnya:[^9]
+
+#### LeanCloud (Database)
+1. [Login](https://console.leancloud.app/login) atau [register](https://console.leancloud.app/register) ke LeanCloud jika belum memiliki akun.
+2. Click tombol **"Create App"**.  
+- Buat "App name" sesuai selera.  
+- Pilih **"Developer"** di bagian "App price plan".  
+3. Masuk ke aplikasinya, pindah ke bagian **"Settings"** > **"App keys"**. Kemudian, perhatikan 3 bagian utama di sana:
+- **`AppID`**  
+- **`AppKey`**  
+- **`MasterKey`**
+
+#### Vercel (Server)
+1. Klik tombol **"Deploy"** berikut:  
+
+{{< button href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fwalinejs%2Fwaline%2Ftree%2Fmain%2Fexample" target="_self" >}}
+Deploy 
+{{< /button >}}
+
+2. Kemudian login (disarankan menggunakan akun Github).  
+3. Bikin nama untuk _project_ Vercel-nya kemudian klik **"Create"**. Vercel akan membuat repositori baru berdasarkan _template_ Waline. Tunggu sebentar.  
+4. Setelah selesai, klik **"Go to Dashboard"**.  
+5. Pindah ke menu **"Settings"** > **"Environment Variables"**.
+6. Kita perlu membuat 3 environment variabel baru di sini, berikut adalah ***key*** & ***value***-nya
+- **LEAN_ID** = diisikan **AppID** dari LeanCloud.  
+- **LEAN_KEY** = diisikan **AppKey** dari LeanCloud.  
+- **LEAN_MASTER_KEY** = diisikan **MasterKey** dari LeanCloud.
+7. Setelah di-**"Save"**, kita perlu **"Redeploy"**. Tunggu beberapa saat.
+8. Jika sudah selesai, kita akan di-_redirect_ ke halaman "Overview". Untuk melihat aplikasi kolom komentarnya, kita bisa klik **"Visit"**.
+9. Link tersebut adalah alamat untuk server aplikasi kolom komentar kita.  
+Contoh punya saya:
+![ss24](/Hugo-Advanced/ss24.png "Vercel Comments Server")
+
+#### Import ke HTML (Client)
+1. Buat file `comments.html` di direktori konfigurasi Hugo kalian:
+
+```shell
+cd mywebsite # masuk ke direktori website
+cd layouts/partials
+touch comments.html
+```
+
+2. Berikut adalah konten file `comments.html`:
+
+```html
+<head>
+  <!-- ... -->
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/@waline/client@v3/dist/waline.css"
+  />
+</head>
+<body>
+  <!-- ... -->
+  <div id="waline"></div>
+  <script type="module">
+    import { init } from 'https://unpkg.com/@waline/client@v3/dist/waline.js';
+
+    init({
+      el: '#waline',
+      serverURL: 'https://your-domain.vercel.app', // Diganti dengan alamat (link) server kolom komentar yang sudah dibuat tadi
+      lang: 'en',
+    });
+  </script>
+</body>
+```
+
+3. Perhatikan! Kita perlu mengganti bagian **"serverURL"** di script HTML tersebut.  
+4. Selesai! Kolom komentar sudah berhasil dibuat untuk website Hugo kita!
+
+#### Manajemen komentar
+1. Setelah _deployment_ selesai, kita perlu mengunjungi `<serverURL>/ui/register` untuk registrasi. Orang pertama yang registrasi akan dianggap sebagai admin.  
+2. Setelah _login_, kita dapat mengakses _dashboard_ manajemen komentar. Tiga hal utama yang dapat kita lakukan di sini:  
+- Mengedit komentar  
+- Menandai komentar
+- Menghapus komentar
+3. Pengguna lain juga dapat melakukan registrasi via kolom komentar. 
+4. Silakan berikan komentar "Paham" di kolom komentar di bawah jika kalian sudah berhasil membuat kolom komentar ini!   
+
 Kalau sudah selesai, jangan lupa commit ke repo lokal dan push ke Github:
 
 ```shell
@@ -502,3 +588,4 @@ Baca-baca tentang Markdown dari bukunya Matt Cone yang berjudul **"The Markdown 
 [^6]: https://chatgpt.com/c/ba64752f-c7a0-438c-9a1b-d11efa9aaa05
 [^7]: https://chatgpt.com/c/35c0c015-e708-42f4-9319-ef7992479132
 [^8]: https://www.ragchess.com/how-to-embed-a-your-own-chess-puzzle-into-your-website/
+[^9]: https://waline.js.org/en/guide/get-started/

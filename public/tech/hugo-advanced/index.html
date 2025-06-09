@@ -75,7 +75,7 @@
   <meta property="og:type" content="article">
     <meta property="article:section" content="tech">
     <meta property="article:published_time" content="2023-10-09T15:22:46+07:00">
-    <meta property="article:modified_time" content="2023-10-09T15:22:46+07:00">
+    <meta property="article:modified_time" content="2025-06-09T00:00:00+00:00">
     <meta property="article:tag" content="Hugo">
     <meta property="article:tag" content="Website">
     <meta property="article:tag" content="Static-Site">
@@ -109,12 +109,12 @@
     "dateCreated": "2023-10-09T15:22:46\u002b07:00",
     "datePublished": "2023-10-09T15:22:46\u002b07:00",
     
-    "dateModified": "2023-10-09T15:22:46\u002b07:00",
+    "dateModified": "2025-06-09T00:00:00\u002b00:00",
     
     "keywords": ["hugo","website","static-site"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "1953"
+    "wordCount": "2321"
   }]
   </script>
 
@@ -834,6 +834,8 @@
 
 
 
+  
+
 
 
   
@@ -861,7 +863,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2023-10-09T15:22:46&#43;07:00">9 October 2023</time><span class="px-2 text-primary-500">&middot;</span><span>1953 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">10 mins</span><span class="px-2 text-primary-500">&middot;</span>
+  <time datetime="2023-10-09T15:22:46&#43;07:00">9 October 2023</time><span class="px-2 text-primary-500">&middot;</span><time datetime="2025-06-09T00:00:00&#43;00:00">Updated: 9 June 2025</time><span class="px-2 text-primary-500">&middot;</span><span>2321 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">11 mins</span><span class="px-2 text-primary-500">&middot;</span>
 
 
   
@@ -1226,6 +1228,14 @@
             <li><a href="#soundcloud">Soundcloud</a></li>
           </ul>
         </li>
+        <li><a href="#tips-22-menambahkan-kolom-komentar">Tips 22: Menambahkan kolom komentar</a>
+          <ul>
+            <li><a href="#leancloud-database">LeanCloud (Database)</a></li>
+            <li><a href="#vercel-server">Vercel (Server)</a></li>
+            <li><a href="#import-ke-html-client">Import ke HTML (Client)</a></li>
+            <li><a href="#manajemen-komentar">Manajemen komentar</a></li>
+          </ul>
+        </li>
       </ul>
     </li>
   </ul>
@@ -1273,6 +1283,14 @@
           <ul>
             <li><a href="#spotify">Spotify</a></li>
             <li><a href="#soundcloud">Soundcloud</a></li>
+          </ul>
+        </li>
+        <li><a href="#tips-22-menambahkan-kolom-komentar">Tips 22: Menambahkan kolom komentar</a>
+          <ul>
+            <li><a href="#leancloud-database">LeanCloud (Database)</a></li>
+            <li><a href="#vercel-server">Vercel (Server)</a></li>
+            <li><a href="#import-ke-html-client">Import ke HTML (Client)</a></li>
+            <li><a href="#manajemen-komentar">Manajemen komentar</a></li>
           </ul>
         </li>
       </ul>
@@ -2484,6 +2502,173 @@ Saya akan menambahkan album.</p>
     >Kita selalu bisa mengubah ukuran tinggi dan lebar music player-nya, baik Spotify maupun Soundcloud, dari variabel <strong>height</strong> dan <strong>width</strong> di kode html-nya.</span>
 </div>
 
+
+
+<h3 class="relative group">Tips 22: Menambahkan kolom komentar 
+    <div id="tips-22-menambahkan-kolom-komentar" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#tips-22-menambahkan-kolom-komentar" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>Kali ini, kita akan belajar menambahkan kolom komentar yang akan muncul di setiap artikel. Berikut adalah beberapa <em>prerequisites</em>-nya:</p>
+<ul>
+<li>Hugo menggunakan konfigurasi tema <a href="https://blowfish.page/" target="_blank">blowfish</a>.</li>
+<li>Template kolom komentar menggunakan <a href="https://waline.js.org/" target="_blank">walin</a>.</li>
+</ul>
+<p>Berikut adalah tutorialnya:<sup id="fnref:9"><a href="#fn:9" class="footnote-ref" role="doc-noteref">9</a></sup></p>
+
+
+<h4 class="relative group">LeanCloud (Database) 
+    <div id="leancloud-database" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#leancloud-database" aria-label="Anchor">#</a>
+    </span>        
+    
+</h4>
+<ol>
+<li><a href="https://console.leancloud.app/login" target="_blank">Login</a> atau <a href="https://console.leancloud.app/register" target="_blank">register</a> ke LeanCloud jika belum memiliki akun.</li>
+<li>Click tombol <strong>&ldquo;Create App&rdquo;</strong>.</li>
+</ol>
+<ul>
+<li>Buat &ldquo;App name&rdquo; sesuai selera.</li>
+<li>Pilih <strong>&ldquo;Developer&rdquo;</strong> di bagian &ldquo;App price plan&rdquo;.</li>
+</ul>
+<ol start="3">
+<li>Masuk ke aplikasinya, pindah ke bagian <strong>&ldquo;Settings&rdquo;</strong> &gt; <strong>&ldquo;App keys&rdquo;</strong>. Kemudian, perhatikan 3 bagian utama di sana:</li>
+</ol>
+<ul>
+<li><strong><code>AppID</code></strong></li>
+<li><strong><code>AppKey</code></strong></li>
+<li><strong><code>MasterKey</code></strong></li>
+</ul>
+
+
+<h4 class="relative group">Vercel (Server) 
+    <div id="vercel-server" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#vercel-server" aria-label="Anchor">#</a>
+    </span>        
+    
+</h4>
+<ol>
+<li>Klik tombol <strong>&ldquo;Deploy&rdquo;</strong> berikut:</li>
+</ol>
+<a
+  class="!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700"
+  href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fwalinejs%2Fwaline%2Ftree%2Fmain%2Fexample"
+  target="_self"
+  
+  role="button"
+>
+  
+Deploy 
+
+</a>
+
+<ol start="2">
+<li>Kemudian login (disarankan menggunakan akun Github).</li>
+<li>Bikin nama untuk <em>project</em> Vercel-nya kemudian klik <strong>&ldquo;Create&rdquo;</strong>. Vercel akan membuat repositori baru berdasarkan <em>template</em> Waline. Tunggu sebentar.</li>
+<li>Setelah selesai, klik <strong>&ldquo;Go to Dashboard&rdquo;</strong>.</li>
+<li>Pindah ke menu <strong>&ldquo;Settings&rdquo;</strong> &gt; <strong>&ldquo;Environment Variables&rdquo;</strong>.</li>
+<li>Kita perlu membuat 3 environment variabel baru di sini, berikut adalah <em><strong>key</strong></em> &amp; <em><strong>value</strong></em>-nya</li>
+</ol>
+<ul>
+<li><strong>LEAN_ID</strong> = diisikan <strong>AppID</strong> dari LeanCloud.</li>
+<li><strong>LEAN_KEY</strong> = diisikan <strong>AppKey</strong> dari LeanCloud.</li>
+<li><strong>LEAN_MASTER_KEY</strong> = diisikan <strong>MasterKey</strong> dari LeanCloud.</li>
+</ul>
+<ol start="7">
+<li>Setelah di-<strong>&ldquo;Save&rdquo;</strong>, kita perlu <strong>&ldquo;Redeploy&rdquo;</strong>. Tunggu beberapa saat.</li>
+<li>Jika sudah selesai, kita akan di-<em>redirect</em> ke halaman &ldquo;Overview&rdquo;. Untuk melihat aplikasi kolom komentarnya, kita bisa klik <strong>&ldquo;Visit&rdquo;</strong>.</li>
+<li>Link tersebut adalah alamat untuk server aplikasi kolom komentar kita.<br>
+Contoh punya saya:
+
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="/Hugo-Advanced/ss24.png" alt="ss24" />
+      <figcaption>Vercel Comments Server</figcaption>
+    </figure>
+</li>
+</ol>
+
+
+<h4 class="relative group">Import ke HTML (Client) 
+    <div id="import-ke-html-client" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#import-ke-html-client" aria-label="Anchor">#</a>
+    </span>        
+    
+</h4>
+<ol>
+<li>Buat file <code>comments.html</code> di direktori konfigurasi Hugo kalian:</li>
+</ol>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="nb">cd</span> mywebsite <span class="c1"># masuk ke direktori website</span>
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> layouts/partials
+</span></span><span class="line"><span class="cl">touch comments.html
+</span></span></code></pre></div><ol start="2">
+<li>Berikut adalah konten file <code>comments.html</code>:</li>
+</ol>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="c">&lt;!-- ... --&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">link</span>
+</span></span><span class="line"><span class="cl">    <span class="na">rel</span><span class="o">=</span><span class="s">&#34;stylesheet&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="na">href</span><span class="o">=</span><span class="s">&#34;https://unpkg.com/@waline/client@v3/dist/waline.css&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">/&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="c">&lt;!-- ... --&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">div</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;waline&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">script</span> <span class="na">type</span><span class="o">=</span><span class="s">&#34;module&#34;</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="kr">import</span> <span class="p">{</span> <span class="nx">init</span> <span class="p">}</span> <span class="nx">from</span> <span class="s1">&#39;https://unpkg.com/@waline/client@v3/dist/waline.js&#39;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="nx">init</span><span class="p">({</span>
+</span></span><span class="line"><span class="cl">      <span class="nx">el</span><span class="o">:</span> <span class="s1">&#39;#waline&#39;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">      <span class="nx">serverURL</span><span class="o">:</span> <span class="s1">&#39;https://your-domain.vercel.app&#39;</span><span class="p">,</span> <span class="c1">// Diganti dengan alamat (link) server kolom komentar yang sudah dibuat tadi
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>      <span class="nx">lang</span><span class="o">:</span> <span class="s1">&#39;en&#39;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="p">});</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
+</span></span></code></pre></div><ol start="3">
+<li>Perhatikan! Kita perlu mengganti bagian <strong>&ldquo;serverURL&rdquo;</strong> di script HTML tersebut.</li>
+<li>Selesai! Kolom komentar sudah berhasil dibuat untuk website Hugo kita!</li>
+</ol>
+
+
+<h4 class="relative group">Manajemen komentar 
+    <div id="manajemen-komentar" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#manajemen-komentar" aria-label="Anchor">#</a>
+    </span>        
+    
+</h4>
+<ol>
+<li>Setelah <em>deployment</em> selesai, kita perlu mengunjungi <code>&lt;serverURL&gt;/ui/register</code> untuk registrasi. Orang pertama yang registrasi akan dianggap sebagai admin.</li>
+<li>Setelah <em>login</em>, kita dapat mengakses <em>dashboard</em> manajemen komentar. Tiga hal utama yang dapat kita lakukan di sini:</li>
+</ol>
+<ul>
+<li>Mengedit komentar</li>
+<li>Menandai komentar</li>
+<li>Menghapus komentar</li>
+</ul>
+<ol start="3">
+<li>Pengguna lain juga dapat melakukan registrasi via kolom komentar.</li>
+<li>Silakan berikan komentar &ldquo;Paham&rdquo; di kolom komentar di bawah jika kalian sudah berhasil membuat kolom komentar ini!</li>
+</ol>
 <p>Kalau sudah selesai, jangan lupa commit ke repo lokal dan push ke Github:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">ssh-agent bash
 </span></span><span class="line"><span class="cl">ssh-add ./ssh/ssh-config-file
@@ -2521,6 +2706,9 @@ Saya akan menambahkan album.</p>
 </li>
 <li id="fn:8">
 <p><a href="https://www.ragchess.com/how-to-embed-a-your-own-chess-puzzle-into-your-website/" target="_blank">https://www.ragchess.com/how-to-embed-a-your-own-chess-puzzle-into-your-website/</a>&#160;<a href="#fnref:8" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:9">
+<p><a href="https://waline.js.org/en/guide/get-started/" target="_blank">https://waline.js.org/en/guide/get-started/</a>&#160;<a href="#fnref:9" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
 </div>
@@ -3232,6 +3420,11 @@ Saya akan menambahkan album.</p>
     href="https://unpkg.com/@waline/client@v3/dist/waline.css"
   />
 </head>
+
+<script type="text/javascript">
+      document.getElementByClassName("aline-pageview-count")[0].data-path = window.location.pathname;
+</script>
+
 <body>
   
   <div id="waline"></div>
@@ -3244,12 +3437,10 @@ Saya akan menambahkan album.</p>
       serverURL: 'https://comment-waline-zeta.vercel.app',
       reaction: true,
       
-      admin: 'wildan',
       lang: 'en-US',
     });
   </script>
 </body>
-
       </div>
     </div>
     

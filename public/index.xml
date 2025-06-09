@@ -17,7 +17,7 @@
       <pubDate>Mon, 09 Jun 2025 10:30:26 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/man/</guid>
-      <description>Have you ever read man page in an effective way? If you haven&amp;rsquo;t, I&amp;rsquo;ll show you the art of reading man page, here&amp;hellip;</description>
+      <description>Have you ever read man page in an effective way? If you have not, I will show you the art of reading man page, here&amp;hellip;</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/man/featured.png" />
     </item>
     
@@ -27,7 +27,7 @@
       <pubDate>Sat, 07 Jun 2025 18:09:46 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/blowfish/</guid>
-      <description>This is just a brief explanation on installing and configuring blowfish as Hugo&amp;rsquo;s theme.</description>
+      <description>This is just a brief explanation on installing and configuring blowfish as Hugos theme.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/blowfish/featured.png" />
     </item>
     

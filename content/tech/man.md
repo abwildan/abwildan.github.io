@@ -2,7 +2,7 @@
 title: "How to Read `man` Page?"
 date: 2025-06-09T10:30:26+07:00
 draft: false
-summary: "Have you ever read man page in an effective way? If you haven't, I'll show you the art of reading man page, here..."
+summary: "Have you ever read man page in an effective way? If you have not, I will show you the art of reading man page, here..."
 tags: ["man", "page", "tools", "linux", "cli"]
 categories: "man"
 ---

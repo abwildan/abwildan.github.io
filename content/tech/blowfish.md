@@ -3,7 +3,7 @@ title: "Blowfish: Another Special, Modern, and Feature-Rich Hugo's Theme"
 date: 2025-06-07T18:09:46+07:00
 lastmod: 2025-06-09
 draft: false
-summary: "This is just a brief explanation on installing and configuring blowfish as Hugo's theme."
+summary: "This is just a brief explanation on installing and configuring blowfish as Hugos theme."
 tags: ["hugo", "blowfish", "theme"]
 categories: "hugo"
 ---

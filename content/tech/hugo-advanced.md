@@ -1,7 +1,7 @@
 ---
 title: "Hugo Advanced"
 date: 2023-10-09T15:22:46+07:00
-lastmod: 2025-06-09
+lastmod: 2025-06-10
 draft: false
 summary: "Hugo, but more advanced..."
 cover:
@@ -483,16 +483,16 @@ Kita selalu bisa mengubah ukuran tinggi dan lebar music player-nya, baik Spotify
 
 Kali ini, kita akan belajar menambahkan kolom komentar yang akan muncul di setiap artikel. Berikut adalah beberapa _prerequisites_-nya:
 - Hugo menggunakan konfigurasi tema [blowfish](https://blowfish.page/).
-- Template kolom komentar menggunakan [walin](https://waline.js.org/).
+- Template kolom komentar menggunakan [waline](https://waline.js.org/).
 
 {{< alert icon=none >}}
 
-Sebetulnya, ada banyak metode untuk membuat kolom komentar. Bahkan, kita dapat membuat kolom komentar dengan Github. Tapi, ada 2 alasan yang membuat saya lebih tertarik dengan [**walin**](https://waline.js.org/):
+Sebetulnya, ada banyak metode untuk membuat kolom komentar. Bahkan, kita dapat membuat kolom komentar dengan Github. Tapi, ada 2 alasan yang membuat saya lebih tertarik dengan [**waline**](https://waline.js.org/):
 
 1. Tidak harus *login* untuk berkomentar.
 2. Punya fitur *reaction* yang keren.
 
-Saya juga harus berterima kasih ke salah satu "hugo-er" asal China yang dari blog-nya lah saya terinspirasi untuk membuat kolom komentar dengan [**walin**](https://waline.js.org/):
+Saya juga harus berterima kasih ke salah satu "hugo-er" asal China yang dari blog-nya lah saya terinspirasi untuk membuat kolom komentar dengan [**waline**](https://waline.js.org/):
 
 **Karlukle:** https://www.karlukle.site/ 
 

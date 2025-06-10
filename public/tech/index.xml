@@ -2,653 +2,653 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Teches on My Awesome Site</title>
-    <link>https://abwildan.github.io/tech/</link>
+    <link>http://localhost:1313/tech/</link>
     <description>Recent content in Teches on My Awesome Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
     <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
     <copyright>© 2025 Wildan</copyright>
-    <lastBuildDate>Mon, 09 Jun 2025 10:30:26 +0700</lastBuildDate><atom:link href="https://abwildan.github.io/tech/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 09 Jun 2025 10:30:26 +0700</lastBuildDate><atom:link href="http://localhost:1313/tech/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>How to Read `man` Page?</title>
-      <link>https://abwildan.github.io/tech/man/</link>
+      <link>http://localhost:1313/tech/man/</link>
       <pubDate>Mon, 09 Jun 2025 10:30:26 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>https://abwildan.github.io/tech/man/</guid>
+      <guid>http://localhost:1313/tech/man/</guid>
       <description>Have you ever read man page in an effective way? If you have not, I will show you the art of reading man page, here&amp;hellip;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://abwildan.github.io/tech/man/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/man/featured.png" />
     </item>
     
     <item>
       <title>Blowfish: Another Special, Modern, and Feature-Rich Hugo&#39;s Theme</title>
-      <link>https://abwildan.github.io/tech/blowfish/</link>
+      <link>http://localhost:1313/tech/blowfish/</link>
       <pubDate>Sat, 07 Jun 2025 18:09:46 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>https://abwildan.github.io/tech/blowfish/</guid>
+      <guid>http://localhost:1313/tech/blowfish/</guid>
       <description>This is just a brief explanation on installing and configuring blowfish as Hugos theme.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://abwildan.github.io/tech/blowfish/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/blowfish/featured.png" />
     </item>
     
     <item>
       <title>A Quick Guide to Hyprland</title>
-      <link>https://abwildan.github.io/tech/hyprland/</link>
+      <link>http://localhost:1313/tech/hyprland/</link>
       <pubDate>Mon, 02 Jun 2025 12:39:04 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>https://abwildan.github.io/tech/hyprland/</guid>
+      <guid>http://localhost:1313/tech/hyprland/</guid>
       <description>A simple introduction to one of the most modern yet simple linux desktop environment.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://abwildan.github.io/tech/hyprland/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/hyprland/featured.png" />
     </item>
     
     <item>
       <title>Automatic Image &amp; Video File(s) Hosting in Cloudinary through Python</title>
-      <link>https://abwildan.github.io/tech/cloudinary/</link>
+      <link>http://localhost:1313/tech/cloudinary/</link>
       <pubDate>Fri, 30 May 2025 18:47:46 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>https://abwildan.github.io/tech/cloudinary/</guid>
+      <guid>http://localhost:1313/tech/cloudinary/</guid>
       <description>A brief tutorial on how to upload file(s) or video(s) to Cloudinary through Python script.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://abwildan.github.io/tech/cloudinary/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/cloudinary/featured.png" />
     </item>
     
     <item>
       <title>Starship: The Elegant yet Easy Way to Beautify Your Terminal Shell Prompt</title>
-      <link>https://abwildan.github.io/tech/starship/</link>
+      <link>http://localhost:1313/tech/starship/</link>
       <pubDate>Wed, 28 May 2025 12:44:50 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>https://abwildan.github.io/tech/starship/</guid>
+      <guid>http://localhost:1313/tech/starship/</guid>
       <description>Do you get bored of your default shell prompt? Lets make it up with Starship!</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://abwildan.github.io/tech/starship/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/starship/featured.png" />
     </item>
     
     <item>
       <title>&#39;pgrep&#39; and &#39;pkill&#39; Tutorial for Finding and Killing A Process</title>
-      <link>https://abwildan.github.io/tech/pgreppkill/</link>
+      <link>http://localhost:1313/tech/pgreppkill/</link>
       <pubDate>Sat, 24 May 2025 20:36:39 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>https://abwildan.github.io/tech/pgreppkill/</guid>
+      <guid>http://localhost:1313/tech/pgreppkill/</guid>
       <description>These two commands are highly underrated, yet they are completely beneficial.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://abwildan.github.io/tech/pgreppkill/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/pgreppkill/featured.png" />
     </item>
     
     <item>
       <title>BeatPrints: Your Favorite Spotify Poster</title>
-      <link>https://abwildan.github.io/tech/beatprints/</link>
+      <link>http://localhost:1313/tech/beatprints/</link>
       <pubDate>Sun, 04 May 2025 13:35:14 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>https://abwildan.github.io/tech/beatprints/</guid>
+      <guid>http://localhost:1313/tech/beatprints/</guid>
       <description>A quick and stylish posters for your favorite tracks!🎷☕️</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://abwildan.github.io/tech/beatprints/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/beatprints/featured.png" />
     </item>
     
     <item>
       <title>Fixing Windows Brightness Problem</title>
-      <link>https://abwildan.github.io/tech/inteldriverinstall/</link>
+      <link>http://localhost:1313/tech/inteldriverinstall/</link>
       <pubDate>Wed, 23 Apr 2025 07:30:49 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>https://abwildan.github.io/tech/inteldriverinstall/</guid>
+      <guid>http://localhost:1313/tech/inteldriverinstall/</guid>
       <description>Your windows brightness doesn&amp;rsquo;t work properly? May be it&amp;rsquo;s driver issue&amp;hellip;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://abwildan.github.io/tech/inteldriverinstall/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/inteldriverinstall/featured.png" />
     </item>
     
     <item>
       <title>Windows License Activation with MAS</title>
-      <link>https://abwildan.github.io/tech/mas/</link>
+      <link>http://localhost:1313/tech/mas/</link>
       <pubDate>Mon, 21 Apr 2025 07:02:40 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>https://abwildan.github.io/tech/mas/</guid>
+      <guid>http://localhost:1313/tech/mas/</guid>
       <description>A simple way to activate your Windows license using Microsoft Activation Script (MAS).</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://abwildan.github.io/tech/mas/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/mas/featured.png" />
     </item>
     
     <item>
       <title>The Utilization of &#39;nmcli&#39; for Managing Wifi Network</title>
-      <link>https://abwildan.github.io/tech/nmcli/</link>
+      <link>http://localhost:1313/tech/nmcli/</link>
       <pubDate>Fri, 21 Mar 2025 15:55:32 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>https://abwildan.github.io/tech/nmcli/</guid>
+      <guid>http://localhost:1313/tech/nmcli/</guid>
       <description>Having issue to connect your server to a network (wifi)? Here is the solution to the problem.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://abwildan.github.io/tech/nmcli/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/nmcli/featured.png" />
     </item>
     
     <item>
       <title>The Power of DNS (Domain Name System)</title>
-      <link>https://abwildan.github.io/tech/changedns/</link>
+      <link>http://localhost:1313/tech/changedns/</link>
       <pubDate>Sat, 08 Mar 2025 09:33:37 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>https://abwildan.github.io/tech/changedns/</guid>
+      <guid>http://localhost:1313/tech/changedns/</guid>
       <description>Solving an &amp;lsquo;undetected&amp;rsquo; network problem with only one simple solution: Changing the DNS.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://abwildan.github.io/tech/changedns/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/changedns/featured.png" />
     </item>
     
     <item>
       <title>Having A Problem to Mount NTFS via Terminal?</title>
-      <link>https://abwildan.github.io/tech/mountntfs/</link>
+      <link>http://localhost:1313/tech/mountntfs/</link>
       <pubDate>Wed, 26 Feb 2025 10:16:28 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>https://abwildan.github.io/tech/mountntfs/</guid>
+      <guid>http://localhost:1313/tech/mountntfs/</guid>
       <description>Solving the NTFS problem while mounting it through terminal.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://abwildan.github.io/tech/mountntfs/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/mountntfs/featured.png" />
     </item>
     
     <item>
       <title>bluetoothctl: CLI Tool for Managing Bluetooth Devices</title>
-      <link>https://abwildan.github.io/tech/bluetoothctl/</link>
+      <link>http://localhost:1313/tech/bluetoothctl/</link>
       <pubDate>Sun, 23 Feb 2025 22:57:04 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>https://abwildan.github.io/tech/bluetoothctl/</guid>
+      <guid>http://localhost:1313/tech/bluetoothctl/</guid>
       <description>The easiest way to connect your bluetooth devices via terminal in Linux.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://abwildan.github.io/tech/bluetoothctl/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/bluetoothctl/featured.png" />
     </item>
     
     <item>
       <title>5 Modern Linux Resource Monitoring Tools</title>
-      <link>https://abwildan.github.io/tech/resmon/</link>
+      <link>http://localhost:1313/tech/resmon/</link>
       <pubDate>Thu, 20 Feb 2025 15:43:50 +0000</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>https://abwildan.github.io/tech/resmon/</guid>
+      <guid>http://localhost:1313/tech/resmon/</guid>
       <description>This article would show several modern linux resource monitoring utilities that might help you identify your resource consumptions easily.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://abwildan.github.io/tech/resmon/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/resmon/featured.png" />
     </item>
     
     <item>
       <title>Joining Windows and Linux Machine to a Domain (Windows Server 2022)</title>
-      <link>https://abwildan.github.io/tech/joinad/</link>
+      <link>http://localhost:1313/tech/joinad/</link>
       <pubDate>Wed, 12 Feb 2025 03:24:53 +0000</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>https://abwildan.github.io/tech/joinad/</guid>
+      <guid>http://localhost:1313/tech/joinad/</guid>
       <description>How to join a windows and linux machine to an active directory domain controller on Windows Server 2022</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://abwildan.github.io/tech/joinad/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/joinad/featured.png" />
     </item>
     
     <item>
       <title>Enrypting Disk in Linux using LUKS</title>
-      <link>https://abwildan.github.io/tech/luks/</link>
+      <link>http://localhost:1313/tech/luks/</link>
       <pubDate>Sun, 02 Feb 2025 04:43:27 +0000</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>https://abwildan.github.io/tech/luks/</guid>
+      <guid>http://localhost:1313/tech/luks/</guid>
       <description>A tutorial on how to encrypt disk/drive in linux with cryptsetup.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://abwildan.github.io/tech/luks/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/luks/featured.png" />
     </item>
     
     <item>
       <title>Basic Excel (Spreadsheet) Functions - Part 2</title>
-      <link>https://abwildan.github.io/tech/excel2/</link>
+      <link>http://localhost:1313/tech/excel2/</link>
       <pubDate>Tue, 28 Jan 2025 03:33:42 +0000</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>https://abwildan.github.io/tech/excel2/</guid>
+      <guid>http://localhost:1313/tech/excel2/</guid>
       <description>6 basic excel (spreadsheet) functions / formulas: SUMIF, CONCATENATE, MATCH, (LEFT, MID, RIGHT), (HLOOKUP &amp;amp; VLOOKUP), TRANSPOSE</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://abwildan.github.io/tech/excel2/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/excel2/featured.png" />
     </item>
     
     <item>
       <title>Basic Excel (Spreadsheet) Functions - Part 1</title>
-      <link>https://abwildan.github.io/tech/excel1/</link>
+      <link>http://localhost:1313/tech/excel1/</link>
       <pubDate>Fri, 24 Jan 2025 13:24:27 +0000</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>https://abwildan.github.io/tech/excel1/</guid>
+      <guid>http://localhost:1313/tech/excel1/</guid>
       <description>6 basic excel (spreadsheet) functions / formulas: SUM, AVERAGE, MAX, MIN, COUNT, COUNTIF</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://abwildan.github.io/tech/excel1/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/excel1/featured.png" />
     </item>
     
     <item>
       <title>Managing Firewall in Linux with UFW (&#43;GUFW)</title>
-      <link>https://abwildan.github.io/tech/ufw/</link>
+      <link>http://localhost:1313/tech/ufw/</link>
       <pubDate>Mon, 13 Jan 2025 08:59:03 +0000</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>https://abwildan.github.io/tech/ufw/</guid>
+      <guid>http://localhost:1313/tech/ufw/</guid>
       <description>A simple and user-friendly CLI firewall manager: UFW. It handles incoming to and outgoing traffic from our host machine.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://abwildan.github.io/tech/ufw/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/ufw/featured.png" />
     </item>
     
     <item>
       <title>Mugshot to Change Your User Profile Photo</title>
-      <link>https://abwildan.github.io/tech/mugshot/</link>
+      <link>http://localhost:1313/tech/mugshot/</link>
       <pubDate>Sun, 12 Jan 2025 10:51:06 +0000</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>https://abwildan.github.io/tech/mugshot/</guid>
+      <guid>http://localhost:1313/tech/mugshot/</guid>
       <description>Mugshot, a simple program to change personal user details such as photo profile.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://abwildan.github.io/tech/mugshot/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/mugshot/featured.png" />
     </item>
     
     <item>
       <title>Tableau Public Basics: Creating A Simple Dashboard</title>
-      <link>https://abwildan.github.io/tech/tableau-basics/</link>
+      <link>http://localhost:1313/tech/tableau-basics/</link>
       <pubDate>Tue, 19 Nov 2024 16:28:36 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>https://abwildan.github.io/tech/tableau-basics/</guid>
+      <guid>http://localhost:1313/tech/tableau-basics/</guid>
       <description>Creating a dashboard is no longer that difficult. You are always able to create dashboard using Tableau Public. Here is the step by step of it.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://abwildan.github.io/tech/tableau-basics/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/tableau-basics/featured.png" />
     </item>
     
     <item>
       <title>Exa-Eza as a Modern Replacement for ls</title>
-      <link>https://abwildan.github.io/tech/exa/</link>
+      <link>http://localhost:1313/tech/exa/</link>
       <pubDate>Wed, 06 Nov 2024 21:45:18 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>https://abwildan.github.io/tech/exa/</guid>
+      <guid>http://localhost:1313/tech/exa/</guid>
       <description>Want to improve and modernize your ls appearance and functionality? This is the neo-ls..</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://abwildan.github.io/tech/exa/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/exa/featured.png" />
     </item>
     
     <item>
       <title>Increasing Virtual Machine Disk Size in Virtualbox</title>
-      <link>https://abwildan.github.io/tech/updisk/</link>
+      <link>http://localhost:1313/tech/updisk/</link>
       <pubDate>Wed, 16 Oct 2024 16:51:19 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>https://abwildan.github.io/tech/updisk/</guid>
+      <guid>http://localhost:1313/tech/updisk/</guid>
       <description>An easy tutorial on increasing Virtualbox VM disk size&amp;hellip;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://abwildan.github.io/tech/updisk/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/updisk/featured.png" />
     </item>
     
     <item>
       <title>DVWA - Command Injection</title>
-      <link>https://abwildan.github.io/tech/commandinjection/</link>
+      <link>http://localhost:1313/tech/commandinjection/</link>
       <pubDate>Sun, 13 Oct 2024 17:04:53 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>https://abwildan.github.io/tech/commandinjection/</guid>
+      <guid>http://localhost:1313/tech/commandinjection/</guid>
       <description>Command injection is a simple yet still pretty common and relevant vulnerability in the real world even nowadays&amp;hellip;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://abwildan.github.io/tech/commandinjection/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/commandinjection/featured.png" />
     </item>
     
     <item>
       <title>Step by Step DVWA Installation for Web App Hacking</title>
-      <link>https://abwildan.github.io/tech/dvwa-docker/</link>
+      <link>http://localhost:1313/tech/dvwa-docker/</link>
       <pubDate>Fri, 11 Oct 2024 13:28:19 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>https://abwildan.github.io/tech/dvwa-docker/</guid>
+      <guid>http://localhost:1313/tech/dvwa-docker/</guid>
       <description>DVWA (Damn Vulnerable Webb Apps) is a PHP/MySQL web application that is damn vulnerable~</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://abwildan.github.io/tech/dvwa-docker/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/dvwa-docker/featured.png" />
     </item>
     
     <item>
       <title>SSH without Password?</title>
-      <link>https://abwildan.github.io/tech/sshnopass/</link>
+      <link>http://localhost:1313/tech/sshnopass/</link>
       <pubDate>Tue, 08 Oct 2024 17:00:47 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>https://abwildan.github.io/tech/sshnopass/</guid>
+      <guid>http://localhost:1313/tech/sshnopass/</guid>
       <description>Too lazy to input your SSH password while doing routine task? Here is the solution&amp;hellip;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://abwildan.github.io/tech/sshnopass/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/sshnopass/featured.png" />
     </item>
     
     <item>
       <title>FFmpeg - Convert Any Video Format to MP4</title>
-      <link>https://abwildan.github.io/tech/convertvideoformat/</link>
+      <link>http://localhost:1313/tech/convertvideoformat/</link>
       <pubDate>Mon, 07 Oct 2024 22:00:53 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>https://abwildan.github.io/tech/convertvideoformat/</guid>
+      <guid>http://localhost:1313/tech/convertvideoformat/</guid>
       <description>If you have ffmpeg installed on your Linux machine, then it actually could help you to convert any video format to MP4!</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://abwildan.github.io/tech/convertvideoformat/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/convertvideoformat/featured.png" />
     </item>
     
     <item>
       <title>rsync: A Powerful Tool for Backing Up Data</title>
-      <link>https://abwildan.github.io/tech/rsync/</link>
+      <link>http://localhost:1313/tech/rsync/</link>
       <pubDate>Thu, 03 Oct 2024 21:42:14 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>https://abwildan.github.io/tech/rsync/</guid>
+      <guid>http://localhost:1313/tech/rsync/</guid>
       <description>The simplest and easiest way to backup your data&amp;hellip;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://abwildan.github.io/tech/rsync/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/rsync/featured.png" />
     </item>
     
     <item>
       <title>netcat: The Simplest Way to Transfer File</title>
-      <link>https://abwildan.github.io/tech/netcat/</link>
+      <link>http://localhost:1313/tech/netcat/</link>
       <pubDate>Sun, 29 Sep 2024 02:06:27 +0000</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>https://abwildan.github.io/tech/netcat/</guid>
+      <guid>http://localhost:1313/tech/netcat/</guid>
       <description>Learn the best way to transfer file(s) through a network.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://abwildan.github.io/tech/netcat/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/netcat/featured.png" />
     </item>
     
     <item>
       <title>Building VPN Server using OpenVPN</title>
-      <link>https://abwildan.github.io/tech/openvpn-server/</link>
+      <link>http://localhost:1313/tech/openvpn-server/</link>
       <pubDate>Fri, 20 Sep 2024 10:37:37 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>https://abwildan.github.io/tech/openvpn-server/</guid>
+      <guid>http://localhost:1313/tech/openvpn-server/</guid>
       <description>A step by step vpn server installation using openvpn~</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://abwildan.github.io/tech/openvpn-server/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/openvpn-server/featured.png" />
     </item>
     
     <item>
       <title>Create Your Own IRC Server!</title>
-      <link>https://abwildan.github.io/tech/ircserver/</link>
+      <link>http://localhost:1313/tech/ircserver/</link>
       <pubDate>Sun, 15 Sep 2024 21:23:53 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>https://abwildan.github.io/tech/ircserver/</guid>
+      <guid>http://localhost:1313/tech/ircserver/</guid>
       <description>Do you want to chat via terminal like a hackerman? If so, it&amp;rsquo;s time to read this because we will create an IRC Server with inspircd &amp;amp; ircd-hybrid.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://abwildan.github.io/tech/ircserver/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/ircserver/featured.png" />
     </item>
     
     <item>
       <title>Configuring Kitty &amp; Bash</title>
-      <link>https://abwildan.github.io/tech/kittyconfig/</link>
+      <link>http://localhost:1313/tech/kittyconfig/</link>
       <pubDate>Tue, 10 Sep 2024 10:53:50 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>https://abwildan.github.io/tech/kittyconfig/</guid>
+      <guid>http://localhost:1313/tech/kittyconfig/</guid>
       <description>How to configure kitty &amp;amp; its shell (I use bash, btw) so it&amp;rsquo;ll look charming&amp;hellip;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://abwildan.github.io/tech/kittyconfig/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/kittyconfig/featured.png" />
     </item>
     
     <item>
       <title>Chafa: Character Art Facsimile Generator</title>
-      <link>https://abwildan.github.io/tech/chafa/</link>
+      <link>http://localhost:1313/tech/chafa/</link>
       <pubDate>Wed, 28 Aug 2024 16:39:26 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>https://abwildan.github.io/tech/chafa/</guid>
+      <guid>http://localhost:1313/tech/chafa/</guid>
       <description>Chafa is a command-line utility that converts image data, including animated GIFs, into graphics formats or ANSI/Unicode character art suitable for display in a terminal.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://abwildan.github.io/tech/chafa/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/chafa/featured.png" />
     </item>
     
     <item>
       <title>Lazyvim: A neovim setup for the lazy-er(s)</title>
-      <link>https://abwildan.github.io/tech/lazyvim/</link>
+      <link>http://localhost:1313/tech/lazyvim/</link>
       <pubDate>Sun, 18 Aug 2024 13:50:11 +0000</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>https://abwildan.github.io/tech/lazyvim/</guid>
+      <guid>http://localhost:1313/tech/lazyvim/</guid>
       <description>This is just my personal documentation of installing and using lazyvim as a blogger.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://abwildan.github.io/tech/lazyvim/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/lazyvim/featured.png" />
     </item>
     
     <item>
       <title>SQL Basics - Installation to Basic Commands</title>
-      <link>https://abwildan.github.io/tech/sqlbasic/</link>
+      <link>http://localhost:1313/tech/sqlbasic/</link>
       <pubDate>Fri, 16 Aug 2024 08:03:25 +0000</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>https://abwildan.github.io/tech/sqlbasic/</guid>
+      <guid>http://localhost:1313/tech/sqlbasic/</guid>
       <description>Let&amp;rsquo;s learn about SQL basic commands for databases.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://abwildan.github.io/tech/sqlbasic/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/sqlbasic/featured.png" />
     </item>
     
     <item>
       <title>Trying Out A Flavor of New Hugo Theme: Kayal</title>
-      <link>https://abwildan.github.io/tech/kayal/</link>
+      <link>http://localhost:1313/tech/kayal/</link>
       <pubDate>Sun, 04 Aug 2024 13:54:17 +0000</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>https://abwildan.github.io/tech/kayal/</guid>
+      <guid>http://localhost:1313/tech/kayal/</guid>
       <description>Kayal Hugo&amp;rsquo;s  theme for me looks modern yet calm for a blog site. I got curious somehow and trying it out. Fortunately, I really like that theme. So, here is my thoughts about it&amp;hellip;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://abwildan.github.io/tech/kayal/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/kayal/featured.png" />
     </item>
     
     <item>
       <title>Enhancing Your Linux Desktop with Conky</title>
-      <link>https://abwildan.github.io/tech/conky/</link>
+      <link>http://localhost:1313/tech/conky/</link>
       <pubDate>Sat, 20 Jul 2024 11:16:26 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>https://abwildan.github.io/tech/conky/</guid>
+      <guid>http://localhost:1313/tech/conky/</guid>
       <description>Conky is obviously not the acronym of poCOng piNKY, but a light-weight system monitor for X, Wayland, and other things.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://abwildan.github.io/tech/conky/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/conky/featured.png" />
     </item>
     
     <item>
       <title>Log in to Your System with (Stunning) TTY</title>
-      <link>https://abwildan.github.io/tech/tty/</link>
+      <link>http://localhost:1313/tech/tty/</link>
       <pubDate>Wed, 17 Jul 2024 15:06:15 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>https://abwildan.github.io/tech/tty/</guid>
+      <guid>http://localhost:1313/tech/tty/</guid>
       <description>TTY in which is the acronym of TeleTYpe is a cool thing you need to know as linux user as it also will give you myriad of advantages.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://abwildan.github.io/tech/tty/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/tty/featured.png" />
     </item>
     
     <item>
       <title>A Feature Rich Command Line Audio/Video Downloader: YT-DLP</title>
-      <link>https://abwildan.github.io/tech/yt-dlp/</link>
+      <link>http://localhost:1313/tech/yt-dlp/</link>
       <pubDate>Sun, 23 Jun 2024 00:49:55 -0400</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>https://abwildan.github.io/tech/yt-dlp/</guid>
+      <guid>http://localhost:1313/tech/yt-dlp/</guid>
       <description>A small yet powerful utility for downloading videos from popular stream sites.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://abwildan.github.io/tech/yt-dlp/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/yt-dlp/featured.png" />
     </item>
     
     <item>
       <title>RStudio Basic: From Installation to Data Visualization</title>
-      <link>https://abwildan.github.io/tech/rstudio-basic/</link>
+      <link>http://localhost:1313/tech/rstudio-basic/</link>
       <pubDate>Thu, 13 Jun 2024 11:56:25 -0400</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>https://abwildan.github.io/tech/rstudio-basic/</guid>
+      <guid>http://localhost:1313/tech/rstudio-basic/</guid>
       <description>Rstudio is a free and open source integrated development environment (IDE) for R programming language.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://abwildan.github.io/tech/rstudio-basic/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/rstudio-basic/featured.png" />
     </item>
     
     <item>
       <title>Cool Terminal Tools You Should Know</title>
-      <link>https://abwildan.github.io/tech/cooltools/</link>
+      <link>http://localhost:1313/tech/cooltools/</link>
       <pubDate>Sun, 09 Jun 2024 16:59:47 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>https://abwildan.github.io/tech/cooltools/</guid>
+      <guid>http://localhost:1313/tech/cooltools/</guid>
       <description>Just a list of a couple of (funny) terminal tools</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://abwildan.github.io/tech/cooltools/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/cooltools/featured.png" />
     </item>
     
     <item>
       <title>A Classic yet Nostalgic Music Player: NCMPCPP</title>
-      <link>https://abwildan.github.io/tech/ncmpcpp/</link>
+      <link>http://localhost:1313/tech/ncmpcpp/</link>
       <pubDate>Fri, 07 Jun 2024 14:41:49 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>https://abwildan.github.io/tech/ncmpcpp/</guid>
+      <guid>http://localhost:1313/tech/ncmpcpp/</guid>
       <description>Have you ever play a song from a classical radio? (I don&amp;rsquo;t even know the name of classical radios tho, LOL) This is NCMPCPP!</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://abwildan.github.io/tech/ncmpcpp/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/ncmpcpp/featured.png" />
     </item>
     
     <item>
       <title>My Remote Desktop Client(s)</title>
-      <link>https://abwildan.github.io/tech/rdpclient/</link>
+      <link>http://localhost:1313/tech/rdpclient/</link>
       <pubDate>Tue, 04 Jun 2024 22:05:26 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>https://abwildan.github.io/tech/rdpclient/</guid>
+      <guid>http://localhost:1313/tech/rdpclient/</guid>
       <description>RDP client sometimes play an important role, doesn&amp;rsquo;t it? Especially, when you are a sys-admin. So, you must find the most suitable one for getting your work done well.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://abwildan.github.io/tech/rdpclient/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/rdpclient/featured.png" />
     </item>
     
     <item>
       <title>Gorgeous Status Bar with Polybar</title>
-      <link>https://abwildan.github.io/tech/polybar/</link>
+      <link>http://localhost:1313/tech/polybar/</link>
       <pubDate>Sun, 02 Jun 2024 19:14:29 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>https://abwildan.github.io/tech/polybar/</guid>
+      <guid>http://localhost:1313/tech/polybar/</guid>
       <description>Polybar aims to help users build beautiful and highly customizable status bars for their desktop environment, without the need of having a black belt in shell scripting.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://abwildan.github.io/tech/polybar/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/polybar/featured.png" />
     </item>
     
     <item>
       <title>Openbox - Simple and Easy Window Manager for Beginners</title>
-      <link>https://abwildan.github.io/tech/openbox/</link>
+      <link>http://localhost:1313/tech/openbox/</link>
       <pubDate>Thu, 30 May 2024 01:49:56 +0000</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>https://abwildan.github.io/tech/openbox/</guid>
+      <guid>http://localhost:1313/tech/openbox/</guid>
       <description>As the title said, Openbox is simple and easy window manager for beginners</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://abwildan.github.io/tech/openbox/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/openbox/featured.png" />
     </item>
     
     <item>
       <title>Bypassing Article Journal Paywall using Scihub</title>
-      <link>https://abwildan.github.io/tech/scihub/</link>
+      <link>http://localhost:1313/tech/scihub/</link>
       <pubDate>Tue, 21 May 2024 09:10:19 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>https://abwildan.github.io/tech/scihub/</guid>
+      <guid>http://localhost:1313/tech/scihub/</guid>
       <description>Sci-Hub is the most controversial project in modern science. The goal of Sci-Hub is to provide free and unrestricted access to all scientific knowledge.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://abwildan.github.io/tech/scihub/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/scihub/featured.png" />
     </item>
     
     <item>
       <title>Steganography - Hiding secret(s) Inside A File</title>
-      <link>https://abwildan.github.io/tech/steganography/</link>
+      <link>http://localhost:1313/tech/steganography/</link>
       <pubDate>Mon, 13 May 2024 10:52:32 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>https://abwildan.github.io/tech/steganography/</guid>
+      <guid>http://localhost:1313/tech/steganography/</guid>
       <description>Steganography is the practice of concealing information within another message or physical object to avoid detection.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://abwildan.github.io/tech/steganography/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/steganography/featured.png" />
     </item>
     
     <item>
       <title>Rofi - Beautiful &amp; Modern App Launcher</title>
-      <link>https://abwildan.github.io/tech/rofi/</link>
+      <link>http://localhost:1313/tech/rofi/</link>
       <pubDate>Sat, 04 May 2024 10:38:46 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>https://abwildan.github.io/tech/rofi/</guid>
+      <guid>http://localhost:1313/tech/rofi/</guid>
       <description>Rofi is an X11 pop-up window switcher, run dialog, dmenu replacement, and more. It focuses on being fast to use and have minimal distraction.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://abwildan.github.io/tech/rofi/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/rofi/featured.png" />
     </item>
     
     <item>
       <title>Archlinux KDE Installation via archinstall</title>
-      <link>https://abwildan.github.io/tech/archinstall/</link>
+      <link>http://localhost:1313/tech/archinstall/</link>
       <pubDate>Thu, 02 May 2024 09:52:29 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>https://abwildan.github.io/tech/archinstall/</guid>
+      <guid>http://localhost:1313/tech/archinstall/</guid>
       <description>Archinstall is a helper library which automates the installation of Arch Linux. It is packaged with different pre-configured installers, such as a &amp;lsquo;guided&amp;rsquo; installer.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://abwildan.github.io/tech/archinstall/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/archinstall/featured.png" />
     </item>
     
     <item>
       <title>Linux Ricing?</title>
-      <link>https://abwildan.github.io/tech/rice/</link>
+      <link>http://localhost:1313/tech/rice/</link>
       <pubDate>Sun, 28 Apr 2024 14:21:13 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>https://abwildan.github.io/tech/rice/</guid>
+      <guid>http://localhost:1313/tech/rice/</guid>
       <description>Rice? Linux eating rice? Do you want to know more about behind the &amp;lsquo;Ricing&amp;rsquo; term on technology thing, especially Linux? Here is your article&amp;hellip;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://abwildan.github.io/tech/rice/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/rice/featured.png" />
     </item>
     
     <item>
       <title>Debian Linux Installation in Virtualbox</title>
-      <link>https://abwildan.github.io/tech/debian-installation/</link>
+      <link>http://localhost:1313/tech/debian-installation/</link>
       <pubDate>Mon, 15 Apr 2024 07:45:05 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>https://abwildan.github.io/tech/debian-installation/</guid>
+      <guid>http://localhost:1313/tech/debian-installation/</guid>
       <description>A baby guide to install Debian Linux distribution as virtual machine in Virtalbox.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://abwildan.github.io/tech/debian-installation/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/debian-installation/featured.png" />
     </item>
     
     <item>
       <title>Ngrok - Make Your localhost Accessible Publicly</title>
-      <link>https://abwildan.github.io/tech/ngrok/</link>
+      <link>http://localhost:1313/tech/ngrok/</link>
       <pubDate>Tue, 02 Apr 2024 17:30:12 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>https://abwildan.github.io/tech/ngrok/</guid>
+      <guid>http://localhost:1313/tech/ngrok/</guid>
       <description>ngrok is a globally distributed reverse proxy that secures, protects and accelerates your applications and network services, no matter where you run them.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://abwildan.github.io/tech/ngrok/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/ngrok/featured.png" />
     </item>
     
     <item>
       <title>Mystiq - FFmpeg&#39;s GUI</title>
-      <link>https://abwildan.github.io/tech/mystiq/</link>
+      <link>http://localhost:1313/tech/mystiq/</link>
       <pubDate>Tue, 26 Mar 2024 17:56:16 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>https://abwildan.github.io/tech/mystiq/</guid>
+      <guid>http://localhost:1313/tech/mystiq/</guid>
       <description>Do you know FFmpeg? This is the GUI version of it. (If you don&amp;rsquo;t like FFmpeg CLI version, this is the your right choice!)</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://abwildan.github.io/tech/mystiq/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/mystiq/featured.png" />
     </item>
     
     <item>
       <title>Eternalblue (MS17-010) - SMBv1&#39;s Exploit</title>
-      <link>https://abwildan.github.io/tech/eternalblue/</link>
+      <link>http://localhost:1313/tech/eternalblue/</link>
       <pubDate>Thu, 21 Mar 2024 18:54:33 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>https://abwildan.github.io/tech/eternalblue/</guid>
+      <guid>http://localhost:1313/tech/eternalblue/</guid>
       <description>EternalBlue is a computer exploit software developed by the U.S. National Security Agency (NSA). It is based on a vulnerability in Microsoft Windows that allowed users to gain access to any number of computers connected to a network.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://abwildan.github.io/tech/eternalblue/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/eternalblue/featured.png" />
     </item>
     
     <item>
       <title>Virustotal - A Virus Scanning Website.</title>
-      <link>https://abwildan.github.io/tech/virustotal/</link>
+      <link>http://localhost:1313/tech/virustotal/</link>
       <pubDate>Tue, 19 Mar 2024 21:43:27 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>https://abwildan.github.io/tech/virustotal/</guid>
+      <guid>http://localhost:1313/tech/virustotal/</guid>
       <description>Analyse suspicious files, domains, IPs and URLs to detect malware and other breaches, automatically share them with the security community.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://abwildan.github.io/tech/virustotal/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/virustotal/featured.png" />
     </item>
     
     <item>
       <title>Recordmydesktop - Screen Recorder based on CLI</title>
-      <link>https://abwildan.github.io/tech/recordmydesktop/</link>
+      <link>http://localhost:1313/tech/recordmydesktop/</link>
       <pubDate>Fri, 08 Mar 2024 14:55:26 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>https://abwildan.github.io/tech/recordmydesktop/</guid>
+      <guid>http://localhost:1313/tech/recordmydesktop/</guid>
       <description>A simple command line tool that performs the basic tasks of capturing and encoding.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://abwildan.github.io/tech/recordmydesktop/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/recordmydesktop/featured.png" />
     </item>
     
     <item>
       <title>Gephi - Actor(s) Centrality</title>
-      <link>https://abwildan.github.io/tech/gephi/</link>
+      <link>http://localhost:1313/tech/gephi/</link>
       <pubDate>Sat, 06 Jan 2024 02:26:47 -0500</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>https://abwildan.github.io/tech/gephi/</guid>
+      <guid>http://localhost:1313/tech/gephi/</guid>
       <description>Gephi is an open-source software for network visualization and analysis.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://abwildan.github.io/tech/gephi/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/gephi/featured.png" />
     </item>
     
     <item>
       <title>Private File Sharing with Onionshare</title>
-      <link>https://abwildan.github.io/tech/onionshare/</link>
+      <link>http://localhost:1313/tech/onionshare/</link>
       <pubDate>Thu, 30 Nov 2023 07:35:02 -0500</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>https://abwildan.github.io/tech/onionshare/</guid>
+      <guid>http://localhost:1313/tech/onionshare/</guid>
       <description>OnionShare is an open-source tool that lets you securely and anonymously share files, host websites, and chat with friends using the Tor network.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://abwildan.github.io/tech/onionshare/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/onionshare/featured.png" />
     </item>
     
     <item>
       <title>Getting (free) e-books via Bot Telegram</title>
-      <link>https://abwildan.github.io/tech/ebook-via-bot_telegram/</link>
+      <link>http://localhost:1313/tech/ebook-via-bot_telegram/</link>
       <pubDate>Wed, 11 Oct 2023 16:32:22 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>https://abwildan.github.io/tech/ebook-via-bot_telegram/</guid>
+      <guid>http://localhost:1313/tech/ebook-via-bot_telegram/</guid>
       <description>Get &amp;lsquo;free&amp;rsquo; e-book(s) easily via Telegram bot.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://abwildan.github.io/tech/ebook-via-bot_telegram/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/ebook-via-bot_telegram/featured.png" />
     </item>
     
     <item>
       <title>FFmpeg - Convert MP4 to GIF</title>
-      <link>https://abwildan.github.io/tech/ffmpeg-mp42gif/</link>
+      <link>http://localhost:1313/tech/ffmpeg-mp42gif/</link>
       <pubDate>Wed, 11 Oct 2023 00:40:23 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>https://abwildan.github.io/tech/ffmpeg-mp42gif/</guid>
+      <guid>http://localhost:1313/tech/ffmpeg-mp42gif/</guid>
       <description>My simple note in regards of converting video (MP4) to GIF.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://abwildan.github.io/tech/ffmpeg-mp42gif/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/ffmpeg-mp42gif/featured.png" />
     </item>
     
     <item>
       <title>Screen Recorder with FFmpeg</title>
-      <link>https://abwildan.github.io/tech/ffmpeg-sr/</link>
+      <link>http://localhost:1313/tech/ffmpeg-sr/</link>
       <pubDate>Tue, 10 Oct 2023 09:13:32 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>https://abwildan.github.io/tech/ffmpeg-sr/</guid>
+      <guid>http://localhost:1313/tech/ffmpeg-sr/</guid>
       <description>My simple note in regards of screen recording using ffmpeg.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://abwildan.github.io/tech/ffmpeg-sr/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/ffmpeg-sr/featured.png" />
     </item>
     
     <item>
       <title>Hugo Advanced</title>
-      <link>https://abwildan.github.io/tech/hugo-advanced/</link>
+      <link>http://localhost:1313/tech/hugo-advanced/</link>
       <pubDate>Mon, 09 Oct 2023 15:22:46 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>https://abwildan.github.io/tech/hugo-advanced/</guid>
+      <guid>http://localhost:1313/tech/hugo-advanced/</guid>
       <description>Hugo, but more advanced&amp;hellip;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://abwildan.github.io/tech/hugo-advanced/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/hugo-advanced/featured.png" />
     </item>
     
     <item>
       <title>Hugo To Github</title>
-      <link>https://abwildan.github.io/tech/hugo-to-github/</link>
+      <link>http://localhost:1313/tech/hugo-to-github/</link>
       <pubDate>Mon, 09 Oct 2023 09:03:40 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>https://abwildan.github.io/tech/hugo-to-github/</guid>
+      <guid>http://localhost:1313/tech/hugo-to-github/</guid>
       <description>A guide to publish and hostyour Hugo site to Github.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://abwildan.github.io/tech/hugo-to-github/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/hugo-to-github/featured.png" />
     </item>
     
     <item>
       <title>Hugo-ing (from Zero to Hero)</title>
-      <link>https://abwildan.github.io/tech/hugo-ing/</link>
+      <link>http://localhost:1313/tech/hugo-ing/</link>
       <pubDate>Sat, 07 Oct 2023 15:26:34 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>https://abwildan.github.io/tech/hugo-ing/</guid>
+      <guid>http://localhost:1313/tech/hugo-ing/</guid>
       <description>Beginner step to start creating static-site via using Hugo.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://abwildan.github.io/tech/hugo-ing/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/hugo-ing/featured.png" />
     </item>
     
   </channel>

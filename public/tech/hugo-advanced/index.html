@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="scroll-smooth" data-default-appearance="light"
-  data-auto-appearance="true"><head>
+  data-auto-appearance="true"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8" />
   
   <meta http-equiv="content-language" content="en" />
@@ -15,7 +15,7 @@
   <meta name="keywords" content="hugo, website, static-site, " />
   
   
-  <link rel="canonical" href="https://abwildan.github.io/tech/hugo-advanced/" />
+  <link rel="canonical" href="http://localhost:1313/tech/hugo-advanced/" />
   
   
   
@@ -67,7 +67,7 @@
   
   
   
-  <meta property="og:url" content="https://abwildan.github.io/tech/hugo-advanced/">
+  <meta property="og:url" content="http://localhost:1313/tech/hugo-advanced/">
   <meta property="og:site_name" content="My Awesome Site">
   <meta property="og:title" content="Hugo Advanced">
   <meta property="og:description" content="Hugo, but more advanced…">
@@ -75,17 +75,17 @@
   <meta property="og:type" content="article">
     <meta property="article:section" content="tech">
     <meta property="article:published_time" content="2023-10-09T15:22:46+07:00">
-    <meta property="article:modified_time" content="2025-06-09T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-06-10T00:00:00+00:00">
     <meta property="article:tag" content="Hugo">
     <meta property="article:tag" content="Website">
     <meta property="article:tag" content="Static-Site">
-    <meta property="og:image" content="https://abwildan.github.io/tech/hugo-advanced/featured.png">
-      <meta property="og:see_also" content="https://abwildan.github.io/tech/hugo-to-github/">
-      <meta property="og:see_also" content="https://abwildan.github.io/tech/hugo-ing/">
+    <meta property="og:image" content="http://localhost:1313/tech/hugo-advanced/featured.png">
+      <meta property="og:see_also" content="http://localhost:1313/tech/hugo-to-github/">
+      <meta property="og:see_also" content="http://localhost:1313/tech/hugo-ing/">
 
   
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="https://abwildan.github.io/tech/hugo-advanced/featured.png">
+  <meta name="twitter:image" content="http://localhost:1313/tech/hugo-advanced/featured.png">
   <meta name="twitter:title" content="Hugo Advanced">
   <meta name="twitter:description" content="Hugo, but more advanced…">
 
@@ -100,7 +100,7 @@
     
     "abstract": "Hugo, but more advanced\u0026hellip;",
     "inLanguage": "en",
-    "url" : "https:\/\/abwildan.github.io\/tech\/hugo-advanced\/",
+    "url" : "http:\/\/localhost:1313\/tech\/hugo-advanced\/",
     "author" : {
       "@type": "Person",
       "name": "Wildan"
@@ -109,7 +109,7 @@
     "dateCreated": "2023-10-09T15:22:46\u002b07:00",
     "datePublished": "2023-10-09T15:22:46\u002b07:00",
     
-    "dateModified": "2025-06-09T00:00:00\u002b00:00",
+    "dateModified": "2025-06-10T00:00:00\u002b00:00",
     
     "keywords": ["hugo","website","static-site"],
     
@@ -863,7 +863,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2023-10-09T15:22:46&#43;07:00">9 October 2023</time><span class="px-2 text-primary-500">&middot;</span><time datetime="2025-06-09T00:00:00&#43;00:00">Updated: 9 June 2025</time><span class="px-2 text-primary-500">&middot;</span><span>2383 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">12 mins</span><span class="px-2 text-primary-500">&middot;</span>
+  <time datetime="2023-10-09T15:22:46&#43;07:00">9 October 2023</time><span class="px-2 text-primary-500">&middot;</span><time datetime="2025-06-10T00:00:00&#43;00:00">Updated: 10 June 2025</time><span class="px-2 text-primary-500">&middot;</span><span>2383 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">12 mins</span><span class="px-2 text-primary-500">&middot;</span>
 
 
   
@@ -2517,7 +2517,7 @@ Saya akan menambahkan album.</p>
 <p>Kali ini, kita akan belajar menambahkan kolom komentar yang akan muncul di setiap artikel. Berikut adalah beberapa <em>prerequisites</em>-nya:</p>
 <ul>
 <li>Hugo menggunakan konfigurasi tema <a href="https://blowfish.page/" target="_blank">blowfish</a>.</li>
-<li>Template kolom komentar menggunakan <a href="https://waline.js.org/" target="_blank">walin</a>.</li>
+<li>Template kolom komentar menggunakan <a href="https://waline.js.org/" target="_blank">waline</a>.</li>
 </ul>
 
   
@@ -2545,12 +2545,12 @@ Saya akan menambahkan album.</p>
   <span
     
       class="dark:text-neutral-300"
-    ><p>Sebetulnya, ada banyak metode untuk membuat kolom komentar. Bahkan, kita dapat membuat kolom komentar dengan Github. Tapi, ada 2 alasan yang membuat saya lebih tertarik dengan <a href="https://waline.js.org/" target="_blank"><strong>walin</strong></a>:</p>
+    ><p>Sebetulnya, ada banyak metode untuk membuat kolom komentar. Bahkan, kita dapat membuat kolom komentar dengan Github. Tapi, ada 2 alasan yang membuat saya lebih tertarik dengan <a href="https://waline.js.org/" target="_blank"><strong>waline</strong></a>:</p>
 <ol>
 <li>Tidak harus <em>login</em> untuk berkomentar.</li>
 <li>Punya fitur <em>reaction</em> yang keren.</li>
 </ol>
-<p>Saya juga harus berterima kasih ke salah satu &ldquo;hugo-er&rdquo; asal China yang dari blog-nya lah saya terinspirasi untuk membuat kolom komentar dengan <a href="https://waline.js.org/" target="_blank"><strong>walin</strong></a>:</p>
+<p>Saya juga harus berterima kasih ke salah satu &ldquo;hugo-er&rdquo; asal China yang dari blog-nya lah saya terinspirasi untuk membuat kolom komentar dengan <a href="https://waline.js.org/" target="_blank"><strong>waline</strong></a>:</p>
 <p><strong>Karlukle:</strong> <a href="https://www.karlukle.site/" target="_blank">https://www.karlukle.site/</a></p>
 </span>
 </div>
@@ -2802,7 +2802,7 @@ Deploy
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://abwildan.github.io/tech/hugo-advanced/&amp;title=Hugo%20Advanced"
+      href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://localhost:1313/tech/hugo-advanced/&amp;title=Hugo%20Advanced"
       title="Share on LinkedIn"
       aria-label="Share on LinkedIn"
       >
@@ -2821,7 +2821,7 @@ Deploy
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://twitter.com/intent/tweet/?url=https://abwildan.github.io/tech/hugo-advanced/&amp;text=Hugo%20Advanced"
+      href="https://twitter.com/intent/tweet/?url=http://localhost:1313/tech/hugo-advanced/&amp;text=Hugo%20Advanced"
       title="Tweet on Twitter"
       aria-label="Tweet on Twitter"
       >
@@ -2839,7 +2839,7 @@ Deploy
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://bsky.app/intent/compose?text=Hugo%20Advanced&#43;https://abwildan.github.io/tech/hugo-advanced/"
+      href="https://bsky.app/intent/compose?text=Hugo%20Advanced&#43;http://localhost:1313/tech/hugo-advanced/"
       title="Post on Bluesky"
       aria-label="Post on Bluesky"
       >
@@ -2857,7 +2857,7 @@ Deploy
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://s2f.kytta.dev/?text=Hugo%20Advanced%20https://abwildan.github.io/tech/hugo-advanced/"
+      href="https://s2f.kytta.dev/?text=Hugo%20Advanced%20http://localhost:1313/tech/hugo-advanced/"
       title=""
       aria-label=""
       >
@@ -2876,7 +2876,7 @@ Deploy
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://reddit.com/submit/?url=https://abwildan.github.io/tech/hugo-advanced/&amp;resubmit=true&amp;title=Hugo%20Advanced"
+      href="https://reddit.com/submit/?url=http://localhost:1313/tech/hugo-advanced/&amp;resubmit=true&amp;title=Hugo%20Advanced"
       title="Submit to Reddit"
       aria-label="Submit to Reddit"
       >
@@ -2895,7 +2895,7 @@ Deploy
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://pinterest.com/pin/create/bookmarklet/?url=https://abwildan.github.io/tech/hugo-advanced/&amp;description=Hugo%20Advanced"
+      href="https://pinterest.com/pin/create/bookmarklet/?url=http://localhost:1313/tech/hugo-advanced/&amp;description=Hugo%20Advanced"
       title="Pin on Pinterest"
       aria-label="Pin on Pinterest"
       >
@@ -2914,7 +2914,7 @@ Deploy
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://www.facebook.com/sharer/sharer.php?u=https://abwildan.github.io/tech/hugo-advanced/&amp;quote=Hugo%20Advanced"
+      href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:1313/tech/hugo-advanced/&amp;quote=Hugo%20Advanced"
       title="Share on Facebook"
       aria-label="Share on Facebook"
       >
@@ -2933,7 +2933,7 @@ Deploy
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="mailto:?body=https://abwildan.github.io/tech/hugo-advanced/&amp;subject=Hugo%20Advanced"
+      href="mailto:?body=http://localhost:1313/tech/hugo-advanced/&amp;subject=Hugo%20Advanced"
       title="Send via email"
       aria-label="Send via email"
       >
@@ -2952,7 +2952,7 @@ Deploy
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://api.whatsapp.com/send?text=https://abwildan.github.io/tech/hugo-advanced/&amp;resubmit=true&amp;title=Hugo%20Advanced"
+      href="https://api.whatsapp.com/send?text=http://localhost:1313/tech/hugo-advanced/&amp;resubmit=true&amp;title=Hugo%20Advanced"
       title="Share via WhatsApp"
       aria-label="Share via WhatsApp"
       >
@@ -2971,7 +2971,7 @@ Deploy
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://t.me/share/url?url=https://abwildan.github.io/tech/hugo-advanced/&amp;resubmit=true&amp;title=Hugo%20Advanced"
+      href="https://t.me/share/url?url=http://localhost:1313/tech/hugo-advanced/&amp;resubmit=true&amp;title=Hugo%20Advanced"
       title="Share via Telegram"
       aria-label="Share via Telegram"
       >
@@ -3556,7 +3556,7 @@ Deploy
 <div
   id="search-wrapper"
   class="invisible fixed inset-0 flex h-screen w-screen cursor-default flex-col bg-neutral-500/50 p-4 backdrop-blur-sm dark:bg-neutral-900/50 sm:p-6 md:p-[10vh] lg:p-[12vh]"
-  data-url="https://abwildan.github.io/"
+  data-url="http://localhost:1313/"
   style="z-index:500"
 >
   <div

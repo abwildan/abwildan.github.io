@@ -2,53 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo on My Awesome Site</title>
-    <link>https://abwildan.github.io/tags/hugo/</link>
+    <link>http://localhost:1313/tags/hugo/</link>
     <description>Recent content in Hugo on My Awesome Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
     <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
     <copyright>© 2025 Wildan</copyright>
-    <lastBuildDate>Sat, 07 Jun 2025 18:09:46 +0700</lastBuildDate><atom:link href="https://abwildan.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 07 Jun 2025 18:09:46 +0700</lastBuildDate><atom:link href="http://localhost:1313/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Blowfish: Another Special, Modern, and Feature-Rich Hugo&#39;s Theme</title>
-      <link>https://abwildan.github.io/tech/blowfish/</link>
+      <link>http://localhost:1313/tech/blowfish/</link>
       <pubDate>Sat, 07 Jun 2025 18:09:46 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>https://abwildan.github.io/tech/blowfish/</guid>
+      <guid>http://localhost:1313/tech/blowfish/</guid>
       <description>This is just a brief explanation on installing and configuring blowfish as Hugos theme.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://abwildan.github.io/tech/blowfish/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/blowfish/featured.png" />
     </item>
     
     <item>
       <title>Trying Out A Flavor of New Hugo Theme: Kayal</title>
-      <link>https://abwildan.github.io/tech/kayal/</link>
+      <link>http://localhost:1313/tech/kayal/</link>
       <pubDate>Sun, 04 Aug 2024 13:54:17 +0000</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>https://abwildan.github.io/tech/kayal/</guid>
+      <guid>http://localhost:1313/tech/kayal/</guid>
       <description>Kayal Hugo&amp;rsquo;s  theme for me looks modern yet calm for a blog site. I got curious somehow and trying it out. Fortunately, I really like that theme. So, here is my thoughts about it&amp;hellip;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://abwildan.github.io/tech/kayal/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/kayal/featured.png" />
     </item>
     
     <item>
       <title>Hugo Advanced</title>
-      <link>https://abwildan.github.io/tech/hugo-advanced/</link>
+      <link>http://localhost:1313/tech/hugo-advanced/</link>
       <pubDate>Mon, 09 Oct 2023 15:22:46 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>https://abwildan.github.io/tech/hugo-advanced/</guid>
+      <guid>http://localhost:1313/tech/hugo-advanced/</guid>
       <description>Hugo, but more advanced&amp;hellip;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://abwildan.github.io/tech/hugo-advanced/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/hugo-advanced/featured.png" />
     </item>
     
     <item>
       <title>Hugo-ing (from Zero to Hero)</title>
-      <link>https://abwildan.github.io/tech/hugo-ing/</link>
+      <link>http://localhost:1313/tech/hugo-ing/</link>
       <pubDate>Sat, 07 Oct 2023 15:26:34 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>https://abwildan.github.io/tech/hugo-ing/</guid>
+      <guid>http://localhost:1313/tech/hugo-ing/</guid>
       <description>Beginner step to start creating static-site via using Hugo.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://abwildan.github.io/tech/hugo-ing/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/hugo-ing/featured.png" />
     </item>
     
   </channel>

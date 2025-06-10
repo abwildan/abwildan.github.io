@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Discovered Attack on My Awesome Site</title>
-    <link>https://abwildan.github.io/tags/discovered-attack/</link>
+    <link>http://localhost:1313/tags/discovered-attack/</link>
     <description>Recent content in Discovered Attack on My Awesome Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
     <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
     <copyright>© 2025 Wildan</copyright>
-    <lastBuildDate>Thu, 07 Nov 2024 10:39:37 +0700</lastBuildDate><atom:link href="https://abwildan.github.io/tags/discovered-attack/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 07 Nov 2024 10:39:37 +0700</lastBuildDate><atom:link href="http://localhost:1313/tags/discovered-attack/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Chess Tactics: Double Attack, Discovered Attack, Removing The Defender</title>
-      <link>https://abwildan.github.io/chess/pop-tactics2/</link>
+      <link>http://localhost:1313/chess/pop-tactics2/</link>
       <pubDate>Thu, 07 Nov 2024 10:39:37 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>https://abwildan.github.io/chess/pop-tactics2/</guid>
+      <guid>http://localhost:1313/chess/pop-tactics2/</guid>
       <description>This article shares about 3 popular tactics in chess, which are Double Attack, Discovered Attack, and Removing The Defender</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://abwildan.github.io/chess/pop-tactics2/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/chess/pop-tactics2/featured.png" />
     </item>
     
   </channel>

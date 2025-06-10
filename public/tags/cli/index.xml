@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cli on My Awesome Site</title>
-    <link>http://localhost:1313/tags/cli/</link>
+    <link>https://abwildan.github.io/tags/cli/</link>
     <description>Recent content in Cli on My Awesome Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
     <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
     <copyright>© 2025 Wildan</copyright>
-    <lastBuildDate>Mon, 09 Jun 2025 10:30:26 +0700</lastBuildDate><atom:link href="http://localhost:1313/tags/cli/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 09 Jun 2025 10:30:26 +0700</lastBuildDate><atom:link href="https://abwildan.github.io/tags/cli/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>How to Read `man` Page?</title>
-      <link>http://localhost:1313/tech/man/</link>
+      <link>https://abwildan.github.io/tech/man/</link>
       <pubDate>Mon, 09 Jun 2025 10:30:26 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/tech/man/</guid>
+      <guid>https://abwildan.github.io/tech/man/</guid>
       <description>Have you ever read man page in an effective way? If you have not, I will show you the art of reading man page, here&amp;hellip;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/man/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://abwildan.github.io/tech/man/featured.png" />
     </item>
     
   </channel>

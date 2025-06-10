@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Status Bar on My Awesome Site</title>
-    <link>http://localhost:1313/tags/status-bar/</link>
+    <link>https://abwildan.github.io/tags/status-bar/</link>
     <description>Recent content in Status Bar on My Awesome Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
     <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
     <copyright>© 2025 Wildan</copyright>
-    <lastBuildDate>Sun, 02 Jun 2024 19:14:29 +0700</lastBuildDate><atom:link href="http://localhost:1313/tags/status-bar/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 02 Jun 2024 19:14:29 +0700</lastBuildDate><atom:link href="https://abwildan.github.io/tags/status-bar/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Gorgeous Status Bar with Polybar</title>
-      <link>http://localhost:1313/tech/polybar/</link>
+      <link>https://abwildan.github.io/tech/polybar/</link>
       <pubDate>Sun, 02 Jun 2024 19:14:29 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/tech/polybar/</guid>
+      <guid>https://abwildan.github.io/tech/polybar/</guid>
       <description>Polybar aims to help users build beautiful and highly customizable status bars for their desktop environment, without the need of having a black belt in shell scripting.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/polybar/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://abwildan.github.io/tech/polybar/featured.png" />
     </item>
     
   </channel>

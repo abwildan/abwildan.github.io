@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Recordmydesktop on My Awesome Site</title>
-    <link>http://localhost:1313/tags/recordmydesktop/</link>
+    <link>https://abwildan.github.io/tags/recordmydesktop/</link>
     <description>Recent content in Recordmydesktop on My Awesome Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
     <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
     <copyright>© 2025 Wildan</copyright>
-    <lastBuildDate>Fri, 08 Mar 2024 14:55:26 +0700</lastBuildDate><atom:link href="http://localhost:1313/tags/recordmydesktop/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 08 Mar 2024 14:55:26 +0700</lastBuildDate><atom:link href="https://abwildan.github.io/tags/recordmydesktop/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Recordmydesktop - Screen Recorder based on CLI</title>
-      <link>http://localhost:1313/tech/recordmydesktop/</link>
+      <link>https://abwildan.github.io/tech/recordmydesktop/</link>
       <pubDate>Fri, 08 Mar 2024 14:55:26 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/tech/recordmydesktop/</guid>
+      <guid>https://abwildan.github.io/tech/recordmydesktop/</guid>
       <description>A simple command line tool that performs the basic tasks of capturing and encoding.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/recordmydesktop/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://abwildan.github.io/tech/recordmydesktop/featured.png" />
     </item>
     
   </channel>

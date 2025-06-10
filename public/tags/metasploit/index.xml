@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Metasploit on My Awesome Site</title>
-    <link>http://localhost:1313/tags/metasploit/</link>
+    <link>https://abwildan.github.io/tags/metasploit/</link>
     <description>Recent content in Metasploit on My Awesome Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
     <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
     <copyright>© 2025 Wildan</copyright>
-    <lastBuildDate>Thu, 21 Mar 2024 18:54:33 +0700</lastBuildDate><atom:link href="http://localhost:1313/tags/metasploit/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 21 Mar 2024 18:54:33 +0700</lastBuildDate><atom:link href="https://abwildan.github.io/tags/metasploit/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Eternalblue (MS17-010) - SMBv1&#39;s Exploit</title>
-      <link>http://localhost:1313/tech/eternalblue/</link>
+      <link>https://abwildan.github.io/tech/eternalblue/</link>
       <pubDate>Thu, 21 Mar 2024 18:54:33 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/tech/eternalblue/</guid>
+      <guid>https://abwildan.github.io/tech/eternalblue/</guid>
       <description>EternalBlue is a computer exploit software developed by the U.S. National Security Agency (NSA). It is based on a vulnerability in Microsoft Windows that allowed users to gain access to any number of computers connected to a network.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/eternalblue/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://abwildan.github.io/tech/eternalblue/featured.png" />
     </item>
     
   </channel>

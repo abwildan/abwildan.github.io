@@ -2,33 +2,33 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Screen Recorder on My Awesome Site</title>
-    <link>http://localhost:1313/tags/screen-recorder/</link>
+    <link>https://abwildan.github.io/tags/screen-recorder/</link>
     <description>Recent content in Screen Recorder on My Awesome Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
     <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
     <copyright>© 2025 Wildan</copyright>
-    <lastBuildDate>Fri, 08 Mar 2024 14:55:26 +0700</lastBuildDate><atom:link href="http://localhost:1313/tags/screen-recorder/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 08 Mar 2024 14:55:26 +0700</lastBuildDate><atom:link href="https://abwildan.github.io/tags/screen-recorder/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Recordmydesktop - Screen Recorder based on CLI</title>
-      <link>http://localhost:1313/tech/recordmydesktop/</link>
+      <link>https://abwildan.github.io/tech/recordmydesktop/</link>
       <pubDate>Fri, 08 Mar 2024 14:55:26 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/tech/recordmydesktop/</guid>
+      <guid>https://abwildan.github.io/tech/recordmydesktop/</guid>
       <description>A simple command line tool that performs the basic tasks of capturing and encoding.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/recordmydesktop/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://abwildan.github.io/tech/recordmydesktop/featured.png" />
     </item>
     
     <item>
       <title>Screen Recorder with FFmpeg</title>
-      <link>http://localhost:1313/tech/ffmpeg-sr/</link>
+      <link>https://abwildan.github.io/tech/ffmpeg-sr/</link>
       <pubDate>Tue, 10 Oct 2023 09:13:32 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/tech/ffmpeg-sr/</guid>
+      <guid>https://abwildan.github.io/tech/ffmpeg-sr/</guid>
       <description>My simple note in regards of screen recording using ffmpeg.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/ffmpeg-sr/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://abwildan.github.io/tech/ffmpeg-sr/featured.png" />
     </item>
     
   </channel>

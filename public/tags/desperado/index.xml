@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Desperado on My Awesome Site</title>
-    <link>https://abwildan.github.io/tags/desperado/</link>
+    <link>http://localhost:1313/tags/desperado/</link>
     <description>Recent content in Desperado on My Awesome Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
     <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
     <copyright>© 2025 Wildan</copyright>
-    <lastBuildDate>Sat, 05 Apr 2025 10:15:28 +0700</lastBuildDate><atom:link href="https://abwildan.github.io/tags/desperado/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 05 Apr 2025 10:15:28 +0700</lastBuildDate><atom:link href="http://localhost:1313/tags/desperado/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Chess Tactics: Interference, X-Ray Attack, Desperado</title>
-      <link>https://abwildan.github.io/chess/pop-tactics4/</link>
+      <link>http://localhost:1313/chess/pop-tactics4/</link>
       <pubDate>Sat, 05 Apr 2025 10:15:28 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>https://abwildan.github.io/chess/pop-tactics4/</guid>
+      <guid>http://localhost:1313/chess/pop-tactics4/</guid>
       <description>This article shares about 3 popular tactics in chess, which are Overloading, Clearance, and Decoy or Deflection.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://abwildan.github.io/chess/pop-tactics4/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/chess/pop-tactics4/featured.png" />
     </item>
     
   </channel>

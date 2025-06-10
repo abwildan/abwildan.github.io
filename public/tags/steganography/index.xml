@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Steganography on My Awesome Site</title>
-    <link>https://abwildan.github.io/tags/steganography/</link>
+    <link>http://localhost:1313/tags/steganography/</link>
     <description>Recent content in Steganography on My Awesome Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
     <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
     <copyright>© 2025 Wildan</copyright>
-    <lastBuildDate>Mon, 13 May 2024 10:52:32 +0700</lastBuildDate><atom:link href="https://abwildan.github.io/tags/steganography/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 13 May 2024 10:52:32 +0700</lastBuildDate><atom:link href="http://localhost:1313/tags/steganography/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Steganography - Hiding secret(s) Inside A File</title>
-      <link>https://abwildan.github.io/tech/steganography/</link>
+      <link>http://localhost:1313/tech/steganography/</link>
       <pubDate>Mon, 13 May 2024 10:52:32 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>https://abwildan.github.io/tech/steganography/</guid>
+      <guid>http://localhost:1313/tech/steganography/</guid>
       <description>Steganography is the practice of concealing information within another message or physical object to avoid detection.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://abwildan.github.io/tech/steganography/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/steganography/featured.png" />
     </item>
     
   </channel>

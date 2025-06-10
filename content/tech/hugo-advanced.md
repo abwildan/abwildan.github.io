@@ -528,7 +528,9 @@ Deploy
 7. Setelah di-**"Save"**, kita perlu **"Redeploy"**. Tunggu beberapa saat.
 8. Jika sudah selesai, kita akan di-_redirect_ ke halaman "Overview". Untuk melihat aplikasi kolom komentarnya, kita bisa klik **"Visit"**.
 9. Link tersebut adalah alamat untuk server aplikasi kolom komentar kita.  
+
 Contoh punya saya:
+
 ![ss24](/Hugo-Advanced/ss24.png "Vercel Comments Server")
 
 #### Import ke HTML (Client)

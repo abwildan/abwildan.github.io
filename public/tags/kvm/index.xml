@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kvm on My Awesome Site</title>
+    <link>http://localhost:1313/tags/kvm/</link>
+    <description>Recent content in Kvm on My Awesome Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
+    <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
+    <copyright>© 2025 Wildan</copyright>
+    <lastBuildDate>Wed, 11 Jun 2025 10:28:05 +0700</lastBuildDate><atom:link href="http://localhost:1313/tags/kvm/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Installing Virt-manager on NixOS</title>
+      <link>http://localhost:1313/tech/virtmanagernix/</link>
+      <pubDate>Wed, 11 Jun 2025 10:28:05 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tech/virtmanagernix/</guid>
+      <description>A note of installing virt-manager on NixOS</description>
+      
+    </item>
+    
+  </channel>
+</rss>

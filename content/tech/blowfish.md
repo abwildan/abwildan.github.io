@@ -1,7 +1,7 @@
 ---
 title: "Blowfish: Another Special, Modern, and Feature-Rich Hugo's Theme"
 date: 2025-06-07T18:09:46+07:00
-lastmod: 2025-06-09
+lastmod: 2025-06-13
 draft: false
 summary: "This is just a brief explanation on installing and configuring blowfish as Hugos theme."
 tags: ["hugo", "blowfish", "theme"]
@@ -294,6 +294,8 @@ Untuk bagian ini, silakan dicoba manual sendiri untuk mencari ***heroStyle*** ya
 {{< /collapse >}}
 
 ## Blowfish vs Kayal
+
+{{< article link="/tech/kayal/" >}}
 
 Sebetulnya, sudah lama dari artikel ini dibuat sejak saya berganti tema Hugo dari [Kayal](https://mnjm.github.io/kayal/) ke [Blowfish](https://blowfish.page/). Saya berpindah tentu bukan tanpa alasan. Beberapa fitur yang saya perlukan dan saya cari-cari sejak awal membuat _static-site_ ini akhirnya terpenuhi di [Blowfish](https://blowfish.page/). Berikut adalah beberapa perbandingan [Blowfish](https://blowfish.page/) & [Kayal](https://mnjm.github.io/kayal/) versi saya:
 

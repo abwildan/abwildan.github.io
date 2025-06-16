@@ -226,9 +226,19 @@ virsh --connect qemu:///system domdisplay <vm-name>
 Sekian.  
 Semoga bermanfaat.
 
+---
+
+Sejak kali pertama saya "bermain" Virt-manager, _I know this hypervisor has been outrageously captivating_... Saya bahkan bisa menjalankan [hyprland](https://hypr.land/) dengan relatif lancar, berbanding jauh dengan Virtualbox & VMWare...
+
+![show](/virt-manager/show.png "hyprland on virt-manager!")
+
+
 
 
 
 [^1]: https://virt-manager.org/
 [^2]: https://www.redhat.com/en/topics/virtualization/what-is-KVM
 [^3]: https://www.vmware.com/topics/hypervisor
+
+
+

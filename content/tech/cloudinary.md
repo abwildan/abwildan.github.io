@@ -183,7 +183,7 @@ Kita juga dapat melihat file yang berhasil terunggah tersebut di akun Cloudinary
 
 **Catatan:**
 1. Kita tidak hanya dapat meng-_upload_ file dari komputer kita saja, tetapi juga file yang ada di internet (Google, Google Drive, etc). Kita hanya perlu mengganti bagian ***upload_file***-nya dengan URL yang diinginkan.
-2. Cloudinary versi gratis ini tidak mengizinkan kita untuk meng-_upload_ banyak file sekaligus, sehingga, kalau kita perlu melakukannya satu persatu jika ingin meng-upload banyak file.
+2. Cloudinary versi gratis ini tidak mengizinkan kita untuk meng-_upload_ banyak file sekaligus, sehingga, kalau kita perlu melakukannya satu persatu jika ingin meng-_upload_ banyak file.
 
 {{< /alert >}}
 

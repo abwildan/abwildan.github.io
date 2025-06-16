@@ -9,7 +9,17 @@
     <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
     <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
     <copyright>© 2025 Wildan</copyright>
-    <lastBuildDate>Mon, 09 Jun 2025 10:30:26 +0700</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 16 Jun 2025 17:45:18 +0700</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Practical Guide to Virt-Manager</title>
+      <link>http://localhost:1313/tech/virt-manager/</link>
+      <pubDate>Mon, 16 Jun 2025 17:45:18 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tech/virt-manager/</guid>
+      <description>A note explaining basic usage of virt-manager, especially when it comes to the commands.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/virt-manager/featured.png" />
+    </item>
     
     <item>
       <title>How to Read `man` Page?</title>

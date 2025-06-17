@@ -11,9 +11,9 @@ categories: "virt-manager"
 
 ## Virt-manager?
 
-[**Virt-manager**](https://virt-manager.org/) atau ***"Virtual Machine Manager"*** adalah _software_ untuk melakukan manajemen mesin virtual, seperti 2 _software_ populer lainnya, yaitu [Virtualbox](https://www.virtualbox.org/) dan [VMWare](https://www.vmware.com/).[^1] Perbedaan signifikan antara Virt-manager dengan 2 _hypervisor_ lainnya terletak pada penggunaan **KVM (Kernel-based Virtual Machine)** sebagai teknologi virtualisasinya, dimana KVM ini hanya ada di Linux saja.[^2] Oleh karena itu, performa VM (_Virtual Machine_) di Virt-manager dinilai relatif lebih baik dibandingkan dengan Virtualbox atau VMWare. 
+[**Virt-manager**](https://virt-manager.org/) atau ***"Virtual Machine Manager"*** adalah _software_ untuk melakukan manajemen mesin virtual, seperti 2 _software_ populer lainnya, yaitu [Virtualbox](https://www.virtualbox.org/) dan [VMWare](https://www.vmware.com/).[^1] Perbedaan signifikan antara Virt-manager dengan 2 _hypervisor_ lainnya terletak pada penggunaan **KVM (Kernel-based Virtual Machine)** sebagai teknologi virtualisasinya, dimana KVM ini hanya ada di Linux saja.[^2] Dengan kata lain, Virt-manager adalah _hypervisor_ tipe 1 (_baremetal_), sementara Virtualbox dan VMWare adalah _hypervisor_ tipe 2 (_hosted_). Oleh karena itu, performa VM (_Virtual Machine_) di Virt-manager dinilai relatif lebih baik dibandingkan dengan Virtualbox atau VMWare. 
 
-> **Hypervisor** adalah sebuah program untuk menjalankan dan me-*manage* satu atau lebih mesin virtual di komputer.[^3]
+> **Hypervisor** adalah sebuah program untuk menjalankan dan me-*manage* satu atau lebih mesin virtual di komputer.[^3] Hypervisor tipe 1 (_baremetal_) adalah hypervisor yang langsung berjalan di atas hardware dari host-nya untuk melakukan manajemen VM. Sementara hypervisor tipe 2 (_hosted_) adalah hypervisor yang berjalan sebagai aplikasi dari sistem operasi host-nya.[^4]
 
 ## Installation
 
@@ -77,7 +77,7 @@ Sekarang, kita akan membuat sebuah VM di Virt-manager. VM ini dapat berupa siste
 
 **Note:**
 
-Kita akan banyak menggunakan salahs satu dari dua "opsi" perintah berikut untuk melakukan manajemen VM. Berikut adalah perbedaannya:
+Kita akan banyak menggunakan salah satu dari dua "opsi" perintah berikut untuk melakukan manajemen VM. Berikut adalah perbedaannya:
 
 1. **qemu:///system**: connect to "system" libvirtd instance.
 2. **qemu:///session**: connect to "session" libvirtd instance.
@@ -229,7 +229,7 @@ Semoga bermanfaat.
 
 ---
 
-Sejak kali pertama saya "bermain" Virt-manager, _I know this hypervisor has been outrageously captivating_... Saya bahkan bisa menjalankan [hyprland](https://hypr.land/) dengan relatif lancar, berbanding jauh dengan Virtualbox & VMWare yang _laggy_ parah..
+_Since I played "Virt-manager" at the first time, I know this hypervisor has been outrageously captivating_... Saya bahkan bisa menjalankan [hyprland](https://hypr.land/) dengan relatif lancar, berbanding jauh dengan Virtualbox & VMWare yang _laggy_ parah..
 
 ![show](/virt-manager/show.png "hyprland on virt-manager!")
 
@@ -240,6 +240,7 @@ Sejak kali pertama saya "bermain" Virt-manager, _I know this hypervisor has been
 [^1]: https://virt-manager.org/
 [^2]: https://www.redhat.com/en/topics/virtualization/what-is-KVM
 [^3]: https://www.vmware.com/topics/hypervisor
+[^4]: https://aws.amazon.com/compare/the-difference-between-type-1-and-type-2-hypervisors/?nc1=h_ls
 
 
 

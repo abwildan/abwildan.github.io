@@ -115,7 +115,7 @@
     "keywords": ["virt-manager","libvirt","kvm","linux","qemu","virtualization","virtual machine"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "732"
+    "wordCount": "786"
   }]
   </script>
 
@@ -864,7 +864,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2025-06-16T17:45:18&#43;07:00">16 June 2025</time><span class="px-2 text-primary-500">&middot;</span><time datetime="2025-06-17T00:00:00&#43;00:00">Updated: 17 June 2025</time><span class="px-2 text-primary-500">&middot;</span><span>732 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">4 mins</span><span class="px-2 text-primary-500">&middot;</span>
+  <time datetime="2025-06-16T17:45:18&#43;07:00">16 June 2025</time><span class="px-2 text-primary-500">&middot;</span><time datetime="2025-06-17T00:00:00&#43;00:00">Updated: 17 June 2025</time><span class="px-2 text-primary-500">&middot;</span><span>786 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">4 mins</span><span class="px-2 text-primary-500">&middot;</span>
 
 
   
@@ -1363,9 +1363,9 @@
     </span>        
     
 </h2>
-<p><a href="https://virt-manager.org/" target="_blank"><strong>Virt-manager</strong></a> atau <em><strong>&ldquo;Virtual Machine Manager&rdquo;</strong></em> adalah <em>software</em> untuk melakukan manajemen mesin virtual, seperti 2 <em>software</em> populer lainnya, yaitu <a href="https://www.virtualbox.org/" target="_blank">Virtualbox</a> dan <a href="https://www.vmware.com/" target="_blank">VMWare</a>.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> Perbedaan signifikan antara Virt-manager dengan 2 <em>hypervisor</em> lainnya terletak pada penggunaan <strong>KVM (Kernel-based Virtual Machine)</strong> sebagai teknologi virtualisasinya, dimana KVM ini hanya ada di Linux saja.<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> Oleh karena itu, performa VM (<em>Virtual Machine</em>) di Virt-manager dinilai relatif lebih baik dibandingkan dengan Virtualbox atau VMWare.</p>
+<p><a href="https://virt-manager.org/" target="_blank"><strong>Virt-manager</strong></a> atau <em><strong>&ldquo;Virtual Machine Manager&rdquo;</strong></em> adalah <em>software</em> untuk melakukan manajemen mesin virtual, seperti 2 <em>software</em> populer lainnya, yaitu <a href="https://www.virtualbox.org/" target="_blank">Virtualbox</a> dan <a href="https://www.vmware.com/" target="_blank">VMWare</a>.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> Perbedaan signifikan antara Virt-manager dengan 2 <em>hypervisor</em> lainnya terletak pada penggunaan <strong>KVM (Kernel-based Virtual Machine)</strong> sebagai teknologi virtualisasinya, dimana KVM ini hanya ada di Linux saja.<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> Dengan kata lain, Virt-manager adalah <em>hypervisor</em> tipe 1 (<em>baremetal</em>), sementara Virtualbox dan VMWare adalah <em>hypervisor</em> tipe 2 (<em>hosted</em>). Oleh karena itu, performa VM (<em>Virtual Machine</em>) di Virt-manager dinilai relatif lebih baik dibandingkan dengan Virtualbox atau VMWare.</p>
 <blockquote>
-<p><strong>Hypervisor</strong> adalah sebuah program untuk menjalankan dan me-<em>manage</em> satu atau lebih mesin virtual di komputer.<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></p></blockquote>
+<p><strong>Hypervisor</strong> adalah sebuah program untuk menjalankan dan me-<em>manage</em> satu atau lebih mesin virtual di komputer.<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup> Hypervisor tipe 1 (<em>baremetal</em>) adalah hypervisor yang langsung berjalan di atas hardware dari host-nya untuk melakukan manajemen VM. Sementara hypervisor tipe 2 (<em>hosted</em>) adalah hypervisor yang berjalan sebagai aplikasi dari sistem operasi host-nya.<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup></p></blockquote>
 
 
 <h2 class="relative group">Installation 
@@ -1530,7 +1530,7 @@ Masukkan baris berikut di file konfigurasi (<code>/etc/nixos/configuration.nix</
     
       class="dark:text-neutral-300"
     ><p><strong>Note:</strong></p>
-<p>Kita akan banyak menggunakan salahs satu dari dua &ldquo;opsi&rdquo; perintah berikut untuk melakukan manajemen VM. Berikut adalah perbedaannya:</p>
+<p>Kita akan banyak menggunakan salah satu dari dua &ldquo;opsi&rdquo; perintah berikut untuk melakukan manajemen VM. Berikut adalah perbedaannya:</p>
 <ol>
 <li><strong>qemu:///system</strong>: connect to &ldquo;system&rdquo; libvirtd instance.</li>
 <li><strong>qemu:///session</strong>: connect to &ldquo;session&rdquo; libvirtd instance.</li>
@@ -1740,7 +1740,7 @@ Masukkan baris berikut di file konfigurasi (<code>/etc/nixos/configuration.nix</
 <p>Sekian.<br>
 Semoga bermanfaat.</p>
 <hr>
-<p>Sejak kali pertama saya &ldquo;bermain&rdquo; Virt-manager, <em>I know this hypervisor has been outrageously captivating</em>&hellip; Saya bahkan bisa menjalankan <a href="https://hypr.land/" target="_blank">hyprland</a> dengan relatif lancar, berbanding jauh dengan Virtualbox &amp; VMWare yang <em>laggy</em> parah..</p>
+<p><em>Since I played &ldquo;Virt-manager&rdquo; at the first time, I know this hypervisor has been outrageously captivating</em>&hellip; Saya bahkan bisa menjalankan <a href="https://hypr.land/" target="_blank">hyprland</a> dengan relatif lancar, berbanding jauh dengan Virtualbox &amp; VMWare yang <em>laggy</em> parah..</p>
 <p>
     <figure>
       <img class="my-0 rounded-md" loading="lazy" src="/virt-manager/show.png" alt="show" />
@@ -1758,6 +1758,9 @@ Semoga bermanfaat.</p>
 </li>
 <li id="fn:3">
 <p><a href="https://www.vmware.com/topics/hypervisor" target="_blank">https://www.vmware.com/topics/hypervisor</a>&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4">
+<p><a href="https://aws.amazon.com/compare/the-difference-between-type-1-and-type-2-hypervisors/?nc1=h_ls" target="_blank">https://aws.amazon.com/compare/the-difference-between-type-1-and-type-2-hypervisors/?nc1=h_ls</a>&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
 </div>

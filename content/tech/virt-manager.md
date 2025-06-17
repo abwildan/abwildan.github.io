@@ -1,6 +1,7 @@
 ---
 title: "Practical Guide to Virt-Manager"
 date: 2025-06-16T17:45:18+07:00
+lastmod: 2025-06-17
 draft: false
 summary: "A note explaining basic usage of virt-manager, especially when it comes to the commands."
 tags: ["virt-manager", "libvirt", "kvm", "linux", "qemu", "virtualization", "virtual machine"]
@@ -228,7 +229,7 @@ Semoga bermanfaat.
 
 ---
 
-Sejak kali pertama saya "bermain" Virt-manager, _I know this hypervisor has been outrageously captivating_... Saya bahkan bisa menjalankan [hyprland](https://hypr.land/) dengan relatif lancar, berbanding jauh dengan Virtualbox & VMWare...
+Sejak kali pertama saya "bermain" Virt-manager, _I know this hypervisor has been outrageously captivating_... Saya bahkan bisa menjalankan [hyprland](https://hypr.land/) dengan relatif lancar, berbanding jauh dengan Virtualbox & VMWare yang _laggy_ parah..
 
 ![show](/virt-manager/show.png "hyprland on virt-manager!")
 

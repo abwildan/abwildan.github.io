@@ -24,7 +24,7 @@ Berikut adalah cara meng-install Virt-manager di beberapa distro Linux populer:
 | **Debian/Ubuntu** | **`sudo apt install virt-manager`**                |
 | **Arch Linux**    | **`sudo pacman -Sy virt-manager`**                 |
 | **Opensuse**      | **`sudo zypper install virt-manager`**             |
-| **Fedora**        | **`sudo dnf install virt-manager`**     			 |
+| **Fedora**        | **`sudo dnf install virt-manager`**     			     |
 
 {{< alert icon=none >}}
 

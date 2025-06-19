@@ -1,7 +1,7 @@
 ---
 title: "Practical Guide to Virt-Manager"
 date: 2025-06-16T17:45:18+07:00
-lastmod: 2025-06-17
+lastmod: 2025-06-19
 draft: false
 summary: "A note explaining basic usage of virt-manager, especially when it comes to the commands."
 tags: ["virt-manager", "libvirt", "kvm", "linux", "qemu", "virtualization", "virtual machine"]
@@ -223,6 +223,22 @@ virsh --connect qemu:///system domdisplay <vm-name>
 
 ![ss9](/virt-manager/ss9.png "Graphical console via spicy")
 
+### Deleting VM
+
+Untuk menghapus VM:
+
+```shell
+virsh --connect qemu:///system undefine <vm_name> # atau
+virsh --connect qemu:///system undefine --domain <vm_name> 
+```
+
+Kemudian, kita juga perlu menghapus _file storage_-nya juga secara manual:
+
+```shell
+sudo rm -r /var/lib/libvirt/images/<vm_name>.qcow2
+```
+
+![ss10](/virt-manager/ss10.png "Deleting VM")
 
 Sekian.  
 Semoga bermanfaat.

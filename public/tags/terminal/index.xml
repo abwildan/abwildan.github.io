@@ -12,13 +12,13 @@
     <lastBuildDate>Wed, 18 Jun 2025 19:09:58 +0700</lastBuildDate><atom:link href="http://localhost:1313/tags/terminal/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>A Comparison of Terminal File Managers</title>
+      <title>A Comparison of 5 Terminal File Managers</title>
       <link>http://localhost:1313/tech/fileterm/</link>
       <pubDate>Wed, 18 Jun 2025 19:09:58 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/fileterm/</guid>
-      <description>A glimpse of terminal-based file managers and their comparisons.</description>
-      
+      <description>A glimpse of terminal-based file managers and their uniquenesses.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/fileterm/featured.png" />
     </item>
     
     <item>

@@ -2,7 +2,7 @@
 title: "Scrcpy: Open Source Tool for Mirroring Your Android Devices"
 date: 2025-06-18T09:21:08+07:00
 draft: false
-summary: "Mirrorring your android devices can never be this easy with open source tool: Scrcpy"
+summary: "Mirroring your android devices can never be this easy with open source tool: Scrcpy"
 tags: ["scrcpy", "android", "wireless", "adb", "linux"]
 categories: "scrcpy"
 ---

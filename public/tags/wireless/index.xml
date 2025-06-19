@@ -17,8 +17,8 @@
       <pubDate>Wed, 18 Jun 2025 09:21:08 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/scrcpy/</guid>
-      <description>Mirrorring your android devices can never be this easy with open source tool: Scrcpy</description>
-      
+      <description>Mirroring your android devices can never be this easy with open source tool: Scrcpy</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/scrcpy/featured.png" />
     </item>
     
   </channel>

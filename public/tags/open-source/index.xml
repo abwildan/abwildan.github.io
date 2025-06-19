@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Open Source on My Awesome Site</title>
+    <link>http://localhost:1313/tags/open-source/</link>
+    <description>Recent content in Open Source on My Awesome Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
+    <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
+    <copyright>© 2025 Wildan</copyright>
+    <lastBuildDate>Wed, 18 Jun 2025 19:09:58 +0700</lastBuildDate><atom:link href="http://localhost:1313/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>A Comparison of Terminal File Managers</title>
+      <link>http://localhost:1313/tech/fileterm/</link>
+      <pubDate>Wed, 18 Jun 2025 19:09:58 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tech/fileterm/</guid>
+      <description>A glimpse of terminal-based file managers and their comparisons.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

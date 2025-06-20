@@ -1,6 +1,7 @@
 ---
 title: "Cool Terminal Tools You Should Know"
 date: 2024-06-09T16:59:47+07:00
+lastmod: 2025-06-20
 draft: false
 summary: "Just a list of a couple of (funny) terminal tools"
 cover:
@@ -19,7 +20,7 @@ Saya mau berbagi sejumlah *tools* terminal yang sayang jika dilewatkan, apalagi 
 
 Cava adalah *cross-platform audio visualizer*.
 
-**Github:** https://github.com/karlstav/cava 
+{{< github repo="karlstav/cava" showThumbnail=true >}}
 
 Instalasi (Archlinux) via repositori komunitas (AUR - *Arch User Repository*):
 ```shell
@@ -40,7 +41,7 @@ cava --help
 
 Pipes adalah *animated pipes terminal screensaver*.
 
-**Github:** https://github.com/pipeseroni/pipes.sh
+{{< github repo="pipeseroni/pipes.sh" showThumbnail=true >}}
 
 Instalasi (Archlinux) via repositori komunitas (AUR - *Arch User Repository*):
 ```shell
@@ -58,7 +59,7 @@ pipes.sh --help
 
 Cowsay adalah *a configurable talking cow*.
 
-**Github:** https://github.com/piuccio/cowsay
+{{< github repo="piuccio/cowsay" showThumbnail=true >}}
 
 Instalasinya (Archlinux) bisa merujuk ke repositori official:
 ```shell
@@ -79,7 +80,7 @@ cowsay --help
 
 Cbonsai adalah *a bonsai tree generator*.
 
-**Github:** https://github.com/mhzawadi/homebrew-cbonsai
+{{< github repo="mhzawadi/homebrew-cbonsai" showThumbnail=true >}}
 
 Instalasi (Archlinux) via repositori komunitas (AUR - *Arch User Repository*):
 ```shell
@@ -97,7 +98,7 @@ cbonsai --help
 
 Cmatrix adalah *terminal based "The Matrix"-like implementation*.
 
-**Github:** https://github.com/abishekvashok/cmatrix
+{{< github repo="abishekvashok/cmatrix" showThumbnail=true >}}
 
 Instalasinya (Archlinux) bisa merujuk ke repositori official:
 ```shell
@@ -114,7 +115,7 @@ cmatrix --help
 
 Figlet? *Claudia's FIGlet tree*.
 
-**Github:** https://github.com/cmatsuoka/figlet
+{{< github repo="cmatsuoka/figlet" showThumbnail=true >}}
 
 Instalasinya (Archlinux) bisa merujuk ke repositori official:
 ```shell
@@ -134,7 +135,7 @@ figlet --help
 
 Lolcat: *rainbow and unicorns*!
 
-**Github:** https://github.com/busyloop/lolcat
+{{< github repo="busyloop/lolcat" showThumbnail=true >}}
 
 Instalasinya (Archlinux) bisa merujuk ke repositori official:
 ```shell
@@ -152,7 +153,7 @@ lolcat --help
 
 Asciiquairum: *Ascii aquarium in terminal*!
 
-**Github:** https://github.com/cmatsuoka/asciiquarium
+{{< github repo="cmatsuoka/asciiquarium" showThumbnail=true >}}
 
 Instalasinya (Archlinux) bisa merujuk ke repositori official:
 ```shell
@@ -165,7 +166,7 @@ sudo pacman -Sy asciiquarium
 
 Mapscii adalah *a Braille & ASCII world map renderer for your console*.
 
-**Github:** https://github.com/rastapasta/mapscii?tab=readme-ov-file
+{{< github repo="rastapasta/mapscii" showThumbnail=true >}}
 
 ![gif9](/cooltools/gif9.gif)
 
@@ -173,7 +174,7 @@ Mapscii adalah *a Braille & ASCII world map renderer for your console*.
 
 Hollywood adalah *a technical melodrama*.
 
-**Github:** https://github.com/dustinkirkland/hollywood
+{{< github repo="dustinkirkland/hollywood" showThumbnail=true >}}
 
 Instalasi (Archlinux) via repositori komunitas (AUR - Arch User Repository):
 ```shell

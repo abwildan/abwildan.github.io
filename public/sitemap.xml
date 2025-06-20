@@ -4,7 +4,7 @@
 
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-06-18T19:09:58+07:00</lastmod>
+    <lastmod>2025-06-19T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -16,7 +16,7 @@
   </url>
   <url>
     <loc>http://localhost:1313/tech/</loc>
-    <lastmod>2025-06-18T19:09:58+07:00</lastmod>
+    <lastmod>2025-06-19T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -28,7 +28,7 @@
   </url>
   <url>
     <loc>http://localhost:1313/tech/virt-manager/</loc>
-    <lastmod>2025-06-17T00:00:00+00:00</lastmod>
+    <lastmod>2025-06-19T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

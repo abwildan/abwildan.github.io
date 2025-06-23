@@ -9,7 +9,17 @@
     <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
     <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
     <copyright>© 2025 Wildan</copyright>
-    <lastBuildDate>Sun, 02 Feb 2025 04:43:27 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/encryption/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 22 Jun 2025 16:55:16 +0700</lastBuildDate><atom:link href="http://localhost:1313/tags/encryption/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>The Standard Unix Password Manager: Pass</title>
+      <link>http://localhost:1313/tech/pass/</link>
+      <pubDate>Sun, 22 Jun 2025 16:55:16 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tech/pass/</guid>
+      <description>Password management should be simple and follow Unix philosophy. With pass, each password lives inside of a gpg encrypted file.</description>
+      
+    </item>
     
     <item>
       <title>Enrypting Disk in Linux using LUKS</title>

@@ -245,7 +245,7 @@ Semoga bermanfaat.
 
 ---
 
-_Since I played "Virt-manager" at the first time, I know this hypervisor has been outrageously captivating_... Saya bahkan bisa menjalankan [hyprland](https://hypr.land/) dengan relatif lancar, berbanding jauh dengan Virtualbox & VMWare yang _laggy_ parah..
+_Since I played "Virt-manager" at the first time, I knew this hypervisor has been outrageously captivating_... Saya bahkan bisa menjalankan [hyprland](https://hypr.land/) dengan relatif lancar, berbanding jauh dengan Virtualbox & VMWare yang _laggy_ parah..
 
 ![show](/virt-manager/show.png "hyprland on virt-manager!")
 

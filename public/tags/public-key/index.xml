@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Public Key on My Awesome Site</title>
+    <link>http://localhost:1313/tags/public-key/</link>
+    <description>Recent content in Public Key on My Awesome Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
+    <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
+    <copyright>© 2025 Wildan</copyright>
+    <lastBuildDate>Sun, 22 Jun 2025 16:55:16 +0700</lastBuildDate><atom:link href="http://localhost:1313/tags/public-key/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>The Standard Unix Password Manager: Pass</title>
+      <link>http://localhost:1313/tech/pass/</link>
+      <pubDate>Sun, 22 Jun 2025 16:55:16 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tech/pass/</guid>
+      <description>Password management should be simple and follow Unix philosophy. With pass, each password lives inside of a gpg encrypted file.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

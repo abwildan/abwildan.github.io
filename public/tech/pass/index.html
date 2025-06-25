@@ -75,7 +75,7 @@
   <meta property="og:type" content="article">
     <meta property="article:section" content="tech">
     <meta property="article:published_time" content="2025-06-22T16:55:16+07:00">
-    <meta property="article:modified_time" content="2025-06-23T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-06-25T00:00:00+00:00">
     <meta property="article:tag" content="Pass">
     <meta property="article:tag" content="Password Manager">
     <meta property="article:tag" content="Password">
@@ -110,12 +110,12 @@
     "dateCreated": "2025-06-22T16:55:16\u002b07:00",
     "datePublished": "2025-06-22T16:55:16\u002b07:00",
     
-    "dateModified": "2025-06-23T00:00:00\u002b00:00",
+    "dateModified": "2025-06-25T00:00:00\u002b00:00",
     
     "keywords": ["pass","password manager","password","encryption","gpg","asymmetric","public key","private key"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "1334"
+    "wordCount": "1824"
   }]
   </script>
 
@@ -864,7 +864,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2025-06-22T16:55:16&#43;07:00">22 June 2025</time><span class="px-2 text-primary-500">&middot;</span><time datetime="2025-06-23T00:00:00&#43;00:00">Updated: 23 June 2025</time><span class="px-2 text-primary-500">&middot;</span><span>1334 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">7 mins</span><span class="px-2 text-primary-500">&middot;</span>
+  <time datetime="2025-06-22T16:55:16&#43;07:00">22 June 2025</time><span class="px-2 text-primary-500">&middot;</span><time datetime="2025-06-25T00:00:00&#43;00:00">Updated: 25 June 2025</time><span class="px-2 text-primary-500">&middot;</span><span>1824 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">9 mins</span><span class="px-2 text-primary-500">&middot;</span>
 
 
   
@@ -1262,6 +1262,15 @@
             <li><a href="#notes">Notes</a></li>
           </ul>
         </li>
+        <li><a href="#3-pass-x-git">3. Pass x Git</a>
+          <ul>
+            <li><a href="#31-initializing-git">3.1 Initializing <code>git</code></a></li>
+            <li><a href="#32-adding-repo">3.2 Adding repo</a></li>
+            <li><a href="#33-pushing">3.3 Pushing</a></li>
+            <li><a href="#34-cloning">3.4 Cloning</a></li>
+            <li><a href="#35-importing-keys">3.5 Importing Keys</a></li>
+          </ul>
+        </li>
       </ul>
     </li>
   </ul>
@@ -1302,6 +1311,15 @@
             <li><a href="#29-grepping-metadata">2.9 Grepping Metadata</a></li>
             <li><a href="#29-deleting-pass">2.9 Deleting Pass</a></li>
             <li><a href="#notes">Notes</a></li>
+          </ul>
+        </li>
+        <li><a href="#3-pass-x-git">3. Pass x Git</a>
+          <ul>
+            <li><a href="#31-initializing-git">3.1 Initializing <code>git</code></a></li>
+            <li><a href="#32-adding-repo">3.2 Adding repo</a></li>
+            <li><a href="#33-pushing">3.3 Pushing</a></li>
+            <li><a href="#34-cloning">3.4 Cloning</a></li>
+            <li><a href="#35-importing-keys">3.5 Importing Keys</a></li>
           </ul>
         </li>
       </ul>
@@ -2049,7 +2067,191 @@ Masukkan baris berikut di file konfigurasi (<code>/etc/nixos/configuration.nix</
 <li>Pengaturan <em>passphrase</em> yang muncul tersebut juga dapat diatur, agar misalnya <em>passphrase</em> tersebut tidak hanya akan diminta pertama kali saja, tetapi, jika sudah lewat 5 detik dari permintaan pertama. Inilah yang disebut dengan pengaturan <em><strong>caching time</strong></em>. Caranya, kita menambahkan baris berikut di <strong><code>~/.gnupg/gpg-agent.conf</code></strong>:</li>
 </ol>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">default-cache-ttl <span class="m">5</span>
-</span></span></code></pre></div><div class="footnotes" role="doc-endnotes">
+</span></span></code></pre></div>
+
+<h3 class="relative group">3. Pass x Git 
+    <div id="3-pass-x-git" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#3-pass-x-git" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>Semua pengelolaan <em>password</em> di atas tentu saja hanya terjadi di komputer lokal kita. Sekarang, bagaimana jika kita ingin agar <em>password-password</em> tersebut dapat dikelola juga di komputer yang lain? Solusinya adalah dengan menggunakan fitur &ldquo;<code>git</code>&rdquo; yang disediakan oleh <strong><code>pass</code></strong>.</p>
+
+
+<h4 class="relative group">3.1 Initializing <code>git</code> 
+    <div id="31-initializing-git" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#31-initializing-git" aria-label="Anchor">#</a>
+    </span>        
+    
+</h4>
+<p>Untuk meng-inisialisasikan <code>git</code>, (dan ini adalah hal pertama yang mesti dilakukan), caranya:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">pass git init
+</span></span></code></pre></div>
+
+<h4 class="relative group">3.2 Adding repo 
+    <div id="32-adding-repo" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#32-adding-repo" aria-label="Anchor">#</a>
+    </span>        
+    
+</h4>
+<p>Sebelum menambahkan repository, kita perlu memperhatikan beberapa hal berikut ini terlebih dahulu:</p>
+<ol>
+<li>Sudah memiliki akun di <strong>Github</strong> (atau &ldquo;Gitlab&rdquo;).</li>
+<li>Sudah membuat repositori di akun <strong>Github</strong> tersebut.</li>
+</ol>
+
+  
+  
+  
+  
+
+
+
+<div
+  
+    class="flex px-4 py-3 rounded-md"
+    style="background-color: #e63946"
+  >
+
+  <span
+    
+      class="text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center"
+    >
+
+    
+
+
+  </span>
+
+  <span
+    
+      style="color: #f1faee"
+    ><p><strong>Himbauan!</strong></p>
+<p>Saran saya, untuk alasan keamanan, repositori Github yang digunakan untuk &ldquo;menyimpan&rdquo; <em>password-password</em> kita tersebut dibuat <strong>&ldquo;private&rdquo;</strong> saja  (jangan &ldquo;public&rdquo;). Dengan demikian, repositori tersebut tidak dapat dilihat oleh orang lain alias hanya kita sebagai pemilik akun Github tersebut sajalah yang dapat melihatnya.</p>
+</span>
+</div>
+
+<p>Untuk menambahkan <em>remote</em> repositori ke <code>git</code>:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="c1"># menambahkan _remote_ repositori di Github via SSH</span>
+</span></span><span class="line"><span class="cl">pass git remote add origin git@github.com:&lt;username&gt;/&lt;repo-name&gt;.git
+</span></span></code></pre></div><blockquote>
+<p>Kita dapat mengetahui tautan SSH untuk repo Github dengan melihat menu <strong>SSH</strong> pada bagian <strong>Code</strong>:
+
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="/pass/ss16.png" alt="ss16" />
+      <figcaption>Github SSH</figcaption>
+    </figure>
+</p></blockquote>
+
+
+<h4 class="relative group">3.3 Pushing 
+    <div id="33-pushing" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#33-pushing" aria-label="Anchor">#</a>
+    </span>        
+    
+</h4>
+<p>Untuk mem-<em>push</em> repositori git yang ada di komputer lokal kita ke Github:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">pass git push -u --all
+</span></span></code></pre></div><p>Maka seluruh direktori/folder berikut dengan file-file <em>password</em> di dalamnya akan &ldquo;tersimpan&rdquo; di Github.</p>
+<p>
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="/pass/ss17.png" alt="ss17" />
+      <figcaption>git init, add repo, push</figcaption>
+    </figure>
+</p>
+
+
+<h4 class="relative group">3.4 Cloning 
+    <div id="34-cloning" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#34-cloning" aria-label="Anchor">#</a>
+    </span>        
+    
+</h4>
+<p>Nah, sekarang, agar <em>password-password</em> tersebut dapat digunakan di komputer yang lain, berikut adalah syarat minimalnya:</p>
+<ol>
+<li>Komputer tersebut sudah memiliki <code>git</code>.</li>
+<li>Komputer tersebut juga sudah memiliki <strong><code>pass</code></strong>.</li>
+</ol>
+<blockquote>
+<p>Kalau belum, berarti harus install terlebih dahulu.</p></blockquote>
+<p>Agar <em>password-password</em> yang sudah ter-&quot;<em>upload</em>&quot; (<em>push</em>) ke Github tadi dapat digunakan kembali di komputer kita yang lain, kita perlu men-&quot;<em>download</em>&quot;-nya (<em>clone</em>) terlebih dahulu:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="c1"># clone the Github repo and save it to &#34;~/.password-store&#34; directory</span>
+</span></span><span class="line"><span class="cl">pass git clone git@github.com:&lt;username&gt;/&lt;repo-name&gt;.git .password-store
+</span></span></code></pre></div><p>
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="/pass/ss18.png" alt="ss18" />
+      <figcaption>cloning the pass repo</figcaption>
+    </figure>
+</p>
+<p>Seperti terlihat pada gambar di atas, kita berhasil meng-<em>clone</em> repositori Github-nya. Kita pun berhasil melihat daftar <em>password</em> yang ada. Masalahnya adalah, kita masih belum memiliki akses untuk berinteraksi (melihat, memodifikasi, mengedit, menghapus, dll) dengan <em>password-password</em> tersebut karena kita belum memiliki <em><strong>private key</strong></em> &amp; <em><strong>public key</strong></em> yang diperlukan (lihat bagian kotak berwarna merah di bagian bawah gambar tersebut).</p>
+<p>Oleh karena itu, tugas kita sekarang adalah meng-<em>import</em> kedua <em>key</em> tersebut.</p>
+
+
+<h4 class="relative group">3.5 Importing Keys 
+    <div id="35-importing-keys" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#35-importing-keys" aria-label="Anchor">#</a>
+    </span>        
+    
+</h4>
+<p>Kita harus meng-<em>export</em> <em><strong>private key</strong></em> &amp; <em><strong>public key</strong></em> terlebih dahulu, baru meng-<em>import</em>-nya.</p>
+<ol>
+<li>Export Keys</li>
+</ol>
+<p>Lakukan tahap <em>export</em> di komputer tempat membuat <em>password</em> dengan <strong><code>pass</code></strong> (bukan komputer lain).</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">mkdir keys <span class="o">&amp;&amp;</span> <span class="nb">cd</span> keys <span class="c1"># creating new dir to save exported private &amp; public key</span>
+</span></span><span class="line"><span class="cl">gpg --output private.pgp --armor --export-secret-key &lt;email@domain.com&gt; <span class="c1"># export private key</span>
+</span></span><span class="line"><span class="cl">gpg --output public.pgp --armor --export &lt;email@domain.com&gt; <span class="c1"># export public key</span>
+</span></span></code></pre></div><p>Setelah itu, kita boleh men-&ldquo;transfer&rdquo; direktori tersebut ke komputer tujuan (dengan <code>scp</code>, misalnya).</p>
+<p>
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="/pass/ss19.png" alt="ss19" />
+      <figcaption>exporting private &amp; public keys</figcaption>
+    </figure>
+</p>
+<ol start="2">
+<li>Import Keys</li>
+</ol>
+<p>Lakukan tahap <em>import</em> di komputer tujuan (tempat kita meng-<em>clone</em> repositori Github <em>password</em>).</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">gpg --import private.pgp <span class="c1"># import private key</span>
+</span></span><span class="line"><span class="cl">gpg --import public.pgp <span class="c1"># import public key</span>
+</span></span></code></pre></div><p>
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="/pass/ss20.png" alt="ss20" />
+      <figcaption>importing private &amp; public keys</figcaption>
+    </figure>
+</p>
+<p>Dan sekarang kita sudah bisa &ldquo;berinteraksi&rdquo; dengan password-password di komputer lain:</p>
+<p>
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="/pass/ss21.png" alt="ss21" />
+      <figcaption>pass on the other computer</figcaption>
+    </figure>
+</p>
+<div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
 <li id="fn:1">

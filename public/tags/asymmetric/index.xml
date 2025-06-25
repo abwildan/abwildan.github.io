@@ -18,7 +18,7 @@
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/pass/</guid>
       <description>Password management should be simple and follow Unix philosophy. With pass, each password lives inside of a gpg encrypted file.</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/pass/featured.png" />
     </item>
     
   </channel>

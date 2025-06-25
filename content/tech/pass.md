@@ -1,7 +1,7 @@
 ---
 title: "The Standard Unix Password Manager: Pass"
 date: 2025-06-22T16:55:16+07:00
-lastmod: 2025-06-23
+lastmod: 2025-06-25
 draft: false
 summary: "Password management should be simple and follow Unix philosophy. With pass, each password lives inside of a gpg encrypted file."
 tags: ["pass", "password manager", "password", "encryption", "gpg", "asymmetric", "public key", "private key"]
@@ -324,8 +324,107 @@ pass rm <dir-name>/<filename>
 default-cache-ttl 5
 ```
 
+### 3. Pass x Git
 
+Semua pengelolaan _password_ di atas tentu saja hanya terjadi di komputer lokal kita. Sekarang, bagaimana jika kita ingin agar _password-password_ tersebut dapat dikelola juga di komputer yang lain? Solusinya adalah dengan menggunakan fitur "`git`" yang disediakan oleh **`pass`**.
 
+#### 3.1 Initializing `git`
+
+Untuk meng-inisialisasikan `git`, (dan ini adalah hal pertama yang mesti dilakukan), caranya:
+
+```shell
+pass git init
+```
+
+#### 3.2 Adding repo
+
+Sebelum menambahkan repository, kita perlu memperhatikan beberapa hal berikut ini terlebih dahulu:
+1. Sudah memiliki akun di **Github** (atau "Gitlab").
+2. Sudah membuat repositori di akun **Github** tersebut.
+
+{{< alert icon=none cardColor="#e63946" textColor="#f1faee" >}}
+
+**Himbauan!**
+
+Saran saya, untuk alasan keamanan, repositori Github yang digunakan untuk "menyimpan" _password-password_ kita tersebut dibuat **"private"** saja  (jangan "public"). Dengan demikian, repositori tersebut tidak dapat dilihat oleh orang lain alias hanya kita sebagai pemilik akun Github tersebut sajalah yang dapat melihatnya.
+
+{{< /alert >}}
+
+Untuk menambahkan _remote_ repositori ke `git`:
+
+```shell
+# menambahkan _remote_ repositori di Github via SSH
+pass git remote add origin git@github.com:<username>/<repo-name>.git
+```
+
+> Kita dapat mengetahui tautan SSH untuk repo Github dengan melihat menu **SSH** pada bagian **Code**:
+> ![ss16](/pass/ss16.png "Github SSH")
+
+#### 3.3 Pushing
+
+Untuk mem-_push_ repositori git yang ada di komputer lokal kita ke Github:
+
+```shell
+pass git push -u --all
+```
+
+Maka seluruh direktori/folder berikut dengan file-file _password_ di dalamnya akan "tersimpan" di Github.
+
+![ss17](/pass/ss17.png "git init, add repo, push")
+
+#### 3.4 Cloning
+
+Nah, sekarang, agar _password-password_ tersebut dapat digunakan di komputer yang lain, berikut adalah syarat minimalnya:
+1. Komputer tersebut sudah memiliki `git`.
+2. Komputer tersebut juga sudah memiliki **`pass`**.
+
+> Kalau belum, berarti harus install terlebih dahulu.
+
+Agar _password-password_ yang sudah ter-"_upload_" (_push_) ke Github tadi dapat digunakan kembali di komputer kita yang lain, kita perlu men-"_download_"-nya (_clone_) terlebih dahulu:
+
+```shell
+# clone the Github repo and save it to "~/.password-store" directory
+pass git clone git@github.com:<username>/<repo-name>.git .password-store
+```
+
+![ss18](/pass/ss18.png "cloning the pass repo")
+
+Seperti terlihat pada gambar di atas, kita berhasil meng-_clone_ repositori Github-nya. Kita pun berhasil melihat daftar _password_ yang ada. Masalahnya adalah, kita masih belum memiliki akses untuk berinteraksi (melihat, memodifikasi, mengedit, menghapus, dll) dengan _password-password_ tersebut karena kita belum memiliki ***private key*** & ***public key*** yang diperlukan (lihat bagian kotak berwarna merah di bagian bawah gambar tersebut). 
+
+Oleh karena itu, tugas kita sekarang adalah meng-_import_ kedua _key_ tersebut.
+
+#### 3.5 Importing Keys
+
+Kita harus meng-_export_ ***private key*** & ***public key*** terlebih dahulu, baru meng-_import_-nya. 
+
+1. Export Keys
+
+Lakukan tahap _export_ di komputer tempat membuat _password_ dengan **`pass`** (bukan komputer lain).
+
+```shell
+mkdir keys && cd keys # creating new dir to save exported private & public key
+gpg --output private.pgp --armor --export-secret-key <email@domain.com> # export private key
+gpg --output public.pgp --armor --export <email@domain.com> # export public key
+```
+
+Setelah itu, kita boleh men-"transfer" direktori tersebut ke komputer tujuan (dengan `scp`, misalnya).
+
+![ss19](/pass/ss19.png "exporting private & public keys")
+
+2. Import Keys
+
+Lakukan tahap _import_ di komputer tujuan (tempat kita meng-_clone_ repositori Github _password_).
+
+```shell
+gpg --import private.pgp # import private key
+gpg --import public.pgp # import public key
+```
+
+![ss20](/pass/ss20.png "importing private & public keys")
+
+Dan sekarang kita sudah bisa "berinteraksi" dengan password-password di komputer lain:
+
+![ss21](/pass/ss21.png "pass on the other computer")
 
 
 

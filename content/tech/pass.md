@@ -1,7 +1,7 @@
 ---
 title: "The Standard Unix Password Manager: Pass"
 date: 2025-06-22T16:55:16+07:00
-lastmod: 2025-06-25
+lastmod: 2025-06-26
 draft: false
 summary: "Password management should be simple and follow Unix philosophy. With pass, each password lives inside of a gpg encrypted file."
 tags: ["pass", "password manager", "password", "encryption", "gpg", "asymmetric", "public key", "private key"]
@@ -426,6 +426,9 @@ Dan sekarang kita sudah bisa "berinteraksi" dengan password-password di komputer
 
 ![ss21](/pass/ss21.png "pass on the other computer")
 
+---
+
+{{< youtube FhwsfH2TpFA >}}
 
 
 

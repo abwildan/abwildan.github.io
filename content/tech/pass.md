@@ -1,7 +1,7 @@
 ---
 title: "The Standard Unix Password Manager: Pass"
 date: 2025-06-22T16:55:16+07:00
-lastmod: 2025-06-26
+lastmod: 2025-06-28
 draft: false
 summary: "Password management should be simple and follow Unix philosophy. With pass, each password lives inside of a gpg encrypted file."
 tags: ["pass", "password manager", "password", "encryption", "gpg", "asymmetric", "public key", "private key"]
@@ -197,7 +197,7 @@ pass insert <sub-dir>/<filename>
 
 ![ss7](/pass/ss7.png "creating new pass") 
 
-Perhatikan bahwa file "github" berada langsung di bawah direktori `~/.password-store`, sementara, file "email" untuk wildan & alex berada di sub-direktori `~/.password-store/email`. Jika kita pertama kali membuat sebuah sub-direktori, perintah di atas akan secara otomatis juga akan membuatkan sebuah folder baru.
+Perhatikan bahwa file "github" berada langsung di bawah direktori `~/.password-store`, sementara, file "email" untuk wildan & alex berada di sub-direktori `~/.password-store/email`. Jika kita pertama kali membuat sebuah sub-direktori, perintah di atas secara otomatis juga akan membuatkan sebuah folder baru.
 
 #### 2.3 Generating Pass
 
@@ -217,7 +217,7 @@ Perhatikan bahwa saya men-_generate_ 2 file _password_ baru, yaitu "snake" & "ch
 
 #### 2.4 Listing Pass
 
-Selain dengan melihat langsung ke direktori `~/.password-store`, **`pass`** juga memungkinkan kita untuk melihat daftar file `password` yang sudah kita buat dengan perintah:
+Selain dengan melihat langsung ke direktori `~/.password-store`, **`pass`** juga memungkinkan kita untuk melihat daftar file _password_ yang sudah kita buat dengan perintah:
 
 ```shell
 pass ls

@@ -1,6 +1,7 @@
 ---
 title: "A Feature Rich Command Line Audio/Video Downloader: YT-DLP"
 date: 2024-06-23T00:49:55-04:00
+lastmod: 2025-07-13
 draft: false		
 summary: "A small yet powerful utility for downloading videos from popular stream sites."
 cover: 
@@ -100,6 +101,26 @@ yt-dlp -x --audio-format mp3 <link video youtube>
 ```
 
 ![ss3](/yt-dlp/ss3.png)
+
+### See Available Size & Format
+
+Untuk melihat ukuran dan format video yang tersedia:
+
+```shell
+yt-dlp -F <link video youtube>
+```
+
+![ss4](/yt-dlp/ss4.png)
+
+### Spesific Size
+
+Untuk mengunduh video dengan ukuran pixel tertentu:
+
+```shell
+yt-dlp -f <ID> <link video youtube>
+```
+
+![ss5](/yt-dlp/ss5.png)
 
 Yaa, sekian dulu, hehe.  
 

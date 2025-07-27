@@ -1,0 +1,3334 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="scroll-smooth" data-default-appearance="light"
+  data-auto-appearance="true"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  
+  <meta http-equiv="content-language" content="en" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  
+  <title>Git in A Nutshell (&#43; Lazygit) &middot; My Awesome Site</title>
+  <meta name="title" content="Git in A Nutshell (&#43; Lazygit) &middot; My Awesome Site" />
+  
+  <meta name="description" content="A seriously short introduction to Git and Github, with Lazygit as an automation tool for Git. Its not as hard as you assume. Dont overthink it." />
+  <meta name="keywords" content="git, github, lazygit, ssh, gpg, " />
+  
+  
+  <link rel="canonical" href="http://localhost:1313/tech/git/" />
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.1c9cd0d1ebaf117272b5c4f6bd49878475cb210d5e0da4f061632d779f5bb46851881c187e6e634dba5071c4e3d80e7d5cec1dd80443b2fa68acd358f9eda881.css"
+    integrity="sha512-HJzQ0euvEXJytcT2vUmHhHXLIQ1eDaTwYWMtd59btGhRiBwYfm5jTbpQccTj2A59XOwd2ARDsvporNNY&#43;e2ogQ==" />
+  
+  
+  <script type="text/javascript" src="/js/appearance.min.516a16745bea5a9bd011138d254cc0fd3973cd55ce6e15f3dec763e7c7c2c7448f8fe7b54cca811cb821b0c7e12cd161caace1dd794ac3d34d40937cbcc9ee12.js"
+    integrity="sha512-UWoWdFvqWpvQERONJUzA/TlzzVXObhXz3sdj58fCx0SPj&#43;e1TMqBHLghsMfhLNFhyqzh3XlKw9NNQJN8vMnuEg=="></script>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script defer type="text/javascript" id="script-bundle" src="/js/main.bundle.min.829f1a320d5c2d64e9e0220d20960155b426b094cfb2440e4938166a93f52805a398e64abc400353e7a0b8ea9cb75083d6dd5238a5d4a59fd0cd01008d407301.js"
+    integrity="sha512-gp8aMg1cLWTp4CINIJYBVbQmsJTPskQOSTgWapP1KAWjmOZKvEADU&#43;eguOqct1CD1t1SOKXUpZ/QzQEAjUBzAQ==" data-copy="Copy" data-copied="Copied"></script>
+  
+  
+  
+  <script src="/lib/zoom/zoom.min.f592a181a15d2a5b042daa7f746c3721acf9063f8b6acd175d989129865a37d400ae0e85b640f9ad42cd98d1f8ad30931718cf8811abdcc5fcb264400d1a2b0c.js" integrity="sha512-9ZKhgaFdKlsELap/dGw3Iaz5Bj&#43;Las0XXZiRKYZaN9QArg6FtkD5rULNmNH4rTCTFxjPiBGr3MX8smRADRorDA=="></script>
+  
+  
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+  
+  
+  
+  
+  
+  
+  
+  
+  <meta property="og:url" content="http://localhost:1313/tech/git/">
+  <meta property="og:site_name" content="My Awesome Site">
+  <meta property="og:title" content="Git in A Nutshell (&#43; Lazygit)">
+  <meta property="og:description" content="A seriously short introduction to Git and Github, with Lazygit as an automation tool for Git. Its not as hard as you assume. Dont overthink it.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="tech">
+    <meta property="article:published_time" content="2025-07-19T07:10:27+07:00">
+    <meta property="article:modified_time" content="2025-07-19T07:10:27+07:00">
+    <meta property="article:tag" content="Git">
+    <meta property="article:tag" content="Github">
+    <meta property="article:tag" content="Lazygit">
+    <meta property="article:tag" content="Ssh">
+    <meta property="article:tag" content="Gpg">
+    <meta property="og:image" content="http://localhost:1313/tech/git/featured.png">
+
+  
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/tech/git/featured.png">
+  <meta name="twitter:title" content="Git in A Nutshell (&#43; Lazygit)">
+  <meta name="twitter:description" content="A seriously short introduction to Git and Github, with Lazygit as an automation tool for Git. Its not as hard as you assume. Dont overthink it.">
+
+  
+  <script type="application/ld+json">
+  [{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "articleSection": "Teches",
+    "name": "Git in A Nutshell (\u002b Lazygit)",
+    "headline": "Git in A Nutshell (\u002b Lazygit)",
+    
+    "abstract": "A seriously short introduction to Git and Github, with Lazygit as an automation tool for Git. Its not as hard as you assume. Dont overthink it.",
+    "inLanguage": "en",
+    "url" : "http:\/\/localhost:1313\/tech\/git\/",
+    "author" : {
+      "@type": "Person",
+      "name": "Wildan"
+    },
+    "copyrightYear": "2025",
+    "dateCreated": "2025-07-19T07:10:27\u002b07:00",
+    "datePublished": "2025-07-19T07:10:27\u002b07:00",
+    
+    "dateModified": "2025-07-19T07:10:27\u002b07:00",
+    
+    "keywords": ["git","github","lazygit","ssh","gpg"],
+    
+    "mainEntityOfPage": "true",
+    "wordCount": "2408"
+  }]
+  </script>
+
+
+  
+  
+  <meta name="author" content="Wildan" />
+  
+  
+  
+  
+  <link href="https://discord.gg/invitecode" rel="me" />
+  
+  
+  
+  
+  <link href="https://facebook.com/username" rel="me" />
+  
+  
+  
+  
+  <link href="https://github.com/username" rel="me" />
+  
+  
+  
+  
+  <link href="https://instagram.com/username" rel="me" />
+  
+  
+  
+  
+  <link href="https://linkedin.com/in/username" rel="me" />
+  
+  
+  
+  
+  <link href="https://medium.com/username" rel="me" />
+  
+  
+  
+  
+  <link href="https://t.me/username" rel="me" />
+  
+  
+  
+  
+  <link href="https://x.com/username" rel="me" />
+  
+  
+  
+  
+  
+
+<script src="/lib/jquery/jquery.slim.min.b0dca576e87d7eaa5850ae4e61759c065786cdb6489d68fcc82240539eebd5da522bdb4fda085ffd245808c8fe2acb2516408eb774ef26b5f6015fc6737c0ea8.js" integrity="sha512-sNylduh9fqpYUK5OYXWcBleGzbZInWj8yCJAU57r1dpSK9tP2ghf/SRYCMj&#43;KsslFkCOt3TvJrX2AV/Gc3wOqA=="></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+  
+  <meta name="theme-color"/>
+  
+  
+</head>
+<body
+  class="flex flex-col h-screen px-6 m-auto text-lg leading-7 max-w-7xl bg-neutral text-neutral-900 dark:bg-neutral-800 dark:text-neutral sm:px-14 md:px-24 lg:px-32 scrollbar-thin scrollbar-track-neutral-200 scrollbar-thumb-neutral-400 dark:scrollbar-track-neutral-800 dark:scrollbar-thumb-neutral-600">
+  <div id="the-top" class="absolute flex self-center">
+    <a class="px-3 py-1 text-sm -translate-y-8 rounded-b-lg bg-primary-200 focus:translate-y-0 dark:bg-neutral-600"
+      href="#main-content"><span
+        class="font-bold text-primary-600 ltr:pr-2 rtl:pl-2 dark:text-primary-400">&darr;</span>Skip to main content</a>
+  </div>
+  
+  
+  <div class="min-h-[148px]"></div>
+<div class="fixed inset-x-0 pl-[24px] pr-[24px]" style="z-index:100">
+  <div id="menu-blur" class="absolute opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom backdrop-blur-2xl shadow-2xl"></div>
+  <div class="relative max-w-[64rem] ml-auto mr-auto">
+    <div style="padding-left:0;padding-right:0;padding-top:2px;padding-bottom:3px"
+    class="main-menu flex items-center justify-between px-4 py-6 sm:px-6 md:justify-start gap-x-3">
+    
+    
+    
+    <div>
+        <a href="/" class="flex">
+            <span class="sr-only">My Awesome Site</span>
+
+            
+            <img src="/tsukasa2.png" width="31" height="31"
+                class="logo max-h-[5rem] max-w-[5rem] object-scale-down object-left nozoom" alt="My Awesome Site" />
+            
+
+        </a>
+    </div>
+    
+    <div class="flex flex-1 items-center justify-between">
+        <nav class="flex space-x-3">
+
+            
+            <a href="/" class="text-base font-medium text-gray-500 hover:text-gray-900">My Awesome Site</a>
+            
+
+        </nav>
+        <nav class="hidden md:flex items-center gap-x-5 md:ml-12 h-12">
+
+            
+            
+            
+  <a href="/tech/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    
+    <span  class="mr-1" >
+        
+
+  <span class="relative block icon">
+    <?xml version="1.0" encoding="utf-8"?>
+
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+<svg fill="#000000" version="1.1" id="XMLID_65_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+	 viewBox="0 0 24 24" xml:space="preserve">
+<g id="article">
+	<g>
+		<path d="M20.5,22H4c-0.2,0-0.3,0-0.5,0C1.6,22,0,20.4,0,18.5V6h5V2h19v16.5C24,20.4,22.4,22,20.5,22z M6.7,20h13.8
+			c0.8,0,1.5-0.7,1.5-1.5V4H7v14.5C7,19,6.9,19.5,6.7,20z M2,8v10.5C2,19.3,2.7,20,3.5,20S5,19.3,5,18.5V8H2z"/>
+	</g>
+	<g>
+		<rect x="15" y="6" width="5" height="6"/>
+	</g>
+	<g>
+		<rect x="9" y="6" width="4" height="2"/>
+	</g>
+	<g>
+		<rect x="9" y="10" width="4" height="2"/>
+	</g>
+	<g>
+		<rect x="9" y="14" width="11" height="2"/>
+	</g>
+</g>
+</svg>
+  </span>
+
+
+    </span>
+    
+    <p class="text-base font-medium" title="Teches">
+        Tech
+    </p>
+</a>
+
+
+
+            
+            
+  <a href="/chess/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    
+    <span  class="mr-1" >
+        
+
+  <span class="relative block icon">
+    <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+<svg width="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M12 0C12.5523 0 13 0.447715 13 1V2H14C14.5523 2 15 2.44772 15 3C15 3.55228 14.5523 4 14 4H13L13 6.13426C14.1873 6.46304 15.1164 7.36761 15.6095 8.53557C16.7887 7.70672 18.0146 7.33092 19.1893 7.38765C20.8173 7.46629 22.1801 8.37142 22.9824 9.70379C24.5267 12.2682 23.9536 16.1461 20.2565 19.277L21.1708 21.1056C21.8357 22.4354 20.8688 24 19.382 24H4.61805C3.13129 24 2.1643 22.4354 2.82919 21.1056L3.74347 19.277C0.0464058 16.1461 -0.526611 12.2682 1.01767 9.70378C1.82002 8.37141 3.18278 7.46628 4.8108 7.38766C5.9855 7.33093 7.21132 7.70675 8.3906 8.5356C8.88363 7.36763 9.81271 6.46305 11 6.13427L11 4H10C9.44771 4 9 3.55228 9 3C9 2.44772 9.44771 2 10 2H11V1C11 0.447715 11.4477 0 12 0ZM8.01285 10.8098C6.84088 9.69153 5.74956 9.34466 4.90727 9.38533C4.0034 9.42898 3.2202 9.92317 2.73099 10.7355C1.80208 12.2781 1.87787 15.2648 5.34014 18H10.4437C10.1872 17.422 9.88055 16.7115 9.57338 15.9543C9.19326 15.0173 8.80704 13.9956 8.51427 13.0583C8.27053 12.2779 8.06505 11.476 8.01285 10.8098ZM13.5564 18H18.6599C22.1222 15.2648 22.198 12.2781 21.2691 10.7355C20.7799 9.92318 19.9967 9.42898 19.0928 9.38533C18.2505 9.34464 17.1592 9.6915 15.9872 10.8097C15.935 11.4759 15.7296 12.2779 15.4858 13.0583C15.193 13.9956 14.8068 15.0173 14.4267 15.9543C14.1195 16.7115 13.8129 17.422 13.5564 18ZM18.382 20H12H5.61804L4.61805 22H19.382L18.382 20ZM12 16.5687C12.1822 16.1478 12.3779 15.6844 12.5734 15.2025C12.9433 14.2907 13.307 13.3255 13.5768 12.462C13.8564 11.5668 14 10.8867 14 10.5C14 10.4699 13.9996 10.4401 13.9989 10.4105C13.959 8.87922 12.9603 8 12 8C11.0398 8 10.0411 8.87924 10.0012 10.4105C10.0004 10.4401 10 10.47 10 10.5C10 10.8867 10.1437 11.5668 10.4233 12.462C10.693 13.3255 11.0568 14.2907 11.4267 15.2025C11.6222 15.6844 11.8179 16.1478 12 16.5687Z" fill="#000000"/>
+</svg>
+  </span>
+
+
+    </span>
+    
+    <p class="text-base font-medium" title="Chesses">
+        Chess
+    </p>
+</a>
+
+
+
+            
+             
+  <div>
+  <div class="cursor-pointer flex items-center nested-menu">
+    
+    <span  class="mr-1" >
+      
+
+  <span class="relative block icon">
+    <?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+<g id="surface1">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(0%,0%,0%);fill-opacity:1;" d="M 0 0 L 0 24 L 24 24 L 24 0 Z M 13.683594 4.21875 C 14.628906 4.21875 15.398438 4.988281 15.398438 5.933594 C 15.398438 6.878906 14.628906 7.648438 13.683594 7.648438 C 12.734375 7.648438 11.96875 6.878906 11.96875 5.933594 C 11.96875 4.988281 12.734375 4.21875 13.683594 4.21875 Z M 19.78125 19.78125 L 4.21875 19.78125 L 4.21875 16.324219 L 8.605469 11.695312 L 13.683594 15.324219 L 17.335938 13.199219 L 19.78125 15.78125 Z M 19.78125 19.78125 "/>
+</g>
+</svg>
+
+  </span>
+
+
+    </span>
+    
+    <a  href="/gallery/"   class="text-base font-medium text-gray-500 hover:text-primary-600 dark:hover:text-primary-400" title="Galleries">
+      Gallery
+    </a>
+    <span>
+      
+
+  <span class="relative block icon">
+    <svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 20 20"
+  fill="currentColor"
+  aria-hidden="true"
+>
+  <path
+    fill-rule="evenodd"
+    d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+    clip-rule="evenodd"
+  />
+</svg>
+
+  </span>
+
+
+    </span>
+  </div>
+  <div class="absolute menuhide">
+    <div class="pt-2 p-5 mt-2 rounded-xl backdrop-blur shadow-2xl">
+      <div class="flex flex-col space-y-3">
+        
+        <a href="/gallery/wall/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+          
+          <p class="text-sm font-sm" title="Wallpaper">
+            Wallpaper
+          </p>
+        </a>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+            
+            
+  <a href="https://github.com/abwildan"  target="_blank"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    
+    <span >
+        
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+
+  </span>
+
+
+    </span>
+    
+    <p class="text-base font-medium" title="">
+        
+    </p>
+</a>
+
+
+
+            
+            
+
+            
+
+
+            
+            <button id="search-button" aria-label="Search" class="text-base hover:text-primary-600 dark:hover:text-primary-400"
+                title="">
+                
+
+  <span class="relative block icon">
+    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+
+  </span>
+
+
+            </button>
+            
+
+
+            
+            
+            <div
+                class=" flex items-center">
+                <button id="appearance-switcher" aria-label="Dark mode switcher" type="button" class="text-base hover:text-primary-600 dark:hover:text-primary-400">
+                    <div class="flex items-center justify-center dark:hidden">
+                        
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
+
+  </span>
+
+
+                    </div>
+                    <div class="items-center justify-center hidden dark:flex">
+                        
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/></svg>
+
+  </span>
+
+
+                    </div>
+                </button>
+            </div>
+            
+
+        </nav>
+        <div class="flex md:hidden items-center gap-x-5 md:ml-12 h-12">
+
+            <span></span>
+
+            
+
+
+            
+            <button id="search-button-mobile" aria-label="Search" class="text-base hover:text-primary-600 dark:hover:text-primary-400"
+                title="">
+                
+
+  <span class="relative block icon">
+    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+
+  </span>
+
+
+            </button>
+            
+
+            
+            
+            <button id="appearance-switcher-mobile" aria-label="Dark mode switcher" type="button" class="text-base hover:text-primary-600 dark:hover:text-primary-400 ltr:mr-1 rtl:ml-1">
+                <div class="flex items-center justify-center dark:hidden">
+                    
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
+
+  </span>
+
+
+                </div>
+                <div class="items-center justify-center hidden dark:flex">
+                    
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/></svg>
+
+  </span>
+
+
+                </div>
+            </button>
+            
+
+        </div>
+    </div>
+    <div class="-my-2 md:hidden">
+
+        <label id="menu-button" class="block">
+            
+            <div class="cursor-pointer hover:text-primary-600 dark:hover:text-primary-400">
+                
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z"/></svg>
+
+  </span>
+
+
+            </div>
+            <div id="menu-wrapper" style="padding-top:5px;"
+                class="fixed inset-0 z-30 invisible w-screen h-screen m-0 overflow-auto transition-opacity opacity-0 cursor-default bg-neutral-100/50 backdrop-blur-sm dark:bg-neutral-900/50">
+                <ul
+                    class="flex space-y-2 mt-3 flex-col items-end w-full px-6 py-6 mx-auto overflow-visible list-none ltr:text-right rtl:text-left max-w-7xl">
+
+                    <li id="menu-close-button">
+                        <span
+                            class="cursor-pointer inline-block align-text-bottom hover:text-primary-600 dark:hover:text-primary-400">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+
+  </span>
+
+</span>
+                    </li>
+
+                    
+
+                    
+  <li class="mt-1">
+    <a href="/tech/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <div  class="mr-2" >
+            
+
+  <span class="relative block icon">
+    <?xml version="1.0" encoding="utf-8"?>
+
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+<svg fill="#000000" version="1.1" id="XMLID_65_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+	 viewBox="0 0 24 24" xml:space="preserve">
+<g id="article">
+	<g>
+		<path d="M20.5,22H4c-0.2,0-0.3,0-0.5,0C1.6,22,0,20.4,0,18.5V6h5V2h19v16.5C24,20.4,22.4,22,20.5,22z M6.7,20h13.8
+			c0.8,0,1.5-0.7,1.5-1.5V4H7v14.5C7,19,6.9,19.5,6.7,20z M2,8v10.5C2,19.3,2.7,20,3.5,20S5,19.3,5,18.5V8H2z"/>
+	</g>
+	<g>
+		<rect x="15" y="6" width="5" height="6"/>
+	</g>
+	<g>
+		<rect x="9" y="6" width="4" height="2"/>
+	</g>
+	<g>
+		<rect x="9" y="10" width="4" height="2"/>
+	</g>
+	<g>
+		<rect x="9" y="14" width="11" height="2"/>
+	</g>
+</g>
+</svg>
+  </span>
+
+
+        </div>
+        
+        <p class="text-bg font-bg" title="Teches">
+            Tech
+        </p>
+    </a>
+</li>
+
+
+
+
+                    
+
+                    
+  <li class="mt-1">
+    <a href="/chess/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <div  class="mr-2" >
+            
+
+  <span class="relative block icon">
+    <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+<svg width="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M12 0C12.5523 0 13 0.447715 13 1V2H14C14.5523 2 15 2.44772 15 3C15 3.55228 14.5523 4 14 4H13L13 6.13426C14.1873 6.46304 15.1164 7.36761 15.6095 8.53557C16.7887 7.70672 18.0146 7.33092 19.1893 7.38765C20.8173 7.46629 22.1801 8.37142 22.9824 9.70379C24.5267 12.2682 23.9536 16.1461 20.2565 19.277L21.1708 21.1056C21.8357 22.4354 20.8688 24 19.382 24H4.61805C3.13129 24 2.1643 22.4354 2.82919 21.1056L3.74347 19.277C0.0464058 16.1461 -0.526611 12.2682 1.01767 9.70378C1.82002 8.37141 3.18278 7.46628 4.8108 7.38766C5.9855 7.33093 7.21132 7.70675 8.3906 8.5356C8.88363 7.36763 9.81271 6.46305 11 6.13427L11 4H10C9.44771 4 9 3.55228 9 3C9 2.44772 9.44771 2 10 2H11V1C11 0.447715 11.4477 0 12 0ZM8.01285 10.8098C6.84088 9.69153 5.74956 9.34466 4.90727 9.38533C4.0034 9.42898 3.2202 9.92317 2.73099 10.7355C1.80208 12.2781 1.87787 15.2648 5.34014 18H10.4437C10.1872 17.422 9.88055 16.7115 9.57338 15.9543C9.19326 15.0173 8.80704 13.9956 8.51427 13.0583C8.27053 12.2779 8.06505 11.476 8.01285 10.8098ZM13.5564 18H18.6599C22.1222 15.2648 22.198 12.2781 21.2691 10.7355C20.7799 9.92318 19.9967 9.42898 19.0928 9.38533C18.2505 9.34464 17.1592 9.6915 15.9872 10.8097C15.935 11.4759 15.7296 12.2779 15.4858 13.0583C15.193 13.9956 14.8068 15.0173 14.4267 15.9543C14.1195 16.7115 13.8129 17.422 13.5564 18ZM18.382 20H12H5.61804L4.61805 22H19.382L18.382 20ZM12 16.5687C12.1822 16.1478 12.3779 15.6844 12.5734 15.2025C12.9433 14.2907 13.307 13.3255 13.5768 12.462C13.8564 11.5668 14 10.8867 14 10.5C14 10.4699 13.9996 10.4401 13.9989 10.4105C13.959 8.87922 12.9603 8 12 8C11.0398 8 10.0411 8.87924 10.0012 10.4105C10.0004 10.4401 10 10.47 10 10.5C10 10.8867 10.1437 11.5668 10.4233 12.462C10.693 13.3255 11.0568 14.2907 11.4267 15.2025C11.6222 15.6844 11.8179 16.1478 12 16.5687Z" fill="#000000"/>
+</svg>
+  </span>
+
+
+        </div>
+        
+        <p class="text-bg font-bg" title="Chesses">
+            Chess
+        </p>
+    </a>
+</li>
+
+
+
+
+                    
+
+                     
+  <li class="mt-1">
+    <a href="/gallery/" class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <span  class="mr-1" >
+            
+
+  <span class="relative block icon">
+    <?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+<g id="surface1">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(0%,0%,0%);fill-opacity:1;" d="M 0 0 L 0 24 L 24 24 L 24 0 Z M 13.683594 4.21875 C 14.628906 4.21875 15.398438 4.988281 15.398438 5.933594 C 15.398438 6.878906 14.628906 7.648438 13.683594 7.648438 C 12.734375 7.648438 11.96875 6.878906 11.96875 5.933594 C 11.96875 4.988281 12.734375 4.21875 13.683594 4.21875 Z M 19.78125 19.78125 L 4.21875 19.78125 L 4.21875 16.324219 L 8.605469 11.695312 L 13.683594 15.324219 L 17.335938 13.199219 L 19.78125 15.78125 Z M 19.78125 19.78125 "/>
+</g>
+</svg>
+
+  </span>
+
+
+        </span>
+        
+        <p class="text-bg font-bg" title="Galleries">
+            Gallery
+        </p>
+        <span>
+            
+
+  <span class="relative block icon">
+    <svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 20 20"
+  fill="currentColor"
+  aria-hidden="true"
+>
+  <path
+    fill-rule="evenodd"
+    d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+    clip-rule="evenodd"
+  />
+</svg>
+
+  </span>
+
+
+        </span>
+    </a>
+</li>
+
+<li class="mt-1">
+    <a href="/gallery/wall/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-sm font-small" title="Wallpaper">
+            Wallpaper
+        </p>
+    </a>
+</li>
+
+<li class="mb-2"></li>
+
+
+
+
+                    
+
+                    
+  <li class="mt-1">
+    <a href="https://github.com/abwildan"  target="_blank"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <div >
+            
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+
+  </span>
+
+
+        </div>
+        
+        <p class="text-bg font-bg" title="">
+            
+        </p>
+    </a>
+</li>
+
+
+
+
+                    
+
+                </ul>
+                
+                
+
+            </div>
+        </label>
+    </div>
+</div>
+
+
+
+
+<script>
+    (function () {
+        var $mainmenu = $('.main-menu');
+        var path = window.location.pathname;
+        $mainmenu.find('a[href="' + path + '"]').each(function (i, e) {
+            $(e).children('p').addClass('active');
+        });
+    })();
+</script>
+
+
+  </div>
+</div>
+<script>
+  window.addEventListener('scroll', function (e) {
+    var scroll = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+    var background_blur = document.getElementById('menu-blur');
+    background_blur.style.opacity = (scroll / 300);
+  });
+</script>
+
+  
+  <div class="relative flex flex-col grow">
+    <main id="main-content" class="grow">
+      
+
+
+<article>
+  
+  
+  
+  
+  
+  
+
+
+<div id="hero" class="h-[150px] md:h-[200px]"></div>
+
+
+
+    
+    <div class="fixed inset-x-0 top-0 h-[800px] single_hero_background nozoom"
+    style="background-image:url(/tech/git/featured_hu_fe15ec361019476e.png);">
+    
+
+
+    <div class="absolute inset-0 bg-gradient-to-t from-neutral dark:from-neutral-800 to-transparent mix-blend-normal">
+    </div>
+    <div
+        class="absolute inset-0 opacity-60 bg-gradient-to-t from-neutral dark:from-neutral-800 to-neutral-100 dark:to-neutral-800 mix-blend-normal">
+    </div>
+</div>
+
+<div id="background-blur" class="fixed opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom backdrop-blur-2xl"></div>
+<script>
+    window.addEventListener('scroll', function (e) {
+        var scroll = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+        var background_blur = document.getElementById('background-blur');
+        background_blur.style.opacity = (scroll / 300)
+    });
+</script>
+
+  
+  
+
+  <header id="single_header" class="mt-5 max-w-prose">
+    
+    <ol class="text-sm text-neutral-500 dark:text-neutral-400 print:hidden">
+  
+  
+    
+  
+    
+  
+  <li class="hidden">
+    <a
+      class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
+      href="/"
+      ></a
+    ><span class="px-1 text-primary-500">/</span>
+  </li>
+
+  
+  <li class="inline">
+    <a
+      class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
+      href="/tech/"
+      >Teches</a
+    ><span class="px-1 text-primary-500">/</span>
+  </li>
+
+  
+  <li class="hidden">
+    <a
+      class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
+      href="/tech/git/"
+      >Git in A Nutshell (&#43; Lazygit)</a
+    ><span class="px-1 text-primary-500">/</span>
+  </li>
+
+</ol>
+
+
+    
+    <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+      Git in A Nutshell (+ Lazygit)
+    </h1>
+    <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
+      
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  <time datetime="2025-07-19T07:10:27&#43;07:00">19 July 2025</time><span class="px-2 text-primary-500">&middot;</span><span>2408 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">12 mins</span><span class="px-2 text-primary-500">&middot;</span>
+
+
+  
+    
+  
+  
+
+<span class="mb-[2px]">
+  <a
+    href="#/tech/git.md"
+    class="text-lg hover:text-primary-500"
+    rel="noopener noreferrer"
+    target="_blank"
+    title="Edit content"
+    ><span class="inline-block align-text-bottom">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><path fill="currentColor" d="M441 58.9L453.1 71c9.4 9.4 9.4 24.6 0 33.9L424 134.1 377.9 88 407 58.9c9.4-9.4 24.6-9.4 33.9 0zM209.8 256.2L344 121.9 390.1 168 255.8 302.2c-2.9 2.9-6.5 5-10.4 6.1l-58.5 16.7 16.7-58.5c1.1-3.9 3.2-7.5 6.1-10.4zM373.1 25L175.8 222.2c-8.7 8.7-15 19.4-18.3 31.1l-28.6 100c-2.4 8.4-.1 17.4 6.1 23.6s15.2 8.5 23.6 6.1l100-28.6c11.8-3.4 22.5-9.7 31.1-18.3L487 138.9c28.1-28.1 28.1-73.7 0-101.8L474.9 25C446.8-3.1 401.2-3.1 373.1 25zM88 64C39.4 64 0 103.4 0 152V424c0 48.6 39.4 88 88 88H360c48.6 0 88-39.4 88-88V312c0-13.3-10.7-24-24-24s-24 10.7-24 24V424c0 22.1-17.9 40-40 40H88c-22.1 0-40-17.9-40-40V152c0-22.1 17.9-40 40-40H200c13.3 0 24-10.7 24-24s-10.7-24-24-24H88z"/></svg>
+  </span>
+
+</span></a
+  >
+</span><span class="px-2 text-primary-500">&middot;</span>
+
+
+<script type="text/javascript" src="/js/zen-mode.min.2a0a1375509c03daf41c53a9831aa2d560895b7a2528c3eb3b56e7b11a135c7529e49727162a053b6193be8340270a8342f42c69f3d7e262ae54bc248eaac8f5.js" integrity="sha512-KgoTdVCcA9r0HFOpgxqi1WCJW3olKMPrO1bnsRoTXHUp5JcnFioFO2GTvoNAJwqDQvQsafPX4mKuVLwkjqrI9Q=="></script>
+
+<span class="mb-[2px]">
+    <span id="zen-mode-button"
+          class="text-lg hover:text-primary-500"
+          title="Enable zen mode"
+          data-title-i18n-disable="Enable zen mode"
+          data-title-i18n-enable="Disable zen mode">
+        <span class="inline-block align-text-bottom">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="50px" height="50px">
+    <path fill="currentColor" d="M 12.980469 4 C 9.1204688 4 5.9804688 7.14 5.9804688 11 L 6 26 L 9.9804688 26 L 9.9804688 11 C 9.9804688 9.35 11.320469 8 12.980469 8 L 40.019531 8 C 41.679531 8 43.019531 9.35 43.019531 11 L 43.019531 39 C 43.019531 40.65 41.679531 42 40.019531 42 L 29 42 C 29 43.54 28.420938 44.94 27.460938 46 L 40.019531 46 C 43.879531 46 47.019531 42.86 47.019531 39 L 47.019531 11 C 47.019531 7.14 43.879531 4 40.019531 4 L 12.980469 4 z M 7 28 C 4.794 28 3 29.794 3 32 L 3 42 C 3 44.206 4.794 46 7 46 L 23 46 C 25.206 46 27 44.206 27 42 L 27 32 C 27 29.794 25.206 28 23 28 L 7 28 z M 7 32 L 23 32 L 23.001953 42 L 7 42 L 7 32 z"/>
+</svg>
+  </span>
+
+</span>
+    </span>
+</span>
+  
+
+  
+  
+</div>
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/categories/git/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Git
+  </span>
+</span>
+  </span>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/git/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Git
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/github/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Github
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/lazygit/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Lazygit
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/ssh/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Ssh
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/gpg/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Gpg
+  </span>
+</span>
+  </span>
+  
+  
+  
+  
+</div>
+
+
+
+
+    </div>
+
+    
+    
+    
+    
+    
+
+    
+
+    
+      
+      
+        
+        
+<div class="flex author">
+  
+    
+    
+      
+    
+    
+      
+        
+      
+      <img class="!mt-0 !mb-0 h-24 w-24 rounded-full ltr:mr-4 rtl:ml-4" width="96" height="96"
+      alt="Wildan" src="/tsukasa_hu_b7684f491175234e.png" />
+    
+  
+  <div class="place-self-center">
+    
+    <div class="text-[0.6rem] uppercase leading-3 text-neutral-500 dark:text-neutral-400">
+      Author
+    </div>
+    <div class="font-semibold leading-6 text-neutral-800 dark:text-neutral-300">
+      Wildan
+    </div>
+    
+    
+    <div class="text-sm text-neutral-700 dark:text-neutral-400">An Ordinary Human Being</div>
+    
+    <div class="text-2xl sm:text-lg">
+  <div class="flex flex-wrap text-neutral-400 dark:text-neutral-500">
+    
+      
+        <a
+          class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
+          href="https://discord.gg/invitecode"
+          target="_blank"
+          aria-label="Discord"
+          rel="me noopener noreferrer"
+          ><span class="inline-block align-text-bottom">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M524.531,69.836a1.5,1.5,0,0,0-.764-.7A485.065,485.065,0,0,0,404.081,32.03a1.816,1.816,0,0,0-1.923.91,337.461,337.461,0,0,0-14.9,30.6,447.848,447.848,0,0,0-134.426,0,309.541,309.541,0,0,0-15.135-30.6,1.89,1.89,0,0,0-1.924-.91A483.689,483.689,0,0,0,116.085,69.137a1.712,1.712,0,0,0-.788.676C39.068,183.651,18.186,294.69,28.43,404.354a2.016,2.016,0,0,0,.765,1.375A487.666,487.666,0,0,0,176.02,479.918a1.9,1.9,0,0,0,2.063-.676A348.2,348.2,0,0,0,208.12,430.4a1.86,1.86,0,0,0-1.019-2.588,321.173,321.173,0,0,1-45.868-21.853,1.885,1.885,0,0,1-.185-3.126c3.082-2.309,6.166-4.711,9.109-7.137a1.819,1.819,0,0,1,1.9-.256c96.229,43.917,200.41,43.917,295.5,0a1.812,1.812,0,0,1,1.924.233c2.944,2.426,6.027,4.851,9.132,7.16a1.884,1.884,0,0,1-.162,3.126,301.407,301.407,0,0,1-45.89,21.83,1.875,1.875,0,0,0-1,2.611,391.055,391.055,0,0,0,30.014,48.815,1.864,1.864,0,0,0,2.063.7A486.048,486.048,0,0,0,610.7,405.729a1.882,1.882,0,0,0,.765-1.352C623.729,277.594,590.933,167.465,524.531,69.836ZM222.491,337.58c-28.972,0-52.844-26.587-52.844-59.239S193.056,219.1,222.491,219.1c29.665,0,53.306,26.82,52.843,59.239C275.334,310.993,251.924,337.58,222.491,337.58Zm195.38,0c-28.971,0-52.843-26.587-52.843-59.239S388.437,219.1,417.871,219.1c29.667,0,53.307,26.82,52.844,59.239C470.715,310.993,447.538,337.58,417.871,337.58Z"/></svg>
+
+  </span>
+
+</span></a
+        >
+      
+    
+      
+        <a
+          class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
+          href="https://facebook.com/username"
+          target="_blank"
+          aria-label="Facebook"
+          rel="me noopener noreferrer"
+          ><span class="inline-block align-text-bottom">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"/></svg>
+
+  </span>
+
+</span></a
+        >
+      
+    
+      
+        <a
+          class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
+          href="https://github.com/username"
+          target="_blank"
+          aria-label="Github"
+          rel="me noopener noreferrer"
+          ><span class="inline-block align-text-bottom">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+
+  </span>
+
+</span></a
+        >
+      
+    
+      
+        <a
+          class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
+          href="https://instagram.com/username"
+          target="_blank"
+          aria-label="Instagram"
+          rel="me noopener noreferrer"
+          ><span class="inline-block align-text-bottom">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+
+  </span>
+
+</span></a
+        >
+      
+    
+      
+        <a
+          class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
+          href="https://linkedin.com/in/username"
+          target="_blank"
+          aria-label="Linkedin"
+          rel="me noopener noreferrer"
+          ><span class="inline-block align-text-bottom">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+
+  </span>
+
+</span></a
+        >
+      
+    
+      
+        <a
+          class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
+          href="https://medium.com/username"
+          target="_blank"
+          aria-label="Medium"
+          rel="me noopener noreferrer"
+          ><span class="inline-block align-text-bottom">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M180.5,74.262C80.813,74.262,0,155.633,0,256S80.819,437.738,180.5,437.738,361,356.373,361,256,280.191,74.262,180.5,74.262Zm288.25,10.646c-49.845,0-90.245,76.619-90.245,171.095s40.406,171.1,90.251,171.1,90.251-76.619,90.251-171.1H559C559,161.5,518.6,84.908,468.752,84.908Zm139.506,17.821c-17.526,0-31.735,68.628-31.735,153.274s14.2,153.274,31.735,153.274S640,340.631,640,256C640,171.351,625.785,102.729,608.258,102.729Z"/></svg>
+
+  </span>
+
+</span></a
+        >
+      
+    
+      
+        <a
+          class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
+          href="https://t.me/username"
+          target="_blank"
+          aria-label="Telegram"
+          rel="me noopener noreferrer"
+          ><span class="inline-block align-text-bottom">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M248,8C111.033,8,0,119.033,0,256S111.033,504,248,504,496,392.967,496,256,384.967,8,248,8ZM362.952,176.66c-3.732,39.215-19.881,134.378-28.1,178.3-3.476,18.584-10.322,24.816-16.948,25.425-14.4,1.326-25.338-9.517-39.287-18.661-21.827-14.308-34.158-23.215-55.346-37.177-24.485-16.135-8.612-25,5.342-39.5,3.652-3.793,67.107-61.51,68.335-66.746.153-.655.3-3.1-1.154-4.384s-3.59-.849-5.135-.5q-3.283.746-104.608,69.142-14.845,10.194-26.894,9.934c-8.855-.191-25.888-5.006-38.551-9.123-15.531-5.048-27.875-7.717-26.8-16.291q.84-6.7,18.45-13.7,108.446-47.248,144.628-62.3c68.872-28.647,83.183-33.623,92.511-33.789,2.052-.034,6.639.474,9.61,2.885a10.452,10.452,0,0,1,3.53,6.716A43.765,43.765,0,0,1,362.952,176.66Z"/></svg>
+
+  </span>
+
+</span></a
+        >
+      
+    
+      
+        <a
+          class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
+          href="https://x.com/username"
+          target="_blank"
+          aria-label="X-Twitter"
+          rel="me noopener noreferrer"
+          ><span class="inline-block align-text-bottom">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg>
+  </span>
+
+</span></a
+        >
+      
+    
+  </div>
+
+</div>
+  </div>
+</div>
+
+      
+
+      
+
+      
+      <div class="mb-5"></div>
+      
+
+    
+
+  </header>
+  
+  <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
+    
+     <div
+      class="order-first lg:ml-auto px-0 lg:order-last ltr:lg:pl-8 rtl:lg:pr-8">
+      <div class="toc ltr:pl-5 rtl:pr-5 print:hidden lg:sticky lg:top-[140px]">
+
+         <details open id="TOCView"
+  class="toc-right mt-0 overflow-y-scroll overscroll-contain scrollbar-thin scrollbar-track-neutral-200 scrollbar-thumb-neutral-400 dark:scrollbar-track-neutral-800 dark:scrollbar-thumb-neutral-600 rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 hidden lg:block">
+  <summary
+    class="block py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
+    Table of Contents
+  </summary>
+  <div
+    class="min-w-[220px] py-2 border-dotted ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#what-is-git">What is Git?</a>
+      <ul>
+        <li><a href="#git-definition">Git Definition</a></li>
+        <li><a href="#installation">Installation</a></li>
+        <li><a href="#its-functionality">Its Functionality</a></li>
+        <li><a href="#how-does-git-work">How does Git Work?</a></li>
+        <li><a href="#practical-git-on-github">Practical Git on Github</a>
+          <ul>
+            <li><a href="#1-git-clone">1. <code>git clone</code></a></li>
+            <li><a href="#2-git-add-git-commit-git-push">2. <code>git add</code>, <code>git commit</code>, <code>git push</code></a></li>
+            <li><a href="#3-git-fetch-git-merge-git-pull">3. <code>git fetch</code>, <code>git merge</code>, <code>git pull</code></a></li>
+            <li><a href="#4-git-branch-git-checkout">4. <code>git branch</code>, <code>git checkout</code></a></li>
+            <li><a href="#5-git-status">5. <code>git status</code></a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#what-is-lazygit">What is Lazygit?</a>
+      <ul>
+        <li><a href="#installation-1">Installation</a></li>
+        <li><a href="#lazygit-ui"><code>lazygit</code> UI</a></li>
+        <li><a href="#how-to-use-it">How to Use It?</a>
+          <ul>
+            <li><a href="#1-git-add-git-commit-git-push">1. <code>git add</code>, <code>git commit</code>, <code>git push</code></a></li>
+            <li><a href="#2-git-pull">2. <code>git pull</code></a></li>
+            <li><a href="#3-git-branch">3. <code>git branch</code></a></li>
+            <li><a href="#4-git-status">4. <code>git status</code></a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </div>
+</details>
+<details class="toc-inside mt-0 overflow-hidden rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 lg:hidden">
+  <summary
+    class="py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
+    Table of Contents
+  </summary>
+  <div
+    class="py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#what-is-git">What is Git?</a>
+      <ul>
+        <li><a href="#git-definition">Git Definition</a></li>
+        <li><a href="#installation">Installation</a></li>
+        <li><a href="#its-functionality">Its Functionality</a></li>
+        <li><a href="#how-does-git-work">How does Git Work?</a></li>
+        <li><a href="#practical-git-on-github">Practical Git on Github</a>
+          <ul>
+            <li><a href="#1-git-clone">1. <code>git clone</code></a></li>
+            <li><a href="#2-git-add-git-commit-git-push">2. <code>git add</code>, <code>git commit</code>, <code>git push</code></a></li>
+            <li><a href="#3-git-fetch-git-merge-git-pull">3. <code>git fetch</code>, <code>git merge</code>, <code>git pull</code></a></li>
+            <li><a href="#4-git-branch-git-checkout">4. <code>git branch</code>, <code>git checkout</code></a></li>
+            <li><a href="#5-git-status">5. <code>git status</code></a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#what-is-lazygit">What is Lazygit?</a>
+      <ul>
+        <li><a href="#installation-1">Installation</a></li>
+        <li><a href="#lazygit-ui"><code>lazygit</code> UI</a></li>
+        <li><a href="#how-to-use-it">How to Use It?</a>
+          <ul>
+            <li><a href="#1-git-add-git-commit-git-push">1. <code>git add</code>, <code>git commit</code>, <code>git push</code></a></li>
+            <li><a href="#2-git-pull">2. <code>git pull</code></a></li>
+            <li><a href="#3-git-branch">3. <code>git branch</code></a></li>
+            <li><a href="#4-git-status">4. <code>git status</code></a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </div>
+</details>
+
+<script>
+
+  var margin = 200;
+  var marginError = 50;
+
+  (function () {
+    var $window = $(window);
+    var $toc = $('#TOCView');
+    var tocHeight = $toc.height();
+
+    function onResize() {
+      var windowAndMarginHeight = $window.height() - margin;
+      if(tocHeight >= windowAndMarginHeight) {
+        $toc.css("overflow-y", "scroll")
+        $toc.css("max-height", (windowAndMarginHeight + marginError) + "px")
+      } else {
+        $toc.css("overflow-y", "hidden")
+        $toc.css("max-height", "9999999px")
+      }
+    }
+
+    $window.on('resize', onResize);
+    $(document).ready(onResize);
+  })();
+
+
+
+  (function () {
+    var $toc = $('#TableOfContents');
+    if ($toc.length > 0) {
+      var $window = $(window);
+
+      function onScroll() {
+        var currentScroll = $window.scrollTop();
+        var h = $('.anchor');
+        var id = "";
+        h.each(function (i, e) {
+          e = $(e);
+          if (e.offset().top - $(window).height()/3 <= currentScroll) {
+            id = decodeURIComponent(e.attr('id'));
+          }
+        });
+        var active = $toc.find('a.active');      
+        if (active.length == 1 && active.eq(0).attr('href') == '#' + id) return true;
+
+        active.each(function (i, e) {
+           
+            $(e).removeClass('active').siblings('ul').hide();
+          
+        });
+        $toc.find('a[href="#' + id + '"]').addClass('active')
+        $toc.find('a[href="#' + id + '"]').parentsUntil('#TableOfContents').each(function (i, e) {
+          $(e).children('a').parents('ul').show();          
+        });
+      }
+
+      $window.on('scroll', onScroll);
+      $(document).ready(function () {
+         
+          $toc.find('a').parent('li').find('ul').hide();
+        
+        onScroll();
+      });
+    }
+  })();
+
+
+</script>
+   </div>
+      </div>
+      
+
+      <div class="min-w-0 min-h-0 max-w-fit">
+        
+        
+
+
+        <div class="article-content max-w-prose mb-20">
+          
+
+<h2 class="relative group">What is Git? 
+    <div id="what-is-git" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#what-is-git" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<p>Sebagai <em>blogger</em> yang meng-<em>hosting</em> file dan tulisannya di Github, saya tentu saja sudah dipastikan menggunakan Git. Bahkan, artikel pertama saya pada blog ini jelas sekali langsung membahas tentang pembuatan blog dengan <a href="https://gohugo.io/" target="_blank">Hugo</a> sebagai &ldquo;<em>website generator</em>&quot;-nya dan <a href="https://github.com/" target="_blank">Github</a> sebagai &ldquo;server <em>hosting</em>&quot;-nya.</p>
+
+<section class="space-y-10 w-full">
+    
+    
+        
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a class="flex flex-wrap md:flex-nowrap article " href="/tech/hugo-ing/">
+    
+        
+        <div class="w-full md:w-auto h-full thumbnail nozoom thumbnailshadow md:mr-7" style="background-image:url(/tech/hugo-ing/featured_hu_193d14a628152d6d.png);"></div>
+        
+      <div class=" mt-3 md:mt-0">
+      <div class="items-center text-left text-xl font-semibold">
+        
+        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="/tech/hugo-ing/">Hugo-ing (from Zero to Hero)</div>
+        
+        
+        
+      </div>
+      <div class="text-sm text-neutral-500 dark:text-neutral-400">
+        
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  <time datetime="2023-10-07T15:26:34&#43;07:00">7 October 2023</time><span class="px-2 text-primary-500">&middot;</span><span>754 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">4 mins</span>
+  
+
+  
+  
+</div>
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/categories/hugo/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Hugo
+  </span>
+</span>
+  </span>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/hugo/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Hugo
+  </span>
+</span>
+  </span>
+  
+  
+  
+  
+</div>
+
+
+
+
+      </div>
+      
+      <div class="py-1 max-w-fit prose dark:prose-invert">
+        Beginner step to start creating static-site via using Hugo.
+      </div>
+      
+    </div>
+  </a>
+
+        
+    
+</section>
+
+
+<h3 class="relative group">Git Definition 
+    <div id="git-definition" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#git-definition" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>Jadi, apa itu &ldquo;Git&rdquo;?</p>
+<p>Merujuk ke website official-nya, <code>git</code> dijelaskan sebagai berikut:<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<blockquote>
+<p>&ldquo;Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.&rdquo;</p></blockquote>
+<p>Jadi, jelas bahwa <code>git</code> adalah <strong>&quot;<em>distributed version control system</em>&rdquo; (dVCS)</strong> yang bersifat <em>open source</em>. <code>git</code> sendiri dikembangkan oleh <a href="https://github.com/torvalds" target="_blank"><strong>Linus Torvalds</strong></a> (yang juga merupakan penemu Linux) pada tahun 2005 dan hari ini dilanjutkan oleh Junio Hamano.<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> Secara umum, <code>git</code> digunakan untuk mencatat perubahan yang terjadi pada file dalam <em>software project</em>. Kata &ldquo;<em>distributed</em>&rdquo; pada dVCS menjelaskan bahwa setiap orang yang terlibat pada suatu proyek yang sama akan memiliki dan melihat salinan lengkap catatan tersebut dari <em>database</em> <code>git</code>.<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></p>
+
+
+<h3 class="relative group">Installation 
+    <div id="installation" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#installation" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>Berikut adalah cara meng-<em>install</em> <code>git</code> di beberapa sistem operasi Linux:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Distro</th>
+          <th>Command</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Debian/Ubuntu</strong></td>
+          <td><strong><code>sudo apt install git</code></strong></td>
+      </tr>
+      <tr>
+          <td><strong>Arch Linux</strong></td>
+          <td><strong><code>sudo pacman -Sy git</code></strong></td>
+      </tr>
+      <tr>
+          <td><strong>Fedora</strong></td>
+          <td><strong><code>sudo dnf install git</code></strong></td>
+      </tr>
+      <tr>
+          <td><strong>Opensuse</strong></td>
+          <td><strong><code>sudo zypper install git</code></strong></td>
+      </tr>
+  </tbody>
+</table>
+
+  
+  
+  
+  
+
+
+
+<div
+  
+    class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
+  >
+
+  <span
+    
+      class="text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center"
+    >
+
+    
+
+
+  </span>
+
+  <span
+    
+      class="dark:text-neutral-300"
+    ><p><strong>NixOS:</strong><br>
+Masukkan baris berikut di file konfigurasi (<code>/etc/nixos/configuration.nix</code>):</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-nix" data-lang="nix"><span class="line"><span class="cl">  <span class="n">environment</span><span class="o">.</span><span class="n">systemPackages</span> <span class="o">=</span> <span class="p">[</span>
+</span></span><span class="line"><span class="cl">    <span class="n">pkgs</span><span class="o">.</span><span class="n">git</span>
+</span></span><span class="line"><span class="cl">  <span class="p">];</span>
+</span></span></code></pre></div><p>Atau jika menggunakan <code>nix-shell</code>:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">nix-shell -p git
+</span></span></code></pre></div></span>
+</div>
+
+
+
+<h3 class="relative group">Its Functionality 
+    <div id="its-functionality" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#its-functionality" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>Apa fungsi <code>git</code>?</p>
+<p>Sebagai <em>version control system</em> atau VCS, berikut adalah beberapa fungsi utama <code>git</code>:<sup id="fnref1:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></p>
+<p><strong>1. Pencatatan Perubahan.</strong> <code>git</code> mencatat setiap perubahan pada file dalam suatu proyek, sehingga kita dapat melihat &ldquo;apa&rdquo; yang berubah, &ldquo;siapa&rdquo; yang mengubah, dan &ldquo;kapan&rdquo; diubah.</p>
+<p><strong>2. Kolaborasi Tim.</strong> Dengan adanya <code>git</code>, proses pengembangan <em>software</em> yang memerlukan kolaborasi banyak orang menjadi lebih mudah dilakukan, tanpa perlu khawatir pada konflik kode.</p>
+<p><strong>3. Manajemen Versi.</strong> git juga menyimpan versi proyek kita. Artinya, jika kita ingin kembali ke versi sebelumnya (misalnya karena di versi sekarang ada masalah), itu dapat dilakukan.</p>
+<p><strong>4. Penyimpanan Terdistribusi.</strong> Seperti yang dijelaskan pada bagian definisi, <code>git</code> memungkinkan setiap anggota untuk memiliki salinan lengkap proyek.</p>
+<p><strong>5. Branching &amp; Merging.</strong> Pembuatan &ldquo;branch&rdquo; dapat dilakukan (misalnya jika ada penambahan fitur baru atau terdapat <em>bug</em>) dengan <code>git</code>. Branch tersebut kemudian digabungkan kembali ke cabang utama (main branch) setelah selesai.</p>
+
+
+<h3 class="relative group">How does Git Work? 
+    <div id="how-does-git-work" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#how-does-git-work" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>Bagaimana cara kerja <code>git</code>?</p>
+<p>Berikut adalah diagram alur kerja <code>git</code>:<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup></p>
+<p>
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="/git/ss1.png" alt="ss1" />
+      <figcaption>git workflow. source: <a href="https://bytebytego.com/guides/how-does-git-work/" target="_blank">https://bytebytego.com/guides/how-does-git-work/</a></figcaption>
+    </figure>
+</p>
+<p>Kita bahas satu persatu&hellip;</p>
+<p>Seperti terlihat pada gambar, secara umum, wilayah <code>git</code> dibagi menjadi 2: <strong>remote</strong> &amp; <strong>local</strong>.</p>
+<ol>
+<li>&ldquo;Remote repository&rdquo; adalah server yang meng-<em>hosting</em> atau menyimpan file-file proyek kita di <em>remote server</em>, seperti Github, Gitlab, dan BitBucket.</li>
+<li>&ldquo;Local computer&rdquo; adalah komputer atau laptop yang kita gunakan untuk mengelola file-file tersebut sebelum disimpan ke <em>remote repository</em>. Pada bagian ini, <code>git</code> membagi 3 wilayah lagi, yaitu <strong>working directory</strong>, <strong>staging area</strong>, dan <strong>local repository</strong> ini sendiri.</li>
+</ol>
+<ul>
+<li>&ldquo;Working directory&rdquo; adalah area dimana kita dapat meng-<em>edit</em> file kita.</li>
+<li>&ldquo;Staging area&rdquo; adalah sebuah area sementara (<em>temporary location</em>) sebelum di-<em>commit</em> &amp; masih memungkinkan perubahan.</li>
+<li>&ldquo;Local repository&rdquo; adalah area penyimpanan permanen dari file-file yang telah di-<em>commit</em>, juga sebagai area git untuk menyimpan riwayat perubahan proyek, dan area dimana file-file siap di-<em>push</em> ke <em>remote server</em>.</li>
+</ul>
+
+  
+  
+  
+  
+
+
+
+<div
+  
+    class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
+  >
+
+  <span
+    
+      class="text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center"
+    >
+
+    
+
+
+  </span>
+
+  <span
+    
+      class="dark:text-neutral-300"
+    ><p>Kita juga melihat beberapa perintah <code>git</code> yang ada dalam setiap proses pada gambar tersebut.<br>
+Berikut adalah perintah-perintah ketika kita</p>
+<ul>
+<li><code>git add</code>: menyimpan file yang sudah selesai diedit ke &ldquo;staging area&rdquo;.</li>
+<li><code>git commit</code>: memindahkan file dari &ldquo;staging area&rdquo; ke &ldquo;local repository&rdquo;.</li>
+<li><code>git push</code>: menyimpan file ke remote server, seperti Github.</li>
+</ul>
+<p>Kemudian, ada 3 perintah lainnya:</p>
+<ul>
+<li><code>git fetch</code>: menarik perubahan dari &ldquo;remote repository&rdquo; ke &ldquo;local repo&rdquo;.</li>
+<li><code>git merge</code>: menggabungkan perubahan yang sudah ditarik ke file yang kita miliki di &ldquo;working directory&rdquo;.</li>
+<li><code>git pull</code>: gabungan dari kedua perintah di atas.</li>
+</ul>
+<p>Dan ada 2 perintah lainnya:</p>
+<ul>
+<li><code>git clone</code>: meng-<em>clone</em> mengambil suatu repo dari server hosting.</li>
+<li><code>git checkout</code>: pindah branch, pindah ke titik tertentu di history, etc.</li>
+</ul>
+</span>
+</div>
+
+<p>Kita akan melihat implementasi dari <code>git</code> sambil melihat workflow di atas secara langsung di bagian berikutnya.<sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup></p>
+
+
+<h3 class="relative group">Practical Git on Github 
+    <div id="practical-git-on-github" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#practical-git-on-github" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>Sekarang, kita akan coba lihat implementasi langsung dari <em>workflow</em> dan perintah-perintah <code>git</code> tersebut. Pada tutorial ini, saya akan menggunakan <strong>&ldquo;Github&rdquo;</strong> sebagai server untuk meng-<em>hosting</em> file-filenya. Jika kalian ingin mempraktekkannya juga, tentu saja bisa, dengan beberapa persyaratan berikut:</p>
+<ol>
+<li>Memiliki akun Github.</li>
+<li>Sudah mengaktifkan koneksi via SSH ke Github.</li>
+<li>Sudah membuat sebuah repository khusus untuk latihan.</li>
+</ol>
+<p>Ketiga syarat di atas adalah modal dasar untuk dapat mengikuti latihan atau toturial implementasi <code>git</code> ini, sebab, ketiga hal tersebut tidak akan dibahas dalam artikel ini.</p>
+
+
+<h4 class="relative group">1. <code>git clone</code> 
+    <div id="1-git-clone" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#1-git-clone" aria-label="Anchor">#</a>
+    </span>        
+    
+</h4>
+<p>Sekarang, saya akan mempraktikkan perintah dasar <code>git</code> tersebut, yaitu:</p>
+<ul>
+<li><code>git clone</code></li>
+</ul>
+<p>Perhatikan bahwa saya sudah memiliki sebuah <em>repository</em> di Github bernama &ldquo;git-test&rdquo;, yang hanya berisi sebuah file markdown bernama README.md.</p>
+<p>
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="/git/ss2.png" alt="ss2" />
+      <figcaption>git-test repo on Github</figcaption>
+    </figure>
+</p>
+<p>Saya akan meng-<em>clone</em> &ldquo;remote repository&rdquo; dari Github tersebut ke &ldquo;local computer&rdquo; saya, dengan perintah berikut di terminal:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">git clone git@github.com:abwildan/git-test.git
+</span></span></code></pre></div>
+  
+  
+  
+  
+
+
+
+<div
+  
+    class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
+  >
+
+  <span
+    
+      class="text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center"
+    >
+
+    
+
+
+  </span>
+
+  <span
+    
+      class="dark:text-neutral-300"
+    ><p><strong>Keterangan:</strong></p>
+<p><code>git@github.com:abwildan/git-test.git</code> adalah alamat repository &ldquo;git-test&rdquo; saya di github untuk keperluan akses via SSH (Secure Shell). Kalian bisa mendapatkan alamat repo kalian sendiri di bagian <strong>&ldquo;code&rdquo;</strong> pada menu <strong>&ldquo;SSH&rdquo;</strong>.</p>
+<p>
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="/git/ss3.png" alt="ss3" />
+      <figcaption>git access via SSH</figcaption>
+    </figure>
+</p>
+</span>
+</div>
+
+<p>Kita akan melihat, sekarang, <em>repository</em> tersebut sudah berada di komputer kita.</p>
+<p>
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="/git/ss4.png" alt="ss4" />
+      <figcaption>git clone</figcaption>
+    </figure>
+</p>
+<p>Seperti terlihat pada tangkapan layar di atas, kita sudah memiliki <em>repository</em> (folder/direktori) bernama &ldquo;git-test&rdquo; di dalam komputer, dengan isi file yang sama, yaitu &ldquo;README.md&rdquo;.</p>
+<p>Jadi, jelas, bahwa fungsi perintah <code>git clone</code> adalah untuk meng-<code>clone</code> <em>repository</em> dari remote server seperti Github ke komputer lokal kita. Atau bahasa umumnya kurang lebih sama dengan &ldquo;men-<em>download</em> folder dari Github ke komputer kita&rdquo;.</p>
+
+
+<h4 class="relative group">2. <code>git add</code>, <code>git commit</code>, <code>git push</code> 
+    <div id="2-git-add-git-commit-git-push" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#2-git-add-git-commit-git-push" aria-label="Anchor">#</a>
+    </span>        
+    
+</h4>
+<p>Sekarang, kita akan belajar 3 perintah berikutnya, yaitu:</p>
+<ul>
+<li><code>git add</code></li>
+<li><code>git commit</code></li>
+<li><code>git push</code></li>
+</ul>
+<p>Perhatikan alur perintah pada gambar berikut ini:</p>
+<p>
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="/git/ss5.png" alt="ss5" />
+      <figcaption>git add, git commit, git push</figcaption>
+    </figure>
+</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">git add .
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">git commit -m <span class="s2">&#34;tambah file1.txt&#34;</span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">git push
+</span></span></code></pre></div>
+  
+  
+  
+  
+
+
+
+<div
+  
+    class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
+  >
+
+  <span
+    
+      class="text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center"
+    >
+
+    
+
+
+  </span>
+
+  <span
+    
+      class="dark:text-neutral-300"
+    ><p><strong>Keterangan:</strong></p>
+<p>Tempat-tempat seperti <strong>staging area</strong>, <strong>local repository</strong>, dan <strong>remote repository</strong> mungkin memang tidak kasat mata, tapi dalam manajemen file oleh <code>git</code>, hal tersebut ada di &ldquo;balik layar&rdquo;.</p>
+<ol>
+<li><code>git add .</code>: menambahkan semua file / perubahan baru yang ada di working directory ke <strong>staging area</strong>.</li>
+<li><code>git commit -m &quot;tambah file1.txt&quot;</code>: memindahkan file ke <strong>local repository</strong> dan memberikan pesan <em>commit</em>-nya.</li>
+<li><code>git push</code>: mendorong (meng-<em>upload</em>) perubahan yang ada di local repo dan sudah di-<em>commit</em> ke <strong>remote repository</strong> di Github.</li>
+</ol>
+</span>
+</div>
+
+<p>Seperti kita lihat pada gambar, perintah <code>git add</code> digunakan untuk menambahkan file baru (&ldquo;file1.txt&rdquo;) ke <strong>staging area</strong>, kemudian, perintah <code>git commit</code> digunakan untuk memindahkan &ldquo;file1.txt&rdquo; dari staging area ke <strong>local repository</strong>, dan perintah <code>git push</code> digunakan untuk meng-<em>upload</em>-nya ke <strong>remote repository</strong> di remote server (Github).</p>
+<p>Kita juga dapat memastikan bahwa &ldquo;file1.txt&rdquo; ada di <em>repository</em> &ldquo;git-test&rdquo; di Github dengan melihatnya langsung.</p>
+<p>
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="/git/ss6.png" alt="ss6" />
+      <figcaption>file1.txt on git-test Github repo</figcaption>
+    </figure>
+</p>
+
+
+<h4 class="relative group">3. <code>git fetch</code>, <code>git merge</code>, <code>git pull</code> 
+    <div id="3-git-fetch-git-merge-git-pull" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#3-git-fetch-git-merge-git-pull" aria-label="Anchor">#</a>
+    </span>        
+    
+</h4>
+<p>Dua perintah berikutnya adalah:</p>
+<ul>
+<li><code>git fetch</code></li>
+<li><code>git merge</code></li>
+</ul>
+<p>Seperti sudah dijelaskan pada bagian &ldquo;konsep&rdquo; sebelumnya, <code>git fetch</code> digunakan untuk menarik perubahan dari remote repository (dalam konteks ini Github) ke <strong>local repository</strong>, sementara <code>git merge</code> digunakan untuk menggabungkan perubahan yang sudah di local repository ke <strong>working directory</strong>.</p>
+<p>Perlu diperhatikan bahwa kita memerlukan <code>git merge</code> agar perubahan-perubahan dari remote repository tersebut dapat kita edit, sebab perintah <code>git fetch</code> hanya menarik perubahan-perubahannya saja dan menyimpannya ke local repository, dimana di sana adalah area penyimpanan permanen yang file-file atau perubahan-perubahannya sudah tidak dapat diubah lagi. Kita akan coba lihat dan buktikan di praktik di bawah.</p>
+<p>Untuk membuat simulasi ini, anggap bahwa di remote repository, ada penambahan file baru bernama file2.txt, namun, di local computer, kita belum memiliki file ini sehingga kita perlu menariknya terlebih dahulu.</p>
+<p>
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="/git/ss7.png" alt="ss7" />
+      <figcaption>file2.txt on Github</figcaption>
+    </figure>
+</p>
+<p>Sekarang, untuk menarik perubahannya, gunakan perintah:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">git fetch
+</span></span></code></pre></div><p>
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="/git/ss8.png" alt="ss8" />
+      <figcaption>fetching file2.txt</figcaption>
+    </figure>
+</p>
+<p>Seperti terlihat, &ldquo;file2.txt&rdquo; berhasil di-fetch, tapi masih belum muncul di working directory. Itu artinya, &ldquo;file2.txt&rdquo; belum di-merge sehingga belum bisa di-edit atau diubah-ubah. Gunakan perintah berikut untuk me-merge:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">git merge
+</span></span></code></pre></div><p>
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="/git/ss9.png" alt="ss9" />
+      <figcaption>merging file2.txt</figcaption>
+    </figure>
+</p>
+<p>Seperti terlihat pada gambar, sekarang, &ldquo;file2.txt&rdquo; sudah berada di <strong>working directory</strong> dan siap untuk di-edit atau dimodifikasi.</p>
+<ul>
+<li><code>git pull</code></li>
+</ul>
+<p><code>git pull</code> adalah gabungan antara <code>git fetch</code> dan <code>git merge</code>, sehingga jika kita ingin agar semua perubahan di remote repository yang ditarik ke local computer bisa langsung di-edit, kita dapat menggunakan perintah ini:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">git pull
+</span></span></code></pre></div><p>Perhatikan gambar berikut:</p>
+<p>
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="/git/ss10.png" alt="ss10" />
+      <figcaption>pulling file3.txt</figcaption>
+    </figure>
+</p>
+<p>Seperti terlihat pada tangkapan layar di atas, perintah git pull mengambil perubahan (file3.txt) dari remote repository (Github) langsung ke working directory tanpa harus mampir di local repository terlebih dahulu, sehingga &ldquo;file3.txt&rdquo; dapat langsung di-edit.</p>
+
+
+<h4 class="relative group">4. <code>git branch</code>, <code>git checkout</code> 
+    <div id="4-git-branch-git-checkout" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#4-git-branch-git-checkout" aria-label="Anchor">#</a>
+    </span>        
+    
+</h4>
+<p>Selanjutnya, kita akan belajar 2 perintah <code>git</code> lainnya, yaitu:</p>
+<ul>
+<li><code>git branch</code></li>
+<li><code>git checkout</code></li>
+</ul>
+<p><code>git checkout</code> seperti yang sudah dideskripsikan di bagian &ldquo;konsep&rdquo; di atas, biasanya digunakan untuk berganti branch. Oleh karena itu, saya menyandingkannya dengan perintah <code>git branch</code> yang digunakan untuk melihat branch yang ada. <code>git branch</code> memang belum di bahas pada bagian &ldquo;konsep&rdquo; sebelumnya, tapi tidak mengapa saya bahas di sini, karena memang terkait dengan penggunaan <code>git checkout</code>&hellip;</p>
+<p>Untuk melihat branch apa saja yang tersedia, ada 3 perintah <code>git branch</code> yang dapat digunakan, yaitu:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">git branch -l
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">git branch -r
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">git branch -a
+</span></span></code></pre></div>
+  
+  
+  
+  
+
+
+
+<div
+  
+    class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
+  >
+
+  <span
+    
+      class="text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center"
+    >
+
+    
+
+
+  </span>
+
+  <span
+    
+      class="dark:text-neutral-300"
+    ><p><strong>Keterangan:</strong></p>
+<ol>
+<li><code>git branch -l</code>: digunakan untuk melihat branch yang ada di local computer.</li>
+<li><code>git branch -r</code>: digunakan untuk melihat branch yang ada di remote repository.</li>
+<li><code>git branch -a</code>: digunakan untuk melihat semua branch, baik di local computer maupun di remote repository.</li>
+</ol></span>
+</div>
+
+<p>
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="/git/ss11.png" alt="ss11" />
+      <figcaption>git branch</figcaption>
+    </figure>
+</p>
+<p>Seperti terlihat, saat ini, di local computer saya, hanya ada 1 branch, yaitu branch &ldquo;main&rdquo; dan ada 2 branch di remote repository.</p>
+<p>Jika kita ingin membuat branch baru di local computer, kita dapat menggunakan perintah:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">git branch &lt;nama-branch&gt;
+</span></span></code></pre></div><p>Kemudian, untuk pindah ke branch yang baru:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">git switch &lt;nama-branch&gt;
+</span></span></code></pre></div><p>Atau dengan <code>git checkout</code> yang lebih cepat karena setelah membuatkan branch baru, kita juga otomatis akan berpindah ke branch yang baru tersebut, perintahnya:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">git checkout -b &lt;nama-branch&gt;
+</span></span></code></pre></div><p>
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="/git/ss12.png" alt="ss12" />
+      <figcaption>add new local branch using git branch &amp; git checkout</figcaption>
+    </figure>
+</p>
+<p>Jika kita ingin agar branch tersebut juga ada di remote repository (Github), gunakan perintah:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">git push -u origin &lt;nama-branch&gt;
+</span></span></code></pre></div><p>
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="/git/ss13.png" alt="ss13" />
+      <figcaption>pushing new local branch to become new remote branch</figcaption>
+    </figure>
+</p>
+<p>Menghapus branch juga semudah membuatnya, tergantung branch local atau remote yang ingin dihapus.</p>
+<p>Berikut adalah perintah untuk menghapus branch local:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">git branch -d &lt;nama-branch&gt;
+</span></span></code></pre></div><p>
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="/git/ss14.png" alt="ss14" />
+      <figcaption>deleting local branch</figcaption>
+    </figure>
+</p>
+<p>Berikut adalah perintah untuk menghapus branch remote:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">git push origin --delete &lt;nama-branch&gt;
+</span></span></code></pre></div><p>
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="/git/ss15.png" alt="ss15" />
+      <figcaption>deleting remote branch</figcaption>
+    </figure>
+</p>
+
+
+<h4 class="relative group">5. <code>git status</code> 
+    <div id="5-git-status" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#5-git-status" aria-label="Anchor">#</a>
+    </span>        
+    
+</h4>
+<p><code>git status</code> adalah perintah yang sederhana, tapi cukup informatif. Dengan perintah ini, kita dapat mengetahui apakah ada perubahan di direktori/folder proyek <code>git</code> kita. Bahkan perpindahan file dari &ldquo;working directory&rdquo; ke &ldquo;staging area&rdquo;, misalnya, juga dapat dilihat via:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">git status
+</span></span></code></pre></div><p>
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="/git/ss16.png" alt="ss16" />
+      <figcaption>git status</figcaption>
+    </figure>
+</p>
+<p>Seperti terlihat pada gambar, setelah saya menambahkan &ldquo;teks tambahan&rdquo; ke &ldquo;file3.txt&rdquo;, <code>git status</code> mendeteksi adanya perubahan tersebut. Begitupula ketika saya menambahkan &ldquo;file3.txt&rdquo; ke &ldquo;staging area&rdquo;, <code>git status</code> juga mendeteksi perubahan tersebut.</p>
+
+
+<h2 class="relative group">What is Lazygit? 
+    <div id="what-is-lazygit" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#what-is-lazygit" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<p>Baiklah, sekarang, kita akan berpindah ke <code>lazygit</code>. Pertanyaan awalnya selalu tentang &ldquo;apa&rdquo;, &ldquo;apa itu <code>lazygit</code>&rdquo;? Sederhana sekali, <code>lazygit</code> adalah <strong>&ldquo;a simple terminal UI for git commands&rdquo;</strong>. Ya, jadi, bisa dibilang, <code>lazygit</code> adalah program <em>open source</em> berbasis terminal yang dirancang sebagai UI alias <em>user interface</em> dari perintah-perintah <code>git</code> yang baru saja kita pelajari di atas.</p>
+<p>Repository-nya dapat ditemukan di Github:</p>
+<div class="github-card-wrapper">
+<a id="github-fcae325b871f23fb8635253dbe44adac" target="_blank" href="https://github.com/jesseduffield/lazygit" class="cursor-pointer">
+  <div
+    class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md shadow-2xl">
+
+    <div class="flex items-center">
+      <span class="text-2xl text-neutral-800 dark:text-neutral" style="margin-right:10px;">
+        
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+
+  </span>
+
+
+      </span>
+      <div
+        id="github-fcae325b871f23fb8635253dbe44adac-full_name"
+        class="m-0 font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral">
+        jesseduffield/lazygit
+      </div>
+    </div>
+
+    <p id="github-fcae325b871f23fb8635253dbe44adac-description" class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
+      simple terminal UI for git commands
+    </p>
+
+    <div class="m-0 mt-2 flex items-center">
+
+      <span class="mr-1 inline-block h-3 w-3 rounded-full"
+        style="background-color: #00ADD8"></span>
+      <div class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+         Go 
+      </div>
+
+      <span class="text-md mr-1 text-neutral-800 dark:text-neutral">
+        
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M287.9 0C297.1 0 305.5 5.25 309.5 13.52L378.1 154.8L531.4 177.5C540.4 178.8 547.8 185.1 550.7 193.7C553.5 202.4 551.2 211.9 544.8 218.2L433.6 328.4L459.9 483.9C461.4 492.9 457.7 502.1 450.2 507.4C442.8 512.7 432.1 513.4 424.9 509.1L287.9 435.9L150.1 509.1C142.9 513.4 133.1 512.7 125.6 507.4C118.2 502.1 114.5 492.9 115.1 483.9L142.2 328.4L31.11 218.2C24.65 211.9 22.36 202.4 25.2 193.7C28.03 185.1 35.5 178.8 44.49 177.5L197.7 154.8L266.3 13.52C270.4 5.249 278.7 0 287.9 0L287.9 0zM287.9 78.95L235.4 187.2C231.9 194.3 225.1 199.3 217.3 200.5L98.98 217.9L184.9 303C190.4 308.5 192.9 316.4 191.6 324.1L171.4 443.7L276.6 387.5C283.7 383.7 292.2 383.7 299.2 387.5L404.4 443.7L384.2 324.1C382.9 316.4 385.5 308.5 391 303L476.9 217.9L358.6 200.5C350.7 199.3 343.9 194.3 340.5 187.2L287.9 78.95z"/></svg>
+  </span>
+
+
+      </span>
+      <div id="github-fcae325b871f23fb8635253dbe44adac-stargazers" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+        62339
+      </div>
+
+      <span class="text-md mr-1 text-neutral-800 dark:text-neutral">
+        
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M80 104c13.3 0 24-10.7 24-24s-10.7-24-24-24S56 66.7 56 80s10.7 24 24 24zm80-24c0 32.8-19.7 61-48 73.3V192c0 17.7 14.3 32 32 32H304c17.7 0 32-14.3 32-32V153.3C307.7 141 288 112.8 288 80c0-44.2 35.8-80 80-80s80 35.8 80 80c0 32.8-19.7 61-48 73.3V192c0 53-43 96-96 96H256v70.7c28.3 12.3 48 40.5 48 73.3c0 44.2-35.8 80-80 80s-80-35.8-80-80c0-32.8 19.7-61 48-73.3V288H144c-53 0-96-43-96-96V153.3C19.7 141 0 112.8 0 80C0 35.8 35.8 0 80 0s80 35.8 80 80zm208 24c13.3 0 24-10.7 24-24s-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24zM248 432c0-13.3-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24s24-10.7 24-24z"/></svg>
+  </span>
+
+
+      </span>
+      <div id="github-fcae325b871f23fb8635253dbe44adac-forks" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+        2140
+      </div>
+
+    </div>
+
+  </div>
+  <script>
+    fetch("https://api.github.com/repos/jesseduffield/lazygit", {
+      headers: new Headers({
+        'User-agent': 'Mozilla/4.0 Custom User Agent'
+      })
+    })
+      .then(response => response.json())
+      .then(data => {
+        document.getElementById('github-fcae325b871f23fb8635253dbe44adac-full_name').innerHTML = data.full_name;
+        document.getElementById('github-fcae325b871f23fb8635253dbe44adac-description').innerHTML = data.description;
+        document.getElementById('github-fcae325b871f23fb8635253dbe44adac-stargazers').innerHTML = data.stargazers_count;
+        document.getElementById('github-fcae325b871f23fb8635253dbe44adac-forks').innerHTML = data.forks;
+      })
+      .catch(error => console.error(error))
+  </script>
+</a>
+</div>
+<p>Apa tujuan dibuatnya <code>lazygit</code>? Apa bedanya <code>lazygit</code> dengan <code>git</code> biasa?</p>
+<p>Secara fungsi, sebetulnya sama. Bedanya, <code>lazygit</code> dibuat untuk lebih memudahkan para pengguna <code>git</code> dalam menggunakan <code>git</code>, sebab, mereka tidak perlu lagi menuliskan perintah-perintah (yang banyak tersebut) berulang kali sehingga proses pengelolaan file via <code>git</code> menjadi lebih efisien.</p>
+<p>Kenapa bisa lebih efisien? Karena lazygit tidak mengharuskan penggunanya &ldquo;menghafal&rdquo; perintah-perintah git, tapi cukup hanya dengan beberapa <em>shortcut</em> (atau <em>keybinding</em>) saja, maka berbagai perintah <code>git</code> tersebut dapat dieksekusi dengan cepat (tentu juga harus diimbangi dengan pemahaman pada konsep <code>git</code>.)</p>
+
+
+<h3 class="relative group">Installation 
+    <div id="installation-1" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#installation-1" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>Berikut adalah cara meng-<em>install</em> <code>lazygit</code> di beberapa sistem operasi Linux:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Distro</th>
+          <th>Command</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Debian/Ubuntu</strong></td>
+          <td><strong><code>sudo apt install lazygit</code></strong></td>
+      </tr>
+      <tr>
+          <td><strong>Arch Linux</strong></td>
+          <td><strong><code>sudo pacman -Sy lazygit</code></strong></td>
+      </tr>
+      <tr>
+          <td><strong>Fedora</strong></td>
+          <td><strong><code>sudo dnf install lazygit</code></strong></td>
+      </tr>
+      <tr>
+          <td><strong>Opensuse</strong></td>
+          <td><strong><code>sudo zypper install lazygit</code></strong></td>
+      </tr>
+  </tbody>
+</table>
+
+  
+  
+  
+  
+
+
+
+<div
+  
+    class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
+  >
+
+  <span
+    
+      class="text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center"
+    >
+
+    
+
+
+  </span>
+
+  <span
+    
+      class="dark:text-neutral-300"
+    ><p><strong>NixOS:</strong><br>
+Masukkan baris berikut di file konfigurasi (<code>/etc/nixos/configuration.nix</code>):</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-nix" data-lang="nix"><span class="line"><span class="cl">  <span class="n">environment</span><span class="o">.</span><span class="n">systemPackages</span> <span class="o">=</span> <span class="p">[</span>
+</span></span><span class="line"><span class="cl">    <span class="n">pkgs</span><span class="o">.</span><span class="n">lazygit</span>
+</span></span><span class="line"><span class="cl">  <span class="p">];</span>
+</span></span></code></pre></div><p>Atau jika menggunakan <code>nix-shell</code>:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">nix-shell -p lazygit
+</span></span></code></pre></div></span>
+</div>
+
+
+
+<h3 class="relative group"><code>lazygit</code> UI 
+    <div id="lazygit-ui" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#lazygit-ui" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>Mari kita lihat langsung tampilannya:</p>
+<p>
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="/git/ss17.png" alt="ss17" />
+      <figcaption>lazygit</figcaption>
+    </figure>
+</p>
+<p>Seperti terlihat, ada 7 area di sana:</p>
+<ol>
+<li>Area nomor 1: menampilkan informasi posisi <em>repository</em> kita saat ini.</li>
+<li>Area nomor 2: menampilkan informasi tentang perubahan file-file.</li>
+<li>Area nomor 3: menampilkan informasi tentang local branch.</li>
+<li>Area nomor 4: menampilkan informasi tentang <em>commit</em> yang pernah dilakukan.</li>
+<li>Area nomor 5: menampilkan informasi tentang <em>stash</em> yang pernah dilakukan.</li>
+<li>Area utama (yang paling besar): menampilkan informasi dari branch, file, commit, dan stash.</li>
+<li>Area log (di bawah area utama): menampilkan informasi tentang log.</li>
+</ol>
+<p>Kita akan melihat langsung cara menggunakan <code>lazygit</code> di bawah ini.</p>
+
+
+<h3 class="relative group">How to Use It? 
+    <div id="how-to-use-it" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#how-to-use-it" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>Tutorial <code>lazygit</code> sebetulnya sudah disediakan langsung oleh pembuat <code>lazygit</code> langsung, <strong>Jesse Duffield</strong> di Youtube:</p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/CPLdltN7wgE?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+
+<p>Hanya saja, mungkin terlalu kompleks. Lagipula, bisa jadi tidak semua fitur dan <em>shortcut</em> (atau <em>keybinding</em>)-nya kalian perlukan saat ini. Semua tergantung keperluan. Tapi, mari saya buat lebih sederhana. Saya hanya akan mempraktikkan cara menggunakan <code>lazygit</code> berdasarkan apa yang memang sudah biasa saya lakukan.</p>
+<p><em>So, let&rsquo;s get into it</em>&hellip;</p>
+<blockquote>
+<p><strong>Sebagai catatan</strong>, <code>git clone</code> sampai versi terbaru yang saya gunakan hari ini, belum bisa melakukan <em>cloning</em> repo (<code>git clone</code>).</p></blockquote>
+
+
+<h4 class="relative group">1. <code>git add</code>, <code>git commit</code>, <code>git push</code> 
+    <div id="1-git-add-git-commit-git-push" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#1-git-add-git-commit-git-push" aria-label="Anchor">#</a>
+    </span>        
+    
+</h4>
+<p>Langsung saja, karena operasi git di <code>lazygit</code> akan lebih banyak menggunakan <em>shortcut</em> (alias <em>keybinding</em>) daripada mengetikkan perintah, berikut adalah keybinding untuk <code>git add</code>, <code>git commit</code>, dan <code>git push</code>. <sup id="fnref:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup></p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: center">Keybinding</th>
+          <th style="text-align: center">Deskripsi</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: center">&laquo;Space&raquo;</td>
+          <td style="text-align: center"><code>git add</code></td>
+      </tr>
+      <tr>
+          <td style="text-align: center">c</td>
+          <td style="text-align: center"><code>git commit</code></td>
+      </tr>
+      <tr>
+          <td style="text-align: center">P</td>
+          <td style="text-align: center">git push</td>
+      </tr>
+  </tbody>
+</table>
+<blockquote>
+<p><strong>Perhatikan!</strong> Case-sensitive!</p></blockquote>
+<video width="100%" controls autoplay loop muted>
+  <source src="/git/vid1.mp4" type="video/mp4">
+</video>
+<p>Perhatikan bahwa ketika file masih di &ldquo;working directory&rdquo;, status file-nya berwarna merah, begitu masuk &ldquo;staging area&rdquo;, berubah jadi hijau, dan kalau sudah di-<em>commit</em>, maka statusnya akan hilang dari sub-tab ke-2, dan jika sudah berhasil di-<em>push</em> ke &ldquo;remote repository&rdquo;, maka status di sub-tab ke-3 juga akan kembali menjadi ceklis.</p>
+<p>Perhatikan juga bahwa ketika sedang proses <em>push</em> ke &ldquo;remote repository&rdquo;, status di sub-tab ke-3 juga akan memberikan indikasi sedang melakukan <em>push</em>.</p>
+<p>Kita juga bisa melihat <em>history</em> <em>commit</em>-nya di sub-tab ke-4.</p>
+<p>
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="/git/ss18.png" alt="ss18" />
+      <figcaption>lazygit</figcaption>
+    </figure>
+</p>
+
+
+<h4 class="relative group">2. <code>git pull</code> 
+    <div id="2-git-pull" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#2-git-pull" aria-label="Anchor">#</a>
+    </span>        
+    
+</h4>
+<p>Untuk menarik atau mengambil perubahan yang terjadi di &ldquo;remote server&rdquo; dan menggabungkannya langsung ke &ldquo;working directory&rdquo;, <em>keybinding</em>-nya adalah sebagai berikut:</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: center">Keybinding</th>
+          <th style="text-align: center">Deskripsi</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: center">p</td>
+          <td style="text-align: center"><code>git pull</code></td>
+      </tr>
+  </tbody>
+</table>
+<blockquote>
+<p><strong>Perhatikan!</strong> Case-sensitive!</p></blockquote>
+<video width="100%" controls autoplay loop muted>
+  <source src="/git/vid2.mp4" type="video/mp4">
+</video>
+<p>Perhatikan bahwa ketika sedang proses <em>pull</em> dari &ldquo;remote repository&rdquo; ke &ldquo;working directory&rdquo;, status di sub-tab ke-3 juga akan memberikan indikasi sedang melakukan <em>pull</em>.</p>
+
+
+<h4 class="relative group">3. <code>git branch</code> 
+    <div id="3-git-branch" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#3-git-branch" aria-label="Anchor">#</a>
+    </span>        
+    
+</h4>
+<p>Kita juga bisa melihat branch (terutama local branch) apa saja yang terdapat di proyek <code>git</code> kita di sub-tab ke-3.</p>
+<p>
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="/git/ss19.png" alt="ss19" />
+      <figcaption>git branch</figcaption>
+    </figure>
+</p>
+<p>Seperti terlihat, selain branch &ldquo;main&rdquo;, kita juga punya &ldquo;localbranch1&rdquo;, &ldquo;localbranch2&rdquo;, dan &ldquo;localbranch3&rdquo;.</p>
+
+
+<h4 class="relative group">4. <code>git status</code> 
+    <div id="4-git-status" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#4-git-status" aria-label="Anchor">#</a>
+    </span>        
+    
+</h4>
+<p><code>git status</code> adalah yang paling mudah dilihat, karena sebetulnya langsung tampak di bagian utama <code>lazygit</code> (area yang paling besar).</p>
+<p>
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="/git/ss20.png" alt="ss20" />
+      <figcaption>status</figcaption>
+    </figure>
+</p>
+<p>Seperti terlihat, jika ada perubahan, maka area utama <code>lazygit</code> akan memberikan informasi perubahan tersebut, sama seperti <code>git status</code>. Bahkan, lebih detail karena menampilkan juga perubahan apa yang ditambahkan/dikurangi.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p><a href="https://git-scm.com/" target="_blank">https://git-scm.com/</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p><a href="https://www.w3schools.com/git/git_intro.asp?remote=github" target="_blank">https://www.w3schools.com/git/git_intro.asp?remote=github</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p><a href="https://www.codepolitan.com/blog/apa-itu-git-panduan-lengkap-untuk-pemula-pengertian-fungsi-dan-cara-kerjanya/" target="_blank">https://www.codepolitan.com/blog/apa-itu-git-panduan-lengkap-untuk-pemula-pengertian-fungsi-dan-cara-kerjanya/</a>&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4">
+<p><a href="https://bytebytego.com/guides/how-does-git-work/" target="_blank">https://bytebytego.com/guides/how-does-git-work/</a>&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:5">
+<p><a href="https://dev.to/nopenoshishi/understanding-git-through-images-4an1" target="_blank">https://dev.to/nopenoshishi/understanding-git-through-images-4an1</a>&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:6">
+<p><a href="https://bandithijo.dev/blog/lazygit-terminal-user-interface-untuk-git" target="_blank">https://bandithijo.dev/blog/lazygit-terminal-user-interface-untuk-git</a>&#160;<a href="#fnref:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+          
+          
+          
+        </div>
+        
+        
+
+        
+        
+  
+  <section class="flex flex-row flex-wrap justify-center pt-4 text-xl">
+    
+      
+      <a
+      target="_blank"
+      class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
+      href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://localhost:1313/tech/git/&amp;title=Git%20in%20A%20Nutshell%20%28&#43;%20Lazygit%29"
+      title="Share on LinkedIn"
+      aria-label="Share on LinkedIn"
+      >
+      
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+
+  </span>
+
+
+    </a>
+      
+    
+      
+      <a
+      target="_blank"
+      class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
+      href="https://twitter.com/intent/tweet/?url=http://localhost:1313/tech/git/&amp;text=Git%20in%20A%20Nutshell%20%28&#43;%20Lazygit%29"
+      title="Tweet on Twitter"
+      aria-label="Tweet on Twitter"
+      >
+      
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg>
+  </span>
+
+
+    </a>
+      
+    
+      
+      <a
+      target="_blank"
+      class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
+      href="https://bsky.app/intent/compose?text=Git%20in%20A%20Nutshell%20%28&#43;%20Lazygit%29&#43;http://localhost:1313/tech/git/"
+      title="Post on Bluesky"
+      aria-label="Post on Bluesky"
+      >
+      
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256,232.562c-21.183,-41.196 -78.868,-117.97 -132.503,-155.834c-51.378,-36.272 -70.978,-29.987 -83.828,-24.181c-14.872,6.72 -17.577,29.554 -17.577,42.988c0,13.433 7.365,110.138 12.169,126.281c15.873,53.336 72.376,71.358 124.413,65.574c2.66,-0.395 5.357,-0.759 8.089,-1.097c-2.68,0.429 -5.379,0.796 -8.089,1.097c-76.259,11.294 -143.984,39.085 -55.158,137.972c97.708,101.165 133.908,-21.692 152.484,-83.983c18.576,62.291 39.972,180.718 150.734,83.983c83.174,-83.983 22.851,-126.674 -53.408,-137.969c-2.71,-0.302 -5.409,-0.667 -8.089,-1.096c2.732,0.337 5.429,0.702 8.089,1.096c52.037,5.785 108.54,-12.239 124.413,-65.574c4.804,-16.142 12.169,-112.847 12.169,-126.281c-0,-13.434 -2.705,-36.267 -17.577,-42.988c-12.85,-5.806 -32.45,-12.09 -83.829,24.181c-53.634,37.864 -111.319,114.635 -132.502,155.831Z"/></svg>
+  </span>
+
+
+    </a>
+      
+    
+      
+      <a
+      target="_blank"
+      class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
+      href="https://s2f.kytta.dev/?text=Git%20in%20A%20Nutshell%20%28&#43;%20Lazygit%29%20http://localhost:1313/tech/git/"
+      title=""
+      aria-label=""
+      >
+      
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M433 179.11c0-97.2-63.71-125.7-63.71-125.7-62.52-28.7-228.56-28.4-290.48 0 0 0-63.72 28.5-63.72 125.7 0 115.7-6.6 259.4 105.63 289.1 40.51 10.7 75.32 13 103.33 11.4 50.81-2.8 79.32-18.1 79.32-18.1l-1.7-36.9s-36.31 11.4-77.12 10.1c-40.41-1.4-83-4.4-89.63-54a102.54 102.54 0 0 1-.9-13.9c85.63 20.9 158.65 9.1 178.75 6.7 56.12-6.7 105-41.3 111.23-72.9 9.8-49.8 9-121.5 9-121.5zm-75.12 125.2h-46.63v-114.2c0-49.7-64-51.6-64 6.9v62.5h-46.33V197c0-58.5-64-56.6-64-6.9v114.2H90.19c0-122.1-5.2-147.9 18.41-175 25.9-28.9 79.82-30.8 103.83 6.1l11.6 19.5 11.6-19.5c24.11-37.1 78.12-34.8 103.83-6.1 23.71 27.3 18.4 53 18.4 175z"/></svg>
+
+  </span>
+
+
+    </a>
+      
+    
+      
+      <a
+      target="_blank"
+      class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
+      href="https://reddit.com/submit/?url=http://localhost:1313/tech/git/&amp;resubmit=true&amp;title=Git%20in%20A%20Nutshell%20%28&#43;%20Lazygit%29"
+      title="Submit to Reddit"
+      aria-label="Submit to Reddit"
+      >
+      
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M201.5 305.5c-13.8 0-24.9-11.1-24.9-24.6 0-13.8 11.1-24.9 24.9-24.9 13.6 0 24.6 11.1 24.6 24.9 0 13.6-11.1 24.6-24.6 24.6zM504 256c0 137-111 248-248 248S8 393 8 256 119 8 256 8s248 111 248 248zm-132.3-41.2c-9.4 0-17.7 3.9-23.8 10-22.4-15.5-52.6-25.5-86.1-26.6l17.4-78.3 55.4 12.5c0 13.6 11.1 24.6 24.6 24.6 13.8 0 24.9-11.3 24.9-24.9s-11.1-24.9-24.9-24.9c-9.7 0-18 5.8-22.1 13.8l-61.2-13.6c-3-.8-6.1 1.4-6.9 4.4l-19.1 86.4c-33.2 1.4-63.1 11.3-85.5 26.8-6.1-6.4-14.7-10.2-24.1-10.2-34.9 0-46.3 46.9-14.4 62.8-1.1 5-1.7 10.2-1.7 15.5 0 52.6 59.2 95.2 132 95.2 73.1 0 132.3-42.6 132.3-95.2 0-5.3-.6-10.8-1.9-15.8 31.3-16 19.8-62.5-14.9-62.5zM302.8 331c-18.2 18.2-76.1 17.9-93.6 0-2.2-2.2-6.1-2.2-8.3 0-2.5 2.5-2.5 6.4 0 8.6 22.8 22.8 87.3 22.8 110.2 0 2.5-2.2 2.5-6.1 0-8.6-2.2-2.2-6.1-2.2-8.3 0zm7.7-75c-13.6 0-24.6 11.1-24.6 24.9 0 13.6 11.1 24.6 24.6 24.6 13.8 0 24.9-11.1 24.9-24.6 0-13.8-11-24.9-24.9-24.9z"/></svg>
+
+  </span>
+
+
+    </a>
+      
+    
+      
+      <a
+      target="_blank"
+      class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
+      href="https://pinterest.com/pin/create/bookmarklet/?url=http://localhost:1313/tech/git/&amp;description=Git%20in%20A%20Nutshell%20%28&#43;%20Lazygit%29"
+      title="Pin on Pinterest"
+      aria-label="Pin on Pinterest"
+      >
+      
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M496 256c0 137-111 248-248 248-25.6 0-50.2-3.9-73.4-11.1 10.1-16.5 25.2-43.5 30.8-65 3-11.6 15.4-59 15.4-59 8.1 15.4 31.7 28.5 56.8 28.5 74.8 0 128.7-68.8 128.7-154.3 0-81.9-66.9-143.2-152.9-143.2-107 0-163.9 71.8-163.9 150.1 0 36.4 19.4 81.7 50.3 96.1 4.7 2.2 7.2 1.2 8.3-3.3.8-3.4 5-20.3 6.9-28.1.6-2.5.3-4.7-1.7-7.1-10.1-12.5-18.3-35.3-18.3-56.6 0-54.7 41.4-107.6 112-107.6 60.9 0 103.6 41.5 103.6 100.9 0 67.1-33.9 113.6-78 113.6-24.3 0-42.6-20.1-36.7-44.8 7-29.5 20.5-61.3 20.5-82.6 0-19-10.2-34.9-31.4-34.9-24.9 0-44.9 25.7-44.9 60.2 0 22 7.4 36.8 7.4 36.8s-24.5 103.8-29 123.2c-5 21.4-3 51.6-.9 71.2C65.4 450.9 0 361.1 0 256 0 119 111 8 248 8s248 111 248 248z"/></svg>
+
+  </span>
+
+
+    </a>
+      
+    
+      
+      <a
+      target="_blank"
+      class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
+      href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:1313/tech/git/&amp;quote=Git%20in%20A%20Nutshell%20%28&#43;%20Lazygit%29"
+      title="Share on Facebook"
+      aria-label="Share on Facebook"
+      >
+      
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"/></svg>
+
+  </span>
+
+
+    </a>
+      
+    
+      
+      <a
+      target="_blank"
+      class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
+      href="mailto:?body=http://localhost:1313/tech/git/&amp;subject=Git%20in%20A%20Nutshell%20%28&#43;%20Lazygit%29"
+      title="Send via email"
+      aria-label="Send via email"
+      >
+      
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M207.8 20.73c-93.45 18.32-168.7 93.66-187 187.1c-27.64 140.9 68.65 266.2 199.1 285.1c19.01 2.888 36.17-12.26 36.17-31.49l.0001-.6631c0-15.74-11.44-28.88-26.84-31.24c-84.35-12.98-149.2-86.13-149.2-174.2c0-102.9 88.61-185.5 193.4-175.4c91.54 8.869 158.6 91.25 158.6 183.2l0 16.16c0 22.09-17.94 40.05-40 40.05s-40.01-17.96-40.01-40.05v-120.1c0-8.847-7.161-16.02-16.01-16.02l-31.98 .0036c-7.299 0-13.2 4.992-15.12 11.68c-24.85-12.15-54.24-16.38-86.06-5.106c-38.75 13.73-68.12 48.91-73.72 89.64c-9.483 69.01 43.81 128 110.9 128c26.44 0 50.43-9.544 69.59-24.88c24 31.3 65.23 48.69 109.4 37.49C465.2 369.3 496 324.1 495.1 277.2V256.3C495.1 107.1 361.2-9.332 207.8 20.73zM239.1 304.3c-26.47 0-48-21.56-48-48.05s21.53-48.05 48-48.05s48 21.56 48 48.05S266.5 304.3 239.1 304.3z"/></svg>
+
+  </span>
+
+
+    </a>
+      
+    
+      
+      <a
+      target="_blank"
+      class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
+      href="https://api.whatsapp.com/send?text=http://localhost:1313/tech/git/&amp;resubmit=true&amp;title=Git%20in%20A%20Nutshell%20%28&#43;%20Lazygit%29"
+      title="Share via WhatsApp"
+      aria-label="Share via WhatsApp"
+      >
+      
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/></svg>
+
+  </span>
+
+
+    </a>
+      
+    
+      
+      <a
+      target="_blank"
+      class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
+      href="https://t.me/share/url?url=http://localhost:1313/tech/git/&amp;resubmit=true&amp;title=Git%20in%20A%20Nutshell%20%28&#43;%20Lazygit%29"
+      title="Share via Telegram"
+      aria-label="Share via Telegram"
+      >
+      
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M248,8C111.033,8,0,119.033,0,256S111.033,504,248,504,496,392.967,496,256,384.967,8,248,8ZM362.952,176.66c-3.732,39.215-19.881,134.378-28.1,178.3-3.476,18.584-10.322,24.816-16.948,25.425-14.4,1.326-25.338-9.517-39.287-18.661-21.827-14.308-34.158-23.215-55.346-37.177-24.485-16.135-8.612-25,5.342-39.5,3.652-3.793,67.107-61.51,68.335-66.746.153-.655.3-3.1-1.154-4.384s-3.59-.849-5.135-.5q-3.283.746-104.608,69.142-14.845,10.194-26.894,9.934c-8.855-.191-25.888-5.006-38.551-9.123-15.531-5.048-27.875-7.717-26.8-16.291q.84-6.7,18.45-13.7,108.446-47.248,144.628-62.3c68.872-28.647,83.183-33.623,92.511-33.789,2.052-.034,6.639.474,9.61,2.885a10.452,10.452,0,0,1,3.53,6.716A43.765,43.765,0,0,1,362.952,176.66Z"/></svg>
+
+  </span>
+
+
+    </a>
+      
+    
+  </section>
+
+
+        
+
+
+<h2 class="mt-8 text-2xl font-extrabold mb-10">Related</h2>
+<section class="w-full grid gap-4 sm:grid-cols-2 md:grid-cols-3">
+  
+  
+
+  <a href="/tech/pass/" class="min-w-full">
+    
+    <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
+        
+        <div class="w-full thumbnail_card_related nozoom" style="background-image:url(/tech/pass/featured_hu_2ea9f9595715b6d5.png);"></div>
+        
+      
+
+      <div class="px-6 py-4">
+
+        
+        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="/tech/pass/">The Standard Unix Password Manager: Pass</div>
+        
+
+        <div class="text-sm text-neutral-500 dark:text-neutral-400">
+          
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  <time datetime="2025-06-22T16:55:16&#43;07:00">22 June 2025</time><span class="px-2 text-primary-500">&middot;</span><time datetime="2025-06-28T00:00:00&#43;00:00">Updated: 28 June 2025</time><span class="px-2 text-primary-500">&middot;</span><span>1823 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">9 mins</span>
+  
+
+  
+  
+</div>
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/categories/pass/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Pass
+  </span>
+</span>
+  </span>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/pass/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Pass
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/password-manager/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Password Manager
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/password/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Password
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/encryption/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Encryption
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/gpg/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Gpg
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/asymmetric/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Asymmetric
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/public-key/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Public Key
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/private-key/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Private Key
+  </span>
+</span>
+  </span>
+  
+  
+  
+  
+</div>
+
+
+
+
+        </div>
+
+        
+        <div class="py-1 prose dark:prose-invert">
+          Password management should be simple and follow Unix philosophy. With pass, each password lives inside of a gpg encrypted file.
+        </div>
+        
+      </div>
+      <div class="px-6 pt-4 pb-2">
+
+      </div>
+    </div>
+  </a>
+
+  
+  
+
+  <a href="/tech/sshnopass/" class="min-w-full">
+    
+    <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
+        
+        <div class="w-full thumbnail_card_related nozoom" style="background-image:url(/tech/sshnopass/featured_hu_5d760b624474f284.png);"></div>
+        
+      
+
+      <div class="px-6 py-4">
+
+        
+        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="/tech/sshnopass/">SSH without Password?</div>
+        
+
+        <div class="text-sm text-neutral-500 dark:text-neutral-400">
+          
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  <time datetime="2024-10-08T17:00:47&#43;07:00">8 October 2024</time><span class="px-2 text-primary-500">&middot;</span><span>591 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">3 mins</span>
+  
+
+  
+  
+</div>
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/categories/ssh/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Ssh
+  </span>
+</span>
+  </span>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/ssh/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Ssh
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/password/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Password
+  </span>
+</span>
+  </span>
+  
+  
+  
+  
+</div>
+
+
+
+
+        </div>
+
+        
+        <div class="py-1 prose dark:prose-invert">
+          Too lazy to input your SSH password while doing routine task? Here is the solution&hellip;
+        </div>
+        
+      </div>
+      <div class="px-6 pt-4 pb-2">
+
+      </div>
+    </div>
+  </a>
+
+  
+  
+
+  <a href="/tech/fileterm/" class="min-w-full">
+    
+    <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
+        
+        <div class="w-full thumbnail_card_related nozoom" style="background-image:url(/tech/fileterm/featured_hu_b55358938965db7b.png);"></div>
+        
+      
+
+      <div class="px-6 py-4">
+
+        
+        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="/tech/fileterm/">A Comparison of 5 Terminal File Managers</div>
+        
+
+        <div class="text-sm text-neutral-500 dark:text-neutral-400">
+          
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  <time datetime="2025-06-18T19:09:58&#43;07:00">18 June 2025</time><span class="px-2 text-primary-500">&middot;</span><span>1022 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">5 mins</span>
+  
+
+  
+  
+</div>
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/categories/file-manager/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    File Manager
+  </span>
+</span>
+  </span>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/file-manager/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    File Manager
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/terminal/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Terminal
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/cli/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Cli
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/open-source/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Open Source
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/cool/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Cool
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/linux/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Linux
+  </span>
+</span>
+  </span>
+  
+  
+  
+  
+</div>
+
+
+
+
+        </div>
+
+        
+        <div class="py-1 prose dark:prose-invert">
+          A glimpse of terminal-based file managers and their uniquenesses.
+        </div>
+        
+      </div>
+      <div class="px-6 pt-4 pb-2">
+
+      </div>
+    </div>
+  </a>
+
+  
+</section>
+
+  
+      </div>
+     
+      
+      
+        
+        
+          
+          
+        
+      <script>
+        var oid = "views_tech\/git.md"
+        var oid_likes = "likes_tech\/git.md"
+      </script>
+      
+      
+      <script type="text/javascript" src="/js/page.min.0860cf4e04fa2d72cc33ddba263083464d48f67de06114529043cb4623319efed4f484fd7f1730df5abea0e2da6f3538855634081d02f2d6e920b956f063e823.js" integrity="sha512-CGDPTgT6LXLMM926JjCDRk1I9n3gYRRSkEPLRiMxnv7U9IT9fxcw31q&#43;oOLabzU4hVY0CB0C8tbpILlW8GPoIw=="></script>
+      
+  
+    </section>
+  <footer class="pt-8 max-w-prose print:hidden">
+
+    
+  
+    
+    
+    
+    <div class="pt-8">
+      <hr class="border-dotted border-neutral-300 dark:border-neutral-600" />
+      <div class="flex justify-between pt-3">
+        <span>
+          
+            <a class="flex group mr-3" href="/tech/mpv/">
+              <span
+                class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
+                >&larr;</span
+              >
+              <span
+                class="ml-3 text-neutral-700 group-hover:text-primary-600 ltr:hidden rtl:inline dark:text-neutral dark:group-hover:text-primary-400"
+                >&rarr;</span
+              >
+              <span class="flex flex-col">
+                <span
+                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+                  >MPV: A Free, Open Source, and Cross-platform Media Player.</span
+                >
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                    <time datetime="2025-07-12T10:49:32&#43;07:00">12 July 2025</time>
+                  
+                </span>
+              </span>
+            </a>
+          
+        </span>
+        <span>
+          
+        </span>
+      </div>
+    </div>
+  
+
+
+    
+    
+    <div class="pt-3">
+      <hr class="border-dotted border-neutral-300 dark:border-neutral-600" />
+      <div class="pt-3">
+        <head>
+  
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/@waline/client@v3/dist/waline.css"
+  />
+</head>
+<body>
+  
+  <div id="waline"></div>
+  <script type="module">
+    import { init } from 'https://unpkg.com/@waline/client@v3/dist/waline.js';
+
+    init({
+      el: '#waline',
+      pageview: true,
+      serverURL: 'https://comment-waline-zeta.vercel.app',
+      reaction: true,
+      
+      lang: 'en-US',
+    });
+  </script>
+</body>
+      </div>
+    </div>
+    
+    
+  </footer>
+</article>
+
+      <div id="top-scroller" class="pointer-events-none absolute top-[110vh] bottom-0 w-12 ltr:right-0 rtl:left-0">
+  <a href="#the-top"
+    class="pointer-events-auto sticky top-[calc(100vh-5.5rem)] flex h-12 w-12 mb-16 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
+    aria-label="Scroll to top" title="Scroll to top">
+    &uarr;
+  </a>
+</div>
+    </main><footer id="site-footer" class="py-10 print:hidden">
+  
+  
+    
+    <nav class="flex flex-row pb-4 text-base font-medium text-neutral-500 dark:text-neutral-400">
+      <ul class="flex flex-col list-none sm:flex-row">
+        
+        <li class="flex mb-1 ltr:text-right rtl:text-left sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0">
+          <a class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2 flex items-center" href="/tags/"
+            title="Tags">
+            
+            Tags
+          </a>
+        </li>
+        
+        <li class="flex mb-1 ltr:text-right rtl:text-left sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0">
+          <a class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2 flex items-center" href="/categories/"
+            title="Categories">
+            
+            Categories
+          </a>
+        </li>
+        
+      </ul>
+    </nav>
+    
+  
+  <div class="flex items-center justify-between">
+
+    
+    
+    <p class="text-sm text-neutral-500 dark:text-neutral-400">
+      &copy;
+      2025
+      Wildan
+    </p>
+    
+
+    
+    
+    <p class="text-xs text-neutral-500 dark:text-neutral-400">
+      
+      
+      Powered by <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
+        href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a> &amp; <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
+        href="https://blowfish.page/" target="_blank" rel="noopener noreferrer">Blowfish</a>
+    </p>
+    
+
+  </div>
+  <script>
+    
+    mediumZoom(document.querySelectorAll("img:not(.nozoom)"), {
+      margin: 24,
+      background: 'rgba(0,0,0,0.5)',
+      scrollOffset: 0,
+    })
+    
+  </script>
+  
+  
+  <script type="text/javascript" src="/js/process.min.ee03488f19c93c2efb199e2e3014ea5f3cb2ce7d45154adb3399a158cac27ca52831db249ede5bb602700ef87eb02434139de0858af1818ab0fb4182472204a4.js" integrity="sha512-7gNIjxnJPC77GZ4uMBTqXzyyzn1FFUrbM5mhWMrCfKUoMdsknt5btgJwDvh&#43;sCQ0E53ghYrxgYqw&#43;0GCRyIEpA=="></script>
+  
+  
+</footer>
+<div
+  id="search-wrapper"
+  class="invisible fixed inset-0 flex h-screen w-screen cursor-default flex-col bg-neutral-500/50 p-4 backdrop-blur-sm dark:bg-neutral-900/50 sm:p-6 md:p-[10vh] lg:p-[12vh]"
+  data-url="http://localhost:1313/"
+  style="z-index:500"
+>
+  <div
+    id="search-modal"
+    class="flex flex-col w-full max-w-3xl min-h-0 mx-auto border rounded-md shadow-lg top-20 border-neutral-200 bg-neutral dark:border-neutral-700 dark:bg-neutral-800"
+  >
+    <header class="relative z-10 flex items-center justify-between flex-none px-2">
+      <form class="flex items-center flex-auto min-w-0">
+        <div class="flex items-center justify-center w-8 h-8 text-neutral-400">
+          
+
+  <span class="relative block icon">
+    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+
+  </span>
+
+
+        </div>
+        <input
+          type="search"
+          id="search-query"
+          class="flex flex-auto h-12 mx-1 bg-transparent appearance-none focus:outline-dotted focus:outline-2 focus:outline-transparent"
+          placeholder="Search"
+          tabindex="0"
+        />
+      </form>
+      <button
+        id="close-search-button"
+        class="flex items-center justify-center w-8 h-8 text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
+        title="Close (Esc)"
+      >
+        
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+
+  </span>
+
+
+      </button>
+    </header>
+    <section class="flex-auto px-2 overflow-auto">
+      <ul id="search-results">
+        
+      </ul>
+    </section>
+  </div>
+</div>
+
+  </div>
+</body>
+
+</html>

@@ -11,7 +11,7 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
-  pre = "article"
+  pre = "microchip"
   name = "Tech"
   pageRef = "tech"
   weight = 10
@@ -23,7 +23,7 @@
   weight = 20
 
 [[main]]
-  pre = "walls"
+  pre = "image"
   name = "Gallery"
   pageRef = "gallery"
   weight = 30
@@ -39,22 +39,6 @@
   pre = "github"
   url = "https://github.com/abwildan"
   weight = 35
-
-#[[main]]
-#  name = "Parent"
-#  weight = 20
-
-#[[main]]
-#  name = "example sub-menu 1"
-#  parent = "Parent"
-#  pageRef = "posts"
-#  weight = 20
-
-#[[main]]
-#  name = "example sub-menu 2"
-#  parent = "Parent"
-#  pageRef = "posts"
-#  weight = 20
 
 #[[subnavigation]]
 #  name = "An interesting topic"

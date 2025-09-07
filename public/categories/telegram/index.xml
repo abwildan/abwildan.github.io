@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Telegram on My Awesome Site</title>
-    <link>http://localhost:1313/categories/telegram/</link>
+    <link>https://abwildan.github.io/categories/telegram/</link>
     <description>Recent content in Telegram on My Awesome Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
     <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
     <copyright>© 2025 Wildan</copyright>
-    <lastBuildDate>Wed, 11 Oct 2023 16:32:22 +0700</lastBuildDate><atom:link href="http://localhost:1313/categories/telegram/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 11 Oct 2023 16:32:22 +0700</lastBuildDate><atom:link href="https://abwildan.github.io/categories/telegram/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Getting (free) e-books via Bot Telegram</title>
-      <link>http://localhost:1313/tech/ebook-via-bot_telegram/</link>
+      <link>https://abwildan.github.io/tech/ebook-via-bot_telegram/</link>
       <pubDate>Wed, 11 Oct 2023 16:32:22 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/tech/ebook-via-bot_telegram/</guid>
+      <guid>https://abwildan.github.io/tech/ebook-via-bot_telegram/</guid>
       <description>Get &amp;lsquo;free&amp;rsquo; e-book(s) easily via Telegram bot.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/ebook-via-bot_telegram/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://abwildan.github.io/tech/ebook-via-bot_telegram/featured.png" />
     </item>
     
   </channel>

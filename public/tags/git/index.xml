@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Git on My Awesome Site</title>
-    <link>http://localhost:1313/tags/git/</link>
+    <link>https://abwildan.github.io/tags/git/</link>
     <description>Recent content in Git on My Awesome Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
     <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
     <copyright>© 2025 Wildan</copyright>
-    <lastBuildDate>Sat, 19 Jul 2025 07:10:27 +0700</lastBuildDate><atom:link href="http://localhost:1313/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 19 Jul 2025 07:10:27 +0700</lastBuildDate><atom:link href="https://abwildan.github.io/tags/git/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Git in A Nutshell (&#43; Lazygit)</title>
-      <link>http://localhost:1313/tech/git/</link>
+      <link>https://abwildan.github.io/tech/git/</link>
       <pubDate>Sat, 19 Jul 2025 07:10:27 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/tech/git/</guid>
+      <guid>https://abwildan.github.io/tech/git/</guid>
       <description>A seriously short introduction to Git and Github, with Lazygit as an automation tool for Git. Its not as hard as you assume. Dont overthink it.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/git/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://abwildan.github.io/tech/git/featured.png" />
     </item>
     
   </channel>

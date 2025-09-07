@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Wifi on My Awesome Site</title>
-    <link>http://localhost:1313/tags/wifi/</link>
+    <link>https://abwildan.github.io/tags/wifi/</link>
     <description>Recent content in Wifi on My Awesome Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
     <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
     <copyright>© 2025 Wildan</copyright>
-    <lastBuildDate>Fri, 21 Mar 2025 15:55:32 +0700</lastBuildDate><atom:link href="http://localhost:1313/tags/wifi/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 21 Mar 2025 15:55:32 +0700</lastBuildDate><atom:link href="https://abwildan.github.io/tags/wifi/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>The Utilization of &#39;nmcli&#39; for Managing Wifi Network</title>
-      <link>http://localhost:1313/tech/nmcli/</link>
+      <link>https://abwildan.github.io/tech/nmcli/</link>
       <pubDate>Fri, 21 Mar 2025 15:55:32 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/tech/nmcli/</guid>
+      <guid>https://abwildan.github.io/tech/nmcli/</guid>
       <description>Having issue to connect your server to a network (wifi)? Here is the solution to the problem.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/nmcli/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://abwildan.github.io/tech/nmcli/featured.png" />
     </item>
     
   </channel>

@@ -2,61 +2,61 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Series on My Awesome Site</title>
-    <link>http://localhost:1313/series/</link>
+    <link>https://abwildan.github.io/series/</link>
     <description>Recent content in Series on My Awesome Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
     <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
     <copyright>© 2025 Wildan</copyright>
-    <lastBuildDate>Sun, 11 May 2025 16:38:55 +0700</lastBuildDate><atom:link href="http://localhost:1313/series/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 11 May 2025 16:38:55 +0700</lastBuildDate><atom:link href="https://abwildan.github.io/series/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Checkmate</title>
-      <link>http://localhost:1313/series/checkmate/</link>
+      <link>https://abwildan.github.io/series/checkmate/</link>
       <pubDate>Sun, 11 May 2025 16:38:55 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/series/checkmate/</guid>
+      <guid>https://abwildan.github.io/series/checkmate/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Tactics</title>
-      <link>http://localhost:1313/series/tactics/</link>
+      <link>https://abwildan.github.io/series/tactics/</link>
       <pubDate>Sun, 06 Apr 2025 16:33:38 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/series/tactics/</guid>
+      <guid>https://abwildan.github.io/series/tactics/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Excel</title>
-      <link>http://localhost:1313/series/excel/</link>
+      <link>https://abwildan.github.io/series/excel/</link>
       <pubDate>Tue, 28 Jan 2025 03:33:42 +0000</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/series/excel/</guid>
+      <guid>https://abwildan.github.io/series/excel/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>DVWA</title>
-      <link>http://localhost:1313/series/dvwa/</link>
+      <link>https://abwildan.github.io/series/dvwa/</link>
       <pubDate>Sun, 13 Oct 2024 17:04:53 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/series/dvwa/</guid>
+      <guid>https://abwildan.github.io/series/dvwa/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Hugo</title>
-      <link>http://localhost:1313/series/hugo/</link>
+      <link>https://abwildan.github.io/series/hugo/</link>
       <pubDate>Mon, 09 Oct 2023 15:22:46 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/series/hugo/</guid>
+      <guid>https://abwildan.github.io/series/hugo/</guid>
       <description></description>
       
     </item>

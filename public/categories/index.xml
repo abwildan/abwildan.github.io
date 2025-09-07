@@ -2,701 +2,701 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on My Awesome Site</title>
-    <link>http://localhost:1313/categories/</link>
+    <link>https://abwildan.github.io/categories/</link>
     <description>Recent content in Categories on My Awesome Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
     <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
     <copyright>© 2025 Wildan</copyright>
-    <lastBuildDate>Sat, 19 Jul 2025 07:10:27 +0700</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 19 Jul 2025 07:10:27 +0700</lastBuildDate><atom:link href="https://abwildan.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Git</title>
-      <link>http://localhost:1313/categories/git/</link>
+      <link>https://abwildan.github.io/categories/git/</link>
       <pubDate>Sat, 19 Jul 2025 07:10:27 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/git/</guid>
+      <guid>https://abwildan.github.io/categories/git/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Mpv</title>
-      <link>http://localhost:1313/categories/mpv/</link>
+      <link>https://abwildan.github.io/categories/mpv/</link>
       <pubDate>Sat, 12 Jul 2025 10:49:32 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/mpv/</guid>
+      <guid>https://abwildan.github.io/categories/mpv/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Pass</title>
-      <link>http://localhost:1313/categories/pass/</link>
+      <link>https://abwildan.github.io/categories/pass/</link>
       <pubDate>Sun, 22 Jun 2025 16:55:16 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/pass/</guid>
+      <guid>https://abwildan.github.io/categories/pass/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>File Manager</title>
-      <link>http://localhost:1313/categories/file-manager/</link>
+      <link>https://abwildan.github.io/categories/file-manager/</link>
       <pubDate>Wed, 18 Jun 2025 19:09:58 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/file-manager/</guid>
+      <guid>https://abwildan.github.io/categories/file-manager/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Scrcpy</title>
-      <link>http://localhost:1313/categories/scrcpy/</link>
+      <link>https://abwildan.github.io/categories/scrcpy/</link>
       <pubDate>Wed, 18 Jun 2025 09:21:08 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/scrcpy/</guid>
+      <guid>https://abwildan.github.io/categories/scrcpy/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Virt-Manager</title>
-      <link>http://localhost:1313/categories/virt-manager/</link>
+      <link>https://abwildan.github.io/categories/virt-manager/</link>
       <pubDate>Mon, 16 Jun 2025 17:45:18 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/virt-manager/</guid>
+      <guid>https://abwildan.github.io/categories/virt-manager/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Man</title>
-      <link>http://localhost:1313/categories/man/</link>
+      <link>https://abwildan.github.io/categories/man/</link>
       <pubDate>Mon, 09 Jun 2025 10:30:26 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/man/</guid>
+      <guid>https://abwildan.github.io/categories/man/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Hugo</title>
-      <link>http://localhost:1313/categories/hugo/</link>
+      <link>https://abwildan.github.io/categories/hugo/</link>
       <pubDate>Sat, 07 Jun 2025 18:09:46 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/hugo/</guid>
+      <guid>https://abwildan.github.io/categories/hugo/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Hyprland</title>
-      <link>http://localhost:1313/categories/hyprland/</link>
+      <link>https://abwildan.github.io/categories/hyprland/</link>
       <pubDate>Mon, 02 Jun 2025 12:39:04 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/hyprland/</guid>
+      <guid>https://abwildan.github.io/categories/hyprland/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Cloudinary</title>
-      <link>http://localhost:1313/categories/cloudinary/</link>
+      <link>https://abwildan.github.io/categories/cloudinary/</link>
       <pubDate>Fri, 30 May 2025 18:47:46 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/cloudinary/</guid>
+      <guid>https://abwildan.github.io/categories/cloudinary/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Starship</title>
-      <link>http://localhost:1313/categories/starship/</link>
+      <link>https://abwildan.github.io/categories/starship/</link>
       <pubDate>Wed, 28 May 2025 12:44:50 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/starship/</guid>
+      <guid>https://abwildan.github.io/categories/starship/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Pgrep</title>
-      <link>http://localhost:1313/categories/pgrep/</link>
+      <link>https://abwildan.github.io/categories/pgrep/</link>
       <pubDate>Sat, 24 May 2025 20:36:39 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/pgrep/</guid>
+      <guid>https://abwildan.github.io/categories/pgrep/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Chess</title>
-      <link>http://localhost:1313/categories/chess/</link>
+      <link>https://abwildan.github.io/categories/chess/</link>
       <pubDate>Sun, 11 May 2025 16:38:55 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/chess/</guid>
+      <guid>https://abwildan.github.io/categories/chess/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Beatprints</title>
-      <link>http://localhost:1313/categories/beatprints/</link>
+      <link>https://abwildan.github.io/categories/beatprints/</link>
       <pubDate>Sun, 04 May 2025 13:35:14 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/beatprints/</guid>
+      <guid>https://abwildan.github.io/categories/beatprints/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Intel Driver</title>
-      <link>http://localhost:1313/categories/intel-driver/</link>
+      <link>https://abwildan.github.io/categories/intel-driver/</link>
       <pubDate>Wed, 23 Apr 2025 07:30:49 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/intel-driver/</guid>
+      <guid>https://abwildan.github.io/categories/intel-driver/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Mas</title>
-      <link>http://localhost:1313/categories/mas/</link>
+      <link>https://abwildan.github.io/categories/mas/</link>
       <pubDate>Mon, 21 Apr 2025 07:02:40 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/mas/</guid>
+      <guid>https://abwildan.github.io/categories/mas/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Nmcli</title>
-      <link>http://localhost:1313/categories/nmcli/</link>
+      <link>https://abwildan.github.io/categories/nmcli/</link>
       <pubDate>Fri, 21 Mar 2025 15:55:32 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/nmcli/</guid>
+      <guid>https://abwildan.github.io/categories/nmcli/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Dns</title>
-      <link>http://localhost:1313/categories/dns/</link>
+      <link>https://abwildan.github.io/categories/dns/</link>
       <pubDate>Sat, 08 Mar 2025 09:33:37 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/dns/</guid>
+      <guid>https://abwildan.github.io/categories/dns/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Ntfs</title>
-      <link>http://localhost:1313/categories/ntfs/</link>
+      <link>https://abwildan.github.io/categories/ntfs/</link>
       <pubDate>Wed, 26 Feb 2025 10:16:28 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/ntfs/</guid>
+      <guid>https://abwildan.github.io/categories/ntfs/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Bluetoothctl</title>
-      <link>http://localhost:1313/categories/bluetoothctl/</link>
+      <link>https://abwildan.github.io/categories/bluetoothctl/</link>
       <pubDate>Sun, 23 Feb 2025 22:57:04 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/bluetoothctl/</guid>
+      <guid>https://abwildan.github.io/categories/bluetoothctl/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Monitoring</title>
-      <link>http://localhost:1313/categories/monitoring/</link>
+      <link>https://abwildan.github.io/categories/monitoring/</link>
       <pubDate>Thu, 20 Feb 2025 15:43:50 +0000</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/monitoring/</guid>
+      <guid>https://abwildan.github.io/categories/monitoring/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Domain</title>
-      <link>http://localhost:1313/categories/domain/</link>
+      <link>https://abwildan.github.io/categories/domain/</link>
       <pubDate>Wed, 12 Feb 2025 03:24:53 +0000</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/domain/</guid>
+      <guid>https://abwildan.github.io/categories/domain/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Cryptsetup</title>
-      <link>http://localhost:1313/categories/cryptsetup/</link>
+      <link>https://abwildan.github.io/categories/cryptsetup/</link>
       <pubDate>Sun, 02 Feb 2025 04:43:27 +0000</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/cryptsetup/</guid>
+      <guid>https://abwildan.github.io/categories/cryptsetup/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Excel</title>
-      <link>http://localhost:1313/categories/excel/</link>
+      <link>https://abwildan.github.io/categories/excel/</link>
       <pubDate>Tue, 28 Jan 2025 03:33:42 +0000</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/excel/</guid>
+      <guid>https://abwildan.github.io/categories/excel/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Wallpaper</title>
-      <link>http://localhost:1313/categories/wallpaper/</link>
+      <link>https://abwildan.github.io/categories/wallpaper/</link>
       <pubDate>Sat, 25 Jan 2025 07:00:57 +0000</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/wallpaper/</guid>
+      <guid>https://abwildan.github.io/categories/wallpaper/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Ufw</title>
-      <link>http://localhost:1313/categories/ufw/</link>
+      <link>https://abwildan.github.io/categories/ufw/</link>
       <pubDate>Mon, 13 Jan 2025 08:59:03 +0000</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/ufw/</guid>
+      <guid>https://abwildan.github.io/categories/ufw/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Mugshot</title>
-      <link>http://localhost:1313/categories/mugshot/</link>
+      <link>https://abwildan.github.io/categories/mugshot/</link>
       <pubDate>Sun, 12 Jan 2025 10:51:06 +0000</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/mugshot/</guid>
+      <guid>https://abwildan.github.io/categories/mugshot/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Tableau</title>
-      <link>http://localhost:1313/categories/tableau/</link>
+      <link>https://abwildan.github.io/categories/tableau/</link>
       <pubDate>Tue, 19 Nov 2024 16:28:36 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/tableau/</guid>
+      <guid>https://abwildan.github.io/categories/tableau/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Exa</title>
-      <link>http://localhost:1313/categories/exa/</link>
+      <link>https://abwildan.github.io/categories/exa/</link>
       <pubDate>Wed, 06 Nov 2024 21:45:18 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/exa/</guid>
+      <guid>https://abwildan.github.io/categories/exa/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Virtualbox</title>
-      <link>http://localhost:1313/categories/virtualbox/</link>
+      <link>https://abwildan.github.io/categories/virtualbox/</link>
       <pubDate>Wed, 16 Oct 2024 16:51:19 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/virtualbox/</guid>
+      <guid>https://abwildan.github.io/categories/virtualbox/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Command Injection</title>
-      <link>http://localhost:1313/categories/command-injection/</link>
+      <link>https://abwildan.github.io/categories/command-injection/</link>
       <pubDate>Sun, 13 Oct 2024 17:04:53 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/command-injection/</guid>
+      <guid>https://abwildan.github.io/categories/command-injection/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Docker</title>
-      <link>http://localhost:1313/categories/docker/</link>
+      <link>https://abwildan.github.io/categories/docker/</link>
       <pubDate>Fri, 11 Oct 2024 13:28:19 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/docker/</guid>
+      <guid>https://abwildan.github.io/categories/docker/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Ssh</title>
-      <link>http://localhost:1313/categories/ssh/</link>
+      <link>https://abwildan.github.io/categories/ssh/</link>
       <pubDate>Tue, 08 Oct 2024 17:00:47 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/ssh/</guid>
+      <guid>https://abwildan.github.io/categories/ssh/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Ffmpeg</title>
-      <link>http://localhost:1313/categories/ffmpeg/</link>
+      <link>https://abwildan.github.io/categories/ffmpeg/</link>
       <pubDate>Mon, 07 Oct 2024 22:00:53 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/ffmpeg/</guid>
+      <guid>https://abwildan.github.io/categories/ffmpeg/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Rsync</title>
-      <link>http://localhost:1313/categories/rsync/</link>
+      <link>https://abwildan.github.io/categories/rsync/</link>
       <pubDate>Thu, 03 Oct 2024 21:42:14 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/rsync/</guid>
+      <guid>https://abwildan.github.io/categories/rsync/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Netcat</title>
-      <link>http://localhost:1313/categories/netcat/</link>
+      <link>https://abwildan.github.io/categories/netcat/</link>
       <pubDate>Sun, 29 Sep 2024 02:06:27 +0000</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/netcat/</guid>
+      <guid>https://abwildan.github.io/categories/netcat/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Openvpn</title>
-      <link>http://localhost:1313/categories/openvpn/</link>
+      <link>https://abwildan.github.io/categories/openvpn/</link>
       <pubDate>Fri, 20 Sep 2024 10:37:37 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/openvpn/</guid>
+      <guid>https://abwildan.github.io/categories/openvpn/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Irc</title>
-      <link>http://localhost:1313/categories/irc/</link>
+      <link>https://abwildan.github.io/categories/irc/</link>
       <pubDate>Sun, 15 Sep 2024 21:23:53 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/irc/</guid>
+      <guid>https://abwildan.github.io/categories/irc/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Kitty</title>
-      <link>http://localhost:1313/categories/kitty/</link>
+      <link>https://abwildan.github.io/categories/kitty/</link>
       <pubDate>Tue, 10 Sep 2024 10:53:50 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/kitty/</guid>
+      <guid>https://abwildan.github.io/categories/kitty/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Chafa</title>
-      <link>http://localhost:1313/categories/chafa/</link>
+      <link>https://abwildan.github.io/categories/chafa/</link>
       <pubDate>Wed, 28 Aug 2024 16:39:26 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/chafa/</guid>
+      <guid>https://abwildan.github.io/categories/chafa/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Lazyvim</title>
-      <link>http://localhost:1313/categories/lazyvim/</link>
+      <link>https://abwildan.github.io/categories/lazyvim/</link>
       <pubDate>Sun, 18 Aug 2024 13:50:11 +0000</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/lazyvim/</guid>
+      <guid>https://abwildan.github.io/categories/lazyvim/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Sql</title>
-      <link>http://localhost:1313/categories/sql/</link>
+      <link>https://abwildan.github.io/categories/sql/</link>
       <pubDate>Fri, 16 Aug 2024 08:03:25 +0000</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/sql/</guid>
+      <guid>https://abwildan.github.io/categories/sql/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Cooking</title>
-      <link>http://localhost:1313/categories/cooking/</link>
+      <link>https://abwildan.github.io/categories/cooking/</link>
       <pubDate>Wed, 14 Aug 2024 14:28:44 +0000</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/cooking/</guid>
+      <guid>https://abwildan.github.io/categories/cooking/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Conky</title>
-      <link>http://localhost:1313/categories/conky/</link>
+      <link>https://abwildan.github.io/categories/conky/</link>
       <pubDate>Sat, 20 Jul 2024 11:16:26 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/conky/</guid>
+      <guid>https://abwildan.github.io/categories/conky/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Tty</title>
-      <link>http://localhost:1313/categories/tty/</link>
+      <link>https://abwildan.github.io/categories/tty/</link>
       <pubDate>Wed, 17 Jul 2024 15:06:15 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/tty/</guid>
+      <guid>https://abwildan.github.io/categories/tty/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Yt-Dlp</title>
-      <link>http://localhost:1313/categories/yt-dlp/</link>
+      <link>https://abwildan.github.io/categories/yt-dlp/</link>
       <pubDate>Sun, 23 Jun 2024 00:49:55 -0400</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/yt-dlp/</guid>
+      <guid>https://abwildan.github.io/categories/yt-dlp/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Rstudio</title>
-      <link>http://localhost:1313/categories/rstudio/</link>
+      <link>https://abwildan.github.io/categories/rstudio/</link>
       <pubDate>Thu, 13 Jun 2024 11:56:25 -0400</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/rstudio/</guid>
+      <guid>https://abwildan.github.io/categories/rstudio/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Tools</title>
-      <link>http://localhost:1313/categories/tools/</link>
+      <link>https://abwildan.github.io/categories/tools/</link>
       <pubDate>Sun, 09 Jun 2024 16:59:47 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/tools/</guid>
+      <guid>https://abwildan.github.io/categories/tools/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Ncmpcpp</title>
-      <link>http://localhost:1313/categories/ncmpcpp/</link>
+      <link>https://abwildan.github.io/categories/ncmpcpp/</link>
       <pubDate>Fri, 07 Jun 2024 14:41:49 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/ncmpcpp/</guid>
+      <guid>https://abwildan.github.io/categories/ncmpcpp/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Writing</title>
-      <link>http://localhost:1313/categories/writing/</link>
+      <link>https://abwildan.github.io/categories/writing/</link>
       <pubDate>Thu, 06 Jun 2024 14:13:34 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/writing/</guid>
+      <guid>https://abwildan.github.io/categories/writing/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Remote Desktop</title>
-      <link>http://localhost:1313/categories/remote-desktop/</link>
+      <link>https://abwildan.github.io/categories/remote-desktop/</link>
       <pubDate>Tue, 04 Jun 2024 22:05:26 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/remote-desktop/</guid>
+      <guid>https://abwildan.github.io/categories/remote-desktop/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Polybar</title>
-      <link>http://localhost:1313/categories/polybar/</link>
+      <link>https://abwildan.github.io/categories/polybar/</link>
       <pubDate>Sun, 02 Jun 2024 19:14:29 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/polybar/</guid>
+      <guid>https://abwildan.github.io/categories/polybar/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Openbox</title>
-      <link>http://localhost:1313/categories/openbox/</link>
+      <link>https://abwildan.github.io/categories/openbox/</link>
       <pubDate>Thu, 30 May 2024 01:49:56 +0000</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/openbox/</guid>
+      <guid>https://abwildan.github.io/categories/openbox/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Scihub</title>
-      <link>http://localhost:1313/categories/scihub/</link>
+      <link>https://abwildan.github.io/categories/scihub/</link>
       <pubDate>Tue, 21 May 2024 09:10:19 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/scihub/</guid>
+      <guid>https://abwildan.github.io/categories/scihub/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Steganography</title>
-      <link>http://localhost:1313/categories/steganography/</link>
+      <link>https://abwildan.github.io/categories/steganography/</link>
       <pubDate>Mon, 13 May 2024 10:52:32 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/steganography/</guid>
+      <guid>https://abwildan.github.io/categories/steganography/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Rofi</title>
-      <link>http://localhost:1313/categories/rofi/</link>
+      <link>https://abwildan.github.io/categories/rofi/</link>
       <pubDate>Sat, 04 May 2024 10:38:46 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/rofi/</guid>
+      <guid>https://abwildan.github.io/categories/rofi/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Archlinux</title>
-      <link>http://localhost:1313/categories/archlinux/</link>
+      <link>https://abwildan.github.io/categories/archlinux/</link>
       <pubDate>Thu, 02 May 2024 09:52:29 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/archlinux/</guid>
+      <guid>https://abwildan.github.io/categories/archlinux/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Ricing</title>
-      <link>http://localhost:1313/categories/ricing/</link>
+      <link>https://abwildan.github.io/categories/ricing/</link>
       <pubDate>Sun, 28 Apr 2024 14:21:13 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/ricing/</guid>
+      <guid>https://abwildan.github.io/categories/ricing/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Debian</title>
-      <link>http://localhost:1313/categories/debian/</link>
+      <link>https://abwildan.github.io/categories/debian/</link>
       <pubDate>Mon, 15 Apr 2024 07:45:05 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/debian/</guid>
+      <guid>https://abwildan.github.io/categories/debian/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Ngrok</title>
-      <link>http://localhost:1313/categories/ngrok/</link>
+      <link>https://abwildan.github.io/categories/ngrok/</link>
       <pubDate>Tue, 02 Apr 2024 17:30:12 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/ngrok/</guid>
+      <guid>https://abwildan.github.io/categories/ngrok/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Mystiq</title>
-      <link>http://localhost:1313/categories/mystiq/</link>
+      <link>https://abwildan.github.io/categories/mystiq/</link>
       <pubDate>Tue, 26 Mar 2024 17:56:16 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/mystiq/</guid>
+      <guid>https://abwildan.github.io/categories/mystiq/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Hacking</title>
-      <link>http://localhost:1313/categories/hacking/</link>
+      <link>https://abwildan.github.io/categories/hacking/</link>
       <pubDate>Thu, 21 Mar 2024 18:54:33 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/hacking/</guid>
+      <guid>https://abwildan.github.io/categories/hacking/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Virustotal</title>
-      <link>http://localhost:1313/categories/virustotal/</link>
+      <link>https://abwildan.github.io/categories/virustotal/</link>
       <pubDate>Tue, 19 Mar 2024 21:43:27 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/virustotal/</guid>
+      <guid>https://abwildan.github.io/categories/virustotal/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Recordmydesktop</title>
-      <link>http://localhost:1313/categories/recordmydesktop/</link>
+      <link>https://abwildan.github.io/categories/recordmydesktop/</link>
       <pubDate>Fri, 08 Mar 2024 14:55:26 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/recordmydesktop/</guid>
+      <guid>https://abwildan.github.io/categories/recordmydesktop/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Gephi</title>
-      <link>http://localhost:1313/categories/gephi/</link>
+      <link>https://abwildan.github.io/categories/gephi/</link>
       <pubDate>Sat, 06 Jan 2024 02:26:47 -0500</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/gephi/</guid>
+      <guid>https://abwildan.github.io/categories/gephi/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Onionshare</title>
-      <link>http://localhost:1313/categories/onionshare/</link>
+      <link>https://abwildan.github.io/categories/onionshare/</link>
       <pubDate>Thu, 30 Nov 2023 07:35:02 -0500</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/onionshare/</guid>
+      <guid>https://abwildan.github.io/categories/onionshare/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Tor</title>
-      <link>http://localhost:1313/categories/tor/</link>
+      <link>https://abwildan.github.io/categories/tor/</link>
       <pubDate>Thu, 30 Nov 2023 07:35:02 -0500</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/tor/</guid>
+      <guid>https://abwildan.github.io/categories/tor/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Telegram</title>
-      <link>http://localhost:1313/categories/telegram/</link>
+      <link>https://abwildan.github.io/categories/telegram/</link>
       <pubDate>Wed, 11 Oct 2023 16:32:22 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/telegram/</guid>
+      <guid>https://abwildan.github.io/categories/telegram/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Whoami</title>
-      <link>http://localhost:1313/categories/whoami/</link>
+      <link>https://abwildan.github.io/categories/whoami/</link>
       <pubDate>Sat, 07 Oct 2023 13:17:32 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/categories/whoami/</guid>
+      <guid>https://abwildan.github.io/categories/whoami/</guid>
       <description></description>
       
     </item>

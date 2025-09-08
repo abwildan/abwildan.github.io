@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tableau on My Awesome Site</title>
-    <link>https://abwildan.github.io/tags/tableau/</link>
+    <link>http://localhost:1313/tags/tableau/</link>
     <description>Recent content in Tableau on My Awesome Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
     <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
     <copyright>© 2025 Wildan</copyright>
-    <lastBuildDate>Tue, 19 Nov 2024 16:28:36 +0700</lastBuildDate><atom:link href="https://abwildan.github.io/tags/tableau/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 19 Nov 2024 16:28:36 +0700</lastBuildDate><atom:link href="http://localhost:1313/tags/tableau/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Tableau Public Basics: Creating A Simple Dashboard</title>
-      <link>https://abwildan.github.io/tech/tableau-basics/</link>
+      <link>http://localhost:1313/tech/tableau-basics/</link>
       <pubDate>Tue, 19 Nov 2024 16:28:36 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>https://abwildan.github.io/tech/tableau-basics/</guid>
+      <guid>http://localhost:1313/tech/tableau-basics/</guid>
       <description>Creating a dashboard is no longer that difficult. You are always able to create dashboard using Tableau Public. Here is the step by step of it.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://abwildan.github.io/tech/tableau-basics/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/tableau-basics/featured.png" />
     </item>
     
   </channel>

@@ -1,7 +1,7 @@
 ---
 title: "Hugo Advanced"
 date: 2023-10-09T15:22:46+07:00
-lastmod: 2025-06-10
+lastmod: 2025-08-08
 draft: false
 summary: "Hugo, but more advanced..."
 cover:
@@ -578,6 +578,22 @@ touch comments.html
 - Menghapus komentar
 3. Pengguna lain juga dapat melakukan registrasi via kolom komentar. 
 4. Silakan berikan komentar "Paham" di kolom komentar di bawah jika kalian sudah berhasil membuat kolom komentar ini!   
+
+### Tips 23: Menambahkan icon SVG baru 
+
+Penambahan _icon_ berekstensi .svg memang terlihat sederhana. Tapi, bagaimana jika yang saya maksud adalah file .svg yang bisa beradaptasi dengan tema delap (_dark theme_) dan tema terang (_light theme_). Tentu akan jadi sedikit menantang, terutama bila kita belum tahu caranya. Nah, untuk itulah bagian ini didedikasikan...
+
+Untuk membuat _icon_ .svg bisa mengikuti tema website, artinya kalau di tema terang (_light theme_), _icon_ akan berwarna gelap/hitam, sementara kalau di tema gelap (_dark theme_), _icon_ akan berwarna terang/putih, berikut adalah langkah-langkahnya:
+
+1. Cari _icon_ .svg di internet (bisa di [svgrepo](https://svgrepo.com), [freeicons](https://freeicons.io), [freesvgicons](https://freesvgicons.com) dan masih banyak lagi)
+2. Masukkan atau unduh ke direktori "`asset/icons`" di direktori utama.
+3. Edit file .svg tersebut (di internet bisa menggunakan website [svgviewer](https://www.svgviewer.dev/) dan [editsvgcode](https://editsvgcode.com)) & pastikan bagian `fill="currentColor"`. Pastikan tanda petik dua pada currentColor harus disematkan!
+4. Unduh lagi file .svg baru tersebut dan kita bisa menghapus file lama yang belum teredit.
+5. Selesai.
+
+Berikut adalah ilustrasi ketika saya meng-edit file .svg "archlinux" di website [svgviewer](https://www.svgviewer.dev/) supaya bisa adaptif dengan tema website:
+![ss25](/Hugo-Advanced/ss25.png "editing svg to adapt site's theme")
+
 
 Kalau sudah selesai, jangan lupa commit ke repo lokal dan push ke Github:
 

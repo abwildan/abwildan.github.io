@@ -11,7 +11,7 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
-  pre = "microchip"
+  pre = "archlinux"
   name = "Tech"
   pageRef = "tech"
   weight = 10

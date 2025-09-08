@@ -2,113 +2,113 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tutorial on My Awesome Site</title>
-    <link>https://abwildan.github.io/tags/tutorial/</link>
+    <link>http://localhost:1313/tags/tutorial/</link>
     <description>Recent content in Tutorial on My Awesome Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
     <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
     <copyright>© 2025 Wildan</copyright>
-    <lastBuildDate>Mon, 07 Oct 2024 22:00:53 +0700</lastBuildDate><atom:link href="https://abwildan.github.io/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 07 Oct 2024 22:00:53 +0700</lastBuildDate><atom:link href="http://localhost:1313/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>FFmpeg - Convert Any Video Format to MP4</title>
-      <link>https://abwildan.github.io/tech/convertvideoformat/</link>
+      <link>http://localhost:1313/tech/convertvideoformat/</link>
       <pubDate>Mon, 07 Oct 2024 22:00:53 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>https://abwildan.github.io/tech/convertvideoformat/</guid>
+      <guid>http://localhost:1313/tech/convertvideoformat/</guid>
       <description>If you have ffmpeg installed on your Linux machine, then it actually could help you to convert any video format to MP4!</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://abwildan.github.io/tech/convertvideoformat/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/convertvideoformat/featured.png" />
     </item>
     
     <item>
       <title>Ngrok - Make Your localhost Accessible Publicly</title>
-      <link>https://abwildan.github.io/tech/ngrok/</link>
+      <link>http://localhost:1313/tech/ngrok/</link>
       <pubDate>Tue, 02 Apr 2024 17:30:12 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>https://abwildan.github.io/tech/ngrok/</guid>
+      <guid>http://localhost:1313/tech/ngrok/</guid>
       <description>ngrok is a globally distributed reverse proxy that secures, protects and accelerates your applications and network services, no matter where you run them.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://abwildan.github.io/tech/ngrok/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/ngrok/featured.png" />
     </item>
     
     <item>
       <title>Mystiq - FFmpeg&#39;s GUI</title>
-      <link>https://abwildan.github.io/tech/mystiq/</link>
+      <link>http://localhost:1313/tech/mystiq/</link>
       <pubDate>Tue, 26 Mar 2024 17:56:16 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>https://abwildan.github.io/tech/mystiq/</guid>
+      <guid>http://localhost:1313/tech/mystiq/</guid>
       <description>Do you know FFmpeg? This is the GUI version of it. (If you don&amp;rsquo;t like FFmpeg CLI version, this is the your right choice!)</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://abwildan.github.io/tech/mystiq/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/mystiq/featured.png" />
     </item>
     
     <item>
       <title>Eternalblue (MS17-010) - SMBv1&#39;s Exploit</title>
-      <link>https://abwildan.github.io/tech/eternalblue/</link>
+      <link>http://localhost:1313/tech/eternalblue/</link>
       <pubDate>Thu, 21 Mar 2024 18:54:33 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>https://abwildan.github.io/tech/eternalblue/</guid>
+      <guid>http://localhost:1313/tech/eternalblue/</guid>
       <description>EternalBlue is a computer exploit software developed by the U.S. National Security Agency (NSA). It is based on a vulnerability in Microsoft Windows that allowed users to gain access to any number of computers connected to a network.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://abwildan.github.io/tech/eternalblue/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/eternalblue/featured.png" />
     </item>
     
     <item>
       <title>Virustotal - A Virus Scanning Website.</title>
-      <link>https://abwildan.github.io/tech/virustotal/</link>
+      <link>http://localhost:1313/tech/virustotal/</link>
       <pubDate>Tue, 19 Mar 2024 21:43:27 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>https://abwildan.github.io/tech/virustotal/</guid>
+      <guid>http://localhost:1313/tech/virustotal/</guid>
       <description>Analyse suspicious files, domains, IPs and URLs to detect malware and other breaches, automatically share them with the security community.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://abwildan.github.io/tech/virustotal/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/virustotal/featured.png" />
     </item>
     
     <item>
       <title>Recordmydesktop - Screen Recorder based on CLI</title>
-      <link>https://abwildan.github.io/tech/recordmydesktop/</link>
+      <link>http://localhost:1313/tech/recordmydesktop/</link>
       <pubDate>Fri, 08 Mar 2024 14:55:26 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>https://abwildan.github.io/tech/recordmydesktop/</guid>
+      <guid>http://localhost:1313/tech/recordmydesktop/</guid>
       <description>A simple command line tool that performs the basic tasks of capturing and encoding.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://abwildan.github.io/tech/recordmydesktop/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/recordmydesktop/featured.png" />
     </item>
     
     <item>
       <title>Private File Sharing with Onionshare</title>
-      <link>https://abwildan.github.io/tech/onionshare/</link>
+      <link>http://localhost:1313/tech/onionshare/</link>
       <pubDate>Thu, 30 Nov 2023 07:35:02 -0500</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>https://abwildan.github.io/tech/onionshare/</guid>
+      <guid>http://localhost:1313/tech/onionshare/</guid>
       <description>OnionShare is an open-source tool that lets you securely and anonymously share files, host websites, and chat with friends using the Tor network.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://abwildan.github.io/tech/onionshare/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/onionshare/featured.png" />
     </item>
     
     <item>
       <title>Getting (free) e-books via Bot Telegram</title>
-      <link>https://abwildan.github.io/tech/ebook-via-bot_telegram/</link>
+      <link>http://localhost:1313/tech/ebook-via-bot_telegram/</link>
       <pubDate>Wed, 11 Oct 2023 16:32:22 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>https://abwildan.github.io/tech/ebook-via-bot_telegram/</guid>
+      <guid>http://localhost:1313/tech/ebook-via-bot_telegram/</guid>
       <description>Get &amp;lsquo;free&amp;rsquo; e-book(s) easily via Telegram bot.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://abwildan.github.io/tech/ebook-via-bot_telegram/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/ebook-via-bot_telegram/featured.png" />
     </item>
     
     <item>
       <title>FFmpeg - Convert MP4 to GIF</title>
-      <link>https://abwildan.github.io/tech/ffmpeg-mp42gif/</link>
+      <link>http://localhost:1313/tech/ffmpeg-mp42gif/</link>
       <pubDate>Wed, 11 Oct 2023 00:40:23 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>https://abwildan.github.io/tech/ffmpeg-mp42gif/</guid>
+      <guid>http://localhost:1313/tech/ffmpeg-mp42gif/</guid>
       <description>My simple note in regards of converting video (MP4) to GIF.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://abwildan.github.io/tech/ffmpeg-mp42gif/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/ffmpeg-mp42gif/featured.png" />
     </item>
     
     <item>
       <title>Screen Recorder with FFmpeg</title>
-      <link>https://abwildan.github.io/tech/ffmpeg-sr/</link>
+      <link>http://localhost:1313/tech/ffmpeg-sr/</link>
       <pubDate>Tue, 10 Oct 2023 09:13:32 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>https://abwildan.github.io/tech/ffmpeg-sr/</guid>
+      <guid>http://localhost:1313/tech/ffmpeg-sr/</guid>
       <description>My simple note in regards of screen recording using ffmpeg.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://abwildan.github.io/tech/ffmpeg-sr/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/ffmpeg-sr/featured.png" />
     </item>
     
   </channel>

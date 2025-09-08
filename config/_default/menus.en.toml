@@ -34,11 +34,11 @@
   pageRef = "wall"
   weight = 20
 
-#[[main]]
-#  name = "Ricing"
-#  parent = "Gallery"
-#  pageRef = "rice"
-#  weight = 15
+[[main]]
+  name = "Ricing"
+  parent = "Gallery"
+  pageRef = "riced"
+  weight = 15
 
 [[main]]
   identifier = "github"

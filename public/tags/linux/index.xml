@@ -9,10 +9,20 @@
     <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
     <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
     <copyright>© 2025 Wildan</copyright>
-    <lastBuildDate>Mon, 08 Sep 2025 11:14:25 +0700</lastBuildDate><atom:link href="http://localhost:1313/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 21 Sep 2025 13:18:15 +0700</lastBuildDate><atom:link href="http://localhost:1313/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Riced</title>
+      <title>How to Install Ubuntu Server?</title>
+      <link>http://localhost:1313/tech/ubuntuserver/</link>
+      <pubDate>Sun, 21 Sep 2025 13:18:15 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tech/ubuntuserver/</guid>
+      <description>A step by step guide to Ubuntu Server installation as virtual machine.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/ubuntuserver/featured.png" />
+    </item>
+    
+    <item>
+      <title>My (Riced) Linux Journey</title>
       <link>http://localhost:1313/gallery/riced/</link>
       <pubDate>Mon, 08 Sep 2025 11:14:25 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>

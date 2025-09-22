@@ -1,6 +1,7 @@
 ---
-title: "Riced"
+title: "My (Riced) Linux Journey"
 date: 2025-09-08T11:14:25+07:00
+lastmod: 2025-09-21
 draft: false
 summary: "(My personal) linux ricing."
 tags: ["rice", "linux", "desktop", "ricing", "custom", "customization"]
@@ -10,6 +11,26 @@ categories: "rice"
 Berikut adalah kompilasi dari **_linux ricing_** yang pernah saya gunakan selama pengembangan website ini. _By the way_, beberapa ada yang "_default_", artinya masih polosan alias tidak di-"_rice_".
 
 {{< timeline >}}
+
+{{< timelineItem icon="archlinux" header="September 22nd, 2025" badge="riced" subheader="Archlinux - Hyprland" >}}
+
+{{< gallery >}}
+  <img src="/riced/22September2025.png" />
+{{< /gallery >}}
+
+<ul>
+  <li><b>Article:</b> <a href=https://abwildan.github.io/tech/ubuntuserver/>tech/ubuntuserver</a> </li>
+  <li><b>Config:</b> </li>
+  <ul>
+        <li> Caelestia Shell: <a href=https://github.com/caelestia-dots/shell>https://github.com/caelestia-dots/shell</a> </li>
+  </ul>
+</ul>
+
+<blockquote>
+  <p>010a078ac9fcbbb7fad193846718b05485655f6f92815c1d8dd34dfdc205e979 </p>
+</blockquote>
+
+{{< /timelineItem >}}
 
 {{< timelineItem icon="nixos" header="June 13th, 2025" badge="default" subheader="NixOS - XFCE" >}}
 

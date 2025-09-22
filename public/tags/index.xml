@@ -9,7 +9,67 @@
     <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
     <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
     <copyright>© 2025 Wildan</copyright>
-    <lastBuildDate>Mon, 08 Sep 2025 11:14:25 +0700</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 21 Sep 2025 13:18:15 +0700</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Linux</title>
+      <link>http://localhost:1313/tags/linux/</link>
+      <pubDate>Sun, 21 Sep 2025 13:18:15 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tags/linux/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Server</title>
+      <link>http://localhost:1313/tags/server/</link>
+      <pubDate>Sun, 21 Sep 2025 13:18:15 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tags/server/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Ubuntu</title>
+      <link>http://localhost:1313/tags/ubuntu/</link>
+      <pubDate>Sun, 21 Sep 2025 13:18:15 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tags/ubuntu/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Virt-Manager</title>
+      <link>http://localhost:1313/tags/virt-manager/</link>
+      <pubDate>Sun, 21 Sep 2025 13:18:15 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tags/virt-manager/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Virtualmachine</title>
+      <link>http://localhost:1313/tags/virtualmachine/</link>
+      <pubDate>Sun, 21 Sep 2025 13:18:15 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tags/virtualmachine/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Vm</title>
+      <link>http://localhost:1313/tags/vm/</link>
+      <pubDate>Sun, 21 Sep 2025 13:18:15 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tags/vm/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>Custom</title>
@@ -37,16 +97,6 @@
       <pubDate>Mon, 08 Sep 2025 11:14:25 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tags/desktop/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Linux</title>
-      <link>http://localhost:1313/tags/linux/</link>
-      <pubDate>Mon, 08 Sep 2025 11:14:25 +0700</pubDate>
-      <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/tags/linux/</guid>
       <description></description>
       
     </item>
@@ -357,16 +407,6 @@
       <pubDate>Mon, 16 Jun 2025 17:45:18 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tags/qemu/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Virt-Manager</title>
-      <link>http://localhost:1313/tags/virt-manager/</link>
-      <pubDate>Mon, 16 Jun 2025 17:45:18 +0700</pubDate>
-      <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/tags/virt-manager/</guid>
       <description></description>
       
     </item>
@@ -1187,16 +1227,6 @@
       <pubDate>Wed, 12 Feb 2025 03:24:53 +0000</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tags/domain-controller/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Server</title>
-      <link>http://localhost:1313/tags/server/</link>
-      <pubDate>Wed, 12 Feb 2025 03:24:53 +0000</pubDate>
-      <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/tags/server/</guid>
       <description></description>
       
     </item>

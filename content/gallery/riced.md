@@ -123,7 +123,7 @@ Berikut adalah kompilasi dari **_linux ricing_** yang pernah saya gunakan selama
 
 {{< /timelineItem >}}
 
-{{< timelineItem icon="archlinux" header="October 3rd, 2024" badge="riced" subheader="Arch Linux - XFCE" >}}
+{{< timelineItem icon="debian" header="October 3rd, 2024" badge="riced" subheader="Debian - XFCE" >}}
 
 {{< gallery >}}
   <img src="/riced/3October2024.png" />

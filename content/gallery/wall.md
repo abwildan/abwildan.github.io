@@ -13,7 +13,7 @@ backgroundImage: "img/blue-aqua.jpg"
 
 {{< collapse summary="**About This Page**" >}}
 
-These are my used personal wallpapers on my Laptop. They are mostly crawled from famous wallpaper websites such as 
+These are my used personal wallpapers. They are mostly crawled from famous wallpaper websites such as 
 1. [**wallhaven**](https://wallhaven.cc/), 
 2. [**wallpaperflare**](https://www.wallpaperflare.com/), 
 3. [**alphacoders**](https://alphacoders.com/),
@@ -27,7 +27,7 @@ These are my used personal wallpapers on my Laptop. They are mostly crawled from
 
 and so on.
 
-I keep the walls here so I don't need to re-look for and re-download them a second time.
+I keep the walls here so it is easier for me to get them.
 
 {{< /collapse >}}
 
@@ -56,6 +56,7 @@ I keep the walls here so I don't need to re-look for and re-download them a seco
   <img src="/wall/wall22.jpg" class="grid-w50 md:grid-w33 xl:grid-w25" />
   <img src="/wall/wall23.jpg" class="grid-w50 md:grid-w33 xl:grid-w25" />
   <img src="/wall/wall24.jpg" class="grid-w50 md:grid-w33 xl:grid-w25" />
+  <img src="/wall/wall25.jpg" class="grid-w50 md:grid-w33 xl:grid-w25" />
   <img src="/wall/wall26.jpg" class="grid-w50 md:grid-w33 xl:grid-w25" />
   <img src="/wall/wall27.jpg" class="grid-w50 md:grid-w33 xl:grid-w25" />
   <img src="/wall/wall28.jpg" class="grid-w50 md:grid-w33 xl:grid-w25" />
@@ -80,5 +81,6 @@ I keep the walls here so I don't need to re-look for and re-download them a seco
   <img src="/wall/wall7.png" class="grid-w50 md:grid-w33 xl:grid-w25" />
   <img src="/wall/wall8.png" class="grid-w50 md:grid-w33 xl:grid-w25" />
   <img src="/wall/wall9.png" class="grid-w50 md:grid-w33 xl:grid-w25" />
+  <img src="/wall/wall10.png" class="grid-w50 md:grid-w33 xl:grid-w25" />
 {{< /gallery >}}
 

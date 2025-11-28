@@ -351,6 +351,11 @@ Kita akan disuguhkan _ip address_ berikut dengan port 3923 yang terbuka. Yang me
 Kalian percaya dengan kekerenan copyparty ini? Kalau enggak, coba sendiri deh...
 Dijamin langsung terkesan.
 
+---
+
+Artikel ini ditulis di Ubuntu 25.10.
+
+![ss9](/fileserver/ubuntu25.10.png "Ubuntu 25.10 (Questing)")
 
 
 

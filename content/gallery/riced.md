@@ -12,6 +12,21 @@ Berikut adalah kompilasi dari **_linux ricing_** yang pernah saya gunakan selama
 
 {{< timeline >}}
 
+{{< timelineItem icon="ubuntu" header="November 28th, 2025" badge="default" subheader="Ubuntu - GNOME" >}}
+
+{{< gallery >}}
+  <img src="/riced/28November2025.png" />
+{{< /gallery >}}
+
+<ul>
+  <li><b>Article:</b> <a href=https://abwildan.github.io/tech/fileserver/>tech/fileserver</a> </li>
+
+<blockquote>
+  <p>f0fb58eb2f3af7fa5039c3acaba38efad8e47af218e6f26f8262e29f4910ec51 </p>
+</blockquote>
+
+{{< /timelineItem >}}
+
 {{< timelineItem icon="archlinux" header="September 22nd, 2025" badge="riced" subheader="Archlinux - Hyprland" >}}
 
 {{< gallery >}}

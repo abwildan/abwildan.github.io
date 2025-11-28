@@ -4,18 +4,24 @@
 
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-09-22T00:00:00+00:00</lastmod>
+    <lastmod>2025-11-28T08:18:57+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tech/ubuntuserver/</loc>
-    <lastmod>2025-09-22T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/tech/fileserver/</loc>
+    <lastmod>2025-11-28T08:18:57+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/tech/</loc>
+    <lastmod>2025-11-28T08:18:57+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tech/ubuntuserver/</loc>
     <lastmod>2025-09-22T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>

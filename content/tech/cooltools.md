@@ -1,7 +1,7 @@
 ---
 title: "Cool Terminal Tools You Should Know"
 date: 2024-06-09T16:59:47+07:00
-lastmod: 2025-06-20
+lastmod: 2025-11-28
 draft: false
 summary: "Just a list of a couple of (funny) terminal tools"
 cover:
@@ -187,6 +187,35 @@ yay -Sy hollywood
 
 **Notes:**  
 `hollywood` sangat memakan _resource_ (terutama CPU) jika dijalankan. Jadi, jika komputer kalian memiliki _resource_ yang terbatas, jangan jalankan program ini terlalu lama.
+
+{{< /alert >}}
+
+### 10. freechess
+
+Kita dapat memainkan catur di CLI melalui layanan `ftp` dari [FreeChess](https://www.freechess.org).
+
+Karena ini adalah layanan `telnet`, maka kita tidak perlu melakukan instalasi apapun, karena biasanya paket `telnet` sendiri di linux sudah terpasang secara default.
+
+Untuk mengaksesnya, gunakan perintah berikut di terminal:
+
+```shell
+telnet freechess.org
+```
+
+atau 
+
+```shell
+nc -vv freechess.org 23
+```
+
+<video width="100%" controls autoplay loop muted>
+  <source src="/cooltools/freechess.mp4" type="video/mp4">
+</video>
+
+{{< alert icon="none" >}}
+
+**Notes:**  
+Untuk perintah-perintah yang dapat digunakan, misalnya bagaimana memulai game dan sebagainya silakan dibaca-baca sendiri di servernya. Oiya, satu lagi, karena di sini kita bermain catur via CLI, jadi, kita akan menuliskan notasi untuk menggerakkan buah-buah catur alih-alih menggesernya dengan mouse atau kursor. Sungguh menarik, bukan? Wkwkwk
 
 {{< /alert >}}
 

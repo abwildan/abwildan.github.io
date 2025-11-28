@@ -9,12 +9,22 @@
     <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
     <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
     <copyright>© 2025 Wildan</copyright>
-    <lastBuildDate>Sun, 21 Sep 2025 13:18:15 +0700</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 28 Nov 2025 08:18:57 +0700</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>File</title>
+      <link>http://localhost:1313/tags/file/</link>
+      <pubDate>Fri, 28 Nov 2025 08:18:57 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tags/file/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>Linux</title>
       <link>http://localhost:1313/tags/linux/</link>
-      <pubDate>Sun, 21 Sep 2025 13:18:15 +0700</pubDate>
+      <pubDate>Fri, 28 Nov 2025 08:18:57 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tags/linux/</guid>
       <description></description>
@@ -22,11 +32,31 @@
     </item>
     
     <item>
+      <title>Python</title>
+      <link>http://localhost:1313/tags/python/</link>
+      <pubDate>Fri, 28 Nov 2025 08:18:57 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tags/python/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
       <title>Server</title>
       <link>http://localhost:1313/tags/server/</link>
-      <pubDate>Sun, 21 Sep 2025 13:18:15 +0700</pubDate>
+      <pubDate>Fri, 28 Nov 2025 08:18:57 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tags/server/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Web</title>
+      <link>http://localhost:1313/tags/web/</link>
+      <pubDate>Fri, 28 Nov 2025 08:18:57 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tags/web/</guid>
       <description></description>
       
     </item>
@@ -577,16 +607,6 @@
       <pubDate>Fri, 30 May 2025 18:47:46 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tags/images/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Python</title>
-      <link>http://localhost:1313/tags/python/</link>
-      <pubDate>Fri, 30 May 2025 18:47:46 +0700</pubDate>
-      <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/tags/python/</guid>
       <description></description>
       
     </item>
@@ -1542,16 +1562,6 @@
     </item>
     
     <item>
-      <title>Web</title>
-      <link>http://localhost:1313/tags/web/</link>
-      <pubDate>Sun, 13 Oct 2024 17:04:53 +0700</pubDate>
-      <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/tags/web/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
       <title>Docker</title>
       <link>http://localhost:1313/tags/docker/</link>
       <pubDate>Fri, 11 Oct 2024 13:28:19 +0700</pubDate>
@@ -1597,16 +1607,6 @@
       <pubDate>Thu, 03 Oct 2024 21:42:14 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tags/rsync/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>File</title>
-      <link>http://localhost:1313/tags/file/</link>
-      <pubDate>Sun, 29 Sep 2024 02:06:27 +0000</pubDate>
-      <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/tags/file/</guid>
       <description></description>
       
     </item>

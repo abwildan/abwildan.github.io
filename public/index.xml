@@ -9,7 +9,17 @@
     <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
     <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
     <copyright>© 2025 Wildan</copyright>
-    <lastBuildDate>Sun, 21 Sep 2025 13:18:15 +0700</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 28 Nov 2025 08:18:57 +0700</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>A Glance at File/Web Server Options</title>
+      <link>http://localhost:1313/tech/fileserver/</link>
+      <pubDate>Fri, 28 Nov 2025 08:18:57 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tech/fileserver/</guid>
+      <description>A curated file server lists that will enhance your productivity, especially as a web developer or just a hobbyist.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/fileserver/featured.png" />
+    </item>
     
     <item>
       <title>How to Install Ubuntu Server?</title>

@@ -145,7 +145,7 @@
     "keywords": ["server","web","file","linux","python"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "2029"
+    "wordCount": "2098"
   }]
   </script>
 
@@ -1947,9 +1947,9 @@ Masukkan baris berikut di file konfigurasi (<code>/etc/nixos/configuration.nix</
 <p>Mirip pula seperti apache2, kita hanya perlu menghidupkan layanan nginx dengan perintah:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">sudo systemctl start nginx
 </span></span></code></pre></div><p>Untuk menghentikan layanannya, gunakan perintah:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">sudo systemctl stop apache2
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">sudo systemctl stop nginx
 </span></span></code></pre></div><p>Untuk melihat status <em>service</em> nginx, apakah sedang berjalan atau tidak:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">sudo systemctl status apache2
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">sudo systemctl status nginx
 </span></span></code></pre></div><blockquote>
 <p><strong>Notes:</strong><br>
 Perlu diperhatikan! nginx juga menggunakan port yang sama dengan apache2. Artinya, jika service apache2 kalian sedang berjalan, maka nginx tidak bisa berjalan juga secara default, karena port-nya (port 80) sedang digunakan. Jadi, kalian harus mematikan layanan apache2 terlebih dahulu sebelum dapat menghidupkan nginx.</p></blockquote>
@@ -1968,9 +1968,25 @@ Perlu diperhatikan! nginx juga menggunakan port yang sama dengan apache2. Artiny
     <figcaption>nginx default home page</figcaption>
 </figure>
 </p>
-<p>Dari gambar di atas, kita juga tahu, ketika nginx dijalankan, dia akan &ldquo;meng-<em>generate</em>&rdquo; sebuah file untuk menampilkan halaman website tersebut (<code>index.html</code>) di direktori / folder yang sama dengan apache2 (<code>/var/www/html</code>), yaitu <code>index.nginx-debian.html</code>. Kita bisa melihat file halaman apache2 tadi yang sudah di-<em>rename</em> (<code>index.html.bak</code>).</p>
-<p>Nah, agar nginx juga dapat difungsikan sebagai file server, &ldquo;trik&rdquo;-nya juga sama seperti sebelumnya, kita hanya perlu menghapus / mengganti nama file tersebut. Kemudian, file-file yang ingin kita bagikan dapat dipindahkan ke direktori <code>/var/www/html</code>.</p>
-
+<p>Dari gambar di atas, kita juga tahu, ketika nginx dijalankan, dia akan &ldquo;meng-<em>generate</em>&rdquo; sebuah file untuk menampilkan halaman website tersebut (<code>index.html</code>).</p>
+<p>Nah, agar nginx juga dapat difungsikan sebagai file server, &ldquo;trik&rdquo;-nya agak sedikit berbeda dengan apache2. Kita perlu melakukan 2 hal utama:</p>
+<ol>
+<li>Menghapus / mengganti nama file <code>index.html/html</code>.</li>
+<li>Menambahkan mode <code>autoindex</code> ke file configurasinya.</li>
+</ol>
+<p>Pertama, kita perlu menghapus (atau saran saya mengganti namanya saja) file <code>index.html/html</code> agar halaman default html tersebut tidak ditampilkan ketika user sedang mengakses alamat web server. Lokasi file-nya ada di direktori <code>/usr/share/nginx</code>.</p>
+<p>Kedua, setelah megganti nama file tersebut, kita juga perlu menambahkan mode <code>autoindex</code> ke file konfigurasi yang terletak di <code>/etc/nginx/nginx.conf</code>. Tambahkan baris kode <code>autoindex on;</code> di root location, sehingga nanti kira-kira akan tampak seperti berikut:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">server <span class="o">{</span>
+</span></span><span class="line"><span class="cl">    listen 80<span class="p">;</span>
+</span></span><span class="line"><span class="cl">    server_name _<span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    location / <span class="o">{</span>
+</span></span><span class="line"><span class="cl">        root /usr/share/nginx/html<span class="p">;</span>
+</span></span><span class="line"><span class="cl">        index index.html  index.htm<span class="p">;</span>
+</span></span><span class="line"><span class="cl">        autoindex on<span class="p">;</span>           <span class="c1"># ⚠️ Ini yang membuat directory listing muncul</span>
+</span></span><span class="line"><span class="cl">    <span class="o">}</span>
+</span></span><span class="line"><span class="cl"><span class="o">}</span>
+</span></span></code></pre></div>
 <h3 class="relative group">3. Python Simple HTTP 
     <div id="3-python-simple-http" class="anchor"></div>
     

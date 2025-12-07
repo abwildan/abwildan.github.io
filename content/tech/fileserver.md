@@ -166,13 +166,13 @@ sudo systemctl start nginx
 Untuk menghentikan layanannya, gunakan perintah:
 
 ```shell
-sudo systemctl stop apache2
+sudo systemctl stop nginx
 ```
 
 Untuk melihat status _service_ nginx, apakah sedang berjalan atau tidak:
 
 ```shell
-sudo systemctl status apache2
+sudo systemctl status nginx
 ```
 
 > **Notes:**  
@@ -182,9 +182,29 @@ Berikut adalah tampilan halaman web server nginx:
 
 ![ss5](/fileserver/ss5.png "nginx default home page")
 
-Dari gambar di atas, kita juga tahu, ketika nginx dijalankan, dia akan "meng-_generate_" sebuah file untuk menampilkan halaman website tersebut (`index.html`) di direktori / folder yang sama dengan apache2 (`/var/www/html`), yaitu `index.nginx-debian.html`. Kita bisa melihat file halaman apache2 tadi yang sudah di-_rename_ (`index.html.bak`).
+Dari gambar di atas, kita juga tahu, ketika nginx dijalankan, dia akan "meng-_generate_" sebuah file untuk menampilkan halaman website tersebut (`index.html`).
 
-Nah, agar nginx juga dapat difungsikan sebagai file server, "trik"-nya juga sama seperti sebelumnya, kita hanya perlu menghapus / mengganti nama file tersebut. Kemudian, file-file yang ingin kita bagikan dapat dipindahkan ke direktori `/var/www/html`.
+Nah, agar nginx juga dapat difungsikan sebagai file server, "trik"-nya agak sedikit berbeda dengan apache2. Kita perlu melakukan 2 hal utama:  
+1. Menghapus / mengganti nama file `index.html/html`.  
+2. Menambahkan mode `autoindex` ke file configurasinya.
+
+Pertama, kita perlu menghapus (atau saran saya mengganti namanya saja) file `index.html/html` agar halaman default html tersebut tidak ditampilkan ketika user sedang mengakses alamat web server. Lokasi file-nya ada di direktori `/usr/share/nginx`.
+
+Kedua, setelah megganti nama file tersebut, kita juga perlu menambahkan mode `autoindex` ke file konfigurasi yang terletak di `/etc/nginx/nginx.conf`. Tambahkan baris kode `autoindex on;` di root location, sehingga nanti kira-kira akan tampak seperti berikut:
+
+```shell
+server {
+    listen 80;
+    server_name _;
+
+    location / {
+        root /usr/share/nginx/html;
+        index index.html  index.htm;
+        autoindex on;           # ⚠️ Ini yang membuat directory listing muncul
+    }
+}
+
+```
 
 
 ### 3. Python Simple HTTP

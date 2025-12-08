@@ -1,6 +1,7 @@
 ---
 title: "bluetoothctl: CLI Tool for Managing Bluetooth Devices"
 date: 2025-02-23T22:57:04+07:00
+lastmod: 2025-12-08
 draft: false
 summary: "The easiest way to connect your bluetooth devices via terminal in Linux."
 tags: ["linux", "bluetooth", "bluetoothctl"]
@@ -104,6 +105,14 @@ disconnect
 ![ss5](/bluetoothctl/ss5.png "disconnecting")
 
 Jika sudah selesai menggunakannya, kita dapat men-_disconnect_ perangkat tersebut dengan mengetikkan perintah `disconnect`, dan bila berhasil, **`bluetoothctl`** akan menampilkan status **Succesful disconnected**. Selain itu, **prompt**-nya juga akan kembali seperti semula.
+
+### 5. _Remove_ perangkat
+
+```shell
+remove 27:AB:34:8B:CD:B1
+```
+
+Perintah di atas digunakan untuk menghapus perangkat yang sudah pernah kita _pair_ sebelumnya. Ini dapat dilakukan terutama untuk _troubleshooting_ masalah yang mungkin saja bisa terjadi pada koneksi antara perangkat dengan bluetooth laptop/komputer kita. Jadi, untuk mengatasi masalah (misalnya, perangkat headset sudah terhubung ke bluetooth komputer, tapi suara tidak masuk), kita bisa terlebih dahulu menhapus perangkat terkait, kemudian menghubungkannya kembali. 
 
 
 ## Additional Notes:

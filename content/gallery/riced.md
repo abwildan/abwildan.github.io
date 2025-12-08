@@ -1,7 +1,7 @@
 ---
 title: "My (Riced) Linux Journey"
 date: 2025-09-08T11:14:25+07:00
-lastmod: 2025-09-21
+lastmod: 2025-11-28
 draft: false
 summary: "(My personal) linux ricing."
 tags: ["rice", "linux", "desktop", "ricing", "custom", "customization"]

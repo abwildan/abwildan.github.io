@@ -1,9 +1,9 @@
 ---
 title: "A Glance at File/Web Server Options"
 date: 2025-11-28T08:18:57+07:00
-lastmod: 2025-12-02
+lastmod: 2025-12-08
 draft: false
-summary: "A curated file server list that will enhance your productivity, especially as a web developer or just a hobbyist."
+summary: "A curated file server list that will enhance your productivity, especially as a hobbyist."
 tags: ["server", "web", "file", "linux", "python"]
 categories: "server"
 showTableOfContents: false

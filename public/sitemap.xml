@@ -4,19 +4,25 @@
 
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-12-02T00:00:00+00:00</lastmod>
+    <lastmod>2025-12-10T20:42:37+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tech/fileserver/</loc>
-    <lastmod>2025-12-02T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/tech/nixos/</loc>
+    <lastmod>2025-12-10T20:42:37+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/tech/</loc>
-    <lastmod>2025-12-02T00:00:00+00:00</lastmod>
+    <lastmod>2025-12-10T20:42:37+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tech/fileserver/</loc>
+    <lastmod>2025-12-08T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -28,13 +34,13 @@
   </url>
   <url>
     <loc>http://localhost:1313/gallery/</loc>
-    <lastmod>2025-09-21T00:00:00+00:00</lastmod>
+    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/gallery/riced/</loc>
-    <lastmod>2025-09-21T00:00:00+00:00</lastmod>
+    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -190,7 +196,7 @@
   </url>
   <url>
     <loc>http://localhost:1313/tech/bluetoothctl/</loc>
-    <lastmod>2025-02-23T22:57:04+07:00</lastmod>
+    <lastmod>2025-12-08T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

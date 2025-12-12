@@ -9,7 +9,17 @@
     <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
     <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
     <copyright>© 2025 Wildan</copyright>
-    <lastBuildDate>Fri, 28 Nov 2025 08:18:57 +0700</lastBuildDate><atom:link href="http://localhost:1313/tech/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 10 Dec 2025 20:42:37 +0700</lastBuildDate><atom:link href="http://localhost:1313/tech/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>My NixOS Personal Note</title>
+      <link>http://localhost:1313/tech/nixos/</link>
+      <pubDate>Wed, 10 Dec 2025 20:42:37 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tech/nixos/</guid>
+      <description>My personal notes with regard to Nixos&amp;rsquo; stuff. Additional suggestions coming from you might be taken into account and will completely very helpful.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/nixos/featured.png" />
+    </item>
     
     <item>
       <title>A Glance at File/Web Server Options</title>
@@ -47,7 +57,7 @@
       <pubDate>Sat, 12 Jul 2025 10:49:32 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/mpv/</guid>
-      <description>A tiny but powerful (and super useful ofcource) video (and music) player.</description>
+      <description>A tiny but powerful (and super useful of course) video (and music) player.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/mpv/featured.png" />
     </item>
     

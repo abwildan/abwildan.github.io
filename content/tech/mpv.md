@@ -3,7 +3,7 @@ title: "MPV: A Free, Open Source, and Cross-platform Media Player."
 date: 2025-07-12T10:49:32+07:00
 lastmod: 2025-07-13
 draft: false
-summary: "A tiny but powerful (and super useful ofcource) video (and music) player."
+summary: "A tiny but powerful (and super useful of course) video (and music) player."
 tags: ["mpv", "video", "music", "video player", "ffmpeg"]
 categories: "mpv"
 ---

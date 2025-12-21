@@ -6,7 +6,6 @@ draft: false
 summary: "A curated file server list that will enhance your productivity, especially as a hobbyist."
 tags: ["server", "web", "file", "linux", "python"]
 categories: "server"
-showTableOfContents: false
 ---
 
 Beberapa pengalaman kecil saya (terutama sejak mengenal linux) pada akhirnya membawa urgensi pada file server atau web server. Misalnya, saya ingin men-_transfer_ file dari satu komputer ke komputer yang lain. Saya mencari tahu, apa cara yang paling efektif dan efisien untuk melakukan hal tersebut? Akhirnya, saya paham, web/file server adalah jawabannya. Tapi, sebelum lebih jauh, mari kita cari tahu, apa itu **"file server"** dan **"web server"**? Apakah keduanya sama atau berbeda? Jika berbeda, apa saja perbedaannya?
@@ -352,7 +351,7 @@ https://github.com/9001/copyparty/releases/latest/download/copyparty-sfx.py
 
 **Notes:**
 
-- Kita juga dapat melakukan instalasi copyparty dengan `pip`.
+- Kita juga dapat melakukan instalasi copyparty dengan `pip`.  
 - Beberapa paket mungkin diperlukan di beberapa distro. (Silakan merujuk ke repo-nya).
 
 {{< /alert >}}

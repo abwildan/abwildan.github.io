@@ -12,13 +12,13 @@
     <lastBuildDate>Sun, 21 Dec 2025 06:38:10 +0700</lastBuildDate><atom:link href="http://localhost:1313/categories/pip/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>How to Install Python Packages with `pip`</title>
+      <title>How to Install Python Packages with `pip` &amp; `pipx`</title>
       <link>http://localhost:1313/tech/pip/</link>
       <pubDate>Sun, 21 Dec 2025 06:38:10 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/pip/</guid>
-      <description>A step-by-step guidance on how to install python packages using pip.</description>
-      
+      <description>A step-by-step guidance on how to install python packages using pip &amp;amp; pipx.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/pip/featured.png" />
     </item>
     
   </channel>

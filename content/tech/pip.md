@@ -19,7 +19,11 @@ Python adalah 'bahasa pemrograman tingkat tinggi' yang dikembangkan oleh Guido v
 
 ## `pip`
 
-Berikut langkah-langkahnya:
+Repository official `pip` dapat ditemukan di Github:
+
+{{< github repo="pypa/pip" showThumbnail=false >}}
+
+Berikut langkah-langkah penggunaanya:
 
 ### 1. Install `python` 
 
@@ -32,18 +36,18 @@ Perlu diketahui, Python punya 2 versi:
 - Python versi 2 (sudah tidak dilanjut lagi.)
 - Python versi 3
 
-Seperti terlihat, Python versi 2 sudah tidak dilanjut lagi perkembangannya, sehingga banyak aplikasi modern dikembangkan dengan yang versi 3. Jadi, pastikan ketika kita ingin meng-_install_ Python, kita memasang versi yang sesuai dengan kebutuhan atau spesifikasi _software_ yang ingn dijalanan...   
-
-{{< /alert >}}
+Seperti terlihat, Python versi 2 sudah tidak dilanjut lagi perkembangannya, sehingga banyak aplikasi modern dikembangkan dengan yang versi 3. Jadi, pastikan ketika kita ingin meng-_install_ Python, kita memasang versi yang sesuai dengan kebutuhan atau spesifikasi _software_ yang ingin dijalanan...   
 
 Di sini, saya akan memasang Python versi 3.
+
+{{< /alert >}}
 
 |       Distro      |                  Command                      |
 |       ---         |                   ---                         |
 | **Debian/Ubuntu** | **`sudo apt install python3`**                |
 | **Arch Linux**    | **`sudo pacman -Sy python`**                  |
 | **Opensuse**      | **`sudo zypper install python3`**             |
-| **Fedora**        | **`sudo dnf install pyton3`**     			|
+| **Fedora**        | **`sudo dnf install pyton3`**     			      |
 
 Untuk memastikan Python3 sudah terpasang, gunakan perintah:
 
@@ -111,6 +115,105 @@ Selesai! Kita sekarang dapat menjalankan aplikasinya dengan perintah:
 
 ## `pipx`
 
+`pipx` mirip dengan `pip`. 
+
+Perbedaan paling utama hanya di _packages_ yang dapat di-_install_ oleh masing-masing _tool_ tersebut. Jika `pip` dapat digunakan untuk meng-install aplikasi dan _library_, `pipx` hanya ditujukan untuk meng-_install_ aplikasi Python saja, jadi tidak bisa digunakan untuk meng-_install_ _library_.[^3] Jadi, kalau saya boleh simpulkan sendiri, `pipx` lebih mirip seperti **package manager** yang ada di linux, misalnya seperti `pacman` di Archlinux, `apt` di Debian/Ubuntu, `Zypper` di Opensuse, dan lain sebagainya.
+
+Meskipun demikian, keduanya sama-sama berjalan dengan menggunakan konsep _virtual environment_, sehingga aplikasi ataupun _library_ yang ter-_install_ tidak akan mempengaruhi system.
+
+Berikut adalah perbandingan antara `pip` & `pipx` yang lebih spesifik:[^4]
+
+| Aspect | pip | pipx |
+|------|-----|------|
+| Primary purpose | Library and package management | Application installation and execution |
+| Installation scope | Project-specific or global | Isolated applications with global access |
+| Dependency management | Manual virtual environment handling | Automatic isolation per application |
+| Target use case | Development dependencies and libraries | Command-line tools and standalone apps |
+| Environment handling | Requires manual venv management | Creates isolated environments automatically |
+| Package types | Any Python package or library | Applications with console scripts |
+| Upgrade strategy | Manual dependency resolution | Per-application upgrade isolation |
+| Configuration complexity | Flexible but requires setup | Minimal configuration needed |
+| Development workflow | Integrates with `requirements.txt` | Designed for end-user tool installation |
+| Conflict resolution | User manages conflicts manually | Prevents conflicts through isolation |
+| System integration | Installs to active environment | Creates system-wide accessible commands |
+| Temporary execution | Requires installation first | Supports run-once execution with `--run` |
+| Maintenance overhead | Requires environment management | Self-contained application management |
+
+Repository resmi pipx juga dapat ditemui di Github:
+
+{{< github repo="pypa/pipx" showThumbnail=false >}}
+
+
+### 1. Install `pipx`
+
+Kita install `pipx` terlebih dahulu, langsung dari repo masing-masing Linux:
+
+|       Distro      |                  Command                      |
+|       ---         |                   ---                         |
+| **Debian/Ubuntu** | **`sudo apt install pipx`**                   |
+| **Arch Linux**    | **`sudo pacman -Sy python-pipx`**             |
+| **Opensuse**      | **`sudo zypper install pipx`**                |
+| **Fedora**        | **`sudo dnf install pipx`**       			      |
+
+Untuk memastikan `pipx` sudah terpasang, gunakan perintah:
+
+```shell
+pipx --version
+```
+
+{{< alert icon=none >}}
+
+**NixOS:**  
+Masukkan baris berikut di file konfigurasi (`/etc/nixos/configuration.nix`):
+
+```nix
+  environment.systemPackages = [
+    pkgs.pipx
+  ];
+```
+
+Atau jika menggunakan `nix-shell`:
+
+```shell
+nix-shell -p pipx
+```
+
+{{< /alert >}}
+
+### 2. Use `pipx`
+
+Setelah memasang `pipx`, sekarang kita dapat menggunakannya untuk meng-_install_ aplikasi Python dengan perintah:
+
+```shell
+pipx install {nama-aplikasi}
+```
+
+Ganti {nama-aplikasi} dengan nama aplikasi yang ingin kita _install_.
+
+### 3. Uninstall with `pipx`
+
+Kita juga dapat meng-_uninstall_ atau menghapus aplikasi yang sudah di-_install_ dengan perintah:
+
+```shell
+pipx uninstall {nama-aplikasi}
+```
+
+### 4. Listing `pipx` Apps
+
+Jika kita ingin melihat aplikasi apa saja yang sudah pernah di-_install_ dengan `pipx`:
+
+```shell
+pipx list
+```
+
+### 5. Help 
+
+Kita juga dapat melihat opsi-opsi lain apa saja yang dapat kita manfaatkan ketika menggunakan `pipx`:
+
+```shell
+pipx --help
+```
+
 Beberapa artikel saya yang lain juga sebetulnya ada yang pernah memanfaatkan `pip` dan `pipx` untuk meng-_install_ paket Python: 
 
 1. Cloudinary
@@ -148,4 +251,6 @@ rm -rf {nama-folder}
 
 [^1]: https://en.wikipedia.org/wiki/Python_(programming_language)
 [^2]: https://packaging.python.org/en/latest/tutorials/installing-packages/
+[^3]: https://medium.com/@martia_es/pip-vs-pipx-the-definitive-guide-to-python-package-management-a7039a5c62fa
+[^4]: https://betterstack.com/community/comparisons/pip-vs-pipx/
 

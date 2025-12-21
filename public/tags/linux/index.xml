@@ -9,7 +9,17 @@
     <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
     <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
     <copyright>© 2025 Wildan</copyright>
-    <lastBuildDate>Wed, 10 Dec 2025 20:42:37 +0700</lastBuildDate><atom:link href="http://localhost:1313/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 21 Dec 2025 06:38:10 +0700</lastBuildDate><atom:link href="http://localhost:1313/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>How to Install Python Packages with `pip` &amp; `pipx`</title>
+      <link>http://localhost:1313/tech/pip/</link>
+      <pubDate>Sun, 21 Dec 2025 06:38:10 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tech/pip/</guid>
+      <description>A step-by-step guidance on how to install python packages using pip &amp;amp; pipx.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/pip/featured.png" />
+    </item>
     
     <item>
       <title>My NixOS Personal Note</title>

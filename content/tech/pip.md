@@ -143,6 +143,10 @@ Repository resmi pipx juga dapat ditemui di Github:
 
 {{< github repo="pypa/pipx" showThumbnail=false >}}
 
+Website dokumentasi `pipx`:
+
+> [**pipx**](https://pipx.pypa.io/stable/): https://pipx.pypa.io/stable/
+
 
 ### 1. Install `pipx`
 

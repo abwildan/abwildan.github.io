@@ -1,7 +1,7 @@
 ---
 title: "My NixOS Personal Note"
 date: 2025-12-10T20:42:37+07:00
-lastmod: 2025-12-12
+lastmod: 2025-12-27
 draft: false
 summary: "My personal notes with regard to Nixos' stuff. Additional suggestions coming from you might be taken into account and will completely very helpful."
 tags: ["nixos", "linux", "desktop", "config", "cofiguration", "home-manager"]
@@ -72,13 +72,54 @@ or
 home-manager switch # for home.nix
 ```
 
-### 3. Listing & Deleting NixOS generations
+### 3. Listing & Upgrading Packages[^1]
+
+1. **Listing** Nix channels
+
+```shell
+sudo nix-channel --list
+```
+
+2. **Adding/Changing** channels
+
+```shell
+sudo nix-channel --add {name}
+```
+
+3. **Removing** channels
+
+```shell
+sudo nix-channel --remove {channel-alias}
+```
+
+4. **Updating** channels
+
+```shell
+sudo nix-channel --update
+```
+
+> **Notes:** Using the previous command won't cause a rebuild itself; if you want to update channels and rebuild, use the following command to do both in one step.
+
+5. **Upgrading** Nix packages
+
+```shell
+sudo nixos-rebuild --upgrade
+```
+
+
+### 4. Listing & Deleting NixOS generations
 
 1. **Listing** NixOS generations  
 - Rebuild generations
 
 ```shell
 nixos-rebuild list-generations
+```
+
+atau 
+
+```shell
+sudo nix-env -p /nix/var/nix/profiles/system --list-generations
 ```
 
 - Env generations
@@ -113,7 +154,7 @@ home-manager remove-generations <number>
 ```
 
 
-
+[^1]: https://nixos.wiki/wiki/Nix_channels
 
 
 

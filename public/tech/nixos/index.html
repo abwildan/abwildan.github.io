@@ -106,7 +106,7 @@
   <meta property="og:type" content="article">
     <meta property="article:section" content="tech">
     <meta property="article:published_time" content="2025-12-10T20:42:37+07:00">
-    <meta property="article:modified_time" content="2025-12-12T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-12-27T00:00:00+00:00">
     <meta property="article:tag" content="Nixos">
     <meta property="article:tag" content="Linux">
     <meta property="article:tag" content="Desktop">
@@ -141,12 +141,12 @@
     "dateCreated": "2025-12-10T20:42:37\u002b07:00",
     "datePublished": "2025-12-10T20:42:37\u002b07:00",
     
-    "dateModified": "2025-12-12T00:00:00\u002b00:00",
+    "dateModified": "2025-12-27T00:00:00\u002b00:00",
     
     "keywords": ["nixos","linux","desktop","config","cofiguration","home-manager"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "245"
+    "wordCount": "315"
   }]
   </script>
 
@@ -855,7 +855,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2025-12-10T20:42:37&#43;07:00">10 December 2025</time><span class="px-2 text-primary-500">&middot;</span><time datetime="2025-12-12T00:00:00&#43;00:00">Updated: 12 December 2025</time><span class="px-2 text-primary-500">&middot;</span><span>245 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span><span class="px-2 text-primary-500">&middot;</span>
+      <time datetime="2025-12-10T20:42:37&#43;07:00">10 December 2025</time><span class="px-2 text-primary-500">&middot;</span><time datetime="2025-12-27T00:00:00&#43;00:00">Updated: 27 December 2025</time><span class="px-2 text-primary-500">&middot;</span><span>315 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span><span class="px-2 text-primary-500">&middot;</span>
 
 
   
@@ -1198,7 +1198,8 @@
       <ul>
         <li><a href="#1-nixos-main-config-files">1. NixOS main config files</a></li>
         <li><a href="#2-adding--removing-packages">2. Adding &amp; Removing Packages</a></li>
-        <li><a href="#3-listing--deleting-nixos-generations">3. Listing &amp; Deleting NixOS generations</a></li>
+        <li><a href="#3-listing--upgrading-packages">3. Listing &amp; Upgrading Packages</a></li>
+        <li><a href="#4-listing--deleting-nixos-generations">4. Listing &amp; Deleting NixOS generations</a></li>
       </ul>
     </li>
   </ul>
@@ -1218,7 +1219,8 @@
       <ul>
         <li><a href="#1-nixos-main-config-files">1. NixOS main config files</a></li>
         <li><a href="#2-adding--removing-packages">2. Adding &amp; Removing Packages</a></li>
-        <li><a href="#3-listing--deleting-nixos-generations">3. Listing &amp; Deleting NixOS generations</a></li>
+        <li><a href="#3-listing--upgrading-packages">3. Listing &amp; Upgrading Packages</a></li>
+        <li><a href="#4-listing--deleting-nixos-generations">4. Listing &amp; Deleting NixOS generations</a></li>
       </ul>
     </li>
   </ul>
@@ -1385,12 +1387,44 @@
 </span></span></code></pre></div><p>or</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">home-manager switch <span class="c1"># for home.nix</span>
 </span></span></code></pre></div>
-<h3 class="relative group">3. Listing &amp; Deleting NixOS generations 
-    <div id="3-listing--deleting-nixos-generations" class="anchor"></div>
+<h3 class="relative group">3. Listing &amp; Upgrading Packages<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> 
+    <div id="3-listing--upgrading-packages" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100 select-none">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#3-listing--deleting-nixos-generations" aria-label="Anchor">#</a>
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#3-listing--upgrading-packages" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<ol>
+<li><strong>Listing</strong> Nix channels</li>
+</ol>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">sudo nix-channel --list
+</span></span></code></pre></div><ol start="2">
+<li><strong>Adding/Changing</strong> channels</li>
+</ol>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">sudo nix-channel --add <span class="o">{</span>name<span class="o">}</span>
+</span></span></code></pre></div><ol start="3">
+<li><strong>Removing</strong> channels</li>
+</ol>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">sudo nix-channel --remove <span class="o">{</span>channel-alias<span class="o">}</span>
+</span></span></code></pre></div><ol start="4">
+<li><strong>Updating</strong> channels</li>
+</ol>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">sudo nix-channel --update
+</span></span></code></pre></div><blockquote>
+<p><strong>Notes:</strong> Using the previous command won&rsquo;t cause a rebuild itself; if you want to update channels and rebuild, use the following command to do both in one step.</p></blockquote>
+<ol start="5">
+<li><strong>Upgrading</strong> Nix packages</li>
+</ol>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">sudo nixos-rebuild --upgrade
+</span></span></code></pre></div>
+<h3 class="relative group">4. Listing &amp; Deleting NixOS generations 
+    <div id="4-listing--deleting-nixos-generations" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100 select-none">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#4-listing--deleting-nixos-generations" aria-label="Anchor">#</a>
     </span>        
     
 </h3>
@@ -1401,6 +1435,8 @@
 <li>Rebuild generations</li>
 </ul>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">nixos-rebuild list-generations
+</span></span></code></pre></div><p>atau</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">sudo nix-env -p /nix/var/nix/profiles/system --list-generations
 </span></span></code></pre></div><ul>
 <li>Env generations</li>
 </ul>
@@ -1424,7 +1460,18 @@
 <li>Deleting home manager generations</li>
 </ul>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">home-manager remove-generations &lt;number&gt;
-</span></span></code></pre></div>
+</span></span></code></pre></div><div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p><a
+  href="https://nixos.wiki/wiki/Nix_channels"
+    target="_blank"
+  >https://nixos.wiki/wiki/Nix_channels</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
           
           
           

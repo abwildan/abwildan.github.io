@@ -1,7 +1,7 @@
 ---
 title: "Wallpaper"
 date: 2025-01-25T07:00:57Z
-lastmod: 2025-07-29
+lastmod: 2025-12-28
 draft: false
 summary: "(My personal) wallpapers."
 tags: ["wallpaper"]
@@ -13,7 +13,7 @@ backgroundImage: "img/blue-aqua.jpg"
 
 {{< collapse summary="**About This Page**" >}}
 
-These are my used personal wallpapers. They are mostly crawled from famous wallpaper websites such as 
+These are my used personal wallpapers. They are mostly crawled from famous wallpaper websites, such as 
 1. [**wallhaven**](https://wallhaven.cc/), 
 2. [**wallpaperflare**](https://www.wallpaperflare.com/), 
 3. [**alphacoders**](https://alphacoders.com/),
@@ -73,6 +73,7 @@ I keep the walls here so it is easier for me to get them.
   <img src="/wall/wall2.jpeg" class="grid-w50 md:grid-w33 xl:grid-w25" />
   <img src="/wall/wall3.jpeg" class="grid-w50 md:grid-w33 xl:grid-w25" />
 
+  <img src="/wall/wall1.png" class="grid-w50 md:grid-w33 xl:grid-w25" />
   <img src="/wall/wall2.png" class="grid-w50 md:grid-w33 xl:grid-w25" />
   <img src="/wall/wall3.png" class="grid-w50 md:grid-w33 xl:grid-w25" />
   <img src="/wall/wall4.png" class="grid-w50 md:grid-w33 xl:grid-w25" />

@@ -1,7 +1,7 @@
 ---
 title: "My NixOS Personal Note"
 date: 2025-12-10T20:42:37+07:00
-lastmod: 2025-12-27
+lastmod: 2026-01-01
 draft: false
 summary: "My personal notes with regard to Nixos' stuff. Additional suggestions coming from you might be taken into account and will completely very helpful."
 tags: ["nixos", "linux", "desktop", "config", "cofiguration", "home-manager"]
@@ -86,10 +86,34 @@ sudo nix-channel --list
 sudo nix-channel --add {name}
 ```
 
+For instance, I would like to add **"NixOS"** 25.11 channel:
+
+```shell
+sudo nix-channel --add https://nixos.org/channels/nixos-25.11 nixos
+```
+
+A similar command goes with **"home-manager"** 25.11 channel:
+
+```shell
+sudo nix-channel --add https://github.com/nix-community/home-manager/archive/release-25.11.tar.gz home-manager
+```
+
 3. **Removing** channels
 
 ```shell
 sudo nix-channel --remove {channel-alias}
+```
+
+For instance, I would like to remove **"nixos"** channel:
+
+```shell
+sudo nix-channel --remove nixos
+```
+
+A similar command goes with **"home-manager"** channel:
+
+```shell
+sudo nix-channel --remove home-manager
 ```
 
 4. **Updating** channels

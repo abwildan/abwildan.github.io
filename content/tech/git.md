@@ -1,6 +1,7 @@
 ---
 title: "Git in A Nutshell (+ Lazygit)"
 date: 2025-07-19T07:10:27+07:00
+lastmod: 2026-02-01
 draft: false
 summary: "A seriously short introduction to Git and Github, with Lazygit as an automation tool for Git. Its not as hard as you assume. Dont overthink it."
 tags: ["git", "github", "lazygit", "ssh", "gpg"]
@@ -80,7 +81,7 @@ Berikut adalah diagram alur kerja `git`:[^4]
 Kita bahas satu persatu...
 
 Seperti terlihat pada gambar, secara umum, wilayah `git` dibagi menjadi 2: **remote** & **local**. 
-1. "Remote repository" adalah server yang meng-_hosting_ atau menyimpan file-file proyek kita di _remote server_, seperti Github, Gitlab, dan BitBucket.
+1. "Remote repository" adalah server yang meng-_hosting_ atau menyimpan file-file proyek kita di _remote server_, seperti {{< icon "github" >}} Github, {{< icon "gitlab" >}} Gitlab, dan {{< icon "bitbucket" >}} BitBucket.
 2. "Local computer" adalah komputer atau laptop yang kita gunakan untuk mengelola file-file tersebut sebelum disimpan ke _remote repository_. Pada bagian ini, `git` membagi 3 wilayah lagi, yaitu **working directory**, **staging area**, dan **local repository** ini sendiri.    
 - "Working directory" adalah area dimana kita dapat meng-_edit_ file kita.  
 - "Staging area" adalah sebuah area sementara (_temporary location_) sebelum di-_commit_ & masih memungkinkan perubahan.  

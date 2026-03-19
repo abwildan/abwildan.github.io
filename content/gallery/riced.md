@@ -12,6 +12,27 @@ Berikut adalah kompilasi dari **_linux ricing_** yang pernah saya gunakan selama
 
 {{< timeline >}}
 
+{{< timelineItem icon="archlinux" header="March 19th, 2026" badge="riced" subheader="ArchLinux - XFCE" >}}
+
+{{< gallery >}}
+  <img src="/riced/19March2026.png" />
+{{< /gallery >}}
+
+<ul>
+  <li><b>Article:</b> <a href=https://abwildan.github.io/cube/3x3/> cube/3x3 </a> </li>
+  <li><b>Config:</b> </li>
+    <ul>
+        <li> Theme: <a href=https://www.xfce-look.org/p/1336259> Sunset </a> </li>
+        <li> Icons: <a href=https://www.xfce-look.org/p/2345718> Slot Gray Dark </a> </li>
+        <li> Window: <a href=https://www.opendesktop.org/p/1282427> Nu </a> </li>
+    </ul>
+
+<blockquote>
+  <p>34d9442eb04e0154cbcd8147db09f4d27c9205f40442483bc617cc77b59624fb </p>
+</blockquote>
+
+{{< /timelineItem >}}
+
 {{< timelineItem icon="ubuntu" header="November 28th, 2025" badge="default" subheader="Ubuntu - GNOME" >}}
 
 {{< gallery >}}

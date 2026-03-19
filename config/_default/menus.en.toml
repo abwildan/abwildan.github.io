@@ -23,6 +23,12 @@
   weight = 20
 
 [[main]]
+  pre = "cube"
+  name = "Cube"
+  pageRef = "cube"
+  weight = 25
+
+[[main]]
   pre = "image"
   name = "Gallery"
   pageRef = "gallery"

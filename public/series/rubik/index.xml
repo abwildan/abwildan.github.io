@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rubik on My Awesome Site</title>
+    <link>http://localhost:1313/series/rubik/</link>
+    <description>Recent content in Rubik on My Awesome Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
+    <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
+    <copyright>© 2026 Wildan</copyright>
+    <lastBuildDate>Sun, 15 Feb 2026 14:01:15 +0700</lastBuildDate><atom:link href="http://localhost:1313/series/rubik/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Rubik&#39;s Cube 3x3 (Beginner&#39;s Guidance)</title>
+      <link>http://localhost:1313/cube/3x3/</link>
+      <pubDate>Sun, 15 Feb 2026 14:01:15 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/cube/3x3/</guid>
+      <description>Rubik&amp;rsquo;s cube 3x3 is known as the most famous and basic kind of cube&amp;rsquo;s types. So, this article would pretty much explain a step by step towards solving it.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

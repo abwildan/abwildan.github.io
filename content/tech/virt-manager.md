@@ -1,7 +1,7 @@
 ---
 title: "Practical Guide to Virt-Manager"
 date: 2025-06-16T17:45:18+07:00
-lastmod: 2025-06-19
+lastmod: 2026-03-19
 draft: false
 summary: "A note explaining basic usage of virt-manager, especially when it comes to the commands."
 tags: ["virt-manager", "libvirt", "kvm", "linux", "qemu", "virtualization", "virtual machine"]
@@ -25,6 +25,19 @@ Berikut adalah cara meng-install Virt-manager di beberapa distro Linux populer:
 | **Arch Linux**    | **`sudo pacman -Sy virt-manager`**                 |
 | **Opensuse**      | **`sudo zypper install virt-manager`**             |
 | **Fedora**        | **`sudo dnf install virt-manager`**     			     |
+
+Selain itu, terdapat beberapa paket tambahan yang juga perlu di-_install_, diantaranya adalah sebagai berikut:
+
+```shell
+sudo pacman -Sy --needed virt-manager qemu-full libvirt dnsmasq ebtables
+```
+
+Kemudian, kita perlu mengaktifkan **libvirt daemon**-nya.
+
+```shell
+sudo systemctl start libvirtd
+sudo systemctl status libvirtd # untuk melihat status libvirtd
+```
 
 {{< alert icon=none >}}
 

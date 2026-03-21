@@ -9,7 +9,17 @@
     <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
     <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
     <copyright>© 2026 Wildan</copyright>
-    <lastBuildDate>Sun, 15 Feb 2026 14:01:15 +0700</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 19 Mar 2026 17:20:34 +0700</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>GRUB: Theme, Timeout, and OS-Prober</title>
+      <link>http://localhost:1313/tech/grub/</link>
+      <pubDate>Thu, 19 Mar 2026 17:20:34 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tech/grub/</guid>
+      <description>A brief note regarding grub configuration.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/grub/featured.png" />
+    </item>
     
     <item>
       <title>Rubik&#39;s Cube 3x3 (Beginner&#39;s Guidance)</title>

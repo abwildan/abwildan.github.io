@@ -1,7 +1,7 @@
 ---
 title: "My (Riced) Linux Journey"
 date: 2025-09-08T11:14:25+07:00
-lastmod: 2026-03-19
+lastmod: 2026-03-31
 draft: false
 summary: "(My personal) linux ricing."
 tags: ["rice", "linux", "desktop", "ricing", "custom", "customization"]
@@ -11,6 +11,29 @@ categories: "rice"
 Berikut adalah kompilasi dari **_linux ricing_** yang pernah saya gunakan selama pengembangan website ini. _By the way_, beberapa ada yang "_default_", artinya masih polosan alias tidak di-"_rice_".
 
 {{< timeline >}}
+
+{{< timelineItem icon="archlinux" header="March 31st, 2026" badge="riced" subheader="ArchLinux - XFCE" >}}
+
+{{< gallery >}}
+  <img src="/riced/31March2026-1.png" />
+  <img src="/riced/31March2026-2.png" />
+  <img src="/riced/31March2026-3.png" />
+{{< /gallery >}}
+
+<ul>
+  <li><b>Article:</b> <a href=https://abwildan.github.io/tech/filesig/> tech/filesig </a> </li>
+  <li><b>Config:</b> </li>
+    <ul>
+        <li> Theme: <a href=https://www.xfce-look.org/p/2076848> Desktop Pal </a> </li>
+        <li> Icons: <a href=https://www.xfce-look.org/p/2088060> RustFold </a> </li>
+        <li> Window: <a href=https://github.com/KeithDHedger/Themes-And-Icons/tree/master/WoodThemeSmooth> WoodThemeSmooth </a> </li>
+    </ul>
+
+<blockquote>
+  <p> 771c9854314a5072a7ab5017b0b7410651dbaa8130cb31b1bb2cea4d131a9ddf::fac2980332294624796054450880e92b5e32e38cf6253a3f79bb646854baf5ba::61c97cfdc8e44df3c97bb2988b4543f7e1f7a3ecf44156e9d8ee245c7967f1d1 </p>
+</blockquote>
+
+{{< /timelineItem >}}
 
 {{< timelineItem icon="archlinux" header="March 19th, 2026" badge="riced" subheader="ArchLinux - XFCE" >}}
 

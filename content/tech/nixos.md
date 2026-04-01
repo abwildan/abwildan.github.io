@@ -1,9 +1,9 @@
 ---
 title: "My NixOS Personal Note"
 date: 2025-12-10T20:42:37+07:00
-lastmod: 2026-01-01
+lastmod: 2026-04-01
 draft: false
-summary: "My personal notes with regard to Nixos' stuff. Additional suggestions coming from you might be taken into account and will completely very helpful."
+summary: "My personal notes with regard to Nixos' stuff. Additional suggestions coming from you might be taken into account and will definitely very helpful."
 tags: ["nixos", "linux", "desktop", "config", "cofiguration", "home-manager"]
 categories: "nixos"
 ---

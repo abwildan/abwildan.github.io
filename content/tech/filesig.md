@@ -1,7 +1,7 @@
 ---
-title: "File Signature: How Computer Identities Your Files"
+title: "File Signature: How Computer Identifies Your File Type"
 date: 2026-03-30T17:48:54+07:00
-lastmod: 2026-03-31
+lastmod: 2026-04-01
 draft: false
 summary: "File signature is one of the most common concept when it comes to identifying types of files in your opeating system."
 tags: ["file signature", "linux", "windows", "metadata"]

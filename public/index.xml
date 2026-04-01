@@ -9,10 +9,20 @@
     <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
     <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
     <copyright>© 2026 Wildan</copyright>
-    <lastBuildDate>Mon, 30 Mar 2026 17:48:54 +0700</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 31 Mar 2026 14:52:34 +0700</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>File Signature: How Computer Identities Your Files</title>
+      <title>Typst: An Alternative to LaTex, Yet Easier</title>
+      <link>http://localhost:1313/tech/typst/</link>
+      <pubDate>Tue, 31 Mar 2026 14:52:34 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tech/typst/</guid>
+      <description>Typst is a modern, markup-based typesetting system as a faster, more intuitive alternative to LaTex for creating PDFs, research papers, and reports.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/typst/featured.png" />
+    </item>
+    
+    <item>
+      <title>File Signature: How Computer Identifies Your File Type</title>
       <link>http://localhost:1313/tech/filesig/</link>
       <pubDate>Mon, 30 Mar 2026 17:48:54 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
@@ -57,7 +67,7 @@
       <pubDate>Wed, 10 Dec 2025 20:42:37 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/nixos/</guid>
-      <description>My personal notes with regard to Nixos&amp;rsquo; stuff. Additional suggestions coming from you might be taken into account and will completely very helpful.</description>
+      <description>My personal notes with regard to Nixos&amp;rsquo; stuff. Additional suggestions coming from you might be taken into account and will definitely very helpful.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/nixos/featured.png" />
     </item>
     

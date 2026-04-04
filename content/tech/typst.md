@@ -1,7 +1,7 @@
 ---
 title: "Typst: An Alternative to LaTex, Yet Easier"
 date: 2026-03-31T14:52:34+07:00
-lastmod: 2026-04-01
+lastmod: 2026-04-04
 draft: false
 summary: "Typst is a modern, markup-based typesetting system as a faster, more intuitive alternative to LaTex for creating PDFs, research papers, and reports."
 tags: ["typst", "markup", "latex", "markdown"]

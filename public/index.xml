@@ -9,7 +9,17 @@
     <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
     <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
     <copyright>© 2026 Wildan</copyright>
-    <lastBuildDate>Tue, 31 Mar 2026 14:52:34 +0700</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 04 Apr 2026 13:49:59 +0700</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Android MTP: The Simplest Way to Connect Your Android Devices to Archlinux via USB</title>
+      <link>http://localhost:1313/tech/android-mtp/</link>
+      <pubDate>Sat, 04 Apr 2026 13:49:59 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tech/android-mtp/</guid>
+      <description>Typst is a modern, markup-based typesetting system as a faster, more intuitive alternative to LaTex for creating PDFs, research papers, and reports.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/android-mtp/featured.png" />
+    </item>
     
     <item>
       <title>Typst: An Alternative to LaTex, Yet Easier</title>
@@ -122,7 +132,7 @@
     </item>
     
     <item>
-      <title>The Standard Unix Password Manager: Pass</title>
+      <title>A Standard Unix Password Manager: Pass</title>
       <link>http://localhost:1313/tech/pass/</link>
       <pubDate>Sun, 22 Jun 2025 16:55:16 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>

@@ -9,7 +9,57 @@
     <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
     <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
     <copyright>© 2026 Wildan</copyright>
-    <lastBuildDate>Tue, 31 Mar 2026 14:52:34 +0700</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 04 Apr 2026 13:49:59 +0700</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Android</title>
+      <link>http://localhost:1313/tags/android/</link>
+      <pubDate>Sat, 04 Apr 2026 13:49:59 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tags/android/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Archlinux</title>
+      <link>http://localhost:1313/tags/archlinux/</link>
+      <pubDate>Sat, 04 Apr 2026 13:49:59 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tags/archlinux/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Libmtp</title>
+      <link>http://localhost:1313/tags/libmtp/</link>
+      <pubDate>Sat, 04 Apr 2026 13:49:59 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tags/libmtp/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>http://localhost:1313/tags/linux/</link>
+      <pubDate>Sat, 04 Apr 2026 13:49:59 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tags/linux/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Mtp</title>
+      <link>http://localhost:1313/tags/mtp/</link>
+      <pubDate>Sat, 04 Apr 2026 13:49:59 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tags/mtp/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>Latex</title>
@@ -57,16 +107,6 @@
       <pubDate>Mon, 30 Mar 2026 17:48:54 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tags/file-signature/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Linux</title>
-      <link>http://localhost:1313/tags/linux/</link>
-      <pubDate>Mon, 30 Mar 2026 17:48:54 +0700</pubDate>
-      <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/tags/linux/</guid>
       <description></description>
       
     </item>
@@ -177,6 +217,26 @@
       <pubDate>Sun, 15 Feb 2026 14:01:15 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tags/rubik/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Exiftool</title>
+      <link>http://localhost:1313/tags/exiftool/</link>
+      <pubDate>Sun, 28 Dec 2025 19:22:29 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tags/exiftool/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Xnviewmp</title>
+      <link>http://localhost:1313/tags/xnviewmp/</link>
+      <pubDate>Sun, 28 Dec 2025 19:22:29 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tags/xnviewmp/</guid>
       <description></description>
       
     </item>
@@ -587,16 +647,6 @@
       <pubDate>Wed, 18 Jun 2025 09:21:08 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tags/adb/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Android</title>
-      <link>http://localhost:1313/tags/android/</link>
-      <pubDate>Wed, 18 Jun 2025 09:21:08 +0700</pubDate>
-      <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/tags/android/</guid>
       <description></description>
       
     </item>

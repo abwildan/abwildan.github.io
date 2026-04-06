@@ -1,7 +1,7 @@
 ---
 title: "File Signature: How Computer Identifies Your File Type"
 date: 2026-03-30T17:48:54+07:00
-lastmod: 2026-04-01
+lastmod: 2026-04-06
 draft: false
 summary: "File signature is one of the most common concept when it comes to identifying types of files in your opeating system."
 tags: ["file signature", "linux", "windows", "metadata"]
@@ -156,15 +156,7 @@ Berikut ini adalah file pdf yang sama, tapi sudah saya ganti _file signature_-ny
 
 Sekian.
 
----
 
-Artikel ini ditulis di Archlinux:
-
-{{< gallery >}}
-  <img src="/filesig/archlinux1.png" class="grid-w33" />
-  <img src="/filesig/archlinux2.png" class="grid-w33" />
-  <img src="/filesig/archlinux3.png" class="grid-w33" />
-{{< /gallery >}}
 
 
 

@@ -62,6 +62,16 @@
     </item>
     
     <item>
+      <title>Metadata Manipulation 101</title>
+      <link>http://localhost:1313/tech/metadata/</link>
+      <pubDate>Sun, 28 Dec 2025 19:22:29 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tech/metadata/</guid>
+      <description>A brief (yet legal) tutorial on manipulating (adding, editing, deleting) file&amp;rsquo;s metadata.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/metadata/featured.png" />
+    </item>
+    
+    <item>
       <title>How to Install Python Packages with `pip` &amp; `pipx`</title>
       <link>http://localhost:1313/tech/pip/</link>
       <pubDate>Sun, 21 Dec 2025 06:38:10 +0700</pubDate>

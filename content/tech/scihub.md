@@ -1,6 +1,7 @@
 ---
 title: "Bypassing Article Journal Paywall using Scihub"
 date: 2024-05-21T09:10:19+07:00
+lastmod: 2026-04-04
 draft: false		
 summary: "Sci-Hub is the most controversial project in modern science. The goal of Sci-Hub is to provide free and unrestricted access to all scientific knowledge."
 cover: 
@@ -16,7 +17,7 @@ Kalian adalah seorang peneliti yang membutuhkan jurnal yang berstandar internasi
 # About Sci-hub
 
 [Sci-hub](https://sci-hub.se/) adalah situs web "perpustakaan bayangan" yang didirkan oleh seorang perempuan asal Kazakhstan yang lahir pada tahun 1988 bernama [Alexandra Elbakyan](https://sci-hub.se/alexandra#). Disebut "perpustakaan bayangan" karena sci-hub memberikan akses ke jutaan artikel penelitian berbayar secara gratis hanya dengan meng-_input_-kan tautan DOI (_Digital Object Identifier_) sebuah artikel ke situs sci-hub.[^1] 
-![ss1](https://sci-hub.se/pictures/alexandra/photos/2021-02-26.jpg)
+![ss1](/scihub/ss1.jpg "Alexandra Elbakyan")
 
 Situs ini didirikan pada tahun 2011 oleh perempuan lulusan jurusan Teknologi Informasi dari Kazakh National Technical University juga karena alasan mahalnya biaya makalah atau artikel penelitian yang tersedia di internet. Sejak kemunculannya pertama kali, sci-hub sudah berkali-kali diblokir karena digugat oleh pihak-pihak yang terkait, seperti [Elsevier](https://www.elsevier.com/), [Springer](https://www.springer.com/gp), [Wiley](https://onlinelibrary.wiley.com/), [Cambrige University Press](https://www.cambridge.org/universitypress), [American Chemical Society](https://www.acs.org/), dan pihak-pihak lainnya yang merasa dirugikan sebagai situs ilegal yang melanggar hak cipta. 
 ![ss2](/scihub/ss2.png)

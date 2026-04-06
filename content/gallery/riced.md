@@ -1,7 +1,7 @@
 ---
 title: "My (Riced) Linux Journey"
 date: 2025-09-08T11:14:25+07:00
-lastmod: 2026-03-31
+lastmod: 2026-04-06
 draft: false
 summary: "(My personal) linux ricing."
 tags: ["rice", "linux", "desktop", "ricing", "custom", "customization"]
@@ -21,7 +21,7 @@ Berikut adalah kompilasi dari **_linux ricing_** yang pernah saya gunakan selama
 {{< /gallery >}}
 
 <ul>
-  <li><b>Article:</b> <a href=https://abwildan.github.io/tech/filesig/> tech/filesig </a> </li>
+  <li><b>Article:</b> <a href=https://abwildan.github.io/tech/metadata/> tech/metadata </a> </li>
   <li><b>Config:</b> </li>
     <ul>
         <li> Theme: <a href=https://www.xfce-look.org/p/2076848> Desktop Pal </a> </li>

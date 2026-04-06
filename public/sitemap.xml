@@ -4,19 +4,25 @@
 
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2026-04-01T00:00:00+00:00</lastmod>
+    <lastmod>2026-04-04T13:49:59+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tech/android-mtp/</loc>
+    <lastmod>2026-04-04T13:49:59+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/tech/</loc>
-    <lastmod>2026-04-01T00:00:00+00:00</lastmod>
+    <lastmod>2026-04-04T13:49:59+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/tech/typst/</loc>
-    <lastmod>2026-04-01T00:00:00+00:00</lastmod>
+    <lastmod>2026-04-04T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -41,6 +47,12 @@
   <url>
     <loc>http://localhost:1313/cube/3x3/</loc>
     <lastmod>2026-02-15T14:01:15+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tech/metadata/</loc>
+    <lastmod>2026-04-04T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -94,7 +106,7 @@
   </url>
   <url>
     <loc>http://localhost:1313/tech/pass/</loc>
-    <lastmod>2025-06-28T00:00:00+00:00</lastmod>
+    <lastmod>2026-04-04T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -478,7 +490,7 @@
   </url>
   <url>
     <loc>http://localhost:1313/tech/scihub/</loc>
-    <lastmod>2024-05-21T09:10:19+07:00</lastmod>
+    <lastmod>2026-04-04T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

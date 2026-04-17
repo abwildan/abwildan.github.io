@@ -18,7 +18,7 @@
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/metadata/</guid>
       <description>A brief (yet legal) tutorial on manipulating (adding, editing, deleting) file&amp;rsquo;s metadata.</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/metadata/featured.png" />
     </item>
     
   </channel>

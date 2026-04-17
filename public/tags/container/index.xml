@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Container on My Awesome Site</title>
+    <link>http://localhost:1313/tags/container/</link>
+    <description>Recent content in Container on My Awesome Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
+    <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
+    <copyright>© 2026 Wildan</copyright>
+    <lastBuildDate>Mon, 13 Apr 2026 13:36:10 +0700</lastBuildDate><atom:link href="http://localhost:1313/tags/container/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Docker: A Powerful Containerization Platform (&#43; Lazydocker)</title>
+      <link>http://localhost:1313/tech/docker/</link>
+      <pubDate>Mon, 13 Apr 2026 13:36:10 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tech/docker/</guid>
+      <description>Deploying software often requires bunch of resources. However, the emergence of containerization platforms such as Docker has made it more convenient and docile, yet your software works flawlessly.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/docker/featured.png" />
+    </item>
+    
+  </channel>
+</rss>

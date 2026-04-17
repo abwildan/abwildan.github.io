@@ -18,7 +18,7 @@
     <meta name="title" content="Android MTP: The Simplest Way to Connect Your Android Devices to Archlinux via USB &middot; My Awesome Site">
 
   
-  <meta name="description" content="Typst is a modern, markup-based typesetting system as a faster, more intuitive alternative to LaTex for creating PDFs, research papers, and reports.">
+  <meta name="description" content="Are you wondering about how to connect your Android phone to Archlinux through a USB? Here, I will explain the easiest way (GUI &amp; CLI) to do that.">
   <meta name="keywords" content="android,mtp,archlinux,linux,libmtp,">
   
   
@@ -101,12 +101,12 @@
   <meta property="og:url" content="http://localhost:1313/tech/android-mtp/">
   <meta property="og:site_name" content="My Awesome Site">
   <meta property="og:title" content="Android MTP: The Simplest Way to Connect Your Android Devices to Archlinux via USB">
-  <meta property="og:description" content="Typst is a modern, markup-based typesetting system as a faster, more intuitive alternative to LaTex for creating PDFs, research papers, and reports.">
+  <meta property="og:description" content="Are you wondering about how to connect your Android phone to Archlinux through a USB? Here, I will explain the easiest way (GUI &amp; CLI) to do that.">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="tech">
     <meta property="article:published_time" content="2026-04-04T13:49:59+07:00">
-    <meta property="article:modified_time" content="2026-04-04T13:49:59+07:00">
+    <meta property="article:modified_time" content="2026-04-13T00:00:00+00:00">
     <meta property="article:tag" content="Android">
     <meta property="article:tag" content="Mtp">
     <meta property="article:tag" content="Archlinux">
@@ -118,7 +118,7 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="http://localhost:1313/tech/android-mtp/featured.png">
   <meta name="twitter:title" content="Android MTP: The Simplest Way to Connect Your Android Devices to Archlinux via USB">
-  <meta name="twitter:description" content="Typst is a modern, markup-based typesetting system as a faster, more intuitive alternative to LaTex for creating PDFs, research papers, and reports.">
+  <meta name="twitter:description" content="Are you wondering about how to connect your Android phone to Archlinux through a USB? Here, I will explain the easiest way (GUI &amp; CLI) to do that.">
 <meta name="twitter:image" content="http://localhost:1313/tech/android-mtp/featured.png">
     <meta property="og:image" content="http://localhost:1313/tech/android-mtp/featured.png">
   <script type="application/ld+json">
@@ -129,7 +129,7 @@
     "name": "Android MTP: The Simplest Way to Connect Your Android Devices to Archlinux via USB",
     "headline": "Android MTP: The Simplest Way to Connect Your Android Devices to Archlinux via USB",
     
-    "abstract": "Typst is a modern, markup-based typesetting system as a faster, more intuitive alternative to LaTex for creating PDFs, research papers, and reports.",
+    "abstract": "Are you wondering about how to connect your Android phone to Archlinux through a USB? Here, I will explain the easiest way (GUI \u0026amp; CLI) to do that.",
     "inLanguage": "en",
     "url" : "http:\/\/localhost:1313\/tech\/android-mtp\/",
     "author" : {
@@ -140,12 +140,12 @@
     "dateCreated": "2026-04-04T13:49:59\u002b07:00",
     "datePublished": "2026-04-04T13:49:59\u002b07:00",
     
-    "dateModified": "2026-04-04T13:49:59\u002b07:00",
+    "dateModified": "2026-04-13T00:00:00\u002b00:00",
     
     "keywords": ["android","mtp","archlinux","linux","libmtp"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "260"
+    "wordCount": "293"
   }]
   </script>
 
@@ -875,6 +875,8 @@
   
 
   
+    
+  
 
   
     
@@ -902,7 +904,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2026-04-04T13:49:59&#43;07:00">4 April 2026</time><span class="px-2 text-primary-500">&middot;</span><span>260 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span><span class="px-2 text-primary-500">&middot;</span>
+      <time datetime="2026-04-04T13:49:59&#43;07:00">4 April 2026</time><span class="px-2 text-primary-500">&middot;</span><time datetime="2026-04-13T00:00:00&#43;00:00">Updated: 13 April 2026</time><span class="px-2 text-primary-500">&middot;</span><span>293 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span><span class="px-2 text-primary-500">&middot;</span>
 
 
   
@@ -1232,7 +1234,12 @@
     <nav id="TableOfContents">
   <ul>
     <li><a href="#preambul">Preambul</a></li>
-    <li><a href="#method">Method</a></li>
+    <li><a href="#method">Method</a>
+      <ul>
+        <li><a href="#gui">GUI</a></li>
+        <li><a href="#cli">CLI</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
   </div>
@@ -1247,7 +1254,12 @@
     <nav id="TableOfContents">
   <ul>
     <li><a href="#preambul">Preambul</a></li>
-    <li><a href="#method">Method</a></li>
+    <li><a href="#method">Method</a>
+      <ul>
+        <li><a href="#gui">GUI</a></li>
+        <li><a href="#cli">CLI</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
   </div>
@@ -1455,6 +1467,16 @@
     <figcaption><code>mtp-detect</code> output (no usb connected)</figcaption>
 </figure>
 </p>
+
+<h3 class="relative group">GUI 
+    <div id="gui" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100 select-none">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#gui" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
 <p>Sekarang, jika sudah dipastikan bahwa USB terhubung dengan baik dan Archlinux sudah bisa mendeteksinya, maka kita bisa lihat buka direktori Android kita dengan perintah:</p>
 <div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">android-file-transfer</span></span></code></pre></div></div>
 <p>Tangkapan layar keberhasilannya:</p>
@@ -1472,8 +1494,47 @@
     <figcaption><code>android-file-transfer</code> output (success)</figcaption>
 </figure>
 </p>
-<p>Selesai!<br>
+
+<h3 class="relative group">CLI 
+    <div id="cli" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100 select-none">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#cli" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>Gunakan perintah berikut untuk tersambung ke Android via USB di CLI (<em>Command Line Interface</em>):<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">aft-mtp-cli</span></span></code></pre></div></div>
+<p>
+
+
+
+
+
+
+<figure>
+    <img class="my-0 rounded-md" loading="lazy" alt="ss5" src="/android-mtp/ss5.png">
+
+  
+    <figcaption><code>aft-mtp-cli</code> output (success)</figcaption>
+</figure>
+</p>
+<blockquote><p><strong>Notes:</strong><br>
+Pastikan smartphone dalam keadaan hidup layarnya dan tidak terkunci.</p>
+</blockquote><p>Selesai!<br>
 Semudah itu!</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p><a
+  href="https://wiki.archlinux.org/title/Media_Transfer_Protocol"
+    target="_blank"
+  >https://wiki.archlinux.org/title/Media_Transfer_Protocol</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
 
           
           
@@ -1870,7 +1931,7 @@ Semudah itu!</p>
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2026-03-30T17:48:54&#43;07:00">30 March 2026</time><span class="px-2 text-primary-500">&middot;</span><time datetime="2026-04-01T00:00:00&#43;00:00">Updated: 1 April 2026</time><span class="px-2 text-primary-500">&middot;</span><span>772 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">4 mins</span>
+      <time datetime="2026-03-30T17:48:54&#43;07:00">30 March 2026</time><span class="px-2 text-primary-500">&middot;</span><time datetime="2026-04-06T00:00:00&#43;00:00">Updated: 6 April 2026</time><span class="px-2 text-primary-500">&middot;</span><span>767 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">4 mins</span>
     
 
     
@@ -2200,6 +2261,27 @@ Semudah itu!</p>
           
         </span>
         <span>
+          
+            <a class="flex text-right group ml-3" href="/tech/docker/">
+              <span class="flex flex-col">
+                <span class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+                  >Docker: A Powerful Containerization Platform (+ Lazydocker)</span
+                >
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                    <time datetime="2026-04-13T13:36:10&#43;07:00">13 April 2026</time>
+                  
+                </span>
+              </span>
+              <span
+                class="ml-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
+                >&rarr;</span
+              >
+              <span
+                class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:hidden rtl:inline dark:text-neutral dark:group-hover:text-primary-400"
+                >&larr;</span
+              >
+            </a>
           
         </span>
       </div>

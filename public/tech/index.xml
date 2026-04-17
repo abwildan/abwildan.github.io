@@ -9,7 +9,17 @@
     <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
     <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
     <copyright>© 2026 Wildan</copyright>
-    <lastBuildDate>Sat, 04 Apr 2026 13:49:59 +0700</lastBuildDate><atom:link href="http://localhost:1313/tech/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 13 Apr 2026 13:36:10 +0700</lastBuildDate><atom:link href="http://localhost:1313/tech/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Docker: A Powerful Containerization Platform (&#43; Lazydocker)</title>
+      <link>http://localhost:1313/tech/docker/</link>
+      <pubDate>Mon, 13 Apr 2026 13:36:10 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tech/docker/</guid>
+      <description>Deploying software often requires bunch of resources. However, the emergence of containerization platforms such as Docker has made it more convenient and docile, yet your software works flawlessly.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/docker/featured.png" />
+    </item>
     
     <item>
       <title>Android MTP: The Simplest Way to Connect Your Android Devices to Archlinux via USB</title>
@@ -17,7 +27,7 @@
       <pubDate>Sat, 04 Apr 2026 13:49:59 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/android-mtp/</guid>
-      <description>Typst is a modern, markup-based typesetting system as a faster, more intuitive alternative to LaTex for creating PDFs, research papers, and reports.</description>
+      <description>Are you wondering about how to connect your Android phone to Archlinux through a USB? Here, I will explain the easiest way (GUI &amp;amp; CLI) to do that.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/android-mtp/featured.png" />
     </item>
     

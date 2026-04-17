@@ -1,8 +1,9 @@
 ---
 title: "Android MTP: The Simplest Way to Connect Your Android Devices to Archlinux via USB"
 date: 2026-04-04T13:49:59+07:00
+lastmod: 2026-04-13
 draft: false
-summary: "Typst is a modern, markup-based typesetting system as a faster, more intuitive alternative to LaTex for creating PDFs, research papers, and reports."
+summary: "Are you wondering about how to connect your Android phone to Archlinux through a USB? Here, I will explain the easiest way (GUI & CLI) to do that."
 tags: ["android", "mtp", "archlinux", "linux", "libmtp"]
 categories: "android-mtp"
 ---
@@ -49,6 +50,8 @@ Jika USB belum dicolok, maka perintah `mtp-detect` hanya akan menampilkan _outpu
 
 ![ss1](/android-mtp/ss1.png "`mtp-detect` output (no usb connected)")
 
+### GUI 
+
 Sekarang, jika sudah dipastikan bahwa USB terhubung dengan baik dan Archlinux sudah bisa mendeteksinya, maka kita bisa lihat buka direktori Android kita dengan perintah:
 
 ```shell
@@ -59,7 +62,22 @@ Tangkapan layar keberhasilannya:
 
 ![ss3](/android-mtp/ss3.png "`android-file-transfer` output (success)")
 
+### CLI
 
+Gunakan perintah berikut untuk tersambung ke Android via USB di CLI (_Command Line Interface_):[^1]
+
+```shell
+aft-mtp-cli
+```
+
+![ss5](/android-mtp/ss5.png "`aft-mtp-cli` output (success)")
+
+> **Notes:**  
+> Pastikan smartphone dalam keadaan hidup layarnya dan tidak terkunci.
 
 Selesai!  
 Semudah itu!
+
+
+
+[^1]: https://wiki.archlinux.org/title/Media_Transfer_Protocol

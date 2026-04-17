@@ -1,7 +1,7 @@
 ---
 title: "Git in A Nutshell (+ Lazygit)"
 date: 2025-07-19T07:10:27+07:00
-lastmod: 2026-02-01
+lastmod: 2026-04-17
 draft: false
 summary: "A seriously short introduction to Git and Github, with Lazygit as an automation tool for Git. Its not as hard as you assume. Dont overthink it."
 tags: ["git", "github", "lazygit", "ssh", "gpg"]
@@ -12,7 +12,7 @@ categories: "git"
 
 Sebagai _blogger_ yang meng-_hosting_ file dan tulisannya di Github, saya tentu saja sudah dipastikan menggunakan Git. Bahkan, artikel pertama saya pada blog ini jelas sekali langsung membahas tentang pembuatan blog dengan [Hugo](https://gohugo.io/) sebagai "_website generator_"-nya dan [Github](https://github.com/) sebagai "server _hosting_"-nya.
 
-{{< article link="/tech/hugo-ing/" >}}
+{{< article link="/tech/hugo-ing/" showSummary=true compactSummary=true >}}
 
 ### Git Definition
 
@@ -348,6 +348,8 @@ Repository-nya dapat ditemukan di Github:
 
 {{< github repo="jesseduffield/lazygit" showThumbnail=true >}}
 
+Atau website official `lazygit` di: https://lazygit.dev/
+
 Apa tujuan dibuatnya `lazygit`? Apa bedanya `lazygit` dengan `git` biasa?
 
 Secara fungsi, sebetulnya sama. Bedanya, `lazygit` dibuat untuk lebih memudahkan para pengguna `git` dalam menggunakan `git`, sebab, mereka tidak perlu lagi menuliskan perintah-perintah (yang banyak tersebut) berulang kali sehingga proses pengelolaan file via `git` menjadi lebih efisien. 
@@ -412,7 +414,7 @@ Hanya saja, mungkin terlalu kompleks. Lagipula, bisa jadi tidak semua fitur dan 
 
 _So, let's get into it_...
 
-> **Sebagai catatan**, `git clone` sampai versi terbaru yang saya gunakan hari ini, belum bisa melakukan _cloning_ repo (`git clone`). 
+> **Sebagai catatan**, `lazygit` sampai versi terbaru yang saya gunakan hari ini, belum bisa melakukan _cloning_ repo (`git clone`). 
 
 #### 1. `git add`, `git commit`, `git push`
 

@@ -1,9 +1,9 @@
 ---
-title: "Torrenting: P2P Network Through BitTorrent Protocol for Distributing and Downloading File(s)"
+title: "Torrenting: P2P Network Through BitTorrent Protocol for Distributing and Downloading Files (ft. qbittorrent)"
 date: 2026-04-22T17:31:31+07:00
 lastmod: 2026-04-25
 draft: false
-summary: "Have you ever heard of Torrent? Or perhaps you have used it for downloading big files? Once you understand how torrent works profoundly, not only can you utilize it better, but also your understanding regarding how internet actually works will shift."
+summary: "Once you understand how torrent works profoundly, not only can you utilize it better, but also your understanding regarding how internet actually works will shift."
 tags: ["torrent", "bittorrent", "p2p", "qbittorrent", "transmisision", "rtorrent"]
 categories: "torrent"
 ---

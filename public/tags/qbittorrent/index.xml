@@ -18,7 +18,7 @@
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/torrent/</guid>
       <description>Have you ever heard of Torrent? Or perhaps you have used it for downloading big files? Once you understand how torrent works profoundly, not only can you utilize it better, but also your understanding regarding how internet actually works will shift.</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/torrent/featured.png" />
     </item>
     
   </channel>

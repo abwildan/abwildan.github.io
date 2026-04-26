@@ -1,7 +1,7 @@
 ---
 title: "Docker: A Powerful Containerization Platform (+ Lazydocker)"
 date: 2026-04-13T13:36:10+07:00
-lastmod: 2026-04-17
+lastmod: 2026-04-24
 draft: false
 summary: "Deploying software often requires bunch of resources. However, the emergence of containerization platforms such as Docker has made it more convenient and docile, yet your software works flawlessly."
 tags: ["docker", "lazydocker", "container", "dockerhub", "docker-compose", "containerization", "yaml"]
@@ -69,7 +69,7 @@ Berikut adalah cara meng-_install_ `docker` di beberapa sistem operasi Linux:
 
 |       Distro      |                  Command                           |
 |       ---         |                   ---                              |
-| **Debian/Ubuntu** | **`sudo pacman -Sy docker`**                       |
+| **Debian/Ubuntu** | **`sudo apt install -y docker`**                   |
 | **Arch Linux**    | **`sudo pacman -Sy docker`**                       |
 | **Fedora**        | **`sudo dnf install docker`**                      |
 | **Opensuse**      | **`sudo zypper install docker`**                   |
@@ -543,7 +543,7 @@ Berikut adalah cara meng-_install_ `docker compose` di beberapa sistem operasi L
 
 |       Distro      |                  Command                           |
 |       ---         |                   ---                              |
-| **Debian/Ubuntu** | **`sudo pacman -Sy docker-compose`**               |
+| **Debian/Ubuntu** | **`sudo apt install -y docker-compose`**           |
 | **Arch Linux**    | **`sudo pacman -Sy docker-compose`**               |
 | **Fedora**        | **`sudo dnf install docker-compose`**              |
 | **Opensuse**      | **`sudo zypper install docker-compose`**           |

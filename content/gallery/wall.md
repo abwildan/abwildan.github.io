@@ -1,7 +1,7 @@
 ---
 title: "Wallpaper"
 date: 2025-01-25T07:00:57Z
-lastmod: 2025-12-28
+lastmod: 2026-04-23
 draft: false
 summary: "(My personal) wallpapers."
 tags: ["wallpaper"]
@@ -68,6 +68,7 @@ I keep the walls here so it is easier for me to get them.
   <img src="/wall/wall34.jpg" class="grid-w50 md:grid-w33 xl:grid-w25" />
   <img src="/wall/wall35.jpg" class="grid-w50 md:grid-w33 xl:grid-w25" />
   <img src="/wall/wall36.jpg" class="grid-w50 md:grid-w33 xl:grid-w25" />
+  <img src="/wall/wall37.jpg" class="grid-w50 md:grid-w33 xl:grid-w25" />  
 
   <img src="/wall/wall1.jpeg" class="grid-w50 md:grid-w33 xl:grid-w25" />
   <img src="/wall/wall2.jpeg" class="grid-w50 md:grid-w33 xl:grid-w25" />

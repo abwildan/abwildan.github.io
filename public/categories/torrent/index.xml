@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Torrent on My Awesome Site</title>
+    <link>http://localhost:1313/categories/torrent/</link>
+    <description>Recent content in Torrent on My Awesome Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
+    <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
+    <copyright>© 2026 Wildan</copyright>
+    <lastBuildDate>Wed, 22 Apr 2026 17:31:31 +0700</lastBuildDate><atom:link href="http://localhost:1313/categories/torrent/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Torrenting: P2P Network Through BitTorrent Protocol for Distributing and Downloading File(s)</title>
+      <link>http://localhost:1313/tech/torrent/</link>
+      <pubDate>Wed, 22 Apr 2026 17:31:31 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tech/torrent/</guid>
+      <description>Have you ever heard of Torrent? Or perhaps you have used it for downloading big files? Once you understand how torrent works profoundly, not only can you utilize it better, but also your understanding regarding how internet actually works will shift.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

@@ -12,12 +12,12 @@
     <lastBuildDate>Mon, 30 Mar 2026 17:48:54 +0700</lastBuildDate><atom:link href="http://localhost:1313/tags/metadata/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>File Signature: How Computer Identifies Your File Type</title>
+      <title>File Signature: How Computer Identifies File Types</title>
       <link>http://localhost:1313/tech/filesig/</link>
       <pubDate>Mon, 30 Mar 2026 17:48:54 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/filesig/</guid>
-      <description>File signature is one of the most common concept when it comes to identifying types of files in your opeating system.</description>
+      <description>File signature is one of the most common concepts when it comes to identifying types of files in your opeating system.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/filesig/featured.png" />
     </item>
     

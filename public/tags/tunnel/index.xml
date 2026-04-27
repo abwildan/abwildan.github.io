@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tunnel on My Awesome Site</title>
+    <link>http://localhost:1313/tags/tunnel/</link>
+    <description>Recent content in Tunnel on My Awesome Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
+    <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
+    <copyright>© 2026 Wildan</copyright>
+    <lastBuildDate>Sun, 26 Apr 2026 17:48:13 +0700</lastBuildDate><atom:link href="http://localhost:1313/tags/tunnel/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>ProtonVPN: Simple, Free, Yet Reliable VPN</title>
+      <link>http://localhost:1313/tech/protonvpn/</link>
+      <pubDate>Sun, 26 Apr 2026 17:48:13 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tech/protonvpn/</guid>
+      <description>The most convenient way to connect to a VPN.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

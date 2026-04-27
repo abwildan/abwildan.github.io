@@ -1,10 +1,10 @@
 ---
 title: "Torrenting: P2P Network Through BitTorrent Protocol for Distributing and Downloading Files (ft. qbittorrent)"
 date: 2026-04-22T17:31:31+07:00
-lastmod: 2026-04-25
+lastmod: 2026-04-27
 draft: false
 summary: "Once you understand how torrent works profoundly, not only can you utilize it better, but also your understanding regarding how internet actually works will shift."
-tags: ["torrent", "bittorrent", "p2p", "qbittorrent", "transmisision", "rtorrent"]
+tags: ["torrent", "bittorrent", "p2p", "qbittorrent", "transmisision", "deluge"]
 categories: "torrent"
 ---
 
@@ -97,6 +97,11 @@ Mengunduh file yang disusupi virus atau _malware_ tentu saja juga perlu menjadi 
 #### Solution
 
 Salah satu solusi yang paling praktis untuk mengamankan privasi kita adalah dengan menggunakan VPN. Tapi, kita juga perlu memilah-memilih VPN yang akan kita gunakan, sebab, tidak sedikit VPN yang hari ini juga mencuri data pelanggannya.
+
+Saya sendiri menggunakan `proton-vpn-cli`.  
+Untuk instalasi dan penggunaannya, silakan baca di sini:
+
+{{< article link="/tech/protonvpn/" showSummary=true compactSummary=true >}}  
 
 ## Installation
 

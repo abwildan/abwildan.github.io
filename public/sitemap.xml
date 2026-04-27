@@ -4,7 +4,7 @@
 
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2026-04-26T00:00:00+00:00</lastmod>
+    <lastmod>2026-04-27T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -16,13 +16,13 @@
   </url>
   <url>
     <loc>http://localhost:1313/tech/</loc>
-    <lastmod>2026-04-26T00:00:00+00:00</lastmod>
+    <lastmod>2026-04-27T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/tech/torrent/</loc>
-    <lastmod>2026-04-26T00:00:00+00:00</lastmod>
+    <lastmod>2026-04-27T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

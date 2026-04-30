@@ -1,6 +1,7 @@
 ---
 title: "My Remote Desktop Client(s)"
 date: 2024-06-04T22:05:26+07:00
+lastmod: 2026-04-30
 draft: false		
 summary: "RDP client sometimes play an important role, doesn't it? Especially, when you are a sys-admin. So, you must find the most suitable one for getting your work done well."
 cover: 
@@ -62,11 +63,17 @@ Nah, kalau mau mengaktifkan fitur *dynamic resolution*-nya, kita bisa menambahka
 ```shell
 xfreerdp /v:{IP} /u:{username} /p:{password} /dynamic-resolution
 ```
+
 Dengan menambahkan flag tersebut, artinya nanti resolusi desktop yang kita remote bisa menyesuaikan dengan ukuran window atau jendela-nya. Untuk buktinya akan saya tunjukkan di bagian demo di bawah.
+
+Untuk mengaktifkan fitur *sound*-nya, kita bisa menambahkan `/sound`.
+```shell
+xfreerdp /v:{IP} /u:{username} /p:{password} /sound
+```
 
 Mau tau lebih banyak apa saja yang bisa dilakukan xfreerdp untuk remote desktop? Tinggal baca-baca dokumentasi `help`-nya:
 ```shell
-xfreerdp -h
+xfreerdp /?
 ```
 
 ### Demo

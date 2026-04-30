@@ -106,7 +106,7 @@
   <meta property="og:type" content="article">
     <meta property="article:section" content="tech">
     <meta property="article:published_time" content="2024-06-09T16:59:47+07:00">
-    <meta property="article:modified_time" content="2025-11-28T00:00:00+00:00">
+    <meta property="article:modified_time" content="2026-04-30T00:00:00+00:00">
     <meta property="article:tag" content="Tools">
     <meta property="article:tag" content="Cool">
     <meta property="article:tag" content="Terminal">
@@ -139,12 +139,12 @@
     "dateCreated": "2024-06-09T16:59:47\u002b07:00",
     "datePublished": "2024-06-09T16:59:47\u002b07:00",
     
-    "dateModified": "2025-11-28T00:00:00\u002b00:00",
+    "dateModified": "2026-04-30T00:00:00\u002b00:00",
     
     "keywords": ["tools","cool","terminal","linux"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "588"
+    "wordCount": "630"
   }]
   </script>
 
@@ -903,7 +903,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2024-06-09T16:59:47&#43;07:00">9 June 2024</time><span class="px-2 text-primary-500">&middot;</span><time datetime="2025-11-28T00:00:00&#43;00:00">Updated: 28 November 2025</time><span class="px-2 text-primary-500">&middot;</span><span>588 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">3 mins</span><span class="px-2 text-primary-500">&middot;</span>
+      <time datetime="2024-06-09T16:59:47&#43;07:00">9 June 2024</time><span class="px-2 text-primary-500">&middot;</span><time datetime="2026-04-30T00:00:00&#43;00:00">Updated: 30 April 2026</time><span class="px-2 text-primary-500">&middot;</span><span>630 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">3 mins</span><span class="px-2 text-primary-500">&middot;</span>
 
 
   
@@ -1235,6 +1235,7 @@
         <li><a href="#9-mapscii">9. mapscii</a></li>
         <li><a href="#10-hollywood">10. hollywood</a></li>
         <li><a href="#10-freechess">10. freechess</a></li>
+        <li><a href="#11-starwars">11. starwars</a></li>
       </ul>
     </li>
   </ul>
@@ -1263,6 +1264,7 @@
         <li><a href="#9-mapscii">9. mapscii</a></li>
         <li><a href="#10-hollywood">10. hollywood</a></li>
         <li><a href="#10-freechess">10. freechess</a></li>
+        <li><a href="#11-starwars">11. starwars</a></li>
       </ul>
     </li>
   </ul>
@@ -2315,7 +2317,9 @@ Untuk mengganti warnanya, kita bisa menekan huruf <strong><code>f</code></strong
 <p>Karena ini adalah layanan <code>telnet</code>, maka kita tidak perlu melakukan instalasi apapun, karena biasanya paket <code>telnet</code> sendiri di linux sudah terpasang secara default.</p>
 <p>Untuk mengaksesnya, gunakan perintah berikut di terminal:</p>
 <div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">telnet freechess.org</span></span></code></pre></div></div>
-<p>atau</p>
+<p>atau via port 5000</p>
+<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">telnet freechess.org <span class="m">5000</span></span></span></code></pre></div></div>
+<p>atau dengan <code>nc</code>:</p>
 <div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">nc -vv freechess.org <span class="m">23</span></span></span></code></pre></div></div>
 <video width="100%" controls autoplay loop muted>
   <source src="/cooltools/freechess.mp4" type="video/mp4">
@@ -2349,6 +2353,22 @@ Untuk mengganti warnanya, kita bisa menekan huruf <strong><code>f</code></strong
 Untuk perintah-perintah yang dapat digunakan, misalnya bagaimana memulai game dan sebagainya silakan dibaca-baca sendiri di servernya. Oiya, satu lagi, karena di sini kita bermain catur via CLI, jadi, kita akan menuliskan notasi untuk menggerakkan buah-buah catur alih-alih menggesernya dengan mouse atau kursor. Sungguh menarik, bukan? Wkwkwk</span>
 </div>
 
+
+<h3 class="relative group">11. starwars 
+    <div id="11-starwars" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100 select-none">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#11-starwars" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>Mirip seperti freechess, starwars adalah program yang dapat kita jalankan setelah terhubung ke sebuah server (towel.blinkenlights.nl) menggunakan telnet. Program ini lebih dilihat sebagai &ldquo;for fun&rdquo; program.</p>
+<p>Untuk mengaksesnya:</p>
+<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">telnet towel.blinkenlights.nl</span></span></code></pre></div></div>
+<video width="100%" controls autoplay loop muted>
+  <source src="/cooltools/starwars.mkv" type="video/mp4">
+</video>
 <p>Artikel ini akan saya perbarui jika ada <em>tools</em> baru yang belum sempat ditulis.</p>
 
           
@@ -2546,6 +2566,8 @@ Untuk perintah-perintah yang dapat digunakan, misalnya bagaimana memulai game da
   
 
   
+    
+  
 
   
     
@@ -2569,7 +2591,7 @@ Untuk perintah-perintah yang dapat digunakan, misalnya bagaimana memulai game da
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2024-06-04T22:05:26&#43;07:00">4 June 2024</time><span class="px-2 text-primary-500">&middot;</span><span>1020 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">5 mins</span>
+      <time datetime="2024-06-04T22:05:26&#43;07:00">4 June 2024</time><span class="px-2 text-primary-500">&middot;</span><time datetime="2026-04-30T00:00:00&#43;00:00">Updated: 30 April 2026</time><span class="px-2 text-primary-500">&middot;</span><span>1033 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">5 mins</span>
     
 
     

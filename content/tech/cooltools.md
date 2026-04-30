@@ -1,7 +1,7 @@
 ---
 title: "Cool Terminal Tools You Should Know"
 date: 2024-06-09T16:59:47+07:00
-lastmod: 2025-11-28
+lastmod: 2026-04-30
 draft: false
 summary: "Just a list of a couple of (funny) terminal tools"
 cover:
@@ -202,7 +202,13 @@ Untuk mengaksesnya, gunakan perintah berikut di terminal:
 telnet freechess.org
 ```
 
-atau 
+atau via port 5000
+
+```shell
+telnet freechess.org 5000
+```
+
+atau dengan `nc`: 
 
 ```shell
 nc -vv freechess.org 23
@@ -219,6 +225,19 @@ Untuk perintah-perintah yang dapat digunakan, misalnya bagaimana memulai game da
 
 {{< /alert >}}
 
+### 11. starwars
+
+Mirip seperti freechess, starwars adalah program yang dapat kita jalankan setelah terhubung ke sebuah server (towel.blinkenlights.nl) menggunakan telnet. Program ini lebih dilihat sebagai "for fun" program.
+
+Untuk mengaksesnya:
+
+```shell
+telnet towel.blinkenlights.nl
+```
+
+<video width="100%" controls autoplay loop muted>
+  <source src="/cooltools/starwars.mkv" type="video/mp4">
+</video>
 
 
 

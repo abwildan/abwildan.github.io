@@ -1,6 +1,7 @@
 +++
 title = "rsync: A Powerful Tool for Backing Up Data"
 date = 2024-10-03T21:42:14+07:00
+lastmod = 2026-05-03
 cover = ""
 summary = "The simplest and easiest way to backup your data..."
 tags = [ "rsync", "backup" ]
@@ -106,10 +107,17 @@ Perhatikan, saya akan melakukan *backup* data dari direktori **`~/Templates`** (
   <source src="/rsync/upd.mp4" type="video/mp4">
 </video>
 
+Untuk menampilkan progres, kita bisa gunakan perintah:
+
+```shell
+rsync -arzv --progress ~/source/ ~/destination/ # menampilkan progress
+rsync -arzv -P ~/source/ ~/destination/ # sama dengan --progress --partial
+```
+
 Gimana? Mudah bukan?  
 Kalau masih bingung atau mau *explore* lebih jauh tentang **`rsync`**, jangan sungkan-sungkan untuk baca-baca *manual page*-nya dengan perintah **`man rsync`** atau berselancar dan bertanya ke mbah Google atau mas ChatGPT ya. Berikut saya coba lampirkan *cheatsheet* **rsync** yang barangkali bisa sedikit membantu :)
 
-**rsync** *cheatsheet*: <mark> https://devhints.io/rsync </mark>
+**rsync** *cheatsheet*: https://devhints.io/rsync 
 
 ---
 

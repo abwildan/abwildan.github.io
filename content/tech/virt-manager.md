@@ -1,7 +1,7 @@
 ---
 title: "Practical Guide to Virt-Manager"
 date: 2025-06-16T17:45:18+07:00
-lastmod: 2026-03-19
+lastmod: 2026-05-03
 draft: false
 summary: "A note explaining basic usage of virt-manager, especially when it comes to the commands."
 tags: ["virt-manager", "libvirt", "kvm", "linux", "qemu", "virtualization", "virtual machine"]
@@ -168,7 +168,15 @@ Jika kita ingin melihat informasi detail pada suatu VM:
 virsh --connect qemu:///system dominfo <vm-name>
 ```
 
-![ss4](/virt-manager/ss4.png "Showing up VM detail info")
+### Showing VM ip address
+
+Jika kita ingin melihat informasi ip address pada suatu VM:
+
+```shell
+virsh --connect qemu:///system domifaddr <vm-name>
+```
+
+![ss11](/virt-manager/ss11.png "Showing up VM ip address")
 
 ### Shutting down VM
 

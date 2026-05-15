@@ -106,7 +106,7 @@
   <meta property="og:type" content="article">
     <meta property="article:section" content="tech">
     <meta property="article:published_time" content="2025-02-02T04:43:27+00:00">
-    <meta property="article:modified_time" content="2025-02-02T04:43:27+00:00">
+    <meta property="article:modified_time" content="2026-05-11T00:00:00+00:00">
     <meta property="article:tag" content="Cryptsetup">
     <meta property="article:tag" content="Linux">
     <meta property="article:tag" content="Disk">
@@ -140,12 +140,12 @@
     "dateCreated": "2025-02-02T04:43:27\u002b00:00",
     "datePublished": "2025-02-02T04:43:27\u002b00:00",
     
-    "dateModified": "2025-02-02T04:43:27\u002b00:00",
+    "dateModified": "2026-05-11T00:00:00\u002b00:00",
     
     "keywords": ["cryptsetup","linux","disk","encryption","luks"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "678"
+    "wordCount": "818"
   }]
   </script>
 
@@ -875,6 +875,8 @@
   
 
   
+    
+  
 
   
     
@@ -902,7 +904,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2025-02-02T04:43:27&#43;00:00">2 February 2025</time><span class="px-2 text-primary-500">&middot;</span><span>678 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">4 mins</span><span class="px-2 text-primary-500">&middot;</span>
+      <time datetime="2025-02-02T04:43:27&#43;00:00">2 February 2025</time><span class="px-2 text-primary-500">&middot;</span><time datetime="2026-05-11T00:00:00&#43;00:00">Updated: 11 May 2026</time><span class="px-2 text-primary-500">&middot;</span><span>818 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">4 mins</span><span class="px-2 text-primary-500">&middot;</span>
 
 
   
@@ -1244,6 +1246,11 @@
     </li>
     <li><a href="#the-end">The End</a></li>
     <li><a href="#additional-info-poc">Additional Info: POC</a></li>
+    <li><a href="#advanced-use">Advanced Use</a>
+      <ul>
+        <li><a href="#mengubah-ukuran-partisi">Mengubah ukuran partisi</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
   </div>
@@ -1270,6 +1277,11 @@
     </li>
     <li><a href="#the-end">The End</a></li>
     <li><a href="#additional-info-poc">Additional Info: POC</a></li>
+    <li><a href="#advanced-use">Advanced Use</a>
+      <ul>
+        <li><a href="#mengubah-ukuran-partisi">Mengubah ukuran partisi</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
   </div>
@@ -1850,6 +1862,56 @@
 </figure>
 </p>
 <p>Jadi, kalau kita ingin menggunakan partisi tersebut, kita harus melakukan 4 prosedur yang sudah dijelaskan sebelumnya.</p>
+
+<h2 class="relative group">Advanced Use 
+    <div id="advanced-use" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100 select-none">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#advanced-use" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<p>Beberapa tambahan yang menurut saya penting (terutama karena saya sudah mengalaminya):</p>
+
+<h3 class="relative group">Mengubah ukuran partisi 
+    <div id="mengubah-ukuran-partisi" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100 select-none">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#mengubah-ukuran-partisi" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>Jika kita ingin mengubah partisi yang terenkripsi tersebut (memperbesar/mengecilkan kapasitasnya), berikut adalah langkah-langkahnya:</p>
+<p><strong>1. Edit partisi</strong></p>
+<ul>
+<li>Menghapus partisi terenkripsi (saya menggunakan <code>cfdisk</code>).</li>
+<li>Menambah partisi baru dengan ukuran yang lebih sesuai.</li>
+<li>Otomatis, format LUKS-nya akan terbawa, jadi kita tidak perlu format ulang.</li>
+</ul>
+<p><strong>2. Resize container LUKS</strong></p>
+<ul>
+<li>Buka partisi terenkripsi (lihat <a
+  href="https://abwildan.github.io/tech/luks/#2-membuka-partisi-"
+    target="_blank"
+  >Cara membuka partisi</a>).</li>
+<li>Pastikan sudah terdaftar di &ldquo;mapper&rdquo; (<code>/dev/mapper/&lt;nama&gt;</code>).</li>
+<li><em>Resize</em> container LUKS tersebut dengan perintah</li>
+</ul>
+<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">sudo cryptsetup resize &lt;nama_mapper&gt;</span></span></code></pre></div></div>
+<p><strong>3. Resize filesystem</strong></p>
+<ul>
+<li><em>Resize</em> filesystem-nya (kalau <strong>ext4</strong>):</li>
+</ul>
+<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">sudo resize2fs /dev/mapper/&lt;nama_mapper&gt;</span></span></code></pre></div></div>
+<blockquote><p><strong>Notes:</strong></p>
+<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">Physical partition <span class="o">(</span>/dev/nvme0n1p3<span class="o">)</span>   → <span class="m">20</span> GB 
+</span></span><span class="line"><span class="cl">└── LUKS container <span class="o">(</span>/dev/mapper/secret<span class="o">)</span> → <span class="m">20</span> GB <span class="c1"># sudo cryptsetup resize &lt;nama_mapper&gt;</span>
+</span></span><span class="line"><span class="cl">    └── ext4 filesystem                  → <span class="m">5</span> GB <span class="c1"># sudo resize2fs /dev/mapper/cryptdata</span></span></span></code></pre></div></div>
+</blockquote><p>Untuk memastikan sudah berubah, bisa gunakan salah satu dari perintah ini:</p>
+<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">lsblk -f
+</span></span><span class="line"><span class="cl">df -h</span></span></code></pre></div></div>
 <hr>
 <p>Artikel ini di-inspirasi oleh video Youtube berikut:</p>
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">

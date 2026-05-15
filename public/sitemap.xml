@@ -4,19 +4,31 @@
 
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2026-05-03T00:00:00+00:00</lastmod>
+    <lastmod>2026-05-13T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/cube/</loc>
+    <lastmod>2026-05-13T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/cube/2x2/</loc>
+    <lastmod>2026-05-13T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/tech/freebsd/</loc>
-    <lastmod>2026-05-03T00:00:00+00:00</lastmod>
+    <lastmod>2026-05-07T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/tech/</loc>
-    <lastmod>2026-05-03T00:00:00+00:00</lastmod>
+    <lastmod>2026-05-11T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -63,12 +75,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/cube/</loc>
-    <lastmod>2026-02-15T14:01:15+07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://localhost:1313/cube/3x3/</loc>
     <lastmod>2026-02-15T14:01:15+07:00</lastmod>
     <changefreq>daily</changefreq>
@@ -76,7 +82,7 @@
   </url>
   <url>
     <loc>http://localhost:1313/tech/metadata/</loc>
-    <lastmod>2026-04-06T00:00:00+00:00</lastmod>
+    <lastmod>2026-05-07T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -286,7 +292,7 @@
   </url>
   <url>
     <loc>http://localhost:1313/tech/luks/</loc>
-    <lastmod>2025-02-02T04:43:27+00:00</lastmod>
+    <lastmod>2026-05-11T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -370,7 +376,7 @@
   </url>
   <url>
     <loc>http://localhost:1313/tech/rsync/</loc>
-    <lastmod>2024-10-03T21:42:14+07:00</lastmod>
+    <lastmod>2026-05-03T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

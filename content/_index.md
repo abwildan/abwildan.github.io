@@ -10,6 +10,6 @@ This is <b>copyleft</b>-ish site, btw.
   lifeLike=true
 >}}
  Frankly, I am not a <mark> {hacker, programmer}</mark>.  
- I am just an ordinary <b><i> blogger who love <mark> linux</mark>.</i></b>   
+ I am just an ordinary <b><i> blogger who keen on <mark> linux</mark>.</i></b>   
 {{< /typeit >}}
 

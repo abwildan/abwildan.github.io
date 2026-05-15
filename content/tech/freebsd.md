@@ -1,7 +1,7 @@
 ---
 title: "FreeBSD: Unix-like Operating System"
 date: 2026-05-02T13:42:02+07:00
-lastmod: 2026-05-03
+lastmod: 2026-05-07
 draft: false
 summary: "They said FreeBSD was the most secure Operating System in the world. Is the claim true? Do you even know what truely FreeBSD is? Let's get acquainted with it!"
 tags: ["freebsd", "unix"]
@@ -23,6 +23,10 @@ Singkatnya, **FreeBSD** adalah sistem operasi berbasis **UNIX** yang dikembangka
 {{< /lead >}}
 
 {{< /alert >}}
+
+Berikut adalah diagram UNIX _operating system_:
+
+![unix](/freebsd/unix.webp "`UNIX operating system. **Source:** [stromasys.com](https://www.stromasys.com/resources/all-about-the-unix-operating-system/)")
 
 ### FreeBSD vs Linux
 
@@ -54,6 +58,8 @@ Berikut adalah perbandigan FreeBSD dan Linux secara spesifik:[^4]
 | Boot System              | rc.d                                                  | systemd (umumnya), juga alternatif                         |
 
 Dengan perbandingan ini, maka keputusan untuk menggunakan FreeBSD atau Linux diserahkan kepada kalian masing-masing.
+
+> Btw, saya kira "bacaan tambahan" yang cukup lengkap tentang **UNIX** bisa kalian jumpai di artikel ini: https://www.stromasys.com/resources/all-about-the-unix-operating-system/
 
 ## Installation
 

@@ -1,6 +1,7 @@
 ---
 title: "Enrypting Disk in Linux using LUKS"
 date: 2025-02-02T04:43:27Z
+lastmod: 2026-05-11
 draft: false
 summary: "A tutorial on how to encrypt disk/drive in linux with cryptsetup."
 tags: ["cryptsetup", "linux", "disk", "encryption", "luks"]
@@ -170,6 +171,51 @@ Kalau kita mencoba untuk me-_mounting_ partisi `/dev/sda3` secara manual seperti
 ![ss9](/luks/ss9.png "POC")
 
 Jadi, kalau kita ingin menggunakan partisi tersebut, kita harus melakukan 4 prosedur yang sudah dijelaskan sebelumnya.
+
+## Advanced Use
+
+Beberapa tambahan yang menurut saya penting (terutama karena saya sudah mengalaminya):
+
+### Mengubah ukuran partisi
+
+Jika kita ingin mengubah partisi yang terenkripsi tersebut (memperbesar/mengecilkan kapasitasnya), berikut adalah langkah-langkahnya:
+
+**1. Edit partisi**
+- Menghapus partisi terenkripsi (saya menggunakan `cfdisk`).  
+- Menambah partisi baru dengan ukuran yang lebih sesuai.
+- Otomatis, format LUKS-nya akan terbawa, jadi kita tidak perlu format ulang.  
+
+**2. Resize container LUKS**
+- Buka partisi terenkripsi (lihat [Cara membuka partisi](https://abwildan.github.io/tech/luks/#2-membuka-partisi-)).  
+- Pastikan sudah terdaftar di "mapper" (`/dev/mapper/<nama>`).    
+- _Resize_ container LUKS tersebut dengan perintah
+
+```shell
+sudo cryptsetup resize <nama_mapper>
+```
+
+**3. Resize filesystem**
+- _Resize_ filesystem-nya (kalau **ext4**):
+
+```shell
+sudo resize2fs /dev/mapper/<nama_mapper>
+```
+
+> **Notes:**
+>
+> ```shell
+> Physical partition (/dev/nvme0n1p3)   → 20 GB 
+> └── LUKS container (/dev/mapper/secret) → 20 GB # sudo cryptsetup resize <nama_mapper>
+>     └── ext4 filesystem                  → 5 GB # sudo resize2fs /dev/mapper/cryptdata
+> ``` 
+
+Untuk memastikan sudah berubah, bisa gunakan salah satu dari perintah ini:
+
+```shell
+lsblk -f
+df -h
+```
+
 
 ---
 

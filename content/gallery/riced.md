@@ -12,6 +12,25 @@ Berikut adalah kompilasi dari **_linux ricing_** yang pernah saya gunakan selama
 
 {{< timeline >}}
 
+{{< timelineItem icon="archlinux" header="March 9th, 2026" badge="riced" subheader="ArchLinux - Wayfire" >}}
+
+{{< gallery >}}
+  <img src="/riced/9May2026.png" />
+  <img src="/riced/9May2026-2.png" />
+{{< /gallery >}}
+
+<ul>
+  <li><b>Article:</b> <a href=https://abwildan.github.io/tech/torrent/> tech/torrent </a> </li>
+  <b>Notes:</b>
+  Wayfire with <a href=https://waybar.org/> Waybar </a>
+
+
+<blockquote>
+  <p> f9ce42a7c788b09e8d2553816b7846ace559f2c0176e9ae62453bd88a9238b7f::54aad69101cd1fd1f2818c46de0201cffaaa92211f205fd0fb20f8b93b1ecae0 </p>
+</blockquote>
+
+{{< /timelineItem >}}
+
 {{< timelineItem icon="archlinux" header="March 31st, 2026" badge="riced" subheader="ArchLinux - XFCE" >}}
 
 {{< gallery >}}

@@ -1,7 +1,7 @@
 ---
 title: "Metadata Manipulation 101"
 date: 2025-12-28T19:22:29+07:00
-lastmod: 2026-04-06
+lastmod: 2026-05-07
 draft: false
 summary: "A brief (yet legal) tutorial on manipulating (adding, editing, deleting) file's metadata."
 tags: ["metadata", "exiftool", "xnviewmp"]
@@ -16,7 +16,15 @@ Itu data. Bagaimana dengan metadata? Apa itu metadata? Apakah metadata berbeda d
 
 ### Defining Metadata
 
-Menurut KBBI, metadata adalah informasi tentang asal data, struktur, karakteristik, dan sebagainya dari seperangkat data.[^2] Singkatnya, metadata adalah data tentang data.[^3]
+Menurut KBBI, metadata adalah informasi tentang asal data, struktur, karakteristik, dan sebagainya dari seperangkat data.[^2] Menurut IBM, metadata adalah data tentang data.[^3]
+
+{{< alert icon=none >}}
+
+{{< lead >}}
+Singkatnya, **metadata** adalah **data tentang data**.
+{{< /lead >}}
+
+{{< /alert >}}
 
 Sebagai ilustrasi, jika saya memiliki sebuah file video, maka file video itu adalah data. Sementara informasi tentang jenis file (mp4, mkv, etc), ukuran file, resolusi video, durasi videonya, kapan dibuat & dimodifikasi, nama pembuat file, software/device yang digunakan untuk membuat file, adalah metadata.
 
@@ -417,11 +425,11 @@ Selesai!
 Beberapa kesimpulan yang bisa diambil dari mempelajari metadata (_at least for me_):
 
 1. Metadata adalah data tentang data.
-2. Metadata dapat dimanipulasi, meskipun tidak semua.
+2. Metadata dapat dimanipulasi, meskipun belum tentu semua.
 
 ---
 
-Artikel ini ditulis di Archlinux:
+Artikel ini ditulis di Archlinux: (_click to enlarge_)
 
 {{< gallery >}}
   <img src="/filesig/archlinux1.png" class="grid-w33" />

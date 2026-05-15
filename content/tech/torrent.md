@@ -298,6 +298,15 @@ Demikian.
 Semoga bermanfaat.  
 Terima kasih.
 
+---
+
+Artikel ini ditulis di Archlinux dengan kombinasi Wayfire + Waybar: (_click to enlarge_)
+
+{{< gallery >}}
+  <img src="/torrent/archlinux1.png" class="grid-w50" />
+  <img src="/torrent/archlinux2.png" class="grid-w50" />
+{{< /gallery >}}
+
 
 
 

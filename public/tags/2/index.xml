@@ -18,7 +18,7 @@
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/cube/2x2/</guid>
       <description>This 2x2 rubik actually prededed 3x3 in terms of its emergence. In a nutshell, this rubik is older than 3x3. So, this article would pretty much explain a step by step towards solving it.</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/cube/2x2/featured.png" />
     </item>
     
   </channel>

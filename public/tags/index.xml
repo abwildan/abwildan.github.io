@@ -9,7 +9,57 @@
     <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
     <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
     <copyright>© 2026 Wildan</copyright>
-    <lastBuildDate>Thu, 07 May 2026 10:21:22 +0700</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 17 May 2026 13:21:48 +0700</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Adb</title>
+      <link>http://localhost:1313/tags/adb/</link>
+      <pubDate>Sun, 17 May 2026 13:21:48 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tags/adb/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Adb-Wireless</title>
+      <link>http://localhost:1313/tags/adb-wireless/</link>
+      <pubDate>Sun, 17 May 2026 13:21:48 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tags/adb-wireless/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Android</title>
+      <link>http://localhost:1313/tags/android/</link>
+      <pubDate>Sun, 17 May 2026 13:21:48 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tags/android/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>http://localhost:1313/tags/linux/</link>
+      <pubDate>Sun, 17 May 2026 13:21:48 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tags/linux/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Wireless</title>
+      <link>http://localhost:1313/tags/wireless/</link>
+      <pubDate>Sun, 17 May 2026 13:21:48 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tags/wireless/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>2</title>
@@ -242,16 +292,6 @@
     </item>
     
     <item>
-      <title>Android</title>
-      <link>http://localhost:1313/tags/android/</link>
-      <pubDate>Sat, 04 Apr 2026 13:49:59 +0700</pubDate>
-      <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/tags/android/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
       <title>Archlinux</title>
       <link>http://localhost:1313/tags/archlinux/</link>
       <pubDate>Sat, 04 Apr 2026 13:49:59 +0700</pubDate>
@@ -267,16 +307,6 @@
       <pubDate>Sat, 04 Apr 2026 13:49:59 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tags/libmtp/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Linux</title>
-      <link>http://localhost:1313/tags/linux/</link>
-      <pubDate>Sat, 04 Apr 2026 13:49:59 +0700</pubDate>
-      <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/tags/linux/</guid>
       <description></description>
       
     </item>
@@ -852,31 +882,11 @@
     </item>
     
     <item>
-      <title>Adb</title>
-      <link>http://localhost:1313/tags/adb/</link>
-      <pubDate>Wed, 18 Jun 2025 09:21:08 +0700</pubDate>
-      <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/tags/adb/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
       <title>Scrcpy</title>
       <link>http://localhost:1313/tags/scrcpy/</link>
       <pubDate>Wed, 18 Jun 2025 09:21:08 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tags/scrcpy/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Wireless</title>
-      <link>http://localhost:1313/tags/wireless/</link>
-      <pubDate>Wed, 18 Jun 2025 09:21:08 +0700</pubDate>
-      <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/tags/wireless/</guid>
       <description></description>
       
     </item>

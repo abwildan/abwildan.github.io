@@ -9,7 +9,17 @@
     <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
     <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
     <copyright>© 2026 Wildan</copyright>
-    <lastBuildDate>Wed, 18 Jun 2025 09:21:08 +0700</lastBuildDate><atom:link href="http://localhost:1313/tags/adb/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 17 May 2026 13:21:48 +0700</lastBuildDate><atom:link href="http://localhost:1313/tags/adb/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Android Wireless Debugging: The Most Convenient Way to Connect to Your Android Device</title>
+      <link>http://localhost:1313/tech/adb_wireless/</link>
+      <pubDate>Sun, 17 May 2026 13:21:48 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tech/adb_wireless/</guid>
+      <description>Connecting your Android device through a USB is pretty mainstream. I will show you that you are actually able to connect it directly through wireless connection here.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/adb_wireless/featured.png" />
+    </item>
     
     <item>
       <title>Scrcpy: Open Source Tool for Mirroring Your Android Devices</title>

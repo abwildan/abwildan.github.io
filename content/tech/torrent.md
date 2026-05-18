@@ -1,7 +1,7 @@
 ---
 title: "Torrenting: P2P Network Through BitTorrent Protocol for Distributing and Downloading Files (ft. qbittorrent)"
 date: 2026-04-22T17:31:31+07:00
-lastmod: 2026-04-27
+lastmod: 2026-05-18
 draft: false
 summary: "Once you understand how torrent works profoundly, not only can you utilize it better, but also your understanding regarding how internet actually works will shift."
 tags: ["torrent", "bittorrent", "p2p", "qbittorrent", "transmisision", "deluge"]
@@ -204,9 +204,19 @@ https://cdimage.kali.org/kali-2026.1/kali-linux-2026.1-installer-netinst-amd64.i
 
 {{< alert icon=none >}}
 
-**Notes:**  Untuk alasan kemudahan, saya akan gunakan `qbittorrent`.
+Sebetulnya, kita bisa inspeksi isi file torrent (.torrent) tersebut dengan _tool_ [`torf-cli`](https://github.com/rndusr/torf-cli). Dengan perintah tersebut, kita dapat mengetahui bahwa file torrent (.torrent) mengandung informasi penting, seperti **hash** dan juga sebetulnya ada **manget link**-nya.
+
+Perintahnya: 
+
+`torf -N https://cdimage.kali.org/kali-2026.1/kali-linux-2026.1-installer-netinst-amd64.iso.torrent`
+
+Outputnya:  
+
+![ss9](/torrent/ss9.png "inspecting .torrent file using `torf-cli`")  
 
 {{< /alert >}}
+
+> **Notes:**  Untuk alasan kemudahan, saya akan gunakan `qbittorrent`.
 
 Berikut langkah-langkahnya:
 1. Buka aplikasi `qbittorrent`.

@@ -1,6 +1,7 @@
 ---
 title: "Android Wireless Debugging: The Most Convenient Way to Connect to Your Android Device"
 date: 2026-05-17T13:21:48+07:00
+lastmod: 2026-05-18
 draft: false
 summary: "Connecting your Android device through a USB is pretty mainstream. I will show you that you are actually able to connect it directly through wireless connection here."
 tags: ["adb-wireless", "adb", "android", "wireless", "linux"]

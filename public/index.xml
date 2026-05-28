@@ -9,7 +9,17 @@
     <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
     <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
     <copyright>© 2026 Wildan</copyright>
-    <lastBuildDate>Sun, 17 May 2026 13:21:48 +0700</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 26 May 2026 09:53:58 +0700</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Gocryptfs: A File-based Encryption Tool Written in Go</title>
+      <link>http://localhost:1313/tech/gocryptfs/</link>
+      <pubDate>Tue, 26 May 2026 09:53:58 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tech/gocryptfs/</guid>
+      <description>Have you ever dreamt of a (terminal) tool that is able to encrypt your regular file (and directories) in a convenient way? Gocryptfs is your answer. It is a terminal-based, powerful, and open source encryption tool.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/gocryptfs/featured.png" />
+    </item>
     
     <item>
       <title>Android Wireless Debugging: The Most Convenient Way to Connect to Your Android Device</title>
@@ -457,7 +467,7 @@
       <pubDate>Sun, 02 Feb 2025 04:43:27 +0000</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/luks/</guid>
-      <description>A tutorial on how to encrypt disk/drive in linux with cryptsetup.</description>
+      <description>A tutorial on how to encrypt disk/drive/partition in linux with cryptsetup.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/luks/featured.png" />
     </item>
     

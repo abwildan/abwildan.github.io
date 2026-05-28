@@ -199,6 +199,16 @@ adb pull <full_path>/<filename.ext>
 adb push 
 ```
 
+7. Untuk menampilkan display Android:
+
+```shell
+scrcpy
+```
+
+![ss10](/adb_wireless/ss10.png "`scrcpy`")
+
+> Silakan baca artikel saya terkait `scrcpy` untuk tau cara instalasi dan penggunaan lebih lanjutnya.
+
 Perintah-perintah fungsional `adb` lainnya dapat dipelajari di `adb --help` atau `man adb`.
 
 Sekian.  

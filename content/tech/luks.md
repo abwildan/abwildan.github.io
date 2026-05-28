@@ -1,9 +1,9 @@
 ---
 title: "Enrypting Disk in Linux using LUKS"
 date: 2025-02-02T04:43:27Z
-lastmod: 2026-05-11
+lastmod: 2026-05-26
 draft: false
-summary: "A tutorial on how to encrypt disk/drive in linux with cryptsetup."
+summary: "A tutorial on how to encrypt disk/drive/partition in linux with cryptsetup."
 tags: ["cryptsetup", "linux", "disk", "encryption", "luks"]
 categories: "cryptsetup"
 ---
@@ -12,7 +12,16 @@ Kali ini kita akan belajar cara meng-_encypt_ disk/drive di linux menggunakan **
 
 ## Installation
 
-Karena merupakan _tool_ standard, **`cryptsetup`** biasanya sudah terpasang ketika melakukan instalasi linux. Tapi, jika ternyata belum terpasang, silakan _install_ terlebih dahulu:
+Karena merupakan _tool_ standard, **`cryptsetup`** biasanya sudah terpasang ketika melakukan instalasi linux, sebab cryptsetup memang langsung menggunakan modul default bawaan kernel Linux, yaitu [**dm-crypt**](https://docs.kernel.org/admin-guide/device-mapper/dm-crypt.html)[^3]. Kita bisa memeriksa modul tersebut dengan perintah berikut:
+
+```shell
+lsmod | grep crypt
+```
+
+![ss10](/luks/ss10.png "**dm-crypt** Linux kernel module used by `cryptsetup`")
+
+
+Tapi, jika ternyata belum terpasang, silakan _install_ terlebih dahulu:
 
 |       Distro      |                  Command                      |
 |       ---         |                   ---                         |
@@ -216,6 +225,20 @@ lsblk -f
 df -h
 ```
 
+### Menghapus partisi
+
+Jika seandainya (suatu hari nanti), Anda sudah tidak memerlukan partisi LUKS itu lagi, Anda mungkin akan menghapus partisi tersebut. Tapi masalahnya, secara default, format file system-nya LUKS tidak otomatis terhapus jika partisinya dihapus. Artinya, meskipun partisi tersebut terhapus, tapi ketika Anda akan menggunakan "blok" partisi yang dulu terdapat format LUKS di dalamnya ketika membuat partisi baru, otomatis file system-nya akan langsung menjadi LUKS lagi.
+
+Oleh karena itu, sebelum menghapus partisi, alangkah baiknya menghapus format file system-nya terlebih dahulu:
+
+```shell
+sudo wipefs -a /dev/<nama_partisi>
+```
+
+![ss11](/luks/ss11.png "menghapus format file system")
+
+Baru kemudian boleh dihapus, bisa dengan `cfdisk` atau _tools_ partisi lainnya.
+
 
 ---
 
@@ -228,3 +251,4 @@ Artikel ini di-inspirasi oleh video Youtube berikut:
 
 [^1]: https://wiki.archlinux.org/title/Dm-crypt/Device_encryption
 [^2]: https://wiki.archlinux.org/title/File_systems
+[^3]: https://docs.kernel.org/admin-guide/device-mapper/dm-crypt.html

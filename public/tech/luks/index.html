@@ -18,7 +18,7 @@
     <meta name="title" content="Enrypting Disk in Linux using LUKS &middot; My Awesome Site">
 
   
-  <meta name="description" content="A tutorial on how to encrypt disk/drive in linux with cryptsetup.">
+  <meta name="description" content="A tutorial on how to encrypt disk/drive/partition in linux with cryptsetup.">
   <meta name="keywords" content="cryptsetup,linux,disk,encryption,luks,">
   
   
@@ -101,12 +101,12 @@
   <meta property="og:url" content="http://localhost:1313/tech/luks/">
   <meta property="og:site_name" content="My Awesome Site">
   <meta property="og:title" content="Enrypting Disk in Linux using LUKS">
-  <meta property="og:description" content="A tutorial on how to encrypt disk/drive in linux with cryptsetup.">
+  <meta property="og:description" content="A tutorial on how to encrypt disk/drive/partition in linux with cryptsetup.">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="tech">
     <meta property="article:published_time" content="2025-02-02T04:43:27+00:00">
-    <meta property="article:modified_time" content="2026-05-11T00:00:00+00:00">
+    <meta property="article:modified_time" content="2026-05-26T00:00:00+00:00">
     <meta property="article:tag" content="Cryptsetup">
     <meta property="article:tag" content="Linux">
     <meta property="article:tag" content="Disk">
@@ -118,7 +118,7 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="http://localhost:1313/tech/luks/featured.png">
   <meta name="twitter:title" content="Enrypting Disk in Linux using LUKS">
-  <meta name="twitter:description" content="A tutorial on how to encrypt disk/drive in linux with cryptsetup.">
+  <meta name="twitter:description" content="A tutorial on how to encrypt disk/drive/partition in linux with cryptsetup.">
 <meta name="twitter:image" content="http://localhost:1313/tech/luks/featured.png">
     <meta property="og:image" content="http://localhost:1313/tech/luks/featured.png">
   <script type="application/ld+json">
@@ -129,7 +129,7 @@
     "name": "Enrypting Disk in Linux using LUKS",
     "headline": "Enrypting Disk in Linux using LUKS",
     
-    "abstract": "A tutorial on how to encrypt disk\/drive in linux with cryptsetup.",
+    "abstract": "A tutorial on how to encrypt disk\/drive\/partition in linux with cryptsetup.",
     "inLanguage": "en",
     "url" : "http:\/\/localhost:1313\/tech\/luks\/",
     "author" : {
@@ -140,12 +140,12 @@
     "dateCreated": "2025-02-02T04:43:27\u002b00:00",
     "datePublished": "2025-02-02T04:43:27\u002b00:00",
     
-    "dateModified": "2026-05-11T00:00:00\u002b00:00",
+    "dateModified": "2026-05-26T00:00:00\u002b00:00",
     
     "keywords": ["cryptsetup","linux","disk","encryption","luks"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "818"
+    "wordCount": "950"
   }]
   </script>
 
@@ -904,7 +904,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2025-02-02T04:43:27&#43;00:00">2 February 2025</time><span class="px-2 text-primary-500">&middot;</span><time datetime="2026-05-11T00:00:00&#43;00:00">Updated: 11 May 2026</time><span class="px-2 text-primary-500">&middot;</span><span>818 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">4 mins</span><span class="px-2 text-primary-500">&middot;</span>
+      <time datetime="2025-02-02T04:43:27&#43;00:00">2 February 2025</time><span class="px-2 text-primary-500">&middot;</span><time datetime="2026-05-26T00:00:00&#43;00:00">Updated: 26 May 2026</time><span class="px-2 text-primary-500">&middot;</span><span>950 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">5 mins</span><span class="px-2 text-primary-500">&middot;</span>
 
 
   
@@ -1249,6 +1249,7 @@
     <li><a href="#advanced-use">Advanced Use</a>
       <ul>
         <li><a href="#mengubah-ukuran-partisi">Mengubah ukuran partisi</a></li>
+        <li><a href="#menghapus-partisi">Menghapus partisi</a></li>
       </ul>
     </li>
   </ul>
@@ -1280,6 +1281,7 @@
     <li><a href="#advanced-use">Advanced Use</a>
       <ul>
         <li><a href="#mengubah-ukuran-partisi">Mengubah ukuran partisi</a></li>
+        <li><a href="#menghapus-partisi">Menghapus partisi</a></li>
       </ul>
     </li>
   </ul>
@@ -1396,7 +1398,26 @@
     </span>        
     
 </h2>
-<p>Karena merupakan <em>tool</em> standard, <strong><code>cryptsetup</code></strong> biasanya sudah terpasang ketika melakukan instalasi linux. Tapi, jika ternyata belum terpasang, silakan <em>install</em> terlebih dahulu:</p>
+<p>Karena merupakan <em>tool</em> standard, <strong><code>cryptsetup</code></strong> biasanya sudah terpasang ketika melakukan instalasi linux, sebab cryptsetup memang langsung menggunakan modul default bawaan kernel Linux, yaitu <a
+  href="https://docs.kernel.org/admin-guide/device-mapper/dm-crypt.html"
+    target="_blank"
+  ><strong>dm-crypt</strong></a><sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>. Kita bisa memeriksa modul tersebut dengan perintah berikut:</p>
+<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">lsmod <span class="p">|</span> grep crypt</span></span></code></pre></div></div>
+<p>
+
+
+
+
+
+
+<figure>
+    <img class="my-0 rounded-md" loading="lazy" alt="ss10" src="/luks/ss10.png">
+
+  
+    <figcaption><strong>dm-crypt</strong> Linux kernel module used by <code>cryptsetup</code></figcaption>
+</figure>
+</p>
+<p>Tapi, jika ternyata belum terpasang, silakan <em>install</em> terlebih dahulu:</p>
 <table>
   <thead>
       <tr>
@@ -1601,7 +1622,7 @@
     </span>        
     
 </h3>
-<p>Berikutnya, kita perlu membuat format <em>filesystem</em> baru ke partisi ini.<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> Kita hanya perlu melakukan ini di awal saja:</p>
+<p>Berikutnya, kita perlu membuat format <em>filesystem</em> baru ke partisi ini.<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup> Kita hanya perlu melakukan ini di awal saja:</p>
 <div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">sudo mkfs.ext4 /dev/mapper/test</span></span></code></pre></div></div>
 
   
@@ -1912,6 +1933,34 @@
 </blockquote><p>Untuk memastikan sudah berubah, bisa gunakan salah satu dari perintah ini:</p>
 <div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">lsblk -f
 </span></span><span class="line"><span class="cl">df -h</span></span></code></pre></div></div>
+
+<h3 class="relative group">Menghapus partisi 
+    <div id="menghapus-partisi" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100 select-none">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#menghapus-partisi" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>Jika seandainya (suatu hari nanti), Anda sudah tidak memerlukan partisi LUKS itu lagi, Anda mungkin akan menghapus partisi tersebut. Tapi masalahnya, secara default, format file system-nya LUKS tidak otomatis terhapus jika partisinya dihapus. Artinya, meskipun partisi tersebut terhapus, tapi ketika Anda akan menggunakan &ldquo;blok&rdquo; partisi yang dulu terdapat format LUKS di dalamnya ketika membuat partisi baru, otomatis file system-nya akan langsung menjadi LUKS lagi.</p>
+<p>Oleh karena itu, sebelum menghapus partisi, alangkah baiknya menghapus format file system-nya terlebih dahulu:</p>
+<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">sudo wipefs -a /dev/&lt;nama_partisi&gt;</span></span></code></pre></div></div>
+<p>
+
+
+
+
+
+
+<figure>
+    <img class="my-0 rounded-md" loading="lazy" alt="ss11" src="/luks/ss11.png">
+
+  
+    <figcaption>menghapus format file system</figcaption>
+</figure>
+</p>
+<p>Baru kemudian boleh dihapus, bisa dengan <code>cfdisk</code> atau <em>tools</em> partisi lainnya.</p>
 <hr>
 <p>Artikel ini di-inspirasi oleh video Youtube berikut:</p>
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
@@ -1929,9 +1978,15 @@
 </li>
 <li id="fn:2">
 <p><a
+  href="https://docs.kernel.org/admin-guide/device-mapper/dm-crypt.html"
+    target="_blank"
+  >https://docs.kernel.org/admin-guide/device-mapper/dm-crypt.html</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p><a
   href="https://wiki.archlinux.org/title/File_systems"
     target="_blank"
-  >https://wiki.archlinux.org/title/File_systems</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+  >https://wiki.archlinux.org/title/File_systems</a>&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
 </div>

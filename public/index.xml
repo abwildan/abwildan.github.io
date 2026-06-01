@@ -18,7 +18,7 @@
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/rclone/</guid>
       <description>Do you have a lot of cloud storages that you want to manage it directly through terminal? With rclone, managing many cloud storages has never been easier than this before..</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/rclone/featured.png" />
     </item>
     
     <item>

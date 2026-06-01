@@ -105,7 +105,7 @@ docker version
 
 Berikut adalah tautan official Docker:
 
-**Website:** https://github.com/docker   
+**Website:** https://www.docker.com/   
 **Github:** https://github.com/docker
 
 ### Set Up 

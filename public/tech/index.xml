@@ -9,7 +9,17 @@
     <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
     <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
     <copyright>© 2026 Wildan</copyright>
-    <lastBuildDate>Tue, 26 May 2026 09:53:58 +0700</lastBuildDate><atom:link href="http://localhost:1313/tech/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 30 May 2026 14:35:34 +0700</lastBuildDate><atom:link href="http://localhost:1313/tech/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Rclone: A Command-line program to Manage Files on Cloud Storage</title>
+      <link>http://localhost:1313/tech/rclone/</link>
+      <pubDate>Sat, 30 May 2026 14:35:34 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tech/rclone/</guid>
+      <description>Do you have a lot of cloud storages that you want to manage it directly through terminal? With rclone, managing many cloud storages has never been easier than this before..</description>
+      
+    </item>
     
     <item>
       <title>Gocryptfs: A File-based Encryption Tool Written in Go</title>
@@ -18,7 +28,7 @@
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/gocryptfs/</guid>
       <description>Have you ever dreamt of a (terminal) tool that is able to encrypt your regular file (and directories) in a convenient way? Gocryptfs is your answer. It is a terminal-based, powerful, and open source encryption tool.</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/gocryptfs/featured.png" />
     </item>
     
     <item>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rclone on My Awesome Site</title>
+    <link>http://localhost:1313/tags/rclone/</link>
+    <description>Recent content in Rclone on My Awesome Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
+    <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
+    <copyright>© 2026 Wildan</copyright>
+    <lastBuildDate>Sat, 30 May 2026 14:35:34 +0700</lastBuildDate><atom:link href="http://localhost:1313/tags/rclone/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Rclone: A Command-line program to Manage Files on Cloud Storage</title>
+      <link>http://localhost:1313/tech/rclone/</link>
+      <pubDate>Sat, 30 May 2026 14:35:34 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tech/rclone/</guid>
+      <description>Do you have a lot of cloud storages that you want to manage it directly through terminal? With rclone, managing many cloud storages has never been easier than this before..</description>
+      
+    </item>
+    
+  </channel>
+</rss>

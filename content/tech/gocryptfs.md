@@ -17,6 +17,11 @@ Beberapa saat lalu, saya membayangkan untuk punya alat digital yang dapat mengen
 > Saya sempat menulis cara menggunakan `cryptsetup` untuk meng-enkripsi drive atau partisi:
 > {{< article link="/tech/luks/" showSummary=true compactSummary=true >}} 
 
+Berikut adalah website resmi `gocryptfs` dan repository Github-nya:
+
+Website: https://nuetzlich.net/gocryptfs/
+{{< github repo="rfjakob/gocryptfs" showThumbnail=true >}}
+
 ### `gocryptfs` vs Other Tools
 
 Berikut adalah perbedaan utama antara `cryptsetup` dengan `gocryptfs`[^2]: 

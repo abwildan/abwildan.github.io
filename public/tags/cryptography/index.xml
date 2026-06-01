@@ -18,7 +18,7 @@
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/gocryptfs/</guid>
       <description>Have you ever dreamt of a (terminal) tool that is able to encrypt your regular file (and directories) in a convenient way? Gocryptfs is your answer. It is a terminal-based, powerful, and open source encryption tool.</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/gocryptfs/featured.png" />
     </item>
     
   </channel>

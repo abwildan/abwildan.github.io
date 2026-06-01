@@ -73,6 +73,7 @@ I keep the walls here so it is easier for me to get them.
   <img src="/wall/wall1.jpeg" class="grid-w50 md:grid-w33 xl:grid-w25" />
   <img src="/wall/wall2.jpeg" class="grid-w50 md:grid-w33 xl:grid-w25" />
   <img src="/wall/wall3.jpeg" class="grid-w50 md:grid-w33 xl:grid-w25" />
+  <img src="/wall/wall4.jpeg" class="grid-w50 md:grid-w33 xl:grid-w25" />
 
   <img src="/wall/wall1.png" class="grid-w50 md:grid-w33 xl:grid-w25" />
   <img src="/wall/wall2.png" class="grid-w50 md:grid-w33 xl:grid-w25" />

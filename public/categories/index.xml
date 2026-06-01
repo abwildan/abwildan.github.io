@@ -9,7 +9,17 @@
     <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
     <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
     <copyright>© 2026 Wildan</copyright>
-    <lastBuildDate>Tue, 26 May 2026 09:53:58 +0700</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 30 May 2026 14:35:34 +0700</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Rclone</title>
+      <link>http://localhost:1313/categories/rclone/</link>
+      <pubDate>Sat, 30 May 2026 14:35:34 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/categories/rclone/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>Gocryptfs</title>

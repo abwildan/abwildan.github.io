@@ -1,7 +1,7 @@
 ---
-title: "GRUB: Theme, Timeout, and OS-Prober"
+title: "GRUB: Theme, Timeout, OS-Prober, etc"
 date: 2026-03-19T17:20:34+07:00
-lastmod: 2026-03-21
+lastmod: 2026-06-02
 draft: false
 summary: "A brief note regarding grub configuration."
 tags: ["grub", "theme", "timer", "os-prober", "boot"]
@@ -87,6 +87,26 @@ sudo grub-mkconfig -o /boot/grub/grub.cfg
 Setelah me-_restart_ komputer, kita akan melihat sistem operasi lain tersebut di menu GRUB.
 
 > Saya tidak bisa menampilkannya di sini karena satu dan lain hal. Harap maklum. 🙏
+
+## 4. Kernel Message
+
+Kita bisa mengaktifkan atau mematikan fitur **Boot Kernel Message**, yaitu fitur yang menampilkan proses boot kernel di layar.
+
+Untuk mengaktifkannya/menon-aktifkannya (men-_silent_ sehingga boot message tidak tampil di layar), kita hanya perlu meng-_uncomment_ baris berikut:
+
+```shell
+GRUB_CMDLINE_LINUX_DEFAULT="" # untuk menampilkan semua boot message pada normal mode
+GRUB_CMDLINE_LINUX="" # untuk menampilkan smeua boot message pada recovery mode
+
+GRUB_CMDLINE_LINUX_DEFAULT="log-level=3 quiet" # untuk meng-hide sebagian besar boot message pada normal mode, kecuali level error penting.
+GRUB_CMDLINE_LINUX_DEFAULT="quiet" # untuk meng-hide semua boot message pada normal mode
+```
+
+Kemudian, jalankan perintah berikut untuk men-_generate_ ulang file konfigurasi GRUB-nya.
+
+```shell
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+```
 
 Demikian.  
 Semoga bermanfaat.

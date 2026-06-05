@@ -1,7 +1,7 @@
 ---
 title: "Cool Terminal Tools You Should Know"
 date: 2024-06-09T16:59:47+07:00
-lastmod: 2026-04-30
+lastmod: 2026-06-05
 draft: false
 summary: "Just a list of a couple of (funny) terminal tools"
 cover:
@@ -238,6 +238,48 @@ telnet towel.blinkenlights.nl
 <video width="100%" controls autoplay loop muted>
   <source src="/cooltools/starwars.mkv" type="video/mp4">
 </video>
+
+### 12. wttr
+
+`wttr` juga adalah _tool_ terminal yang dapat berjalan jika kita terhubung ke servernya. Tool ini sedikit lebih memiliki fungsi dibandingkan _tool-tool_ sebelumnya, yaitu memantau kondisi cuaca di suatu kota yang ada di negara tertentu.
+
+Untuk mengaksesnya:
+
+```shell
+curl wttr.in
+```
+
+![ss3](/cooltools/ss3.png)
+
+### 13. rate
+
+`rate` adalah _tool_ terminal berbasis server (kita perlu akses internet) yang berfungsi untuk melihat grafik cryptocurrency, seperti Bitcoin (BTC), dan lain sebagainya.
+
+Untuk mengaksesnya:
+
+```shell
+curl rate.sx
+```
+
+![ss4](/cooltools/ss4.png)
+
+![ss5](/cooltools/ss5.png)
+
+### 14. ascii.live
+
+`ascii.live` adalah _tool_ terminal yang mengharuskan kita terhubung ke internet. Tidak ada fungsi secara spesifik seperti 2 _tools_ sebelumnya.
+
+Kita bisa melihat ascii live apa saja yang disupport dengan perintah:
+
+```shell
+curl ascii.live/list
+```
+
+<video width="100%" controls autoplay loop muted>
+  <source src="/cooltools/asciilive.mkv" type="video/mp4">
+</video>
+
+
 
 
 

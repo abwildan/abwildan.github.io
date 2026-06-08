@@ -1,7 +1,7 @@
 ---
 title: "Practical Guide to Virt-Manager"
 date: 2025-06-16T17:45:18+07:00
-lastmod: 2026-05-03
+lastmod: 2026-06-08
 draft: false
 summary: "A note explaining basic usage of virt-manager, especially when it comes to the commands."
 tags: ["virt-manager", "libvirt", "kvm", "linux", "qemu", "virtualization", "virtual machine"]
@@ -139,6 +139,47 @@ Jika menjalankan Virt-manager sebagai ***system*** (`qemu:///system`), maka file
 {{< /alert >}}
 
 VM berhasil dibuat.
+
+### Listing Network
+
+Sebelum memulai VM, pastikan _networking_-nya sudah jalan.  
+Untuk mengecek kondisi _networking_ yang tersedia, dan apakah sudah jalan atau belum:
+
+```shell
+sudo virsh net-list --all
+```
+
+![ss12](/virt-manager/ss12.png "listing network")
+
+### Starting Network
+
+Untuk menjalankan _networking_ (jika belum jalan):
+
+```shell
+sudo virsh net-start <network_name>
+```
+
+Atau jika ingin agar _network_ langsung otomatis jalan begitu komputer _booting_:
+
+```shell
+sudo virsh net-autostart <network_name>
+```
+
+### Inspecting Network
+
+Untuk melihat informasi yang lebih detail tentang suatu _network_ (jaringan):
+
+```shell
+sudo virsh net-info <network_name>
+```
+
+### Stopping Network
+
+Jika ingin mematikan _network_:
+
+```shell
+sudo virsh net-destroy <network_name>
+```
 
 ### Starting VM
 

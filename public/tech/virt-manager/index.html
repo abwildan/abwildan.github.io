@@ -106,7 +106,7 @@
   <meta property="og:type" content="article">
     <meta property="article:section" content="tech">
     <meta property="article:published_time" content="2025-06-16T17:45:18+07:00">
-    <meta property="article:modified_time" content="2026-05-03T00:00:00+00:00">
+    <meta property="article:modified_time" content="2026-06-08T00:00:00+00:00">
     <meta property="article:tag" content="Virt-Manager">
     <meta property="article:tag" content="Libvirt">
     <meta property="article:tag" content="Kvm">
@@ -141,12 +141,12 @@
     "dateCreated": "2025-06-16T17:45:18\u002b07:00",
     "datePublished": "2025-06-16T17:45:18\u002b07:00",
     
-    "dateModified": "2026-05-03T00:00:00\u002b00:00",
+    "dateModified": "2026-06-08T00:00:00\u002b00:00",
     
     "keywords": ["virt-manager","libvirt","kvm","linux","qemu","virtualization","virtual machine"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "883"
+    "wordCount": "967"
   }]
   </script>
 
@@ -905,7 +905,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2025-06-16T17:45:18&#43;07:00">16 June 2025</time><span class="px-2 text-primary-500">&middot;</span><time datetime="2026-05-03T00:00:00&#43;00:00">Updated: 3 May 2026</time><span class="px-2 text-primary-500">&middot;</span><span>883 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">5 mins</span><span class="px-2 text-primary-500">&middot;</span>
+      <time datetime="2025-06-16T17:45:18&#43;07:00">16 June 2025</time><span class="px-2 text-primary-500">&middot;</span><time datetime="2026-06-08T00:00:00&#43;00:00">Updated: 8 June 2026</time><span class="px-2 text-primary-500">&middot;</span><span>967 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">5 mins</span><span class="px-2 text-primary-500">&middot;</span>
 
 
   
@@ -1260,6 +1260,10 @@
     <li><a href="#vm-management">VM Management</a>
       <ul>
         <li><a href="#creating-vm">Creating VM</a></li>
+        <li><a href="#listing-network">Listing Network</a></li>
+        <li><a href="#starting-network">Starting Network</a></li>
+        <li><a href="#inspecting-network">Inspecting Network</a></li>
+        <li><a href="#stopping-network">Stopping Network</a></li>
         <li><a href="#starting-vm">Starting VM</a></li>
         <li><a href="#listing-vm">Listing VM</a></li>
         <li><a href="#showing-vm-info">Showing VM info</a></li>
@@ -1289,6 +1293,10 @@
     <li><a href="#vm-management">VM Management</a>
       <ul>
         <li><a href="#creating-vm">Creating VM</a></li>
+        <li><a href="#listing-network">Listing Network</a></li>
+        <li><a href="#starting-network">Starting Network</a></li>
+        <li><a href="#inspecting-network">Inspecting Network</a></li>
+        <li><a href="#stopping-network">Stopping Network</a></li>
         <li><a href="#starting-vm">Starting VM</a></li>
         <li><a href="#listing-vm">Listing VM</a></li>
         <li><a href="#showing-vm-info">Showing VM info</a></li>
@@ -1643,6 +1651,71 @@ Masukkan baris berikut di file konfigurasi (<code>/etc/nixos/configuration.nix</
 </div>
 
 <p>VM berhasil dibuat.</p>
+
+<h3 class="relative group">Listing Network 
+    <div id="listing-network" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100 select-none">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#listing-network" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>Sebelum memulai VM, pastikan <em>networking</em>-nya sudah jalan.<br>
+Untuk mengecek kondisi <em>networking</em> yang tersedia, dan apakah sudah jalan atau belum:</p>
+<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">sudo virsh net-list --all</span></span></code></pre></div></div>
+<p>
+
+
+
+
+
+
+<figure>
+    <img class="my-0 rounded-md" loading="lazy" alt="ss12" src="/virt-manager/ss12.png">
+
+  
+    <figcaption>listing network</figcaption>
+</figure>
+</p>
+
+<h3 class="relative group">Starting Network 
+    <div id="starting-network" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100 select-none">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#starting-network" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>Untuk menjalankan <em>networking</em> (jika belum jalan):</p>
+<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">sudo virsh net-start &lt;network_name&gt;</span></span></code></pre></div></div>
+<p>Atau jika ingin agar <em>network</em> langsung otomatis jalan begitu komputer <em>booting</em>:</p>
+<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">sudo virsh net-autostart &lt;network_name&gt;</span></span></code></pre></div></div>
+
+<h3 class="relative group">Inspecting Network 
+    <div id="inspecting-network" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100 select-none">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#inspecting-network" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>Untuk melihat informasi yang lebih detail tentang suatu <em>network</em> (jaringan):</p>
+<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">sudo virsh net-info &lt;network_name&gt;</span></span></code></pre></div></div>
+
+<h3 class="relative group">Stopping Network 
+    <div id="stopping-network" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100 select-none">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#stopping-network" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>Jika ingin mematikan <em>network</em>:</p>
+<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">sudo virsh net-destroy &lt;network_name&gt;</span></span></code></pre></div></div>
 
 <h3 class="relative group">Starting VM 
     <div id="starting-vm" class="anchor"></div>

@@ -9,7 +9,97 @@
     <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
     <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
     <copyright>© 2026 Wildan</copyright>
-    <lastBuildDate>Sat, 30 May 2026 14:35:34 +0700</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 09 Jun 2026 09:29:24 +0700</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Cctv</title>
+      <link>http://localhost:1313/tags/cctv/</link>
+      <pubDate>Tue, 09 Jun 2026 09:29:24 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tags/cctv/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Ipcam</title>
+      <link>http://localhost:1313/tags/ipcam/</link>
+      <pubDate>Tue, 09 Jun 2026 09:29:24 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tags/ipcam/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Media</title>
+      <link>http://localhost:1313/tags/media/</link>
+      <pubDate>Tue, 09 Jun 2026 09:29:24 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tags/media/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Mpv</title>
+      <link>http://localhost:1313/tags/mpv/</link>
+      <pubDate>Tue, 09 Jun 2026 09:29:24 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tags/mpv/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Nvr</title>
+      <link>http://localhost:1313/tags/nvr/</link>
+      <pubDate>Tue, 09 Jun 2026 09:29:24 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tags/nvr/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Onvif</title>
+      <link>http://localhost:1313/tags/onvif/</link>
+      <pubDate>Tue, 09 Jun 2026 09:29:24 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tags/onvif/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Rtsp</title>
+      <link>http://localhost:1313/tags/rtsp/</link>
+      <pubDate>Tue, 09 Jun 2026 09:29:24 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tags/rtsp/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Streaming</title>
+      <link>http://localhost:1313/tags/streaming/</link>
+      <pubDate>Tue, 09 Jun 2026 09:29:24 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tags/streaming/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Vlc</title>
+      <link>http://localhost:1313/tags/vlc/</link>
+      <pubDate>Tue, 09 Jun 2026 09:29:24 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tags/vlc/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>Cloud</title>
@@ -827,16 +917,6 @@
       <pubDate>Sat, 12 Jul 2025 10:49:32 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tags/ffmpeg/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Mpv</title>
-      <link>http://localhost:1313/tags/mpv/</link>
-      <pubDate>Sat, 12 Jul 2025 10:49:32 +0700</pubDate>
-      <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/tags/mpv/</guid>
       <description></description>
       
     </item>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rtsp on My Awesome Site</title>
+    <link>http://localhost:1313/categories/rtsp/</link>
+    <description>Recent content in Rtsp on My Awesome Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
+    <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
+    <copyright>© 2026 Wildan</copyright>
+    <lastBuildDate>Tue, 09 Jun 2026 09:29:24 +0700</lastBuildDate><atom:link href="http://localhost:1313/categories/rtsp/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Accessing RTSP IP CCTV From Media Player</title>
+      <link>http://localhost:1313/tech/rtsp-ipcam/</link>
+      <pubDate>Tue, 09 Jun 2026 09:29:24 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tech/rtsp-ipcam/</guid>
+      <description>RTSP stands for Real-time Streaming Protocol, which is a protocol capable of casting real-time CCTV streaming video. It does not rely on certain apps to do that. So, as long as the app supports RTSP (like MPV and VLC), it will work perfectly.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/rtsp-ipcam/featured.png" />
+    </item>
+    
+  </channel>
+</rss>

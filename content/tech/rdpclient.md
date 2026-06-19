@@ -1,7 +1,7 @@
 ---
 title: "My Remote Desktop Client(s)"
 date: 2024-06-04T22:05:26+07:00
-lastmod: 2026-04-30
+lastmod: 2026-06-19
 draft: false		
 summary: "RDP client sometimes play an important role, doesn't it? Especially, when you are a sys-admin. So, you must find the most suitable one for getting your work done well."
 cover: 
@@ -75,6 +75,14 @@ Mau tau lebih banyak apa saja yang bisa dilakukan xfreerdp untuk remote desktop?
 ```shell
 xfreerdp /?
 ```
+
+{{< alert icon=none >}}
+
+**Wayland**
+
+Untuk menjalankan freerdp di wayland, gunakan perintah `wlfreerdp`.
+
+{{< /alert >}}
 
 ### Demo
 

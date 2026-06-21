@@ -351,7 +351,7 @@ Untuk keluar dari **copy mode**, tekan tombol **`q`** di keyboard.
 
 #### Pop-up Window
 
-Kita juga bisa menampilkan pop-up window di tengah-tengah workflow `tmux` kita.  
+Kita juga bisa menampilkan pop-up window di tengah-tengah workflow `tmux` kita.[^2]  
 Caranya, kita masuk ke mode perintah terlebih dahulu:
 
 ```shell
@@ -403,3 +403,4 @@ Ada kritik dan saran untuk artikel ini atau web ini secara keseluruhan? Tinggalk
 
 
 [^1]: https://tmux.app/doc/
+[^2]: https://tmuxai.dev/tmux-popup/

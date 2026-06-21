@@ -4,19 +4,31 @@
 
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2026-06-19T00:00:00+00:00</lastmod>
+    <lastmod>2026-06-21T09:01:00+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tech/</loc>
+    <lastmod>2026-06-21T09:01:00+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tech/tmux/</loc>
+    <lastmod>2026-06-21T09:01:00+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tech/diff/</loc>
+    <lastmod>2026-06-20T14:19:00+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/tech/rtsp-ipcam/</loc>
     <lastmod>2026-06-14T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/tech/</loc>
-    <lastmod>2026-06-19T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -250,7 +262,7 @@
   </url>
   <url>
     <loc>http://localhost:1313/tech/inteldriverinstall/</loc>
-    <lastmod>2025-04-23T07:30:49+07:00</lastmod>
+    <lastmod>2026-06-21T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

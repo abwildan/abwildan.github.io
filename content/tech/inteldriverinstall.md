@@ -1,9 +1,10 @@
 ---
 title: "Fixing Windows Brightness Problem"
 date: 2025-04-23T07:30:49+07:00
+lastmod: 2026-06-21
 draft: false
 cover: ""
-summary: "Your windows brightness doesn't work properly? May be it's driver issue..."
+summary: "Your windows brightness doesn't work properly? May be it's due to driver issue..."
 tags: ["intel", "driver", "windows", "powershell", "microsoft store"]
 categories: "intel driver"
 ---

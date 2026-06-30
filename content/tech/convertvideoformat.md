@@ -5,6 +5,8 @@ cover = ""
 summary = "If you have ffmpeg installed on your Linux machine, then it actually could help you to convert any video format to MP4!"
 tags = [ "ffmpeg", "tutorial", "video format" ]
 categories = "ffmpeg"
+series = ["ffmpeg tutorial"]
+series_order = 2
 +++
 
 Sebetulnya, perintahnya sangat mudah, tapi supaya saya lebih mudah mengingatnya, maka saya akan abadikan dalam artikel ini[^1]:

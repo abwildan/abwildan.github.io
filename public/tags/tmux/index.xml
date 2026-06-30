@@ -17,7 +17,7 @@
       <pubDate>Sun, 21 Jun 2026 09:01:00 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/tmux/</guid>
-      <description>Tmux is the legendary terminal multiplexer. By that, you can actually get your terminal more functional by splitting it vertically or horizontally almost instantly.</description>
+      <description>Tmux is a legendary terminal multiplexer. By that, you can actually get your terminal more functional by splitting it vertically or horizontally almost instantly.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/tmux/featured.png" />
     </item>
     

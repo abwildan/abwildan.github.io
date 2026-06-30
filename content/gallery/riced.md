@@ -1,7 +1,7 @@
 ---
 title: "My (Riced) Linux Journey"
 date: 2025-09-08T11:14:25+07:00
-lastmod: 2026-04-06
+lastmod: 2026-06-29
 draft: false
 summary: "(My personal) linux ricing."
 tags: ["rice", "linux", "desktop", "ricing", "custom", "customization"]
@@ -11,6 +11,27 @@ categories: "rice"
 Berikut adalah kompilasi dari **_linux ricing_** yang pernah saya gunakan selama pengembangan website ini. _By the way_, beberapa ada yang "_default_", artinya masih polosan alias tidak di-"_rice_".
 
 {{< timeline >}}
+
+{{< timelineItem icon="archlinux" header="June 26th, 2026" badge="riced" subheader="ArchLinux - Niri" >}}
+
+{{< gallery >}}
+  <img src="/riced/29June2026.png" />
+  <img src="/riced/29June2026-2.png" />
+  <img src="/riced/29June2026-3.png" />
+  <img src="/riced/29June2026-4.png" />
+{{< /gallery >}}
+
+<ul>
+  <li><b>Article:</b> <a href=https://abwildan.github.io/tech/ffmpeg-compress-speedup/> tech/ffmpeg-compress-speedup </a> </li>
+  <b>Notes:</b>
+  <a href=https://niri-wm.github.io/> Niri </a> with <a href=https://noctalia.dev/> Noctalia Shell </a>
+
+
+<blockquote>
+  <p> 75fbeb0f9201a7b31144adc754e41c618539b4ea2a9868ea65b3df60c140ab20::bba2b97b2b740d174478a3443de4906aa7e1b83f8b6e4147c160838e4c2b581f::4a22fcb27d7dc082478377c3395ec0cb65712e46f77fa1aff3abe170c1c9b4a3::2ed2026b21d3783bd7d1b961597ea5c1212c42f7fd28d561dcdc5aecdfca8203 </p>
+</blockquote>
+
+{{< /timelineItem >}}
 
 {{< timelineItem icon="archlinux" header="March 9th, 2026" badge="riced" subheader="ArchLinux - Wayfire" >}}
 

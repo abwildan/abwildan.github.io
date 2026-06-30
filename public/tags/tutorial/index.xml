@@ -9,7 +9,17 @@
     <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
     <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
     <copyright>© 2026 Wildan</copyright>
-    <lastBuildDate>Mon, 07 Oct 2024 22:00:53 +0700</lastBuildDate><atom:link href="http://localhost:1313/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 29 Jun 2026 10:14:53 +0700</lastBuildDate><atom:link href="http://localhost:1313/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Compressing and Speeding Up Video Using `ffmpeg`</title>
+      <link>http://localhost:1313/tech/ffmpeg-compress-speedup/</link>
+      <pubDate>Mon, 29 Jun 2026 10:14:53 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tech/ffmpeg-compress-speedup/</guid>
+      <description>My personal small note on how to resizing (compressing) and speeding up video file with only one small yet powerful open source tool: ffmpeg.</description>
+      
+    </item>
     
     <item>
       <title>FFmpeg - Convert Any Video Format to MP4</title>

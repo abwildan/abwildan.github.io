@@ -9,7 +9,37 @@
     <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
     <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
     <copyright>© 2026 Wildan</copyright>
-    <lastBuildDate>Sun, 21 Jun 2026 09:01:00 +0700</lastBuildDate><atom:link href="http://localhost:1313/tech/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 29 Jun 2026 11:58:01 +0700</lastBuildDate><atom:link href="http://localhost:1313/tech/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Tools for Converting Picture Format</title>
+      <link>http://localhost:1313/tech/imgconvert/</link>
+      <pubDate>Mon, 29 Jun 2026 11:58:01 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tech/imgconvert/</guid>
+      <description>These are my curated tools (both CLI &amp;amp; GUI) for converting picture file to various formats.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/imgconvert/featured.png" />
+    </item>
+    
+    <item>
+      <title>Compressing and Speeding Up Video Using `ffmpeg`</title>
+      <link>http://localhost:1313/tech/ffmpeg-compress-speedup/</link>
+      <pubDate>Mon, 29 Jun 2026 10:14:53 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tech/ffmpeg-compress-speedup/</guid>
+      <description>My personal small note on how to resizing (compressing) and speeding up video file with only one small yet powerful open source tool: ffmpeg.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/ffmpeg-compress-speedup/featured.png" />
+    </item>
+    
+    <item>
+      <title>Zellij: Another Terminal Multiplexer, Yet More Modern</title>
+      <link>http://localhost:1313/tech/zellij/</link>
+      <pubDate>Mon, 22 Jun 2026 06:46:06 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tech/zellij/</guid>
+      <description>If tmux is the legendary terminal multiplexer, meaning it is the oldest and not really convenient for beginners, then, zellij is your other terminal multiplexer, yet offering modern UI and convenience.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/zellij/featured.png" />
+    </item>
     
     <item>
       <title>Tmux: Terminal Multiplexer</title>
@@ -17,7 +47,7 @@
       <pubDate>Sun, 21 Jun 2026 09:01:00 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/tmux/</guid>
-      <description>Tmux is the legendary terminal multiplexer. By that, you can actually get your terminal more functional by splitting it vertically or horizontally almost instantly.</description>
+      <description>Tmux is a legendary terminal multiplexer. By that, you can actually get your terminal more functional by splitting it vertically or horizontally almost instantly.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/tmux/featured.png" />
     </item>
     

@@ -1,10 +1,13 @@
 ---
 title: "Tmux: Terminal Multiplexer"
 date: 2026-06-21T09:01:00+07:00
+lastmod: 2026-06-28
 draft: false
-summary: "Tmux is the legendary terminal multiplexer. By that, you can actually get your terminal more functional by splitting it vertically or horizontally almost instantly."
+summary: "Tmux is a legendary terminal multiplexer. By that, you can actually get your terminal more functional by splitting it vertically or horizontally almost instantly."
 tags: ["tmux", "terminal", "multiplexer"]
 categories: "tmux"
+series: ["terminal multiplexer"]
+series_order: 2
 ---
 
 ## About `tmux`
@@ -17,11 +20,11 @@ Selain itu, di dalam tmux, ada 3 level hirarki: **Session > Window > Pane**. Seb
 
 Perhatikan ilustrasi berikut agar lebih mudah memahami ketiga level hirarti `tmux` tersebut:
 
-![ss1](/tmux/ss1.png "`tmux` 3 level hierarchy. **Created with:** [excalidraw.com](https://excalidraw.com/#json=y3Ot-XWxKoIC75tK0zTei,WByL9W1ZOwl-vDoBdU81Vw)")
+![ss1](/tmux/ss1.png "`tmux` 3 level hierarchy. **Created with:** [excalidraw.com](https://excalidraw.com/?element=twqINaXD8M_8laytnaTKd)")
 
 Dalam kenyataannya, nanti bentuk `tmux` adalah seperti ini [**click image to enlage**]:
 
-![ss13](/tmux/ss13.png "Session, Window, and Pane on `tmux`. **Created with:** [excalidraw.com](https://excalidraw.com/#json=y3Ot-XWxKoIC75tK0zTei,WByL9W1ZOwl-vDoBdU81Vw)")
+![ss13](/tmux/ss13.png "Session, Window, and Pane on `tmux`. **Created with:** [excalidraw.com](https://excalidraw.com/?element=6mrlXJCaZFXZBwSftgzXb)")
 
 Website dokumentasi resmi `tmux`: https://tmux.app/ 
 
@@ -39,7 +42,7 @@ Berikut adalah cara meng-_install_ `tmux` di beberapa sistem operasi UNIX/Linux:
 | **Arch Linux**    | **`sudo pacman -Sy tmux`**         |
 | **Fedora**        | **`sudo dnf install tmux`**        |
 | **Opensuse**      | **`sudo zypper install tmux`**     |
-| **FreeBSB**       | **`sudo pkg install tmux`**        |
+| **FreeBSD**       | **`sudo pkg install tmux`**        |
 
 {{< alert icon=none >}}
 
@@ -388,11 +391,11 @@ bind-key T display-popup -E
 
 {{< alert icon=none >}}
 
-**Notes:** Semua catatan tentang tmux dapat kalian explorasi lebih lanjut di:
+**Notes:** Artikel ini belum membahas `tmux` secara komprehensif, masih banyak fitur `tmux` yang tidak di-_cover_ dalam artikel ini. Oleh karena itu, jika kalian tertarik untuk mengetahui `tmux` lebih dalam, silakan kunjungi dokumentasi official mereka. Semua catatan tentang `tmux` dapat kalian explorasi lebih lanjut di:
 
 > https://tmux.app/doc/
 
-{{< /alert >}}
+{{< /alert >}} 
 
 Terima kasih sudah mampir.  
 Ada kritik dan saran untuk artikel ini atau web ini secara keseluruhan? Tinggalkan komentar di bawah ya!

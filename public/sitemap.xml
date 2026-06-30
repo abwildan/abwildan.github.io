@@ -4,19 +4,37 @@
 
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2026-06-21T09:01:00+07:00</lastmod>
+    <lastmod>2026-06-30T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/tech/</loc>
-    <lastmod>2026-06-21T09:01:00+07:00</lastmod>
+    <lastmod>2026-06-30T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tech/imgconvert/</loc>
+    <lastmod>2026-06-30T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tech/ffmpeg-compress-speedup/</loc>
+    <lastmod>2026-06-29T10:14:53+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tech/zellij/</loc>
+    <lastmod>2026-06-22T06:46:06+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/tech/tmux/</loc>
-    <lastmod>2026-06-21T09:01:00+07:00</lastmod>
+    <lastmod>2026-06-28T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -148,13 +166,13 @@
   </url>
   <url>
     <loc>http://localhost:1313/gallery/</loc>
-    <lastmod>2026-04-23T00:00:00+00:00</lastmod>
+    <lastmod>2026-06-29T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/gallery/riced/</loc>
-    <lastmod>2026-04-06T00:00:00+00:00</lastmod>
+    <lastmod>2026-06-29T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -340,7 +358,7 @@
   </url>
   <url>
     <loc>http://localhost:1313/gallery/wall/</loc>
-    <lastmod>2026-04-23T00:00:00+00:00</lastmod>
+    <lastmod>2026-06-28T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

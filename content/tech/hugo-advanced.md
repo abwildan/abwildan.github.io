@@ -245,7 +245,7 @@ Kita dapat membuat ***shortcode*** berikut:
 ![ss15](/Hugo-Advanced/ss15.png)
 
 Hasilnya, seperti ini:
-{{<twitter user="CracyCatsDogs" id="1769982684799873341" >}}
+{{<x user="CracyCatsDogs" id="1769982684799873341" >}}
 
 #### Instagram
 Untuk menampilkan postingan Instagram dari link berikut:

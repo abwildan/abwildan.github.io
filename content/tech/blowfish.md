@@ -1,7 +1,7 @@
 ---
 title: "Blowfish: Another Special, Modern, and Feature-Rich Hugo's Theme"
 date: 2025-06-07T18:09:46+07:00
-lastmod: 2025-06-13
+lastmod: 2026-07-03
 draft: false
 summary: "This is just a brief explanation on installing and configuring blowfish as Hugos theme."
 tags: ["hugo", "blowfish", "theme"]
@@ -70,6 +70,59 @@ Jika ingin meng-_update_nya suatu saat nanti:
 ```shell
 git submodule update --remote --merge
 ```
+
+Apa yang perlu dilakukan setelah berhasil update?
+
+#### Ganti `/config`
+
+Ganti direktori `config` di root project dengan direktori `config` dari folder `themes/blowfish/config`. Pastikan stukturnya lengkap seperti ini:
+
+```
+themes/blowfish
+└── config
+    └── _default
+        ├── hugo.toml
+        ├── languages.en.toml
+        ├── markup.toml
+        ├── menus.en.toml
+        ├── module.toml
+        └── params.toml
+```
+
+Selain itu, pastikan juga parameter-parameter yang ada di dalam filenya sudah disesuaikan dengan website kita. Jadi, jangan asal _copy-paste_.
+
+#### Ganti `/layouts`
+
+Ganti juga direktori `layouts` yang ada di root project dengan direktori `layouts` dari folder `themes/blowfish/layouts`. Pastikan strukturnya lengkap seperti ini:
+
+```
+themes/blowfish
+└── layouts
+      ├── 404.html
+      ├── _default
+      ├── index.html
+      ├── partials
+      ├── robots.txt
+      └── shortcodes
+```
+
+Pastikan juga semua file yang ada di sub-direktori seperti `layouts/partials` dan `layouts/shortcodes` sudah di-copy dari folder lama ke folder baru yang akan menggantikannya.
+
+#### Ganti `/assets`
+
+Ganti juga direktori `assets` di root project dengan direktori `assets` dari folder `themes/blowfish/assets`, sebab dari sanalah hugo akan membaca file **CSS** dan **JS** untuk men-build website kita. Pastikan strukturnya lengkap seperti ini:
+
+```
+themes/blowfish
+└── layouts
+      ├── css
+      ├── icons
+      ├── img
+      ├── js
+      └── libs
+```
+
+Pastikan juga di setiap sub-direktori, kita sudah meng-_copy-paste_ aset kita sendiri untuk dipindahkan ke direktori `assets` yang baru. Dan perhatikan juga jika kita menambahkan folder baru di direktori `assets` yang lama, maka direktori itu juga perlu diikutsertakan dalam migrasi ke direktori `assets` yang baru.
 
 ## Basic Configuration
 

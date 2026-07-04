@@ -1,7 +1,7 @@
 ---
 title: "My (Riced) Linux Journey"
 date: 2025-09-08T11:14:25+07:00
-lastmod: 2026-06-29
+lastmod: 2026-07-04
 draft: false
 summary: "(My personal) linux ricing."
 tags: ["rice", "linux", "desktop", "ricing", "custom", "customization"]
@@ -28,7 +28,10 @@ Berikut adalah kompilasi dari **_linux ricing_** yang pernah saya gunakan selama
 
 
 <blockquote>
-  <p> 75fbeb0f9201a7b31144adc754e41c618539b4ea2a9868ea65b3df60c140ab20::bba2b97b2b740d174478a3443de4906aa7e1b83f8b6e4147c160838e4c2b581f::4a22fcb27d7dc082478377c3395ec0cb65712e46f77fa1aff3abe170c1c9b4a3::2ed2026b21d3783bd7d1b961597ea5c1212c42f7fd28d561dcdc5aecdfca8203 </p>
+  <p> 75fbeb0f9201a7b31144adc754e41c618539b4ea2a9868ea65b3df60c140ab20
+  bba2b97b2b740d174478a3443de4906aa7e1b83f8b6e4147c160838e4c2b581f
+  4a22fcb27d7dc082478377c3395ec0cb65712e46f77fa1aff3abe170c1c9b4a3
+  2ed2026b21d3783bd7d1b961597ea5c1212c42f7fd28d561dcdc5aecdfca8203 </p>
 </blockquote>
 
 {{< /timelineItem >}}
@@ -47,7 +50,8 @@ Berikut adalah kompilasi dari **_linux ricing_** yang pernah saya gunakan selama
 
 
 <blockquote>
-  <p> f9ce42a7c788b09e8d2553816b7846ace559f2c0176e9ae62453bd88a9238b7f::54aad69101cd1fd1f2818c46de0201cffaaa92211f205fd0fb20f8b93b1ecae0 </p>
+  <p> f9ce42a7c788b09e8d2553816b7846ace559f2c0176e9ae62453bd88a9238b7f
+  54aad69101cd1fd1f2818c46de0201cffaaa92211f205fd0fb20f8b93b1ecae0 </p>
 </blockquote>
 
 {{< /timelineItem >}}
@@ -70,7 +74,9 @@ Berikut adalah kompilasi dari **_linux ricing_** yang pernah saya gunakan selama
     </ul>
 
 <blockquote>
-  <p> 771c9854314a5072a7ab5017b0b7410651dbaa8130cb31b1bb2cea4d131a9ddf::fac2980332294624796054450880e92b5e32e38cf6253a3f79bb646854baf5ba::61c97cfdc8e44df3c97bb2988b4543f7e1f7a3ecf44156e9d8ee245c7967f1d1 </p>
+  <p> 771c9854314a5072a7ab5017b0b7410651dbaa8130cb31b1bb2cea4d131a9ddf
+  fac2980332294624796054450880e92b5e32e38cf6253a3f79bb646854baf5ba
+  61c97cfdc8e44df3c97bb2988b4543f7e1f7a3ecf44156e9d8ee245c7967f1d1 </p>
 </blockquote>
 
 {{< /timelineItem >}}
@@ -164,7 +170,8 @@ Berikut adalah kompilasi dari **_linux ricing_** yang pernah saya gunakan selama
 </ul>
 
 <blockquote>
-  <p>9360b625e9b5c1ef5c41654c6eaed5d67df113d6a8b6ed8cf14fefd7c5e5157d::74481a3ad733ca9141ee3c4d8c4a90c567fe1acc669faeab6f3ccb4ab9151dc2 </p>
+  <p>9360b625e9b5c1ef5c41654c6eaed5d67df113d6a8b6ed8cf14fefd7c5e5157d
+  74481a3ad733ca9141ee3c4d8c4a90c567fe1acc669faeab6f3ccb4ab9151dc2 </p>
 </blockquote>
 
 {{< /timelineItem >}}
@@ -200,7 +207,10 @@ Berikut adalah kompilasi dari **_linux ricing_** yang pernah saya gunakan selama
 </ul>
 
 <blockquote>
-  <p>4b11fd3328858e7fcfaf2259b9806e5d29695d624abe2b351b6379b7e9d57c2c::11d370fd6c62488bd66cc43a6b7ccdf81ba5493b0d494aea3289e209b6a24217::7f3834bc2b3efce1ac0b19da9620ddd32fbf2336b15f95ff65bb2f48ecfe4132</p>
+  <p>
+  4b11fd3328858e7fcfaf2259b9806e5d29695d624abe2b351b6379b7e9d57c2c
+  11d370fd6c62488bd66cc43a6b7ccdf81ba5493b0d494aea3289e209b6a24217
+  7f3834bc2b3efce1ac0b19da9620ddd32fbf2336b15f95ff65bb2f48ecfe4132</p>
 </blockquote>
 
 {{< /timelineItem >}}

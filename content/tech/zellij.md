@@ -1,6 +1,7 @@
 ---
 title: "Zellij: Another Terminal Multiplexer, Yet More Modern"
 date: 2026-06-22T06:46:06+07:00
+lastmod: 2026-06-30
 draft: false
 summary: "If tmux is the legendary terminal multiplexer, meaning it is the oldest and not really convenient for beginners, then, zellij is your other terminal multiplexer, yet offering modern UI and convenience."
 tags: ["zellij", "terminal", "multiplexer"]

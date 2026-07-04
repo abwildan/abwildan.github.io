@@ -1,6 +1,6 @@
 disabled = false
-languageCode = "en"
-languageName = "English"
+locale = "en"
+label = "English"
 weight = 1
 title = "My Awesome Site"
 
@@ -15,13 +15,13 @@ title = "My Awesome Site"
   # copyright = "Copy, _right?_ :thinking_face:"
 
 [params.author]
-  name = "Wildan"
-  email = "wildanpastioke@gmail.com"
-  image = "tsukasa.png"
-  imageQuality = 96
-  headline = "An Ordinary Human Being"
-  bio = "An Ordinary Human Being"
-  links = [
+   name = "Wildan"
+   email = "wildanpastioke@gmail.com"
+   image = "tsukasa.png"
+   imageQuality = 96
+   headline = "An Ordinary Human Being"
+   bio = "An Ordinary Human Being"
+   links = [
 #     { email = "mailto:hello@your_domain.com" },
 #     { link = "https://link-to-some-website.com/" },
 #     { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
@@ -30,25 +30,25 @@ title = "My Awesome Site"
 #     { bluesky = "https://bsky.app/profile/username" },
 #     { codepen = "https://codepen.io/username" },
 #     { dev = "https://dev.to/username" },
-    { discord = "https://discord.gg/invitecode" },
+     { discord = "https://discord.gg/invitecode" },
 #     { dribbble = "https://dribbble.com/username" },
-    { facebook = "https://facebook.com/username" },
+     { facebook = "https://facebook.com/username" },
 #     { flickr = "https://www.flickr.com/photos/username/" },
 #     { foursquare = "https://foursquare.com/username" },
-    { github = "https://github.com/username" },
+     { github = "https://github.com/username" },
 #     { gitlab = "https://gitlab.com/username" },
 #     { google = "https://www.google.com/" },
 #     { hashnode = "https://username.hashnode.dev" },
-    { instagram = "https://instagram.com/username" },
+     { instagram = "https://instagram.com/username" },
 #     { itch-io = "https://username.itch.io" },
 #     { keybase = "https://keybase.io/username" },
 #     { keyoxide = "https://keyoxide.org/URI" },
 #     { kickstarter = "https://www.kickstarter.com/profile/username" },
 #     { lastfm = "https://lastfm.com/user/username" },
-    { linkedin = "https://linkedin.com/in/username" },
+     { linkedin = "https://linkedin.com/in/username" },
 #     { mastodon = "https://mastodon.instance/@username" },
 #     { matrix = "https://matrix.to/#/URI" },
-    { medium = "https://medium.com/username" },
+     { medium = "https://medium.com/username" },
 #     { microsoft = "https://www.microsoft.com/" },
 #     { orcid = "https://orcid.org/userid" },
 #     { patreon = "https://www.patreon.com/username" },
@@ -62,17 +62,18 @@ title = "My Awesome Site"
 #     { spotify = "https://open.spotify.com/user/userid" },
 #     { stack-overflow = "https://stackoverflow.com/users/userid/username" },
 #     { steam = "https://steamcommunity.com/profiles/userid" },
-    { telegram = "https://t.me/username" },
+#     { strava = "https://www.strava.com/athletes/username" },
+     { telegram = "https://t.me/username" },
 #     { threads = "https://www.threads.net/@username" },
 #     { tiktok = "https://tiktok.com/@username" },
 #     { tumblr = "https://username.tumblr.com" },
 #     { twitch = "https://twitch.tv/username" },
+#     { untappd = "https://untappd.com/user/username" },
 #     { twitter = "https://twitter.com/username" },
-    { x-twitter = "https://x.com/username" },
-    { whatsapp = "https://wa.me/phone-number" },
+     { x-twitter = "https://x.com/username" },
+     { whatsapp = "https://wa.me/phone-number" },
 #     { youtube = "https://youtube.com/username" },
 #     { ko-fi = "https://ko-fi.com/username" },
 #     { codeberg = "https://codeberg.org/username"},
-  ]
-
-
+#     { printables = "https://www.printables.com/@username"},
+   ]

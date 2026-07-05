@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tmux on My Awesome Site</title>
+    <link>http://localhost:1313/categories/tmux/</link>
+    <description>Recent content in Tmux on My Awesome Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
+    <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
+    <copyright>© 2026 Wildan</copyright>
+    <lastBuildDate>Sun, 28 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/tmux/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Tmux: Terminal Multiplexer</title>
+      <link>http://localhost:1313/tech/tmux/</link>
+      <pubDate>Sun, 21 Jun 2026 09:01:00 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tech/tmux/</guid>
+      <description>Tmux is a legendary terminal multiplexer. By that, you can actually get your terminal more functional by splitting it vertically or horizontally almost instantly.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/tmux/featured.png" />
+    </item>
+    
+  </channel>
+</rss>

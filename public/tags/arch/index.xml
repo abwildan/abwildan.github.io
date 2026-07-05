@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Arch on My Awesome Site</title>
+    <link>http://localhost:1313/tags/arch/</link>
+    <description>Recent content in Arch on My Awesome Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
+    <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
+    <copyright>© 2026 Wildan</copyright>
+    <lastBuildDate>Thu, 02 May 2024 09:52:29 +0700</lastBuildDate><atom:link href="http://localhost:1313/tags/arch/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Archlinux KDE Installation via archinstall</title>
+      <link>http://localhost:1313/tech/archinstall/</link>
+      <pubDate>Thu, 02 May 2024 09:52:29 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tech/archinstall/</guid>
+      <description>Archinstall is a helper library which automates the installation of Arch Linux. It is packaged with different pre-configured installers, such as a &amp;lsquo;guided&amp;rsquo; installer.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/archinstall/featured.png" />
+    </item>
+    
+  </channel>
+</rss>

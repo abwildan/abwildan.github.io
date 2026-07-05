@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ffmpeg on My Awesome Site</title>
+    <link>http://localhost:1313/tags/ffmpeg/</link>
+    <description>Recent content in Ffmpeg on My Awesome Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
+    <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
+    <copyright>© 2026 Wildan</copyright>
+    <lastBuildDate>Tue, 30 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/ffmpeg/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Tools for Converting Picture Format</title>
+      <link>http://localhost:1313/tech/imgconvert/</link>
+      <pubDate>Mon, 29 Jun 2026 11:58:01 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tech/imgconvert/</guid>
+      <description>These are my curated tools (both CLI &amp;amp; GUI) for converting picture file to various formats.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/imgconvert/featured.png" />
+    </item>
+    
+    <item>
+      <title>Compressing and Speeding Up Video Using `ffmpeg`</title>
+      <link>http://localhost:1313/tech/ffmpeg-compress-speedup/</link>
+      <pubDate>Mon, 29 Jun 2026 10:14:53 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tech/ffmpeg-compress-speedup/</guid>
+      <description>My personal small note on how to resizing (compressing) and speeding up video file with only one small yet powerful open source tool: ffmpeg.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/ffmpeg-compress-speedup/featured.png" />
+    </item>
+    
+    <item>
+      <title>MPV: A Free, Open Source, and Cross-platform Media Player.</title>
+      <link>http://localhost:1313/tech/mpv/</link>
+      <pubDate>Sat, 12 Jul 2025 10:49:32 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tech/mpv/</guid>
+      <description>A tiny but powerful (and super useful of course) video (and music) player.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/mpv/featured.png" />
+    </item>
+    
+    <item>
+      <title>FFmpeg - Convert Any Video Format to MP4</title>
+      <link>http://localhost:1313/tech/convertvideoformat/</link>
+      <pubDate>Mon, 07 Oct 2024 22:00:53 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tech/convertvideoformat/</guid>
+      <description>If you have ffmpeg installed on your Linux machine, then it actually could help you to convert any video format to MP4!</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/convertvideoformat/featured.png" />
+    </item>
+    
+    <item>
+      <title>Mystiq - FFmpeg&#39;s GUI</title>
+      <link>http://localhost:1313/tech/mystiq/</link>
+      <pubDate>Tue, 26 Mar 2024 17:56:16 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tech/mystiq/</guid>
+      <description>Do you know FFmpeg? This is the GUI version of it. (If you don&amp;rsquo;t like FFmpeg CLI version, this is the your right choice!)</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/mystiq/featured.png" />
+    </item>
+    
+    <item>
+      <title>FFmpeg - Convert MP4 to GIF</title>
+      <link>http://localhost:1313/tech/ffmpeg-mp42gif/</link>
+      <pubDate>Wed, 11 Oct 2023 00:40:23 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tech/ffmpeg-mp42gif/</guid>
+      <description>My simple note in regards of converting video (MP4) to GIF.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/ffmpeg-mp42gif/featured.png" />
+    </item>
+    
+    <item>
+      <title>Screen Recorder with FFmpeg</title>
+      <link>http://localhost:1313/tech/ffmpeg-sr/</link>
+      <pubDate>Tue, 10 Oct 2023 09:13:32 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tech/ffmpeg-sr/</guid>
+      <description>My simple note in regards of screen recording using ffmpeg.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/ffmpeg-sr/featured.png" />
+    </item>
+    
+  </channel>
+</rss>

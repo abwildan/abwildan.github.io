@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on My Awesome Site</title>
+    <link>http://localhost:1313/tags/python/</link>
+    <description>Recent content in Python on My Awesome Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
+    <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
+    <copyright>© 2026 Wildan</copyright>
+    <lastBuildDate>Mon, 30 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>How to Install Python Packages with `pip` &amp; `pipx`</title>
+      <link>http://localhost:1313/tech/pip/</link>
+      <pubDate>Sun, 21 Dec 2025 06:38:10 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tech/pip/</guid>
+      <description>A step-by-step guidance on how to install python packages using pip &amp;amp; pipx.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/pip/featured.png" />
+    </item>
+    
+    <item>
+      <title>File/Web Server Options At a Glance</title>
+      <link>http://localhost:1313/tech/fileserver/</link>
+      <pubDate>Fri, 28 Nov 2025 08:18:57 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tech/fileserver/</guid>
+      <description>A curated file server list that will enhance your productivity, especially as a hobbyist.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/fileserver/featured.png" />
+    </item>
+    
+    <item>
+      <title>Automatic Image &amp; Video File(s) Hosting in Cloudinary through Python</title>
+      <link>http://localhost:1313/tech/cloudinary/</link>
+      <pubDate>Fri, 30 May 2025 18:47:46 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tech/cloudinary/</guid>
+      <description>A brief tutorial on how to upload file(s) or video(s) to Cloudinary through Python script.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/cloudinary/featured.png" />
+    </item>
+    
+  </channel>
+</rss>

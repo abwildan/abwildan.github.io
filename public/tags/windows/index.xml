@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Windows on My Awesome Site</title>
+    <link>http://localhost:1313/tags/windows/</link>
+    <description>Recent content in Windows on My Awesome Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
+    <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
+    <copyright>© 2026 Wildan</copyright>
+    <lastBuildDate>Sun, 21 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/windows/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>File Signature: How Computer Identifies File Types</title>
+      <link>http://localhost:1313/tech/filesig/</link>
+      <pubDate>Mon, 30 Mar 2026 17:48:54 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tech/filesig/</guid>
+      <description>File signature is one of the most common concepts when it comes to identifying types of files in your opeating system.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/filesig/featured.png" />
+    </item>
+    
+    <item>
+      <title>How to Install Python Packages with `pip` &amp; `pipx`</title>
+      <link>http://localhost:1313/tech/pip/</link>
+      <pubDate>Sun, 21 Dec 2025 06:38:10 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tech/pip/</guid>
+      <description>A step-by-step guidance on how to install python packages using pip &amp;amp; pipx.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/pip/featured.png" />
+    </item>
+    
+    <item>
+      <title>BeatPrints: Your Favorite Spotify Poster</title>
+      <link>http://localhost:1313/tech/beatprints/</link>
+      <pubDate>Sun, 04 May 2025 13:35:14 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tech/beatprints/</guid>
+      <description>A quick and stylish posters for your favorite tracks!🎷☕️</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/beatprints/featured.png" />
+    </item>
+    
+    <item>
+      <title>Fixing Windows Brightness Problem</title>
+      <link>http://localhost:1313/tech/inteldriverinstall/</link>
+      <pubDate>Wed, 23 Apr 2025 07:30:49 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tech/inteldriverinstall/</guid>
+      <description>Your windows brightness doesn&amp;rsquo;t work properly? May be it&amp;rsquo;s due to driver issue&amp;hellip;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/inteldriverinstall/featured.png" />
+    </item>
+    
+    <item>
+      <title>Windows License Activation with MAS</title>
+      <link>http://localhost:1313/tech/mas/</link>
+      <pubDate>Mon, 21 Apr 2025 07:02:40 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tech/mas/</guid>
+      <description>A simple way to activate your Windows license using Microsoft Activation Script (MAS).</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/mas/featured.png" />
+    </item>
+    
+    <item>
+      <title>Joining Windows and Linux Machine to a Domain (Windows Server 2022)</title>
+      <link>http://localhost:1313/tech/joinad/</link>
+      <pubDate>Wed, 12 Feb 2025 03:24:53 +0000</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tech/joinad/</guid>
+      <description>How to join a windows and linux machine to an active directory domain controller on Windows Server 2022</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/joinad/featured.png" />
+    </item>
+    
+    <item>
+      <title>My Remote Desktop Client(s)</title>
+      <link>http://localhost:1313/tech/rdpclient/</link>
+      <pubDate>Tue, 04 Jun 2024 22:05:26 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tech/rdpclient/</guid>
+      <description>RDP client sometimes play an important role, doesn&amp;rsquo;t it? Especially, when you are a sys-admin. So, you must find the most suitable one for getting your work done well.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/rdpclient/featured.png" />
+    </item>
+    
+  </channel>
+</rss>

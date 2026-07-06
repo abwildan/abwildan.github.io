@@ -1,8 +1,9 @@
 ---
 title: "How and Where to Download Windows ISO file?"
 date: 2026-07-05T14:19:09+07:00
+lastmod: 2026-07-06
 draft: false
-summary: "Have you been struggling to find and download an official Windows ISO file? Let me tell you the way I did that flawlessly."
+summary: "Have you ever been struggling to find and download an official Windows ISO file? Let me tell you the way I did that flawlessly."
 tags: ["iso", "windows", "hash", "cia", "md5", "SHA1", "sha256", "cryptography", "checksum"]
 categories: "iso"
 ---

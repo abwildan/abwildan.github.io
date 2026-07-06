@@ -1,7 +1,7 @@
 ---
 title: "Blowfish: Another Special, Modern, and Feature-Rich Hugo's Theme"
 date: 2025-06-07T18:09:46+07:00
-lastmod: 2026-07-03
+lastmod: 2026-07-06
 draft: false
 summary: "This is just a brief explanation on installing and configuring blowfish as Hugos theme."
 tags: ["hugo", "blowfish", "theme"]
@@ -123,6 +123,14 @@ themes/blowfish
 ```
 
 Pastikan juga di setiap sub-direktori, kita sudah meng-_copy-paste_ aset kita sendiri untuk dipindahkan ke direktori `assets` yang baru. Dan perhatikan juga jika kita menambahkan folder baru di direktori `assets` yang lama, maka direktori itu juga perlu diikutsertakan dalam migrasi ke direktori `assets` yang baru.
+
+{{< alert icon=none >}}
+
+**Notes:**
+
+Pastikan juga jika sudah meng-update versi hugo yang digunakan untuk men-deploy static site ini, kalian juga perlu meng-update versi-nya di `.github/workflow/hugo.yaml` agar Github Pages tetap bisa men-deploy-nya dengan normal.
+
+{{< /alert >}}
 
 ## Basic Configuration
 

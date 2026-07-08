@@ -1,7 +1,7 @@
 ---
 title: "ProtonVPN CLI: Simple, Free, Yet Reliable VPN"
 date: 2026-04-26T17:48:13+07:00
-lastmod: 2026-04-26
+lastmod: 2026-07-06
 draft: false
 summary: "The most convenient way to connect to a VPN service."
 tags: ["protonvpn", "vpn", "tunnel", "wireguard"]
@@ -61,7 +61,7 @@ Pada artikel ini, saya akan memberikan tutorial untuk menggunakan Proton VPN yan
 
 Selain itu, artikel ini juga mengasumsikan pembacanya sudah membuat akun di website proton. 
 
-Berikut adalah cara meng-_install_ `qbittorrent` di beberapa sistem operasi Linux:[^5]
+Berikut adalah cara meng-_install_ `proton-vpn-cli` di beberapa sistem operasi Linux:[^5]
 
 |       Distro      |                  Command                                  |
 |       ---         |                   ---                                     |

@@ -6,6 +6,8 @@ draft: false
 summary: "Have you ever been struggling to find and download an official Windows ISO file? Let me tell you the way I did that flawlessly."
 tags: ["iso", "windows", "hash", "cia", "md5", "SHA1", "sha256", "cryptography", "checksum"]
 categories: "iso"
+series: ["Windows Installation"]
+series_order: 1
 ---
 
 ## Sekapur Sirih

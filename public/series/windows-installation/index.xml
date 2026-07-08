@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Windows Installation on My Awesome Site</title>
+    <link>http://localhost:1313/series/windows-installation/</link>
+    <description>Recent content in Windows Installation on My Awesome Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
+    <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
+    <copyright>© 2026 Wildan</copyright>
+    <lastBuildDate>Mon, 06 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/series/windows-installation/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>How and Where to Download Windows ISO file?</title>
+      <link>http://localhost:1313/tech/windownload/</link>
+      <pubDate>Sun, 05 Jul 2026 14:19:09 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tech/windownload/</guid>
+      <description>Have you ever been struggling to find and download an official Windows ISO file? Let me tell you the way I did that flawlessly.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/windownload/featured.png" />
+    </item>
+    
+    <item>
+      <title>Windows License Activation with MAS</title>
+      <link>http://localhost:1313/tech/mas/</link>
+      <pubDate>Mon, 21 Apr 2025 07:02:40 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tech/mas/</guid>
+      <description>A simple way to activate your Windows license using Microsoft Activation Script (MAS).</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/mas/featured.png" />
+    </item>
+    
+  </channel>
+</rss>

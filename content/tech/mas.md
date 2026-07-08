@@ -5,6 +5,8 @@ draft: false
 summary: "A simple way to activate your Windows license using Microsoft Activation Script (MAS)."
 tags: ["mas", "windows", "script", "powershell", "seb"]
 categories: "mas"
+series: ["Windows Installation"]
+series_order: 2
 ---
 
 {{< collapse summary="**Selayang Pandang (re: Curhat)**" >}}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fastfetch on My Awesome Site</title>
+    <link>http://localhost:1313/categories/fastfetch/</link>
+    <description>Recent content in Fastfetch on My Awesome Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
+    <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
+    <copyright>© 2026 Wildan</copyright>
+    <lastBuildDate>Mon, 06 Jul 2026 12:00:52 +0700</lastBuildDate><atom:link href="http://localhost:1313/categories/fastfetch/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Fastfetch: Neofetch Reborn</title>
+      <link>http://localhost:1313/tech/fastfetch/</link>
+      <pubDate>Mon, 06 Jul 2026 12:00:52 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tech/fastfetch/</guid>
+      <description>If you are a legendary linux nerd, you might have known neofetch. But, since neofetch is no longer maintained, fastfetch emerges as its exact replacement, unless it has way more convenince and beautiness.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

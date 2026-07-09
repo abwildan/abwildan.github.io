@@ -83,8 +83,6 @@ Saya hanya akan membahas cara instalasi via AUR.
 
 ### via AUR 
 
-> **Notes:** Saya asumsikan kalian sudah memiliki salah satu package manager untuk AUR (`yay`/`paru`/etc)
-
 Cari VMWare di AUR dengan perintah:
 
 ```shell

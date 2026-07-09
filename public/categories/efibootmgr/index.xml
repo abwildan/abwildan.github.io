@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Efibootmgr on My Awesome Site</title>
+    <link>http://localhost:1313/categories/efibootmgr/</link>
+    <description>Recent content in Efibootmgr on My Awesome Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
+    <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
+    <copyright>© 2026 Wildan</copyright>
+    <lastBuildDate>Thu, 09 Jul 2026 20:13:43 +0700</lastBuildDate><atom:link href="http://localhost:1313/categories/efibootmgr/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Repairing Your Linux EFI Boot Entry with efibootmgr</title>
+      <link>http://localhost:1313/tech/efibootmgr/</link>
+      <pubDate>Thu, 09 Jul 2026 20:13:43 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tech/efibootmgr/</guid>
+      <description>Your linux boot entry is broken? Don&amp;rsquo;t get overly panicked and then recklessly reinstall your entire system as efibootmgr is completely capable of fixing it.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/efibootmgr/featured.png" />
+    </item>
+    
+  </channel>
+</rss>

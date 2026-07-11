@@ -4,13 +4,25 @@
 
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2026-07-09T14:33:29+07:00</lastmod>
+    <lastmod>2026-07-10T11:05:33+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tech/vista-vmware/</loc>
+    <lastmod>2026-07-10T11:05:33+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/tech/</loc>
-    <lastmod>2026-07-09T14:33:29+07:00</lastmod>
+    <lastmod>2026-07-10T11:05:33+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tech/efibootmgr/</loc>
+    <lastmod>2026-07-09T20:13:43+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

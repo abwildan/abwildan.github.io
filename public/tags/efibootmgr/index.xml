@@ -17,8 +17,8 @@
       <pubDate>Thu, 09 Jul 2026 20:13:43 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/efibootmgr/</guid>
-      <description>Your linux boot entry is broken? Don&amp;rsquo;t get panicked and recklessly reinstall your entire system as efibootmgr is completely capable of fixing it.</description>
-      
+      <description>Your linux boot entry is broken? Don&amp;rsquo;t get overly panicked and then recklessly reinstall your entire system as efibootmgr is completely capable of fixing it.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/efibootmgr/featured.png" />
     </item>
     
   </channel>

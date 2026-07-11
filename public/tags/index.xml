@@ -9,7 +9,127 @@
     <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
     <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
     <copyright>© 2026 Wildan</copyright>
-    <lastBuildDate>Thu, 09 Jul 2026 14:33:29 +0700</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 10 Jul 2026 11:05:33 +0700</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Aero</title>
+      <link>http://localhost:1313/tags/aero/</link>
+      <pubDate>Fri, 10 Jul 2026 11:05:33 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tags/aero/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Broadcom</title>
+      <link>http://localhost:1313/tags/broadcom/</link>
+      <pubDate>Fri, 10 Jul 2026 11:05:33 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tags/broadcom/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Frutiger</title>
+      <link>http://localhost:1313/tags/frutiger/</link>
+      <pubDate>Fri, 10 Jul 2026 11:05:33 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tags/frutiger/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Solarpunk</title>
+      <link>http://localhost:1313/tags/solarpunk/</link>
+      <pubDate>Fri, 10 Jul 2026 11:05:33 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tags/solarpunk/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Vista</title>
+      <link>http://localhost:1313/tags/vista/</link>
+      <pubDate>Fri, 10 Jul 2026 11:05:33 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tags/vista/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Vmware</title>
+      <link>http://localhost:1313/tags/vmware/</link>
+      <pubDate>Fri, 10 Jul 2026 11:05:33 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tags/vmware/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Windows</title>
+      <link>http://localhost:1313/tags/windows/</link>
+      <pubDate>Fri, 10 Jul 2026 11:05:33 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tags/windows/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Boot</title>
+      <link>http://localhost:1313/tags/boot/</link>
+      <pubDate>Thu, 09 Jul 2026 20:13:43 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tags/boot/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Efi</title>
+      <link>http://localhost:1313/tags/efi/</link>
+      <pubDate>Thu, 09 Jul 2026 20:13:43 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tags/efi/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Efibootmgr</title>
+      <link>http://localhost:1313/tags/efibootmgr/</link>
+      <pubDate>Thu, 09 Jul 2026 20:13:43 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tags/efibootmgr/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Grub</title>
+      <link>http://localhost:1313/tags/grub/</link>
+      <pubDate>Thu, 09 Jul 2026 20:13:43 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tags/grub/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>http://localhost:1313/tags/linux/</link>
+      <pubDate>Thu, 09 Jul 2026 20:13:43 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tags/linux/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>Archlinux</title>
@@ -22,31 +142,11 @@
     </item>
     
     <item>
-      <title>Broadcom</title>
-      <link>http://localhost:1313/tags/broadcom/</link>
-      <pubDate>Thu, 09 Jul 2026 14:33:29 +0700</pubDate>
-      <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/tags/broadcom/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
       <title>Hypervisor</title>
       <link>http://localhost:1313/tags/hypervisor/</link>
       <pubDate>Thu, 09 Jul 2026 14:33:29 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tags/hypervisor/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Linux</title>
-      <link>http://localhost:1313/tags/linux/</link>
-      <pubDate>Thu, 09 Jul 2026 14:33:29 +0700</pubDate>
-      <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/tags/linux/</guid>
       <description></description>
       
     </item>
@@ -67,16 +167,6 @@
       <pubDate>Thu, 09 Jul 2026 14:33:29 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tags/vm/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Vmware</title>
-      <link>http://localhost:1313/tags/vmware/</link>
-      <pubDate>Thu, 09 Jul 2026 14:33:29 +0700</pubDate>
-      <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/tags/vmware/</guid>
       <description></description>
       
     </item>
@@ -117,16 +207,6 @@
       <pubDate>Mon, 06 Jul 2026 12:00:52 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tags/neofetch/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Windows</title>
-      <link>http://localhost:1313/tags/windows/</link>
-      <pubDate>Mon, 06 Jul 2026 12:00:52 +0700</pubDate>
-      <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/tags/windows/</guid>
       <description></description>
       
     </item>
@@ -907,26 +987,6 @@
       <pubDate>Mon, 30 Mar 2026 17:48:54 +0700</pubDate>
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tags/metadata/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Boot</title>
-      <link>http://localhost:1313/tags/boot/</link>
-      <pubDate>Thu, 19 Mar 2026 17:20:34 +0700</pubDate>
-      <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/tags/boot/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Grub</title>
-      <link>http://localhost:1313/tags/grub/</link>
-      <pubDate>Thu, 19 Mar 2026 17:20:34 +0700</pubDate>
-      <author>wildanpastioke@gmail.com (Wildan)</author>
-      <guid>http://localhost:1313/tags/grub/</guid>
       <description></description>
       
     </item>

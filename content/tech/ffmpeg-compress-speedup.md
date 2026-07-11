@@ -1,6 +1,7 @@
 ---
 title: "Compressing and Speeding Up Video Using `ffmpeg`"
 date: 2026-06-29T10:14:53+07:00
+lastmod: 2026-07-11
 draft: false
 summary: "My personal small note on how to resizing (compressing) and speeding up video file with only one small yet powerful open source tool: ffmpeg."
 tags: ["ffmpeg", "mp4", "tutorial", "linux"]
@@ -241,10 +242,10 @@ Artikel ini ditulis di [Archlinux](https://archlinux.org/) + [Niri](https://niri
 (**Click to Zoom in**).
 
 {{< gallery >}}
-  <img src="/ffmpeg-compress-speedup/post1.png" class="grid-w50 md:grid-w33 xl:grid-w25" />
-  <img src="/ffmpeg-compress-speedup/post2.png" class="grid-w50 md:grid-w33 xl:grid-w25" />
-  <img src="/ffmpeg-compress-speedup/post3.png" class="grid-w50 md:grid-w33 xl:grid-w25" />
-  <img src="/ffmpeg-compress-speedup/post4.png" class="grid-w50 md:grid-w33 xl:grid-w25" />
+  <img src="/ffmpeg-compress-speedup/post1.png" class="grid-w50 md:grid-w33 xl:grid-w50" />
+  <img src="/ffmpeg-compress-speedup/post2.png" class="grid-w50 md:grid-w33 xl:grid-w50" />
+  <img src="/ffmpeg-compress-speedup/post3.png" class="grid-w50 md:grid-w33 xl:grid-w50" />
+  <img src="/ffmpeg-compress-speedup/post4.png" class="grid-w50 md:grid-w33 xl:grid-w50" />
 {{< /gallery >}}
 
 

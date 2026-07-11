@@ -9,7 +9,17 @@
     <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
     <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
     <copyright>© 2026 Wildan</copyright>
-    <lastBuildDate>Thu, 09 Jul 2026 20:13:43 +0700</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 11 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Awakening Windows Vista (&#43;Aero) on VMWare</title>
+      <link>http://localhost:1313/tech/vista-vmware/</link>
+      <pubDate>Fri, 10 Jul 2026 11:05:33 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tech/vista-vmware/</guid>
+      <description>You can actually run Windows Vista (with Aero enabled) as a virtual machine within VMWare Workstation.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/vista-vmware/featured.png" />
+    </item>
     
     <item>
       <title>Repairing Your Linux EFI Boot Entry with efibootmgr</title>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vista on My Awesome Site</title>
+    <link>http://localhost:1313/categories/vista/</link>
+    <description>Recent content in Vista on My Awesome Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
+    <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
+    <copyright>© 2026 Wildan</copyright>
+    <lastBuildDate>Fri, 10 Jul 2026 11:05:33 +0700</lastBuildDate><atom:link href="http://localhost:1313/categories/vista/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Awakening Windows Vista (&#43;Aero) on VMWare</title>
+      <link>http://localhost:1313/tech/vista-vmware/</link>
+      <pubDate>Fri, 10 Jul 2026 11:05:33 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tech/vista-vmware/</guid>
+      <description>You can actually run Windows Vista (with Aero enabled) as a virtual machine within VMWare Workstation.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

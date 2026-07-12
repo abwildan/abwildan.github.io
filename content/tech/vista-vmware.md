@@ -1,7 +1,7 @@
 ---
 title: "Awakening Windows Vista (+Aero) on VMWare"
 date: 2026-07-10T11:05:33+07:00
-lastmod: 2026-07-11
+lastmod: 2026-07-12
 draft: false
 summary: "You can actually run Windows Vista (with Aero enabled) as a virtual machine within VMWare Workstation."
 tags: ["vista", "windows", "frutiger", "aero", "vmware", "broadcom", "solarpunk"]
@@ -158,6 +158,10 @@ Sekarang, kita bisa aktifkan dengan langkah-langkah berikut:
 Selesai.  
 Kita baru saja berhasil meng-_install_ Windows Vista dengan tema Aero di VMWare!
 
+Oiya, sebelum saya lupa, saya merasa perlu berterima kasih kepada video Youtube berikut yang sudah memberitahu cara mendapatkan Aero di Windows Vista:
+
+{{< youtubeLite id="eHu8MKYVavc" label="Enabling Aero on Windows Vista VMWare VM" >}}
+
 ## Dessert 
 
 Berikut adalah penampakan Windows Vista + Aero _color scheme_ saya!  
@@ -166,9 +170,9 @@ Saya beri judul showcase ini: **Frutiger Aero - Solarpunk**!
 [click to enlage!]  
 
 {{< gallery >}}
-  <img src="/vista-vmware/vista-2026-07-07-22-02-14.png" class="grid-w50 md:grid-w33 xl:grid-w50" />
-  <img src="/vista-vmware/vista-2026-07-07-22-20-44.png" class="grid-w50 md:grid-w33 xl:grid-w50" />
-  <img src="/vista-vmware/vista-2026-07-07-22-25-00.png" class="grid-w50 md:grid-w33 xl:grid-w50" />
-  <img src="/vista-vmware/vista-2026-07-07-22-27-27.png" class="grid-w50 md:grid-w33 xl:grid-w50" />
+  <img src="/vista-vmware/vista-2026-07-07-22-02-14.png" class="grid-w50 md:grid-w50 xl:grid-w50" />
+  <img src="/vista-vmware/vista-2026-07-07-22-20-44.png" class="grid-w50 md:grid-w50 xl:grid-w50" />
+  <img src="/vista-vmware/vista-2026-07-07-22-25-00.png" class="grid-w50 md:grid-w50 xl:grid-w50" />
+  <img src="/vista-vmware/vista-2026-07-07-22-27-27.png" class="grid-w50 md:grid-w50 xl:grid-w50" />
 {{< /gallery >}}
 

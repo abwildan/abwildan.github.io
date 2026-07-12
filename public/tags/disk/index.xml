@@ -9,7 +9,17 @@
     <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
     <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
     <copyright>© 2026 Wildan</copyright>
-    <lastBuildDate>Tue, 26 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/disk/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 11 Jul 2026 17:20:12 +0700</lastBuildDate><atom:link href="http://localhost:1313/tags/disk/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>LVM: A Realistic Way to Manage Your Dynamic Storage</title>
+      <link>http://localhost:1313/tech/lvm/</link>
+      <pubDate>Sat, 11 Jul 2026 17:20:12 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tech/lvm/</guid>
+      <description>Have you ever tought of extending or reducing your active linux partition size? If yes, LVM might be your best friend to accomplish that purpose as it offers convenient yet safe way to resize your linux partition size.</description>
+      
+    </item>
     
     <item>
       <title>Enrypting Disk in Linux using LUKS</title>

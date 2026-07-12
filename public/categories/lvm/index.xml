@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lvm on My Awesome Site</title>
+    <link>http://localhost:1313/categories/lvm/</link>
+    <description>Recent content in Lvm on My Awesome Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>wildanpastioke@gmail.com (Wildan)</managingEditor>
+    <webMaster>wildanpastioke@gmail.com (Wildan)</webMaster>
+    <copyright>© 2026 Wildan</copyright>
+    <lastBuildDate>Sat, 11 Jul 2026 17:20:12 +0700</lastBuildDate><atom:link href="http://localhost:1313/categories/lvm/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>LVM: A Realistic Way to Manage Your Dynamic Storage</title>
+      <link>http://localhost:1313/tech/lvm/</link>
+      <pubDate>Sat, 11 Jul 2026 17:20:12 +0700</pubDate>
+      <author>wildanpastioke@gmail.com (Wildan)</author>
+      <guid>http://localhost:1313/tech/lvm/</guid>
+      <description>Have you ever tought of extending or reducing your active linux partition size? If yes, LVM might be your best friend to accomplish that purpose as it offers convenient yet safe way to resize your linux partition size.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

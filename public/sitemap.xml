@@ -4,19 +4,25 @@
 
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2026-07-10T11:05:33+07:00</lastmod>
+    <lastmod>2026-07-12T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tech/vista-vmware/</loc>
-    <lastmod>2026-07-10T11:05:33+07:00</lastmod>
+    <loc>http://localhost:1313/tech/lvm/</loc>
+    <lastmod>2026-07-11T17:20:12+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/tech/</loc>
-    <lastmod>2026-07-10T11:05:33+07:00</lastmod>
+    <lastmod>2026-07-12T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tech/vista-vmware/</loc>
+    <lastmod>2026-07-12T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -52,7 +58,7 @@
   </url>
   <url>
     <loc>http://localhost:1313/tech/ffmpeg-compress-speedup/</loc>
-    <lastmod>2026-06-29T10:14:53+07:00</lastmod>
+    <lastmod>2026-07-12T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

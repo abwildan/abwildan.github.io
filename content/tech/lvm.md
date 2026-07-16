@@ -267,6 +267,12 @@ Memperbesar ukuran LV menggunakan persentase _free space_:
 sudo lvextend -r -l +100%FREE /dev/vg_data/lv_home
 ```
 
+{{< alert icon=none >}}
+
+Perhatikan bahwa saya melampirkan tag `-r` yang berarti mengikutsertakan langsung perubahan file system juga ketika memperbesar LV. Tag `-r` atau `--resizefs` tersebut biasanya hanya untuk file system ext4. Jika file system yang kita buat berbeda (misalnya NTFS), maka tidak bisa menggunakan tag tersebut dan harus me-_resize_ file system secara manual dengan perintah khusus.
+
+{{< /alert >}}
+
 ##### 4. Reducing LV size
 
 Untuk memperkecil/mengurangi ukuran LV:
@@ -275,6 +281,12 @@ Untuk memperkecil/mengurangi ukuran LV:
 # mengurangi 100 GB
 sudo lvreduce -r -L 100G /dev/vg_data/lv_home
 ```
+
+{{< alert icon=none >}}
+
+Perhatikan bahwa saya melampirkan tag `-r` yang berarti mengikutsertakan langsung perubahan file system juga ketika memperbesar LV. Tag `-r` atau `--resizefs` tersebut biasanya hanya untuk file system ext4. Jika file system yang kita buat berbeda (misalnya NTFS), maka tidak bisa menggunakan tag tersebut dan harus me-_resize_ file system secara manual dengan perintah khusus.
+
+{{< /alert >}}
 
 ##### 5. Removing LV
 
@@ -323,6 +335,12 @@ Sebelum bisa digunakan, LV yang baru saja dibuat perlu dibuatkan file system ter
 
 ```shell
 sudo mkfs.ext4 /dev/vg_data/lv_secret
+```
+
+Untuk memastikan LV tersebut sudah memiliki file system yang benar:
+
+```shell
+sudo e2fsck /dev/vg_data/lv_secret
 ```
 
 #### Mounting

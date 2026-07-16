@@ -298,7 +298,7 @@
     "keywords": ["lvm","partition","disk","drive","linux"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "1537"
+    "wordCount": "1656"
   },
   {
     "@context": "https://schema.org",
@@ -1061,7 +1061,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2026-07-11T17:20:12&#43;07:00">11 July 2026</time><span class="px-2 text-primary-500">&middot;</span><span>1537 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">8 mins</span><span class="px-2 text-primary-500">&middot;</span>
+      <time datetime="2026-07-11T17:20:12&#43;07:00">11 July 2026</time><span class="px-2 text-primary-500">&middot;</span><span>1656 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">8 mins</span><span class="px-2 text-primary-500">&middot;</span>
 
 
   
@@ -2123,6 +2123,34 @@ Masukkan baris berikut di file konfigurasi (<code>/etc/nixos/configuration.nix</
 <p>Memperbesar ukuran LV menggunakan persentase <em>free space</em>:</p>
 <div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">sudo lvextend -r -l +100%FREE /dev/vg_data/lv_home</span></span></code></pre></div></div>
 
+  
+  
+  
+  
+
+
+
+<div
+  
+    class="flex px-4 py-3 rounded-md shadow bg-primary-100 dark:bg-primary-900"
+  
+  >
+  <span
+    
+      class="text-primary-400 pe-3 flex items-center"
+    
+    >
+    
+  </span>
+
+  <span
+    
+      class="dark:text-neutral-300"
+    
+    >Perhatikan bahwa saya melampirkan tag <code>-r</code> yang berarti mengikutsertakan langsung perubahan file system juga ketika memperbesar LV. Tag <code>-r</code> atau <code>--resizefs</code> tersebut biasanya hanya untuk file system ext4. Jika file system yang kita buat berbeda (misalnya NTFS), maka tidak bisa menggunakan tag tersebut dan harus me-<em>resize</em> file system secara manual dengan perintah khusus.</span>
+</div>
+
+
 <h5 class="relative group">4. Reducing LV size
     <div id="4-reducing-lv-size" class="anchor"></div>
     
@@ -2135,6 +2163,34 @@ Masukkan baris berikut di file konfigurasi (<code>/etc/nixos/configuration.nix</
 <p>Untuk memperkecil/mengurangi ukuran LV:</p>
 <div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="c1"># mengurangi 100 GB</span>
 </span></span><span class="line"><span class="cl">sudo lvreduce -r -L 100G /dev/vg_data/lv_home</span></span></code></pre></div></div>
+
+  
+  
+  
+  
+
+
+
+<div
+  
+    class="flex px-4 py-3 rounded-md shadow bg-primary-100 dark:bg-primary-900"
+  
+  >
+  <span
+    
+      class="text-primary-400 pe-3 flex items-center"
+    
+    >
+    
+  </span>
+
+  <span
+    
+      class="dark:text-neutral-300"
+    
+    >Perhatikan bahwa saya melampirkan tag <code>-r</code> yang berarti mengikutsertakan langsung perubahan file system juga ketika memperbesar LV. Tag <code>-r</code> atau <code>--resizefs</code> tersebut biasanya hanya untuk file system ext4. Jika file system yang kita buat berbeda (misalnya NTFS), maka tidak bisa menggunakan tag tersebut dan harus me-<em>resize</em> file system secara manual dengan perintah khusus.</span>
+</div>
+
 
 <h5 class="relative group">5. Removing LV
     <div id="5-removing-lv" class="anchor"></div>
@@ -2189,6 +2245,8 @@ Masukkan baris berikut di file konfigurasi (<code>/etc/nixos/configuration.nix</
 </span></span><span class="line"><span class="cl">  Block device           252:0</span></span></code></pre></div></div>
 <p>Sebelum bisa digunakan, LV yang baru saja dibuat perlu dibuatkan file system terlebih dahulu. Misalnya, saya akan membuatkan file system <code>ext4</code> untuk LV yang baru saya buat:</p>
 <div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">sudo mkfs.ext4 /dev/vg_data/lv_secret</span></span></code></pre></div></div>
+<p>Untuk memastikan LV tersebut sudah memiliki file system yang benar:</p>
+<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">sudo e2fsck /dev/vg_data/lv_secret</span></span></code></pre></div></div>
 
 <h4 class="relative group">Mounting
     <div id="mounting" class="anchor"></div>
@@ -3439,9 +3497,13 @@ Sampai jumpa lagi di artikel saya yang lain!</p>
       reaction: true,
       
       lang: 'en-US',
+      dark: 'html.dark',
     });
   </script>
+
+
 </body>
+
             </div>
           </div>
         

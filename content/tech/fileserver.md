@@ -1,7 +1,7 @@
 ---
 title: "File/Web Server Options At a Glance"
 date: 2025-11-28T08:18:57+07:00
-lastmod: 2026-03-30
+lastmod: 2026-07-16
 draft: false
 summary: "A curated file server list that will enhance your productivity, especially as a hobbyist."
 tags: ["server", "web", "file", "linux", "python"]
@@ -125,86 +125,80 @@ Mirip seperti apache2, [**nginx**](https://nginx.org/) (cara bacanya: "**engine 
 
 #### Installation
 
-Berikut adalah cara meng-_install_ `nginx` di beberapa sistem operasi Linux:
-
-|       Distro      |                  Command                           |
-|       ---         |                   ---                              |
-| **Debian/Ubuntu** | **`sudo apt install nginx`**                       |
-| **Arch Linux**    | **`sudo pacman -Sy nginx`**                        |
-| **Fedora**        | **`sudo dnf install nginx`**                       |
-| **Opensuse**      | **`sudo zypper install nginx`**                    |
-
-{{< alert icon=none >}}
-
-**NixOS:**  
-Masukkan baris berikut di file konfigurasi (`/etc/nixos/configuration.nix`):
-
-```nix
-  environment.systemPackages = [
-    pkgs.nginx
-  ];
-```
-
-Atau jika menggunakan `nix-shell`:
+Sebagai variasi cara instalasi, saya akan install `nginx` dari docker. Berikut adalah cara untuk men-_download_ file image `nginx` dari docker: 
 
 ```shell
-nix-shell -p nginx
+sudo docker pull nginx
 ```
 
-{{< /alert >}}
+Untuk memastikan docker `nginx` sudah berhasil di-_download_, kita bisa test dengan perintah berikut:
 
+```shell
+docker run -d --name nginx-web -p 8080:80 nginx
+```
+
+Kemudian buka di web browser `http://localhost:8080`. Pastikan muncul "**_welcome message_**" seperti ini:
+
+![ss9](/fileserver/ss9.png "`nginx`")
+
+> **Notes:** Lebih detail tentang docker:  
+> {{< article link="/tech/docker/" showSummary=true compactSummary=true >}}
 
 #### How to use
 
-Mirip pula seperti apache2, kita hanya perlu menghidupkan layanan nginx dengan perintah:
+Sebelum menjalankan nginx, kita perlu membuat 2 hal:[^5]
+1. Direktori/folder untuk dijadikan sebagai file server (yang menyimpan kumpulan file atau direktori-direktori yang ingin kita bagikan).
+2. Direktori untuk menyimpan file konfigurasi `nginx`-nya.
+
+Oke, mula-mula, kita buat dulu direktori file servernya:
 
 ```shell
-sudo systemctl start nginx
+mkdir -p ~/nginx-fileserver
 ```
 
-Untuk menghentikan layanannya, gunakan perintah:
+Setelah direktori file servernya berhasil dibuat, kita bisa memindahkan/membuat file-file dan direktori/subdirektori yang akan kita bagikan dari sana.
+
+Kemudian, kita buatkan juga direktori untuk menyimpan file konfigurasi sekaligus file konfigurasi `nginx` itu sendiri:
 
 ```shell
-sudo systemctl stop nginx
-```
+# membuat direktori untuk menyimpan file konfigurasi nginx
+mkdir -p ~/nginx-fileserver-conf
 
-Untuk melihat status _service_ nginx, apakah sedang berjalan atau tidak:
-
-```shell
-sudo systemctl status nginx
-```
-
-> **Notes:**  
-> Perlu diperhatikan! nginx juga menggunakan port yang sama dengan apache2. Artinya, jika service apache2 kalian sedang berjalan, maka nginx tidak bisa berjalan juga secara default, karena port-nya (port 80) sedang digunakan. Jadi, kalian harus mematikan layanan apache2 terlebih dahulu sebelum dapat menghidupkan nginx.
-
-Berikut adalah tampilan halaman web server nginx:
-
-![ss5](/fileserver/ss5.png "nginx default home page")
-
-Dari gambar di atas, kita juga tahu, ketika nginx dijalankan, dia akan "meng-_generate_" sebuah file untuk menampilkan halaman website tersebut (`index.html`).
-
-Nah, agar nginx juga dapat difungsikan sebagai file server, "trik"-nya agak sedikit berbeda dengan apache2. Kita perlu melakukan 2 hal utama:  
-1. Menghapus / mengganti nama file `index.html/html`.  
-2. Menambahkan mode `autoindex` ke file configurasinya.
-
-Pertama, kita perlu menghapus (atau saran saya mengganti namanya saja) file `index.html/html` agar halaman default html tersebut tidak ditampilkan ketika user sedang mengakses alamat web server. Lokasi file-nya ada di direktori `/usr/share/nginx`.
-
-Kedua, setelah megganti nama file tersebut, kita juga perlu menambahkan mode `autoindex` ke file konfigurasi yang terletak di `/etc/nginx/nginx.conf`. Tambahkan baris kode `autoindex on;` di root location, sehingga nanti kira-kira akan tampak seperti berikut:
-
-```shell
+# membuat file konfigurasi nginx
+cat > ~/nginx-fileserver-conf/default.conf << 'EOF'
 server {
     listen 80;
-    server_name _;
+    server_name localhost;
 
     location / {
         root /usr/share/nginx/html;
-        index index.html  index.htm;
-        autoindex on;           # ⚠️ Ini yang membuat directory listing muncul
+        autoindex on;
+        autoindex_exact_size off;
+        autoindex_localtime on;
     }
 }
-
+EOF
 ```
 
+Penjelasan opsi autoindex:
+
+- `autoindex on` → aktifin directory listing  
+- `autoindex_exact_size off` → ukuran file ditampilin dalam KB/MB (lebih gampang dibaca), bukan bytes persis  
+- `autoindex_localtime on` → timestamp file pakai waktu lokal server, bukan GMT  
+
+Dan kita bisa jalankan `nginx`-nya dengan perintah:
+
+```shell
+docker run -d --name nginx-fileserver \
+  -p 8080:80 \
+  -v ~/nginx-fileserver:/usr/share/nginx/html \
+  -v ~/nginx-fileserver-conf/default.conf:/etc/nginx/conf.d/default.conf \
+  nginx
+```
+
+Sekarang, nginx akan menampilkan daftar file dan subdirektori yang ada di dalam folder `~/nginx-fileserver` yang sudah kita buat sebelumnya:
+
+![ss10](/fileserver/ss10.png "`nginx` as file server")
 
 ### 3. Python Simple HTTP
 
@@ -403,3 +397,4 @@ Artikel ini ditulis di Ubuntu 25.10.
 [^2]: https://www.zenarmor.com/docs/network-basics/what-is-file-server
 [^3]: https://en.wikipedia.org/wiki/Python_(programming_language)
 [^4]: https://www.rumahweb.com/journal/python-adalah/
+[^5]: https://www.yanxurui.cc/posts/server/2017-03-21-NGINX-as-a-file-server/

@@ -18,7 +18,7 @@
       <author>wildanpastioke@gmail.com (Wildan)</author>
       <guid>http://localhost:1313/tech/lvm/</guid>
       <description>Have you ever tought of extending or reducing your active linux partition size? If yes, LVM might be your best friend to accomplish that purpose as it offers convenient yet safe way to resize your linux partition size.</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tech/lvm/featured.png" />
     </item>
     
   </channel>

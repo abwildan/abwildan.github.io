@@ -18,6 +18,10 @@ html.dark {
   color-scheme: dark;
 }
 
+html.dark #waline {
+  color: red;
+}
+
 body a,
 body button {
   @apply transition-colors;
